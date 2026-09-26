@@ -1,7 +1,7 @@
 # Corpus locations — Islamic Library
 
 **Repo (public):** https://github.com/z98s2hdjfv-maker/islamic-library
-**Master copy:** library snapshot zips on Housam's iPad (Mathnawī v1–v6, library v7–v10); off-site copy planned as release `snapshots-2026-09`.
+**Master copy:** library snapshot zips on Housam's iPad (Mathnawī v1–v6, library v7–v10); off-site copy in release `snapshots-2026-09`.
 
 ## How a chat should fetch
 - Single file (no auth): `curl -sLO https://raw.githubusercontent.com/z98s2hdjfv-maker/islamic-library/main/<path>`
@@ -15,6 +15,7 @@
 | Path | Contents |
 |---|---|
 | corpus/ibnarabi/, corpus/jilani/, corpus/ghazali/ | Arabic works as JSONL (32 works). Folders group texts by *figure*, not strict authorship: commentaries (Jāmī, Pārsā) and misattributed works (al-Qāshānī's tafsir) sit with the figure they concern. **Check catalogs/works_index.tsv (attribution, category, source_type) before quoting anything.** |
+| corpus/openiti/<author>/ | OpenITI texts (v8): al-Ghazālī 52, al-Jīlānī 7, Ibn ʿArabī 9 versions, as JSONL; raw OpenITI files in sources/openiti/. Attribution and primary version per work in catalogs/openiti_catalog.json |
 | corpus/mathnawi/book1–6.tsv | Mathnawi, one couplet per row, Nicholson-numbered IDs (Ganjoor pin a64968e7) |
 | apparatus/mathnawi/ | collation pilot; konya/ Konya-vs-Ganjoor variants |
 | annotations/mathnawi/ | story frames (lion_hare, merchant_parrot, umar_envoy), hadith check |
