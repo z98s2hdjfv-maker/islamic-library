@@ -1,0 +1,26 @@
+[
+ {
+  "key": "ghazali.ihya_with_iraqi",
+  "item": "Bok00118",
+  "archive_file": "Bok00118__إحياء علوم الدين ومعه تخريج الحافظ العراقي  كتاب صيغة بوك    bok          00118.zip",
+  "archive_file_orig": "إحياء علوم الدين ومعه تخريج الحافظ العراقي  كتاب صيغة بوك    bok          00118.zip",
+  "archive_md5": "8d8bfa4159be877729377796929061a0",
+  "work": "Ihya' 'ulum al-din, with al-'Iraqi's takhrij (al-Mughni 'an haml al-asfar)",
+  "author": "ghazali",
+  "attribution": "secure",
+  "category": "primary",
+  "note": "Dar al-Ma'rifa text; al-'Iraqi's hadith grading alongside"
+ },
+ {
+  "key": "ibnarabi.parsa_sharh_fusus",
+  "item": "fusus_al-hikam",
+  "archive_file": "fusus_al-hikam__شرح فصوص الحكم.rar",
+  "archive_file_orig": "شرح فصوص الحكم.rar",
+  "archive_md5": "5b4c6d4c07c2d4901ede3dab9670781b",
+  "work": "Khwaja Muhammad Parsa, Sharh Fusus al-hikam (ed. Jalil Misgarnizhad, Tehran 1987)",
+  "author": "parsa",
+  "attribution": "secure",
+  "category": "commentary",
+  "note": "Persian commentary quoting the Arabic Fusus"
+ }
+]

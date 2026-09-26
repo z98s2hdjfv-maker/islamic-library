@@ -1,0 +1,33 @@
+key	author	work	attribution	category	source_type	note	corpus_path	records
+ghazali.arbain	ghazali	Kitab al-Arba'in fi usul al-din	secure	primary	shamela		corpus/ghazali/arbain.jsonl	189
+ghazali.ihya_with_iraqi	ghazali	Ihya' 'ulum al-din, with al-'Iraqi's takhrij (al-Mughni 'an haml al-asfar)	secure	primary	shamela	Dar al-Ma'rifa text; al-'Iraqi's hadith grading alongside	corpus/ghazali/ihya_with_iraqi.jsonl	3326
+ghazali.mukashafa	ghazali	Mukashafat al-qulub	spurious_attested	primary	shamela	generally held not to be al-Ghazali's	corpus/ghazali/mukashafa.jsonl	488
+ibnarabi.anqa_mughrib	ibnarabi	'Anqa' mughrib, ed. Bahnasawi Ahmad al-Sayyid al-Sharif	secure	primary	typed		corpus/ibnarabi/anqa_mughrib.jsonl	903
+ibnarabi.fusus.nizamaldin_ocr	ibnarabi	Fusus al-hikam, ed. Sayyid Nizam al-Din Ahmad (Cairo 2015, critical)	secure	primary	ocr_uncorrected	archive.org OCR of the publisher PDF; uncorrected; PDF on archive.org item Futuhat-Fusus-Critical-editions	corpus/ibnarabi/fusus.nizamaldin_ocr.jsonl	520
+ibnarabi.futuhat.arabiyya	ibnarabi	al-Futuhat al-Makkiyya (Dar al-Kutub al-'Arabiyya al-Kubra)	secure	primary	shamela	Cairo print, not the Konya-autograph Yemeni edition	corpus/ibnarabi/futuhat.arabiyya.jsonl	2585
+ibnarabi.futuhat.mansub_ocr	ibnarabi	al-Futuhat al-Makkiyya, ed. Sultan al-Mansub (Yemen 2010, Konya autograph)	secure	primary	ocr_uncorrected	archive.org OCR of the publisher PDF; uncorrected; full PDF (234 MB) on archive.org item Futuhat-Fusus-Critical-editions	corpus/ibnarabi/futuhat.mansub_ocr.jsonl	8242
+ibnarabi.inshadawair_uqla_tadbirat	ibnarabi	Insha' al-dawa'ir; 'Uqlat al-mustawfiz; al-Tadbirat al-ilahiyya	secure	primary	typed	typed upload (almussafer); edition not stated in file	corpus/ibnarabi/inshadawair_uqla_tadbirat.jsonl	2153
+ibnarabi.jami_naqd_nusus	ibnarabi	Jami, Naqd al-nusus fi sharh Naqsh al-fusus	secure	commentary	shamela		corpus/ibnarabi/jami_naqd_nusus.jsonl	651
+ibnarabi.jami_sharh_fusus	ibnarabi	Jami, Sharh Fusus al-hikam (contains the Fusus text)	secure	commentary	shamela	Fusus matn embedded in commentary	corpus/ibnarabi/jami_sharh_fusus.jsonl	534
+ibnarabi.khalwa	ibnarabi	Kitab al-Khalwa, ed. Khalid M. 'Abduh	secure	primary	shamela		corpus/ibnarabi/khalwa.jsonl	44
+ibnarabi.manzil_fahwaniyya	ibnarabi	Manzil al-manazil al-fahwaniyya	secure	primary	typed		corpus/ibnarabi/manzil_fahwaniyya.jsonl	824
+ibnarabi.mubashshirat	ibnarabi	Kitab al-Mubashshirat, ed. Khalid M. 'Abduh	secure	primary	shamela		corpus/ibnarabi/mubashshirat.jsonl	43
+ibnarabi.muhadarat_abrar	ibnarabi	Muhadarat al-abrar wa-musamarat al-akhyar (2 vols)	doubtful	primary	typed	attribution questioned by some scholars	corpus/ibnarabi/muhadarat_abrar.jsonl	10486
+ibnarabi.parsa_sharh_fusus	ibnarabi	Khwaja Muhammad Parsa, Sharh Fusus al-hikam (ed. Jalil Misgarnizhad, Tehran 1987)	secure	commentary	shamela	Persian commentary quoting the Arabic Fusus	corpus/ibnarabi/parsa_sharh_fusus.jsonl	589
+ibnarabi.rahma	ibnarabi	Rahma min al-Rahman (modern compilation of Ibn 'Arabi's Qur'an passages, Mahmud Ghurab)	secure	compilation	shamela	modern compilation from his works	corpus/ibnarabi/rahma.jsonl	2422
+ibnarabi.rasail.abbas	ibnarabi	Rasa'il Ibn 'Arabi: Sharh mubtada' al-tufan etc., ed. Qasim M. 'Abbas and Husayn M. 'Ajil	mixed	primary	shamela	collection	corpus/ibnarabi/rasail.abbas.jsonl	345
+ibnarabi.rasail.ihya	ibnarabi	Rasa'il Ibn al-'Arabi (Dar Ihya' al-Turath)	mixed	primary	shamela	reprint of the Hyderabad collection	corpus/ibnarabi/rasail.ihya.jsonl	726
+ibnarabi.rasail.mahajja	ibnarabi	Majmu'at rasa'il Ibn 'Arabi (Dar al-Mahajja al-Bayda')	mixed	primary	shamela	collection; some items of doubtful attribution	corpus/ibnarabi/rasail.mahajja.jsonl	1635
+ibnarabi.rasail.uthmaniyya	ibnarabi	Rasa'il Ibn al-'Arabi (Hyderabad, Da'irat al-Ma'arif al-'Uthmaniyya)	mixed	primary	shamela	classic 1948 collection; some items doubtful	corpus/ibnarabi/rasail.uthmaniyya.jsonl	725
+ibnarabi.tafsir_qashani	ibnarabi	'Tafsir Ibn 'Arabi' (= al-Qashani, Ta'wilat)	spurious_attested	primary	shamela	by 'Abd al-Razzaq al-Qashani	corpus/ibnarabi/tafsir_qashani.jsonl	893
+ibnarabi.taj_tarajim	ibnarabi	Taj al-tarajim	secure	primary	typed		corpus/ibnarabi/taj_tarajim.jsonl	654
+ibnarabi.tajalliyat_ibnsawdakin	ibnarabi	Kitab al-Tajalliyat al-ilahiyya, with Ibn Sawdakin's notes	secure	primary_with_commentary	typed	Ibn Sawdakin's ta'liqat interleaved	corpus/ibnarabi/tajalliyat_ibnsawdakin.jsonl	5194
+ibnarabi.tanazzulat_mawsiliyya	ibnarabi	al-Tanazzulat al-Mawsiliyya	secure	primary	typed		corpus/ibnarabi/tanazzulat_mawsiliyya.jsonl	2598
+jilani.diwan	jilani	Diwan Ghawth al-A'zam	doubtful	primary	shamela	Diwan attributed to al-Jilani	corpus/jilani/diwan.jsonl	51
+jilani.fathrabbani	jilani	al-Fath al-rabbani wa-l-fayd al-rahmani	secure	primary	shamela	ed. al-Sayih and Wahba, Cairo; Shamela page numbers follow the print	corpus/jilani/fathrabbani.jsonl	377
+jilani.futuhghayb.azqul	jilani	Futuh al-ghayb, ed. 'Azqul	secure	primary	shamela		corpus/jilani/futuhghayb.azqul.jsonl	189
+jilani.futuhghayb.darwish	jilani	Futuh al-ghayb (= Adab al-suluk), ed. al-Darwish	secure	primary	shamela		corpus/jilani/futuhghayb.darwish.jsonl	295
+jilani.futuhghayb.ilmiyya	jilani	Futuh al-ghayb, Dar al-Kutub al-'Ilmiyya	secure	primary	shamela		corpus/jilani/futuhghayb.ilmiyya.jsonl	124
+jilani.qalaid	jilani	Qala'id al-jawahir (al-Tadifi, hagiography of al-Jilani)	secure	about	shamela	not by al-Jilani	corpus/jilani/qalaid.jsonl	222
+jilani.sayf	jilani	al-Sayf al-rabbani (defence of al-Jilani, later author)	secure	about	shamela	not by al-Jilani	corpus/jilani/sayf.jsonl	108
+jilani.sirrasrar	jilani	Sirr al-asrar	doubtful	primary	shamela	attribution debated	corpus/jilani/sirrasrar.jsonl	61

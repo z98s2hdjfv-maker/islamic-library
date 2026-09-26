@@ -1,0 +1,43 @@
+{
+ "source": "archive.org uploads of al-Maktaba al-Shamila .bok files",
+ "works": {
+  "ghazali.ihya_with_iraqi": {
+   "work": "Ihya' 'ulum al-din, with al-'Iraqi's takhrij (al-Mughni 'an haml al-asfar)",
+   "author": "ghazali",
+   "attribution": "secure",
+   "category": "primary",
+   "note": "Dar al-Ma'rifa text; al-'Iraqi's hadith grading alongside",
+   "item": "Bok00118",
+   "rows": 3326,
+   "parts": 7,
+   "headings": 1,
+   "card": {
+    "Bk": "إحياء علوم الدين ومعه تخريج الحافظ العراقي",
+    "Betaka": "الكتاب : إحياء علوم الدين",
+    "Auth": "",
+    "Inf": ""
+   },
+   "bok_sha256": "077cb71006458b5641f072c383f966705621a6bf9d74c1487514426f43ddfd67",
+   "archive_md5": "8d8bfa4159be877729377796929061a0"
+  },
+  "ibnarabi.parsa_sharh_fusus": {
+   "work": "Khwaja Muhammad Parsa, Sharh Fusus al-hikam (ed. Jalil Misgarnizhad, Tehran 1987)",
+   "author": "parsa",
+   "attribution": "secure",
+   "category": "commentary",
+   "note": "Persian commentary quoting the Arabic Fusus",
+   "item": "fusus_al-hikam",
+   "rows": 589,
+   "parts": 1,
+   "headings": 58,
+   "card": {
+    "Bk": "شرح فصوص الحكم",
+    "Betaka": "نام كتاب: شرح فصوص الحكم\nنويسنده: محمد بن علي بن محمد ابن العربي، أبو بكر الحاتمي الطائي الأندلسي، المعروف بمحيي الدين بن عربي، الملقب بالشيخ الأكبر (المتوفى: 638 هـ)\nشارح: محمد بن محمد بن محمود بن محمد بن محمد بن مودود، شمس الدين الجعفري البخاري (المتوفى: 822 هـ)\nبا مقدمه وتصحيح وتعليق: دكتر جليل مسگرنژاد\nناشر: مركز نشر دانشگاهى، تهران - إيران\nنوبت چاپ: أول، 1366 هـ ش = 1987 م\nجلد: 1\n[ملاحظات]\nترقيم الكتاب موافق للمطبوع وهو مزيل بالحواشي\nأعده للشاملة: مجاهد صغير أحمد صودهوري",
+    "Auth": "محمَّد البُخاري",
+    "Inf": ""
+   },
+   "bok_sha256": "ed6d11a24868d97b5294b75df1e03ecc4662c2098be20bf01f6a6b94ea70d714",
+   "archive_md5": "5b4c6d4c07c2d4901ede3dab9670781b"
+  }
+ }
+}

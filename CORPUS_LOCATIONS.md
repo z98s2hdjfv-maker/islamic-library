@@ -13,12 +13,16 @@
 ## What lives where
 | Path | Contents |
 |---|---|
+| corpus/ibnarabi/, corpus/jilani/, corpus/ghazali/ | Arabic works as JSONL (32 works). Folders group texts by *figure*, not strict authorship: commentaries (Jāmī, Pārsā) and misattributed works (al-Qāshānī's tafsir) sit with the figure they concern. **Check catalogs/works_index.tsv (attribution, category, source_type) before quoting anything.** |
 | corpus/mathnawi/book1–6.tsv | Mathnawi, one couplet per row, Nicholson-numbered IDs (Ganjoor pin a64968e7) |
 | apparatus/mathnawi/ | collation pilot; konya/ Konya-vs-Ganjoor variants |
 | annotations/mathnawi/ | story frames (lion_hare, merchant_parrot, umar_envoy), hadith check |
 | catalogs/ | works summaries, OpenITI catalog, Shamela manifest, source surveys |
 | pipeline/ | ingest scripts (mathnawi/, works/), repo builder (repo/) |
 | reports/mathnawi/ | pilot/batch reports, summary, warnings |
+| sources/shamela/ | original Shamela .bok files (Access DB) the JSONL was built from |
+| sources/typed/, sources/ocr/ | typed txt/docx uploads; archive.org OCR text + page indexes |
+| sources/checksums/ | each batch's original SHA256SUMS (v9, v10) |
 | sources/fusus/ | raw text dump of Fusus (presentation-form glyphs; needs normalising) |
 | docs/mathnawi/ | README, SPEC_STATUS |
 
@@ -26,6 +30,13 @@
 - **Fusus al-Ḥikam**, ed. Sayyid Niẓām al-Dīn Aḥmad — 520 pp, typeset; text layer has doubled glyphs (presentation form + base letter), removable deterministically.
 - **al-Futūḥāt al-Makkiyya**, ed. ʿAbd al-ʿAzīz Sulṭān al-Manṣūb — 8,242 pp scan, ABBYY OCR with errors. Image witness only; take digital text from OpenITI.
 
+## Attribution flags (from works_index.tsv)
+- spurious_attested: ibnarabi.tafsir_qashani (by al-Qāshānī), ghazali.mukashafa
+- doubtful: ibnarabi.muhadarat_abrar, jilani.sirrasrar, jilani.diwan
+- mixed collections: ibnarabi.rasail.* 
+- about, not by: jilani.qalaid, jilani.sayf
+- ocr_uncorrected: ibnarabi.futuhat.mansub_ocr, ibnarabi.fusus.nizamaldin_ocr (witness only)
+
 ## Not yet in the repo
-- Full JSONL records (in master zip; rebuildable with pipeline/mathnawi/ingest_full.py).
+- Rumi v6 master: Mathnawī JSONL, Dīwān-i Shams, Fīhi mā fīhi, Majālis-i sabʿa, Maʿārif, Waladnāma (in master zip; rebuildable with pipeline/mathnawi/ingest_full.py).
 - Konya page-image packs (candidates for release assets).

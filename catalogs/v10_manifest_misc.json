@@ -1,0 +1,282 @@
+[
+ {
+  "key": "ibnarabi.inshadawair_uqla_tadbirat",
+  "work": "Insha' al-dawa'ir; 'Uqlat al-mustawfiz; al-Tadbirat al-ilahiyya",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "typed upload (almussafer); edition not stated in file",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/20200624_20200624_0234__كتاب انشاء الدوائر وكتاب عقلة المستوفز وكتاب التدبيرات الإلهية في اصلاح المملكة الانسانية.docx",
+    "name": "كتاب انشاء الدوائر وكتاب عقلة المستوفز وكتاب التدبيرات الإلهية في اصلاح المملكة الانسانية.docx",
+    "item": "20200624_20200624_0234",
+    "md5": "ebc1f3482fa044f88de5a2153f1d1524",
+    "role": "archival",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia/dl2/20200624_20200624_0234__كتاب انشاء الدوائر وكتاب عقلة المستوفز وكتاب التدبيرات الإلهية في اصلاح المملكة الانسانية.txt",
+    "name": "كتاب انشاء الدوائر وكتاب عقلة المستوفز وكتاب التدبيرات الإلهية في اصلاح المملكة الانسانية.txt",
+    "item": "20200624_20200624_0234",
+    "md5": "22b301c0e6994662843d449f81034e05",
+    "role": "text",
+    "vol": null
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.anqa_mughrib",
+  "work": "'Anqa' mughrib, ed. Bahnasawi Ahmad al-Sayyid al-Sharif",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/20200513_20200513_1727__عنقاء مغرب في ختم الأولياء وشمس المغرب محي الدين ابن العربي.docx",
+    "name": "عنقاء مغرب في ختم الأولياء وشمس المغرب محي الدين ابن العربي.docx",
+    "item": "20200513_20200513_1727",
+    "md5": "2698d83ef9fafb2b34a8c504dfe4b3b0",
+    "role": "archival",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia/dl2/20200513_20200513_1727__عنقاء مغرب في ختم الأولياء وشمس المغرب محي الدين ابن العربي.txt",
+    "name": "عنقاء مغرب في ختم الأولياء وشمس المغرب محي الدين ابن العربي.txt",
+    "item": "20200513_20200513_1727",
+    "md5": "a699cdbebe072da308e55ef757eeaf47",
+    "role": "text",
+    "vol": null
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.taj_tarajim",
+  "work": "Taj al-tarajim",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/20200611_20200611_1236__تاج التراجم الشيخ الأكبر محيي الدين ابن العربي.docx",
+    "name": "تاج التراجم الشيخ الأكبر محيي الدين ابن العربي.docx",
+    "item": "20200611_20200611_1236",
+    "md5": "0f06880309f479ff8b0410b7995ec6a0",
+    "role": "archival",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia/dl2/20200611_20200611_1236__تاج التراجم الشيخ الأكبر محيي الدين ابن العربي.txt",
+    "name": "تاج التراجم الشيخ الأكبر محيي الدين ابن العربي.txt",
+    "item": "20200611_20200611_1236",
+    "md5": "ee7a14a85e85f196395c960e1a2dda87",
+    "role": "text",
+    "vol": null
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.tajalliyat_ibnsawdakin",
+  "work": "Kitab al-Tajalliyat al-ilahiyya, with Ibn Sawdakin's notes",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary_with_commentary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "Ibn Sawdakin's ta'liqat interleaved",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/20200513_20200513_1759__التجليات الالهية ابن العربي تعليقات  ابن سودكين.docx",
+    "name": "التجليات الالهية ابن العربي تعليقات  ابن سودكين.docx",
+    "item": "20200513_20200513_1759",
+    "md5": "fdfadd44753ea3915d40d7db92e938fe",
+    "role": "archival",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia/dl2/20200513_20200513_1759__التجليات الالهية ابن العربي تعليقات ابن سودكين.txt",
+    "name": "التجليات الالهية ابن العربي تعليقات ابن سودكين.txt",
+    "item": "20200513_20200513_1759",
+    "md5": "83dc5cee48c87e49eb313006593a1c15",
+    "role": "text",
+    "vol": null
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.tanazzulat_mawsiliyya",
+  "work": "al-Tanazzulat al-Mawsiliyya",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/20200628_20200628_0105__التنزلات الموصلية الشيخ الأكبر ابن العربي.docx",
+    "name": "التنزلات الموصلية الشيخ الأكبر ابن العربي.docx",
+    "item": "20200628_20200628_0105",
+    "md5": "7496b46dfd7ca6c940f5d87cdd929cb3",
+    "role": "archival",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia/dl2/20200628_20200628_0105__التنزلات الموصلية الشيخ الأكبر ابن العربي.txt",
+    "name": "التنزلات الموصلية الشيخ الأكبر ابن العربي.txt",
+    "item": "20200628_20200628_0105",
+    "md5": "3cfd99bb440c57e1ca8d79ee3bb5bc9c",
+    "role": "text",
+    "vol": null
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.muhadarat_abrar",
+  "work": "Muhadarat al-abrar wa-musamarat al-akhyar (2 vols)",
+  "author": "ibnarabi",
+  "attribution": "doubtful",
+  "category": "primary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "attribution questioned by some scholars",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/2_20200714_20200714_1941__محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 1.docx",
+    "name": "محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 1.docx",
+    "item": "2_20200714_20200714_1941",
+    "md5": "b650619ea503870d2fb05cd9026f6414",
+    "role": "archival",
+    "vol": 1
+   },
+   {
+    "local": "/home/claude/ia/dl2/2_20200714_20200714_1941__محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 1.txt",
+    "name": "محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 1.txt",
+    "item": "2_20200714_20200714_1941",
+    "md5": "063a65a72e0c199220963b1b74bc433d",
+    "role": "text",
+    "vol": 1
+   },
+   {
+    "local": "/home/claude/ia/dl2/2_20200714_20200714_1941__محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 2.docx",
+    "name": "محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 2.docx",
+    "item": "2_20200714_20200714_1941",
+    "md5": "7835e16fbc5a24c92158231d251fdbe4",
+    "role": "archival",
+    "vol": 2
+   },
+   {
+    "local": "/home/claude/ia/dl2/2_20200714_20200714_1941__محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 2.txt",
+    "name": "محاضرة الأبرار ومسامرة الأخيار في الأدبيات والنوادر والأخبار  الشيخ الأكبر ابن العربي ج 2.txt",
+    "item": "2_20200714_20200714_1941",
+    "md5": "137f9372e7f459a932771ef18b0373d0",
+    "role": "text",
+    "vol": 2
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.manzil_fahwaniyya",
+  "work": "Manzil al-manazil al-fahwaniyya",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "txt",
+  "source_type": "typed",
+  "note": "",
+  "files": [
+   {
+    "local": "/home/claude/ia/dl2/20200528_20200528_0648__كتاب منزل المنازل الفهوانية.docx",
+    "name": "كتاب منزل المنازل الفهوانية.docx",
+    "item": "20200528_20200528_0648",
+    "md5": "c0e660fce46fbfeaf681ee91df44125d",
+    "role": "archival",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia/dl2/20200528_20200528_0648__كتاب منزل المنازل الفهوانية.txt",
+    "name": "كتاب منزل المنازل الفهوانية.txt",
+    "item": "20200528_20200528_0648",
+    "md5": "ebda4c556c3cfc5a5a5dc5616e6db745",
+    "role": "text",
+    "vol": null
+   }
+  ]
+ },
+ {
+  "key": "ibnarabi.futuhat.mansub_ocr",
+  "work": "al-Futuhat al-Makkiyya, ed. Sultan al-Mansub (Yemen 2010, Konya autograph)",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "ocr",
+  "source_type": "ocr_uncorrected",
+  "note": "archive.org OCR of the publisher PDF; uncorrected; full PDF (234 MB) on archive.org item Futuhat-Fusus-Critical-editions",
+  "files": [
+   {
+    "local": "/home/claude/ia/ocr/al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb_hocr_searchtext.txt.gz",
+    "name": "al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb_hocr_searchtext.txt.gz",
+    "item": "Futuhat-Fusus-Critical-editions",
+    "md5": "5897a059927037aea0a8a0d017549a7d",
+    "role": "ocr"
+   },
+   {
+    "local": "/home/claude/ia/ocr/al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb_hocr_pageindex.json.gz",
+    "name": "al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb_hocr_pageindex.json.gz",
+    "item": "Futuhat-Fusus-Critical-editions",
+    "md5": "91458f236a0afe0d20285c39486bb9f6",
+    "role": "ocr"
+   },
+   {
+    "local": "/home/claude/ia/ocr/al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb_page_numbers.json",
+    "name": "al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb_page_numbers.json",
+    "item": "Futuhat-Fusus-Critical-editions",
+    "md5": "0448856c918788778018c7b6b3861e89",
+    "role": "ocr"
+   }
+  ],
+  "ocr_base": "/home/claude/ia/ocr/al-Futūḥāt al Makkīyah ed. Abd al-ʿAzīz Sulṭān al-Manṣūb"
+ },
+ {
+  "key": "ibnarabi.fusus.nizamaldin_ocr",
+  "work": "Fusus al-hikam, ed. Sayyid Nizam al-Din Ahmad (Cairo 2015, critical)",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "ocr",
+  "source_type": "ocr_uncorrected",
+  "note": "archive.org OCR of the publisher PDF; uncorrected; PDF on archive.org item Futuhat-Fusus-Critical-editions",
+  "files": [
+   {
+    "local": "/home/claude/ia/ocr/Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad_hocr_searchtext.txt.gz",
+    "name": "Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad_hocr_searchtext.txt.gz",
+    "item": "Futuhat-Fusus-Critical-editions",
+    "md5": "c5a5da75d0ea10e2e16f32d20bf2c54e",
+    "role": "ocr"
+   },
+   {
+    "local": "/home/claude/ia/ocr/Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad_hocr_pageindex.json.gz",
+    "name": "Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad_hocr_pageindex.json.gz",
+    "item": "Futuhat-Fusus-Critical-editions",
+    "md5": "da849d36d2af83cd403149f5840c0c96",
+    "role": "ocr"
+   },
+   {
+    "local": "/home/claude/ia/ocr/Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad_page_numbers.json",
+    "name": "Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad_page_numbers.json",
+    "item": "Futuhat-Fusus-Critical-editions",
+    "md5": "34986eb36ceeceac3d46b4bd6cdd4638",
+    "role": "ocr"
+   }
+  ],
+  "ocr_base": "/home/claude/ia/ocr/Fusus al-Hikam ed. Sayyid Nizam al-Din Ahmad"
+ }
+]
