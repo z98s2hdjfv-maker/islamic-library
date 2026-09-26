@@ -1,0 +1,36 @@
+{
+ "title": "Shabistari, Haqq al-yaqin",
+ "folder": "poets/shabestari/hagholyaghin",
+ "attribution": "secure",
+ "attribution_note": "",
+ "poems_in_catalog": 9,
+ "poems_found": 9,
+ "missing_files": [],
+ "units": {
+  "para": 150
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/shabestari/hagholyaghin/sh1.json": "d4f86d3c29bfe48ea4fd976a4260decadc5e49d8e6ff201b0722e672af38bec5",
+  "poets/shabestari/hagholyaghin/sh2.json": "f94f65544856e04e625e7019b309cb99a5949e5450be365f505ce2f9876f60e6",
+  "poets/shabestari/hagholyaghin/sh3.json": "c12677653e7d2548f7b157db33970731c9fcb3db55e5e7f6671e87184f21ce27",
+  "poets/shabestari/hagholyaghin/sh4.json": "c3f1193cffacc2843e1989b82aad1e7e5af0d6b8ae2ccd7781298085848fec06",
+  "poets/shabestari/hagholyaghin/sh5.json": "6d49f2993f23d35932f96bd26932c14c98fc60f78ec049a506b9d66868c9cce7",
+  "poets/shabestari/hagholyaghin/sh6.json": "0a9906c46a8f3c5d70fa89069a56708880cfbd1bb6c68075b73a099062a9323e",
+  "poets/shabestari/hagholyaghin/sh7.json": "67af4f0d8ca5d12393cf69c0257b502d442224a710d81356815130563c0d584b",
+  "poets/shabestari/hagholyaghin/sh8.json": "2db94df08d6e45f74534f405da9205eea3eb154f88c9d891019ac723bfd1cc29",
+  "poets/shabestari/hagholyaghin/sh9.json": "eb428364b469ac23261a3ccef9f595b35f2a68215c435634522813fa08730774"
+ }
+}

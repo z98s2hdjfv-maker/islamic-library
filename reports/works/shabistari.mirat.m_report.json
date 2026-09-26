@@ -1,0 +1,43 @@
+{
+ "title": "Shabistari, Mir'at al-muhaqqiqin",
+ "folder": "poets/shabestari/merat",
+ "attribution": "doubtful",
+ "attribution_note": "attribution debated",
+ "poems_in_catalog": 8,
+ "poems_found": 8,
+ "missing_files": [],
+ "units": {
+  "para": 77,
+  "bayt": 17
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [
+  "poets/shabestari/merat/sh1: not NFC (kept)",
+  "poets/shabestari/merat/sh2: not NFC (kept)",
+  "poets/shabestari/merat/sh4: not NFC (kept)",
+  "poets/shabestari/merat/sh6: not NFC (kept)"
+ ],
+ "files": {
+  "poets/shabestari/merat/sh1.json": "cb58cfce1b5cfd5116d8c4a96bc8f0a27a28c8064464f9678dc668e7fe36750d",
+  "poets/shabestari/merat/sh2.json": "25f198c6a8478f4631c939d41d0eae29f5859436cf78a8bc59ff2dae91f18538",
+  "poets/shabestari/merat/sh3.json": "c3eba26a51be0daceb011ae27378c55398f85b74ab279921dfd50b59f68b5264",
+  "poets/shabestari/merat/sh4.json": "4b6bffbfca2f5ac011a12fe1fc3a227ef056fa703bf379ee3b11bbe8865e6e84",
+  "poets/shabestari/merat/sh5.json": "03446cb818e8a0d41f082de61ed396bb05623aea45faa89c0f67620ab4d99cc2",
+  "poets/shabestari/merat/sh6.json": "2291a74a501460b120d8cb744cd1757baf5e03a84b2f7e78978975e92b7cb615",
+  "poets/shabestari/merat/sh7.json": "f873c7785bfc3dab56ab58e05b6cdffaef04aec0741d2f0687cfb3ce74c5ffd0",
+  "poets/shabestari/merat/sh8.json": "f7e26c559adc004962af97c080a9a8e503ae0c5e578dd53671c0d0d8a9c172e9"
+ }
+}

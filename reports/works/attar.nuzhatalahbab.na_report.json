@@ -1,0 +1,52 @@
+{
+ "title": "Nuzhat al-ahbab (attributed to 'Attar)",
+ "folder": "poets/attar/na",
+ "attribution": "spurious_attested",
+ "attribution_note": "pseudo-'Attar (later 'Attar of Tun and others)",
+ "poems_in_catalog": 22,
+ "poems_found": 22,
+ "missing_files": [],
+ "units": {
+  "para": 2,
+  "bayt": 338
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/attar/na/dib-na.json": "984a19f457186a7be54e4fbe1892d53fbdd29414108acedead8f359183b23db6",
+  "poets/attar/na/sh1.json": "3bfb80420a777306ab255b482201a49dc3ab2e7ce973318a7d685bbeeced7489",
+  "poets/attar/na/sh2.json": "0c888d25d00fe57b6d2d8c0d37c871073a147f186e54a3594f7885bdfe0e7c61",
+  "poets/attar/na/sh3.json": "6cd80c30d5d7b4cf6b5106260c9528f1714d31fb16ec4c40d450fbdeffc77449",
+  "poets/attar/na/sh4.json": "c014a9cb1c8871d455c7e4b0ade421c72aad884ce6edd6fc432c03081c91e262",
+  "poets/attar/na/sh5.json": "360f24c0d6cb5be268561056dca2c5cb3b44e7fcfdd5849c8336d921d88409b5",
+  "poets/attar/na/sh6.json": "33e37e174f55bda9ffd41e7bd4054489c0cb309d2b4a75502904bdc18fbb6a21",
+  "poets/attar/na/sh7.json": "0146ec2d64f82d72486db61e3b49b1a7527870337c73037e7a5dcaf0193decd3",
+  "poets/attar/na/sh8.json": "c334f5864786f73b56583fd6df292ab7bff114dfdd4068bc3fec53d1cbedfd1c",
+  "poets/attar/na/sh9.json": "c16f6c82a2a47e5d4ca1cc10320a636ad4272399ff3a154fdb3a4e8983aa4f0c",
+  "poets/attar/na/sh10.json": "3232624eb36f7c6e32d0a88a12d7e897b8d61a660a1c22fa12a9e15e6e51f641",
+  "poets/attar/na/sh11.json": "8226d9bf5a0773e92ba2c22a1cd12a332d287e52f483212c38630bdc453ec1c7",
+  "poets/attar/na/sh12.json": "7881fb78fb564315181d0342838953403d3be880ebda8c0fd0122aca1adc5f2e",
+  "poets/attar/na/sh13.json": "2153c50a9fc1b7c84d3049708b055801ac29a6a82e6cd1fa54f25adfbb9cd254",
+  "poets/attar/na/sh14.json": "38d90f61c790d13446b99a6b3237029c5a27464dbeaee34e8d7a0991448200e6",
+  "poets/attar/na/sh15.json": "1624fe94b688d6ce1ad3801fd7274e10e3d7036623f7aaa27e2bbcca9983d7b4",
+  "poets/attar/na/sh16.json": "fce53ac4a3ac7116eb4a7339f4bec0af233046d4c55a09a0e25d4523e927aba3",
+  "poets/attar/na/sh17.json": "7a129e306be9335e67df1af3a6f9af5a869aa61a3078ec9df50719926bce5c70",
+  "poets/attar/na/sh18.json": "76a28f98f2ee8bc8fc2189fd539481c4020b73a4ebee7b13726a44ac91f26599",
+  "poets/attar/na/sh19.json": "fce407ee47a790910eca08ac5a850d348a5c3ee1a01aace89d50d2202c529e9f",
+  "poets/attar/na/sh20.json": "2db3d962c60ec5a19da3de0ae30433146a7a2ed590a4578c9d7c19180f2d78ee",
+  "poets/attar/na/sh21.json": "e24356eaf5a96562ceba003ca9b66acb29156d099be36a3472d2f1ff7802fe53"
+ }
+}

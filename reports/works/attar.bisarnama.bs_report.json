@@ -1,0 +1,36 @@
+{
+ "title": "Bi-sar-nama (attributed to 'Attar)",
+ "folder": "poets/attar/bisarname",
+ "attribution": "spurious_attested",
+ "attribution_note": "pseudo-'Attar (later 'Attar of Tun and others)",
+ "poems_in_catalog": 7,
+ "poems_found": 7,
+ "missing_files": [],
+ "units": {
+  "bayt": 214
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/attar/bisarname/sh1.json": "01aaaca395147dbdb0f3e13529d7e2197722e0f5b1848318b03f87e260124b5c",
+  "poets/attar/bisarname/sh2.json": "d795a479383776689c655f25eec75c463a7d378806321e55e787ce8742be2941",
+  "poets/attar/bisarname/sh3.json": "634ac06cc3ec15827176422e2bdab9f488b96c2dbf385c01393f8b702b42f0cc",
+  "poets/attar/bisarname/sh4.json": "3da7c38b0dfd863507cc9c978067c29995727b32364ac858200786510f8ee123",
+  "poets/attar/bisarname/sh5.json": "6ae3fc36308c4352eea59210b1b5dc26cd3ef56ec3991f8e49906d0d5d805469",
+  "poets/attar/bisarname/sh6.json": "09b9bcc22113542476438cb461fef9483ce698329dcc24f2758d8e536681ff5c",
+  "poets/attar/bisarname/sh7.json": "25b26ba6f7a15cedac49fc432d8096683bfbb64d5d9b6cb74598a5927fe84470"
+ }
+}

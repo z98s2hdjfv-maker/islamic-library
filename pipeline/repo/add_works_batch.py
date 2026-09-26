@@ -93,6 +93,20 @@ def build_index(repo):
             rows[r['key']] = [r['key'], author, r.get('work', ''), r.get('attribution', ''),
                               r.get('category', ''), r.get('source_type') or 'shamela',
                               (r.get('note') or '').replace('\t', ' '), path, n]
+    # Persian works from Ganjoor (v6 Rumi circle, v7 addendum): works_summary*.json
+    for sf in sorted(glob.glob(os.path.join(repo, 'catalogs', 'works_summary*.json'))):
+        try: data = json.load(open(sf, encoding='utf-8'))
+        except Exception: continue
+        if not isinstance(data, dict) or data.get('source') != 'ganjoor-data': continue
+        commit = (data.get('commit') or '')[:8]
+        for key, r in data.get('works', {}).items():
+            author, work = key.split('.', 1)
+            path = f'corpus/{author}/{work}.jsonl'
+            full = os.path.join(repo, path)
+            n = sum(1 for _ in open(full, encoding='utf-8')) if os.path.exists(full) else ''
+            rows[key] = [key, author, r.get('title', ''), r.get('attribution') or 'unreviewed',
+                         'primary', 'ganjoor', f'Persian; ganjoor-data {commit}; {os.path.basename(sf)}',
+                         path, n]
     with open(os.path.join(repo, 'catalogs', 'works_index.tsv'), 'w', encoding='utf-8') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['key', 'author', 'work', 'attribution', 'category', 'source_type', 'note', 'corpus_path', 'records'])

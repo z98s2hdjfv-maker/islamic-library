@@ -1,0 +1,33 @@
+{
+ "title": "'Iraqi, Risala-yi istilahat",
+ "folder": "poets/eraghi/estelahat",
+ "attribution": "doubtful",
+ "attribution_note": "attribution questioned",
+ "poems_in_catalog": 4,
+ "poems_found": 4,
+ "missing_files": [],
+ "units": {
+  "para": 323
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary"
+ ],
+ "warnings": [
+  "poets/eraghi/estelahat/sh2: not NFC (kept)"
+ ],
+ "files": {
+  "poets/eraghi/estelahat/sh1.json": "1f85b6fdda91626819380858f87d37243c09c89f2e484e832f0ec8f67d0166d5",
+  "poets/eraghi/estelahat/sh2.json": "0cf0cd677c91e4c6446e0abe4fafc7a4f8345ff77ae2100ab7c6c43d668281bc",
+  "poets/eraghi/estelahat/sh3.json": "2164fde5cf74e363de8f5cba12fce66c254054d3496cee8662d1d66697a74262",
+  "poets/eraghi/estelahat/sh4.json": "9c93dd224bba89483b2b09b76677f45423b3574c25f8a285fc4efa967a834cba"
+ }
+}

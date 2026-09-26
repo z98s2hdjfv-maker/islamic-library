@@ -1,0 +1,29 @@
+{
+ "title": "Divan-i Shams: mustadrakat",
+ "folder": "poets/moulavi/shams/mostadrakat",
+ "poems_in_catalog": 2,
+ "poems_found": 2,
+ "missing_files": [],
+ "units": {
+  "bayt": 17
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/moulavi/shams/mostadrakat/sh1.json": "348563e315db1971c2ba6ece6c3cfef1401efe07595cb97fba42dd90fc8b3942",
+  "poets/moulavi/shams/mostadrakat/sh2.json": "b9e89f2b59e4db18ee4d0e580028aebe0cfe7b67484abef080993378c3ec844d"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "title": "Maratib al-'arifin (attributed to Shabistari)",
+ "folder": "poets/shabestari/marateb",
+ "attribution": "doubtful",
+ "attribution_note": "root-level single text",
+ "poems_in_catalog": 1,
+ "poems_found": 1,
+ "missing_files": [],
+ "units": {
+  "para": 44,
+  "bayt": 22
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/shabestari/marateb.json": "eb24909c5c67fa77b34f2e49744630285df8a2c86208e13142b09b5a38ebb1ca"
+ }
+}

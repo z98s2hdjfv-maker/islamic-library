@@ -1,0 +1,30 @@
+{
+ "title": "Futuwwat-nama (attributed to 'Attar)",
+ "folder": "poets/attar/fn",
+ "attribution": "spurious_attested",
+ "attribution_note": "pseudo-'Attar; root-level single text",
+ "poems_in_catalog": 1,
+ "poems_found": 1,
+ "missing_files": [],
+ "units": {
+  "bayt": 80
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/attar/fn.json": "2b07a4fc5bd2949a80139976860f7111129623d4c256b5dcb2d8e05ad4136892"
+ }
+}

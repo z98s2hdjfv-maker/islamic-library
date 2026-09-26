@@ -1,0 +1,36 @@
+{
+ "title": "Mazhar (attributed to 'Attar)",
+ "folder": "poets/attar/mazhar",
+ "attribution": "spurious_attested",
+ "attribution_note": "pseudo-'Attar (later 'Attar of Tun and others)",
+ "poems_in_catalog": 7,
+ "poems_found": 7,
+ "missing_files": [],
+ "units": {
+  "bayt": 1050
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [],
+ "files": {
+  "poets/attar/mazhar/sh1.json": "628ce881fcd39ace769731c07bc02a49c7a59834b3e26ea0db05f8cce3d87612",
+  "poets/attar/mazhar/sh2.json": "ee2a61e185c845d29b7ca35da139e0afbd84ef4725638aad97b51a0407dd557b",
+  "poets/attar/mazhar/sh3.json": "f2714133e24292a26cea3958b1174cfd89f0a884dd8f888f8e38718a9a75dfaf",
+  "poets/attar/mazhar/sh4.json": "97588044f4fc63df843a86a625e6967a13c777a2439ae1cac4ba1e382515fe27",
+  "poets/attar/mazhar/sh5.json": "94429ee76dea88970fdd162179cacee6bd7507b1adc51392944b60a39e57771d",
+  "poets/attar/mazhar/sh6.json": "4ed7f212a4dd6399c9ff679b1371b94bc12dadc8c25134bcc166df27e701e366",
+  "poets/attar/mazhar/sh7.json": "a1d3c64380ad37c1e1194eb6f2be3efa72f946decbc141c947c71e826f8c5e4c"
+ }
+}

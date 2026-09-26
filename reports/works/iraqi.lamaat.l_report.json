@@ -1,0 +1,63 @@
+{
+ "title": "'Iraqi, Lama'at",
+ "folder": "poets/eraghi/lamaat",
+ "attribution": "secure",
+ "attribution_note": "",
+ "poems_in_catalog": 30,
+ "poems_found": 30,
+ "missing_files": [],
+ "units": {
+  "para": 161,
+  "bayt": 199
+ },
+ "dropped_keys": [
+  "CatId",
+  "FullTitle",
+  "FullUrl",
+  "Id",
+  "PoemSummary",
+  "Sections",
+  "SourceName",
+  "SourceUrlSlug",
+  "verse:CoupletIndex",
+  "verse:CoupletSummary",
+  "verse:SectionIndex1",
+  "verse:SectionIndex2"
+ ],
+ "warnings": [
+  "poets/eraghi/lamaat/sh7: not NFC (kept)",
+  "poets/eraghi/lamaat/sh7: not NFC (kept)"
+ ],
+ "files": {
+  "poets/eraghi/lamaat/sh1.json": "cc379da78c278cd4768778123ab511b5d70bc79c4f1804e388e37b257682a7a2",
+  "poets/eraghi/lamaat/sh2.json": "628d07c580b8e724d15e784017ac31dde9ef2f11a3309caa4d13ac9db1026627",
+  "poets/eraghi/lamaat/sh3.json": "04f1f013f28dd3de9feb172bc04244ed4b4f2ec47098dbded9d99aa69ee6fe00",
+  "poets/eraghi/lamaat/sh4.json": "e4cecb4a93d80c46afaa47cf210d55da6e9b12e50ea058bbd44e549affbd1ff6",
+  "poets/eraghi/lamaat/sh5.json": "d8c32da5b26822e150b3c02629a0219547af0fc25d300632c45ab3782367c19c",
+  "poets/eraghi/lamaat/sh6.json": "c1dafcfa0de7729e3082f9ef93a64f02f3d6c37017284a679483d2707da4a195",
+  "poets/eraghi/lamaat/sh7.json": "5f522648b08d4217aee16821608cc39e465407051f46da21245a988be1eaffa8",
+  "poets/eraghi/lamaat/sh8.json": "d5675bf8e60dada2c3ee46212caf3c4b8c609ebc217015dbfcb4b3fb2924fc8c",
+  "poets/eraghi/lamaat/sh9.json": "86c84fdfaea9c2dd7a82f346b7c7393168df03221a05048f73b78c2b2723047a",
+  "poets/eraghi/lamaat/sh10.json": "168b5ed4d8e9a2ab0a0c8114538111ef07487a875a221193b1b2a20da2524e24",
+  "poets/eraghi/lamaat/sh11.json": "ab97a47b3a99c9230f1ec6863328fe4699a0218fea81e4c7f59d9dffc3b0f531",
+  "poets/eraghi/lamaat/sh12.json": "8b6f8ad507c039ae2b9fc3ef84aee26a70cd303052fe35ca6989dea2311b030c",
+  "poets/eraghi/lamaat/sh13.json": "685982f46f0cee883b9cf9857e87384806abfc492636ac9801f8aa63e9524990",
+  "poets/eraghi/lamaat/sh14.json": "f083b5f9f5fc3fd761dfef1e61c1a28774c6848ccb14e6a6d9dd14fa0e85e24d",
+  "poets/eraghi/lamaat/sh15.json": "30fd0bc9158fb217d507a3ffed432ccc0b7537f8a231ca6011532635e1c8718f",
+  "poets/eraghi/lamaat/sh16.json": "0fffe28663322c1da6802a080581b1b6f1a3dd9c1104f83c7bbede6fcdecb3de",
+  "poets/eraghi/lamaat/sh17.json": "35acc0e83936a00da4c81fec794753093f72d719183737bbb113f3af08a3024c",
+  "poets/eraghi/lamaat/sh18.json": "5adf9f8c9bf35cc605f9b713b1134d4a9f357a010df7f7fc41f2eaf25f319154",
+  "poets/eraghi/lamaat/sh19.json": "27fe41a716007331e700640b1e2266f3249d0c58e480620929a2623a42bd4c07",
+  "poets/eraghi/lamaat/sh20.json": "7b7bcc4e336e93485a7b4a97966414898fd88c245746f898dc70ac777c79fa31",
+  "poets/eraghi/lamaat/sh21.json": "6bbf89add82bdec0d1fcb7f1a65303f51ab59d58c8368b2da610e45a8103e0f3",
+  "poets/eraghi/lamaat/sh22.json": "95bc268ccb53bb5be57373f3549ae57621fd9fa747271c22f7106830faf48dd3",
+  "poets/eraghi/lamaat/sh23.json": "c1eb3254843e16137419ea77e8b1bc63b904279ec3bea6ddd62a9e7efe1c6269",
+  "poets/eraghi/lamaat/sh24.json": "4fb093bdec22c0df2665bc351ed50b0c7a2d65a7aba94b86e9dd1b01b9cca5b8",
+  "poets/eraghi/lamaat/sh25.json": "f82f1c26e06c35b691494a03b67b92ef99daaed83e1068506d9709a4b069c081",
+  "poets/eraghi/lamaat/sh26.json": "312dbf184576f7877f703c69edb501b92de4877444c8215e041b8153db625977",
+  "poets/eraghi/lamaat/sh27.json": "97f56ee68d7646a7c24278e2e9eefe207d854ec9af43c43018670fb57798b0bd",
+  "poets/eraghi/lamaat/sh28.json": "b694c663c8ee5620df7d6e4e3a5d71c3edc6cf2b6b543002386232a37097a0fc",
+  "poets/eraghi/lamaat/sh29.json": "2255943074dc8eb748ce1227c15ecf3652cad2ada5c2f0801b577b3b7c03c362",
+  "poets/eraghi/lamaat/sh30.json": "6067d04ef7bf777de4104ff519d8f2bd589bab35317f97b02c78a1781d1f47b4"
+ }
+}

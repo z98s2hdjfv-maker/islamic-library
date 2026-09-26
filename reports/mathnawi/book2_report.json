@@ -1,0 +1,959 @@
+{
+  "book": 2,
+  "commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+  "sections": 115,
+  "total_couplets": 3819,
+  "ignored_source_keys": [
+    "CatId",
+    "FullTitle",
+    "FullUrl",
+    "Id",
+    "Metre",
+    "PoemSummary",
+    "Sections",
+    "SourceName",
+    "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+    "CoupletIndex",
+    "CoupletSummary",
+    "SectionIndex1",
+    "SectionIndex2"
+  ],
+  "warnings": [
+    "book2 sh20:6 text not NFC-normalised (kept as-is)",
+    "book2 sh20:39 text not NFC-normalised (kept as-is)",
+    "book2 sh20:42 text not NFC-normalised (kept as-is)",
+    "book2 sh24:37 text not NFC-normalised (kept as-is)",
+    "book2 sh24:39 text not NFC-normalised (kept as-is)",
+    "book2 sh24:44 text not NFC-normalised (kept as-is)",
+    "book2 sh26:93 text not NFC-normalised (kept as-is)",
+    "book2 sh36:3 text not NFC-normalised (kept as-is)",
+    "book2 sh36:5 text not NFC-normalised (kept as-is)",
+    "book2 sh37:44 text not NFC-normalised (kept as-is)",
+    "book2 sh50:4 text not NFC-normalised (kept as-is)",
+    "book2 sh114:2 text not NFC-normalised (kept as-is)"
+  ],
+  "per_section": {
+    "1": {
+      "couplets": 111,
+      "first_seq": 1,
+      "last_seq": 111,
+      "sha256": "6754c1e37f35cb80c7348fcba665b5b66bd9f3861d3482430239505063002591",
+      "title": "بخش ۱ - سر آغاز",
+      "frame_map": null
+    },
+    "2": {
+      "couplets": 23,
+      "first_seq": 112,
+      "last_seq": 134,
+      "sha256": "096b285ded752223021c066c9a8c5904f237ec7a97bb33e7bf561816412f0ae1",
+      "title": "بخش ۲ - هلال پنداشتن آن شخص خیال را در عهد عمر رضی الله عنه",
+      "frame_map": null
+    },
+    "3": {
+      "couplets": 6,
+      "first_seq": 135,
+      "last_seq": 140,
+      "sha256": "531ef3e93d7340d7e2e87bdf81ba735cbfae18365a88e07cc49d8f8a65a885a4",
+      "title": "بخش ۳ - دزدیدن مارگیر ماری را از مارگیری دیگر",
+      "frame_map": null
+    },
+    "4": {
+      "couplets": 15,
+      "first_seq": 141,
+      "last_seq": 155,
+      "sha256": "56bf9dcaa424a7bb5a837d6bb280bdc3920b69b2ab37b3a795a58fe96031ec1b",
+      "title": "بخش ۴ - التماس کردن همراه عیسی علیه السلام زنده کردن استخوانها از عیسی علیه السلام",
+      "frame_map": null
+    },
+    "5": {
+      "couplets": 15,
+      "first_seq": 156,
+      "last_seq": 170,
+      "sha256": "8e2a811e805ee0570a07d5ad354480bab05548f19052561959a099988f3ab7de",
+      "title": "بخش ۵ - اندرز کردن صوفی خادم را در تیمار داشت بهیمه و لا حول خادم",
+      "frame_map": null
+    },
+    "6": {
+      "couplets": 22,
+      "first_seq": 171,
+      "last_seq": 192,
+      "sha256": "97ea6b1db2c367e7b6c42c3c7e7e2997215df0819cf34b34c3a856adfb7ed27a",
+      "title": "بخش ۶ - حکایت مشورت کردن خدای تعالی  در ایجاد خلق",
+      "frame_map": null
+    },
+    "7": {
+      "couplets": 9,
+      "first_seq": 193,
+      "last_seq": 201,
+      "sha256": "f03de66b51fc927ed92071f653964881eeaaad9598f02dfbf22bac84496e87d3",
+      "title": "بخش ۷ - بسته شدن تقریر معنی حکایت به سبب میل مستمع به استماع ظاهر صورت حکایت",
+      "frame_map": null
+    },
+    "8": {
+      "couplets": 41,
+      "first_seq": 202,
+      "last_seq": 242,
+      "sha256": "59789a457736599945baffbfe4cc25caf352bf3ceb95ef1f4bfcd83358edf375",
+      "title": "بخش ۸ - التزام کردن خادم تعهد بهیمه را و تخلف نمودن",
+      "frame_map": null
+    },
+    "9": {
+      "couplets": 81,
+      "first_seq": 243,
+      "last_seq": 323,
+      "sha256": "8cf8d65f389dc2d4a325b7c6f1921c2035510fa5724b62552898c6b6a6eeb55c",
+      "title": "بخش ۹ - گمان بردن کاروانیان که بهیمهٔ صوفی رنجورست",
+      "frame_map": null
+    },
+    "10": {
+      "couplets": 54,
+      "first_seq": 324,
+      "last_seq": 377,
+      "sha256": "a503ec29e4fd9f1f2eb456f29acdce57ee2c36af737d2e96b11519a8212c293e",
+      "title": "بخش ۱۰ - یافتن شاه باز را به خانهٔ کمپیر زن",
+      "frame_map": null
+    },
+    "11": {
+      "couplets": 69,
+      "first_seq": 378,
+      "last_seq": 446,
+      "sha256": "31a593e1927aeb9291c91191ae7b22a034981e549967f21fb582a5e48799404f",
+      "title": "بخش ۱۱ - حلوا خریدن شیخ احمد خضرویه جهت غریمان به الهام حق تعالی",
+      "frame_map": null
+    },
+    "12": {
+      "couplets": 12,
+      "first_seq": 447,
+      "last_seq": 458,
+      "sha256": "59aa8a80a810afc695e292214d4452dffc35cd6a09d8b433a5303e343abdde92",
+      "title": "بخش ۱۲ - ترسانیدن شخصی زاهدی را کی کم گری تا کور نشوی",
+      "frame_map": null
+    },
+    "13": {
+      "couplets": 46,
+      "first_seq": 459,
+      "last_seq": 504,
+      "sha256": "b6e69b8c535f377f0d94604194a0fe6d0bd5520dbe5a9c89ce62b73156c16c57",
+      "title": "بخش ۱۳ - تمامی قصهٔ زنده شدن استخوانها به دعای عیسی علیه السلام",
+      "frame_map": null
+    },
+    "14": {
+      "couplets": 11,
+      "first_seq": 505,
+      "last_seq": 515,
+      "sha256": "eb63bccc704defa1ce35fc4cbfa4135a0db22bae5765f3c1fca9762d9023a54a",
+      "title": "بخش ۱۴ - خاریدن روستایی در تاریکی شیر را به ظن آنک گاو اوست",
+      "frame_map": null
+    },
+    "15": {
+      "couplets": 71,
+      "first_seq": 516,
+      "last_seq": 586,
+      "sha256": "96b7afc8a5577ebeb4b59b873db50b45f66ebb8a88f54297c986c8bce6423b3c",
+      "title": "بخش ۱۵ - فروختن صوفیان بهیمهٔ مسافر را جهت سماع",
+      "frame_map": null
+    },
+    "16": {
+      "couplets": 29,
+      "first_seq": 587,
+      "last_seq": 615,
+      "sha256": "9755eb137adcf0996d3c1f9bd992b8844a5e21bf3d4adc24cd6437493a82111e",
+      "title": "بخش ۱۶ - تعریف کردن منادیان قاضی مفلس را گرد شهر",
+      "frame_map": null
+    },
+    "17": {
+      "couplets": 29,
+      "first_seq": 616,
+      "last_seq": 644,
+      "sha256": "a3d34b9bdd45c1849ab9fdf825ecf764f0922bf16999b6e1397ba9c7c186bb9e",
+      "title": "بخش ۱۷ - شکایت کردن اهل زندان پیش وکیل قاضی از دست آن مفلس",
+      "frame_map": null
+    },
+    "18": {
+      "couplets": 96,
+      "first_seq": 645,
+      "last_seq": 740,
+      "sha256": "d54d7b3a04721f63d8bba63f43c840fa0c63a1d060f45749362f33aa81a79fba",
+      "title": "بخش ۱۸ - تتمهٔ قصهٔ مفلس",
+      "frame_map": null
+    },
+    "19": {
+      "couplets": 37,
+      "first_seq": 741,
+      "last_seq": 777,
+      "sha256": "ad052d500e7e685afd6d4e37f5fdb74c4f3c40f8a677893d9575bd33389c0abe",
+      "title": "بخش ۱۹ - مثل",
+      "frame_map": null
+    },
+    "20": {
+      "couplets": 66,
+      "first_seq": 778,
+      "last_seq": 843,
+      "sha256": "f32c9a42064ab1d67f21d0b73528578b4c1bd8b1cfe907b48d50108c05641c5d",
+      "title": "بخش ۲۰ - ملامت‌کردن مردم شخصی را کی مادرش را کشت به تهمت",
+      "frame_map": null
+    },
+    "21": {
+      "couplets": 21,
+      "first_seq": 844,
+      "last_seq": 864,
+      "sha256": "8b791b36a518578ad63d7fb66df5a909ddf1e7f32251bd31d3ce956117630660",
+      "title": "بخش ۲۱ - امتحان پادشاه به آن دو غلام کی نو خریده بود",
+      "frame_map": null
+    },
+    "22": {
+      "couplets": 41,
+      "first_seq": 865,
+      "last_seq": 905,
+      "sha256": "acbd34f96c722d8dfd1b8e3f94fb78e9ff10b6bb05d40f75cf1e9bcc5fd894b8",
+      "title": "بخش ۲۲ - به راه کردن شاه یکی را از آن دو غلام و ازین دیگر پرسیدن",
+      "frame_map": null
+    },
+    "23": {
+      "couplets": 142,
+      "first_seq": 906,
+      "last_seq": 1047,
+      "sha256": "45e3045f3fea6f49a55c295e746e6d22750d07e2641ef25af1fac8503536dc94",
+      "title": "بخش ۲۳ - قسم غلام در صدق و وفای یار خود از طهارت ظن خود",
+      "frame_map": null
+    },
+    "24": {
+      "couplets": 145,
+      "first_seq": 1048,
+      "last_seq": 1192,
+      "sha256": "99f91a41603da1c36a352b7403d75d7d2b62c0f3f356cb8dee9e76cdde2e7572",
+      "title": "بخش ۲۴ - حسد کردن حشم بر غلام خاص",
+      "frame_map": null
+    },
+    "25": {
+      "couplets": 35,
+      "first_seq": 1193,
+      "last_seq": 1227,
+      "sha256": "977410795337e3e538ef25779493d0ff0635b746784c574f2dbbb64a5a248962",
+      "title": "بخش ۲۵ - کلوخ انداختن تشنه از سر دیوار در جوی آب",
+      "frame_map": null
+    },
+    "26": {
+      "couplets": 159,
+      "first_seq": 1228,
+      "last_seq": 1386,
+      "sha256": "99510ab1b3aac65088f0456be3eb01af84f5da6aeb85e66be17926f3f41ffa6c",
+      "title": "بخش ۲۶ - فرمودن والی آن مرد را کی این خاربن را کی نشانده‌ای بر سر راه بر کن",
+      "frame_map": null
+    },
+    "27": {
+      "couplets": 44,
+      "first_seq": 1387,
+      "last_seq": 1430,
+      "sha256": "9e8adeafeaa775027dec863f5207b82f601fe27bd8e716179e03cae23a2e07b7",
+      "title": "بخش ۲۷ - آمدن دوستان به بیمارستان جهت پرسش ذاالنون مصری رحمة الله علیه",
+      "frame_map": null
+    },
+    "28": {
+      "couplets": 17,
+      "first_seq": 1431,
+      "last_seq": 1447,
+      "sha256": "e5d735c617ab987f1b56b1dc9338be661d5c0645d170fa51271b67cae3e91f3f",
+      "title": "بخش ۲۸ - فهم کردن مریدان کی ذاالنون دیوانه نشد قاصد کرده است",
+      "frame_map": null
+    },
+    "29": {
+      "couplets": 15,
+      "first_seq": 1448,
+      "last_seq": 1462,
+      "sha256": "d7ae7dd693e226b6e1d0fec6837926a2fb6c6c133857b96c2e3313656c088738",
+      "title": "بخش ۲۹ - رجوع به حکایت ذاالنون رحمة الله علیه",
+      "frame_map": null
+    },
+    "30": {
+      "couplets": 48,
+      "first_seq": 1463,
+      "last_seq": 1510,
+      "sha256": "e5e05d46a0a14249a11044c733979071261155ece3e5c590c3b62f406798d1da",
+      "title": "بخش ۳۰ - امتحان کردن خواجهٔ لقمان زیرکی لقمان را",
+      "frame_map": null
+    },
+    "31": {
+      "couplets": 51,
+      "first_seq": 1511,
+      "last_seq": 1561,
+      "sha256": "b74418391b6cbf1dbaa77928db8a0c146978703ab65f89ee662174a87264e66d",
+      "title": "بخش ۳۱ - ظاهر شدن فضل و زیرکی لقمان پیش امتحان کنندگان",
+      "frame_map": null
+    },
+    "32": {
+      "couplets": 40,
+      "first_seq": 1562,
+      "last_seq": 1601,
+      "sha256": "1619f09e403ffd11df457c973df988e04db0e44a78c253852800e552af0952cb",
+      "title": "بخش ۳۲ - تتمهٔ حسد آن حشم بر آن غلام خاص",
+      "frame_map": null
+    },
+    "33": {
+      "couplets": 32,
+      "first_seq": 1602,
+      "last_seq": 1633,
+      "sha256": "eb26942e37080e6bcbe30dd486fd1ec4d5e44cf6642d009275f0f71c7b51a050",
+      "title": "بخش ۳۳ - عکس تعظیم پیغام سلیمان در دل بلقیس از صورت حقیر هدهد",
+      "frame_map": null
+    },
+    "34": {
+      "couplets": 86,
+      "first_seq": 1634,
+      "last_seq": 1719,
+      "sha256": "025caa8d49da81044cae5c967914e7e6c2f458d26e74f04f05f617502d0d1de1",
+      "title": "بخش ۳۴ - انکار فلسفی بر قرائت ان اصبح ماکم غورا",
+      "frame_map": null
+    },
+    "35": {
+      "couplets": 30,
+      "first_seq": 1720,
+      "last_seq": 1749,
+      "sha256": "09ba7ff24306e04639dc19f27c6e4d0e92820322feec28ad05be3a8f1d28cd64",
+      "title": "بخش ۳۵ - انکار کردن موسی علیه السلام بر مناجات شبان",
+      "frame_map": null
+    },
+    "36": {
+      "couplets": 22,
+      "first_seq": 1750,
+      "last_seq": 1771,
+      "sha256": "22f95e183e4043300767e144a8e22134f107434ed62000ff93894863104df3a0",
+      "title": "بخش ۳۶ - عتاب کردن حق تعالی موسی را علیه  السلام از بهر آن شبان",
+      "frame_map": null
+    },
+    "37": {
+      "couplets": 44,
+      "first_seq": 1772,
+      "last_seq": 1815,
+      "sha256": "b3ec68e569127a772870002cb2bce36eac382e6ec495d804288636da20b91caa",
+      "title": "بخش ۳۷ - وحی آمدن موسی را علیه السّلام در عذر آن شبان",
+      "frame_map": null
+    },
+    "38": {
+      "couplets": 62,
+      "first_seq": 1816,
+      "last_seq": 1877,
+      "sha256": "74f55b30e59993a559344da0ac40745fe9cf934149bd9833a764ceb6d0a3dcfa",
+      "title": "بخش ۳۸ - پرسیدن موسی از حق سر غلبهٔ ظالمان را",
+      "frame_map": null
+    },
+    "39": {
+      "couplets": 54,
+      "first_seq": 1878,
+      "last_seq": 1931,
+      "sha256": "9b2d8d4dcea652f995c2ed9f11013680e78c9a25406710148eae2267aae779d0",
+      "title": "بخش ۳۹ - رنجانیدن امیری خفته‌ای را کی مار در دهانش رفته بود",
+      "frame_map": null
+    },
+    "40": {
+      "couplets": 60,
+      "first_seq": 1932,
+      "last_seq": 1991,
+      "sha256": "1d73e9b939d5b24df27505eb13d8b8ec044e88e490b69e0226021827d5de916e",
+      "title": "بخش ۴۰ - اعتماد کردن بر تملق و وفای خرس",
+      "frame_map": null
+    },
+    "41": {
+      "couplets": 17,
+      "first_seq": 1992,
+      "last_seq": 2008,
+      "sha256": "7cf404de10123de72706b56cdd4f951f2226d994298cd1dd8a20757303ad0976",
+      "title": "بخش ۴۱ - گفتن نابینای سایل کی دو کوری دارم",
+      "frame_map": null
+    },
+    "42": {
+      "couplets": 26,
+      "first_seq": 2009,
+      "last_seq": 2034,
+      "sha256": "4b7a13ef4ff0811a0e8be53f6b481faea14dbfb0ef336ab0a2d9487ef98623b8",
+      "title": "بخش ۴۲ - تتمهٔ حکایت خرس و آن ابله کی بر وفای او اعتماد کرده بود",
+      "frame_map": null
+    },
+    "43": {
+      "couplets": 28,
+      "first_seq": 2035,
+      "last_seq": 2062,
+      "sha256": "6e337cfce8b83cf297329df50aea116079071dfe8ef0723e29af5086a099f499",
+      "title": "بخش ۴۳ - گفتن موسی علیه السلام گوساله‌پرست را کی «آن خیال‌اندیشی و حزم تو کجاست؟»",
+      "frame_map": null
+    },
+    "44": {
+      "couplets": 31,
+      "first_seq": 2063,
+      "last_seq": 2093,
+      "sha256": "8429e6fb85ff5a8ccd6190de27dbc8ded2a66f08bb8f306b2caa622040700555",
+      "title": "بخش ۴۴ - ترک کردن آن مرد ناصح بعد از مبالغهٔ پند مغرور خرس را",
+      "frame_map": null
+    },
+    "45": {
+      "couplets": 8,
+      "first_seq": 2094,
+      "last_seq": 2101,
+      "sha256": "160cb01af2c0bd15be84624edb6f92245cb1cc743c0046384eaef44bc2c5b58e",
+      "title": "بخش ۴۵ - تملق کردن دیوانه جالینوس را و ترسیدن جالینوس",
+      "frame_map": null
+    },
+    "46": {
+      "couplets": 21,
+      "first_seq": 2102,
+      "last_seq": 2122,
+      "sha256": "90a48720e6cdc547f7b07211e23f7e2175f3b6356d9af4b6d5cd398e03076590",
+      "title": "بخش ۴۶ - سبب پریدن و چرخیدن مرغی با مرغی کی جنس او نبود",
+      "frame_map": null
+    },
+    "47": {
+      "couplets": 17,
+      "first_seq": 2123,
+      "last_seq": 2139,
+      "sha256": "d96a16ab80143f5045b71d0a2c69271330c06031b23d12a9979a747ecd2eafa5",
+      "title": "بخش ۴۷ - تتمهٔ اعتماد آن مغرور بر تملق خرس",
+      "frame_map": null
+    },
+    "48": {
+      "couplets": 15,
+      "first_seq": 2140,
+      "last_seq": 2154,
+      "sha256": "9d2fc4ffb9ff4a4a8789b606c6e0ccf8d89c870ddb472aa50b90f965baf64f57",
+      "title": "بخش ۴۸ - رفتن مصطفی علیه السلام به عیادت صحابی و بیان فایدهٔ عیادت",
+      "frame_map": null
+    },
+    "49": {
+      "couplets": 11,
+      "first_seq": 2155,
+      "last_seq": 2165,
+      "sha256": "5314a2386058cf80f6772c18846bfff7dfabf5cfdb09c42c53043aa52c272190",
+      "title": "بخش ۴۹ - وحی کردن حق تعالی به موسی علیه السلام کی چرا به عیادت من نیامدی",
+      "frame_map": null
+    },
+    "50": {
+      "couplets": 46,
+      "first_seq": 2166,
+      "last_seq": 2211,
+      "sha256": "7403df40d840f7ee9289ce61760cd952e201e1300823af93cd5da970a91facd3",
+      "title": "بخش ۵۰ - تنها کردن باغبان صوفی و فقیه و علوی را از همدیگر",
+      "frame_map": null
+    },
+    "51": {
+      "couplets": 6,
+      "first_seq": 2212,
+      "last_seq": 2217,
+      "sha256": "89ce80e5e2ff9a09bce8aa62e783d6677df3f3e1fe58792a96e726e1ad6cbadb",
+      "title": "بخش ۵۱ - رجعت به قصهٔ مریض و عیادت پیغامبر علیه السلام",
+      "frame_map": null
+    },
+    "52": {
+      "couplets": 9,
+      "first_seq": 2218,
+      "last_seq": 2226,
+      "sha256": "5ee10af4b5fa494bbeefa221e9e0fb5535107fd48ef6f637bf44aecc0ab555fe",
+      "title": "بخش ۵۲ - گفتن شیخ ابویزید را کی کعبه منم  گرد من طوافی می‌کن",
+      "frame_map": null
+    },
+    "53": {
+      "couplets": 25,
+      "first_seq": 2227,
+      "last_seq": 2251,
+      "sha256": "bc75c96bde757268439445cd3ffa7caa6c8564e9a2bf332752e6cde4d5bd9a56",
+      "title": "بخش ۵۳ - حکایت",
+      "frame_map": null
+    },
+    "54": {
+      "couplets": 83,
+      "first_seq": 2252,
+      "last_seq": 2334,
+      "sha256": "8f2b7d3993b30bd31d96dd628510e641fc31e60569c5b974dbe878b67fccc4ed",
+      "title": "بخش ۵۴ - دانستن پیغامبر علیه السلام کی سبب رنجوری آن شخص گستاخی بوده است در دعا",
+      "frame_map": null
+    },
+    "55": {
+      "couplets": 5,
+      "first_seq": 2335,
+      "last_seq": 2339,
+      "sha256": "f3a39fd3e60023916a7eb200a50b816581c2859b46730a560e0b6c0053859d15",
+      "title": "بخش ۵۵ - عذر گفتن دلقک با سید اجل کی چرا  فاحشه را نکاح کرد",
+      "frame_map": null
+    },
+    "56": {
+      "couplets": 16,
+      "first_seq": 2340,
+      "last_seq": 2355,
+      "sha256": "990f613b9b2283f820108d746c66f0ddf93c65687eb31eba197336dc544e068a",
+      "title": "بخش ۵۶ - به حیلت در سخن آوردن سایل آن بزرگ را کی خود را دیوانه ساخته بود",
+      "frame_map": null
+    },
+    "57": {
+      "couplets": 33,
+      "first_seq": 2356,
+      "last_seq": 2388,
+      "sha256": "6c7a4a8f3a2cb663fc706d42f3d3de3222f06a40119cc9cc04d6454e7baa7d03",
+      "title": "بخش ۵۷ - حمله بردن سگ بر کور گدا",
+      "frame_map": null
+    },
+    "58": {
+      "couplets": 13,
+      "first_seq": 2389,
+      "last_seq": 2401,
+      "sha256": "a784faea9b0dac98bf769bae98a2036c3246aa5e40e6554e759cac16e4075e81",
+      "title": "بخش ۵۸ - خواندن محتسب مست خراب افتاده را به زندان",
+      "frame_map": null
+    },
+    "59": {
+      "couplets": 56,
+      "first_seq": 2402,
+      "last_seq": 2457,
+      "sha256": "cfc8d827a3fdfe1f66254188ba6c700f3519330628d0770d34d1a06553561e78",
+      "title": "بخش ۵۹ - دوم بار در سخن کشیدن سایل آن بزرگ را تا حال او معلوم‌تر گردد",
+      "frame_map": null
+    },
+    "60": {
+      "couplets": 96,
+      "first_seq": 2458,
+      "last_seq": 2553,
+      "sha256": "ba6d83d4b7faac094a3251b3f7b4b5f756546c890876b122c968c0cdd6448dc2",
+      "title": "بخش ۶۰ - تتمهٔ نصیحت رسول علیه السلام بیمار را",
+      "frame_map": null
+    },
+    "61": {
+      "couplets": 54,
+      "first_seq": 2554,
+      "last_seq": 2607,
+      "sha256": "72635983b27610106b554fdb4b2a64f6008e0d3baab8277b2a4d6553a351bd52",
+      "title": "بخش ۶۱ - وصیت کردن پیغامبر علیه السلام مر آن بیمار را و دعا آموزانیدنش",
+      "frame_map": null
+    },
+    "62": {
+      "couplets": 8,
+      "first_seq": 2608,
+      "last_seq": 2615,
+      "sha256": "3031bced4df90487621d03ea713c0368aed457f01ca5b032556ba1ccb9903895",
+      "title": "بخش ۶۲ - بیدار کردن ابلیس معاویه را  کی خیز وقت نمازست",
+      "frame_map": null
+    },
+    "63": {
+      "couplets": 5,
+      "first_seq": 2616,
+      "last_seq": 2620,
+      "sha256": "8aed4900a704bf032ca1a615216c721fb5bf375c244ad98f681e84dd81b494c9",
+      "title": "بخش ۶۳ - از خر افکندن ابلیس معاویه را و روپوش و بهانه کردن و جواب گفتن معاویه او را",
+      "frame_map": null
+    },
+    "64": {
+      "couplets": 35,
+      "first_seq": 2621,
+      "last_seq": 2655,
+      "sha256": "6152f8d6893bb2992dc83c3dd185e628a4e580180bdd28c6a266659f484740d1",
+      "title": "بخش ۶۴ - باز جواب گفتن ابلیس معاویه را",
+      "frame_map": null
+    },
+    "65": {
+      "couplets": 20,
+      "first_seq": 2656,
+      "last_seq": 2675,
+      "sha256": "f92a7cdfea952b2fcefd5a64edfb1ad2408b7aa77977e41de8419d5dba35e10a",
+      "title": "بخش ۶۵ - باز تقریر کردن معاویه با ابلیس مکر او را",
+      "frame_map": null
+    },
+    "66": {
+      "couplets": 29,
+      "first_seq": 2676,
+      "last_seq": 2704,
+      "sha256": "8c0a0eb82d07f6061ada444d806cf36ea6bd877c2fe0fb55f9e0da55b52ded6d",
+      "title": "بخش ۶۶ - باز جواب گفتن ابلیس معاویه را",
+      "frame_map": null
+    },
+    "67": {
+      "couplets": 6,
+      "first_seq": 2705,
+      "last_seq": 2710,
+      "sha256": "df035e7f83b2ebd99c5de42254a55cd245ef4a5695386bcc2b8d9271d7b5531d",
+      "title": "بخش ۶۷ - عنف کردن معاویه با ابلیس",
+      "frame_map": null
+    },
+    "68": {
+      "couplets": 8,
+      "first_seq": 2711,
+      "last_seq": 2718,
+      "sha256": "d16b8d934ffd66eb9376a96f7764639c8561365747d412aec546f602ca94a6d0",
+      "title": "بخش ۶۸ - نالیدن معاویه به حضرت حق تعالی از ابلیس و نصرت خواستن",
+      "frame_map": null
+    },
+    "69": {
+      "couplets": 16,
+      "first_seq": 2719,
+      "last_seq": 2734,
+      "sha256": "7eff6d6ccb5e068970dee40349080df999b31ccca445dc0759aed1e3a8063eec",
+      "title": "بخش ۶۹ - باز تقریر ابلیس تلبیس خود را",
+      "frame_map": null
+    },
+    "70": {
+      "couplets": 14,
+      "first_seq": 2735,
+      "last_seq": 2748,
+      "sha256": "a0eef40d5c95f5d111da1ecfea50ffbebfffc432dcaa2e4e27c69f53d8f5eb3d",
+      "title": "بخش ۷۰ - باز الحاح کردن معاویه ابلیس را",
+      "frame_map": null
+    },
+    "71": {
+      "couplets": 12,
+      "first_seq": 2749,
+      "last_seq": 2760,
+      "sha256": "eb3d71d848d923df7c94415f7fd083a85feabb6a73c646ee7e9076c4f07a6a43",
+      "title": "بخش ۷۱ - شکایت قاضی از آفت قضا و جواب گفتن نایب او را",
+      "frame_map": null
+    },
+    "72": {
+      "couplets": 9,
+      "first_seq": 2761,
+      "last_seq": 2769,
+      "sha256": "fc80912b572e7d045959d87ae804fd8146b6a5e598b09df3e68bca50e2ec311e",
+      "title": "بخش ۷۲ - به اقرار آوردن معاویه ابلیس را",
+      "frame_map": null
+    },
+    "73": {
+      "couplets": 6,
+      "first_seq": 2770,
+      "last_seq": 2775,
+      "sha256": "06bf08b053113b73742cfdae8dfad41a521efe2e6d9b36e165dac96adf2bb160",
+      "title": "بخش ۷۳ - راست گفتن ابلیس ضمیر خود را به معاویه",
+      "frame_map": null
+    },
+    "74": {
+      "couplets": 9,
+      "first_seq": 2776,
+      "last_seq": 2784,
+      "sha256": "c4ff8f0031bdd1bfef005357be2d4ba07f9f24b02ac5c2fb6305927c1abea5c3",
+      "title": "بخش ۷۴ - فضیلت حسرت خوردن آن مخلص بر فوت نماز  جماعت",
+      "frame_map": null
+    },
+    "75": {
+      "couplets": 13,
+      "first_seq": 2785,
+      "last_seq": 2797,
+      "sha256": "0dbfa62630535bac4ab5bebed3263a27015e19af60d31ce3aee5be21ce2794ba",
+      "title": "بخش ۷۵ - تتمهٔ اقرار ابلیس به معاویه مکر خود را",
+      "frame_map": null
+    },
+    "76": {
+      "couplets": 32,
+      "first_seq": 2798,
+      "last_seq": 2829,
+      "sha256": "7f4592de3896a630361624ed717e29196a899bbc70ae8c95b79fad0d37167d75",
+      "title": "بخش ۷۶ - فوت شدن دزد به آواز دادن آن شخص صاحب‌خانه را که نزدیک آمده بود که دزد را دریابد و بگیرد",
+      "frame_map": null
+    },
+    "77": {
+      "couplets": 23,
+      "first_seq": 2830,
+      "last_seq": 2852,
+      "sha256": "88714e3a8200626fe3161b1b87202235d88d492d21cff3344755f295fbc34e06",
+      "title": "بخش ۷۷ - قصهٔ منافقان و مسجد ضرار ساختن ایشان",
+      "frame_map": null
+    },
+    "78": {
+      "couplets": 40,
+      "first_seq": 2853,
+      "last_seq": 2892,
+      "sha256": "c36bbdaf1851341edb2b468cfb31c5a220a4c2ba8a22441f962e63257a18210a",
+      "title": "بخش ۷۸ - فریفتن منافقان پیغامبر را علیه السلام تا به مسجد ضرارش برند",
+      "frame_map": null
+    },
+    "79": {
+      "couplets": 23,
+      "first_seq": 2893,
+      "last_seq": 2915,
+      "sha256": "a9e70fcc47ab5688db193b4540a7b087b6d615808148729372071c5607f23c5f",
+      "title": "بخش ۷۹ - اندیشیدن یکی از صحابه بانکار کی رسول چرا ستاری نمی‌کند",
+      "frame_map": null
+    },
+    "80": {
+      "couplets": 12,
+      "first_seq": 2916,
+      "last_seq": 2927,
+      "sha256": "415c01b8b79bbf45ad7bc2c43902da13c86191d7efa211f67c0049e2aabd5110",
+      "title": "بخش ۸۰ - قصهٔ آن شخص کی اشتر ضالهٔ خود می‌جست و می‌پرسید",
+      "frame_map": null
+    },
+    "81": {
+      "couplets": 24,
+      "first_seq": 2928,
+      "last_seq": 2951,
+      "sha256": "c203be1ac079cd170abc8b5061683a62db4f101cc61f95fcda3b175514f8930b",
+      "title": "بخش ۸۱ - متردد شدن در میان مذهبهای مخالف و بیرون‌شو و مخلص یافتن",
+      "frame_map": null
+    },
+    "82": {
+      "couplets": 26,
+      "first_seq": 2952,
+      "last_seq": 2977,
+      "sha256": "084f8d90d152604db744f8fcac833728bf95a9dd59a4b05b9ba5c759d9ef77b0",
+      "title": "بخش ۸۲ - امتحان هر چیزی تا ظاهر شود خیر و شری کی در ویست",
+      "frame_map": null
+    },
+    "83": {
+      "couplets": 43,
+      "first_seq": 2978,
+      "last_seq": 3020,
+      "sha256": "0006fa5e23582b68bb305816d9a3600192190ddf37b9f6737e469110cad1f539",
+      "title": "بخش ۸۳ - شرح فایدهٔ حکایت آن شخص شتر جوینده",
+      "frame_map": null
+    },
+    "84": {
+      "couplets": 11,
+      "first_seq": 3021,
+      "last_seq": 3031,
+      "sha256": "1b82ef5df2275a8f363826e23403f79c21028f352ddd755cc10923345899f779",
+      "title": "بخش ۸۴ - بیان آنک در هر نفسی فتنهٔ مسجد ضرار هست",
+      "frame_map": null
+    },
+    "85": {
+      "couplets": 19,
+      "first_seq": 3032,
+      "last_seq": 3050,
+      "sha256": "92b037d7397bf2211c7364309b97532b715caf146b65ac1607ab1571c6b1c2de",
+      "title": "بخش ۸۵ - حکایت هندو کی با یار خود جنگ می‌کرد بر کاری و خبر نداشت کی او هم بدان مبتلاست",
+      "frame_map": null
+    },
+    "86": {
+      "couplets": 13,
+      "first_seq": 3051,
+      "last_seq": 3063,
+      "sha256": "6f23a74f9d80367bf83a1d08d49c7edfec74d1fdb388fd59b736107522f47911",
+      "title": "بخش ۸۶ - قصد کردن غزان بکشتن یک مردی تا آن دگر بترسد",
+      "frame_map": null
+    },
+    "87": {
+      "couplets": 29,
+      "first_seq": 3064,
+      "last_seq": 3092,
+      "sha256": "f942ee36243bdf3dcab3ebf8ea6307d108361823b446d1139d1d2a96962d31a4",
+      "title": "بخش ۸۷ - بیان حال خودپرستان و ناشکران در نعمت وجود انبیا و اولیا علیهم السلام",
+      "frame_map": null
+    },
+    "88": {
+      "couplets": 28,
+      "first_seq": 3093,
+      "last_seq": 3120,
+      "sha256": "6eb2da07cf5b61163b8ef79ca9657f29e8d1bf08974e96a429bbcc0557b31f7a",
+      "title": "بخش ۸۸ - شکایت گفتن پیرمردی به طبیب از رنجوریها و جواب گفتن طبیب او را",
+      "frame_map": null
+    },
+    "89": {
+      "couplets": 39,
+      "first_seq": 3121,
+      "last_seq": 3159,
+      "sha256": "f72a0b2307b72a8dcb098c59a0122d99d72b0f33d9b729f9ad644b25a1fd835f",
+      "title": "بخش ۸۹ - قصهٔ جوحی و آن کودک کی پیش جنازهٔ پدر خویش نوحه می‌کرد",
+      "frame_map": null
+    },
+    "90": {
+      "couplets": 8,
+      "first_seq": 3160,
+      "last_seq": 3167,
+      "sha256": "e815960526ade76422d765e1b463c6a874b5307520422e983851ab45ae138619",
+      "title": "بخش ۹۰ - ترسیدن کودک از آن شخص صاحب جثه و گفتن آن شخص کی ای کودک مترس کی من نامردم",
+      "frame_map": null
+    },
+    "91": {
+      "couplets": 13,
+      "first_seq": 3168,
+      "last_seq": 3180,
+      "sha256": "91530b00de45ff3c2608b57299d4528c76705fc6618f666080819d77af27f412",
+      "title": "بخش ۹۱ - قصهٔ تیراندازی و ترسیدن او از سواری کی در بیشه می‌رفت",
+      "frame_map": null
+    },
+    "92": {
+      "couplets": 34,
+      "first_seq": 3181,
+      "last_seq": 3214,
+      "sha256": "04871ed81ed5c60b316e50dfcb1717b905e1b8c31a0012fab8c25e85dee4014c",
+      "title": "بخش ۹۲ - قصهٔ اعرابی و ریگ در جوال کردن و ملامت کردن آن فیلسوف او را",
+      "frame_map": null
+    },
+    "93": {
+      "couplets": 30,
+      "first_seq": 3215,
+      "last_seq": 3244,
+      "sha256": "02ecb6ab71fa699fa4f6b786e83300a0e6a2696b9d4f1651a21380e658a8b3d3",
+      "title": "بخش ۹۳ - کرامات ابراهیم ادهم قدس الله سره بر لب دریا",
+      "frame_map": null
+    },
+    "94": {
+      "couplets": 63,
+      "first_seq": 3245,
+      "last_seq": 3307,
+      "sha256": "9ca11b35e8a3256f0237e5a0f42120442c2ca45b379134b2f2cc18dd2ed68a0e",
+      "title": "بخش ۹۴ - آغاز منور شدن عارف بنور غیب‌بین",
+      "frame_map": null
+    },
+    "95": {
+      "couplets": 37,
+      "first_seq": 3308,
+      "last_seq": 3344,
+      "sha256": "8f4e126fced131e74064b1c47f3ddefaa71f9d236f87b13838cf41f7875c4aaa",
+      "title": "بخش ۹۵ - طعن زدن بیگانه در شیخ و جواب گفتن مرید شیخ او را",
+      "frame_map": null
+    },
+    "96": {
+      "couplets": 28,
+      "first_seq": 3345,
+      "last_seq": 3372,
+      "sha256": "a7ab7ab372c865ee01d33597fc7ab28cf12817848bb519d0a56da8ce7943881d",
+      "title": "بخش ۹۶ - بقیهٔ قصهٔ ابراهیم ادهم بر لب آن دریا",
+      "frame_map": null
+    },
+    "97": {
+      "couplets": 34,
+      "first_seq": 3373,
+      "last_seq": 3406,
+      "sha256": "81dc0858c35db4881cea12f1d6f7ce8022826a43e9683ace3cabe54087f8090a",
+      "title": "بخش ۹۷ - دعوی کردن آن شخص کی خدای تعالی مرا نمی‌گیرد به گناه و جواب گفتن شعیب علیه السلام مرورا",
+      "frame_map": null
+    },
+    "98": {
+      "couplets": 26,
+      "first_seq": 3407,
+      "last_seq": 3432,
+      "sha256": "9814697be101cd2ecf0b0e04059a88419bbb3dba3c60bf54944a78d7f75d79b1",
+      "title": "بخش ۹۸ - بقیهٔ قصهٔ طعنه زدن آن مرد بیگانه در شیخ",
+      "frame_map": null
+    },
+    "99": {
+      "couplets": 12,
+      "first_seq": 3433,
+      "last_seq": 3444,
+      "sha256": "839084c43642f9f67457c8c2646f5f4f1b6dc142932728fcb99b1079288af55b",
+      "title": "بخش ۹۹ - گفتن عایشه رضی‌الله عنها مصطفی را علیه‌السلام کی تو بی مصلی به هر جا نماز می‌کنی، چونست؟",
+      "frame_map": null
+    },
+    "100": {
+      "couplets": 42,
+      "first_seq": 3445,
+      "last_seq": 3486,
+      "sha256": "85f3b6b5c2b21f789466688f8fe337c11ee1ea2f6dbd029abfb5294803daf5de",
+      "title": "بخش ۱۰۰ - کشیدن موش مهار شتر را و معجب  شدن موش در خود",
+      "frame_map": null
+    },
+    "101": {
+      "couplets": 28,
+      "first_seq": 3487,
+      "last_seq": 3514,
+      "sha256": "35f391ac862431f03b8b517a6c04c5f5ec6095a96d1cdd0200d85486d531295d",
+      "title": "بخش ۱۰۱ - کرامات آن درویش کی در کشتی متهمش کردند",
+      "frame_map": null
+    },
+    "102": {
+      "couplets": 20,
+      "first_seq": 3515,
+      "last_seq": 3534,
+      "sha256": "fac66e33658f749ae008d588cc2c388fed46a24e506634eaba37770232632339",
+      "title": "بخش ۱۰۲ - تشنیع صوفیان بر آن صوفی کی پیش شیخ بسیار می‌گوید",
+      "frame_map": null
+    },
+    "103": {
+      "couplets": 47,
+      "first_seq": 3535,
+      "last_seq": 3581,
+      "sha256": "41db615749985f9d2e58c339ba69ea90e0917eba0e46cae22da23e3fc7b814ef",
+      "title": "بخش ۱۰۳ - عذر گفتن فقیر به شیخ",
+      "frame_map": null
+    },
+    "104": {
+      "couplets": 29,
+      "first_seq": 3582,
+      "last_seq": 3610,
+      "sha256": "9acf54e98efbcdb12008b41c5c9d3c5e85c3d88b712f852dbb77cd39ebae9c8e",
+      "title": "بخش ۱۰۴ - بیان دعویی که عین آن دعوی گواه  صدق خویش است",
+      "frame_map": null
+    },
+    "105": {
+      "couplets": 5,
+      "first_seq": 3611,
+      "last_seq": 3615,
+      "sha256": "14d1c2acc16a302564936e5dd90b6ae9033b6f9e9a6fcc35fc626f3b32764bd0",
+      "title": "بخش ۱۰۵ - سجده کردن یحیی علیه السلام در شکم  مادر مسیح را علیه السلام",
+      "frame_map": null
+    },
+    "106": {
+      "couplets": 5,
+      "first_seq": 3616,
+      "last_seq": 3620,
+      "sha256": "77f1da00ed46eb0048db9cb05b09feecebf9d3e27166c05b60d97939f24eb564",
+      "title": "بخش ۱۰۶ - اشکال آوردن برین قصه",
+      "frame_map": null
+    },
+    "107": {
+      "couplets": 13,
+      "first_seq": 3621,
+      "last_seq": 3633,
+      "sha256": "64383d8d787fe118c6ce8077e8ea58e58f17a1cb5f7d3fb47d33cbee22cee47a",
+      "title": "بخش ۱۰۷ - جواب اشکال",
+      "frame_map": null
+    },
+    "108": {
+      "couplets": 11,
+      "first_seq": 3634,
+      "last_seq": 3644,
+      "sha256": "5757ca25212e7f2a69b72615be345ed2307a153ccfb8008e2d473f0b42a01eff",
+      "title": "بخش ۱۰۸ - سخن گفتن به زبان حال و فهم کردن آن",
+      "frame_map": null
+    },
+    "109": {
+      "couplets": 5,
+      "first_seq": 3645,
+      "last_seq": 3649,
+      "sha256": "5a90539cb13b9ca397f5b2d78a80ca72545bbd45a663ca13c8d917ae029e2f47",
+      "title": "بخش ۱۰۹ - پذیرا آمدن سخن باطل در دل باطلان",
+      "frame_map": null
+    },
+    "110": {
+      "couplets": 18,
+      "first_seq": 3650,
+      "last_seq": 3667,
+      "sha256": "5570f3344a5ef669dc411e7ce3984ff68a70cc803fa69d2a1f071a41735a8b3f",
+      "title": "بخش ۱۱۰ - جستن آن درخت کی هر که میوهٔ  آن درخت خورد نمیرد",
+      "frame_map": null
+    },
+    "111": {
+      "couplets": 22,
+      "first_seq": 3668,
+      "last_seq": 3689,
+      "sha256": "870c3cf1ac3df4efcff122b8d11bce5674d37d925e0ea607a6ab6b8f512432e1",
+      "title": "بخش ۱۱۱ - شرح کردن شیخ سِرّ آن درخت با آن طالب مقلد",
+      "frame_map": null
+    },
+    "112": {
+      "couplets": 32,
+      "first_seq": 3690,
+      "last_seq": 3721,
+      "sha256": "0a124a5f45aceb1a9bfe153cb94716d9ad905a96290612413aca0280f1b0bdb0",
+      "title": "بخش ۱۱۲ - منازعت چهار کس جهت انگور کی هر یکی به نام دیگر فهم کرده بود آن را",
+      "frame_map": null
+    },
+    "113": {
+      "couplets": 53,
+      "first_seq": 3722,
+      "last_seq": 3774,
+      "sha256": "526ee6a347069f9ac98d8020cc859d8b035feec42e74e4f49c400e9be88441a8",
+      "title": "بخش ۱۱۳ - برخاستن مخالفت و عداوت از میان انصار  به برکات رسول علیه السلام",
+      "frame_map": null
+    },
+    "114": {
+      "couplets": 22,
+      "first_seq": 3775,
+      "last_seq": 3796,
+      "sha256": "464b8d37df6a31334804d86a546251b4a5465cec5d1fd33d5c628d554f409fde",
+      "title": "بخش ۱۱۴ - قصهٔ بط بچگان کی مرغ خانگی پروردشان",
+      "frame_map": null
+    },
+    "115": {
+      "couplets": 23,
+      "first_seq": 3797,
+      "last_seq": 3819,
+      "sha256": "0cb029ad1b75dca67c49a3f9a94e3242f4f3d9e157a33e2d84a97168f60fa85c",
+      "title": "بخش ۱۱۵ - حیران شدن حاجیان در کرامات آن زاهد  کی در بادیه تنهاش یافتند",
+      "frame_map": null
+    }
+  }
+}

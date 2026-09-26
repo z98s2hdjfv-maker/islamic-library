@@ -1,6 +1,30 @@
 key	author	work	attribution	category	source_type	note	corpus_path	records
+attar.asrarnama.a	attar	'Attar, Asrar-nama	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/asrarnama.a.jsonl	3297
+attar.bayanalirshad.bi	attar	Bayan al-irshad (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/bayanalirshad.bi.jsonl	1349
+attar.bisarnama.bs	attar	Bi-sar-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/bisarnama.bs.jsonl	214
+attar.bulbulnama.bb	attar	Bulbul-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/bulbulnama.bb.jsonl	597
+attar.diwan.d	attar	'Attar, Divan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/diwan.d.jsonl	11189
+attar.futuwwatnama.f	attar	Futuwwat-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/futuwwatnama.f.jsonl	80
+attar.hilajnama.hj	attar	Hilaj-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/hilajnama.hj.jsonl	7615
+attar.ilahinama.i	attar	'Attar, Ilahi-nama	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/ilahinama.i.jsonl	6828
+attar.jawharaldhat.jz	attar	Jawhar al-dhat (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/jawharaldhat.jz.jsonl	23659
+attar.khusrawnama.x	attar	'Attar, Khusraw-nama	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/khusrawnama.x.jsonl	8364
+attar.mantiq.m	attar	'Attar, Mantiq al-tayr	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/mantiq.m.jsonl	4697
+attar.mazhar.mz	attar	Mazhar (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/mazhar.mz.jsonl	1050
+attar.mazharalajaib.ma	attar	Mazhar al-'aja'ib (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/mazharalajaib.ma.jsonl	5530
+attar.mukhtarnama.k	attar	'Attar, Mukhtar-nama	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/mukhtarnama.k.jsonl	4600
+attar.musibatnama.u	attar	'Attar, Musibat-nama	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/musibatnama.u.jsonl	7547
+attar.nuzhatalahbab.na	attar	Nuzhat al-ahbab (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/nuzhatalahbab.na.jsonl	340
+attar.pandnama.p	attar	Pand-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/pandnama.p.jsonl	853
+attar.siyfasl.sf	attar	Si fasl (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/siyfasl.sf.jsonl	1121
+attar.tadhkira.t	attar	'Attar, Tadhkirat al-awliya	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/tadhkira.t.jsonl	6457
+attar.ushturnama.us	attar	Ushtur-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/ushturnama.us.jsonl	4463
+attar.wuslatnama.ws	attar	Wuslat-nama (attributed to 'Attar)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/attar/wuslatnama.ws.jsonl	1669
+awhad.rubaiyat.rb	awhad	Awhad al-Din Kirmani, ruba'is	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/awhad/rubaiyat.rb.jsonl	3526
+bahawalad.maarif.j	bahawalad	Baha' Walad, Ma'arif	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/bahawalad/maarif.j.jsonl	687
 ghazali.arbain	ghazali	Kitab al-Arba'in fi usul al-din	secure	primary	shamela		corpus/ghazali/arbain.jsonl	189
 ghazali.ihya_with_iraqi	ghazali	Ihya' 'ulum al-din, with al-'Iraqi's takhrij (al-Mughni 'an haml al-asfar)	secure	primary	shamela	Dar al-Ma'rifa text; al-'Iraqi's hadith grading alongside	corpus/ghazali/ihya_with_iraqi.jsonl	3326
+ghazali.kimiya.k	ghazali	al-Ghazali, Kimiya-yi sa'adat	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/ghazali/kimiya.k.jsonl	3355
 ghazali.mukashafa	ghazali	Mukashafat al-qulub	spurious_attested	primary	shamela	generally held not to be al-Ghazali's	corpus/ghazali/mukashafa.jsonl	488
 ibnarabi.anqa_mughrib	ibnarabi	'Anqa' mughrib, ed. Bahnasawi Ahmad al-Sayyid al-Sharif	secure	primary	typed		corpus/ibnarabi/anqa_mughrib.jsonl	903
 ibnarabi.fusus.nizamaldin_ocr	ibnarabi	Fusus al-hikam, ed. Sayyid Nizam al-Din Ahmad (Cairo 2015, critical)	secure	primary	ocr_uncorrected	archive.org OCR of the publisher PDF; uncorrected; PDF on archive.org item Futuhat-Fusus-Critical-editions	corpus/ibnarabi/fusus.nizamaldin_ocr.jsonl	520
@@ -23,7 +47,16 @@ ibnarabi.tafsir_qashani	ibnarabi	'Tafsir Ibn 'Arabi' (= al-Qashani, Ta'wilat)	sp
 ibnarabi.taj_tarajim	ibnarabi	Taj al-tarajim	secure	primary	typed		corpus/ibnarabi/taj_tarajim.jsonl	654
 ibnarabi.tajalliyat_ibnsawdakin	ibnarabi	Kitab al-Tajalliyat al-ilahiyya, with Ibn Sawdakin's notes	secure	primary_with_commentary	typed	Ibn Sawdakin's ta'liqat interleaved	corpus/ibnarabi/tajalliyat_ibnsawdakin.jsonl	5194
 ibnarabi.tanazzulat_mawsiliyya	ibnarabi	al-Tanazzulat al-Mawsiliyya	secure	primary	typed		corpus/ibnarabi/tanazzulat_mawsiliyya.jsonl	2598
+iraqi.diwan.d	iraqi	'Iraqi, Divan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/iraqi/diwan.d.jsonl	4734
+iraqi.istilahat.i	iraqi	'Iraqi, Risala-yi istilahat	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/iraqi/istilahat.i.jsonl	323
+iraqi.lamaat.l	iraqi	'Iraqi, Lama'at	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/iraqi/lamaat.l.jsonl	360
+iraqi.ushshaqnama.u	iraqi	'Iraqi, 'Ushshaq-nama	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/iraqi/ushshaqnama.u.jsonl	1064
+jami.arbain.a	jami	Jami, Risala-yi arba'in	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/arbain.a.jsonl	86
+jami.baharistan.b	jami	Jami, Baharistan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/baharistan.b.jsonl	1260
+jami.diwan.d	jami	Jami, Divan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/diwan.d.jsonl	16685
+jami.haftawrang.h	jami	Jami, Haft awrang	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/haftawrang.h.jsonl	22294
 jilani.diwan	jilani	Diwan Ghawth al-A'zam	doubtful	primary	shamela	Diwan attributed to al-Jilani	corpus/jilani/diwan.jsonl	51
+jilani.diwan.gh	jilani	Divan attributed to 'Abd al-Qadir al-Jilani: ghazals	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jilani/diwan.gh.jsonl	641
 jilani.fathrabbani	jilani	al-Fath al-rabbani wa-l-fayd al-rahmani	secure	primary	shamela	ed. al-Sayih and Wahba, Cairo; Shamela page numbers follow the print	corpus/jilani/fathrabbani.jsonl	377
 jilani.futuhghayb.azqul	jilani	Futuh al-ghayb, ed. 'Azqul	secure	primary	shamela		corpus/jilani/futuhghayb.azqul.jsonl	189
 jilani.futuhghayb.darwish	jilani	Futuh al-ghayb (= Adab al-suluk), ed. al-Darwish	secure	primary	shamela		corpus/jilani/futuhghayb.darwish.jsonl	295
@@ -31,3 +64,20 @@ jilani.futuhghayb.ilmiyya	jilani	Futuh al-ghayb, Dar al-Kutub al-'Ilmiyya	secure
 jilani.qalaid	jilani	Qala'id al-jawahir (al-Tadifi, hagiography of al-Jilani)	secure	about	shamela	not by al-Jilani	corpus/jilani/qalaid.jsonl	222
 jilani.sayf	jilani	al-Sayf al-rabbani (defence of al-Jilani, later author)	secure	about	shamela	not by al-Jilani	corpus/jilani/sayf.jsonl	108
 jilani.sirrasrar	jilani	Sirr al-asrar	doubtful	primary	shamela	attribution debated	corpus/jilani/sirrasrar.jsonl	61
+maybudi.kashf.t	maybudi	Maybudi, Kashf al-asrar wa 'uddat al-abrar	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/maybudi/kashf.t.jsonl	30143
+rumi.diwan.gh	rumi	Divan-i Shams: ghazals	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/rumi/diwan.gh.jsonl	34662
+rumi.diwan.ms	rumi	Divan-i Shams: mustadrakat	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/rumi/diwan.ms.jsonl	17
+rumi.diwan.rb	rumi	Divan-i Shams: quatrains	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/rumi/diwan.rb.jsonl	3988
+rumi.diwan.tj	rumi	Divan-i Shams: tarji'at	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/rumi/diwan.tj.jsonl	1675
+rumi.fihi.d	rumi	Fihi ma fihi	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/rumi/fihi.d.jsonl	269
+rumi.majalis.m	rumi	Majalis-i sab'a	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/rumi/majalis.m.jsonl	669
+sanai.diwan.d	sanai	Sana'i, Divan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/sanai/diwan.d.jsonl	13314
+sanai.hadiqa.h	sanai	Sana'i, Hadiqat al-haqiqa	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/sanai/hadiqa.h.jsonl	11862
+sanai.tariq.t	sanai	Tariq al-tahqiq (attributed to Sana'i)	spurious_attested	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/sanai/tariq.t.jsonl	938
+shabistari.gulshan.g	shabistari	Shabistari, Gulshan-i raz	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/shabistari/gulshan.g.jsonl	1034
+shabistari.haqqalyaqin.h	shabistari	Shabistari, Haqq al-yaqin	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/shabistari/haqqalyaqin.h.jsonl	150
+shabistari.kanz.k	shabistari	Kanz al-haqa'iq (attributed to Shabistari)	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/shabistari/kanz.k.jsonl	650
+shabistari.maratib.r	shabistari	Maratib al-'arifin (attributed to Shabistari)	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/shabistari/maratib.r.jsonl	66
+shabistari.mirat.m	shabistari	Shabistari, Mir'at al-muhaqqiqin	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/shabistari/mirat.m.jsonl	94
+shabistari.saadatnama.s	shabistari	Shabistari, Sa'adat-nama	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/shabistari/saadatnama.s.jsonl	1572
+sultanwalad.waladnama.s	sultanwalad	Sultan Walad, Waladnama	unreviewed	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary.json	corpus/sultanwalad/waladnama.s.jsonl	9202
