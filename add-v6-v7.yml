@@ -1,0 +1,25 @@
+name: Add v6 and v7
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Place v6 + v7 files
+        run: |
+          mv add_v6_v7.py /tmp/add_v6_v7.py
+          python3 /tmp/add_v6_v7.py
+      - name: Commit and push
+        run: |
+          git config user.name "library-builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -q --cached add_v6_v7.py || true
+          git rm -q .github/workflows/add-v6-v7.yml
+          git add -A
+          git commit -m "Add v6 Rumi circle and v7 Persian addendum (Ganjoor a64968e7)"
+          git push
