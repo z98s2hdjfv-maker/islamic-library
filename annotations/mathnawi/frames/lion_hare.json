@@ -1,0 +1,330 @@
+{
+ "_note": "Pilot frame map for daftar1 sh42-76 (supplied with the pilot task).",
+ "annotation_method": "pilot_map",
+ "frames": {
+  "42": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "beasts",
+   "character",
+   "rejects"
+  ],
+  "43": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "lion",
+   "character",
+   "endorses"
+  ],
+  "44": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "beasts",
+   "character",
+   "rejects"
+  ],
+  "45": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "lion",
+   "character",
+   "endorses"
+  ],
+  "46": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "beasts",
+   "character",
+   "rejects"
+  ],
+  "47": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "lion",
+   "character",
+   "endorses"
+  ],
+  "48": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "beasts",
+   "character",
+   "rejects"
+  ],
+  "49": [
+   [
+    "lion_and_hare",
+    "debate",
+    "azrael_and_solomon"
+   ],
+   "narrator",
+   "narrator",
+   "unresolved"
+  ],
+  "50": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "lion",
+   "character",
+   "endorses"
+  ],
+  "51": [
+   [
+    "lion_and_hare",
+    "debate"
+   ],
+   "narrator",
+   "narrator",
+   "verdict_for_lion"
+  ],
+  "52": [
+   [
+    "lion_and_hare",
+    "hare_plan"
+   ],
+   "beasts",
+   "character",
+   "rejects"
+  ],
+  "53": [
+   [
+    "lion_and_hare",
+    "hare_plan"
+   ],
+   "hare",
+   "character",
+   "endorses"
+  ],
+  "54": [
+   [
+    "lion_and_hare",
+    "hare_plan"
+   ],
+   "beasts",
+   "character",
+   "rejects"
+  ],
+  "55": [
+   [
+    "lion_and_hare",
+    "hare_plan"
+   ],
+   "hare",
+   "character",
+   "endorses"
+  ],
+  "56": [
+   [
+    "lion_and_hare",
+    "hare_plan",
+    "digression_knowledge"
+   ],
+   "narrator",
+   "narrator",
+   "author"
+  ],
+  "57": [
+   [
+    "lion_and_hare",
+    "hare_plan"
+   ],
+   "beasts",
+   "character",
+   "silent"
+  ],
+  "58": [
+   [
+    "lion_and_hare",
+    "hare_plan"
+   ],
+   "hare",
+   "character",
+   "endorses"
+  ],
+  "59": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "mixed",
+   "blended",
+   "silent"
+  ],
+  "60": [
+   [
+    "lion_and_hare",
+    "hare_ruse",
+    "digression_fly"
+   ],
+   "narrator",
+   "narrator",
+   "author"
+  ],
+  "61": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "lion",
+   "character",
+   "silent"
+  ],
+  "62": [
+   [
+    "lion_and_hare",
+    "hare_ruse",
+    "digression_reason"
+   ],
+   "narrator",
+   "narrator",
+   "author"
+  ],
+  "63": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "mixed",
+   "blended",
+   "silent"
+  ],
+  "64": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "hare",
+   "character",
+   "approves_ruse"
+  ],
+  "65": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "lion",
+   "character",
+   "silent"
+  ],
+  "66": [
+   [
+    "lion_and_hare",
+    "hare_ruse",
+    "hoopoe_and_solomon"
+   ],
+   "mixed",
+   "blended",
+   "silent"
+  ],
+  "67": [
+   [
+    "lion_and_hare",
+    "hare_ruse",
+    "hoopoe_and_solomon"
+   ],
+   "crow",
+   "character",
+   "rejects"
+  ],
+  "68": [
+   [
+    "lion_and_hare",
+    "hare_ruse",
+    "hoopoe_and_solomon"
+   ],
+   "hoopoe",
+   "character",
+   "endorses"
+  ],
+  "69": [
+   [
+    "lion_and_hare",
+    "hare_ruse",
+    "hoopoe_and_solomon",
+    "adam_and_qada"
+   ],
+   "hoopoe",
+   "blended",
+   "endorses"
+  ],
+  "70": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "hare",
+   "character",
+   "silent"
+  ],
+  "71": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "hare",
+   "character",
+   "silent"
+  ],
+  "72": [
+   [
+    "lion_and_hare",
+    "hare_ruse"
+   ],
+   "narrator",
+   "narrator",
+   "author"
+  ],
+  "73": [
+   [
+    "lion_and_hare",
+    "resolution"
+   ],
+   "hare",
+   "character",
+   "silent"
+  ],
+  "74": [
+   [
+    "lion_and_hare",
+    "resolution"
+   ],
+   "beasts",
+   "character",
+   "silent"
+  ],
+  "75": [
+   [
+    "lion_and_hare",
+    "resolution"
+   ],
+   "hare",
+   "blended",
+   "endorses"
+  ],
+  "76": [
+   [
+    "lion_and_hare",
+    "digression_greater_jihad"
+   ],
+   "narrator",
+   "narrator",
+   "author"
+  ]
+ }
+}

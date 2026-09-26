@@ -1,0 +1,13 @@
+{
+  "_note": "Section-level frame/speaker map for Ganjoor daftar1 sh77-83, drafted by Claude from the text. model_suggested / unverified - review before promoting.",
+  "annotation_method": "model_suggested",
+  "frames": {
+    "77": [["umar_and_envoy", "arrival"], "mixed", "blended", "author"],
+    "78": [["umar_and_envoy", "meeting"], "mixed", "blended", "endorses"],
+    "79": [["umar_and_envoy", "first_question", "digression_jabr"], "umar", "blended", "endorses"],
+    "80": [["umar_and_envoy", "digression_adam_and_iblis"], "narrator", "narrator", "author"],
+    "81": [["umar_and_envoy", "digression_wa_huwa_maakum"], "narrator", "narrator", "author"],
+    "82": [["umar_and_envoy", "second_question"], "umar", "character", "endorses"],
+    "83": [["umar_and_envoy", "envoy_transformed", "digression_cage"], "narrator", "narrator", "author"]
+  }
+}

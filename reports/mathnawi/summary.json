@@ -1,0 +1,42 @@
+{
+  "source": "ganjoor-data",
+  "commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+  "books": {
+    "1": {
+      "sections": 172,
+      "couplets": 4013,
+      "warnings": 61,
+      "annotated_sections": 55
+    },
+    "2": {
+      "sections": 115,
+      "couplets": 3819,
+      "warnings": 12,
+      "annotated_sections": 0
+    },
+    "3": {
+      "sections": 228,
+      "couplets": 4809,
+      "warnings": 7,
+      "annotated_sections": 0
+    },
+    "4": {
+      "sections": 139,
+      "couplets": 3851,
+      "warnings": 6,
+      "annotated_sections": 0
+    },
+    "5": {
+      "sections": 178,
+      "couplets": 4233,
+      "warnings": 29,
+      "annotated_sections": 0
+    },
+    "6": {
+      "sections": 140,
+      "couplets": 4912,
+      "warnings": 3,
+      "annotated_sections": 0
+    }
+  }
+}

@@ -1,0 +1,1287 @@
+{
+ "source": "OpenITI (github.com/OpenITI)",
+ "license": "CC BY-NC-SA 4.0",
+ "repos": {
+  "0525AH": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+  "0575AH": "298735a175459386cc899ce0b8c3154d81dd9530",
+  "0650AH": "287c0cc31845e7f63afb4c0e3c776fc13b45f00f"
+ },
+ "works": {
+  "0505Ghazali.AsnafMaghrurin": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.AsnafMaghrurin.Shamela0009198-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.AsnafMaghrurin.JK010255-ara1",
+     "sha256": "edf5045dc1949d0c684dafb87ed62038bb99b6c9214de2a0dc52796b65f0599b",
+     "bytes": 67749,
+     "source_type": "typed",
+     "completed": false,
+     "units": 161,
+     "pages": 11,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    },
+    {
+     "file": "0505Ghazali.AsnafMaghrurin.Shamela0009198-ara1",
+     "sha256": "69013f04ef2cc5b083dc601f0d98e60d8c5491a8d282cae851eac3e3721d713e",
+     "bytes": 68598,
+     "source_type": "typed",
+     "completed": false,
+     "units": 242,
+     "pages": 43,
+     "edition_meta": {
+      "040.EdEDITOR": "عبد اللطيف عاشور",
+      "043.EdPUBLISHER": "مكتبة القرآن للنشر والتوزيع، القاهرة - مصر",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.BidayatHidaya": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.BidayatHidaya.Shamela0012718-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.BidayatHidaya.Shamela0012718-ara1",
+     "sha256": "15f75e3f926f249e3301143dad2ac4313b086527ac8dbcdf3252486a1f077263",
+     "bytes": 145181,
+     "source_type": "typed",
+     "completed": false,
+     "units": 445,
+     "pages": 45,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور محمد زينهم محمد عزب",
+      "043.EdPUBLISHER": "مكتبة مدبولي، القاهرة",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Fadaih": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Fadaih.Rafed0003529-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Fadaih.JK000345-ara1",
+     "sha256": "254cd774175cd5b9bc3a3e475ecdcbb2061bbd6a8987a8629a66a0a34a39dd0d",
+     "bytes": 468417,
+     "source_type": "typed",
+     "completed": false,
+     "units": 365,
+     "pages": 193,
+     "edition_meta": {
+      "040.EdEDITOR": "عبد الرحمن بدوي",
+      "043.EdPUBLISHER": "مؤسسة دار الكتب الثقافية",
+      "044.EdPLACE": "الكويت",
+      "045.EdYEAR": "NODATA"
+     }
+    },
+    {
+     "file": "0505Ghazali.Fadaih.Rafed0003529-ara1",
+     "sha256": "87347af6d8b0eeb3280cb0919065cb7e1d73ba93ef2323e93b0d33387dc0167d",
+     "bytes": 540145,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1788,
+     "pages": 202,
+     "edition_meta": {
+      "المحقق": "محمد علي القطب",
+      "الناشر": "المكتبة العصريّة",
+      "الطبعة": "٠"
+     }
+    },
+    {
+     "file": "0505Ghazali.Fadaih.ShamAY0033901-ara1",
+     "sha256": "4ab302aab9957c0d03d7dd9d3e79ae7bdc2d21c43dd76c856e85011ca05337af",
+     "bytes": 538968,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1045,
+     "pages": 193,
+     "edition_meta": {
+      "عدد الأجزاء": "1",
+      "الناشر": "مكتبة العصرية - بيروت"
+     }
+    },
+    {
+     "file": "0505Ghazali.Fadaih.Shamela0006554-ara1",
+     "sha256": "eb446004807d363eeeb173c9b963bcc04fdf0512bd6e53fcd51939d3a280c6c8",
+     "bytes": 468214,
+     "source_type": "typed",
+     "completed": false,
+     "units": 683,
+     "pages": 225,
+     "edition_meta": {
+      "040.EdEDITOR": "عبد الرحمن بدوي",
+      "043.EdPUBLISHER": "مؤسسة دار الكتب الثقافية - الكويت",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.IhyaCulumDin": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.IhyaCulumDin.Shamela0009472-ara1.completed",
+   "versions": [
+    {
+     "file": "0505Ghazali.IhyaCulumDin.JK000001-ara1",
+     "sha256": "0780031c3e4a55b65bdf45d7cca890869757cbedaa46a21273e9378428466018",
+     "bytes": 9470821,
+     "source_type": "typed",
+     "completed": false,
+     "units": 15048,
+     "pages": 1634,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار االمعرفة",
+      "044.EdPLACE": "بيروت",
+      "045.EdYEAR": "NODATA"
+     }
+    },
+    {
+     "file": "0505Ghazali.IhyaCulumDin.Shamela0009472-ara1.completed",
+     "sha256": "e60d73c72033e5ca1be5ac3bf52f5fa5057aa4a3d1c750f26b9301b6b97e8997",
+     "bytes": 7968487,
+     "source_type": "typed",
+     "completed": true,
+     "units": 16770,
+     "pages": 1705,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار المعرفة - بيروت",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Iqtisad": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Iqtisad.Rafed0003312-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Iqtisad.JK009219-ara1",
+     "sha256": "93c9bd3ed08956429d26e854192fed9ceecffb7178584cd955a15fb260591aff",
+     "bytes": 432563,
+     "source_type": "typed",
+     "completed": false,
+     "units": 325,
+     "pages": 148,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار ومكتبة الهلال",
+      "044.EdPLACE": "لبنان",
+      "045.EdYEAR": "1993م"
+     }
+    },
+    {
+     "file": "0505Ghazali.Iqtisad.Rafed0003312-ara1",
+     "sha256": "c4b79454fecc61a2267c5b0210ba5eb0d55832925276338d35284d4ca4f91895",
+     "bytes": 436025,
+     "source_type": "typed",
+     "completed": false,
+     "units": 918,
+     "pages": 165,
+     "edition_meta": {
+      "الناشر": "دار الكتب العلميّة",
+      "الطبعة": "١"
+     }
+    },
+    {
+     "file": "0505Ghazali.Iqtisad.Shamela0009217-ara1",
+     "sha256": "b6a5ec16a25fc46ce6a27c3190d897d7a020955fe4317f707a46cb39d75a0d6f",
+     "bytes": 430540,
+     "source_type": "typed",
+     "completed": false,
+     "units": 599,
+     "pages": 127,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار الكتب العلمية، بيروت - لبنان",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.JawahirQuran": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.JawahirQuran.Shamela0009883-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.JawahirQuran.JK001110-ara1",
+     "sha256": "8d1116d602990373c9d9b23465cf68c7bfd6d8ea5abbeddf68f798b9f87bc23f",
+     "bytes": 315344,
+     "source_type": "typed",
+     "completed": false,
+     "units": 796,
+     "pages": 189,
+     "edition_meta": {
+      "040.EdEDITOR": "محمد رشيد رضا القباني",
+      "043.EdPUBLISHER": "دار إحياء العلوم",
+      "044.EdPLACE": "لبنان",
+      "045.EdYEAR": "1405هـ- 1985م"
+     }
+    },
+    {
+     "file": "0505Ghazali.JawahirQuran.Shamela0009883-ara1",
+     "sha256": "fef5199e6a7e5a3e3b44bfb6287689005659a2c41717eecd74ffaf33d0340582",
+     "bytes": 327710,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1354,
+     "pages": 207,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور الشيخ محمد رشيد رضا القباني",
+      "043.EdPUBLISHER": "دار إحياء العلوم، بيروت",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.KimiyaSacada": {
+   "attribution": "doubtful",
+   "attribution_note": "Arabic Kimiya: relation to the Persian original to be checked",
+   "alias": null,
+   "primary": "0505Ghazali.KimiyaSacada.Shamela0009261-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.KimiyaSacada.Shamela0009261-ara1",
+     "sha256": "4c4686376be6d3afe45f7160b972d2f7b90729348cda3c33b200cb791f95d4fb",
+     "bytes": 34692,
+     "source_type": "typed",
+     "completed": false,
+     "units": 138,
+     "pages": 18,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MacarijQuds": {
+   "attribution": "doubtful",
+   "attribution_note": "Ma'arij al-quds: attribution disputed",
+   "alias": null,
+   "primary": "0505Ghazali.MacarijQuds.Shamela0006494-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MacarijQuds.JK000061-ara1",
+     "sha256": "97b36b85a86f1f4190f59a22d7836a73303f766ee892ce070d8b5332d71ce2a8",
+     "bytes": 396107,
+     "source_type": "typed",
+     "completed": false,
+     "units": 868,
+     "pages": 162,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار الآفاق الجديدة",
+      "044.EdPLACE": "بيروت",
+      "045.EdYEAR": "1975"
+     }
+    },
+    {
+     "file": "0505Ghazali.MacarijQuds.Shamela0006494-ara1",
+     "sha256": "c5ae3feb5499aec8e756417237fbba8c3f4092759aaa43dd07b3ba119489382d",
+     "bytes": 396818,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1162,
+     "pages": 172,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار الآفاق الجديدة - بيروت",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MahkNazar": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MahkNazar.Shamela0026538-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MahkNazar.Shamela0026538-ara1",
+     "sha256": "95cdab63ddde01dc1b98ea760a31d38c8a82b74b79ab1801033914d2af2fa404",
+     "bytes": 262934,
+     "source_type": "typed",
+     "completed": false,
+     "units": 315,
+     "pages": 76,
+     "edition_meta": {
+      "040.EdEDITOR": "أحمد فريد المزيدي",
+      "043.EdPUBLISHER": "دار الكتب العلمية، بيروت - لبنان",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MajmucatRasail": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MajmucatRasail.Rafed0003457-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MajmucatRasail.Rafed0003457-ara1",
+     "sha256": "285b88b4d297d2d9d8d5f0f409ba7fb2955e50adb1081a5f146d555d5747b3e3",
+     "bytes": 2358013,
+     "source_type": "typed",
+     "completed": false,
+     "units": 4262,
+     "pages": 584,
+     "edition_meta": {
+      "الناشر": "دار الفكر",
+      "الطبعة": "١"
+     }
+    },
+    {
+     "file": "0505Ghazali.MajmucatRasail.ShamAY0034794-ara1",
+     "sha256": "3b7c1c6641dc6010e17f9c4526a81efbaadd5aac8e30c5635230b4b312a464d8",
+     "bytes": 402675,
+     "source_type": "typed",
+     "completed": false,
+     "units": 989,
+     "pages": 164,
+     "edition_meta": {
+      "الطبعة": "الأولى - 1994 م",
+      "الناشر": "دار الفكر - بيروت",
+      "عدد الأجزاء": "1"
+     }
+    },
+    {
+     "file": "0505Ghazali.MajmucatRasail.ShamAY0034797-ara1",
+     "sha256": "7f9d40435a1db70ceebce92a06b0f69405f3460f6679741ae6f90655e920bfb0",
+     "bytes": 2324076,
+     "source_type": "typed",
+     "completed": false,
+     "units": 3613,
+     "pages": 559,
+     "edition_meta": {
+      "الطبعة": "الأولى / 1416 ه",
+      "الناشر": "دار الفكر - بيروت",
+      "عدد الأجزاء": "1"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Mankhul": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Mankhul.Shamela0003960-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Mankhul.JK000155-ara1",
+     "sha256": "93c52c9948ac41aeec3dce9c11b30b2c0f57a699c1592cbbf215672c20ad0eff",
+     "bytes": 529948,
+     "source_type": "typed",
+     "completed": false,
+     "units": 3959,
+     "pages": 494,
+     "edition_meta": {
+      "040.EdEDITOR": "د. محمد حسن هيتو",
+      "043.EdPUBLISHER": "دار الفكر",
+      "044.EdPLACE": "دمشق",
+      "045.EdYEAR": "1400"
+     }
+    },
+    {
+     "file": "0505Ghazali.Mankhul.Shamela0003960-ara1",
+     "sha256": "d9c2e0c87d9b440b19906b9a8b6b0edefa02e0d7c24c1d163d43c95ffd594671",
+     "bytes": 530606,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1515,
+     "pages": 552,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور محمد حسن هيتو",
+      "043.EdPUBLISHER": "دار الفكر المعاصر- بيروت لبنان، دار الفكر دمشق - سورية",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    },
+    {
+     "file": "0505Ghazali.Mankhul.Shia002917-ara1",
+     "sha256": "30166d9ebc3785c471f2480e0e75aad3ab40d84b508d3c23251e2da51b693541",
+     "bytes": 527091,
+     "source_type": "typed",
+     "completed": false,
+     "units": 558,
+     "pages": 553,
+     "edition_meta": {
+      "040.EdEDITOR": "دكتور محمد حسن هيتو",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "1419"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MaqasidFalasifa": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MaqasidFalasifa.ALCorpus00027-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MaqasidFalasifa.ALCorpus00027-ara1",
+     "sha256": "b452d98470c57431fb5b2f977b105f3024e4746535690f3b7e8a74075a6dea87",
+     "bytes": 553621,
+     "source_type": "typed",
+     "completed": false,
+     "units": 433,
+     "pages": 0,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0505Ghazali.MaqsadAsna": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MaqsadAsna.Shamela0006465-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MaqsadAsna.JK000036-ara1",
+     "sha256": "38ae484e7f6a12366744b83b24a4edf971cfea27bfb9bcdcbe83391e3637f5fc",
+     "bytes": 335454,
+     "source_type": "typed",
+     "completed": false,
+     "units": 624,
+     "pages": 152,
+     "edition_meta": {
+      "040.EdEDITOR": "بسام عبد الوهاب الجابي",
+      "043.EdPUBLISHER": "الجفان والجابي",
+      "044.EdPLACE": "قبرص",
+      "045.EdYEAR": "1407 - 1987"
+     }
+    },
+    {
+     "file": "0505Ghazali.MaqsadAsna.Shamela0006465-ara1",
+     "sha256": "a1ac1c80ac46b20b9feba5bd8a3e77dabef4cb3c5d00a326f343a35109bd8322",
+     "bytes": 335775,
+     "source_type": "typed",
+     "completed": false,
+     "units": 889,
+     "pages": 151,
+     "edition_meta": {
+      "040.EdEDITOR": "بسام عبد الوهاب الجابي",
+      "043.EdPUBLISHER": "الجفان والجابي - قبرص",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MicyarCilm": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MicyarCilm.Shamela0026575-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MicyarCilm.JK010716-ara1",
+     "sha256": "b8b0f6a177b89fdc88b873e958fbae88837a352d5fbc73ee29a61435dac4e28e",
+     "bytes": 492146,
+     "source_type": "typed",
+     "completed": false,
+     "units": 615,
+     "pages": 85,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    },
+    {
+     "file": "0505Ghazali.MicyarCilm.Shamela0026575-ara1",
+     "sha256": "2ddf91651376fddd834fbf27ba14c532f3a32303eb1b82860fc2314fd3392259",
+     "bytes": 496594,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1236,
+     "pages": 285,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور سليمان دنيا",
+      "043.EdPUBLISHER": "دار المعارف، مصر",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "1961 م"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MihakkNazar": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MihakkNazar.EScr20230404140902-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MihakkNazar.EScr20230404140902-ara1",
+     "sha256": "9e54d050a9178392f48057738dd96796ddee094faff357bdb554e9e3cf6f5948",
+     "bytes": 335935,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 1467,
+     "pages": 217,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0505Ghazali.MinhajCabidin": {
+   "attribution": "doubtful",
+   "attribution_note": "Minhaj al-'abidin: attribution disputed",
+   "alias": null,
+   "primary": "0505Ghazali.MinhajCabidin.Kraken220414225509-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MinhajCabidin.Kraken220414225509-ara1",
+     "sha256": "356a3efe3436094f59137e42bdb1f78bebcbb9a6351a022aecd62d49dd350dcb",
+     "bytes": 583489,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 1215,
+     "pages": 250,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MishkatAnwar": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MishkatAnwar.Shamela0012421-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MishkatAnwar.JK009401-ara1",
+     "sha256": "8d9ae6ec0d24a62b8e0cc4db9cc5ec9f59a84fa814742d63b9ba91fc1ab518fc",
+     "bytes": 107510,
+     "source_type": "typed",
+     "completed": false,
+     "units": 47,
+     "pages": 20,
+     "edition_meta": {
+      "040.EdEDITOR": "الشيخ عبد العزيز عز الدين السيروان",
+      "043.EdPUBLISHER": "عالم الكتب",
+      "044.EdPLACE": "بيروت / لبنان",
+      "045.EdYEAR": "1407هـ - 1986م"
+     }
+    },
+    {
+     "file": "0505Ghazali.MishkatAnwar.Shamela0012421-ara1",
+     "sha256": "af3410bc2eb1dbe5fb448b53a617a602ba8077289d9cb3ab058486b9db3d3250",
+     "bytes": 187966,
+     "source_type": "typed",
+     "completed": false,
+     "units": 438,
+     "pages": 85,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور أبو العلا عفيفي",
+      "043.EdPUBLISHER": "الدار القومية للطباعة والنشر، القاهرة",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.MizanCamal": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.MizanCamal.JK009289-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.MizanCamal.JK009289-ara1",
+     "sha256": "44e6aedc4b447bddbda761ac227189fe2e4cf54bb29ddbaaa86cfc457a009220",
+     "bytes": 348298,
+     "source_type": "typed",
+     "completed": false,
+     "units": 59,
+     "pages": 28,
+     "edition_meta": {
+      "040.EdEDITOR": "لا يوجد",
+      "043.EdPUBLISHER": "دار الكتاب العربي",
+      "044.EdPLACE": "بيروت/ لبنان",
+      "045.EdYEAR": "1403هـ-1983م"
+     }
+    },
+    {
+     "file": "0505Ghazali.MizanCamal.Shamela0009264-ara1",
+     "sha256": "dd234466595603ddf423a93d8e96b334201aaed7aad6013e9c1f1e14092d324c",
+     "bytes": 344288,
+     "source_type": "typed",
+     "completed": false,
+     "units": 663,
+     "pages": 230,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور سليمان دنيا",
+      "043.EdPUBLISHER": "دار المعارف، مصر",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Munqidh": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Munqidh.ShamAY0033739-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Munqidh.JK009330-ara1",
+     "sha256": "f838132fadafa596be21e9a56d1c07501390d2ad4720af5e8f8c50623c683865",
+     "bytes": 116426,
+     "source_type": "typed",
+     "completed": false,
+     "units": 23,
+     "pages": 10,
+     "edition_meta": {
+      "040.EdEDITOR": "محمد محمد جابر",
+      "043.EdPUBLISHER": "المكتبة الثقافية",
+      "044.EdPLACE": "بيروت / لبنان",
+      "045.EdYEAR": "لا يوجد"
+     }
+    },
+    {
+     "file": "0505Ghazali.Munqidh.ShamAY0033739-ara1",
+     "sha256": "3057288c30872f38b4083f09f0ed35562e408485e8d9585cd5259abe28369b6e",
+     "bytes": 124328,
+     "source_type": "typed",
+     "completed": false,
+     "units": 117,
+     "pages": 68,
+     "edition_meta": {}
+    },
+    {
+     "file": "0505Ghazali.Munqidh.Shamela0009246-ara1",
+     "sha256": "a9d2ea465cb311b05d0a263035ea51b877f0bd7dc0a53e247531481377b0695a",
+     "bytes": 115477,
+     "source_type": "typed",
+     "completed": false,
+     "units": 319,
+     "pages": 92,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار الكتب الحديثة، مصر",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Mustasfa": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Mustasfa.Shamela0005459-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Mustasfa.JK000276-ara1",
+     "sha256": "b2d8334d398cd749ca20cbe6caeb0adfc34aaad09be1f2b78c9d4b077d0af98d",
+     "bytes": 1762220,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1840,
+     "pages": 368,
+     "edition_meta": {
+      "040.EdEDITOR": "محمد عبد السلام عبد الشافي",
+      "043.EdPUBLISHER": "دار الكتب العلمية",
+      "044.EdPLACE": "بيروت",
+      "045.EdYEAR": "1413"
+     }
+    },
+    {
+     "file": "0505Ghazali.Mustasfa.ShamAY0034180-ara1",
+     "sha256": "f70aa60ceacee596a6995e205484cdf96ace136b765e0f689cbc89510a3bed48",
+     "bytes": 1797789,
+     "source_type": "typed",
+     "completed": false,
+     "units": 5172,
+     "pages": 869,
+     "edition_meta": {
+      "الطبعة": "الأولى، 1417 ه/1997 م",
+      "الناشر": "مؤسسة الرسالة، بيروت، لبنان",
+      "المحقق": "محمد بن سليمان الأشقر"
+     }
+    },
+    {
+     "file": "0505Ghazali.Mustasfa.Shamela0005459-ara1",
+     "sha256": "59cda7d5424b26ab73aa2d7d8130d1fbe28fc465ab6075d759dc782ebe1697ac",
+     "bytes": 1807610,
+     "source_type": "typed",
+     "completed": false,
+     "units": 3652,
+     "pages": 380,
+     "edition_meta": {
+      "040.EdEDITOR": "محمد عبد السلام عبد الشافي",
+      "043.EdPUBLISHER": "دار الكتب العلمية",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    },
+    {
+     "file": "0505Ghazali.Mustasfa.Shia002916-ara1",
+     "sha256": "d9c750b5e30a3079e18c87cc10c834c312d8320a6e4eac7f77b37dacf4a94a42",
+     "bytes": 1793973,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1361,
+     "pages": 383,
+     "edition_meta": {
+      "040.EdEDITOR": "تصحيح : محمد عبد السلام عبد الشافي",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "1417 - 1996 م"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.QawacidCaqaid": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.QawacidCaqaid.JK000954-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.QawacidCaqaid.JK000954-ara1",
+     "sha256": "dd7304d76cbda28e0e127356300e60cbb090fb1f5f20b77a41dff17cc2b49fbc",
+     "bytes": 188008,
+     "source_type": "typed",
+     "completed": false,
+     "units": 720,
+     "pages": 206,
+     "edition_meta": {
+      "040.EdEDITOR": "موسى محمد علي",
+      "043.EdPUBLISHER": "عالم الكتب",
+      "044.EdPLACE": "لبنان",
+      "045.EdYEAR": "1405هـ - 1985م"
+     }
+    },
+    {
+     "file": "0505Ghazali.QawacidCaqaid.Shamela0006397-ara1",
+     "sha256": "86459653d6541b09915eafee26a52cfccd8107cd39b47637ae5b9effb47bbab4",
+     "bytes": 187563,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1065,
+     "pages": 223,
+     "edition_meta": {
+      "040.EdEDITOR": "موسى محمد علي",
+      "043.EdPUBLISHER": "عالم الكتب - لبنان",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.RaddJamil": {
+   "attribution": "doubtful",
+   "attribution_note": "al-Radd al-jamil: attribution disputed",
+   "alias": null,
+   "primary": "0505Ghazali.RaddJamil.ShamAY0033896-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.RaddJamil.ShamAY0033896-ara1",
+     "sha256": "c03fc08e729e179068fe2b36e08ecc9f29b6956c851af5553359b755a3215b4d",
+     "bytes": 136080,
+     "source_type": "typed",
+     "completed": false,
+     "units": 481,
+     "pages": 70,
+     "edition_meta": {
+      "عدد الأجزاء": "1",
+      "الطبعة": "الأولى/ 1420 ه",
+      "الناشر": "المكتبة العصرية - بيروت"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.ShifaGhalil": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.ShifaGhalil.Sham19Y0017827-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.ShifaGhalil.Sham19Y0017827-ara1",
+     "sha256": "ae3f74724fa111ce3b003a09ea372e36acad48bd1b902b4ba2097e654fcd4ff2",
+     "bytes": 954687,
+     "source_type": "typed",
+     "completed": false,
+     "units": 2503,
+     "pages": 657,
+     "edition_meta": {
+      "المحقق": "د. حمد الكبيسي.",
+      "الناشر": "مطبعة الإرشاد - بغداد",
+      "الطبعة": "الأولى، 1390 ه - 1971 م.",
+      "عدد الأجزاء": "1"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.SirrCalamin": {
+   "attribution": "spurious_attested",
+   "attribution_note": "Sirr al-'alamin: generally rejected as al-Ghazali's",
+   "alias": null,
+   "primary": "0505Ghazali.SirrCalamin.JK009402-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.SirrCalamin.JK009402-ara1",
+     "sha256": "b577e896f121be49b528d2c612d1a96cc94c68c849534891e571061374e04897",
+     "bytes": 240300,
+     "source_type": "typed",
+     "completed": false,
+     "units": 57,
+     "pages": 28,
+     "edition_meta": {
+      "040.EdEDITOR": "محمد حسن محمد حسن إسماعيل وأحمد فريد المزيدي",
+      "043.EdPUBLISHER": "دار الكتب العلمية",
+      "044.EdPLACE": "بيروت / لبنان",
+      "045.EdYEAR": "1424هـ 2003م"
+     }
+    },
+    {
+     "file": "0505Ghazali.SirrCalamin.JK010240-ara1",
+     "sha256": "a40961ae431b53f1694d3fe4c862098e465930d9382d996e8dd8172fde6e049e",
+     "bytes": 238268,
+     "source_type": "typed",
+     "completed": false,
+     "units": 411,
+     "pages": 42,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Tahafut": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Tahafut.Shamela0011055-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Tahafut.Shamela0011055-ara1",
+     "sha256": "be27fab1fae7e4d7cb511cbd2ed546d7c86f6317c29e7d4e14383bd58de9dfe1",
+     "bytes": 486814,
+     "source_type": "typed",
+     "completed": false,
+     "units": 1725,
+     "pages": 215,
+     "edition_meta": {
+      "040.EdEDITOR": "الدكتور سليمان دنيا",
+      "043.EdPUBLISHER": "دار المعارف، القاهرة - مصر",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.TibrMasbuk": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.TibrMasbuk.Shamela0004129-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.TibrMasbuk.Shamela0004129-ara1",
+     "sha256": "ff13984ffa99db9010737b2cc237a67b59cd99bdab7f9081246e23b4d248e9e0",
+     "bytes": 308416,
+     "source_type": "typed",
+     "completed": false,
+     "units": 653,
+     "pages": 122,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار الكتب العلمية، بيروت - لبنان",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0505Ghazali.Wasit": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0505Ghazali.Wasit.Shamela0006128-ara1",
+   "versions": [
+    {
+     "file": "0505Ghazali.Wasit.JK000309-ara1",
+     "sha256": "4ecb362f59420461e72c5c96076a44e90f50a6c844388adb21668f8f00948b5c",
+     "bytes": 3897721,
+     "source_type": "typed",
+     "completed": false,
+     "units": 16885,
+     "pages": 3397,
+     "edition_meta": {
+      "040.EdEDITOR": "أحمد محمود إبراهيم , محمد محمد تامر",
+      "043.EdPUBLISHER": "دار السلام",
+      "044.EdPLACE": "القاهرة",
+      "045.EdYEAR": "1417"
+     }
+    },
+    {
+     "file": "0505Ghazali.Wasit.Shamela0006128-ara1",
+     "sha256": "ff924f9e5f9d455b125b584a24537c0a6e2bd60138ec694b3462e7e38344fe6d",
+     "bytes": 3918154,
+     "source_type": "typed",
+     "completed": false,
+     "units": 22078,
+     "pages": 3584,
+     "edition_meta": {
+      "040.EdEDITOR": "أحمد محمود إبراهيم , محمد محمد تامر",
+      "043.EdPUBLISHER": "دار السلام - القاهرة",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0561CabdQadirJilani.AdabSuluk": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": "= Futuh al-ghayb (Adab al-suluk wa-l-tawassul ila manazil al-muluk)",
+   "primary": "0561CabdQadirJilani.AdabSuluk.EScr20120913-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.AdabSuluk.EScr20120913-ara1",
+     "sha256": "01094ae7a14069f3ccfbfad41b2facd1972d1f8ce5eb0bd9d765cc2a9352215c",
+     "bytes": 271785,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 144,
+     "pages": 0,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0561CabdQadirJilani.Diwan": {
+   "attribution": "doubtful",
+   "attribution_note": "Arabic diwan attributed to al-Jilani",
+   "alias": null,
+   "primary": "0561CabdQadirJilani.Diwan.Kraken22021606121600-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.Diwan.Kraken22021606121600-ara1",
+     "sha256": "251e2aa833ee30a0696bddc56a5fb4f9e24c92d2bb608c56f59a376bf5211a83",
+     "bytes": 501733,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 608,
+     "pages": 320,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  },
+  "0561CabdQadirJilani.Ghunya": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0561CabdQadirJilani.Ghunya.Sham19Y0017817-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.Ghunya.Sham19Y0017817-ara1",
+     "sha256": "18b1a0732e64c61f14ee73ee48de8aca87bace578a9d8ccf39d0ccf2a89663f7",
+     "bytes": 1847289,
+     "source_type": "typed",
+     "completed": false,
+     "units": 5952,
+     "pages": 664,
+     "edition_meta": {
+      "المحقق": "أبو عبد الرحمن صلاح بن محمد بن عويضة",
+      "الناشر": "دار الكتب العلمية، بيروت - لبنان",
+      "الطبعة": "الأولى، 1417 ه - 1997 م",
+      "عدد الأجزاء": "2"
+     }
+    }
+   ]
+  },
+  "0561CabdQadirJilani.JalaKhatir": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0561CabdQadirJilani.JalaKhatir.Kraken22021606122302-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.JalaKhatir.Kraken22021606122302-ara1",
+     "sha256": "1eb5c3c9fd5549769103e029931bd48186e72fccee7d7b11bd5573627dcabfad",
+     "bytes": 382553,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 752,
+     "pages": 159,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  },
+  "0561CabdQadirJilani.SirrAsrar": {
+   "attribution": "doubtful",
+   "attribution_note": "Sirr al-asrar: attribution debated",
+   "alias": null,
+   "primary": "0561CabdQadirJilani.SirrAsrar.Kraken22021606122001-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.SirrAsrar.Kraken22021606122001-ara1",
+     "sha256": "e42e98b26de42b7397bda2a2813cf967b8d54e00773c526989199f0ee20e23d2",
+     "bytes": 284968,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 446,
+     "pages": 118,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  },
+  "0561CabdQadirJilani.Tafsir": {
+   "attribution": "doubtful",
+   "attribution_note": "Tafsir al-Jilani (publ. 2009): attribution doubtful",
+   "alias": null,
+   "primary": "0561CabdQadirJilani.Tafsir.Tafsir03095-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.Tafsir.Tafsir03095-ara1",
+     "sha256": "8c46bb52e6a0f73a14a26d7362015f5f1e414ad5008a826b03bebd9de58d2085",
+     "bytes": 5254667,
+     "source_type": "scraped_incomplete",
+     "completed": false,
+     "units": 9612,
+     "pages": 0,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0561CabdQadirJilani.Tariq": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0561CabdQadirJilani.Tariq.Kraken22021606122002-ara1",
+   "versions": [
+    {
+     "file": "0561CabdQadirJilani.Tariq.Kraken22021606122002-ara1",
+     "sha256": "e9c520c66975f064160c9a3fd7d6c551ea90f62be3b06b575dbca3674ff020f7",
+     "bytes": 114355,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 433,
+     "pages": 78,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  },
+  "0638IbnCarabi.Diwan": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0638IbnCarabi.Diwan.JK007629-ara1",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.Diwan.JK007629-ara1",
+     "sha256": "fcb20c14fb511fa73cdf1ea2b960217baca39cdd0f426081bf6996a0baa5f376",
+     "bytes": 961777,
+     "source_type": "typed",
+     "completed": false,
+     "units": 9328,
+     "pages": 1331,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0638IbnCarabi.FususHikam": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0638IbnCarabi.FususHikam.Kraken21042913-ara1.mARkdown",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.FususHikam.Kraken21042913-ara1.mARkdown",
+     "sha256": "7d6ddfaab19c8585f602ee38f39829f3143a4f3631cafa44c876626f8723021c",
+     "bytes": 397708,
+     "source_type": "ocr_uncorrected",
+     "completed": true,
+     "units": 530,
+     "pages": 178,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0638IbnCarabi.FutuhatMakkiyya": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0638IbnCarabi.FutuhatMakkiyya.JK009237-ara1",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.FutuhatMakkiyya.JK009237-ara1",
+     "sha256": "7915a3d91936445dc48bfe6a5045966be49555a8f50349d9839d7a966f262aec",
+     "bytes": 17313883,
+     "source_type": "typed",
+     "completed": false,
+     "units": 12383,
+     "pages": 1637,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "دار إحياء التراث العربي",
+      "044.EdPLACE": "لبنان",
+      "045.EdYEAR": "1418هـ- 1998م"
+     }
+    },
+    {
+     "file": "0638IbnCarabi.FutuhatMakkiyya.Shia004687Vols-ara1",
+     "sha256": "2e5668183ae04f5e21b3c59f50495c801a99c52459d8e1a737f14ca8b1712e56",
+     "bytes": 16130399,
+     "source_type": "typed",
+     "completed": false,
+     "units": 2652,
+     "pages": 2584,
+     "edition_meta": {
+      "040.EdEDITOR": "NODATA",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "NODATA"
+     }
+    }
+   ]
+  },
+  "0638IbnCarabi.Isra": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0638IbnCarabi.Isra.Kraken22020817055001-ara1",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.Isra.Kraken22020817055001-ara1",
+     "sha256": "8096cf4550a24d45ad8ec81d3834eec8c017de3222945c5e68189b80de87bb19",
+     "bytes": 563620,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 1034,
+     "pages": 265,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  },
+  "0638IbnCarabi.MasailLiIdah": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0638IbnCarabi.MasailLiIdah.AOCP20251104068-ara1",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.MasailLiIdah.AOCP20251104068-ara1",
+     "sha256": "ca70c2fad778829bddc98b91fb0878a1b9faf7f035d8bffb976910c96e9120a5",
+     "bytes": 300002,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 642,
+     "pages": 142,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0638IbnCarabi.Tafsir": {
+   "attribution": "spurious_attested",
+   "attribution_note": "Ta'wilat usually assigned to 'Abd al-Razzaq al-Qashani",
+   "alias": null,
+   "primary": "0638IbnCarabi.Tafsir.Shia002611Vols-ara1",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.Tafsir.Shia002611Vols-ara1",
+     "sha256": "8b58b38df30a0790a51538f4dc299229496142c3b515a91b7596ec04cfa8fae4",
+     "bytes": 2350301,
+     "source_type": "typed",
+     "completed": false,
+     "units": 3163,
+     "pages": 848,
+     "edition_meta": {
+      "040.EdEDITOR": "ضبطه وصححه وقدم له الشيخ عبد الوارث محمد علي",
+      "043.EdPUBLISHER": "NODATA",
+      "044.EdPLACE": "NODATA",
+      "045.EdYEAR": "1422 - 2001م"
+     }
+    },
+    {
+     "file": "0638IbnCarabi.Tafsir.Tafsir03033-ara1",
+     "sha256": "44cda3a396361601a53cdb8f6a39fd0ba0b7e6c78768fe7f2b5707cc3c05558a",
+     "bytes": 2283936,
+     "source_type": "scraped_incomplete",
+     "completed": false,
+     "units": 4469,
+     "pages": 0,
+     "edition_meta": {}
+    }
+   ]
+  },
+  "0638IbnCarabi.TajTarajim": {
+   "attribution": "secure",
+   "attribution_note": "",
+   "alias": null,
+   "primary": "0638IbnCarabi.TajTarajim.Kraken220208170551-ara1",
+   "versions": [
+    {
+     "file": "0638IbnCarabi.TajTarajim.Kraken220208170551-ara1",
+     "sha256": "1e28b50b8a61b3ecff9d2d9c37f934b4db28a23eb5702ece6fa1f4035836e4b1",
+     "bytes": 183945,
+     "source_type": "ocr_uncorrected",
+     "completed": false,
+     "units": 423,
+     "pages": 61,
+     "edition_meta": {
+      "Origin": "converted with Kraken (ocr model: 12-24-2021_ArabPersGeneralized.mlmodel, segmentation model: DEFAULT)"
+     }
+    }
+   ]
+  }
+ }
+}

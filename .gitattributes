@@ -1,0 +1,4 @@
+*.tsv  text eol=lf diff
+*.jsonl text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf

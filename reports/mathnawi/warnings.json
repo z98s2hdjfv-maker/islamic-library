@@ -1,0 +1,258 @@
+{
+ "1": {
+  "sections": 172,
+  "total_couplets": 4013,
+  "ignored_source_keys": [
+   "CatId",
+   "FullTitle",
+   "FullUrl",
+   "Id",
+   "Metre",
+   "PoemSummary",
+   "Sections",
+   "SourceName",
+   "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+   "CoupletIndex",
+   "CoupletSummary",
+   "SectionIndex1",
+   "SectionIndex2"
+  ],
+  "warnings": [
+   "book1 sh1:7 text not NFC-normalised (kept as-is)",
+   "book1 sh1:26 text not NFC-normalised (kept as-is)",
+   "book1 sh5:4 text not NFC-normalised (kept as-is)",
+   "book1 sh6:27 text not NFC-normalised (kept as-is)",
+   "book1 sh6:28 text not NFC-normalised (kept as-is)",
+   "book1 sh6:34 text not NFC-normalised (kept as-is)",
+   "book1 sh6:35 text not NFC-normalised (kept as-is)",
+   "book1 sh7:11 text not NFC-normalised (kept as-is)",
+   "book1 sh7:25 text not NFC-normalised (kept as-is)",
+   "book1 sh7:34 text not NFC-normalised (kept as-is)",
+   "book1 sh16:11 text not NFC-normalised (kept as-is)",
+   "book1 sh17:19 text not NFC-normalised (kept as-is)",
+   "book1 sh17:20 text not NFC-normalised (kept as-is)",
+   "book1 sh22:20 text not NFC-normalised (kept as-is)",
+   "book1 sh22:26 text not NFC-normalised (kept as-is)",
+   "book1 sh23:2 text not NFC-normalised (kept as-is)",
+   "book1 sh26:4 text not NFC-normalised (kept as-is)",
+   "book1 sh27:10 text not NFC-normalised (kept as-is)",
+   "book1 sh35:10 text not NFC-normalised (kept as-is)",
+   "book1 sh36:2 text not NFC-normalised (kept as-is)",
+   "book1 sh36:26 text not NFC-normalised (kept as-is)",
+   "book1 sh41:16 text not NFC-normalised (kept as-is)",
+   "book1 sh41:17 text not NFC-normalised (kept as-is)",
+   "book1 sh58:5 text not NFC-normalised (kept as-is)",
+   "book1 sh59:1 text not NFC-normalised (kept as-is)",
+   "book1 sh59:23 text not NFC-normalised (kept as-is)",
+   "book1 sh59:26 text not NFC-normalised (kept as-is)",
+   "book1 sh59:27 text not NFC-normalised (kept as-is)",
+   "book1 sh60:7 text not NFC-normalised (kept as-is)",
+   "book1 sh62:1 text not NFC-normalised (kept as-is)",
+   "book1 sh62:2 text not NFC-normalised (kept as-is)",
+   "book1 sh62:27 text not NFC-normalised (kept as-is)",
+   "book1 sh69:5 text not NFC-normalised (kept as-is)",
+   "book1 sh69:17 text not NFC-normalised (kept as-is)",
+   "book1 sh69:18 text not NFC-normalised (kept as-is)",
+   "book1 sh69:21 text not NFC-normalised (kept as-is)",
+   "book1 sh70:32 text not NFC-normalised (kept as-is)",
+   "book1 sh72:10 text not NFC-normalised (kept as-is)",
+   "book1 sh74:9 text not NFC-normalised (kept as-is)",
+   "book1 sh74:12 text not NFC-normalised (kept as-is)",
+   "book1 sh76:15 text not NFC-normalised (kept as-is)",
+   "book1 sh105:36 text not NFC-normalised (kept as-is)",
+   "book1 sh127:4 text not NFC-normalised (kept as-is)",
+   "book1 sh127:5 text not NFC-normalised (kept as-is)",
+   "book1 sh127:7 text not NFC-normalised (kept as-is)",
+   "book1 sh127:14 text not NFC-normalised (kept as-is)",
+   "book1 sh148:12 text not NFC-normalised (kept as-is)",
+   "book1 sh148:32 text not NFC-normalised (kept as-is)",
+   "book1 sh148:33 text not NFC-normalised (kept as-is)",
+   "book1 sh150:40 text not NFC-normalised (kept as-is)",
+   "book1 sh150:68 text not NFC-normalised (kept as-is)",
+   "book1 sh151:2 text not NFC-normalised (kept as-is)",
+   "book1 sh160:21 text not NFC-normalised (kept as-is)",
+   "book1 sh160:38 text not NFC-normalised (kept as-is)",
+   "book1 sh162:8 text not NFC-normalised (kept as-is)",
+   "book1 sh164:1 text not NFC-normalised (kept as-is)",
+   "book1 sh164:12 text not NFC-normalised (kept as-is)",
+   "book1 sh164:13 text not NFC-normalised (kept as-is)",
+   "book1 sh164:21 text not NFC-normalised (kept as-is)",
+   "book1 sh164:22 text not NFC-normalised (kept as-is)",
+   "book1 sh164:24 text not NFC-normalised (kept as-is)"
+  ]
+ },
+ "2": {
+  "sections": 115,
+  "total_couplets": 3819,
+  "ignored_source_keys": [
+   "CatId",
+   "FullTitle",
+   "FullUrl",
+   "Id",
+   "Metre",
+   "PoemSummary",
+   "Sections",
+   "SourceName",
+   "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+   "CoupletIndex",
+   "CoupletSummary",
+   "SectionIndex1",
+   "SectionIndex2"
+  ],
+  "warnings": [
+   "book2 sh20:6 text not NFC-normalised (kept as-is)",
+   "book2 sh20:39 text not NFC-normalised (kept as-is)",
+   "book2 sh20:42 text not NFC-normalised (kept as-is)",
+   "book2 sh24:37 text not NFC-normalised (kept as-is)",
+   "book2 sh24:39 text not NFC-normalised (kept as-is)",
+   "book2 sh24:44 text not NFC-normalised (kept as-is)",
+   "book2 sh26:93 text not NFC-normalised (kept as-is)",
+   "book2 sh36:3 text not NFC-normalised (kept as-is)",
+   "book2 sh36:5 text not NFC-normalised (kept as-is)",
+   "book2 sh37:44 text not NFC-normalised (kept as-is)",
+   "book2 sh50:4 text not NFC-normalised (kept as-is)",
+   "book2 sh114:2 text not NFC-normalised (kept as-is)"
+  ]
+ },
+ "3": {
+  "sections": 228,
+  "total_couplets": 4809,
+  "ignored_source_keys": [
+   "CatId",
+   "FullTitle",
+   "FullUrl",
+   "Id",
+   "Metre",
+   "PoemSummary",
+   "Sections",
+   "SourceName",
+   "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+   "CoupletIndex",
+   "CoupletSummary",
+   "SectionIndex1",
+   "SectionIndex2"
+  ],
+  "warnings": [
+   "book3 sh10:47 text not NFC-normalised (kept as-is)",
+   "book3 sh18:20 text not NFC-normalised (kept as-is)",
+   "book3 sh68:7 text not NFC-normalised (kept as-is)",
+   "book3 sh75:24 text not NFC-normalised (kept as-is)",
+   "book3 sh116:33 text not NFC-normalised (kept as-is)",
+   "book3 sh132:2 text not NFC-normalised (kept as-is)",
+   "book3 sh202:9 text not NFC-normalised (kept as-is)"
+  ]
+ },
+ "4": {
+  "sections": 139,
+  "total_couplets": 3851,
+  "ignored_source_keys": [
+   "CatId",
+   "FullTitle",
+   "FullUrl",
+   "Id",
+   "Metre",
+   "PoemSummary",
+   "Sections",
+   "SourceName",
+   "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+   "CoupletIndex",
+   "CoupletSummary",
+   "SectionIndex1",
+   "SectionIndex2"
+  ],
+  "warnings": [
+   "book4 sh14:22 text not NFC-normalised (kept as-is)",
+   "book4 sh77:49 text not NFC-normalised (kept as-is)",
+   "book4 sh134:11 text not NFC-normalised (kept as-is)",
+   "book4 sh134:28 text not NFC-normalised (kept as-is)",
+   "book4 sh134:31 text not NFC-normalised (kept as-is)",
+   "book4 sh134:39 text not NFC-normalised (kept as-is)"
+  ]
+ },
+ "5": {
+  "sections": 178,
+  "total_couplets": 4233,
+  "ignored_source_keys": [
+   "CatId",
+   "FullTitle",
+   "FullUrl",
+   "Id",
+   "Metre",
+   "PoemSummary",
+   "Sections",
+   "SourceName",
+   "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+   "CoupletIndex",
+   "CoupletSummary",
+   "SectionIndex1",
+   "SectionIndex2"
+  ],
+  "warnings": [
+   "book5 sh5:47 text not NFC-normalised (kept as-is)",
+   "book5 sh11:3 text not NFC-normalised (kept as-is)",
+   "book5 sh11:19 text not NFC-normalised (kept as-is)",
+   "book5 sh12:2 text not NFC-normalised (kept as-is)",
+   "book5 sh12:6 text not NFC-normalised (kept as-is)",
+   "book5 sh68:34 text not NFC-normalised (kept as-is)",
+   "book5 sh74:7 text not NFC-normalised (kept as-is)",
+   "book5 sh75:2 text not NFC-normalised (kept as-is)",
+   "book5 sh75:3 text not NFC-normalised (kept as-is)",
+   "book5 sh75:21 text not NFC-normalised (kept as-is)",
+   "book5 sh75:22 text not NFC-normalised (kept as-is)",
+   "book5 sh77:5 text not NFC-normalised (kept as-is)",
+   "book5 sh77:7 text not NFC-normalised (kept as-is)",
+   "book5 sh77:17 text not NFC-normalised (kept as-is)",
+   "book5 sh77:18 text not NFC-normalised (kept as-is)",
+   "book5 sh78:8 text not NFC-normalised (kept as-is)",
+   "book5 sh78:12 text not NFC-normalised (kept as-is)",
+   "book5 sh78:18 text not NFC-normalised (kept as-is)",
+   "book5 sh78:19 text not NFC-normalised (kept as-is)",
+   "book5 sh78:23 text not NFC-normalised (kept as-is)",
+   "book5 sh81:4 text not NFC-normalised (kept as-is)",
+   "book5 sh139:7 text not NFC-normalised (kept as-is)",
+   "book5 sh139:8 text not NFC-normalised (kept as-is)",
+   "book5 sh139:22 text not NFC-normalised (kept as-is)",
+   "book5 sh139:24 text not NFC-normalised (kept as-is)",
+   "book5 sh139:25 text not NFC-normalised (kept as-is)",
+   "book5 sh139:26 text not NFC-normalised (kept as-is)",
+   "book5 sh139:35 text not NFC-normalised (kept as-is)",
+   "book5 sh174:21 text not NFC-normalised (kept as-is)"
+  ]
+ },
+ "6": {
+  "sections": 140,
+  "total_couplets": 4912,
+  "ignored_source_keys": [
+   "CatId",
+   "FullTitle",
+   "FullUrl",
+   "Id",
+   "Metre",
+   "PoemSummary",
+   "Sections",
+   "SourceName",
+   "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+   "CoupletIndex",
+   "CoupletSummary",
+   "SectionIndex1",
+   "SectionIndex2"
+  ],
+  "warnings": [
+   "book6 sh34: unpaired/unexpected hemistich at order 35 (position Right); kept as single-line record",
+   "book6 sh119:6 text not NFC-normalised (kept as-is)",
+   "book6 sh123:5 text not NFC-normalised (kept as-is)"
+  ]
+ }
+}

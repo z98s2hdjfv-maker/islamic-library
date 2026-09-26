@@ -1,0 +1,19 @@
+{
+  "_note": "Section-level frame/speaker map for Ganjoor daftar1 sh84-96, drafted by Claude from the text. model_suggested / unverified - review before promoting.",
+  "annotation_method": "model_suggested",
+  "frames": {
+    "84": [["merchant_and_parrot", "message"], "parrot", "blended", "endorses"],
+    "85": [["merchant_and_parrot", "message", "digression_bird_of_soul"], "narrator", "narrator", "author"],
+    "86": [["merchant_and_parrot", "india_parrots", "digression_speech"], "merchant", "blended", "author"],
+    "87": [["merchant_and_parrot", "india_parrots", "digression_perfect_man"], "narrator", "narrator", "author"],
+    "88": [["merchant_and_parrot", "india_parrots", "digression_magicians_and_moses"], "narrator", "narrator", "author"],
+    "89": [["merchant_and_parrot", "report", "digression_generated_effects"], "merchant", "blended", "author"],
+    "90": [["merchant_and_parrot", "parrot_dies", "lament"], "merchant", "blended", "author"],
+    "91": [["merchant_and_parrot", "parrot_dies", "digression_ghayra"], "narrator", "narrator", "author"],
+    "92": [["merchant_and_parrot", "lament"], "narrator", "narrator", "author"],
+    "93": [["merchant_and_parrot", "release"], "parrot", "character", "endorses"],
+    "94": [["merchant_and_parrot", "farewell"], "mixed", "blended", "endorses"],
+    "95": [["merchant_and_parrot", "digression_praise"], "narrator", "narrator", "author"],
+    "96": [["merchant_and_parrot", "digression_ma_sha_allah"], "narrator", "narrator", "author"]
+  }
+}

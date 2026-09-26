@@ -1,0 +1,66 @@
+{
+  "source_commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+  "sections": {
+    "77": {
+      "couplets": 25,
+      "sha256": "fe6ac9d105cfe6a008c446967ad46300794274306f41688571c1ac074c6ea25d",
+      "title": "بخش ۷۷ - آمدن رسول روم تا امیرالمؤمنین عمر رضی‌الله عنه و دیدن او کرامات عمر را رضی‌الله عنه"
+    },
+    "78": {
+      "couplets": 31,
+      "sha256": "68cb07c5183c6ae278c1e8792d64df657b550edb14ec45b151f8d85684b5572b",
+      "title": "بخش ۷۸ - یافتن رسول روم امیرالمؤمنین عمر را رضی‌الله عنه خفته به زیر درخت"
+    },
+    "79": {
+      "couplets": 34,
+      "sha256": "f1fb9e567b83286ed7b2719354a8643f9ce145eafded5c9669f6a10622195830",
+      "title": "بخش ۷۹ - سوال کردن رسول روم از امیرالمؤمنین عمر رضی‌الله عنه"
+    },
+    "80": {
+      "couplets": 29,
+      "sha256": "3d8b73f09c7c3fb89e85e02f3faec7122578757aafbdaf7a349d92120a580ff0",
+      "title": "بخش ۸۰ - اضافت کردن آدم علیه‌السلام آن زلت را به خویشتن کی ربنا ظلمنا و اضافت کردن ابلیس گناه خود را به خدای تعالی کی بما اغویتنی"
+    },
+    "81": {
+      "couplets": 6,
+      "sha256": "1fad5394a3d34ad36b0838d48c7efdbe1814ec8e9fa69ca77467df5199c8d203",
+      "title": "بخش ۸۱ - تفسیر و هو معکم اینما کنتم"
+    },
+    "82": {
+      "couplets": 14,
+      "sha256": "6c67bc14d69ef18227752e0d7999f1d65f8c1ed98bf731c2e11451c32a9e107e",
+      "title": "بخش ۸۲ - سؤال کردن رسول روم از عمر رضی‌الله عنه از سبب ابتلای ارواح با این آب و گل جسم"
+    },
+    "83": {
+      "couplets": 18,
+      "sha256": "0de990453f3d62b45805a66adef308f6218fa6d2ce367e2ab161f19856226ed8",
+      "title": "بخش ۸۳ - در معنی آنک من اراد ان یجلس مع الله فلیجلس مع اهل التصوف"
+    }
+  },
+  "total_couplets": 157,
+  "nicholson_range_derived": [
+    1390,
+    1546
+  ],
+  "anchor": "ganjoor sh77:1=1390 (chained from pilot sh76:17=1389)",
+  "frame_map": "frames_umar_envoy.json",
+  "frame_map_method": "model_suggested",
+  "ignored_source_keys": [
+    "CatId",
+    "FullTitle",
+    "FullUrl",
+    "Id",
+    "Metre",
+    "PoemSummary",
+    "Sections",
+    "SourceName",
+    "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+    "CoupletIndex",
+    "CoupletSummary",
+    "SectionIndex1",
+    "SectionIndex2"
+  ],
+  "warnings": []
+}

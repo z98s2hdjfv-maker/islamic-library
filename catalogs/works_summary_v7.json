@@ -1,0 +1,497 @@
+{
+ "source": "ganjoor-data",
+ "commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+ "works": {
+  "ghazali.kimiya.k": {
+   "title": "al-Ghazali, Kimiya-yi sa'adat",
+   "attribution": "secure",
+   "poems": 443,
+   "catalog": 443,
+   "missing": 0,
+   "units": {
+    "para": 3348,
+    "bayt": 7
+   },
+   "warnings": 6
+  },
+  "jilani.diwan.gh": {
+   "title": "Divan attributed to 'Abd al-Qadir al-Jilani: ghazals",
+   "attribution": "doubtful",
+   "poems": 74,
+   "catalog": 74,
+   "missing": 0,
+   "units": {
+    "bayt": 641
+   },
+   "warnings": 1
+  },
+  "maybudi.kashf.t": {
+   "title": "Maybudi, Kashf al-asrar wa 'uddat al-abrar",
+   "attribution": "secure",
+   "poems": 1337,
+   "catalog": 1337,
+   "missing": 0,
+   "units": {
+    "para": 28133,
+    "bayt": 2008,
+    "single_line": 2
+   },
+   "warnings": 20950
+  },
+  "iraqi.lamaat.l": {
+   "title": "'Iraqi, Lama'at",
+   "attribution": "secure",
+   "poems": 30,
+   "catalog": 30,
+   "missing": 0,
+   "units": {
+    "para": 161,
+    "bayt": 199
+   },
+   "warnings": 2
+  },
+  "iraqi.diwan.d": {
+   "title": "'Iraqi, Divan",
+   "attribution": "secure",
+   "poems": 511,
+   "catalog": 511,
+   "missing": 0,
+   "units": {
+    "bayt": 4669,
+    "single_line": 7,
+    "band_bayt": 58
+   },
+   "warnings": 14
+  },
+  "iraqi.ushshaqnama.u": {
+   "title": "'Iraqi, 'Ushshaq-nama",
+   "attribution": "doubtful",
+   "poems": 68,
+   "catalog": 68,
+   "missing": 0,
+   "units": {
+    "bayt": 1064
+   },
+   "warnings": 0
+  },
+  "iraqi.istilahat.i": {
+   "title": "'Iraqi, Risala-yi istilahat",
+   "attribution": "doubtful",
+   "poems": 4,
+   "catalog": 4,
+   "missing": 0,
+   "units": {
+    "para": 323
+   },
+   "warnings": 1
+  },
+  "awhad.rubaiyat.rb": {
+   "title": "Awhad al-Din Kirmani, ruba'is",
+   "attribution": "secure",
+   "poems": 1762,
+   "catalog": 1762,
+   "missing": 0,
+   "units": {
+    "bayt": 3524,
+    "para": 2
+   },
+   "warnings": 6
+  },
+  "shabistari.gulshan.g": {
+   "title": "Shabistari, Gulshan-i raz",
+   "attribution": "secure",
+   "poems": 64,
+   "catalog": 64,
+   "missing": 0,
+   "units": {
+    "bayt": 1034
+   },
+   "warnings": 28
+  },
+  "shabistari.haqqalyaqin.h": {
+   "title": "Shabistari, Haqq al-yaqin",
+   "attribution": "secure",
+   "poems": 9,
+   "catalog": 9,
+   "missing": 0,
+   "units": {
+    "para": 150
+   },
+   "warnings": 0
+  },
+  "shabistari.mirat.m": {
+   "title": "Shabistari, Mir'at al-muhaqqiqin",
+   "attribution": "doubtful",
+   "poems": 8,
+   "catalog": 8,
+   "missing": 0,
+   "units": {
+    "para": 77,
+    "bayt": 17
+   },
+   "warnings": 4
+  },
+  "shabistari.saadatnama.s": {
+   "title": "Shabistari, Sa'adat-nama",
+   "attribution": "secure",
+   "poems": 129,
+   "catalog": 129,
+   "missing": 0,
+   "units": {
+    "bayt": 1571,
+    "para": 1
+   },
+   "warnings": 3
+  },
+  "shabistari.kanz.k": {
+   "title": "Kanz al-haqa'iq (attributed to Shabistari)",
+   "attribution": "doubtful",
+   "poems": 37,
+   "catalog": 37,
+   "missing": 0,
+   "units": {
+    "bayt": 650
+   },
+   "warnings": 0
+  },
+  "shabistari.maratib.r": {
+   "title": "Maratib al-'arifin (attributed to Shabistari)",
+   "attribution": "doubtful",
+   "poems": 1,
+   "catalog": 1,
+   "missing": 0,
+   "units": {
+    "para": 44,
+    "bayt": 22
+   },
+   "warnings": 0
+  },
+  "jami.diwan.d": {
+   "title": "Jami, Divan",
+   "attribution": "secure",
+   "poems": 2327,
+   "catalog": 2327,
+   "missing": 0,
+   "units": {
+    "bayt": 16596,
+    "single_line": 30,
+    "band_bayt": 55,
+    "para": 4
+   },
+   "warnings": 34
+  },
+  "jami.haftawrang.h": {
+   "title": "Jami, Haft awrang",
+   "attribution": "secure",
+   "poems": 816,
+   "catalog": 816,
+   "missing": 0,
+   "units": {
+    "bayt": 22294
+   },
+   "warnings": 2
+  },
+  "jami.baharistan.b": {
+   "title": "Jami, Baharistan",
+   "attribution": "secure",
+   "poems": 206,
+   "catalog": 206,
+   "missing": 0,
+   "units": {
+    "bayt": 733,
+    "para": 526,
+    "band_bayt": 1
+   },
+   "warnings": 1
+  },
+  "jami.arbain.a": {
+   "title": "Jami, Risala-yi arba'in",
+   "attribution": "secure",
+   "poems": 42,
+   "catalog": 42,
+   "missing": 0,
+   "units": {
+    "para": 4,
+    "bayt": 82
+   },
+   "warnings": 8
+  },
+  "sanai.hadiqa.h": {
+   "title": "Sana'i, Hadiqat al-haqiqa",
+   "attribution": "secure",
+   "poems": 444,
+   "catalog": 444,
+   "missing": 0,
+   "units": {
+    "para": 35,
+    "bayt": 11823,
+    "single_line": 4
+   },
+   "warnings": 70
+  },
+  "sanai.diwan.d": {
+   "title": "Sana'i, Divan",
+   "attribution": "secure",
+   "poems": 1277,
+   "catalog": 1277,
+   "missing": 0,
+   "units": {
+    "bayt": 13233,
+    "band_bayt": 81
+   },
+   "warnings": 39
+  },
+  "sanai.tariq.t": {
+   "title": "Tariq al-tahqiq (attributed to Sana'i)",
+   "attribution": "spurious_attested",
+   "poems": 77,
+   "catalog": 77,
+   "missing": 0,
+   "units": {
+    "bayt": 938
+   },
+   "warnings": 1
+  },
+  "attar.mantiq.m": {
+   "title": "'Attar, Mantiq al-tayr",
+   "attribution": "secure",
+   "poems": 211,
+   "catalog": 211,
+   "missing": 0,
+   "units": {
+    "bayt": 4697
+   },
+   "warnings": 12
+  },
+  "attar.ilahinama.i": {
+   "title": "'Attar, Ilahi-nama",
+   "attribution": "secure",
+   "poems": 317,
+   "catalog": 317,
+   "missing": 0,
+   "units": {
+    "bayt": 6825,
+    "para": 3
+   },
+   "warnings": 52
+  },
+  "attar.musibatnama.u": {
+   "title": "'Attar, Musibat-nama",
+   "attribution": "secure",
+   "poems": 417,
+   "catalog": 417,
+   "missing": 0,
+   "units": {
+    "bayt": 7541,
+    "para": 6
+   },
+   "warnings": 0
+  },
+  "attar.asrarnama.a": {
+   "title": "'Attar, Asrar-nama",
+   "attribution": "secure",
+   "poems": 125,
+   "catalog": 125,
+   "missing": 0,
+   "units": {
+    "bayt": 3297
+   },
+   "warnings": 0
+  },
+  "attar.tadhkira.t": {
+   "title": "'Attar, Tadhkirat al-awliya",
+   "attribution": "secure",
+   "poems": 96,
+   "catalog": 96,
+   "missing": 0,
+   "units": {
+    "para": 6432,
+    "bayt": 22,
+    "single_line": 3
+   },
+   "warnings": 27
+  },
+  "attar.diwan.d": {
+   "title": "'Attar, Divan",
+   "attribution": "secure",
+   "poems": 885,
+   "catalog": 885,
+   "missing": 0,
+   "units": {
+    "bayt": 11163,
+    "band_bayt": 26
+   },
+   "warnings": 13
+  },
+  "attar.mukhtarnama.k": {
+   "title": "'Attar, Mukhtar-nama",
+   "attribution": "secure",
+   "poems": 2273,
+   "catalog": 2273,
+   "missing": 0,
+   "units": {
+    "para": 55,
+    "bayt": 4545
+   },
+   "warnings": 52
+  },
+  "attar.khusrawnama.x": {
+   "title": "'Attar, Khusraw-nama",
+   "attribution": "doubtful",
+   "poems": 71,
+   "catalog": 71,
+   "missing": 0,
+   "units": {
+    "bayt": 8364
+   },
+   "warnings": 0
+  },
+  "attar.pandnama.p": {
+   "title": "Pand-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 79,
+   "catalog": 79,
+   "missing": 0,
+   "units": {
+    "bayt": 853
+   },
+   "warnings": 0
+  },
+  "attar.futuwwatnama.f": {
+   "title": "Futuwwat-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 1,
+   "catalog": 1,
+   "missing": 0,
+   "units": {
+    "bayt": 80
+   },
+   "warnings": 0
+  },
+  "attar.bulbulnama.bb": {
+   "title": "Bulbul-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 38,
+   "catalog": 38,
+   "missing": 0,
+   "units": {
+    "bayt": 597
+   },
+   "warnings": 0
+  },
+  "attar.siyfasl.sf": {
+   "title": "Si fasl (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 28,
+   "catalog": 28,
+   "missing": 0,
+   "units": {
+    "bayt": 1121
+   },
+   "warnings": 0
+  },
+  "attar.bayanalirshad.bi": {
+   "title": "Bayan al-irshad (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 36,
+   "catalog": 36,
+   "missing": 0,
+   "units": {
+    "bayt": 1349
+   },
+   "warnings": 0
+  },
+  "attar.bisarnama.bs": {
+   "title": "Bi-sar-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 7,
+   "catalog": 7,
+   "missing": 0,
+   "units": {
+    "bayt": 214
+   },
+   "warnings": 0
+  },
+  "attar.hilajnama.hj": {
+   "title": "Hilaj-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 68,
+   "catalog": 68,
+   "missing": 0,
+   "units": {
+    "bayt": 7615
+   },
+   "warnings": 0
+  },
+  "attar.mazhar.mz": {
+   "title": "Mazhar (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 7,
+   "catalog": 7,
+   "missing": 0,
+   "units": {
+    "bayt": 1050
+   },
+   "warnings": 0
+  },
+  "attar.jawharaldhat.jz": {
+   "title": "Jawhar al-dhat (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 149,
+   "catalog": 149,
+   "missing": 0,
+   "units": {
+    "bayt": 23657,
+    "para": 2
+   },
+   "warnings": 12
+  },
+  "attar.mazharalajaib.ma": {
+   "title": "Mazhar al-'aja'ib (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 83,
+   "catalog": 83,
+   "missing": 0,
+   "units": {
+    "bayt": 5530
+   },
+   "warnings": 2
+  },
+  "attar.wuslatnama.ws": {
+   "title": "Wuslat-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 72,
+   "catalog": 72,
+   "missing": 0,
+   "units": {
+    "bayt": 1667,
+    "para": 2
+   },
+   "warnings": 0
+  },
+  "attar.nuzhatalahbab.na": {
+   "title": "Nuzhat al-ahbab (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 22,
+   "catalog": 22,
+   "missing": 0,
+   "units": {
+    "para": 2,
+    "bayt": 338
+   },
+   "warnings": 0
+  },
+  "attar.ushturnama.us": {
+   "title": "Ushtur-nama (attributed to 'Attar)",
+   "attribution": "spurious_attested",
+   "poems": 30,
+   "catalog": 30,
+   "missing": 0,
+   "units": {
+    "bayt": 4461,
+    "para": 2
+   },
+   "warnings": 0
+  }
+ }
+}

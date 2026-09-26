@@ -1,0 +1,96 @@
+{
+  "source_commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+  "sections": {
+    "84": {
+      "couplets": 28,
+      "sha256": "76b95f53bcbdabe9e8b184f0ae38f23c6dc08f6de1fc0e1e3b2ff20397cd3952",
+      "title": "بخش ۸۴ - قصهٔ بازرگان کی طوطی محبوس او، او را پیغام داد به طوطیان هندوستان هنگام رفتن به تجارت"
+    },
+    "85": {
+      "couplets": 12,
+      "sha256": "c3602ca98a32f89f7de7b19c05402937366f6aa87db0cf7efec7c75e4769eaeb",
+      "title": "بخش ۸۵ - صفت اجنحهٔ طیور عقول الهی"
+    },
+    "86": {
+      "couplets": 16,
+      "sha256": "28a67309aba884b711ef2dd0c9fde6bbc9e1358cf39dcae2c5740d4282e54d9d",
+      "title": "بخش ۸۶ - دیدن خواجه طوطیان هندوستان را در دشت و پیغام رسانیدن از آن طوطی"
+    },
+    "87": {
+      "couplets": 12,
+      "sha256": "26fc59dfa34479c8c5bc8251fe17ea2b7662074d1b6af878012bc4a4bbf2cf6f",
+      "title": "بخش ۸۷ - تفسیر قول فریدالدین عطار قدس الله روحه تو صاحب نفسی ای غافل میان خاک خون می‌خور که صاحب‌دل اگر زهری خورد آن انگبین باشد"
+    },
+    "88": {
+      "couplets": 34,
+      "sha256": "2fbf967df68ab8271f01d7f1cbc489e41d7395de79e47789c079c0de033765e6",
+      "title": "بخش ۸۸ - تعظیم ساحران مر موسی را علیه‌السلام کی چه می‌فرمایی اول تو اندازی عصا"
+    },
+    "89": {
+      "couplets": 42,
+      "sha256": "06b3e540cfddf7f0a49bc33a45b1905b5ee6ac9b96e4b0d74d92c6a3c0eb052e",
+      "title": "بخش ۸۹ - باز گفتن بازرگان با طوطی آنچ دید از طوطیان هندوستان"
+    },
+    "90": {
+      "couplets": 72,
+      "sha256": "4ab7b6b432c8d9039811d25e41722f78f9e26a78381de9eb8cbf1f01d49c746b",
+      "title": "بخش ۹۰ - شنیدن آن طوطی حرکت آن طوطیان و مردن آن طوطی در قفص و نوحهٔ خواجه بر وی"
+    },
+    "91": {
+      "couplets": 51,
+      "sha256": "f4c72934d1af8ccb79351ce35ecb654824ebb713879b136f98e097d08e816d29",
+      "title": "بخش ۹۱ - تفسیر قول حکیم: به هرچ از راه وا مانی، چه کفر آن حرف و چه ایمان، به هرچ از دوست دور افتی، چه زشت آن نقش و چه زیبا، در معنی قوله علیه‌السلام ان سعدا لغیور و انا اغیر من سعد و الله اغیر منی و من غیر ته حرم الفواحش ما ظهر منها و ما بطن"
+    },
+    "92": {
+      "couplets": 11,
+      "sha256": "025a24d766d0811cbb2021ba1babfa420a2f19685678fe17f16dcd8d7fd11981",
+      "title": "بخش ۹۲ - رجوع به حکایت خواجهٔ تاجر"
+    },
+    "93": {
+      "couplets": 20,
+      "sha256": "37501c23db31f4c9d73a0b7e34d304fa8473faf4b5b0419e49c8db8b5e5cff17",
+      "title": "بخش ۹۳ - برون انداختن مرد تاجر طوطی را از قفس و پریدن طوطی مرده"
+    },
+    "94": {
+      "couplets": 4,
+      "sha256": "2b73f1f70ec55cd4c8cca668d551bde2c5dcff9222cb8f7ba1eee577a56cd271",
+      "title": "بخش ۹۴ - وداع کردن طوطی خواجه را و پریدن"
+    },
+    "95": {
+      "couplets": 29,
+      "sha256": "4b66cd5f8b805450d7f0663bb52aae8fbcc6101cab46ef5f03507240d9dd169b",
+      "title": "بخش ۹۵ - مضرت تعظیم خلق و انگشت‌نمای شدن"
+    },
+    "96": {
+      "couplets": 35,
+      "sha256": "3600aed08c3cc3d9de7174dee027cabbb2a68bb4f922428e307d23609bca0149",
+      "title": "بخش ۹۶ - تفسیر ما شاء الله کان"
+    }
+  },
+  "total_couplets": 366,
+  "nicholson_range_derived": [
+    1547,
+    1912
+  ],
+  "anchor": "ganjoor sh84:1=1547 (chained from batch02 sh83:18=1546)",
+  "frame_map": "frames_merchant_parrot.json",
+  "frame_map_method": "model_suggested",
+  "ignored_source_keys": [
+    "CatId",
+    "FullTitle",
+    "FullUrl",
+    "Id",
+    "Metre",
+    "PoemSummary",
+    "Sections",
+    "SourceName",
+    "SourceUrlSlug"
+  ],
+  "ignored_verse_keys": [
+    "CoupletIndex",
+    "CoupletSummary",
+    "SectionIndex1",
+    "SectionIndex2"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,305 @@
+{
+ "checked": "2026-09-25",
+ "method": "web search + fetch (page summaries); citations marked 'via' come from the page opened",
+ "provenance": {
+  "annotator": "model:claude",
+  "status": "checked_against_source (unless marked unverified)"
+ },
+ "hadith": [
+  {
+   "section": 43,
+   "saying": "لا يلدغ المؤمن من جحر واحد مرتين",
+   "matches": [
+    {
+     "collection": "bukhari",
+     "number": "6133",
+     "numbering": "sunnah.com",
+     "narrator": "Abu Hurayra",
+     "url": "https://sunnah.com/bukhari:6133"
+    },
+    {
+     "collection": "muslim",
+     "number": "2998 (Abd al-Baqi) — unverified"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "al-Bukhari & Muslim",
+     "grade": "sahih (in both Sahihs)"
+    }
+   ],
+   "status_summary": "authenticated",
+   "match": "exact"
+  },
+  {
+   "section": 45,
+   "saying": "اعقلها وتوكل",
+   "matches": [
+    {
+     "collection": "tirmidhi",
+     "number": "2517",
+     "narrator": "Anas",
+     "url": "https://sunnah.com/tirmidhi:2517"
+    },
+    {
+     "collection": "ibn_hibban",
+     "number": "731",
+     "narrator": "Amr b. Umayya al-Damri",
+     "url": "https://sunnah.com/ibnhibban:731"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "al-Tirmidhi",
+     "grade": "gharib (from Anas)",
+     "where": "Tirmidhi 2517"
+    },
+    {
+     "grader": "Darussalam",
+     "grade": "hasan",
+     "where": "sunnah.com"
+    },
+    {
+     "grader": "Ibn Hibban",
+     "grade": "sahih by inclusion",
+     "where": "Sahih Ibn Hibban 731"
+    }
+   ],
+   "status_summary": "authenticated",
+   "match": "close"
+  },
+  {
+   "section": 45,
+   "saying": "الكاسب حبيب الله",
+   "matches": [],
+   "source_attribution": "prophet (per commentators, no chain)",
+   "gradings": [
+    {
+     "grader": "HadithAnswers",
+     "grade": "untraceable",
+     "url": "https://hadithanswers.com/an-untraceable-hadith-on-the-virtue-of-one-who-earns/"
+    },
+    {
+     "grader": "Jamia Banuri Town fatwa",
+     "grade": "no source found"
+    }
+   ],
+   "notes": "Quoted without chain in al-Alusi, Ruh al-Ma'ani 20/247 and other tafsirs",
+   "status_summary": "no_known_chain",
+   "match": "exact"
+  },
+  {
+   "section": 46,
+   "saying": "الخلق عيال الله",
+   "matches": [
+    {
+     "collection": "abu_yala / al-bazzar",
+     "narrator": "Anas"
+    },
+    {
+     "collection": "al-tabarani",
+     "narrator": "Ibn Mas'ud / Abu Hurayra"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "al-Haythami",
+     "grade": "narrator Yusuf b. Atiyya matruk",
+     "where": "Majma' al-Zawa'id (via shkhudheir.com/fatwa/24298)"
+    },
+    {
+     "grader": "al-Nawawi",
+     "grade": "weak",
+     "where": "Fatawa (via same)"
+    },
+    {
+     "grader": "al-Albani",
+     "grade": "very weak",
+     "where": "Da'if al-Jami' 2946 (via https://shamela.ws/book/26332/1249)"
+    },
+    {
+     "grader": "Islamweb",
+     "grade": "weak",
+     "url": "https://www.islamweb.net/ar/fatwa/60866/"
+    }
+   ],
+   "status_summary": "weak",
+   "match": "exact"
+  },
+  {
+   "section": 57,
+   "saying": "المستشار مؤتمن",
+   "matches": [
+    {
+     "collection": "abu_dawud",
+     "number": "5128",
+     "url": "https://sunnah.com/abudawud:5128"
+    },
+    {
+     "collection": "tirmidhi",
+     "number": "2822"
+    },
+    {
+     "collection": "ibn_majah",
+     "number": "3745"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "al-Albani",
+     "grade": "sahih"
+    },
+    {
+     "grader": "al-Tirmidhi",
+     "grade": "hasan"
+    }
+   ],
+   "status_summary": "authenticated",
+   "match": "exact"
+  },
+  {
+   "section": 58,
+   "saying": "كل سر جاوز الاثنين شاع",
+   "matches": [],
+   "source_attribution": "poet Qays b. al-Khatim / proverb",
+   "gradings": [],
+   "url": "https://shamela.ws/book/17712/1229",
+   "status_summary": "no_known_chain",
+   "match": "exact"
+  },
+  {
+   "section": 59,
+   "saying": "لا تمارضوا فتمرضوا",
+   "matches": [
+    {
+     "collection": "Ibn Abi Hatim, al-'Ilal 2/321",
+     "narrator": "Ibn Abbas"
+    },
+    {
+     "collection": "al-Daylami"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "Abu Hatim",
+     "grade": "munkar"
+    },
+    {
+     "grader": "al-Sakhawi",
+     "grade": "weak chain",
+     "where": "al-Maqasid al-Hasana 716"
+    },
+    {
+     "grader": "al-Albani",
+     "grade": "munkar",
+     "where": "al-Silsila al-Da'ifa 259"
+    }
+   ],
+   "via": "https://islamqa.info/ar/answers/137158",
+   "status_summary": "weak",
+   "match": "thematic"
+  },
+  {
+   "section": 70,
+   "saying": "المرء مخبوء تحت لسانه",
+   "matches": [
+    {
+     "collection": "Nahj al-Balagha",
+     "number": "unverified (hikma 148 / 392 reported)"
+    }
+   ],
+   "source_attribution": "Ali b. Abi Talib",
+   "gradings": [],
+   "notes": "Rumi attributes to the Prophet; no Prophetic attribution found",
+   "status_summary": "no_known_chain",
+   "match": "exact"
+  },
+  {
+   "section": 72,
+   "saying": "المؤمن مرآة المؤمن",
+   "matches": [
+    {
+     "collection": "abu_dawud",
+     "number": "4918",
+     "url": "https://sunnah.com/abudawud:4918"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "al-Albani",
+     "grade": "hasan",
+     "where": "sunnah.com; al-Silsila al-Sahiha 926"
+    }
+   ],
+   "status_summary": "authenticated",
+   "match": "exact"
+  },
+  {
+   "section": 72,
+   "saying": "اتقوا فراسة المؤمن فإنه ينظر بنور الله",
+   "matches": [
+    {
+     "collection": "tirmidhi",
+     "number": "3127",
+     "narrator": "Abu Sa'id al-Khudri",
+     "url": "https://sunnah.com/tirmidhi:3127"
+    }
+   ],
+   "source_attribution": "prophet",
+   "gradings": [
+    {
+     "grader": "al-Tirmidhi",
+     "grade": "gharib"
+    },
+    {
+     "grader": "Darussalam",
+     "grade": "da'if"
+    }
+   ],
+   "status_summary": "weak",
+   "match": "close"
+  },
+  {
+   "section": 76,
+   "saying": "رجعنا من الجهاد الأصغر إلى الجهاد الأكبر",
+   "matches": [
+    {
+     "collection": "al-Bayhaqi, al-Zuhd",
+     "narrator": "Jabir"
+    },
+    {
+     "collection": "al-Khatib, Tarikh Baghdad"
+    }
+   ],
+   "source_attribution": "prophet; Ibn Hajar: saying of Ibrahim b. Abi Abla",
+   "gradings": [
+    {
+     "grader": "al-Iraqi",
+     "grade": "weak chain"
+    },
+    {
+     "grader": "Ibn Hajar",
+     "grade": "not a hadith"
+    },
+    {
+     "grader": "Ibn Taymiyya",
+     "grade": "la asla lahu",
+     "where": "Majmu' al-Fatawa 11/197"
+    },
+    {
+     "grader": "al-Albani",
+     "grade": "rejected (number not found)"
+    }
+   ],
+   "via": "https://islamqa.info/ar/answers/127009",
+   "status_summary": "weak",
+   "match": "exact"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "source": "ganjoor-data",
+ "commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+ "works": {
+  "rumi.diwan.gh": {
+   "title": "Divan-i Shams: ghazals",
+   "poems": 3230,
+   "catalog": 3230,
+   "missing": 0,
+   "units": {
+    "bayt": 34603,
+    "band_bayt": 52,
+    "single_line": 7
+   },
+   "warnings": 78
+  },
+  "rumi.diwan.rb": {
+   "title": "Divan-i Shams: quatrains",
+   "poems": 1994,
+   "catalog": 1994,
+   "missing": 0,
+   "units": {
+    "bayt": 3988
+   },
+   "warnings": 4
+  },
+  "rumi.diwan.tj": {
+   "title": "Divan-i Shams: tarji'at",
+   "poems": 44,
+   "catalog": 44,
+   "missing": 0,
+   "units": {
+    "bayt": 1541,
+    "band_bayt": 134
+   },
+   "warnings": 7
+  },
+  "rumi.diwan.ms": {
+   "title": "Divan-i Shams: mustadrakat",
+   "poems": 2,
+   "catalog": 2,
+   "missing": 0,
+   "units": {
+    "bayt": 17
+   },
+   "warnings": 0
+  },
+  "rumi.fihi.d": {
+   "title": "Fihi ma fihi",
+   "poems": 71,
+   "catalog": 71,
+   "missing": 0,
+   "units": {
+    "para": 231,
+    "bayt": 38
+   },
+   "warnings": 118
+  },
+  "rumi.majalis.m": {
+   "title": "Majalis-i sab'a",
+   "poems": 16,
+   "catalog": 16,
+   "missing": 0,
+   "units": {
+    "para": 486,
+    "bayt": 173,
+    "single_line": 10
+   },
+   "warnings": 54
+  },
+  "bahawalad.maarif.j": {
+   "title": "Baha' Walad, Ma'arif",
+   "poems": 86,
+   "catalog": 86,
+   "missing": 0,
+   "units": {
+    "para": 686,
+    "bayt": 1
+   },
+   "warnings": 52
+  },
+  "sultanwalad.waladnama.s": {
+   "title": "Sultan Walad, Waladnama",
+   "poems": 171,
+   "catalog": 171,
+   "missing": 0,
+   "units": {
+    "para": 341,
+    "bayt": 8861
+   },
+   "warnings": 5
+  }
+ }
+}
