@@ -1,0 +1,76 @@
+[
+ {
+  "key": "shams.maqalat.movahhed_ocr",
+  "work": "Maqalat-i Shams-i Tabrizi, ed. Muhammad-'Ali Muvahhid (Tehran, 4th pr. 1391 Sh/2012)",
+  "author": "shams",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "ocr",
+  "source_type": "ocr_uncorrected",
+  "note": "archive.org tesseract OCR of the scanned edition; uncorrected; includes editor's introduction and notes; scan on archive.org item 20251124_20251124_2139",
+  "files": [
+   {
+    "local": "/home/claude/ia11/20251124_20251124_2139__مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_hocr_pageindex.json.gz",
+    "name": "مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_hocr_pageindex.json.gz",
+    "item": "20251124_20251124_2139",
+    "md5": "bad1466b788d580598cd792cd4b08bbb",
+    "role": "ocr",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia11/20251124_20251124_2139__مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_hocr_searchtext.txt.gz",
+    "name": "مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_hocr_searchtext.txt.gz",
+    "item": "20251124_20251124_2139",
+    "md5": "6ebbc080f199ae824674b47bbd59b514",
+    "role": "ocr",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia11/20251124_20251124_2139__مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_page_numbers.json",
+    "name": "مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_page_numbers.json",
+    "item": "20251124_20251124_2139",
+    "md5": "6b319078ed5d7928fbc137bd18064e7a",
+    "role": "ocr",
+    "vol": null
+   }
+  ],
+  "ocr_base": "/home/claude/ia11/20251124_20251124_2139__مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى"
+ },
+ {
+  "key": "aflaki.manaqib.yazici_ocr",
+  "work": "Aflaki, Manaqib al-'arifin, ed. Tahsin Yazici (Tehran: Dunya-yi Kitab, 2nd pr. 1362 Sh/1983)",
+  "author": "aflaki",
+  "attribution": "secure",
+  "category": "primary",
+  "kind": "ocr",
+  "source_type": "ocr_uncorrected",
+  "note": "archive.org tesseract OCR of the scanned edition; uncorrected; Yazici keeps the manuscript's dhal (ذ) spellings; scan on archive.org item ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+  "files": [
+   {
+    "local": "/home/claude/ia11/ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi__224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_hocr_pageindex.json.gz",
+    "name": "224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_hocr_pageindex.json.gz",
+    "item": "ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+    "md5": "069e036885e331caac4b971671c07d8d",
+    "role": "ocr",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia11/ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi__224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_hocr_searchtext.txt.gz",
+    "name": "224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_hocr_searchtext.txt.gz",
+    "item": "ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+    "md5": "b85a7f1b3507913ab10229a44a709826",
+    "role": "ocr",
+    "vol": null
+   },
+   {
+    "local": "/home/claude/ia11/ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi__224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_page_numbers.json",
+    "name": "224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_page_numbers.json",
+    "item": "ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+    "md5": "3239b20e587328c9e4d39b79cb0b4c28",
+    "role": "ocr",
+    "vol": null
+   }
+  ],
+  "ocr_base": "/home/claude/ia11/ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi__224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi"
+ }
+]

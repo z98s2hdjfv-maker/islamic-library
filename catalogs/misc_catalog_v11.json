@@ -1,0 +1,62 @@
+{
+ "works": {
+  "shams.maqalat.movahhed_ocr": {
+   "work": "Maqalat-i Shams-i Tabrizi, ed. Muhammad-'Ali Muvahhid (Tehran, 4th pr. 1391 Sh/2012)",
+   "author": "shams",
+   "attribution": "secure",
+   "category": "primary",
+   "source_type": "ocr_uncorrected",
+   "note": "archive.org tesseract OCR of the scanned edition; uncorrected; includes editor's introduction and notes; scan on archive.org item 20251124_20251124_2139",
+   "rows": 1037,
+   "sources": [
+    {
+     "file": "مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_hocr_pageindex.json.gz",
+     "item": "20251124_20251124_2139",
+     "md5": "bad1466b788d580598cd792cd4b08bbb",
+     "sha256": "a2e729e493a6c0a386ddd38799ca5c7c621f04f2d9e75edce083a95f25e5a7e9"
+    },
+    {
+     "file": "مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_hocr_searchtext.txt.gz",
+     "item": "20251124_20251124_2139",
+     "md5": "6ebbc080f199ae824674b47bbd59b514",
+     "sha256": "283d98aaceae702ed1d24d2c79fadfc07a8bf31c4eab1bff3b16e8b1637153ff"
+    },
+    {
+     "file": "مقالات شمس تبريزى تصحيح وتعليق محمدعلى موحد #فارسى_page_numbers.json",
+     "item": "20251124_20251124_2139",
+     "md5": "6b319078ed5d7928fbc137bd18064e7a",
+     "sha256": "bc12323eb8edf575accfe00ac3cf34b469b716bdcd92796e48180bde04ad3cf7"
+    }
+   ]
+  },
+  "aflaki.manaqib.yazici_ocr": {
+   "work": "Aflaki, Manaqib al-'arifin, ed. Tahsin Yazici (Tehran: Dunya-yi Kitab, 2nd pr. 1362 Sh/1983)",
+   "author": "aflaki",
+   "attribution": "secure",
+   "category": "primary",
+   "source_type": "ocr_uncorrected",
+   "note": "archive.org tesseract OCR of the scanned edition; uncorrected; Yazici keeps the manuscript's dhal (ذ) spellings; scan on archive.org item ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+   "rows": 1267,
+   "sources": [
+    {
+     "file": "224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_hocr_pageindex.json.gz",
+     "item": "ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+     "md5": "069e036885e331caac4b971671c07d8d",
+     "sha256": "d0cc98de060d1184bbd568f7072a8a96182fa45c4d3775378f3a498e33ef4e2e"
+    },
+    {
+     "file": "224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_hocr_searchtext.txt.gz",
+     "item": "ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+     "md5": "b85a7f1b3507913ab10229a44a709826",
+     "sha256": "0472560255ca349a8e93d1871b239b91645997b9b648f2bc20d3c2d29e17183d"
+    },
+    {
+     "file": "224749018-Manaqibul-Arifeen-Shamsuddin-Ahmad-Aflaki-Farsi_page_numbers.json",
+     "item": "ManaqibulArifeen-ShamsuddinAhmadAflakiFarsi",
+     "md5": "3239b20e587328c9e4d39b79cb0b4c28",
+     "sha256": "3db355eed78151f654889b6f63ced2ceae45d6b89499819bd223575a016d33f2"
+    }
+   ]
+  }
+ }
+}

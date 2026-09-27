@@ -1,0 +1,11 @@
+[
+ {
+  "key": "ibnarabi.fusus.nizamaldin_textlayer",
+  "work": "Fusus al-hikam, ed. Sayyid Nizam al-Din Ahmad (Cairo 2015, critical)",
+  "author": "ibnarabi",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "pdf_textlayer_cleaned",
+  "note": "publisher PDF text layer (release v1-assets), cleaned deterministically by pipeline/fusus/clean_fusus_textlayer.py: doubled glyphs removed, 71 PUA glyphs mapped from font glyph names (vocalisation and lam-alif restored); residue: some harakat and lam-alif misplaced in lines with ligatures. Preferred over the OCR witness for search; check the page image before quoting"
+ }
+]

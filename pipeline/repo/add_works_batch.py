@@ -107,6 +107,13 @@ def build_index(repo):
             rows[key] = [key, author, r.get('title', ''), r.get('attribution') or 'unreviewed',
                          'primary', 'ganjoor', f'Persian; ganjoor-data {commit}; {os.path.basename(sf)}',
                          path, n]
+    # attribution decisions recorded after import (catalogs/attribution_overrides.tsv)
+    ov = os.path.join(repo, 'catalogs', 'attribution_overrides.tsv')
+    if os.path.exists(ov):
+        for r in csv.DictReader(open(ov, encoding='utf-8'), delimiter='\t'):
+            if r['key'] in rows:
+                rows[r['key']][3] = r['attribution']
+                rows[r['key']][6] = (rows[r['key']][6] + f"; attribution set by {r['decided_by']} {r['date']}: {r['note']}").strip('; ')
     with open(os.path.join(repo, 'catalogs', 'works_index.tsv'), 'w', encoding='utf-8') as f:
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['key', 'author', 'work', 'attribution', 'category', 'source_type', 'note', 'corpus_path', 'records'])

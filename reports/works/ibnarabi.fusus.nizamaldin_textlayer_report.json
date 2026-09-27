@@ -1,0 +1,296 @@
+{
+ "pages": 520,
+ "pdf_sha256": "0fdd3fdc11398b11dcff719852ae000f8eb747e857262a2bf40479301c8aaeb7",
+ "extractor": "pdftotext version 24.02.0",
+ "stats": {
+  "dup_removed": 114334,
+  "dup_digit": 10274,
+  "pua_mapped": 198000
+ },
+ "pua_map": {
+  "E800": {
+   "glyph": "uniFE82_alt",
+   "text": "آ"
+  },
+  "E806": {
+   "glyph": "uniFE8E_alt",
+   "text": "ا"
+  },
+  "E807": {
+   "glyph": "uniFE8E_alt2",
+   "text": "ا"
+  },
+  "E808": {
+   "glyph": "uniFB51_alt",
+   "text": "ٱ"
+  },
+  "E809": {
+   "glyph": "uniFB51_alt2",
+   "text": "ٱ"
+  },
+  "E80A": {
+   "glyph": "uniFEDF_alt",
+   "text": "ل"
+  },
+  "E80E": {
+   "glyph": "uniFEE0_alt",
+   "text": "ل"
+  },
+  "E812": {
+   "glyph": "afii57451_afii57457",
+   "text": "ًّ"
+  },
+  "E814": {
+   "glyph": "uni0654_afii57452",
+   "text": "ٌٔ"
+  },
+  "E815": {
+   "glyph": "uni0654_afii57454",
+   "text": "َٔ"
+  },
+  "E816": {
+   "glyph": "uni0654_afii57455",
+   "text": "ُٔ"
+  },
+  "E817": {
+   "glyph": "afii57458_uni0654",
+   "text": "ْٔ"
+  },
+  "E818": {
+   "glyph": "uni0670_uni0653",
+   "text": "ٰٓ"
+  },
+  "E81D": {
+   "glyph": "afii57456_afii57457",
+   "text": "ِّ"
+  },
+  "E821": {
+   "glyph": "kashidaautoarabic",
+   "text": ""
+  },
+  "E823": {
+   "glyph": "afii57451_alt",
+   "text": "ً"
+  },
+  "E824": {
+   "glyph": "afii57452_alt",
+   "text": "ٌ"
+  },
+  "E825": {
+   "glyph": "afii57454_alt",
+   "text": "َ"
+  },
+  "E826": {
+   "glyph": "afii57455_alt",
+   "text": "ُ"
+  },
+  "E827": {
+   "glyph": "afii57457_alt",
+   "text": "ّ"
+  },
+  "E828": {
+   "glyph": "afii57458_alt",
+   "text": "ْ"
+  },
+  "E829": {
+   "glyph": "uni0653_alt",
+   "text": "ٓ"
+  },
+  "E82B": {
+   "glyph": "uni0670_alt",
+   "text": "ٰ"
+  },
+  "E82E": {
+   "glyph": "uniFC5E_alt",
+   "text": "ٌّ"
+  },
+  "E82F": {
+   "glyph": "uniFC5F_alt",
+   "text": "ٍّ"
+  },
+  "E830": {
+   "glyph": "uniFC60_alt",
+   "text": "َّ"
+  },
+  "E831": {
+   "glyph": "uniFC61_alt",
+   "text": "ُّ"
+  },
+  "E832": {
+   "glyph": "uniFC62_alt",
+   "text": "ِّ"
+  },
+  "E833": {
+   "glyph": "uniFC63_alt",
+   "text": "ّٰ"
+  },
+  "E834": {
+   "glyph": "afii57451_afii57457_alt",
+   "text": "ًّ"
+  },
+  "E835": {
+   "glyph": "uni0654_afii57451_alt",
+   "text": "ًٔ"
+  },
+  "E837": {
+   "glyph": "uni0654_afii57454_alt",
+   "text": "َٔ"
+  },
+  "E838": {
+   "glyph": "uni0654_afii57455_alt",
+   "text": "ُٔ"
+  },
+  "E839": {
+   "glyph": "afii57458_uni0654_alt",
+   "text": "ْٔ"
+  },
+  "E83A": {
+   "glyph": "uni0670_uni0653_alt",
+   "text": "ٰٓ"
+  },
+  "E83F": {
+   "glyph": "afii57453_alt",
+   "text": "ٍ"
+  },
+  "E840": {
+   "glyph": "afii57456_alt",
+   "text": "ِ"
+  },
+  "E845": {
+   "glyph": "uni0655_afii57456_alt",
+   "text": "ِٕ"
+  },
+  "E846": {
+   "glyph": "uni0655_afii57453_alt",
+   "text": "ٍٕ"
+  },
+  "E849": {
+   "glyph": "afii57454_alt2",
+   "text": "َ"
+  },
+  "E84D": {
+   "glyph": "uni0653_alt2",
+   "text": "ٓ"
+  },
+  "E85B": {
+   "glyph": "uni0654_afii57454_alt2",
+   "text": "َٔ"
+  },
+  "E85C": {
+   "glyph": "uni0654_afii57455_alt2",
+   "text": "ُٔ"
+  },
+  "E863": {
+   "glyph": "afii57453_alt2",
+   "text": "ٍ"
+  },
+  "E864": {
+   "glyph": "afii57456_alt2",
+   "text": "ِ"
+  },
+  "E86D": {
+   "glyph": "afii57454_alt3",
+   "text": "َ"
+  },
+  "E87F": {
+   "glyph": "uni0654_afii57454_alt3",
+   "text": "َٔ"
+  },
+  "E880": {
+   "glyph": "uni0654_afii57455_alt3",
+   "text": "ُٔ"
+  },
+  "E887": {
+   "glyph": "afii57453_alt3",
+   "text": "ٍ"
+  },
+  "E888": {
+   "glyph": "afii57456_alt3",
+   "text": "ِ"
+  },
+  "E898": {
+   "glyph": "uni06D5.fin",
+   "text": "ە"
+  },
+  "E8D4": {
+   "glyph": "uniFEE0_alt2",
+   "text": "ل"
+  },
+  "E8DE": {
+   "glyph": "afii57453_alt4",
+   "text": "ٍ"
+  },
+  "E8DF": {
+   "glyph": "afii57456_alt4",
+   "text": "ِ"
+  },
+  "E8E6": {
+   "glyph": "afii57451_alt4",
+   "text": "ً"
+  },
+  "E8E7": {
+   "glyph": "afii57452_alt4",
+   "text": "ٌ"
+  },
+  "E8E8": {
+   "glyph": "afii57454_alt4",
+   "text": "َ"
+  },
+  "E8E9": {
+   "glyph": "afii57455_alt4",
+   "text": "ُ"
+  },
+  "E8EA": {
+   "glyph": "afii57457_alt4",
+   "text": "ّ"
+  },
+  "E8EB": {
+   "glyph": "afii57458_alt4",
+   "text": "ْ"
+  },
+  "E8EE": {
+   "glyph": "uni0670_alt4",
+   "text": "ٰ"
+  },
+  "E8F4": {
+   "glyph": "uniFC60_alt4",
+   "text": "َّ"
+  },
+  "E8F5": {
+   "glyph": "uniFC61_alt4",
+   "text": "ُّ"
+  },
+  "E8F6": {
+   "glyph": "uniFC62_alt4",
+   "text": "ِّ"
+  },
+  "E8F8": {
+   "glyph": "afii57451_afii57457_alt4",
+   "text": "ًّ"
+  },
+  "E8FB": {
+   "glyph": "uni0654_afii57454_alt4",
+   "text": "َٔ"
+  },
+  "E8FE": {
+   "glyph": "uni0670_uni0653_alt4",
+   "text": "ٰٓ"
+  },
+  "E915": {
+   "glyph": "uniFEF2_alt",
+   "text": "ي"
+  },
+  "E917": {
+   "glyph": "uniFC90_alt",
+   "text": "ىٰ"
+  },
+  "EA75": {
+   "glyph": "uniFEA3FCA8alt",
+   "text": "حجم"
+  },
+  "EA79": {
+   "glyph": "uniFEE4FCA8alt",
+   "text": "مجم"
+  }
+ }
+}

@@ -17,6 +17,8 @@ way; no layer edits the one before it.
 Verse IDs follow `urn:sufi:rumi.mathnawi:<book>.b<nicholson>` (anchored) or
 `...g<ganjoor_seq>` (Ganjoor-based). See `docs/mathnawi/README.md`.
 
+**Search:** a root-aware full-text index over the whole corpus is published as a release asset; see `docs/search/README.md`.
+
 Large binaries (scans, page-image packs) are **not** committed. They are
 published as GitHub Release assets; see `release_assets.txt`.
 
