@@ -17,7 +17,7 @@ texts are secure, doubtful or spurious before quoting them.
 
 Usage: add_works_batch.py --batch v9 --dir <unzipped batch> --repo <repo>
 """
-import argparse, hashlib, json, os, shutil, sys, csv, glob
+import argparse, hashlib, json, os, shutil, sys, csv, glob, gzip
 
 def sha(p):
     h = hashlib.sha256()
@@ -88,8 +88,11 @@ def build_index(repo):
             if not isinstance(r, dict) or 'key' not in r: continue
             author, work = r['key'].split('.', 1)
             path = f'corpus/{author}/{work}.jsonl'
-            n = sum(1 for _ in open(os.path.join(repo, path), encoding='utf-8')) \
-                if os.path.exists(os.path.join(repo, path)) else ''
+            if not os.path.exists(os.path.join(repo, path)) and os.path.exists(os.path.join(repo, path + '.gz')):
+                path += '.gz'
+            full = os.path.join(repo, path)
+            n = (sum(1 for _ in (gzip.open(full, 'rt', encoding='utf-8') if path.endswith('.gz') else open(full, encoding='utf-8'))))\
+                if os.path.exists(full) else ''
             rows[r['key']] = [r['key'], author, r.get('work', ''), r.get('attribution', ''),
                               r.get('category', ''), r.get('source_type') or 'shamela',
                               (r.get('note') or '').replace('\t', ' '), path, n]

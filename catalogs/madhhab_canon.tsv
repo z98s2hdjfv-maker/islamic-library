@@ -1,0 +1,59 @@
+school	book	jurist	role	note
+hanafi	0189MuhammadShaybani.Asl	al-Shaybani	founding corpus	Zahir al-riwaya; Abu Hanifa's and his companions' positions
+hanafi	0189MuhammadShaybani.JamicSaghir	al-Shaybani	founding corpus	Zahir al-riwaya
+hanafi	0189MuhammadShaybani.HujjaCalaAhlMadina	al-Shaybani	inter-school disputation	Kufan positions argued against the Medinans
+hanafi	0321Tahawi.Mukhtasar	al-Tahawi	mukhtasar	early authoritative digest
+hanafi	0370IbnCaliJassas.FusulFiUsul	al-Jassas	usul	earliest extant Hanafi usul
+hanafi	0430AbuZaydDabusi.Taqwim	al-Dabusi	usul	
+hanafi	0428AbuHusaynQuduri.Mukhtasar	al-Quduri	mukhtasar	the standard teaching text
+hanafi	0483IbnAhmadSarakhsi.Usul	al-Sarakhsi	usul	
+hanafi	0483IbnAhmadSarakhsi.Mabsut	al-Sarakhsi	great commentary	on al-Hakim al-Shahid's Kafi
+hanafi	0482IbnMuhammadBazdawi.KanzWusul	al-Bazdawi	usul	Kanz al-wusul (Usul al-Bazdawi)
+hanafi	0587IbnMascudCalaDinKasani.BadaicSanaic	al-Kasani	systematic furu'	reasoned by legal cause
+hanafi	0593BurhanDinFarghaniMarghinani.HidayaFiSharhBidaya	al-Marghinani	mukhtasar + sharh	al-Hidaya, the school's central text
+hanafi	0970IbnIbrahimIbnNujaymMisri.AshbahWaNazair	Ibn Nujaym	legal maxims	qawa'id / ashbah
+hanafi	1252IbnCabidinDimashqi.RaddMukhtar	Ibn 'Abidin	relied-on late reference	Hashiyat Ibn 'Abidin; the mu'tamad for fatwa
+maliki	0179MalikIbnAnas.Muwatta	Malik	founding corpus	
+maliki	0240SahnunIbnSacid.MudawwanaKubra	Sahnun	founding corpus	Ibn al-Qasim's transmission of Malik
+maliki	0386IbnAbiZaydQayrawani.Risala	Ibn Abi Zayd	mukhtasar	the standard teaching text
+maliki	0386IbnAbiZaydQayrawani.NawadirWaZiyadat	Ibn Abi Zayd	great compendium	on the Mudawwana
+maliki	0463IbnCabdBarr.KafiFiFiqh	Ibn 'Abd al-Barr	manual	
+maliki	0474IbnKhalafBaji.IsharaFiUsulFiqh	al-Baji	usul	
+maliki	0474IbnKhalafBaji.MuntaqaSharhMuwatta	al-Baji	great commentary	on the Muwatta
+maliki	0520IbnRushdJadd.Muqaddimat	Ibn Rushd al-Jadd	systematic furu'	al-Muqaddimat al-mumahhidat
+maliki	0684ShihabDinQarafi.Furuq	al-Qarafi	legal maxims	al-Furuq
+maliki	0684ShihabDinQarafi.Dhakhira	al-Qarafi	great compendium	
+maliki	0767KhalilIbnIshaq.MukhtasarKhalil	Khalil	mukhtasar	the late school's central text
+maliki	0790IbnMusaGharnatiShatibi.Muwafaqat	al-Shatibi	usul / maqasid	
+maliki	0954HattabRucayniMaghribi.MawahibJalil	al-Hattab	great commentary	on Mukhtasar Khalil
+maliki	1230IbnAhmadDasuqi.HashiyatCalaSharhKabir	al-Dasuqi	relied-on late reference	gloss on al-Dardir's Sharh kabir (text included)
+shafii	0204Shafici.Risala	al-Shafi'i	founding corpus / usul	first work of usul al-fiqh
+shafii	0204Shafici.Umm	al-Shafi'i	founding corpus	
+shafii	0264IbnYahyaMuzani.Mukhtasar	al-Muzani	mukhtasar	
+shafii	0450AbuHasanMawardi.HawiKabir	al-Mawardi	great commentary	on Mukhtasar al-Muzani
+shafii	0476AbuIshaqShirazi.LumacFiUsulFiqh	al-Shirazi	usul	
+shafii	0476AbuIshaqShirazi.MuhadhdhabFiFiqh	al-Shirazi	manual	
+shafii	0478ImamHaramaynJuwayni.BurhanFiUsulFiqh	al-Juwayni	usul	
+shafii	0478ImamHaramaynJuwayni.NihayatMatlab	al-Juwayni	great compendium	
+shafii	0606FakhrDinRazi.Mahsul	Fakhr al-Din al-Razi	usul	
+shafii	0623AbuQasimRafici.SharhKabir	al-Rafi'i	great commentary	al-'Aziz sharh al-Wajiz
+shafii	0676Nawawi.MinhajTalibin	al-Nawawi	mukhtasar	the late school's central text
+shafii	0676Nawawi.Majmuc	al-Nawawi	great commentary	on al-Muhadhdhab; inter-school comparison
+shafii	0974IbnHajarHaytami.TuhfatMuhtaj	Ibn Hajar al-Haytami	relied-on late reference	on the Minhaj
+shafii	1004ShamsDinRamli.NihayatMuhtaj	al-Ramli	relied-on late reference	on the Minhaj
+hanbali	0241IbnHanbal.MasailRiwayatCabdAllah	Ahmad ibn Hanbal	founding corpus	responsa via his son 'Abd Allah
+hanbali	0241IbnHanbal.MasailRiwayatSalih	Ahmad ibn Hanbal	founding corpus	responsa via his son Salih
+hanbali	0241IbnHanbal.MasailRiwayatIbnHani	Ahmad ibn Hanbal	founding corpus	responsa via Ibn Hani'
+hanbali	0334IbnHusaynKhiraqi.MukhtasarMinMasailIbnHanbal	al-Khiraqi	mukhtasar	first Hanbali mukhtasar
+hanbali	0458AbuYaclaIbnFarra.CuddaFiUsulFiqh	Abu Ya'la	usul	
+hanbali	0458AbuYaclaIbnFarra.MasailFiqhiyya	Abu Ya'la	school positions	al-Riwayatayn wa-l-wajhayn
+hanbali	0513AbuWafaIbnCaqil.WadihFiUsulFiqh	Ibn 'Aqil	usul	
+hanbali	0620IbnQudamaMaqdisi.RawdatNazir	Ibn Qudama	usul	
+hanbali	0620IbnQudamaMaqdisi.MuqnicFiFiqh	Ibn Qudama	mukhtasar	
+hanbali	0620IbnQudamaMaqdisi.Mughni	Ibn Qudama	great commentary	on al-Khiraqi; inter-school comparison
+hanbali	0716NajmDinTufi.SharhMukhtasarRawda	al-Tufi	usul	
+hanbali	0728IbnTaymiyya.FatawaKubra	Ibn Taymiyya	fatawa	
+hanbali	0751IbnQayyimJawziyya.AclamMuwaqqicin	Ibn Qayyim al-Jawziyya	usul / ifta'	
+hanbali	0885CalaDinMardawi.Insaf	al-Mardawi	relied-on late reference	tarjih of the school's opinions
+hanbali	0972IbnAhmadIbnNajjarHanbali.SharhKawkabMunir	Ibn al-Najjar	usul	
+hanbali	1051IbnYunusBuhutiHanbali.KashshafQinac	al-Buhuti	relied-on late reference	

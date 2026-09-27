@@ -22,7 +22,7 @@ primary one (search.py uses only primary versions unless --all-versions).
 Usage: python3 pipeline/search/build_index.py --repo . --out search/library.sqlite
 Needs: pip install camel-tools ; camel_data -i morphology-db-msa-r13
 """
-import argparse, csv, glob, json, os, sqlite3, subprocess, sys, time, collections
+import argparse, csv, glob, gzip, json, os, sqlite3, subprocess, sys, time, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from textnorm import norm, words, root_token
 
@@ -51,7 +51,8 @@ def iter_units(repo):
             yield dict(uid=r["id"], work_key="rumi.mathnawi", author="rumi", lang="fa", attribution="secure",
                        source_type="ganjoor", primary_version=1,
                        text=f'{r["hemistich_1"]} / {r["hemistich_2"]}')
-    for p in sorted(glob.glob(os.path.join(repo, "corpus/**/*.jsonl"), recursive=True)):
+    for p in sorted(glob.glob(os.path.join(repo, "corpus/**/*.jsonl"), recursive=True) +
+                    glob.glob(os.path.join(repo, "corpus/**/*.jsonl.gz"), recursive=True)):
         rel = os.path.relpath(p, repo)
         if rel.startswith("corpus/mathnawi/"):
             continue
@@ -68,7 +69,7 @@ def iter_units(repo):
             fa = r["source_type"] == "ganjoor" or r["author"] in PERSIAN_AUTHORS
             meta = dict(work_key=r["key"], author=r["author"], lang="fa" if fa else "ar",
                         attribution=r["attribution"], source_type=r["source_type"], primary_version=1)
-        for line in open(p, encoding="utf-8"):
+        for line in (gzip.open(p, "rt", encoding="utf-8") if p.endswith(".gz") else open(p, encoding="utf-8")):
             rec = json.loads(line)
             t = unit_text(rec)
             if t.strip():
