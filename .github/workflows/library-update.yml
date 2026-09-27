@@ -5,7 +5,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - name: Apply uploaded library-update zips
@@ -21,6 +21,7 @@ jobs:
             if [ -f /tmp/upd/DELETE.txt ]; then
               while IFS= read -r f; do [ -n "$f" ] && git rm -q --ignore-unmatch -- "$f"; done < /tmp/upd/DELETE.txt
             fi
+            if [ -f /tmp/upd/RUN.sh ]; then bash /tmp/upd/RUN.sh /tmp/upd; fi
             git rm -q -- "$z"
             git add -A
             git commit -q -m "Apply $z"
@@ -35,9 +36,8 @@ jobs:
           pip install -q camel-tools==1.6.0
           camel_data -i morphology-db-msa-r13
           python3 pipeline/search/build_index.py --repo . --out search/library.sqlite
-         
           gzip -6 -c search/library.sqlite > library_search_index.sqlite.gz
-          sha256sum library_search_index.sqlite.gz
+          ls -la library_search_index.sqlite.gz
       - name: Publish index as release asset
         env:
           GH_TOKEN: ${{ github.token }}
