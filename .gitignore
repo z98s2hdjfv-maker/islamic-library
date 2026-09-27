@@ -2,4 +2,4 @@ release_assets/
 _unsorted/
 __pycache__/
 .DS_Store
-search/
+/search/
