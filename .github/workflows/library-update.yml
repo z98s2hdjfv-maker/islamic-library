@@ -35,7 +35,7 @@ jobs:
           pip install -q camel-tools==1.6.0
           camel_data -i morphology-db-msa-r13
           python3 pipeline/search/build_index.py --repo . --out search/library.sqlite
-          python3 pipeline/search/search.py --db search/library.sqlite --root وكل --by-author | head -20
+         
           gzip -6 -c search/library.sqlite > library_search_index.sqlite.gz
           sha256sum library_search_index.sqlite.gz
       - name: Publish index as release asset
