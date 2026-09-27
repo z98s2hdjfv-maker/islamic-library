@@ -1,0 +1,46 @@
+name: Library update and search index
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply uploaded library-update zips
+        run: |
+          shopt -s nullglob
+          git config user.name "library-builder"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for z in library-update-*.zip; do
+            echo "::group::$z"
+            rm -rf /tmp/upd && mkdir /tmp/upd && unzip -q "$z" -d /tmp/upd
+            (cd /tmp/upd/files && sha256sum -c --quiet ../SHA256SUMS) || { echo "checksum failed for $z"; exit 1; }
+            cp -a /tmp/upd/files/. .
+            if [ -f /tmp/upd/DELETE.txt ]; then
+              while IFS= read -r f; do [ -n "$f" ] && git rm -q --ignore-unmatch -- "$f"; done < /tmp/upd/DELETE.txt
+            fi
+            git rm -q -- "$z"
+            git add -A
+            git commit -q -m "Apply $z"
+            echo "::endgroup::"
+          done
+          git push
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build search index
+        run: |
+          pip install -q camel-tools==1.6.0
+          camel_data -i morphology-db-msa-r13
+          python3 pipeline/search/build_index.py --repo . --out search/library.sqlite
+          python3 pipeline/search/search.py --db search/library.sqlite --root وكل --by-author | head -20
+          gzip -6 -c search/library.sqlite > library_search_index.sqlite.gz
+          sha256sum library_search_index.sqlite.gz
+      - name: Publish index as release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view search-index >/dev/null 2>&1 || gh release create search-index --title "Search index" --notes "Root-aware full-text index of the corpus. Rebuilt by the 'Library update and search index' workflow. See docs/search/README.md."
+          gh release upload search-index library_search_index.sqlite.gz --clobber
