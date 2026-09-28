@@ -1,0 +1,35 @@
+{
+ "note": "derived automatically; unverified. weakest_rank is not a grade of the hadith.",
+ "parallels": {
+  "groups": 13196,
+  "groups_across_collections": 10936,
+  "agreed_upon_groups": 1004,
+  "hadith_in_groups": 52390
+ },
+ "taqrib_entries": 8824,
+ "narrator_names": 592486,
+ "narrator_names_linked": 263622,
+ "share_linked": 0.445,
+ "hadith_fully_linked": 2986,
+ "weakest_rank_of_linked": {
+  "thiqa": 33328,
+  "thiqa+ (highest)": 28572,
+  "saduq": 13934,
+  "saduq with errors": 9694,
+  "maqbul": 7892,
+  "da'if": 3124,
+  "Companion": 2780,
+  "majhul": 2018,
+  "matruk": 774,
+  "mastur": 339,
+  "kadhdhab": 55,
+  "muttaham": 7
+ },
+ "link_methods": {
+  "prefix": 143870,
+  "alias": 125751,
+  "contains": 7306,
+  "prefix+book_code": 10566,
+  "contains+book_code": 1511
+ }
+}

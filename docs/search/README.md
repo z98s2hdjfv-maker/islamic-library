@@ -49,3 +49,6 @@ the text is OCR or a cleaned PDF text layer.
 - The results do not disambiguate: a hit for root علم includes عَلَم (flag) as well as عِلْم.
 - OCR witnesses (Futūḥāt Manṣūb, Fuṣūṣ OCR, Maqālāt-i Shams, Aflākī) have noisy text, so
   expect misses there.
+
+## Hadith filters (v17)
+See docs/hadith_links/README.md: --hadith-only, --caliph, --narrator, --graded, --agreed, --max-weakest-rank, --parallels.

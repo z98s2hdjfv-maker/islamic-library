@@ -61,3 +61,6 @@ corpus/quran/ (6,236 verses, id urn:quran:S:A, Tanzil text, CC BY 3.0), corpus/h
 
 ## v16: hadith layer
 apparatus/hadith/<collection>.jsonl.gz: one record per hadith (id urn:hadith:<collection>:<number>) with isnad, matn, narrator, caliph, grades found in the sources, and compiler comments. Numbering, method and limits: docs/hadith_layer/README.md. Summary: catalogs/hadith_layer_summary.json.
+
+## v17: hadith links and search
+apparatus/hadith_links/ (parallels across collections; chains with narrators linked to Ibn Hajar's Taqrib), apparatus/rijal/taqrib_index.tsv.gz, catalogs/narrator_aliases.tsv. The search index has hadith tables and filters (--caliph, --narrator, --graded, --agreed, --parallels). Details: docs/hadith_links/README.md.

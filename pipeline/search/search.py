@@ -10,6 +10,11 @@ Examples
   search.py --root جهد --lang ar --attribution secure --limit 50
   search.py --root علم --root ذوق --near 10   both roots within 10 words (FTS5 NEAR)
   search.py --json ...                        machine-readable (for agents)
+  search.py --root نيه --caliph Umar          hadith narrated by Umar (also Abu Bakr / Uthman / Ali)
+  search.py "الاعمال بالنيات" --hadith-only    hadith units only, each hit with its hadith record
+  search.py --root صبر --narrator "أبو هريرة" --graded صحيح
+  search.py --root رحم --agreed                in both al-Bukhari and Muslim (matched by wording; unverified)
+  search.py --parallels urn:hadith:0256Bukhari.Sahih:1   all versions of that hadith across collections
 
 Rules
   Queries are normalised like the index (harakat stripped, alif/ya/kaf/ta marbuta unified).
@@ -23,6 +28,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from textnorm import norm, root_query_variants
 
 DEFAULT_DB = os.environ.get("LIBRARY_DB", "search/library.sqlite")
+
+
+def narrator_key(s):
+    s = re.sub(r"[^ء-ي ]", " ", norm(s or ""))
+    s = re.sub(r"\bابي\b", "ابو", s); s = re.sub(r"\bابا\b", "ابو", s); s = re.sub(r"\bابن\b", "بن", s)
+    return " ".join(s.split())
 
 
 def fts_term(t):
@@ -75,16 +86,44 @@ def main():
     ap.add_argument("--all-versions", action="store_true"); ap.add_argument("--by-author", action="store_true")
     ap.add_argument("--limit", type=int, default=20); ap.add_argument("--json", action="store_true")
     ap.add_argument("--db", default=DEFAULT_DB)
+    ap.add_argument("--hadith-only", action="store_true"); ap.add_argument("--caliph", choices=["Abu Bakr", "Umar", "Uthman", "Ali"])
+    ap.add_argument("--narrator"); ap.add_argument("--graded", help="substring of a grade in the sources, e.g. صحيح or sahih")
+    ap.add_argument("--agreed", action="store_true"); ap.add_argument("--max-weakest-rank", type=int,
+                    help="only hadith whose weakest LINKED narrator is at or above this Taqrib rank (1-12); not a hadith grade")
+    ap.add_argument("--parallels", metavar="HADITH_ID")
     a = ap.parse_args()
     if not os.path.exists(a.db):
         sys.exit(f"index not found: {a.db} (download the search-index release asset or run build_index.py)")
     db = sqlite3.connect(a.db)
+    has_h = bool(db.execute("SELECT 1 FROM sqlite_master WHERE name='hadith'").fetchone())
+    hflt = a.hadith_only or a.caliph or a.narrator or a.graded or a.agreed or a.max_weakest_rank
+    if (hflt or a.parallels) and not has_h:
+        sys.exit("this index has no hadith tables (built before v17); download the current search-index asset")
+    if a.parallels:
+        g = db.execute("SELECT parallel_group FROM hadith WHERE hadith_id=?", (a.parallels,)).fetchone()
+        if not g or not g[0]: sys.exit("no parallels recorded for " + a.parallels)
+        rows = db.execute("""SELECT h.hadith_id, h.narrator, h.grades, h.weakest_rank_name, u.text FROM hadith h
+                             LEFT JOIN hadith_units hu ON hu.hadith_id=h.hadith_id LEFT JOIN units u ON u.uid=hu.uid
+                             WHERE h.parallel_group=? GROUP BY h.hadith_id ORDER BY h.hadith_id""", (g[0],)).fetchall()
+        if a.json: print(json.dumps([dict(hadith_id=r[0], narrator=r[1], grades=r[2], weakest_linked=r[3], text=r[4]) for r in rows], ensure_ascii=False, indent=1)); return
+        print(f"group {g[0]}: {len(rows)} versions (matched by wording; unverified)\n")
+        for r in rows: print(f"{r[0]}  [{r[1] or '?'}{' · ' + r[2] if r[2] else ''}]\n    {(r[4] or '')[:160]}\n")
+        return
     where, args = ["fts MATCH ?"], [build_match(a)]
     if not a.all_versions: where.append("u.primary_version = 1")
     for col, vals in (("u.author", a.author), ("u.work_key", a.work), ("u.attribution", a.attribution)):
         if vals: where.append(f"{col} IN ({','.join('?' * len(vals))})"); args += vals
     if a.lang: where.append("u.lang = ?"); args.append(a.lang)
-    sql_from = "FROM fts JOIN units u ON u.rowid = fts.rowid WHERE " + " AND ".join(where)
+    join = ""
+    if has_h:
+        join = " LEFT JOIN hadith_units hu ON hu.uid = u.uid LEFT JOIN hadith h ON h.hadith_id = hu.hadith_id"
+        if hflt: where.append("h.hadith_id IS NOT NULL")
+        if a.caliph: where.append("h.caliph = ?"); args.append(a.caliph)
+        if a.narrator: where.append("h.narrator_key = ?"); args.append(narrator_key(a.narrator))
+        if a.graded: where.append("h.grades LIKE ?"); args.append(f"%{a.graded}%")
+        if a.agreed: where.append("h.agreed_upon = 1")
+        if a.max_weakest_rank: where.append("h.weakest_rank <= ?"); args.append(a.max_weakest_rank)
+    sql_from = "FROM fts JOIN units u ON u.rowid = fts.rowid" + join + " WHERE " + " AND ".join(where)
     if a.by_author:
         rows = db.execute(f"SELECT u.author, u.work_key, u.attribution, COUNT(*) {sql_from} GROUP BY u.author, u.work_key ORDER BY u.author, COUNT(*) DESC", args).fetchall()
         if a.json: print(json.dumps([dict(author=r[0], work=r[1], attribution=r[2], hits=r[3]) for r in rows], ensure_ascii=False, indent=1)); return
@@ -95,14 +134,21 @@ def main():
             for r in rows:
                 if r[0] == au: print(f"    {r[3]:6d}  {r[1]}  [{r[2]}]")
         return
-    rows = db.execute(f"SELECT u.uid, u.work_key, u.author, u.lang, u.attribution, u.source_type, u.text {sql_from} ORDER BY rank LIMIT ?", args + [a.limit]).fetchall()
+    hcols = ", h.hadith_id, h.narrator, h.caliph, h.grades, h.parallel_collections, h.agreed_upon, h.weakest_rank_name" if has_h else ""
+    rows = db.execute(f"SELECT u.uid, u.work_key, u.author, u.lang, u.attribution, u.source_type, u.text{hcols} {sql_from} ORDER BY rank LIMIT ?", args + [a.limit]).fetchall()
     total = db.execute(f"SELECT COUNT(*) {sql_from}", args).fetchone()[0]
     if a.json:
         print(json.dumps(dict(total=total, hits=[dict(uid=r[0], work=r[1], author=r[2], lang=r[3], attribution=r[4], source_type=r[5], text=r[6]) for r in rows]), ensure_ascii=False, indent=1)); return
     print(f"{total} matching units (showing {len(rows)})\n")
     for r in rows:
         flag = "" if r[5] in ("ganjoor", "openiti", "shamela", "typed") else f" ⚠ {r[5]}"
-        print(f"{r[0]}  [{r[2]} · {r[4]}{flag}]\n    {kwic(r[6], a)}\n")
+        print(f"{r[0]}  [{r[2]} · {r[4]}{flag}]\n    {kwic(r[6], a)}")
+        if len(r) > 7 and r[7]:
+            extra = [r[8] or "narrator ?"] + ([r[9]] if r[9] else []) + ([r[10]] if r[10] else []) + \
+                    ([f"in {r[11]} collections"] if r[11] and r[11] > 1 else []) + (["Bukhari+Muslim"] if r[12] else []) + \
+                    ([f"weakest linked narrator: {r[13]}"] if r[13] else [])
+            print(f"    ↳ {r[7]} · " + " · ".join(extra))
+        print()
 
 
 if __name__ == "__main__":

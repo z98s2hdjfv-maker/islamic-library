@@ -9,6 +9,9 @@ build_index.py - build the library's search layer: one SQLite file with a full-t
   works   one row per work with counts, so queries can group by figure/work
   vocab   word type -> CAMeL roots (all analyses, undisambiguated) and frequency
   meta    build facts (repo commit, CAMeL db, counts)
+  hadith, hadith_units  (v17) one row per hadith from apparatus/hadith + apparatus/hadith_links, joined
+          to units by uid: narrator, caliph, grades found in the sources, parallel group, agreed_upon,
+          weakest linked narrator rank (Taqrib) - see add_hadith_tables()
 
 Roots: every distinct word type is analysed once with CAMeL Tools (morphology-db-msa-r13,
 no backoff); the union of roots over all analyses is stored, so root search favours recall.
@@ -114,6 +117,7 @@ def main():
             print(f"{n} units, {len(cache)} types, {time.time()-t0:.0f}s", flush=True)
     flush(db, batch)
     db.executemany("INSERT INTO vocab VALUES(?,?,?)", ((w, cache.get(w, ""), c) for w, c in freq.items()))
+    add_hadith_tables(db, a.repo)
     db.executescript("""
       CREATE INDEX units_work ON units(work_key); CREATE INDEX units_uid ON units(uid);
       CREATE TABLE works AS SELECT work_key, author, lang, attribution, source_type, primary_version,
@@ -128,6 +132,51 @@ def main():
         ("built", time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()))])
     db.commit(); db.execute("VACUUM"); db.close()
     print(f"done: {n} units, {len(freq)} word types, {time.time()-t0:.0f}s -> {a.out}")
+
+
+def narrator_key(s):
+    """Normalised narrator name for lookups (same rule in search.py): norm + Abi/Aba -> Abu, Ibn -> bin."""
+    import re
+    s = re.sub(r"[^ء-ي ]", " ", norm(s or ""))
+    s = re.sub(r"\bابي\b", "ابو", s); s = re.sub(r"\bابا\b", "ابو", s); s = re.sub(r"\bابن\b", "بن", s)
+    return " ".join(s.split())
+
+
+def add_hadith_tables(db, repo):
+    """v17: hadith layer (apparatus/hadith, v16) + links (apparatus/hadith_links, v17) as tables:
+    hadith(hadith_id, collection, number, narrator, narrator_key, caliph, grades, parallel_group,
+           parallel_collections, agreed_upon, weakest_rank, weakest_rank_name, linked, names)
+    hadith_units(uid, hadith_id)  - corpus units a hadith was assembled from (join to units.uid)"""
+    files = sorted(glob.glob(os.path.join(repo, "apparatus/hadith/*.jsonl.gz")))
+    if not files: return
+    db.executescript("""
+      CREATE TABLE hadith(hadith_id TEXT PRIMARY KEY, collection TEXT, number TEXT, narrator TEXT, narrator_key TEXT,
+                          caliph TEXT, grades TEXT, parallel_group TEXT, parallel_collections INT, agreed_upon INT,
+                          weakest_rank INT, weakest_rank_name TEXT, linked INT, names INT);
+      CREATE TABLE hadith_units(uid TEXT, hadith_id TEXT);""")
+    links = {}
+    lp = os.path.join(repo, "apparatus/hadith_links/chains.jsonl.gz")
+    if os.path.exists(lp):
+        for line in gzip.open(lp, "rt", encoding="utf-8"):
+            r = json.loads(line)
+            links[r["hadith_id"]] = (r["parallel_group"], r["parallel_collections"], int(r["agreed_upon"]),
+                                     r["weakest_rank"], r["weakest_rank_name"], r["linked"], r["names"])
+    n = 0
+    for p in files:
+        rows, units = [], []
+        for line in gzip.open(p, "rt", encoding="utf-8"):
+            h = json.loads(line)
+            g = "; ".join(f'{x["by"]}: {x["grade"]}' for x in h["grades"])
+            L = links.get(h["id"], (None, 1, 0, None, None, None, None))
+            rows.append((h["id"], h["collection"], str(h["number"]), h["narrator"], narrator_key(h["narrator"]),
+                         h["caliph"], g, *L))
+            units += [(u, h["id"]) for u in h["source_ids"]]
+        db.executemany("INSERT OR IGNORE INTO hadith VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
+        db.executemany("INSERT INTO hadith_units VALUES(?,?)", units); n += len(rows)
+    db.executescript("""CREATE INDEX hu_uid ON hadith_units(uid); CREATE INDEX h_nar ON hadith(narrator_key);
+                        CREATE INDEX h_cal ON hadith(caliph); CREATE INDEX h_grp ON hadith(parallel_group);""")
+    db.execute("INSERT OR REPLACE INTO meta VALUES('hadith', ?)", (str(n),))
+    print(f"hadith tables: {n} hadith", flush=True)
 
 
 def flush(db, batch):
