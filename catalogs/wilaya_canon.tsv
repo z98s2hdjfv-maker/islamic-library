@@ -1,0 +1,27 @@
+strand	book	scholar	role	note	version
+theory	0320HakimTirmidhi.KhatmAwliya	al-Hakim al-Tirmidhi	founding theory	first ranking of the awliya and the Seal of Saints; the questionnaire Ibn Arabi answers in Futuhat ch. 73	
+theory	0320HakimTirmidhi.MasalaFiWasfMufarridin	al-Hakim al-Tirmidhi	founding theory	on the mufarradun / afrad, the singular ones outside the hierarchy	
+theory	0320HakimTirmidhi.NawadirUsul	al-Hakim al-Tirmidhi	hadith with commentary	Tirmidhi's own hadith base, incl. abdal reports	
+theory	0709IbnCataAllahSikandari.LataifMinan	Ibn Ata Allah al-Iskandari	Shadhili doctrine of the qutb	al-Shadhili and al-Mursi presented as poles	
+theory	0973CabdWahhabShacrani.KibritAhmar	al-Sharani	Akbarian digest	al-Sharani's abridgment of the Futuhat	
+hadith	0281IbnAbiDunya.Awliya	Ibn Abi al-Dunya	earliest collection	oldest surviving book on the awliya, incl. abdal reports	
+hadith	0463KhatibBaghdadi.TarikhBaghdad	al-Khatib al-Baghdadi	transmission source	carries the Abu Bakr al-Kattani hierarchy report	
+hadith	0571IbnCasakir.TarikhDimashq	Ibn Asakir	transmission source	the Sham abdal reports gathered with isnads	
+hadith	0597IbnJawzi.Mawducat	Ibn al-Jawzi	critic (forgery verdicts)	judges the abdal reports fabricated	
+hadith	0911Suyuti.LaaliMasnuca	al-Suyuti	reply to Ibn al-Jawzi	contests the forgery verdicts	
+hadith	0911Suyuti.HawiLiFatawi	al-Suyuti	defense	contains al-Khabar al-dall ala wujud al-qutb wa-l-awtad wa-l-nujaba wa-l-abdal (to verify)	
+hadith	0751IbnQayyimJawziyya.ManarMunif	Ibn al-Qayyim	critic (forgery criteria)	rejects the qutb/ghawth/abdal reports	
+hadith	0902Sakhawi.MaqasidHasana	al-Sakhawi	grading of popular hadith	entry on the abdal hadith	
+hadith	1014MullaCaliQari.AsrarMarfuca	Mulla Ali al-Qari	grading of popular hadith	Hanafi verdict on the abdal reports	
+hadith	1345IbnJacfarKattani.NazmMutanathir	Muhammad b. Jafar al-Kattani	grading (mutawatir claim)	counts the abdal hadith among the mass-transmitted	
+critique	0728IbnTaymiyya.FurqanBaynaAwliya	Ibn Taymiyya	critic (theology of wilaya)	his full treatise on who the awliya are	
+critique	0597IbnJawzi.TalbisIblis	Ibn al-Jawzi	critic (Sufi practice)		
+critique	0808IbnKhaldun.Tarikh	Ibn Khaldun	critic (historical)	Muqaddima (vol. 1) links the qutb/abdal doctrine to Ismaili imamate	
+critique	0808IbnKhaldun.ShifaSail	Ibn Khaldun	analysis of Sufism	Shifa al-sail li-tahdhib al-masail	
+critique	1182IbnIsmacilSancani.InsafFiHaqiqatAwliya	al-Amir al-Sanani	critic	al-Insaf fi haqiqat al-awliya	
+creed	0418HibatAllahLalikai.KaramatAwliya	al-Lalakai	Sunni creed on karamat	karamat of the Companions and early awliya with isnads	
+hagiography	0768Yafici.RawdRayahin	al-Yafii	hagiography	Rawd al-rayahin fi hikayat al-salihin	
+hagiography	0804IbnMulaqqin.TabaqatAwliya	Ibn al-Mulaqqin	hagiography		
+hagiography	0628IbnZayyat.Tashawwuf	Ibn al-Zayyat al-Tadili	hagiography (Maghrib)	saints of Ibn Arabi's western milieu incl. Abu Madyan	
+hagiography	1031CabdRaufMunawi.KawakibDurriyya	al-Munawi	hagiography		
+hagiography	0973CabdWahhabShacrani.LawaqihAnwar	al-Sharani	hagiography	al-Tabaqat al-kubra; Shamela version forced (JK pri file is unparagraphed)	0973CabdWahhabShacrani.LawaqihAnwar.Shamela0009627-ara1
