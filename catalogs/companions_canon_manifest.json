@@ -1,0 +1,524 @@
+[
+ {
+  "key": "athar.0211CabdRazzaqSancani.Musannaf",
+  "work": "ʿAbd al-Razzāq al-Ṣanʿānī: Musannaf",
+  "author": "athar",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion and Successor rulings; OpenITI 0211CabdRazzaqSancani.Musannaf.Shamela0013174-ara1; primary archive of athar incl. ʿUmar's and ʿAlī's judgments"
+ },
+ {
+  "key": "athar.0235IbnAbiShayba.Musannaf",
+  "work": "Ibn Abī Shayba: Musannaf",
+  "author": "athar",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion and Successor rulings; OpenITI 0235IbnAbiShayba.Musannaf.JK000786-ara1; primary archive of athar"
+ },
+ {
+  "key": "athar.0458Bayhaqi.SunanKubra",
+  "work": "al-Bayhaqī: SunanKubra",
+  "author": "athar",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "ḥadīth + athar by legal topic; OpenITI 0458Bayhaqi.SunanKubra.JK000484-ara1; Companion opinions arranged under fiqh chapters"
+ },
+ {
+  "key": "athar.0463IbnCabdBarr.IstidhkarJamic",
+  "work": "Ibn ʿAbd al-Barr: IstidhkarJamic",
+  "author": "athar",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion opinions on the Muwaṭṭaʾ; OpenITI 0463IbnCabdBarr.IstidhkarJamic.JK001503-ara1"
+ },
+ {
+  "key": "athar.0182AbuYusufYacqub.Kharaj",
+  "work": "Abū Yūsuf: Kharaj",
+  "author": "athar",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "fiscal rulings; OpenITI 0182AbuYusufYacqub.Kharaj.ShamAY0034334-ara1; ʿUmar's land and tax policy"
+ },
+ {
+  "key": "athar.0224QasimIbnSallam.Amwal",
+  "work": "Abū ʿUbayd: Amwal",
+  "author": "athar",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "fiscal rulings; OpenITI 0224QasimIbnSallam.Amwal.JK006800-ara1; public wealth; caliphal precedents"
+ },
+ {
+  "key": "consensus.0319IbnMundhirNaysaburi.Ijmac",
+  "work": "Ibn al-Mundhir: Ijmac",
+  "author": "consensus",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "consensus; OpenITI 0319IbnMundhirNaysaburi.Ijmac.Sham19Y0151100-ara1; points of agreement"
+ },
+ {
+  "key": "consensus.0319IbnMundhirNaysaburi.IshrafCalaMadhahib",
+  "work": "Ibn al-Mundhir: IshrafCalaMadhahib",
+  "author": "consensus",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "disagreement; OpenITI 0319IbnMundhirNaysaburi.IshrafCalaMadhahib.Shamela0119492-ara1; opinions of Companions and jurists compared"
+ },
+ {
+  "key": "consensus.0319IbnMundhirNaysaburi.AwsatFiSunan",
+  "work": "Ibn al-Mundhir: AwsatFiSunan",
+  "author": "consensus",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "consensus and disagreement; OpenITI 0319IbnMundhirNaysaburi.AwsatFiSunan.ShamAY0034282-ara1; with isnāds"
+ },
+ {
+  "key": "consensus.0595IbnRushdHafid.BidayatMujtahid",
+  "work": "Ibn Rushd: BidayatMujtahid",
+  "author": "consensus",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "comparative law; OpenITI 0595IbnRushdHafid.BidayatMujtahid.JK000222-ara1; reasons for disagreement between schools"
+ },
+ {
+  "key": "consensus.0456IbnHazm.MuhallaBiAthar",
+  "work": "Ibn Ḥazm: MuhallaBiAthar",
+  "author": "consensus",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "comparative law (Ẓāhirī); OpenITI 0456IbnHazm.MuhallaBiAthar.Shamela0000767-ara1; exhaustive Companion opinions"
+ },
+ {
+  "key": "judging.0450AbuHasanMawardi.AhkamSultaniyya",
+  "work": "al-Māwardī: AhkamSultaniyya",
+  "author": "judging",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "governance and judgeship; OpenITI 0450AbuHasanMawardi.AhkamSultaniyya.Shamela0022881-ara1"
+ },
+ {
+  "key": "judging.0458AbuYaclaIbnFarra.AhkamSultaniyya",
+  "work": "Abū Yaʿlā: AhkamSultaniyya",
+  "author": "judging",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "governance and judgeship (Ḥanbalī); OpenITI 0458AbuYaclaIbnFarra.AhkamSultaniyya.Shamela0022877-ara1"
+ },
+ {
+  "key": "judging.0799IbnFarhun.TabsiratHukkam",
+  "work": "Ibn Farḥūn: TabsiratHukkam",
+  "author": "judging",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "judicial procedure (Mālikī); OpenITI 0799IbnFarhun.TabsiratHukkam.JK007089-ara1"
+ },
+ {
+  "key": "judging.0751IbnQayyimJawziyya.TuruqHukmiyya",
+  "work": "Ibn Qayyim: TuruqHukmiyya",
+  "author": "judging",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "judicial evidence; OpenITI 0751IbnQayyimJawziyya.TuruqHukmiyya.JK000104-ara1"
+ },
+ {
+  "key": "sira.0213IbnHisham.SiraNabawiyya",
+  "work": "Ibn Hishām: SiraNabawiyya",
+  "author": "sira",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sīra (from Ibn Isḥāq); OpenITI 0213IbnHisham.SiraNabawiyya.Shamela0023833-ara1"
+ },
+ {
+  "key": "sira.0207Waqidi.Maghazi",
+  "work": "al-Wāqidī: Maghazi",
+  "author": "sira",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "campaigns; OpenITI 0207Waqidi.Maghazi.Shamela0023680-ara1; al-Wāqidī weak as ḥadīth narrator; valued as historian"
+ },
+ {
+  "key": "sira.0279Tirmidhi.ShamailMuhammadiyya",
+  "work": "al-Tirmidhī: ShamailMuhammadiyya",
+  "author": "sira",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "the Prophet's character; OpenITI 0279Tirmidhi.ShamailMuhammadiyya.JK000139-ara1"
+ },
+ {
+  "key": "sira.0544QadiCiyad.Shifa",
+  "work": "Qāḍī ʿIyāḍ: Shifa",
+  "author": "sira",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "the Prophet's rights and qualities; OpenITI 0544QadiCiyad.Shifa.Shamela0023645-ara1"
+ },
+ {
+  "key": "sira.0458Bayhaqi.DalailNubuwwa",
+  "work": "al-Bayhaqī: DalailNubuwwa",
+  "author": "sira",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "signs of prophethood; OpenITI 0458Bayhaqi.DalailNubuwwa.JK006838-ara1"
+ },
+ {
+  "key": "sira.0751IbnQayyimJawziyya.ZadMacad",
+  "work": "Ibn Qayyim: ZadMacad",
+  "author": "sira",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Prophetic practice; OpenITI 0751IbnQayyimJawziyya.ZadMacad.JK000105-ara1"
+ },
+ {
+  "key": "sahaba.0230IbnSacd.TabaqatKubra",
+  "work": "Ibn Saʿd: TabaqatKubra",
+  "author": "sahaba",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion biography; OpenITI 0230IbnSacd.TabaqatKubra.ShamAY0035884-ara1"
+ },
+ {
+  "key": "sahaba.0852IbnHajarCasqalani.IsabaFiTamyiz",
+  "work": "Ibn Ḥajar: IsabaFiTamyiz",
+  "author": "sahaba",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion biography; OpenITI 0852IbnHajarCasqalani.IsabaFiTamyiz.JK000533-ara1; the standard reference"
+ },
+ {
+  "key": "sahaba.0463IbnCabdBarr.IsticabFiMacrifatAshab",
+  "work": "Ibn ʿAbd al-Barr: IsticabFiMacrifatAshab",
+  "author": "sahaba",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion biography; OpenITI 0463IbnCabdBarr.IsticabFiMacrifatAshab.JK000778-ara1"
+ },
+ {
+  "key": "sahaba.0630IbnAthirCizzDin.UsdGhaba",
+  "work": "Ibn al-Athīr: UsdGhaba",
+  "author": "sahaba",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companion biography; OpenITI 0630IbnAthirCizzDin.UsdGhaba.Shamela0023700-ara1"
+ },
+ {
+  "key": "sahaba.0748Dhahabi.SiyarAclamNubala",
+  "work": "al-Dhahabī: SiyarAclamNubala",
+  "author": "sahaba",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "biography; OpenITI 0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1; also includes al-Dhahabī's critical notice of Ibn ʿArabī"
+ },
+ {
+  "key": "history.0310Tabari.Tarikh",
+  "work": "al-Ṭabarī: Tarikh",
+  "author": "history",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "history; OpenITI 0310Tabari.Tarikh.Shamela0009783BK1-ara1; main account of the caliphs' reigns; reports carry their own isnāds"
+ },
+ {
+  "key": "history.0911Suyuti.TarikhKhulafa",
+  "work": "al-Suyūṭī: TarikhKhulafa",
+  "author": "history",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "history of the caliphs; OpenITI 0911Suyuti.TarikhKhulafa.Shamela0011997-ara1"
+ },
+ {
+  "key": "history.0279Baladhuri.AnsabAshraf",
+  "work": "al-Balādhurī: AnsabAshraf",
+  "author": "history",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "genealogical history; OpenITI 0279Baladhuri.AnsabAshraf.Shamela0009773-ara1"
+ },
+ {
+  "key": "history.0279Baladhuri.FutuhBuldan",
+  "work": "al-Balādhurī: FutuhBuldan",
+  "author": "history",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "conquests; OpenITI 0279Baladhuri.FutuhBuldan.Shamela0012221-ara1"
+ },
+ {
+  "key": "rijal.0742Mizzi.TahdhibKamal",
+  "work": "al-Mizzī: TahdhibKamal",
+  "author": "rijal",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "narrator criticism; OpenITI 0742Mizzi.TahdhibKamal.Shamela0003722-ara1"
+ },
+ {
+  "key": "rijal.0852IbnHajarCasqalani.TaqribTahdhib",
+  "work": "Ibn Ḥajar: TaqribTahdhib",
+  "author": "rijal",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "narrator grades; OpenITI 0852IbnHajarCasqalani.TaqribTahdhib.JK000121-ara1; one-line grade per narrator"
+ },
+ {
+  "key": "rijal.0748Dhahabi.MizanIctidal",
+  "work": "al-Dhahabī: MizanIctidal",
+  "author": "rijal",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "criticised narrators; OpenITI 0748Dhahabi.MizanIctidal.JK001293BK1-ara1"
+ },
+ {
+  "key": "rijal.0852IbnHajarCasqalani.FathBari",
+  "work": "Ibn Ḥajar: FathBari",
+  "author": "rijal",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "commentary on al-Bukhārī; OpenITI 0852IbnHajarCasqalani.FathBari.JK000166-ara1"
+ },
+ {
+  "key": "rijal.0676Nawawi.MinhajFiSharhMuslim",
+  "work": "al-Nawawī: MinhajFiSharhMuslim",
+  "author": "rijal",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "commentary on Muslim; OpenITI 0676Nawawi.MinhajFiSharhMuslim.JK000137-ara1"
+ },
+ {
+  "key": "sufi_manuals.0465IbnHawazinQushayri.RisalaQushayriyya",
+  "work": "al-Qushayrī: RisalaQushayriyya",
+  "author": "sufi_manuals",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi manual; OpenITI 0465IbnHawazinQushayri.RisalaQushayriyya.JK009321-ara1"
+ },
+ {
+  "key": "sufi_manuals.0380AbuBakrKalabadhi.TacarrufLiMadhhabAhlTasawwuf",
+  "work": "al-Kalābādhī: TacarrufLiMadhhabAhlTasawwuf",
+  "author": "sufi_manuals",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi manual; OpenITI 0380AbuBakrKalabadhi.TacarrufLiMadhhabAhlTasawwuf.JK000347-ara1"
+ },
+ {
+  "key": "sufi_manuals.0386AbuTalibMakki.QutQulub",
+  "work": "Abū Ṭālib al-Makkī: QutQulub",
+  "author": "sufi_manuals",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi manual; OpenITI 0386AbuTalibMakki.QutQulub.JK009298-ara1; major source of al-Ghazālī's Iḥyāʾ"
+ },
+ {
+  "key": "sufi_manuals.0430AbuNucaymIsbahani.HilyatAwliya",
+  "work": "Abū Nuʿaym: HilyatAwliya",
+  "author": "sufi_manuals",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Companions and saints; OpenITI 0430AbuNucaymIsbahani.HilyatAwliya.JK000022-ara1; opens with the four caliphs"
+ },
+ {
+  "key": "sufi_manuals.0412Sulami.TabaqatSufiyya",
+  "work": "al-Sulamī: TabaqatSufiyya",
+  "author": "sufi_manuals",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi biography; OpenITI 0412Sulami.TabaqatSufiyya.Shamela0006686BK1-ara1"
+ },
+ {
+  "key": "tafsir_sufi.0412Sulami.Tafsir",
+  "work": "al-Sulamī: Tafsir",
+  "author": "tafsir_sufi",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi tafsīr (Ḥaqāʾiq); OpenITI 0412Sulami.Tafsir.JK007094-ara1"
+ },
+ {
+  "key": "tafsir_sufi.0465IbnHawazinQushayri.LataifIsharat",
+  "work": "al-Qushayrī: LataifIsharat",
+  "author": "tafsir_sufi",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi tafsīr; OpenITI 0465IbnHawazinQushayri.LataifIsharat.JK009257-ara1"
+ },
+ {
+  "key": "tafsir_sufi.0283SahlTustari.Tafsir",
+  "work": "Sahl al-Tustarī: Tafsir",
+  "author": "tafsir_sufi",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Sufi tafsīr; OpenITI 0283SahlTustari.Tafsir.Tafsir03029-ara1; compiled by his students"
+ },
+ {
+  "key": "tafsir_ahkam.0370IbnCaliJassas.AhkamQuran",
+  "work": "al-Jaṣṣāṣ: AhkamQuran",
+  "author": "tafsir_ahkam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "legal verses (Ḥanafī); OpenITI 0370IbnCaliJassas.AhkamQuran.JK000871-ara1"
+ },
+ {
+  "key": "tafsir_ahkam.0543IbnCarabiIshbili.AhkamQuran",
+  "work": "Ibn al-ʿArabī al-Mālikī: AhkamQuran",
+  "author": "tafsir_ahkam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "legal verses (Mālikī); OpenITI 0543IbnCarabiIshbili.AhkamQuran.JK000917-ara1; the jurist, not Muḥyī al-Dīn Ibn ʿArabī"
+ },
+ {
+  "key": "tafsir_ahkam.0504IbnMuhammadCimadDinTabari.AhkamQuran",
+  "work": "Kiyā al-Harrāsī: AhkamQuran",
+  "author": "tafsir_ahkam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "legal verses (Shāfiʿī); OpenITI 0504IbnMuhammadCimadDinTabari.AhkamQuran.Shamela0023582-ara1"
+ },
+ {
+  "key": "tafsir_ahkam.0671AbuCabdAllahQurtubi.JamicLiAhkamQuran",
+  "work": "al-Qurṭubī: JamicLiAhkamQuran",
+  "author": "tafsir_ahkam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "legal tafsīr; OpenITI 0671AbuCabdAllahQurtubi.JamicLiAhkamQuran.Tafsir01005-ara1"
+ },
+ {
+  "key": "tafsir_ahkam.0468IbnAhmadWahidiNaysaburi.AsbabNuzul",
+  "work": "al-Wāḥidī: AsbabNuzul",
+  "author": "tafsir_ahkam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "occasions of revelation; OpenITI 0468IbnAhmadWahidiNaysaburi.AsbabNuzul.Shamela0011314-ara1"
+ },
+ {
+  "key": "tafsir_ahkam.0338AbuJacfarNahhas.NasikhWaMansukh",
+  "work": "al-Naḥḥās: NasikhWaMansukh",
+  "author": "tafsir_ahkam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "abrogation; OpenITI 0338AbuJacfarNahhas.NasikhWaMansukh.JK000460-ara1"
+ },
+ {
+  "key": "kalam.0324Ashcari.Ibana",
+  "work": "al-Ashʿarī: Ibana",
+  "author": "kalam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "creed; OpenITI 0324Ashcari.Ibana.JK000342-ara1"
+ },
+ {
+  "key": "kalam.0324Ashcari.MaqalatIslamiyyin",
+  "work": "al-Ashʿarī: MaqalatIslamiyyin",
+  "author": "kalam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "survey of sects; OpenITI 0324Ashcari.MaqalatIslamiyyin.Shamela0037614-ara1"
+ },
+ {
+  "key": "kalam.0333AbuMansurMaturidi.Tawhid",
+  "work": "al-Māturīdī: Tawhid",
+  "author": "kalam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "creed; OpenITI 0333AbuMansurMaturidi.Tawhid.JK000339-ara1"
+ },
+ {
+  "key": "kalam.0792IbnCumarTaftazani.SharhMaqasid",
+  "work": "al-Taftāzānī: SharhMaqasid",
+  "author": "kalam",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "kalām; OpenITI 0792IbnCumarTaftazani.SharhMaqasid.JK001157-ara1"
+ },
+ {
+  "key": "critics.0728IbnTaymiyya.MajmucFatawa",
+  "work": "Ibn Taymiyya: MajmucFatawa",
+  "author": "critics",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "fatwas incl. critique of Ibn ʿArabī; OpenITI 0728IbnTaymiyya.MajmucFatawa.JK000381-ara1; dissenting voice for the council"
+ },
+ {
+  "key": "alawi.0406SharifRadi.NahjBalagha",
+  "work": "al-Sharīf al-Raḍī (compiler): NahjBalagha",
+  "author": "alawi",
+  "attribution": "doubtful",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sayings attributed to ʿAlī; OpenITI 0406SharifRadi.NahjBalagha.Shia20200618-ara1; compiled c. 400 AH; attribution of individual texts debated"
+ },
+ {
+  "key": "lugha.0711IbnManzurIfriqi.LisanCarab",
+  "work": "Ibn Manẓūr: LisanCarab",
+  "author": "lugha",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "lexicon; OpenITI 0711IbnManzurIfriqi.LisanCarab.Shamela0001687-ara1"
+ },
+ {
+  "key": "lugha.0502RaghibIsbahani.Mufradat",
+  "work": "al-Rāghib: Mufradat",
+  "author": "lugha",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Quranic vocabulary; OpenITI 0502RaghibIsbahani.Mufradat.JK001150-ara1"
+ },
+ {
+  "key": "lugha.0606IbnAthirMajdDin.NihayaFiGharib",
+  "work": "Ibn al-Athīr: NihayaFiGharib",
+  "author": "lugha",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "rare words in ḥadīth; OpenITI 0606IbnAthirMajdDin.NihayaFiGharib.Shamela0023691-ara1"
+ }
+]

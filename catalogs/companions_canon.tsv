@@ -1,0 +1,59 @@
+group	book	author	role	attribution	note
+athar	0211CabdRazzaqSancani.Musannaf	ʿAbd al-Razzāq al-Ṣanʿānī	Companion and Successor rulings	secure	primary archive of athar incl. ʿUmar's and ʿAlī's judgments
+athar	0235IbnAbiShayba.Musannaf	Ibn Abī Shayba	Companion and Successor rulings	secure	primary archive of athar
+athar	0458Bayhaqi.SunanKubra	al-Bayhaqī	ḥadīth + athar by legal topic	secure	Companion opinions arranged under fiqh chapters
+athar	0463IbnCabdBarr.IstidhkarJamic	Ibn ʿAbd al-Barr	Companion opinions on the Muwaṭṭaʾ	secure	
+athar	0182AbuYusufYacqub.Kharaj	Abū Yūsuf	fiscal rulings	secure	ʿUmar's land and tax policy
+athar	0224QasimIbnSallam.Amwal	Abū ʿUbayd	fiscal rulings	secure	public wealth; caliphal precedents
+consensus	0319IbnMundhirNaysaburi.Ijmac	Ibn al-Mundhir	consensus	secure	points of agreement
+consensus	0319IbnMundhirNaysaburi.IshrafCalaMadhahib	Ibn al-Mundhir	disagreement	secure	opinions of Companions and jurists compared
+consensus	0319IbnMundhirNaysaburi.AwsatFiSunan	Ibn al-Mundhir	consensus and disagreement	secure	with isnāds
+consensus	0595IbnRushdHafid.BidayatMujtahid	Ibn Rushd	comparative law	secure	reasons for disagreement between schools
+consensus	0456IbnHazm.MuhallaBiAthar	Ibn Ḥazm	comparative law (Ẓāhirī)	secure	exhaustive Companion opinions
+judging	0450AbuHasanMawardi.AhkamSultaniyya	al-Māwardī	governance and judgeship	secure	
+judging	0458AbuYaclaIbnFarra.AhkamSultaniyya	Abū Yaʿlā	governance and judgeship (Ḥanbalī)	secure	
+judging	0799IbnFarhun.TabsiratHukkam	Ibn Farḥūn	judicial procedure (Mālikī)	secure	
+judging	0751IbnQayyimJawziyya.TuruqHukmiyya	Ibn Qayyim	judicial evidence	secure	
+sira	0213IbnHisham.SiraNabawiyya	Ibn Hishām	sīra (from Ibn Isḥāq)	secure	
+sira	0207Waqidi.Maghazi	al-Wāqidī	campaigns	secure	al-Wāqidī weak as ḥadīth narrator; valued as historian
+sira	0279Tirmidhi.ShamailMuhammadiyya	al-Tirmidhī	the Prophet's character	secure	
+sira	0544QadiCiyad.Shifa	Qāḍī ʿIyāḍ	the Prophet's rights and qualities	secure	
+sira	0458Bayhaqi.DalailNubuwwa	al-Bayhaqī	signs of prophethood	secure	
+sira	0751IbnQayyimJawziyya.ZadMacad	Ibn Qayyim	Prophetic practice	secure	
+sahaba	0230IbnSacd.TabaqatKubra	Ibn Saʿd	Companion biography	secure	
+sahaba	0852IbnHajarCasqalani.IsabaFiTamyiz	Ibn Ḥajar	Companion biography	secure	the standard reference
+sahaba	0463IbnCabdBarr.IsticabFiMacrifatAshab	Ibn ʿAbd al-Barr	Companion biography	secure	
+sahaba	0630IbnAthirCizzDin.UsdGhaba	Ibn al-Athīr	Companion biography	secure	
+sahaba	0748Dhahabi.SiyarAclamNubala	al-Dhahabī	biography	secure	also includes al-Dhahabī's critical notice of Ibn ʿArabī
+history	0310Tabari.Tarikh	al-Ṭabarī	history	secure	main account of the caliphs' reigns; reports carry their own isnāds
+history	0911Suyuti.TarikhKhulafa	al-Suyūṭī	history of the caliphs	secure	
+history	0279Baladhuri.AnsabAshraf	al-Balādhurī	genealogical history	secure	
+history	0279Baladhuri.FutuhBuldan	al-Balādhurī	conquests	secure	
+rijal	0742Mizzi.TahdhibKamal	al-Mizzī	narrator criticism	secure	
+rijal	0852IbnHajarCasqalani.TaqribTahdhib	Ibn Ḥajar	narrator grades	secure	one-line grade per narrator
+rijal	0748Dhahabi.MizanIctidal	al-Dhahabī	criticised narrators	secure	
+rijal	0852IbnHajarCasqalani.FathBari	Ibn Ḥajar	commentary on al-Bukhārī	secure	
+rijal	0676Nawawi.MinhajFiSharhMuslim	al-Nawawī	commentary on Muslim	secure	
+sufi_manuals	0465IbnHawazinQushayri.RisalaQushayriyya	al-Qushayrī	Sufi manual	secure	
+sufi_manuals	0380AbuBakrKalabadhi.TacarrufLiMadhhabAhlTasawwuf	al-Kalābādhī	Sufi manual	secure	
+sufi_manuals	0386AbuTalibMakki.QutQulub	Abū Ṭālib al-Makkī	Sufi manual	secure	major source of al-Ghazālī's Iḥyāʾ
+sufi_manuals	0430AbuNucaymIsbahani.HilyatAwliya	Abū Nuʿaym	Companions and saints	secure	opens with the four caliphs
+sufi_manuals	0412Sulami.TabaqatSufiyya	al-Sulamī	Sufi biography	secure	
+tafsir_sufi	0412Sulami.Tafsir	al-Sulamī	Sufi tafsīr (Ḥaqāʾiq)	secure	
+tafsir_sufi	0465IbnHawazinQushayri.LataifIsharat	al-Qushayrī	Sufi tafsīr	secure	
+tafsir_sufi	0283SahlTustari.Tafsir	Sahl al-Tustarī	Sufi tafsīr	secure	compiled by his students
+tafsir_ahkam	0370IbnCaliJassas.AhkamQuran	al-Jaṣṣāṣ	legal verses (Ḥanafī)	secure	
+tafsir_ahkam	0543IbnCarabiIshbili.AhkamQuran	Ibn al-ʿArabī al-Mālikī	legal verses (Mālikī)	secure	the jurist, not Muḥyī al-Dīn Ibn ʿArabī
+tafsir_ahkam	0504IbnMuhammadCimadDinTabari.AhkamQuran	Kiyā al-Harrāsī	legal verses (Shāfiʿī)	secure	
+tafsir_ahkam	0671AbuCabdAllahQurtubi.JamicLiAhkamQuran	al-Qurṭubī	legal tafsīr	secure	
+tafsir_ahkam	0468IbnAhmadWahidiNaysaburi.AsbabNuzul	al-Wāḥidī	occasions of revelation	secure	
+tafsir_ahkam	0338AbuJacfarNahhas.NasikhWaMansukh	al-Naḥḥās	abrogation	secure	
+kalam	0324Ashcari.Ibana	al-Ashʿarī	creed	secure	
+kalam	0324Ashcari.MaqalatIslamiyyin	al-Ashʿarī	survey of sects	secure	
+kalam	0333AbuMansurMaturidi.Tawhid	al-Māturīdī	creed	secure	
+kalam	0792IbnCumarTaftazani.SharhMaqasid	al-Taftāzānī	kalām	secure	
+critics	0728IbnTaymiyya.MajmucFatawa	Ibn Taymiyya	fatwas incl. critique of Ibn ʿArabī	secure	dissenting voice for the council
+alawi	0406SharifRadi.NahjBalagha	al-Sharīf al-Raḍī (compiler)	sayings attributed to ʿAlī	doubtful	compiled c. 400 AH; attribution of individual texts debated
+lugha	0711IbnManzurIfriqi.LisanCarab	Ibn Manẓūr	lexicon	secure	
+lugha	0502RaghibIsbahani.Mufradat	al-Rāghib	Quranic vocabulary	secure	
+lugha	0606IbnAthirMajdDin.NihayaFiGharib	Ibn al-Athīr	rare words in ḥadīth	secure	
