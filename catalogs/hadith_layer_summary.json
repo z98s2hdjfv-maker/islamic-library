@@ -1,0 +1,750 @@
+{
+ "note": "derived automatically; heuristic fields unverified",
+ "collections": {
+  "0241IbnHanbal.Musnad": {
+   "numbering": "edition numbering of the Shamela text (al-Risala, 27,647)",
+   "hadith": 26649,
+   "split_prophet_mention": 24556,
+   "with_narrator": 24432,
+   "inline_grades": 0,
+   "split_none": 1972,
+   "split_marker": 121,
+   "caliphs": {
+    "Abu Bakr": 19,
+    "Umar": 121,
+    "Ali": 316,
+    "Uthman": 39
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     3064
+    ],
+    [
+     "عائشة",
+     1365
+    ],
+    [
+     "ابن عباس",
+     1020
+    ],
+    [
+     "ابن عمر",
+     983
+    ],
+    [
+     "أبيه",
+     877
+    ],
+    [
+     "أنس بن مالك",
+     728
+    ],
+    [
+     "أنس",
+     634
+    ],
+    [
+     "أبو سعيد الخدري",
+     517
+    ],
+    [
+     "جابر",
+     428
+    ],
+    [
+     "عبد الله",
+     411
+    ]
+   ]
+  },
+  "0255CabdAllahDarimi.Sunan": {
+   "numbering": "edition numbering of the JK text",
+   "hadith": 3513,
+   "split_marker": 3511,
+   "with_narrator": 3506,
+   "inline_grades": 0,
+   "split_prophet_mention": 1,
+   "split_none": 1,
+   "caliphs": {
+    "Ali": 41,
+    "Umar": 21,
+    "Uthman": 7,
+    "Abu Bakr": 3
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     217
+    ],
+    [
+     "ابن عباس",
+     183
+    ],
+    [
+     "عائشة",
+     142
+    ],
+    [
+     "أبيه",
+     129
+    ],
+    [
+     "ابن عمر",
+     113
+    ],
+    [
+     "الحسن",
+     107
+    ],
+    [
+     "إبراهيم",
+     100
+    ],
+    [
+     "أنس",
+     73
+    ],
+    [
+     "عبد الله",
+     67
+    ],
+    [
+     "الشعبي",
+     60
+    ]
+   ]
+  },
+  "0256Bukhari.Sahih": {
+   "numbering": "edition numbering of the JK text (al-Bugha, 7,124), not the Fath al-Bari 7,563",
+   "hadith": 7135,
+   "split_marker": 7125,
+   "with_narrator": 7117,
+   "inline_grades": 0,
+   "split_none": 6,
+   "split_prophet_mention": 4,
+   "caliphs": {
+    "Umar": 53,
+    "Ali": 64,
+    "Uthman": 4,
+    "Abu Bakr": 9
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     932
+    ],
+    [
+     "عائشة",
+     632
+    ],
+    [
+     "ابن عباس",
+     475
+    ],
+    [
+     "ابن عمر",
+     332
+    ],
+    [
+     "أنس بن مالك",
+     314
+    ],
+    [
+     "أنس",
+     312
+    ],
+    [
+     "أبيه",
+     222
+    ],
+    [
+     "عبد الله",
+     202
+    ],
+    [
+     "عبد الله بن عمر",
+     177
+    ],
+    [
+     "جابر بن عبد الله",
+     166
+    ]
+   ]
+  },
+  "0261Muslim.Sahih": {
+   "numbering": "Abd al-Baqi numbering (1-3,033); each riwaya under a number is N.1, N.2, ...; muqaddima = intro.k",
+   "hadith": 7261,
+   "split_prophet_mention": 5913,
+   "with_narrator": 5888,
+   "inline_grades": 0,
+   "split_none": 1348,
+   "caliphs": {
+    "Ali": 42,
+    "Umar": 22,
+    "Uthman": 9,
+    "Abu Bakr": 1
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     982
+    ],
+    [
+     "عائشة",
+     349
+    ],
+    [
+     "ابن عمر",
+     277
+    ],
+    [
+     "أبيه",
+     203
+    ],
+    [
+     "ابن عباس",
+     199
+    ],
+    [
+     "أنس بن مالك",
+     193
+    ],
+    [
+     "جابر بن عبد الله",
+     185
+    ],
+    [
+     "أنس",
+     149
+    ],
+    [
+     "جابر",
+     139
+    ],
+    [
+     "عبد الله",
+     110
+    ]
+   ]
+  },
+  "0273IbnMaja.Sunan": {
+   "numbering": "edition numbering (Abd al-Baqi, 4,341)",
+   "hadith": 4341,
+   "split_marker": 4341,
+   "with_narrator": 4341,
+   "inline_grades": 0,
+   "caliphs": {
+    "Ali": 90,
+    "Umar": 44,
+    "Uthman": 13,
+    "Abu Bakr": 5
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     588
+    ],
+    [
+     "عائشة",
+     304
+    ],
+    [
+     "ابن عباس",
+     272
+    ],
+    [
+     "ابن عمر",
+     238
+    ],
+    [
+     "أبيه",
+     203
+    ],
+    [
+     "أنس بن مالك",
+     190
+    ],
+    [
+     "جابر بن عبد الله",
+     108
+    ],
+    [
+     "جده",
+     101
+    ],
+    [
+     "جابر",
+     93
+    ],
+    [
+     "أبو سعيد الخدري",
+     87
+    ]
+   ]
+  },
+  "0275AbuDawudSijistani.Sunan": {
+   "numbering": "edition numbering (Muhyi al-Din Abd al-Hamid, 5,274)",
+   "hadith": 5275,
+   "split_none": 2,
+   "with_narrator": 5269,
+   "inline_grades": 0,
+   "split_marker": 5272,
+   "split_prophet_mention": 1,
+   "caliphs": {
+    "Ali": 74,
+    "Umar": 39,
+    "Uthman": 5,
+    "Abu Bakr": 1
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     504
+    ],
+    [
+     "ابن عباس",
+     323
+    ],
+    [
+     "عائشة",
+     315
+    ],
+    [
+     "أبيه",
+     272
+    ],
+    [
+     "ابن عمر",
+     194
+    ],
+    [
+     "أنس بن مالك",
+     133
+    ],
+    [
+     "جابر بن عبد الله",
+     113
+    ],
+    [
+     "أنس",
+     95
+    ],
+    [
+     "جابر",
+     95
+    ],
+    [
+     "جده",
+     88
+    ]
+   ]
+  },
+  "0279Tirmidhi.Sunan": {
+   "numbering": "sequential (made here; no number in text)",
+   "hadith": 3843,
+   "split_marker": 3833,
+   "with_narrator": 3843,
+   "inline_grades": 2651,
+   "split_prophet_mention": 10,
+   "caliphs": {
+    "Ali": 107,
+    "Uthman": 9,
+    "Umar": 39,
+    "Abu Bakr": 12
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     520
+    ],
+    [
+     "ابن عباس",
+     238
+    ],
+    [
+     "عائشة",
+     204
+    ],
+    [
+     "ابن عمر",
+     203
+    ],
+    [
+     "أبيه",
+     183
+    ],
+    [
+     "أنس بن مالك",
+     152
+    ],
+    [
+     "أنس",
+     142
+    ],
+    [
+     "جابر",
+     90
+    ],
+    [
+     "علي",
+     73
+    ],
+    [
+     "أبو سعيد الخدري",
+     71
+    ]
+   ]
+  },
+  "0303Nasai.SunanKubra": {
+   "numbering": "edition numbering of the JK text",
+   "hadith": 11701,
+   "split_marker": 11685,
+   "with_narrator": 11673,
+   "inline_grades": 0,
+   "split_prophet_mention": 11,
+   "split_none": 5,
+   "caliphs": {
+    "Umar": 106,
+    "Ali": 234,
+    "Uthman": 22,
+    "Abu Bakr": 12
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     1209
+    ],
+    [
+     "عائشة",
+     926
+    ],
+    [
+     "ابن عباس",
+     691
+    ],
+    [
+     "أبيه",
+     546
+    ],
+    [
+     "ابن عمر",
+     407
+    ],
+    [
+     "أنس",
+     365
+    ],
+    [
+     "جابر",
+     283
+    ],
+    [
+     "عبد الله",
+     252
+    ],
+    [
+     "علي",
+     202
+    ],
+    [
+     "أنس بن مالك",
+     199
+    ]
+   ]
+  },
+  "0303Nasai.SunanSughra": {
+   "numbering": "edition numbering (Abu Ghudda, 5,758)",
+   "hadith": 5769,
+   "split_prophet_mention": 3,
+   "with_narrator": 5764,
+   "inline_grades": 0,
+   "split_marker": 5762,
+   "split_none": 4,
+   "caliphs": {
+    "Umar": 49,
+    "Ali": 92,
+    "Uthman": 13,
+    "Abu Bakr": 2
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     585
+    ],
+    [
+     "عائشة",
+     486
+    ],
+    [
+     "ابن عباس",
+     321
+    ],
+    [
+     "أبيه",
+     297
+    ],
+    [
+     "ابن عمر",
+     281
+    ],
+    [
+     "أنس",
+     187
+    ],
+    [
+     "جابر",
+     148
+    ],
+    [
+     "عبد الله",
+     112
+    ],
+    [
+     "أنس بن مالك",
+     108
+    ],
+    [
+     "أبو سعيد الخدري",
+     88
+    ]
+   ]
+  },
+  "0311IbnKhuzaymaNaysaburi.Sahih": {
+   "numbering": "edition numbering (al-Azami)",
+   "hadith": 3092,
+   "split_marker": 2983,
+   "with_narrator": 2995,
+   "inline_grades": 0,
+   "split_none": 48,
+   "split_prophet_mention": 61,
+   "caliphs": {
+    "Ali": 45,
+    "Abu Bakr": 5,
+    "Umar": 15,
+    "Uthman": 5
+   },
+   "top_narrators": [
+    [
+     "أبو هريرة",
+     350
+    ],
+    [
+     "عائشة",
+     192
+    ],
+    [
+     "ابن عباس",
+     183
+    ],
+    [
+     "ابن عمر",
+     169
+    ],
+    [
+     "أبيه",
+     164
+    ],
+    [
+     "أنس بن مالك",
+     92
+    ],
+    [
+     "جابر بن عبد الله",
+     89
+    ],
+    [
+     "أبو سعيد الخدري",
+     73
+    ],
+    [
+     "أنس",
+     56
+    ],
+    [
+     "جابر",
+     51
+    ]
+   ]
+  },
+  "0360Tabarani.MucjamKabir": {
+   "numbering": "edition numbering of the JK text",
+   "hadith": 21495,
+   "split_marker": 21465,
+   "with_narrator": 21387,
+   "inline_grades": 0,
+   "split_none": 24,
+   "split_prophet_mention": 6,
+   "caliphs": {
+    "Ali": 51,
+    "Abu Bakr": 2,
+    "Umar": 26,
+    "Uthman": 8
+   },
+   "top_narrators": [
+    [
+     "ابن عباس",
+     2292
+    ],
+    [
+     "أبيه",
+     1354
+    ],
+    [
+     "عبد الله",
+     747
+    ],
+    [
+     "أبو أمامة",
+     550
+    ],
+    [
+     "ابن عمر",
+     461
+    ],
+    [
+     "أم سلمة",
+     416
+    ],
+    [
+     "جده",
+     377
+    ],
+    [
+     "عمران بن حصين",
+     305
+    ],
+    [
+     "ابن مسعود",
+     289
+    ],
+    [
+     "عبد الله بن مسعود",
+     273
+    ]
+   ]
+  },
+  "0385Daraqutni.Sunan": {
+   "numbering": "sequential (made here; no number in text)",
+   "hadith": 4604,
+   "split_marker": 4600,
+   "with_narrator": 4604,
+   "inline_grades": 0,
+   "split_prophet_mention": 4,
+   "caliphs": {
+    "Abu Bakr": 5,
+    "Ali": 122,
+    "Umar": 64,
+    "Uthman": 9
+   },
+   "top_narrators": [
+    [
+     "ابن عباس",
+     440
+    ],
+    [
+     "أبو هريرة",
+     351
+    ],
+    [
+     "ابن عمر",
+     338
+    ],
+    [
+     "عائشة",
+     276
+    ],
+    [
+     "أبيه",
+     209
+    ],
+    [
+     "جابر",
+     145
+    ],
+    [
+     "جده",
+     136
+    ],
+    [
+     "أنس",
+     106
+    ],
+    [
+     "علي",
+     96
+    ],
+    [
+     "جابر بن عبد الله",
+     58
+    ]
+   ]
+  },
+  "0405HakimNaysaburi.Mustadrak": {
+   "numbering": "edition numbering of the JK text",
+   "hadith": 8831,
+   "split_marker": 8821,
+   "with_narrator": 8809,
+   "inline_grades": 4602,
+   "split_none": 8,
+   "split_prophet_mention": 2,
+   "caliphs": {
+    "Ali": 166,
+    "Umar": 58,
+    "Uthman": 8,
+    "Abu Bakr": 10
+   },
+   "top_narrators": [
+    [
+     "ابن عباس",
+     824
+    ],
+    [
+     "أبو هريرة",
+     685
+    ],
+    [
+     "أبيه",
+     483
+    ],
+    [
+     "عائشة",
+     331
+    ],
+    [
+     "ابن عمر",
+     223
+    ],
+    [
+     "أنس بن مالك",
+     176
+    ],
+    [
+     "أنس",
+     165
+    ],
+    [
+     "أبو سعيد الخدري",
+     143
+    ],
+    [
+     "جابر بن عبد الله",
+     141
+    ],
+    [
+     "جابر",
+     130
+    ]
+   ]
+  }
+ },
+ "totals": {
+  "hadith": 113509,
+  "with_narrator": 109628,
+  "inline_grades": 7253,
+  "caliph_Abu Bakr": 86,
+  "caliph_Umar": 657,
+  "caliph_Ali": 1444,
+  "caliph_Uthman": 151
+ }
+}

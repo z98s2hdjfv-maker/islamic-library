@@ -58,3 +58,6 @@
 
 ## v15: Quran, hadith and tafsir
 corpus/quran/ (6,236 verses, id urn:quran:S:A, Tanzil text, CC BY 3.0), corpus/hadith/ (16 collections), corpus/tafsir/ (9 tafsirs). Details and gaps: docs/quran_hadith/README.md.
+
+## v16: hadith layer
+apparatus/hadith/<collection>.jsonl.gz: one record per hadith (id urn:hadith:<collection>:<number>) with isnad, matn, narrator, caliph, grades found in the sources, and compiler comments. Numbering, method and limits: docs/hadith_layer/README.md. Summary: catalogs/hadith_layer_summary.json.
