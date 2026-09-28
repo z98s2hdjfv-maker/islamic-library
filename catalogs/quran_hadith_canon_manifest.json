@@ -1,0 +1,236 @@
+[
+ {
+  "key": "quran.0001Quran.Mushaf",
+  "work": "Tanzil Project: Mushaf",
+  "author": "quran",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "Quran text; OpenITI 0001Quran.Mushaf.Tanzil001-ara1; Tanzil Simple Clean v1.1 via OpenITI; one record per verse, id urn:quran:S:A; CC BY 3.0, Tanzil copyright notice kept in sources"
+ },
+ {
+  "key": "hadith.0256Bukhari.Sahih",
+  "work": "al-Bukhārī: Sahih",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "ṣaḥīḥ; OpenITI 0256Bukhari.Sahih.JK000110-ara1"
+ },
+ {
+  "key": "hadith.0261Muslim.Sahih",
+  "work": "Muslim: Sahih",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "ṣaḥīḥ; OpenITI 0261Muslim.Sahih.Shamela0001727-ara1"
+ },
+ {
+  "key": "hadith.0275AbuDawudSijistani.Sunan",
+  "work": "Abū Dāwūd: Sunan",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan; OpenITI 0275AbuDawudSijistani.Sunan.JK000142-ara1"
+ },
+ {
+  "key": "hadith.0279Tirmidhi.Sunan",
+  "work": "al-Tirmidhī: Sunan",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan (jāmiʿ); OpenITI 0279Tirmidhi.Sunan.JK000140-ara1; al-Tirmidhī grades hadiths in the text itself"
+ },
+ {
+  "key": "hadith.0303Nasai.SunanSughra",
+  "work": "al-Nasāʾī: SunanSughra",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan (al-Mujtabā); OpenITI 0303Nasai.SunanSughra.JK000130-ara1"
+ },
+ {
+  "key": "hadith.0303Nasai.SunanKubra",
+  "work": "al-Nasāʾī: SunanKubra",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan; OpenITI 0303Nasai.SunanKubra.JK000475-ara1"
+ },
+ {
+  "key": "hadith.0273IbnMaja.Sunan",
+  "work": "Ibn Māja: Sunan",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan; OpenITI 0273IbnMaja.Sunan.JK000141-ara1"
+ },
+ {
+  "key": "hadith.0241IbnHanbal.Musnad",
+  "work": "Aḥmad ibn Ḥanbal: Musnad",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "musnad; OpenITI 0241IbnHanbal.Musnad.Shamela0025794-ara1; arranged by Companion: the largest source for each Companion's own narrations"
+ },
+ {
+  "key": "hadith.0255CabdAllahDarimi.Sunan",
+  "work": "al-Dārimī: Sunan",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan; OpenITI 0255CabdAllahDarimi.Sunan.JK000842-ara1"
+ },
+ {
+  "key": "hadith.0385Daraqutni.Sunan",
+  "work": "al-Dāraquṭnī: Sunan",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "sunan; OpenITI 0385Daraqutni.Sunan.JK000477-ara1; with his isnād criticism"
+ },
+ {
+  "key": "hadith.0311IbnKhuzaymaNaysaburi.Sahih",
+  "work": "Ibn Khuzayma: Sahih",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "ṣaḥīḥ; OpenITI 0311IbnKhuzaymaNaysaburi.Sahih.JK000132-ara1"
+ },
+ {
+  "key": "hadith.0405HakimNaysaburi.Mustadrak",
+  "work": "al-Ḥākim: Mustadrak",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "mustadrak; OpenITI 0405HakimNaysaburi.Mustadrak.JK000467-ara1; al-Ḥākim's grades are lenient; al-Dhahabī's notes where present"
+ },
+ {
+  "key": "hadith.0360Tabarani.MucjamKabir",
+  "work": "al-Ṭabarānī: MucjamKabir",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "muʿjam by Companion; OpenITI 0360Tabarani.MucjamKabir.JK000474-ara1; arranged by Companion"
+ },
+ {
+  "key": "hadith.0510IbnMascudBaghawi.SharhSunna",
+  "work": "al-Baghawī: SharhSunna",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "ḥadīth with commentary; OpenITI 0510IbnMascudBaghawi.SharhSunna.JK009152-ara1"
+ },
+ {
+  "key": "hadith.0676Nawawi.RiyadSalihin",
+  "work": "al-Nawawī: RiyadSalihin",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "selection (ethics); OpenITI 0676Nawawi.RiyadSalihin.Shamela0012014-ara1"
+ },
+ {
+  "key": "hadith.0676Nawawi.ArbacunaNawawiyya",
+  "work": "al-Nawawī: ArbacunaNawawiyya",
+  "author": "hadith",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "forty hadith; OpenITI 0676Nawawi.ArbacunaNawawiyya.Shamela0012836-ara1"
+ },
+ {
+  "key": "tafsir.0310Tabari.JamicBayan",
+  "work": "al-Ṭabarī: JamicBayan",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "tafsīr bi-l-maʾthūr; OpenITI 0310Tabari.JamicBayan.Shamela0007798-ara1; preserves Companion and Successor tafsīr with isnāds"
+ },
+ {
+  "key": "tafsir.0327IbnAbiHatimRazi.Tafsir",
+  "work": "Ibn Abī Ḥātim: Tafsir",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "tafsīr bi-l-maʾthūr; OpenITI 0327IbnAbiHatimRazi.Tafsir.JK006474-ara1"
+ },
+ {
+  "key": "tafsir.0911Suyuti.DurrManthur",
+  "work": "al-Suyūṭī: DurrManthur",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "tafsīr bi-l-maʾthūr; OpenITI 0911Suyuti.DurrManthur.Shamela0012884-ara1; collects reports from the Companions verse by verse"
+ },
+ {
+  "key": "tafsir.0774IbnKathir.TafsirQuran",
+  "work": "Ibn Kathīr: TafsirQuran",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "tafsīr; OpenITI 0774IbnKathir.TafsirQuran.Shamela0008473-ara1"
+ },
+ {
+  "key": "tafsir.0510IbnMascudBaghawi.Tafsir",
+  "work": "al-Baghawī: Tafsir",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "tafsīr; OpenITI 0510IbnMascudBaghawi.Tafsir.Shamela0000041-ara1"
+ },
+ {
+  "key": "tafsir.0606FakhrDinRazi.MafatihGhayb",
+  "work": "Fakhr al-Dīn al-Rāzī: MafatihGhayb",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "theological tafsīr; OpenITI 0606FakhrDinRazi.MafatihGhayb.JK006478-ara1"
+ },
+ {
+  "key": "tafsir.0538JarAllahZamakhshari.Kashshaf",
+  "work": "al-Zamakhsharī: Kashshaf",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "linguistic tafsīr; OpenITI 0538JarAllahZamakhshari.Kashshaf.JK001496-ara1; Muʿtazilī author; read with that in mind"
+ },
+ {
+  "key": "tafsir.0685NasirDinBaydawi.AnwarTanzil",
+  "work": "al-Bayḍāwī: AnwarTanzil",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "tafsīr; OpenITI 0685NasirDinBaydawi.AnwarTanzil.Tafsir01006-ara1"
+ },
+ {
+  "key": "tafsir.0911Suyuti.TafsirJalalayn",
+  "work": "al-Maḥallī and al-Suyūṭī: TafsirJalalayn",
+  "author": "tafsir",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "concise tafsīr; OpenITI 0911Suyuti.TafsirJalalayn.JK000818-ara1"
+ }
+]

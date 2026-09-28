@@ -55,3 +55,6 @@
 
 ## v14: Companions and caliphs canon
 58 OpenITI works in topic folders under corpus/: athar, consensus, judging, sira, sahaba, history, rijal, sufi_manuals, tafsir_sufi, tafsir_ahkam, kalam, critics, alawi, lugha. List, pins and gaps: docs/companions/README.md. Nahj al-balagha is flagged doubtful.
+
+## v15: Quran, hadith and tafsir
+corpus/quran/ (6,236 verses, id urn:quran:S:A, Tanzil text, CC BY 3.0), corpus/hadith/ (16 collections), corpus/tafsir/ (9 tafsirs). Details and gaps: docs/quran_hadith/README.md.

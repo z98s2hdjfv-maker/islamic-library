@@ -1,0 +1,27 @@
+group	book	author	role	attribution	note	version
+quran	0001Quran.Mushaf	Tanzil Project	Quran text	secure	Tanzil Simple Clean v1.1 via OpenITI; one record per verse, id urn:quran:S:A; CC BY 3.0, Tanzil copyright notice kept in sources	0001Quran.Mushaf.Tanzil001-ara1
+hadith	0256Bukhari.Sahih	al-Bukhārī	ṣaḥīḥ	secure
+hadith	0261Muslim.Sahih	Muslim	ṣaḥīḥ	secure
+hadith	0275AbuDawudSijistani.Sunan	Abū Dāwūd	sunan	secure
+hadith	0279Tirmidhi.Sunan	al-Tirmidhī	sunan (jāmiʿ)	secure	al-Tirmidhī grades hadiths in the text itself
+hadith	0303Nasai.SunanSughra	al-Nasāʾī	sunan (al-Mujtabā)	secure
+hadith	0303Nasai.SunanKubra	al-Nasāʾī	sunan	secure
+hadith	0273IbnMaja.Sunan	Ibn Māja	sunan	secure
+hadith	0241IbnHanbal.Musnad	Aḥmad ibn Ḥanbal	musnad	secure	arranged by Companion: the largest source for each Companion's own narrations
+hadith	0255CabdAllahDarimi.Sunan	al-Dārimī	sunan	secure
+hadith	0385Daraqutni.Sunan	al-Dāraquṭnī	sunan	secure	with his isnād criticism
+hadith	0311IbnKhuzaymaNaysaburi.Sahih	Ibn Khuzayma	ṣaḥīḥ	secure
+hadith	0405HakimNaysaburi.Mustadrak	al-Ḥākim	mustadrak	secure	al-Ḥākim's grades are lenient; al-Dhahabī's notes where present
+hadith	0360Tabarani.MucjamKabir	al-Ṭabarānī	muʿjam by Companion	secure	arranged by Companion
+hadith	0510IbnMascudBaghawi.SharhSunna	al-Baghawī	ḥadīth with commentary	secure
+hadith	0676Nawawi.RiyadSalihin	al-Nawawī	selection (ethics)	secure
+hadith	0676Nawawi.ArbacunaNawawiyya	al-Nawawī	forty hadith	secure
+tafsir	0310Tabari.JamicBayan	al-Ṭabarī	tafsīr bi-l-maʾthūr	secure	preserves Companion and Successor tafsīr with isnāds
+tafsir	0327IbnAbiHatimRazi.Tafsir	Ibn Abī Ḥātim	tafsīr bi-l-maʾthūr	secure
+tafsir	0911Suyuti.DurrManthur	al-Suyūṭī	tafsīr bi-l-maʾthūr	secure	collects reports from the Companions verse by verse
+tafsir	0774IbnKathir.TafsirQuran	Ibn Kathīr	tafsīr	secure
+tafsir	0510IbnMascudBaghawi.Tafsir	al-Baghawī	tafsīr	secure
+tafsir	0606FakhrDinRazi.MafatihGhayb	Fakhr al-Dīn al-Rāzī	theological tafsīr	secure
+tafsir	0538JarAllahZamakhshari.Kashshaf	al-Zamakhsharī	linguistic tafsīr	secure	Muʿtazilī author; read with that in mind
+tafsir	0685NasirDinBaydawi.AnwarTanzil	al-Bayḍāwī	tafsīr	secure
+tafsir	0911Suyuti.TafsirJalalayn	al-Maḥallī and al-Suyūṭī	concise tafsīr	secure
