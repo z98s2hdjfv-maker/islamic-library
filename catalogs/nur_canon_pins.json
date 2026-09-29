@@ -1,0 +1,194 @@
+{
+ "source": "OpenITI (github.com/OpenITI)",
+ "license": "CC BY-NC-SA 4.0",
+ "pinned": "2026-09-29",
+ "works": {
+  "0669IbnSabcinMursi.AnwarNabi": {
+   "version": "0669IbnSabcinMursi.AnwarNabi.Masaha001941-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0669IbnSabcinMursi/0669IbnSabcinMursi.AnwarNabi/0669IbnSabcinMursi.AnwarNabi.Masaha001941-ara1",
+   "sha256": "2a3549ea05d4694c8435d8a65696dd15b6b2c0e131539aaae16faa9e889821ae",
+   "bytes": 560223,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 55895
+  },
+  "0673AbuMacaliQunawi.MiftahGhayb": {
+   "version": "0673AbuMacaliQunawi.MiftahGhayb.Shia004691-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0673AbuMacaliQunawi/0673AbuMacaliQunawi.MiftahGhayb/0673AbuMacaliQunawi.MiftahGhayb.Shia004691-ara1",
+   "sha256": "b5917fcce9afce711ee39517a6f2a24cf13ecf8b408b52b6544d84a5c2a85dca",
+   "bytes": 347138,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 33381
+  },
+  "0673AbuMacaliQunawi.RisalatNusus": {
+   "version": "0673AbuMacaliQunawi.RisalatNusus.AOCP20251104072-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0673AbuMacaliQunawi/0673AbuMacaliQunawi.RisalatNusus/0673AbuMacaliQunawi.RisalatNusus.AOCP20251104072-ara1",
+   "sha256": "4652562984a6504e9cf4ad4a061c9f328436ddbab88627a44bdca48a503da4b1",
+   "bytes": 158772,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 14299
+  },
+  "0834IbnHamzaFanari.MisbahUns": {
+   "version": "0834IbnHamzaFanari.MisbahUns.Shia004692-ara1",
+   "repo": "0850AH",
+   "commit": "e2715c62fb458ce3ddc43b962cd55677cdd7bc35",
+   "path": "data/0834IbnHamzaFanari/0834IbnHamzaFanari.MisbahUns/0834IbnHamzaFanari.MisbahUns.Shia004692-ara1",
+   "sha256": "9d376554124fecc8a8cee5de9a3b723934ae3ed4e048216cb8260e56fed57e7e",
+   "bytes": 1784711,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 171524
+  },
+  "0805CabdKarimJili.KamalatIlahiyya": {
+   "version": "0805CabdKarimJili.KamalatIlahiyya.AOCP20251104099-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0805CabdKarimJili/0805CabdKarimJili.KamalatIlahiyya/0805CabdKarimJili.KamalatIlahiyya.AOCP20251104099-ara1",
+   "sha256": "ff43ebcec1044bcffd68e1c3d8c2202f5d8db4b69692c0c14a9ed262f586e71f",
+   "bytes": 398490,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 36870
+  },
+  "0505Ghazali.MishkatAnwar": {
+   "version": "0505Ghazali.MishkatAnwar.JK009401-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0505Ghazali/0505Ghazali.MishkatAnwar/0505Ghazali.MishkatAnwar.JK009401-ara1",
+   "sha256": "8d9ae6ec0d24a62b8e0cc4db9cc5ec9f59a84fa814742d63b9ba91fc1ab518fc",
+   "bytes": 107510,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 10201
+  },
+  "1127IsmacilHaqqiBurusawi.RuhBayan": {
+   "version": "1127IsmacilHaqqiBurusawi.RuhBayan.ShamAY0034059-ara1",
+   "repo": "1150AH",
+   "commit": "c3f5524572733bb60fa64f891823fdeffc23d92f",
+   "path": "data/1127IsmacilHaqqiBurusawi/1127IsmacilHaqqiBurusawi.RuhBayan/1127IsmacilHaqqiBurusawi.RuhBayan.ShamAY0034059-ara1",
+   "sha256": "a4b044bc6da1761a6eb87c742a23cc93f5cb8377061317e61759e94f4ed96c96",
+   "bytes": 24337470,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 2449174
+  },
+  "0632SharafDinIbnFarid.Diwan": {
+   "version": "0632SharafDinIbnFarid.Diwan.JK007590-ara1",
+   "repo": "0650AH",
+   "commit": "287c0cc31845e7f63afb4c0e3c776fc13b45f00f",
+   "path": "data/0632SharafDinIbnFarid/0632SharafDinIbnFarid.Diwan/0632SharafDinIbnFarid.Diwan.JK007590-ara1",
+   "sha256": "aae983217cb2d7a1e45bd1778679b405e364cbe1c157146e815b76e8896446d5",
+   "bytes": 190937,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 19306
+  },
+  "0696SharafDinBusiri.Diwan": {
+   "version": "0696SharafDinBusiri.Diwan.JK007603-ara1",
+   "repo": "0700AH",
+   "commit": "3d8ff4e7b035aaa4ca5dda52c7322645f3401dcf",
+   "path": "data/0696SharafDinBusiri/0696SharafDinBusiri.Diwan/0696SharafDinBusiri.Diwan.JK007603-ara1",
+   "sha256": "1b802786d5aeb1f6a7d314d96655c6a432c83844ce339f462a77541b3e5db0b9",
+   "bytes": 290934,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 29433
+  },
+  "0923AhmadQastallani.MawahibLaduniyya": {
+   "version": "0923AhmadQastallani.MawahibLaduniyya.Shamela0023685-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0923AhmadQastallani/0923AhmadQastallani.MawahibLaduniyya/0923AhmadQastallani.MawahibLaduniyya.Shamela0023685-ara1",
+   "sha256": "817f9f1410b3e76f6e5ffb9e0568f33136d99444d2809caa20855e2c05cbd72c",
+   "bytes": 4509955,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 440820
+  },
+  "1122MuhammadZurqani.SharhCalaMawahib": {
+   "version": "1122MuhammadZurqani.SharhCalaMawahib.Shamela0026568-ara1",
+   "repo": "1125AH",
+   "commit": "fd85c92138663f09924b9a0323f674614394e4c1",
+   "path": "data/1122MuhammadZurqani/1122MuhammadZurqani.SharhCalaMawahib/1122MuhammadZurqani.SharhCalaMawahib.Shamela0026568-ara1",
+   "sha256": "ab277665e472c5f9900077d2a010d0b089093452a3f8bc6691c02e9f48d612ba",
+   "bytes": 4153438,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 411397
+  },
+  "0911Suyuti.KhasaisKubra": {
+   "version": "0911Suyuti.KhasaisKubra.JK001303-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.KhasaisKubra/0911Suyuti.KhasaisKubra.JK001303-ara1",
+   "sha256": "b9e7aa13ecb262fd967e175ddc7ad31238f43521bb739c07fe7088a4aa3546f7",
+   "bytes": 2446894,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 264885
+  },
+  "0430AbuNucaymIsbahani.DalailNubuwwa": {
+   "version": "0430AbuNucaymIsbahani.DalailNubuwwa.Shamela0010637-ara1",
+   "repo": "0450AH",
+   "commit": "8b80029191e1b7a8809d812ec6186df862e18217",
+   "path": "data/0430AbuNucaymIsbahani/0430AbuNucaymIsbahani.DalailNubuwwa/0430AbuNucaymIsbahani.DalailNubuwwa.Shamela0010637-ara1.completed",
+   "sha256": "4ccd9fabb28396076bacae5fb14b91239d10e0b968cb0bc469611c2fff77cde7",
+   "bytes": 1126741,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 120745
+  },
+  "0375IkhwanSafa.Rasail": {
+   "version": "0375IkhwanSafa.Rasail.Hindawi095926405Vols-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0375IkhwanSafa/0375IkhwanSafa.Rasail/0375IkhwanSafa.Rasail.Hindawi095926405Vols-ara1.mARkdown",
+   "sha256": "178426f25ebc890243241e0f05998bd1ccac5d83ac67fd83cd8a741af1130760",
+   "bytes": 4487223,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 431535
+  },
+  "0428IbnSina.ShifaIlahiyyat": {
+   "version": "0428IbnSina.ShifaIlahiyyat.ALCorpus00013-ara1",
+   "repo": "0450AH",
+   "commit": "8b80029191e1b7a8809d812ec6186df862e18217",
+   "path": "data/0428IbnSina/0428IbnSina.ShifaIlahiyyat/0428IbnSina.ShifaIlahiyyat.ALCorpus00013-ara1",
+   "sha256": "fb19b17d86ac1e6e630aa0efa03affc74f49e7040d4e7889fd4a7b34e73e9b91",
+   "bytes": 879325,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 90874
+  },
+  "0428IbnSina.ShifaTabiciyyat": {
+   "version": "0428IbnSina.ShifaTabiciyyat.PV20230224-ara1",
+   "repo": "0450AH",
+   "commit": "8b80029191e1b7a8809d812ec6186df862e18217",
+   "path": "data/0428IbnSina/0428IbnSina.ShifaTabiciyyat/0428IbnSina.ShifaTabiciyyat.PV20230224-ara1.completed",
+   "sha256": "49c6d184f0693f3b91a277810b5ddf2dbe1a49bd6d4070590e29903d7a821af6",
+   "bytes": 3283281,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 316399
+  },
+  "0505Ghazali.Tahafut": {
+   "version": "0505Ghazali.Tahafut.Shamela0011055-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0505Ghazali/0505Ghazali.Tahafut/0505Ghazali.Tahafut.Shamela0011055-ara1",
+   "sha256": "be27fab1fae7e4d7cb511cbd2ed546d7c86f6317c29e7d4e14383bd58de9dfe1",
+   "bytes": 486814,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 49021
+  }
+ }
+}
