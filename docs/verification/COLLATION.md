@@ -57,3 +57,11 @@ scan has no OCR text), Shams's Maqālāt, Ibn Khaldūn's Shifāʾ al-sāʾil, al
 and a typeset al-Qayṣarī Fuṣūṣ commentary (only lithographs). These need a scan with OCR, a printed copy, or
 the scan itself (`ref_id = scan` in the verification log).
 Found along the way, not yet in the corpus: al-Shaʿrānī's al-Yawāqīt wa-l-jawāhir (clean scans, item alcha3rani).
+
+## Third round (v24)
+- al-Munāwī, al-Kawākib al-durriyya: two editions found (a 5-volume scan, item kwk-1b, and the Ḥamdān
+  edition, item kawakebdoria). 7,448 of 12,046 pages corroborated, 3,809 partial, 323 divergent.
+- Ibn Khaldūn, Shifāʾ al-sāʾil: two scans. 45 of 460 pages corroborated, 350 partial.
+- Shams, Maqālāt: the Khoshnevis edition (item 20251124_20251124_2133) was tested and dropped. Only 24% of
+  pages aligned, at 0.27, because it is a different arrangement of the text. The Movahhed OCR still has no witness.
+- Still none: al-Tirmidhī's Masʾala fī waṣf al-mufarradīn, and a typeset al-Qayṣarī Fuṣūṣ commentary.
