@@ -1,0 +1,86 @@
+[
+ {
+  "key": "nur.0805CabdKarimJili.InsanKamil",
+  "work": "Abd al-Karim al-Jili: al-Insan al-kamil fi marifat al-awakhir wa-l-awail",
+  "author": "nur",
+  "strand": "theory",
+  "scholar": "Abd al-Karim al-Jili",
+  "role": "Akbarian (Perfect Man)",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), theory (Akbarian (Perfect Man)); item AlInsanAlKamilByAbdulKarimAlJiliArabic; the Perfect Man as the locus of the Muhammadan reality; modern typeset edition"
+ },
+ {
+  "key": "nur.0751DawudQaysari.SharhFusus",
+  "work": "Dawud al-Qaysari: Sharh Fusus al-hikam (Matla khusus al-kilam)",
+  "author": "nur",
+  "strand": "commentary",
+  "scholar": "Dawud al-Qaysari",
+  "role": "Fusus commentary",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), commentary (Fusus commentary); item 20240130_20240130_1102; incl. his introduction (muqaddima) on being, the names, the Muhammadan reality and sainthood"
+ },
+ {
+  "key": "nur.0736CabdRazzaqQashani.SharhFusus",
+  "work": "Abd al-Razzaq al-Qashani: Sharh Fusus al-hikam",
+  "author": "nur",
+  "strand": "commentary",
+  "scholar": "Abd al-Razzaq al-Qashani",
+  "role": "Fusus commentary",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), commentary (Fusus commentary); item 20260328_20260328_0603"
+ },
+ {
+  "key": "nur.0699SacidDinFarghani.MuntahaMadarik",
+  "work": "Said al-Din al-Farghani: Muntaha al-madarik fi sharh Taiyyat Ibn al-Farid",
+  "author": "nur",
+  "strand": "commentary",
+  "scholar": "Said al-Din al-Farghani",
+  "role": "Taiyya commentary (Qunawi school)",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), commentary (Taiyya commentary (Qunawi school)); item baha-2026-06; Qunawi's student; the Taiyya as the voice of the Muhammadan reality; the item holds 4 scans, this is the typeset one"
+ },
+ {
+  "key": "nur.0751DawudQaysari.SharhTaiyya",
+  "work": "Dawud al-Qaysari: Sharh Taiyyat Ibn al-Farid",
+  "author": "nur",
+  "strand": "commentary",
+  "scholar": "Dawud al-Qaysari",
+  "role": "Taiyya commentary",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), commentary (Taiyya commentary); item 1989_20210820_202108"
+ },
+ {
+  "key": "nur.0736CabdRazzaqQashani.KashfWujuhGhurr",
+  "work": "Abd al-Razzaq al-Qashani: Kashf al-wujuh al-ghurr li-maani Nazm al-durr",
+  "author": "nur",
+  "strand": "commentary",
+  "scholar": "Abd al-Razzaq al-Qashani",
+  "role": "Taiyya commentary",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), commentary (Taiyya commentary); item 20240214_20240214_2020"
+ },
+ {
+  "key": "nur.0587ShihabDinSuhrawardi.HikmatIshraq",
+  "work": "Shihab al-Din al-Suhrawardi: Hikmat al-ishraq",
+  "author": "nur",
+  "strand": "philosophy",
+  "scholar": "Shihab al-Din al-Suhrawardi",
+  "role": "philosophy of light",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "nur canon (archive.org), philosophy (philosophy of light); item Hekmataleshraq; the Light of Lights and the hierarchy of lights; critical edition with variants"
+ }
+]
