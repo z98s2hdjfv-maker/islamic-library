@@ -6,6 +6,7 @@ ibnarabi.fusus.nizamaldin_ocr	fusus_kraken	other_edition	499	381	76.4	0.416	0.0	
 ibnarabi.futuhat.mansub_ocr	futuhat_shamela	other_edition_typed	7976	7071	88.7	0.708	4.1	11.0
 ibnarabi.futuhat.mansub_ocr	futuhat_jk	other_edition_typed	7976	7063	88.6	0.698	3.2	11.6
 nur.0587ShihabDinSuhrawardi.HikmatIshraq	ishraq_b	same_edition_rescan	242	240	99.2	0.898	86.0	0.4
+nur.0673AbuMacaliQunawi.RisalatNusus	nusus_a	other_edition	153	139	90.8	0.816	51.0	10.5
 nur.0699SacidDinFarghani.MuntahaMadarik	farghani_ed2	other_edition	828	426	51.4	0.661	4.8	11.5
 nur.0699SacidDinFarghani.MuntahaMadarik	farghani_old	other_edition	828	462	55.8	0.529	0.0	48.7
 nur.0736CabdRazzaqQashani.KashfWujuhGhurr	kashf_b	other_edition	273	271	99.3	0.611	0.4	35.5
@@ -14,3 +15,13 @@ nur.0736CabdRazzaqQashani.SharhFusus	qashani_111	other_edition	349	314	90.0	0.51
 nur.0751DawudQaysari.SharhTaiyya	qaysari_taiyya_b	other_edition	220	209	95.0	0.742	14.1	10.5
 nur.0805CabdKarimJili.InsanKamil	jili_b	other_edition	281	279	99.3	0.868	75.8	2.1
 nur.0805CabdKarimJili.InsanKamil	jili_c	other_edition	281	155	55.2	0.564	0.0	18.1
+nur.0805CabdKarimJili.KamalatIlahiyya	kamalat_b	other_edition	627	615	98.1	0.897	73.2	3.0
+wilaya.0628IbnZayyat.Tashawwuf	tashawwuf_a	other_edition	1187	1114	93.9	0.735	13.1	11.9
+wilaya.0628IbnZayyat.Tashawwuf	tashawwuf_b	other_edition	1187	1121	94.4	0.761	18.0	9.0
+wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_a	other_edition	442	398	90.0	0.657	3.8	26.7
+wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_b	other_edition	442	385	87.1	0.597	1.6	40.3
+wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_c	other_edition	442	430	97.3	0.866	69.5	2.9
+wilaya.0768Yafici.RawdRayahin	rawd_a	other_edition	964	943	97.8	0.834	48.9	2.0
+wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_a	other_edition	785	781	99.5	0.874	69.0	1.9
+wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_b	other_edition	785	776	98.9	0.807	47.1	9.3
+wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_c	other_edition	785	782	99.6	0.868	67.9	2.7

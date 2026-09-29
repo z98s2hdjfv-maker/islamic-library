@@ -45,3 +45,15 @@ wilāya OCR works (incl. al-Munāwī's Kawākib, 12,046 pages), al-Jīlī's Kam�
 Add a row to `catalogs/witnesses.tsv` (for archive.org: the file base and the md5 of its
 `_hocr_searchtext.txt.gz` and `_hocr_pageindex.json.gz`, from the item's metadata), then run
 `python3 pipeline/verify/collate.py --repo .`. A changed source file stops the run.
+
+## Second round of witnesses (v23)
+11 more archive.org witnesses (26 in all) for 6 works that had none. Pages corroborated / total:
+al-Shaʿrānī, al-Kibrīt al-aḥmar 669/785 (3 witnesses); al-Jīlī, al-Kamālāt al-ilāhiyya 459/627;
+Ibn ʿAṭāʾ Allāh, Laṭāʾif al-minan 310/442 (3); al-Yāfiʿī, Rawḍ al-rayāḥīn 471/964; Ibn al-Zayyāt,
+al-Tashawwuf 285/1187 (2; mostly partial, 784); al-Qūnawī, al-Nuṣūṣ 78/153.
+Tried and dropped: a Kamālāt item that is a different compilation (2% of pages aligned) and a Rawḍ lithograph
+whose OCR aligned on 3 pages. Searched without a usable result: al-Munāwī's al-Kawākib al-durriyya (the one
+scan has no OCR text), Shams's Maqālāt, Ibn Khaldūn's Shifāʾ al-sāʾil, al-Tirmidhī's Masʾala fī waṣf al-mufarradīn,
+and a typeset al-Qayṣarī Fuṣūṣ commentary (only lithographs). These need a scan with OCR, a printed copy, or
+the scan itself (`ref_id = scan` in the verification log).
+Found along the way, not yet in the corpus: al-Shaʿrānī's al-Yawāqīt wa-l-jawāhir (clean scans, item alcha3rani).
