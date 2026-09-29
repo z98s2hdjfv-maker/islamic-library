@@ -1,0 +1,16 @@
+work	witness	relation	records	aligned	pct_aligned	mean_agreement	pct_corroborated_ge85	pct_divergent_lt60
+aflaki.manaqib.yazici_ocr	aflaki_b	other_edition	1236	1184	95.8	0.649	0.3	26.6
+hanafi.0321Tahawi.Mukhtasar	tahawi_kraken2021	other_edition	3262	2502	76.7	0.798	34.7	7.9
+ibnarabi.fusus.nizamaldin_ocr	fusus_textlayer	same_edition_rescan	499	465	93.2	0.625	2.0	27.3
+ibnarabi.fusus.nizamaldin_ocr	fusus_kraken	other_edition	499	381	76.4	0.416	0.0	68.5
+ibnarabi.futuhat.mansub_ocr	futuhat_shamela	other_edition_typed	7976	7071	88.7	0.708	4.1	11.0
+ibnarabi.futuhat.mansub_ocr	futuhat_jk	other_edition_typed	7976	7063	88.6	0.698	3.2	11.6
+nur.0587ShihabDinSuhrawardi.HikmatIshraq	ishraq_b	same_edition_rescan	242	240	99.2	0.898	86.0	0.4
+nur.0699SacidDinFarghani.MuntahaMadarik	farghani_ed2	other_edition	828	426	51.4	0.661	4.8	11.5
+nur.0699SacidDinFarghani.MuntahaMadarik	farghani_old	other_edition	828	462	55.8	0.529	0.0	48.7
+nur.0736CabdRazzaqQashani.KashfWujuhGhurr	kashf_b	other_edition	273	271	99.3	0.611	0.4	35.5
+nur.0736CabdRazzaqQashani.SharhFusus	qashani_9979	other_edition	349	347	99.4	0.915	98.9	0.0
+nur.0736CabdRazzaqQashani.SharhFusus	qashani_111	other_edition	349	314	90.0	0.519	0.0	68.2
+nur.0751DawudQaysari.SharhTaiyya	qaysari_taiyya_b	other_edition	220	209	95.0	0.742	14.1	10.5
+nur.0805CabdKarimJili.InsanKamil	jili_b	other_edition	281	279	99.3	0.868	75.8	2.1
+nur.0805CabdKarimJili.InsanKamil	jili_c	other_edition	281	155	55.2	0.564	0.0	18.1
