@@ -983,3 +983,5 @@ reports/index/concept_summary.tsv	3a99d4c54d9a05317aeb1daa569a9529e1734c84b5f54a
 pipeline/index/build_concept_index.py	46fa0f64a27b93e7371fec3b9877f775db3915c2f14c79521664f41674507333	3729	v30	build_concept_index.py
 docs/index/README_v30.md	91697648e558261440d3d684c27190dbaafa333ae33800c1d233352f779e79f3	1072	v30	README_v30.md
 docs/dossiers/asma.md	a832d746c682d620c47ef98c4db008c53111de3d7624d919eb9ab3fcea80cd82	6505	v30	asma.md
+docs/dossiers/nur.md	2c0ccf421373ae0f5b7b114480d27272e6e2a370549a54929d6ae022aea39c14	6414	v31	nur.md
+docs/dossiers/wilaya.md	d834247852c61a3b4f5a68261730c84afdd7234869cee9cb063a9eefcd29097b	6057	v31	wilaya.md
