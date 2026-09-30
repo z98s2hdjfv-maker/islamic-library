@@ -16,6 +16,8 @@ don't cover, and say which is which.
 | A hadith and its grades | `zgrep` in `apparatus/hadith/*.jsonl.gz` (narrator, caliph, grades in the sources, parallels) |
 | Later classical critics | `apparatus/hadith_grades/` (al-Dhahabi on al-Hakim) and `corpus/grading/` (al-Haythami, Ibn Hajar, al-Zaylaʿi, al-Busiri, al-Sakhawi) |
 | Soul, grave, afterlife | `corpus/afterlife/` (Ibn al-Qayyim's Ruh, al-Qurtubi's Tadhkira, al-Suyuti, Ibn Rajab, al-Bayhaqi, Ibn Kathir, al-Ghazali's Durra) and al-Alusi in `corpus/tafsir/` |
+| Creed by school (Ashʿari, Maturidi, Athari) | `corpus/kalam/`: al-Sanusi, al-Iji with al-Jurjani, al-Bajuri on al-Laqqani, Abu al-Muʿin and Najm al-Din al-Nasafi (with al-Taftazani), al-Tahawi with Ibn Abi al-ʿIzz, Ibn Taymiyya, Ibn Qudama; creed terms via `--concept qada_qadar` etc. |
+| Grammar | `corpus/lugha/`: Sibawayh's Kitab with al-Sirafi's commentary |
 | Modern works (cited, not classical) | `corpus/modern/`: al-Albani's two Silsilas and gradings, Ahmad Shakir |
 | Any word or phrase | `zgrep -l` over `corpus/<folder>/*.jsonl.gz`; the full root-aware index is the `search-index` release asset (1.1 GB; `docs/search/README.md`) |
 | An OCR page's reliability | `reports/collation/confidence.tsv.gz` (level) and `apparatus/best_reading/` (corrected reading) |

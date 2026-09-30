@@ -1,0 +1,173 @@
+{
+ "pinned": "2026-09-30",
+ "works": {
+  "0895AbuCabdAllahSanusi.MatnSanusiyya": {
+   "version": "0895AbuCabdAllahSanusi.MatnSanusiyya.JK001240-ara1",
+   "repo": "0900AH",
+   "commit": "271ff65bd8364d3a46b5806ca529617d1ffc3393",
+   "path": "data/0895AbuCabdAllahSanusi/0895AbuCabdAllahSanusi.MatnSanusiyya/0895AbuCabdAllahSanusi.MatnSanusiyya.JK001240-ara1",
+   "sha256": "b58c5eb9270394156ee4ecf09e1dde88e75b3fa2dd1f1fa963e37e5a3f0c5d8b",
+   "bytes": 15897,
+   "source_type": "typed"
+  },
+  "0895AbuCabdAllahSanusi.ThalathCaqaidAshcariyya": {
+   "version": "0895AbuCabdAllahSanusi.ThalathCaqaidAshcariyya.Kraken22021606122500-ara1",
+   "repo": "0900AH",
+   "commit": "271ff65bd8364d3a46b5806ca529617d1ffc3393",
+   "path": "data/0895AbuCabdAllahSanusi/0895AbuCabdAllahSanusi.ThalathCaqaidAshcariyya/0895AbuCabdAllahSanusi.ThalathCaqaidAshcariyya.Kraken22021606122500-ara1",
+   "sha256": "d40fc3a919fb1074f245c3e74dffdc885a0e0740d973f1cdb6454dc09bcdaea6",
+   "bytes": 273738,
+   "source_type": "ocr_uncorrected"
+  },
+  "0895AbuCabdAllahSanusi.SharhMuqaddimat": {
+   "version": "0895AbuCabdAllahSanusi.SharhMuqaddimat.Kraken22021606123100-ara1",
+   "repo": "0900AH",
+   "commit": "271ff65bd8364d3a46b5806ca529617d1ffc3393",
+   "path": "data/0895AbuCabdAllahSanusi/0895AbuCabdAllahSanusi.SharhMuqaddimat/0895AbuCabdAllahSanusi.SharhMuqaddimat.Kraken22021606123100-ara1",
+   "sha256": "58553afefd12a16c6c624352642b4a444696cfdc8f0854f87ae3df6fa5b79efa",
+   "bytes": 438445,
+   "source_type": "ocr_uncorrected"
+  },
+  "0324Ashcari.LamcFiRadd": {
+   "version": "0324Ashcari.LamcFiRadd.Rafed0003452-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0324Ashcari/0324Ashcari.LamcFiRadd/0324Ashcari.LamcFiRadd.Rafed0003452-ara1",
+   "sha256": "588a413be965cb7e560d65740f4c28d708ab622f0fb68f9afc9cf0e2e569a098",
+   "bytes": 166270,
+   "source_type": "typed"
+  },
+  "0324Ashcari.RisalaIlaAhlThughr": {
+   "version": "0324Ashcari.RisalaIlaAhlThughr.JK001256-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0324Ashcari/0324Ashcari.RisalaIlaAhlThughr/0324Ashcari.RisalaIlaAhlThughr.JK001256-ara1",
+   "sha256": "0865b22b84ca19b52bdfcf5049af6aaca03923ff71968a2914d123af26502c7e",
+   "bytes": 93622,
+   "source_type": "typed"
+  },
+  "0606FakhrDinRazi.ArbacinFiUsulDin": {
+   "version": "0606FakhrDinRazi.ArbacinFiUsulDin.Rafed0003314Vols-ara1",
+   "repo": "0625AH",
+   "commit": "f1e38210b32fd0d043949ff6471e869d658c3b16",
+   "path": "data/0606FakhrDinRazi/0606FakhrDinRazi.ArbacinFiUsulDin/0606FakhrDinRazi.ArbacinFiUsulDin.Rafed0003314Vols-ara1",
+   "sha256": "976741463614c095f6c1b1d717cbc6a2bce3999a340561c27f9045e6a7d3444c",
+   "bytes": 1487539,
+   "source_type": "typed"
+  },
+  "0756CadudDinIji.Mawaqif": {
+   "version": "0756CadudDinIji.Mawaqif.JK001335-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0756CadudDinIji/0756CadudDinIji.Mawaqif/0756CadudDinIji.Mawaqif.JK001335-ara1",
+   "sha256": "a057f11e4c964328e40c6c7baad6f580b1db4648490c3bc34d4a755cd2c9407b",
+   "bytes": 4612504,
+   "source_type": "typed"
+  },
+  "0816IbnMuhammadSharifJurjani.SharhMawaqif": {
+   "version": "0816IbnMuhammadSharifJurjani.SharhMawaqif.Kraken22021606123102Vols-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0816IbnMuhammadSharifJurjani/0816IbnMuhammadSharifJurjani.SharhMawaqif/0816IbnMuhammadSharifJurjani.SharhMawaqif.Kraken22021606123102Vols-ara1",
+   "sha256": "1d9093ca2102a0e23707f281ea6109500c9961f84823cc2a384e3d38552d21e1",
+   "bytes": 9191102,
+   "source_type": "ocr_uncorrected"
+  },
+  "1276Bajuri.TuhfatMurid": {
+   "item": "20260726_20260726_0641",
+   "volumes": [
+    {
+     "base": "تحفة المريد ، شرح جوهرة التوحيد للإمام الباجوري # الشيخ إبراهيم اللقاني",
+     "text": "e22a1de9d86c51fdd2d65b16b8bab4c6",
+     "index": "c2923502185bbd91657d09b256686193",
+     "pages": "3f29016cc2678363c5b8b67b33ee7c20"
+    }
+   ],
+   "source_type": "ocr_uncorrected"
+  },
+  "0508AbuMucinNasafi.TamhidFiUsulDin": {
+   "version": "0508AbuMucinNasafi.TamhidFiUsulDin.Kraken22021606122004-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0508AbuMucinNasafi/0508AbuMucinNasafi.TamhidFiUsulDin/0508AbuMucinNasafi.TamhidFiUsulDin.Kraken22021606122004-ara1",
+   "sha256": "c66a20edca7cea5f2b04abb9098c7f3e132b3230509e9a2acbb9cedf13aa4710",
+   "bytes": 335084,
+   "source_type": "ocr_uncorrected"
+  },
+  "0508AbuMucinNasafi.BahrKalam": {
+   "version": "0508AbuMucinNasafi.BahrKalam.Kraken22021606121700-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0508AbuMucinNasafi/0508AbuMucinNasafi.BahrKalam/0508AbuMucinNasafi.BahrKalam.Kraken22021606121700-ara1",
+   "sha256": "2ffce2a2671f7ef92dc8de566052db31e2132ea70f1e23829e682a5b544abe5f",
+   "bytes": 391731,
+   "source_type": "ocr_uncorrected"
+  },
+  "0792Taftazani.SharhCaqaidNasafiyya": {
+   "item": "20200915_20200915_1459",
+   "volumes": [
+    {
+     "base": "شرح العقائد النسفية",
+     "text": "d2265ebac9a6a1b21fcc6e1318246527",
+     "index": "da35135529fc165df57a8ff9281b3d03",
+     "pages": "c2371fa43f32ef99821148ec509cadb0"
+    }
+   ],
+   "source_type": "ocr_uncorrected"
+  },
+  "0321Tahawi.MatnCaqida": {
+   "version": "0321Tahawi.MatnCaqida.JK000126-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0321Tahawi/0321Tahawi.MatnCaqida/0321Tahawi.MatnCaqida.JK000126-ara1",
+   "sha256": "e5ed82ab9cbcd22cc6f1b7a5c7dab52b6521f6a3955551100afde32a8e237633",
+   "bytes": 23374,
+   "source_type": "typed"
+  },
+  "0792SadrDinIbnAbiCizzAdhraci.SharhCaqidaTahawiyya": {
+   "version": "0792SadrDinIbnAbiCizzAdhraci.SharhCaqidaTahawiyya.JK000146-ara1",
+   "repo": "0800AH",
+   "commit": "7b745ec7b83d6d4971f937364dbdec2fe0ba2a40",
+   "path": "data/0792SadrDinIbnAbiCizzAdhraci/0792SadrDinIbnAbiCizzAdhraci.SharhCaqidaTahawiyya/0792SadrDinIbnAbiCizzAdhraci.SharhCaqidaTahawiyya.JK000146-ara1",
+   "sha256": "4636468be013c480aaa946236a1a462fae01bf06a1e8dafbe7ce69c69fcdc552",
+   "bytes": 1185823,
+   "source_type": "typed"
+  },
+  "0728IbnTaymiyya.CaqidaWasitiyya": {
+   "version": "0728IbnTaymiyya.CaqidaWasitiyya.JK000359-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0728IbnTaymiyya/0728IbnTaymiyya.CaqidaWasitiyya/0728IbnTaymiyya.CaqidaWasitiyya.JK000359-ara1",
+   "sha256": "dc1e19adcacfcb5561ff01390b840305655edceb4596a899bbe073f343725d6f",
+   "bytes": 48960,
+   "source_type": "typed"
+  },
+  "0620IbnQudamaMaqdisi.LumcatIctiqad": {
+   "version": "0620IbnQudamaMaqdisi.LumcatIctiqad.JK000352-ara1",
+   "repo": "0625AH",
+   "commit": "f1e38210b32fd0d043949ff6471e869d658c3b16",
+   "path": "data/0620IbnQudamaMaqdisi/0620IbnQudamaMaqdisi.LumcatIctiqad/0620IbnQudamaMaqdisi.LumcatIctiqad.JK000352-ara1",
+   "sha256": "89f70204e5603f51b031cb7c31a2520aa9fb9eecec0326bff6c1444f56b32c59",
+   "bytes": 36449,
+   "source_type": "typed"
+  },
+  "0180Sibawayhi.KitabSibawayhi": {
+   "version": "0180Sibawayhi.KitabSibawayhi.Shamela0023018-ara1",
+   "repo": "0200AH",
+   "commit": "599f22fe249871f602efe2e0ddc801d3742960a3",
+   "path": "data/0180Sibawayhi/0180Sibawayhi.KitabSibawayhi/0180Sibawayhi.KitabSibawayhi.Shamela0023018-ara1.mARkdown",
+   "sha256": "ad676dffaa6df22a7b2ef4c4dbc4424d1e214e09e3f296a538ce887c89affcad",
+   "bytes": 2692552,
+   "source_type": "typed"
+  },
+  "0368AbuSacidSirafi.SharhKitabSibawayhi": {
+   "version": "0368AbuSacidSirafi.SharhKitabSibawayhi.Sham19Y0017726-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0368AbuSacidSirafi/0368AbuSacidSirafi.SharhKitabSibawayhi/0368AbuSacidSirafi.SharhKitabSibawayhi.Sham19Y0017726-ara1",
+   "sha256": "d53137fd4151028c5dee8ab9ff3e42275ecf0c39089e15fbf50bf0eefaa1603a",
+   "bytes": 7000693,
+   "source_type": "typed"
+  }
+ }
+}

@@ -22,3 +22,20 @@ gradings of al-Tirmidhi and of al-Adab al-mufrad; Ahmad Shakir (d. 1377/1958): a
 **Rule:** modern works are a separate layer. Their gradings are never merged into the hadith layer's grades or
 into the classical critics'. Cite them as "al-Albani grades it ..." alongside, never instead of, the classical
 verdicts. al-Arnaʾut's gradings of the Musnad are not available in a free machine-readable form.
+
+## creed: the Sunni schools of creed, and grammar (v36; corpus/kalam, corpus/lugha)
+Each school's position can now be quoted from its own texts, each primer with its standard commentary:
+- **Ashʿari:** al-Sanusi's Umm al-barahin (the scheme of necessary, impossible and possible attributes behind
+  the thirteen taught today), his three creeds and his commentary on the Muqaddimat; al-Ashʿari's Lumaʿ and
+  Risala ila ahl al-thaghr; al-Razi's Arbaʿin fi usul al-din; al-Iji's Mawaqif with al-Jurjani's commentary;
+  al-Bajuri's Tuhfat al-murid on al-Laqqani's Jawharat al-tawhid (archive.org OCR).
+- **Maturidi:** Abu al-Muʿin al-Nasafi's Tamhid and Bahr al-kalam; al-Taftazani's commentary on Najm al-Din
+  al-Nasafi's ʿAqaʾid (archive.org OCR, fair; a second scan can serve as a collation witness).
+- **Athari:** al-Tahawi's creed (read by all three schools) with Ibn Abi al-ʿIzz's Athari commentary; Ibn
+  Taymiyya's Wasitiyya; Ibn Qudama's Lumʿat al-iʿtiqad.
+- Already in corpus/kalam since v14: al-Ashʿari's Ibana and Maqalat, al-Maturidi's Tawhid, al-Taftazani's
+  Sharh al-Maqasid; al-Ghazali's Iqtisad is in corpus/openiti.
+- **Grammar (corpus/lugha):** Sibawayh's al-Kitab with al-Sirafi's commentary.
+Seven of the new texts are OCR (five are OpenITI's own Kraken OCR, the only versions it has): check the
+source_type in works_index.tsv before quoting. Creed terms are in the concept index (area = creed); they match
+words, not senses (al-qadar is also "measure"), so read the passage.
