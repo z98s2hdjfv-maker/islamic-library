@@ -17,7 +17,7 @@ way; no layer edits the one before it.
 Verse IDs follow `urn:sufi:rumi.mathnawi:<book>.b<nicholson>` (anchored) or
 `...g<ganjoor_seq>` (Ganjoor-based). See `docs/mathnawi/README.md`.
 
-**Search:** a root-aware full-text index over the whole corpus is published as a release asset; see `docs/search/README.md`.
+**Search:** a root-aware full-text index over the whole corpus is published as a release asset; see `docs/search/README.md`. Since v32 every hit carries its death year, locator, heading and OCR collation level, and the index can be queried by verse (`--verse 2:31`) or concept (`--concept qutb`).
 
 Large binaries (scans, page-image packs) are **not** committed. They are
 published as GitHub Release assets; see `release_assets.txt`.

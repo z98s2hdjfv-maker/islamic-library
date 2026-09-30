@@ -15,12 +15,21 @@ Examples
   search.py --root صبر --narrator "أبو هريرة" --graded صحيح
   search.py --root رحم --agreed                in both al-Bukhari and Muslim (matched by wording; unverified)
   search.py --parallels urn:hadith:0256Bukhari.Sahih:1   all versions of that hadith across collections
+  (v32 citation layer)
+  search.py --verse 2:31 --chrono               every passage on / quoting 2:31, oldest author first, no query needed
+  search.py --root نور --verse 24:35 --how lemma,heading   root hits inside commentary on the Light verse
+  search.py --concept qutb --before 700 --min-level corroborated   the Pole before 700 AH, OCR pages only if corroborated
+  search.py --root سمو --after 500 --by-author --chrono   hit counts per figure with death years
 
 Rules
   Queries are normalised like the index (harakat stripped, alif/ya/kaf/ta marbuta unified).
   OpenITI duplicates: only each work's primary version unless --all-versions.
   Every hit prints its uid (the corpus ID to cite), attribution and source_type.
   ocr_uncorrected / pdf_textlayer_cleaned text must be checked against the page before quoting.
+  With the v32 citation layer every hit also shows the author's death year, its locator (vol/page/leaf, as in
+  the corpus record), its heading, and for OCR pages the collation level (verified > corroborated > partial >
+  divergent > unmatched; no_witness = nothing to compare against). --min-level keeps typed texts and drops OCR
+  pages below the level (unchecked OCR pages are dropped too).
 """
 import argparse, json, os, re, signal, sqlite3, sys
 signal.signal(signal.SIGPIPE, signal.SIG_DFL)
@@ -38,6 +47,16 @@ def narrator_key(s):
 
 def fts_term(t):
     return '"' + t.replace('"', "") + '"'
+
+
+LEVELS = ["unmatched", "divergent", "partial", "corroborated", "verified"]
+TYPED = ("ganjoor", "openiti", "shamela", "typed")
+LOC_FIELDS = ("vol", "part", "page_before", "page", "leaf", "printed_page", "poem_number")
+LOC_SQL = "rtrim(" + " || ".join(f"COALESCE('{k}=' || ul.{k} || ' ', '')" for k in LOC_FIELDS) + ")"
+
+
+def has_table(db, t):
+    return bool(db.execute("SELECT 1 FROM sqlite_master WHERE name=?", (t,)).fetchone())
 
 
 def build_match(a):
@@ -59,7 +78,8 @@ def build_match(a):
         else:
             parts.append("roots : (" + " AND ".join(roots) + ")")
     if not parts:
-        sys.exit("give a query and/or --root")
+        if a.verse or a.concept: return None
+        sys.exit("give a query, --root, --verse or --concept")
     return " AND ".join(parts)
 
 
@@ -91,11 +111,24 @@ def main():
     ap.add_argument("--agreed", action="store_true"); ap.add_argument("--max-weakest-rank", type=int,
                     help="only hadith whose weakest LINKED narrator is at or above this Taqrib rank (1-12); not a hadith grade")
     ap.add_argument("--parallels", metavar="HADITH_ID")
+    ap.add_argument("--verse", metavar="S:A", help="only passages indexed to this verse (commentary on it or quotation of it)")
+    ap.add_argument("--how", help="with --verse: verse,lemma,heading,continues,cited (comma-separated)")
+    ap.add_argument("--concept", help="only passages indexed to this concept (see the concepts table, e.g. qutb, nur_muhammadi)")
+    ap.add_argument("--min-level", choices=LEVELS, help="OCR pages at or above this collation level; typed texts always kept")
+    ap.add_argument("--before", type=int, metavar="AH", help="authors who died in or before this year AH")
+    ap.add_argument("--after", type=int, metavar="AH", help="authors who died in or after this year AH")
+    ap.add_argument("--chrono", action="store_true", help="order by the author's death year instead of relevance")
     a = ap.parse_args()
     if not os.path.exists(a.db):
         sys.exit(f"index not found: {a.db} (download the search-index release asset or run build_index.py)")
     db = sqlite3.connect(a.db)
-    has_h = bool(db.execute("SELECT 1 FROM sqlite_master WHERE name='hadith'").fetchone())
+    has_h = has_table(db, "hadith")
+    has_c = has_table(db, "work_meta") and has_table(db, "verse_refs") and has_table(db, "heads")
+    if (a.verse or a.concept or a.min_level or a.before is not None or a.after is not None or a.chrono) and not has_c:
+        sys.exit("this index has no citation layer (built before v32); download the current search-index asset")
+    if a.concept and not db.execute("SELECT 1 FROM concepts WHERE concept = ?", (a.concept,)).fetchone():
+        sys.exit("unknown concept; one of: " + ", ".join(r[0] for r in db.execute("SELECT concept FROM concepts ORDER BY area, concept")))
+    if a.verse and not re.fullmatch(r"\d{1,3}:\d{1,3}", a.verse): sys.exit("--verse takes sura:aya, e.g. 2:31")
     hflt = a.hadith_only or a.caliph or a.narrator or a.graded or a.agreed or a.max_weakest_rank
     if (hflt or a.parallels) and not has_h:
         sys.exit("this index has no hadith tables (built before v17); download the current search-index asset")
@@ -109,47 +142,79 @@ def main():
         print(f"group {g[0]}: {len(rows)} versions (matched by wording; unverified)\n")
         for r in rows: print(f"{r[0]}  [{r[1] or '?'}{' · ' + r[2] if r[2] else ''}]\n    {(r[4] or '')[:160]}\n")
         return
-    where, args = ["fts MATCH ?"], [build_match(a)]
+    m = build_match(a)
+    where, args = ([], []) if m is None else (["fts MATCH ?"], [m])
     if not a.all_versions: where.append("u.primary_version = 1")
     for col, vals in (("u.author", a.author), ("u.work_key", a.work), ("u.attribution", a.attribution)):
         if vals: where.append(f"{col} IN ({','.join('?' * len(vals))})"); args += vals
     if a.lang: where.append("u.lang = ?"); args.append(a.lang)
     join = ""
+    if has_c:
+        join += " LEFT JOIN work_meta wm ON wm.work_key = u.work_key LEFT JOIN unit_conf uc ON uc.unit = u.rowid" \
+                " LEFT JOIN unit_loc ul ON ul.unit = u.rowid LEFT JOIN heads hd ON hd.head = ul.head"
+        if a.verse:
+            s_, v_ = map(int, a.verse.split(":"))
+            hw = [x for x in (a.how or "").split(",") if x]
+            where.append("u.rowid IN (SELECT unit FROM verse_refs WHERE sura = ? AND aya = ?" +
+                         (f" AND how IN ({','.join('?' * len(hw))})" if hw else "") + ")"); args += [s_, v_] + hw
+        if a.concept:
+            where.append("u.rowid IN (SELECT unit FROM concept_refs WHERE concept = ?)"); args.append(a.concept)
+        if a.min_level:
+            ok = LEVELS[LEVELS.index(a.min_level):]
+            where.append(f"(u.source_type IN ({','.join('?' * len(TYPED))}) OR uc.level IN ({','.join('?' * len(ok))}))")
+            args += list(TYPED) + ok
+        if a.before is not None: where.append("wm.death_ah <= ?"); args.append(a.before)
+        if a.after is not None: where.append("wm.death_ah >= ?"); args.append(a.after)
     if has_h:
-        join = " LEFT JOIN hadith_units hu ON hu.uid = u.uid LEFT JOIN hadith h ON h.hadith_id = hu.hadith_id"
+        join += " LEFT JOIN hadith_units hu ON hu.uid = u.uid LEFT JOIN hadith h ON h.hadith_id = hu.hadith_id"
         if hflt: where.append("h.hadith_id IS NOT NULL")
         if a.caliph: where.append("h.caliph = ?"); args.append(a.caliph)
         if a.narrator: where.append("h.narrator_key = ?"); args.append(narrator_key(a.narrator))
         if a.graded: where.append("h.grades LIKE ?"); args.append(f"%{a.graded}%")
         if a.agreed: where.append("h.agreed_upon = 1")
         if a.max_weakest_rank: where.append("h.weakest_rank <= ?"); args.append(a.max_weakest_rank)
-    sql_from = "FROM fts JOIN units u ON u.rowid = fts.rowid" + join + " WHERE " + " AND ".join(where)
+    sql_from = ("FROM units u" if m is None else "FROM fts JOIN units u ON u.rowid = fts.rowid") + join + \
+               (" WHERE " + " AND ".join(where) if where else "")
+    dcol = "wm.death_ah" if has_c else "NULL"
     if a.by_author:
-        rows = db.execute(f"SELECT u.author, u.work_key, u.attribution, COUNT(*) {sql_from} GROUP BY u.author, u.work_key ORDER BY u.author, COUNT(*) DESC", args).fetchall()
-        if a.json: print(json.dumps([dict(author=r[0], work=r[1], attribution=r[2], hits=r[3]) for r in rows], ensure_ascii=False, indent=1)); return
+        rows = db.execute(f"SELECT u.author, u.work_key, u.attribution, COUNT(DISTINCT u.uid), {dcol} {sql_from} GROUP BY u.author, u.work_key ORDER BY u.author, COUNT(*) DESC", args).fetchall()
+        if a.json: print(json.dumps([dict(author=r[0], work=r[1], attribution=r[2], hits=r[3], death_ah=r[4]) for r in rows], ensure_ascii=False, indent=1)); return
         tot = {}
         for r in rows: tot[r[0]] = tot.get(r[0], 0) + r[3]
-        for au in sorted(tot, key=lambda x: -tot[x]):
+        key = (lambda x: (min((9999 if r[4] is None else r[4]) for r in rows if r[0] == x), x)) if a.chrono else (lambda x: -tot[x])
+        for au in sorted(tot, key=key):
             print(f"{au}: {tot[au]}")
             for r in rows:
-                if r[0] == au: print(f"    {r[3]:6d}  {r[1]}  [{r[2]}]")
+                if r[0] == au: print(f"    {r[3]:6d}  {r[1]}  [{r[2]}{' · d. ' + str(r[4]) if r[4] else ''}]")
         return
+    ccols = f", wm.death_ah, wm.title, uc.level, NULLIF({LOC_SQL}, ''), hd.text, wm.page_note" if has_c else ", NULL, NULL, NULL, NULL, NULL, NULL"
     hcols = ", h.hadith_id, h.narrator, h.caliph, h.grades, h.parallel_collections, h.agreed_upon, h.weakest_rank_name" if has_h else ""
-    rows = db.execute(f"SELECT u.uid, u.work_key, u.author, u.lang, u.attribution, u.source_type, u.text{hcols} {sql_from} ORDER BY rank LIMIT ?", args + [a.limit]).fetchall()
-    total = db.execute(f"SELECT COUNT(*) {sql_from}", args).fetchone()[0]
+    order = "COALESCE(wm.death_ah, 9999), u.rowid" if a.chrono else ("rank" if m is not None else "u.rowid")
+    vcol, vargs = ", NULL", []
+    if a.verse:
+        vcol, vargs = ", (SELECT group_concat(DISTINCT how) FROM verse_refs WHERE unit = u.rowid AND sura = ? AND aya = ?)", [s_, v_]
+    rows = db.execute(f"SELECT u.uid, u.work_key, u.author, u.lang, u.attribution, u.source_type, u.text{ccols}{vcol}{hcols} {sql_from} "
+                      f"GROUP BY u.rowid ORDER BY {order} LIMIT ?", vargs + args + [a.limit]).fetchall()
+    total = db.execute(f"SELECT COUNT(DISTINCT u.rowid) {sql_from}", args).fetchone()[0]
     if a.json:
-        print(json.dumps(dict(total=total, hits=[dict(uid=r[0], work=r[1], author=r[2], lang=r[3], attribution=r[4], source_type=r[5], text=r[6]) for r in rows]), ensure_ascii=False, indent=1)); return
+        print(json.dumps(dict(total=total, hits=[dict(uid=r[0], work=r[1], author=r[2], lang=r[3], attribution=r[4], source_type=r[5],
+              death_ah=r[7], title=r[8], ocr_level=r[9], loc=r[10], heading=r[11], page_note=r[12],
+              **({"verse_how": r[13]} if a.verse else {}), text=r[6]) for r in rows]),
+              ensure_ascii=False, indent=1)); return
     print(f"{total} matching units (showing {len(rows)})\n")
     for r in rows:
-        flag = "" if r[5] in ("ganjoor", "openiti", "shamela", "typed") else f" ⚠ {r[5]}"
-        print(f"{r[0]}  [{r[2]} · {r[4]}{flag}]\n    {kwic(r[6], a)}")
-        if len(r) > 7 and r[7]:
-            extra = [r[8] or "narrator ?"] + ([r[9]] if r[9] else []) + ([r[10]] if r[10] else []) + \
-                    ([f"in {r[11]} collections"] if r[11] and r[11] > 1 else []) + (["Bukhari+Muslim"] if r[12] else []) + \
-                    ([f"weakest linked narrator: {r[13]}"] if r[13] else [])
-            print(f"    ↳ {r[7]} · " + " · ".join(extra))
+        flag = "" if r[5] in TYPED else f" ⚠ {r[5]}" + (f" · {r[9]}" if r[9] else (" · unchecked" if has_c else ""))
+        died = f" · d. {r[7]}" if r[7] else ""
+        print(f"{r[0]}  [{r[2]}{died} · {r[4]}{flag}]" + (f"  {a.verse} {r[13]}" if a.verse and r[13] else ""))
+        if r[10] or r[11]: print("    @ " + " · ".join(x for x in (r[10], r[11]) if x) + (f"  ({r[12]})" if r[12] else ""))
+        print(f"    {kwic(r[6], a)}")
+        h = r[14:]
+        if h and h[0]:
+            extra = [h[1] or "narrator ?"] + ([h[2]] if h[2] else []) + ([h[3]] if h[3] else []) + \
+                    ([f"in {h[4]} collections"] if h[4] and h[4] > 1 else []) + (["Bukhari+Muslim"] if h[5] else []) + \
+                    ([f"weakest linked narrator: {h[6]}"] if h[6] else [])
+            print(f"    ↳ {h[0]} · " + " · ".join(extra))
         print()
-
 
 if __name__ == "__main__":
     main()

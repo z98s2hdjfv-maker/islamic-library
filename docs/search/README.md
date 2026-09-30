@@ -5,7 +5,7 @@ One SQLite file indexes every corpus unit (couplet, paragraph or page): 154 work
 It is the base for cross-connecting the figures before the juristic layer is built.
 
 ## Get the index
-The index is about 590 MB, so it is not committed. Instead:
+The index is about 1.1 GB compressed, so it is not committed. Instead:
 - **Download** the release asset `library_search_index.sqlite.gz` (release tag `search-index`),
   then gunzip it to `search/library.sqlite`.
 - **Or rebuild** it in about 4 minutes:
@@ -52,3 +52,39 @@ the text is OCR or a cleaned PDF text layer.
 
 ## Hadith filters (v17)
 See docs/hadith_links/README.md: --hadith-only, --caliph, --narrator, --graded, --agreed, --max-weakest-rank, --parallels.
+
+## Citation layer (v32)
+The index now carries the citation data that `pipeline/index/lookup.py` used to join by hand, so one query
+returns hits that are already citable and graded:
+- every hit shows the author's **death year**, its **locator** as in the corpus record (`vol=… page_before=…`,
+  `leaf=… printed_page=…`, `poem_number=…`), its **heading**, and for OCR pages the **collation level**
+  (verified > corroborated > partial > divergent > unmatched; `no_witness` = nothing to compare against;
+  `unchecked` = not collated). `--json` adds `death_ah`, `title`, `ocr_level`, `loc`, `heading`, `page_note`.
+```
+python3 pipeline/search/search.py --verse 2:31 --chrono                  # the verse, then every passage on or quoting it, oldest first
+python3 pipeline/search/search.py --root نور --verse 24:35 --how lemma    # root hits inside commentary lemmas on the Light verse
+python3 pipeline/search/search.py --concept qutb --before 700 --min-level corroborated
+python3 pipeline/search/search.py --root سمو --by-author --chrono         # per-figure counts with death years, in order
+```
+- `--verse S:A` (with `--how verse,lemma,heading,continues,cited`) and `--concept NAME` need no query.
+  An unknown concept name prints the list of known ones.
+- `--min-level L` keeps typed texts and drops OCR pages below L (and unchecked OCR pages).
+- `--before AH` / `--after AH` filter by the author's death year; `--chrono` orders by it (the Qurʾān first).
+- **Caution:** the concept index matches words, not senses. `qutb` also finds the pole of a millstone or of the
+  heavens in the tafsīrs. Read the heading and the passage before citing a hit as a use of the technical term.
+
+Tables (joined to `units` by `unit` = `units.rowid`): `work_meta`, `unit_conf`, `verse_refs`, `concept_refs`,
+`concepts`, `unit_loc` + `heads`; `works` gains title, death_ah, witnesses, corroborated, checked, refs, page_note.
+Sources: `reports/index/works_meta.tsv`, `verse_index.tsv.gz`, `concept_index.tsv.gz`, `concept_summary.tsv`,
+`reports/collation/confidence.tsv.gz`. The layer adds roughly 100 MB before compression, a few percent of the index.
+
+**Safety:** the layer is built inside a savepoint. If a citation file is malformed, the build prints a warning,
+records `citations = failed: …` in `meta`, and publishes the index without the layer; the corpus is never touched.
+An index built before v32 still works with the new `search.py` (the new flags then say the layer is missing).
+
+**Maintenance:**
+```
+python3 pipeline/search/build_index.py --repo . --out search/library.sqlite --add-citations   # upgrade a downloaded index in place
+python3 pipeline/search/build_index.py --repo . --out /tmp/sample.sqlite --only 0001Quran,TafsirJalalayn,fusus   # sample build
+python3 pipeline/search/test_search.py --db search/library.sqlite                              # smoke test
+```
