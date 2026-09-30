@@ -13,6 +13,8 @@ build_index.py - build the library's search layer: one SQLite file with a full-t
           to units by uid: narrator, caliph, grades found in the sources, parallel group, agreed_upon,
           weakest linked narrator rank (Taqrib) - see add_hadith_tables(); v35: plus later classical critics'
           verdicts from apparatus/hadith_grades (al-Dhahabi's Talkhis on the Mustadrak). Modern grades never enter.
+          v37: edition_no = the printed number people cite (al-Tirmidhi: Shakir; al-Bukhari: Fath al-Bari),
+          from apparatus/hadith (pipeline/hadith/edition_numbers.py).
   v32 citation layer - see add_citation_tables(); if it fails, the index is still built without it:
   (the new tables key passages by `unit` = units.rowid, which keeps them small)
   unit_loc      unit -> vol, part, page_before, page, leaf, printed_page, poem_number (as in the corpus record),
@@ -235,7 +237,7 @@ def add_hadith_tables(db, repo):
     db.executescript("""
       CREATE TABLE hadith(hadith_id TEXT PRIMARY KEY, collection TEXT, number TEXT, narrator TEXT, narrator_key TEXT,
                           caliph TEXT, grades TEXT, parallel_group TEXT, parallel_collections INT, agreed_upon INT,
-                          weakest_rank INT, weakest_rank_name TEXT, linked INT, names INT);
+                          weakest_rank INT, weakest_rank_name TEXT, linked INT, names INT, edition_no TEXT);
       CREATE TABLE hadith_units(uid TEXT, hadith_id TEXT);""")
     links = {}
     lp = os.path.join(repo, "apparatus/hadith_links/chains.jsonl.gz")
@@ -257,9 +259,10 @@ def add_hadith_tables(db, repo):
             g = "; ".join([f'{x["by"]}: {x["grade"]}' for x in h["grades"]] + extra.get(h["id"], []))
             L = links.get(h["id"], (None, 1, 0, None, None, None, None))
             rows.append((h["id"], h["collection"], str(h["number"]), h["narrator"], narrator_key(h["narrator"]),
-                         h["caliph"], g, *L))
+                         h["caliph"], g, *L,
+                         "; ".join(f'{e["number"]} ({e["edition"]}{", uncertain" if e.get("uncertain") else ""})' for e in h.get("edition_numbers", [])) or None))
             units += [(u, h["id"]) for u in h["source_ids"]]
-        db.executemany("INSERT OR IGNORE INTO hadith VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
+        db.executemany("INSERT OR IGNORE INTO hadith VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
         db.executemany("INSERT INTO hadith_units VALUES(?,?)", units); n += len(rows)
     db.executescript("""CREATE INDEX hu_uid ON hadith_units(uid); CREATE INDEX h_nar ON hadith(narrator_key);
                         CREATE INDEX h_cal ON hadith(caliph); CREATE INDEX h_grp ON hadith(parallel_group);""")

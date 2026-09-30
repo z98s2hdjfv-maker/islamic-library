@@ -45,6 +45,8 @@ Output (reports/collation/):
                                       The set-aside witnesses are listed in the column dependent_set_aside.
   confidence_summary.tsv per work: records by level
 Usage: python3 pipeline/verify/collate.py --repo .
+       python3 pipeline/verify/collate.py --repo . --work KEY [--work KEY ...] | --new-ocr   (v37: only these works,
+         merged into the existing outputs; --new-ocr = every OCR work that has no collation rows yet)
        python3 pipeline/verify/collate.py --repo . --levels-only   (v34: recompute confidence.tsv.gz and
          confidence_summary.tsv from records.tsv.gz and the independence table, without re-aligning; seconds)
 """
@@ -215,7 +217,22 @@ def levels_only(repo):
     for (wk, a, b), n in sorted(moved.items()): print(f"{wk}: {n} pages {a} -> {b}")
 
 
-def main(repo):
+def merge_outputs(repo, works, tmp):
+    """v37: replace the rows of `works` in the collation outputs with those in the tmp files; others untouched."""
+    out = os.path.join(repo, "reports/collation")
+    for name, gz in (("records.tsv.gz", True), ("confidence.tsv.gz", True), ("summary.tsv", False), ("confidence_summary.tsv", False)):
+        op = (lambda p, m: gzip.open(p, m + "t", encoding="utf-8")) if gz else (lambda p, m: open(p, m, encoding="utf-8"))
+        old = list(csv.reader(op(os.path.join(out, name), "r"), delimiter="\t")) if os.path.exists(os.path.join(out, name)) else []
+        new = list(csv.reader(op(os.path.join(tmp, name), "r"), delimiter="\t"))
+        head = new[0]; keep = [r for r in old[1:] if r and r[0] not in works]
+        if old and len(old[0]) != len(head):   # older file without the newer column: pad
+            keep = [r + [""] * (len(head) - len(r)) for r in keep]
+        with op(os.path.join(out, name), "w") as f:
+            w = csv.writer(f, delimiter="\t", lineterminator="\n"); w.writerow(head)
+            w.writerows(sorted(keep + new[1:], key=lambda r: r[0]) if name.endswith("summary.tsv") else keep + new[1:])
+
+
+def main(repo, only=None):
     rd = lambda p: list(csv.DictReader(open(os.path.join(repo, p), encoding="utf-8"), delimiter="\t"))
     idx = {r["key"]: r for r in rd("catalogs/works_index.tsv")}
     wits = collections.defaultdict(list)
@@ -223,7 +240,11 @@ def main(repo):
     dep = dependent_witnesses(repo)
     vlog = {r["record_id"]: r["status"] for r in rd("catalogs/verification_log.tsv")} if os.path.exists(os.path.join(repo, "catalogs/verification_log.tsv")) else {}
     targets = [k for k, r in idx.items() if r["source_type"] == "ocr_uncorrected"] + [k for k in wits if k not in idx or idx[k]["source_type"] != "ocr_uncorrected"]
-    out = os.path.join(repo, "reports/collation"); os.makedirs(out, exist_ok=True)
+    if only: targets = [k for k in targets if k in only]
+    out = os.path.join(repo, "reports/collation")
+    if only:
+        import tempfile; final, out = out, tempfile.mkdtemp()
+    os.makedirs(out, exist_ok=True)
     summ, lvl_summ = [], []
     rec_f = gzip.open(os.path.join(out, "records.tsv.gz"), "wt", encoding="utf-8", compresslevel=6)
     con_f = gzip.open(os.path.join(out, "confidence.tsv.gz"), "wt", encoding="utf-8", compresslevel=6)
@@ -266,9 +287,23 @@ def main(repo):
         c = csv.writer(f, delimiter="\t", lineterminator="\n")
         c.writerow(["work", "witness", "relation", "records", "aligned", "pct_aligned", "mean_agreement", "pct_corroborated_ge85", "pct_divergent_lt60"])
         c.writerows(summ)
+    if only:
+        with open(os.path.join(out, "confidence_summary.tsv"), "w", encoding="utf-8") as f:
+            c = csv.writer(f, delimiter="\t", lineterminator="\n"); c.writerow(["work", "records", *LEVEL_COLS]); c.writerows(lvl_summ)
+        merge_outputs(repo, set(targets), out); print("merged", len(targets), "works into reports/collation"); return
     write_summary(repo, lvl_summ)
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--repo", default="."); ap.add_argument("--levels-only", action="store_true")
+    ap.add_argument("--work", action="append", help="v37: collate only these works (repeatable) and merge into the outputs")
+    ap.add_argument("--new-ocr", action="store_true", help="v37: collate every OCR work not yet in confidence.tsv.gz")
     a = ap.parse_args()
-    levels_only(a.repo) if a.levels_only else main(a.repo)
+    if a.levels_only: levels_only(a.repo)
+    elif a.work or a.new_ocr:
+        works = set(a.work or [])
+        if a.new_ocr:
+            have = {r["work"] for r in csv.DictReader(gzip.open(os.path.join(a.repo, "reports/collation/confidence.tsv.gz"), "rt", encoding="utf-8"), delimiter="\t")}
+            works |= {r["key"] for r in csv.DictReader(open(os.path.join(a.repo, "catalogs/works_index.tsv"), encoding="utf-8"), delimiter="\t")
+                      if r["source_type"] == "ocr_uncorrected" and r["key"] not in have}
+        main(a.repo, works)
+    else: main(a.repo)

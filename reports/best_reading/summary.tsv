@@ -1,19 +1,21 @@
 work	records	words	attested_before	attested_after	join	majority	lexicon	insert	open	witnesses
 aflaki.manaqib.yazici_ocr	1073	202070	0.659	0.659	0	0	0	0	24320	aflaki_b
-hanafi.0321Tahawi.Mukhtasar	2342	80640	0.794	0.795	21	0	265	0	5215	tahawi_kraken2021
-ibnarabi.fusus.nizamaldin_ocr	428	68064	0.524	0.536	68	706	1498	37	4888	fusus_kraken,fusus_textlayer
-ibnarabi.futuhat.mansub_ocr	6395	1691982	0.752	0.753	1288	0	121532	0	146776	futuhat_jk,futuhat_shamela
+hanafi.0321Tahawi.Mukhtasar	2342	80639	0.794	0.795	20	0	262	0	5218	tahawi_kraken2021
+ibnarabi.fusus.nizamaldin_ocr	428	68057	0.524	0.536	61	706	1477	37	4907	fusus_kraken,fusus_textlayer
+ibnarabi.futuhat.mansub_ocr	6395	1691896	0.752	0.753	1202	0	120236	0	147020	futuhat_jk,futuhat_shamela
+kalam.0792Taftazani.SharhCaqaidNasafiyya	103	23781	0.521	0.521	3	0	512	0	2530	nasafiyya_shamela
+kalam.1276Bajuri.TuhfatMurid	127	45621	0.386	0.386	2	0	401	0	2961	bajuri_halabi
 nur.0587ShihabDinSuhrawardi.HikmatIshraq	0	0	0.0	0.0	0	0	0	0	0	
-nur.0673AbuMacaliQunawi.RisalatNusus	131	11603	0.776	0.797	186	0	255	0	462	nusus_a
-nur.0699SacidDinFarghani.MuntahaMadarik	533	168913	0.599	0.6	10	227	2926	2	12452	farghani_ed2,farghani_old
-nur.0736CabdRazzaqQashani.KashfWujuhGhurr	229	68419	0.608	0.608	4	0	549	0	5710	kashf_b
-nur.0736CabdRazzaqQashani.SharhFusus	184	76729	0.492	0.5	369	0	2342	0	4582	qashani_111
-nur.0751DawudQaysari.SharhTaiyya	189	46272	0.771	0.771	6	0	1022	0	4284	qaysari_taiyya_b
-nur.0805CabdKarimJili.InsanKamil	274	86972	0.881	0.89	13	720	2047	27	5817	jili_b,jili_c
+nur.0673AbuMacaliQunawi.RisalatNusus	131	11591	0.776	0.795	168	0	255	0	462	nusus_a
+nur.0699SacidDinFarghani.MuntahaMadarik	533	168913	0.599	0.6	10	227	2904	2	12455	farghani_ed2,farghani_old
+nur.0736CabdRazzaqQashani.KashfWujuhGhurr	229	68420	0.608	0.608	5	0	547	0	5711	kashf_b
+nur.0736CabdRazzaqQashani.SharhFusus	184	76706	0.492	0.499	347	0	2300	0	4582	qashani_111
+nur.0751DawudQaysari.SharhTaiyya	189	46272	0.771	0.771	6	0	1017	0	4282	qaysari_taiyya_b
+nur.0805CabdKarimJili.InsanKamil	274	86972	0.881	0.889	11	719	2047	27	5817	jili_b,jili_c
 nur.0805CabdKarimJili.KamalatIlahiyya	0	0	0.0	0.0	0	0	0	0	0	
-wilaya.0628IbnZayyat.Tashawwuf	1120	112707	0.816	0.876	10	6829	1029	88	14230	tashawwuf_a,tashawwuf_b
-wilaya.0709IbnCataAllahSikandari.LataifMinan	429	52187	0.878	0.911	5	1672	703	235	6606	lataif_a,lataif_b,lataif_c
-wilaya.0768Yafici.RawdRayahin	937	150607	0.797	0.798	103	0	1952	0	11760	rawd_a
-wilaya.0808IbnKhaldun.ShifaSail	415	31010	0.726	0.805	38	2405	482	21	3708	shifa_a,shifa_b
-wilaya.0973CabdWahhabShacrani.KibritAhmar	784	77569	0.927	0.965	1	2940	189	41	5832	kibrit_a,kibrit_b,kibrit_c
-wilaya.1031CabdRaufMunawi.KawakibDurriyya	11456	445661	0.858	0.866	117	3616	4862	6	51198	kawakib_hamdan,kawakib_sader
+wilaya.0628IbnZayyat.Tashawwuf	1120	112707	0.816	0.876	10	6829	1020	88	14235	tashawwuf_a,tashawwuf_b
+wilaya.0709IbnCataAllahSikandari.LataifMinan	429	52187	0.878	0.911	5	1672	698	235	6609	lataif_a,lataif_b,lataif_c
+wilaya.0768Yafici.RawdRayahin	937	150595	0.797	0.798	92	0	1917	0	11776	rawd_a
+wilaya.0808IbnKhaldun.ShifaSail	415	31007	0.726	0.805	35	2405	475	21	3714	shifa_a,shifa_b
+wilaya.0973CabdWahhabShacrani.KibritAhmar	784	77569	0.927	0.965	1	2940	190	41	5831	kibrit_a,kibrit_b,kibrit_c
+wilaya.1031CabdRaufMunawi.KawakibDurriyya	11456	445654	0.858	0.866	110	3616	4838	6	51223	kawakib_hamdan,kawakib_sader

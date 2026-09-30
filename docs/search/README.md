@@ -94,3 +94,11 @@ OCR pages that have a best reading (docs/best_reading/README.md) are searched by
 OCR misread is still found. The hit shows the reading, marked `best reading (N corrections)`; `--ocr` shows
 the raw OCR instead, and `--json` says `text_is: best_reading | corpus`. `units.text` is always the corpus
 text; the reading lives in `unit_reading`. (`--add-citations` does not add readings: rebuild the index.)
+
+## Phrase search without the index (v37)
+`pipeline/search/textsearch.py` searches the corpus files directly, so it works in a sparse clone. Text and query
+are normalised alike (textnorm, then punctuation, digits and page markers become spaces), so "فالكلم: اسم، وفعل"
+is found by "فالكلم اسم وفعل", and vowelled or hamzated queries find unvowelled text. Each word may carry a
+proclitic (و ف ب ل ك) unless --exact. `--folder`, `--work`, `--count`, `--json`, `--best-reading` (OCR works).
+It matches words, not roots; for roots use the index (`search.py --root`). The index's hadith hits now show
+the printed edition number: "↳ urn:hadith:0279Tirmidhi.Sunan:2105 (printed no. 2139 (Shakir / ʿAbd al-Baqi numbering))".

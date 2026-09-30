@@ -193,7 +193,9 @@ def main():
                 if r[0] == au: print(f"    {r[3]:6d}  {r[1]}  [{r[2]}{' · d. ' + str(r[4]) if r[4] else ''}]")
         return
     ccols = f", wm.death_ah, wm.title, uc.level, NULLIF({LOC_SQL}, ''), hd.text, wm.page_note" if has_c else ", NULL, NULL, NULL, NULL, NULL, NULL"
-    hcols = ", h.hadith_id, h.narrator, h.caliph, h.grades, h.parallel_collections, h.agreed_upon, h.weakest_rank_name" if has_h else ""
+    has_ed = has_h and any(c[1] == "edition_no" for c in db.execute("PRAGMA table_info(hadith)"))
+    hcols = (", h.hadith_id, h.narrator, h.caliph, h.grades, h.parallel_collections, h.agreed_upon, h.weakest_rank_name" +
+             (", h.edition_no" if has_ed else ", NULL")) if has_h else ""
     order = "COALESCE(wm.death_ah, 9999), u.rowid" if a.chrono else ("rank" if m is not None else "u.rowid")
     vcol, vargs = ", NULL", []
     if a.verse:
@@ -222,7 +224,8 @@ def main():
             extra = [h[1] or "narrator ?"] + ([h[2]] if h[2] else []) + ([h[3]] if h[3] else []) + \
                     ([f"in {h[4]} collections"] if h[4] and h[4] > 1 else []) + (["Bukhari+Muslim"] if h[5] else []) + \
                     ([f"weakest linked narrator: {h[6]}"] if h[6] else [])
-            print(f"    ↳ {h[0]} · " + " · ".join(extra))
+            ed = f" (printed no. {h[7]})" if len(h) > 7 and h[7] else ""
+            print(f"    ↳ {h[0]}{ed} · " + " · ".join(extra))
         print()
 
 if __name__ == "__main__":

@@ -5,6 +5,8 @@ ibnarabi.fusus.nizamaldin_ocr	fusus_textlayer	same_edition_rescan	499	465	93.2	0
 ibnarabi.fusus.nizamaldin_ocr	fusus_kraken	other_edition	499	381	76.4	0.416	0.0	68.5
 ibnarabi.futuhat.mansub_ocr	futuhat_shamela	other_edition_typed	7976	7071	88.7	0.708	4.1	11.0
 ibnarabi.futuhat.mansub_ocr	futuhat_jk	other_edition_typed	7976	7063	88.6	0.698	3.2	11.6
+kalam.0792Taftazani.SharhCaqaidNasafiyya	nasafiyya_shamela	other_edition	135	128	94.8	0.551	0.0	69.6
+kalam.1276Bajuri.TuhfatMurid	bajuri_halabi	other_edition	434	294	67.7	0.471	0.0	59.0
 nur.0587ShihabDinSuhrawardi.HikmatIshraq	ishraq_b	same_edition_rescan	242	240	99.2	0.898	86.0	0.4
 nur.0673AbuMacaliQunawi.RisalatNusus	nusus_a	other_edition	153	139	90.8	0.816	51.0	10.5
 nur.0699SacidDinFarghani.MuntahaMadarik	farghani_ed2	other_edition	828	426	51.4	0.661	4.8	11.5

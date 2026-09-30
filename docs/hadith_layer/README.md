@@ -17,11 +17,12 @@ Built by `pipeline/hadith/build_hadith_layer.py` from `corpus/hadith/` (v15). Ou
 
 ## Numbering by collection
 
-- al-Bukhārī: numbering of the JK text (al-Bughā, 7,124), **not** the Fatḥ al-Bārī numbering (7,563) used on many websites.
+- al-Bukhārī: numbering of the JK text (al-Bughā, 7,124), **not** the Fatḥ al-Bārī numbering (7,563) used on many websites. Since v37 each hadith also carries its **Fatḥ al-Bārī number** in `edition_numbers` (7,027 of 7,135, matched by text to OpenITI Shamela0001681; 139 flagged `uncertain` because al-Bukhārī repeats narrations in near-identical words). See `apparatus/hadith_numbers/` and pipeline/hadith/edition_numbers.py.
 - Muslim: ʿAbd al-Bāqī numbering (1–3,033); each riwāya under a number is N.1, N.2, …; the muqaddima is `intro.k`.
 - Abū Dāwūd (5,274), Ibn Māja (4,341), al-Nasāʾī al-Mujtabā (5,758): the standard edition numbers.
 - Aḥmad's Musnad: numbering of the Shamela text (al-Risāla edition).
-- al-Tirmidhī and al-Dāraquṭnī: sequential here (the texts carry no running number).
+- al-Tirmidhī: sequential here; since v37 each hadith also carries the **printed Shākir / ʿAbd al-Bāqī number** in `edition_numbers` (3,829 of 3,843), read from the headings of the same text (layer 2105 = printed 2139).
+- al-Dāraquṭnī: sequential here (the text carries no usable running number).
 - Riyāḍ al-ṣāliḥīn, the Forty and al-Baghawī's Sharḥ al-sunna are not processed yet.
 
 ## Not included, on purpose
