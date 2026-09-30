@@ -113,19 +113,19 @@ ibnarabi.fusus.nizamaldin_textlayer	Fusus al-hikam, ed. Sayyid Nizam al-Din Ahma
 ibnarabi.futuhat.arabiyya	al-Futuhat al-Makkiyya (Dar al-Kutub al-'Arabiyya al-Kubra)	638	shamela	0		winkel_openings;chodkiewicz1993_seal	
 ibnarabi.futuhat.mansub_ocr	al-Futuhat al-Makkiyya, ed. Sultan al-Mansub (Yemen 2010, Konya autograph)	638	ocr_uncorrected	2	359/7976	winkel_openings	
 ibnarabi.inshadawair_uqla_tadbirat	Insha' al-dawa'ir; 'Uqlat al-mustawfiz; al-Tadbirat al-ilahiyya	638	typed	0			
-ibnarabi.jami_naqd_nusus	Jami, Naqd al-nusus fi sharh Naqsh al-fusus	638	shamela	0			
-ibnarabi.jami_sharh_fusus	Jami, Sharh Fusus al-hikam (contains the Fusus text)	638	shamela	0			
+ibnarabi.jami_naqd_nusus	Jami, Naqd al-nusus fi sharh Naqsh al-fusus	898	shamela	0			
+ibnarabi.jami_sharh_fusus	Jami, Sharh Fusus al-hikam (contains the Fusus text)	898	shamela	0			
 ibnarabi.khalwa	Kitab al-Khalwa, ed. Khalid M. 'Abduh	638	shamela	0			
 ibnarabi.manzil_fahwaniyya	Manzil al-manazil al-fahwaniyya	638	typed	0			
 ibnarabi.mubashshirat	Kitab al-Mubashshirat, ed. Khalid M. 'Abduh	638	shamela	0			
 ibnarabi.muhadarat_abrar	Muhadarat al-abrar wa-musamarat al-akhyar (2 vols)	638	typed	0			
-ibnarabi.parsa_sharh_fusus	Khwaja Muhammad Parsa, Sharh Fusus al-hikam (ed. Jalil Misgarnizhad, Tehran 1987)	638	shamela	0			
-ibnarabi.rahma	Rahma min al-Rahman (modern compilation of Ibn 'Arabi's Qur'an passages, Mahmud Ghurab)	638	shamela	0			
+ibnarabi.parsa_sharh_fusus	Khwaja Muhammad Parsa, Sharh Fusus al-hikam (ed. Jalil Misgarnizhad, Tehran 1987)	822	shamela	0			
+ibnarabi.rahma	Rahma min al-Rahman (modern compilation of Ibn 'Arabi's Qur'an passages, Mahmud Ghurab)		shamela	0			
 ibnarabi.rasail.abbas	Rasa'il Ibn 'Arabi: Sharh mubtada' al-tufan etc., ed. Qasim M. 'Abbas and Husayn M. 'Ajil	638	shamela	0			
 ibnarabi.rasail.ihya	Rasa'il Ibn al-'Arabi (Dar Ihya' al-Turath)	638	shamela	0			
 ibnarabi.rasail.mahajja	Majmu'at rasa'il Ibn 'Arabi (Dar al-Mahajja al-Bayda')	638	shamela	0			
 ibnarabi.rasail.uthmaniyya	Rasa'il Ibn al-'Arabi (Hyderabad, Da'irat al-Ma'arif al-'Uthmaniyya)	638	shamela	0			
-ibnarabi.tafsir_qashani	'Tafsir Ibn 'Arabi' (= al-Qashani, Ta'wilat)	638	shamela	0			
+ibnarabi.tafsir_qashani	'Tafsir Ibn 'Arabi' (= al-Qashani, Ta'wilat)	736	shamela	0			
 ibnarabi.taj_tarajim	Taj al-tarajim	638	typed	0			
 ibnarabi.tajalliyat_ibnsawdakin	Kitab al-Tajalliyat al-ilahiyya, with Ibn Sawdakin's notes	638	typed	0			
 ibnarabi.tanazzulat_mawsiliyya	al-Tanazzulat al-Mawsiliyya	638	typed	0			
@@ -133,10 +133,10 @@ iraqi.diwan.d	'Iraqi, Divan		ganjoor	0
 iraqi.istilahat.i	'Iraqi, Risala-yi istilahat		ganjoor	0			
 iraqi.lamaat.l	'Iraqi, Lama'at		ganjoor	0			
 iraqi.ushshaqnama.u	'Iraqi, 'Ushshaq-nama		ganjoor	0			
-jami.arbain.a	Jami, Risala-yi arba'in		ganjoor	0			
-jami.baharistan.b	Jami, Baharistan		ganjoor	0			
-jami.diwan.d	Jami, Divan		ganjoor	0			
-jami.haftawrang.h	Jami, Haft awrang		ganjoor	0			
+jami.arbain.a	Jami, Risala-yi arba'in	898	ganjoor	0			
+jami.baharistan.b	Jami, Baharistan	898	ganjoor	0			
+jami.diwan.d	Jami, Divan	898	ganjoor	0			
+jami.haftawrang.h	Jami, Haft awrang	898	ganjoor	0			
 jilani.diwan	Diwan Ghawth al-A'zam	561	shamela	0			
 jilani.diwan.gh	Divan attributed to 'Abd al-Qadir al-Jilani: ghazals	561	ganjoor	0			
 jilani.fathrabbani	al-Fath al-rabbani wa-l-fayd al-rahmani	561	shamela	0			
