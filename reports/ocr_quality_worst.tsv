@@ -74,6 +74,31 @@ asma.0606FakhrDinRazi.LawamicBayyinat	urn:openiti:0606FakhrDinRazi.LawamicBayyin
 asma.0606FakhrDinRazi.LawamicBayyinat	urn:openiti:0606FakhrDinRazi.LawamicBayyinat.Kraken220221161405-ara1:p00266	vol=0 page_before=251	96.3
 asma.0606FakhrDinRazi.LawamicBayyinat	urn:openiti:0606FakhrDinRazi.LawamicBayyinat.Kraken220221161405-ara1:p00258	vol=0 page_before=243	96.4
 asma.0606FakhrDinRazi.LawamicBayyinat	urn:openiti:0606FakhrDinRazi.LawamicBayyinat.Kraken220221161405-ara1:p00042	vol=0 page_before=35	96.9
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00183	leaf=183	16.9
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00164	leaf=164	30.8
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00174	leaf=174	36.6
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00184	leaf=184	37.0
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00180	leaf=180	39.3
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00185	leaf=185	39.4
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00163	leaf=163	39.7
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00176	leaf=176	41.2
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00181	leaf=181	41.5
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00175	leaf=175	42.9
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00182	leaf=182	48.6
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00189	leaf=189	51.6
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00191	leaf=191	56.1
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00147	leaf=147	63.1
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00172	leaf=172	64.4
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00155	leaf=155	65.1
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00004	leaf=4	65.8
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00068	leaf=68	66.3
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00043	leaf=43	67.0
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00079	leaf=79	68.1
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00186	leaf=186	68.5
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00062	leaf=62	69.4
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00058	leaf=58	69.5
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00042	leaf=42	70.3
+asma.0638IbnCarabi.KashfMacna	urn:lib:asma.0638IbnCarabi.KashfMacna:00133	leaf=133	70.5
 asma.0671AbuCabdAllahQurtubi.Asna	urn:openiti:0671AbuCabdAllahQurtubi.Asna.AOCP2025021445-ara1:p00878	vol=1 page_before=143	0.0
 asma.0671AbuCabdAllahQurtubi.Asna	urn:openiti:0671AbuCabdAllahQurtubi.Asna.AOCP2025021445-ara1:p02697	vol=1 page_before=443	37.8
 asma.0671AbuCabdAllahQurtubi.Asna	urn:openiti:0671AbuCabdAllahQurtubi.Asna.AOCP2025021445-ara1:p02185	vol=1 page_before=348	40.0
@@ -174,6 +199,31 @@ hanafi.0321Tahawi.Mukhtasar	urn:openiti:0321Tahawi.Mukhtasar.Kraken220410202736-
 hanafi.0321Tahawi.Mukhtasar	urn:openiti:0321Tahawi.Mukhtasar.Kraken220410202736-ara1:p00281	vol=0 page_before=50	49.0
 hanafi.0321Tahawi.Mukhtasar	urn:openiti:0321Tahawi.Mukhtasar.Kraken220410202736-ara1:p00291	vol=0 page_before=54	50.0
 hanafi.0321Tahawi.Mukhtasar	urn:openiti:0321Tahawi.Mukhtasar.Kraken220410202736-ara1:p00735	vol=0 page_before=107	50.0
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00242	leaf=242	0.0
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00001	leaf=1	5.0
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00238	leaf=238 printed_page=238	26.9
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00005	leaf=5	33.8
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00237	leaf=237 printed_page=237	55.9
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00239	leaf=239	68.2
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00010	leaf=10	69.0
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00236	leaf=236 printed_page=236	75.9
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00241	leaf=241	77.8
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00004	leaf=4	78.6
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00013	leaf=13 printed_page=13	84.8
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00220	leaf=220 printed_page=220	87.0
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00187	leaf=187 printed_page=187	88.7
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00009	leaf=9	89.1
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00041	leaf=41 printed_page=41	90.4
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00186	leaf=186 printed_page=186	90.6
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00014	leaf=14 printed_page=14	91.2
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00153	leaf=153 printed_page=153	91.2
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00085	leaf=85 printed_page=85	91.3
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00163	leaf=163 printed_page=163	91.3
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00178	leaf=178 printed_page=178	91.3
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00108	leaf=108 printed_page=108	91.4
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00165	leaf=165 printed_page=165	91.5
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00203	leaf=203 printed_page=203	91.6
+ibnarabi.0638IbnCarabi.TarjumanAshwaq	urn:lib:ibnarabi.0638IbnCarabi.TarjumanAshwaq:00141	leaf=141 printed_page=141	91.8
 ibnarabi.fusus.nizamaldin_ocr	urn:lib:ibnarabi.fusus.nizamaldin_ocr:00006	leaf=6	32.0
 ibnarabi.fusus.nizamaldin_ocr	urn:lib:ibnarabi.fusus.nizamaldin_ocr:00075	leaf=75 printed_page=65	33.9
 ibnarabi.fusus.nizamaldin_ocr	urn:lib:ibnarabi.fusus.nizamaldin_ocr:00082	leaf=82 printed_page=72	34.0

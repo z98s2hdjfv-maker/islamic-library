@@ -32,5 +32,16 @@ from it, and several listed names do not occur in the Qur'an in that form (the t
 ## Caveats
 Uncorrected OCR (OpenITI Kraken/AOCP): al-Qurṭubī, al-Rāzī, al-Qaṣd al-mujarrad, Dalāʾil al-khayrāt, Jalāʾ al-khāṭir.
 *al-Ḥikam* is one OpenITI version with little paragraphing (12 units).
-Still missing: Ibn ʿArabī's *Kashf al-maʿnā ʿan sirr asmāʾ Allāh al-ḥusnā*, al-Qushayrī's *al-Taḥbīr fī ʿilm
+Still missing: al-Qushayrī's *al-Taḥbīr fī ʿilm
 al-tadhkīr*, and Ibn ʿArabī's *Awrād al-usbūʿ*: candidates for the witness and archive.org searches.
+
+## v27: two works from archive.org scans (`catalogs/archive_works.tsv`, uncorrected OCR)
+- **Ibn ʿArabī, *Kashf al-maʿnā ʿan sirr asmāʾ Allāh al-ḥusnā*** (`corpus/asma/0638IbnCarabi.KashfMacna`, 194 leaves):
+  a modern critical edition collating three manuscripts. Its governing rule (leaf 53): the servant has three
+  relations with every divine name: *taʿalluq* (dependence on it, as it points to the Essence), *taḥaqquq*
+  (knowing its meaning as it applies to Him and to you) and *takhalluq* (standing in it as befits you, as it is
+  ascribed to Him as befits Him). All the names can be taken on as traits except *Allāh*, which is for
+  dependence alone. Check wording against Beneito's edition (`beneito2024_secret_names`).
+- **Ibn ʿArabī, *Tarjumān al-ashwāq*** with his own commentary *Dhakhāʾir al-aʿlāq*
+  (`corpus/ibnarabi/0638IbnCarabi.TarjumanAshwaq`, 242 leaves), ed. ʿAbd al-Raḥmān al-Muṣṭāwī (2004).
+Script: `pipeline/works/ingest_archive_works.py` (general form of the v20 script; the target folder is a column).

@@ -1,0 +1,26 @@
+[
+ {
+  "key": "asma.0638IbnCarabi.KashfMacna",
+  "work": "Ibn Arabi: Kashf al-mana an sirr asma Allah al-husna",
+  "author": "asma",
+  "strand": "commentary",
+  "scholar": "Ibn Arabi",
+  "role": "commentary on the names",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "asma (archive.org), commentary (commentary on the names); item 20251202_20251202_1810; each name by connection (taalluq), realisation (tahaqquq) and taking on its trait (takhalluq); critical edition collating three manuscripts"
+ },
+ {
+  "key": "ibnarabi.0638IbnCarabi.TarjumanAshwaq",
+  "work": "Ibn Arabi: Tarjuman al-ashwaq, with his commentary Dhakhair al-alaq",
+  "author": "ibnarabi",
+  "strand": "poetry",
+  "scholar": "Ibn Arabi",
+  "role": "poetry with self-commentary",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "ocr_uncorrected",
+  "note": "ibnarabi (archive.org), poetry (poetry with self-commentary); item elshandawily10146; ed. Abd al-Rahman al-Mustawi (2004)"
+ }
+]
