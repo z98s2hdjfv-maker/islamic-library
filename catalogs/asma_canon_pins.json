@@ -1,0 +1,172 @@
+{
+ "source": "OpenITI (github.com/OpenITI)",
+ "license": "CC BY-NC-SA 4.0",
+ "pinned": "2026-09-30",
+ "works": {
+  "0852IbnHajarCasqalani.TakhrijAhadithAsmaHusna": {
+   "version": "0852IbnHajarCasqalani.TakhrijAhadithAsmaHusna.Shamela0030718-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.TakhrijAhadithAsmaHusna/0852IbnHajarCasqalani.TakhrijAhadithAsmaHusna.Shamela0030718-ara1",
+   "sha256": "a493a4d0262436030b9ec0a7035ab111b68f91834a06662a006ebbfa7cff2658",
+   "bytes": 48384,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 4726
+  },
+  "0458Bayhaqi.AsmaWaSifat": {
+   "version": "0458Bayhaqi.AsmaWaSifat.Shamela0009270-ara1",
+   "repo": "0475AH",
+   "commit": "cc9beb0d9645e8cdce892556423b9926a127054f",
+   "path": "data/0458Bayhaqi/0458Bayhaqi.AsmaWaSifat/0458Bayhaqi.AsmaWaSifat.Shamela0009270-ara1.completed",
+   "sha256": "714d5bea5a376450e30f04ee06d409de0152241184c0b084dc99b51a1481dc18",
+   "bytes": 1456926,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 153105
+  },
+  "0311IbnSariZajjaj.TafsirAsmaAllah": {
+   "version": "0311IbnSariZajjaj.TafsirAsmaAllah.JK000959-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0311IbnSariZajjaj/0311IbnSariZajjaj.TafsirAsmaAllah/0311IbnSariZajjaj.TafsirAsmaAllah.JK000959-ara1",
+   "sha256": "e28905a36a95116a0fccdea1c55eb8952c1daa293f00bc332f64947a21c6cf51",
+   "bytes": 54175,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 5451
+  },
+  "0337IbnIshaqZajjaji.IshtiqaqAsmaAllah": {
+   "version": "0337IbnIshaqZajjaji.IshtiqaqAsmaAllah.Sham19Y0014275-ara1",
+   "repo": "0350AH",
+   "commit": "3f52b87dc367365000b32f815a3d0077451c46f4",
+   "path": "data/0337IbnIshaqZajjaji/0337IbnIshaqZajjaji.IshtiqaqAsmaAllah/0337IbnIshaqZajjaji.IshtiqaqAsmaAllah.Sham19Y0014275-ara1",
+   "sha256": "54ec1b3b461edc42b337ff49d9a9ab027f79b77d19fec534ae361cd9a82b20fa",
+   "bytes": 518869,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 51887
+  },
+  "0388AbuSulaymanKhattabi.ShanDuca": {
+   "version": "0388AbuSulaymanKhattabi.ShanDuca.Shamela0095700-ara1",
+   "repo": "0400AH",
+   "commit": "5bb6966d8df2ed22b1bff5cdbe29bb9c24f3ca29",
+   "path": "data/0388AbuSulaymanKhattabi/0388AbuSulaymanKhattabi.ShanDuca/0388AbuSulaymanKhattabi.ShanDuca.Shamela0095700-ara1",
+   "sha256": "96a8432d17a214a7d553de81f98ebee80dd636c97a0480dbcad675619d59e355",
+   "bytes": 219603,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 20721
+  },
+  "0505Ghazali.MaqsadAsna": {
+   "version": "0505Ghazali.MaqsadAsna.JK000036-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0505Ghazali/0505Ghazali.MaqsadAsna/0505Ghazali.MaqsadAsna.JK000036-ara1",
+   "sha256": "38ae484e7f6a12366744b83b24a4edf971cfea27bfb9bcdcbe83391e3637f5fc",
+   "bytes": 335454,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 34370
+  },
+  "0671AbuCabdAllahQurtubi.Asna": {
+   "version": "0671AbuCabdAllahQurtubi.Asna.AOCP2025021445-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0671AbuCabdAllahQurtubi/0671AbuCabdAllahQurtubi.Asna/0671AbuCabdAllahQurtubi.Asna.AOCP2025021445-ara1",
+   "sha256": "6bb77eececfa087efde81e51568639203e3355ee3b5f1602ae0e9ebc840816d5",
+   "bytes": 1086623,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 106230
+  },
+  "0606FakhrDinRazi.LawamicBayyinat": {
+   "version": "0606FakhrDinRazi.LawamicBayyinat.Kraken220221161405-ara1",
+   "repo": "0625AH",
+   "commit": "f1e38210b32fd0d043949ff6471e869d658c3b16",
+   "path": "data/0606FakhrDinRazi/0606FakhrDinRazi.LawamicBayyinat/0606FakhrDinRazi.LawamicBayyinat.Kraken220221161405-ara1",
+   "sha256": "7a85d637db0be6ac1ebd69d4f9d8e327747b05178187542986ef9ec8656edf24",
+   "bytes": 747792,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 72525
+  },
+  "0709IbnCataAllahSikandari.QasdMujarrad": {
+   "version": "0709IbnCataAllahSikandari.QasdMujarrad.Kraken220414225512-ara1",
+   "repo": "0725AH",
+   "commit": "056df249d6619b428a78f1d69a8ab2851b97b0a6",
+   "path": "data/0709IbnCataAllahSikandari/0709IbnCataAllahSikandari.QasdMujarrad/0709IbnCataAllahSikandari.QasdMujarrad.Kraken220414225512-ara1",
+   "sha256": "0e2f10425d7eeac08abdb653ef59a06c93e266b2c9085c3944f3a14dbef1b5f0",
+   "bytes": 189310,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 17369
+  },
+  "0709IbnCataAllahSikandari.HikamCataiyya": {
+   "version": "0709IbnCataAllahSikandari.HikamCataiyya.JK009323-ara1",
+   "repo": "0725AH",
+   "commit": "056df249d6619b428a78f1d69a8ab2851b97b0a6",
+   "path": "data/0709IbnCataAllahSikandari/0709IbnCataAllahSikandari.HikamCataiyya/0709IbnCataAllahSikandari.HikamCataiyya.JK009323-ara1",
+   "sha256": "9098ae5240669220691371268f16dd4030c0a67e6405562da9211722e0e2d26c",
+   "bytes": 56875,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 5872
+  },
+  "0870Jazuli.DalailKhayrat": {
+   "version": "0870Jazuli.DalailKhayrat.Kraken220413030847-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0870Jazuli/0870Jazuli.DalailKhayrat/0870Jazuli.DalailKhayrat.Kraken220413030847-ara1",
+   "sha256": "f2547d7adcf5237d92d89a6e87ee45df4d9fb49bbc18a22b9866383582003428",
+   "bytes": 258025,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 24523
+  },
+  "0676Nawawi.Adhkar": {
+   "version": "0676Nawawi.Adhkar.JK001249-ara1",
+   "repo": "0700AH",
+   "commit": "3d8ff4e7b035aaa4ca5dda52c7322645f3401dcf",
+   "path": "data/0676Nawawi/0676Nawawi.Adhkar/0676Nawawi.Adhkar.JK001249-ara1",
+   "sha256": "a31e22da8504278529cebd8107f086044620ff2abf0f982461b412b0c578fc4f",
+   "bytes": 1055144,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 112072
+  },
+  "0751IbnQayyimJawziyya.WabilSayyib": {
+   "version": "0751IbnQayyimJawziyya.WabilSayyib.JK000069-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0751IbnQayyimJawziyya/0751IbnQayyimJawziyya.WabilSayyib/0751IbnQayyimJawziyya.WabilSayyib.JK000069-ara1",
+   "sha256": "35299df78b9ea834d46fff62bc1dae5e4a462b45383f7c08e3c4c2929f2508ed",
+   "bytes": 414808,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 43576
+  },
+  "0561CabdQadirJilani.Ghunya": {
+   "version": "0561CabdQadirJilani.Ghunya.Sham19Y0017817-ara1",
+   "repo": "0575AH",
+   "commit": "298735a175459386cc899ce0b8c3154d81dd9530",
+   "path": "data/0561CabdQadirJilani/0561CabdQadirJilani.Ghunya/0561CabdQadirJilani.Ghunya.Sham19Y0017817-ara1",
+   "sha256": "18b1a0732e64c61f14ee73ee48de8aca87bace578a9d8ccf39d0ccf2a89663f7",
+   "bytes": 1847289,
+   "source_type": "typed",
+   "openiti_status": "pri",
+   "tok_length": 185415
+  },
+  "0561CabdQadirJilani.JalaKhatir": {
+   "version": "0561CabdQadirJilani.JalaKhatir.Kraken22021606122302-ara1",
+   "repo": "0575AH",
+   "commit": "298735a175459386cc899ce0b8c3154d81dd9530",
+   "path": "data/0561CabdQadirJilani/0561CabdQadirJilani.JalaKhatir/0561CabdQadirJilani.JalaKhatir.Kraken22021606122302-ara1",
+   "sha256": "1eb5c3c9fd5549769103e029931bd48186e72fccee7d7b11bd5573627dcabfad",
+   "bytes": 382553,
+   "source_type": "ocr_uncorrected",
+   "openiti_status": "pri",
+   "tok_length": 37221
+  }
+ }
+}
