@@ -38,9 +38,15 @@ Output (reports/collation/):
                          one wrong letter breaks up to four 4-letter sequences and page furniture (running
                          heads, editors' footnotes) differs between editions.
                          unmatched  - no witness passage found (lacuna, different recension, or heavy noise)
-                         no_witness - the work has no witness yet
+                         no_witness - the work has no witness yet, or (v34) no independent one: a witness
+                                      that reproduces >= 40% of the OCR's non-words is the same printing
+                                      read by the same engine (reports/best_reading/witness_independence.tsv,
+                                      used = no); its agreement is kept in records.tsv but never corroborates.
+                                      The set-aside witnesses are listed in the column dependent_set_aside.
   confidence_summary.tsv per work: records by level
 Usage: python3 pipeline/verify/collate.py --repo .
+       python3 pipeline/verify/collate.py --repo . --levels-only   (v34: recompute confidence.tsv.gz and
+         confidence_summary.tsv from records.tsv.gz and the independence table, without re-aligning; seconds)
 """
 import argparse, collections, csv, difflib, gzip, hashlib, json, os, re, sys, time, urllib.parse, urllib.request
 
@@ -150,11 +156,71 @@ class Witness:
         return sum((bg & wg).values()) / max(1, sum(bg.values())), matched / len(b), wl, diffs
 
 
+def dependent_witnesses(repo):
+    """(work, witness) pairs set aside as not independent of the OCR (written by pipeline/verify/best_reading.py)."""
+    p = os.path.join(repo, "reports/best_reading/witness_independence.tsv")
+    if not os.path.exists(p): return set()
+    return {(r["work"], r["witness"]) for r in csv.DictReader(open(p, encoding="utf-8"), delimiter="\t") if r["used"] == "no"}
+
+
+def level_of(verification, has_witness, a):
+    return ("verified" if verification in ("verified", "corrected") else "no_witness" if not has_witness else
+            "unmatched" if a is None else "corroborated" if a >= .85 else "partial" if a >= .6 else "divergent")
+
+
+CONF_HEADER = ["work", "record_id", "locator", "ocr_score", "best_agreement", "best_witness", "verification", "level", "dependent_set_aside"]
+LEVEL_COLS = ("verified", "corroborated", "partial", "divergent", "unmatched", "no_witness")
+
+
+def write_summary(repo, lvl_summ):
+    with open(os.path.join(repo, "reports/collation/confidence_summary.tsv"), "w", encoding="utf-8") as f:
+        c = csv.writer(f, delimiter="\t", lineterminator="\n")
+        c.writerow(["work", "records", *LEVEL_COLS])
+        c.writerows(lvl_summ)
+
+
+def levels_only(repo):
+    """v34: rebuild the confidence levels from records.tsv.gz, counting only independent witnesses."""
+    dep = dependent_witnesses(repo)
+    if not dep: print("::warning::no independence table (reports/best_reading/witness_independence.tsv); levels unchanged"); return
+    out = os.path.join(repo, "reports/collation")
+    best, wits = {}, collections.defaultdict(set)
+    with gzip.open(os.path.join(out, "records.tsv.gz"), "rt", encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            if (r["work"], r["witness"]) in dep: continue
+            wits[r["work"]].add(r["witness"])
+            if r["agreement"]:
+                a = float(r["agreement"]); k = r["record_id"]
+                if a > best.get(k, (-1, ""))[0]: best[k] = (a, r["witness"])
+    with gzip.open(os.path.join(out, "confidence.tsv.gz"), "rt", encoding="utf-8") as f:
+        old = list(csv.DictReader(f, delimiter="\t"))
+    all_w = collections.defaultdict(set)
+    with gzip.open(os.path.join(out, "records.tsv.gz"), "rt", encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter="\t"): all_w[r["work"]].add(r["witness"])
+    lv = collections.defaultdict(collections.Counter); moved = collections.Counter(); order = []
+    with gzip.open(os.path.join(out, "confidence.tsv.gz"), "wt", encoding="utf-8", compresslevel=6) as f:
+        cw = csv.writer(f, delimiter="\t", lineterminator="\n"); cw.writerow(CONF_HEADER)
+        for r in old:
+            wk = r["work"]
+            if wk not in lv: order.append(wk)
+            if not any((wk, w) in dep for w in all_w.get(wk, ())):  # untouched: the stored levels used unrounded agreements
+                lv[wk][r["level"]] += 1; cw.writerow([r.get(k, "") for k in CONF_HEADER]); continue
+            a, wid = best.get(r["record_id"], (None, ""))
+            level = level_of(r["verification"], bool(wits.get(wk)), a)
+            if level != r["level"]: moved[(wk, r["level"], level)] += 1
+            lv[wk][level] += 1
+            cw.writerow([wk, r["record_id"], r["locator"], r["ocr_score"], "" if a is None else f"{a:.3f}", wid, r["verification"],
+                         level, ",".join(sorted(w for w in all_w.get(wk, ()) if (wk, w) in dep))])
+    write_summary(repo, [[wk, sum(lv[wk].values())] + [lv[wk][k] for k in LEVEL_COLS] for wk in order])
+    for (wk, a, b), n in sorted(moved.items()): print(f"{wk}: {n} pages {a} -> {b}")
+
+
 def main(repo):
     rd = lambda p: list(csv.DictReader(open(os.path.join(repo, p), encoding="utf-8"), delimiter="\t"))
     idx = {r["key"]: r for r in rd("catalogs/works_index.tsv")}
     wits = collections.defaultdict(list)
     for w in rd("catalogs/witnesses.tsv"): wits[w["work_key"]].append(w)
+    dep = dependent_witnesses(repo)
     vlog = {r["record_id"]: r["status"] for r in rd("catalogs/verification_log.tsv")} if os.path.exists(os.path.join(repo, "catalogs/verification_log.tsv")) else {}
     targets = [k for k, r in idx.items() if r["source_type"] == "ocr_uncorrected"] + [k for k in wits if k not in idx or idx[k]["source_type"] != "ocr_uncorrected"]
     out = os.path.join(repo, "reports/collation"); os.makedirs(out, exist_ok=True)
@@ -163,7 +229,7 @@ def main(repo):
     con_f = gzip.open(os.path.join(out, "confidence.tsv.gz"), "wt", encoding="utf-8", compresslevel=6)
     rw, cw = csv.writer(rec_f, delimiter="\t", lineterminator="\n"), csv.writer(con_f, delimiter="\t", lineterminator="\n")
     rw.writerow(["work", "record_id", "locator", "witness", "relation", "agreement", "word_agreement", "witness_from", "witness_to", "n_diffs", "diffs"])
-    cw.writerow(["work", "record_id", "locator", "ocr_score", "best_agreement", "best_witness", "verification", "level"])
+    cw.writerow(CONF_HEADER)
     for wk in sorted(set(targets)):
         if wk not in idx: print("skip (not in works_index):", wk); continue
         base = [r for r in read_jsonl(os.path.join(repo, idx[wk]["corpus_path"]))]
@@ -177,7 +243,7 @@ def main(repo):
                 if not res: rw.writerow([wk, r.get("id"), locator(r), w["witness_id"], w["relation"], "", "", "", "", "", "unmatched"]); continue
                 a, aw, (wf, wt), diffs = res; ag.append(a)
                 rw.writerow([wk, r.get("id"), locator(r), w["witness_id"], w["relation"], f"{a:.3f}", f"{aw:.3f}", wf, wt, len(diffs), " | ".join(diffs[:6])])
-                if a > best.get(r.get("id"), (-1, ""))[0]: best[r.get("id")] = (a, w["witness_id"])
+                if (wk, w["witness_id"]) not in dep and a > best.get(r.get("id"), (-1, ""))[0]: best[r.get("id")] = (a, w["witness_id"])
             n = sum(1 for r in base if len(words(r.get("text") or r.get("text_raw"))) >= 15)
             summ.append([wk, w["witness_id"], w["relation"], n, len(ag), round(100 * len(ag) / max(n, 1), 1),
                          round(sum(ag) / len(ag), 3) if ag else "", round(100 * sum(a >= .85 for a in ag) / max(n, 1), 1),
@@ -189,21 +255,20 @@ def main(repo):
             if len(b) < 15: continue
             rid = r.get("id"); s = ocr_score(r.get("text") or r.get("text_raw")); a, wid = best.get(rid, (None, ""))
             v = vlog.get(rid, "")
-            level = ("verified" if v in ("verified", "corrected") else "no_witness" if not wits.get(wk) else
-                     "unmatched" if a is None else "corroborated" if a >= .85 else "partial" if a >= .6 else "divergent")
+            indep = [w for w in wits.get(wk, []) if (wk, w["witness_id"]) not in dep]
+            level = level_of(v, bool(indep), a)
             lv[level] += 1
-            cw.writerow([wk, rid, locator(r), "" if s is None else s, "" if a is None else f"{a:.3f}", wid, v, level])
-        lvl_summ.append([wk, sum(lv.values())] + [lv[k] for k in ("verified", "corroborated", "partial", "divergent", "unmatched", "no_witness")])
+            cw.writerow([wk, rid, locator(r), "" if s is None else s, "" if a is None else f"{a:.3f}", wid, v, level,
+                         ",".join(sorted(w["witness_id"] for w in wits.get(wk, []) if (wk, w["witness_id"]) in dep))])
+        lvl_summ.append([wk, sum(lv.values())] + [lv[k] for k in LEVEL_COLS])
     rec_f.close(); con_f.close()
     with open(os.path.join(out, "summary.tsv"), "w", encoding="utf-8") as f:
         c = csv.writer(f, delimiter="\t", lineterminator="\n")
         c.writerow(["work", "witness", "relation", "records", "aligned", "pct_aligned", "mean_agreement", "pct_corroborated_ge85", "pct_divergent_lt60"])
         c.writerows(summ)
-    with open(os.path.join(out, "confidence_summary.tsv"), "w", encoding="utf-8") as f:
-        c = csv.writer(f, delimiter="\t", lineterminator="\n")
-        c.writerow(["work", "records", "verified", "corroborated", "partial", "divergent", "unmatched", "no_witness"])
-        c.writerows(lvl_summ)
-
+    write_summary(repo, lvl_summ)
 
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(); ap.add_argument("--repo", default="."); main(ap.parse_args().repo)
+    ap = argparse.ArgumentParser(); ap.add_argument("--repo", default="."); ap.add_argument("--levels-only", action="store_true")
+    a = ap.parse_args()
+    levels_only(a.repo) if a.levels_only else main(a.repo)

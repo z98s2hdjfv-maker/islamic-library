@@ -21,9 +21,12 @@ On the Futuhat, agreement with an independent typed edition rose from 0.70 to 0.
 ## Safeguards found in testing
 - **Dependent witnesses** (reports/best_reading/witness_independence.tsv): a witness that reproduces 40%
   or more of the OCR's non-words is the same printing read by the same engine, so it is set aside:
-  qashani_9979 (83%), kamalat_b (50%), ishraq_b (45%). **The collation levels in
-  reports/collation/confidence.tsv rest partly on these, so "corroborated" is overstated for al-Qashani's
-  Sharh al-Fusus, al-Jili's Kamalat and Suhrawardi's Hikmat al-ishraq.**
+  qashani_9979 (83%), kamalat_b (50%), ishraq_b (45%). Since v34 the collation levels count only independent witnesses
+  (`collate.py --levels-only`), which corrected three works: al-Qashani's Sharh al-Fusus (345 of 349 pages
+  "corroborated" -> 0; now 78 partial, 236 divergent, 35 unmatched against the other edition), al-Jili's
+  Kamalat (459 -> 0; no independent witness) and Suhrawardi's Hikmat al-ishraq (208 -> 0; no independent
+  witness). The set-aside witness is named per page in confidence.tsv (dependent_set_aside). No other work
+  changed.
 - **Witness families:** futuhat_shamela and futuhat_jk agree at 0.96, so they are one Bulaq-derived text and
   count as one vote. Without this, the Bulaq text would have outvoted 264,000 of Mansub's readings; with it,
   the Futuhat gets only OCR non-word fixes (121,532).

@@ -34,7 +34,7 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
 ## 4. Why Adam: the names seek a mirror
 - **Ibn ʿArabī, Fuṣūṣ ch. 1:** God willed, "through His Most Beautiful Names," to see their realities, His own
   reality, "in a comprehensive being (*kawn jāmiʿ*) that gathers the whole matter." Al-Qāshānī's commentary
-  names it the Perfect Man, with the world alongside him (`nur/0736…Qashani.SharhFusus` leaf 12; corroborated).
+  names it the Perfect Man, with the world alongside him (`nur/0736…Qashani.SharhFusus` leaf 12; clean OCR, not independently corroborated: see v34 note below).
   Adam is taught all the names because he is where they are all reflected together; the angels each hold some.
 - **Futūḥāt ch. 558**, "on knowing the Most Beautiful Names": one *ḥaḍra* (presence) per name
   (`ibnarabi/futuhat.arabiyya` r02226–r02360; Cairo ed. IV:196–326).
@@ -70,8 +70,9 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
 
 ## 8. Confidence and gaps
 - Typed: al-Ṭabarī, al-Qushayrī, al-Ghazālī, al-Tirmidhī, Ibn Ḥajar, the Futūḥāt (Shamela text).
-- OCR: *Kashf al-maʿnā* (no witness), al-Qayṣarī (no witness), al-Qāshānī (corroborated), al-Qurṭubī's *Asnā*,
-  al-Rāzī's *Lawāmiʿ*: see `reports/collation/confidence.tsv.gz`.
+- OCR: *Kashf al-maʿnā* (no witness), al-Qayṣarī (no witness), al-Qāshānī (no page corroborated since v34: its
+  earlier "corroborated" rested on a copy of the same OCR; the one independent witness is another edition),
+  al-Qurṭubī's *Asnā*, al-Rāzī's *Lawāmiʿ*: see `reports/collation/confidence.tsv.gz`.
 - Missing: al-Qushayrī's *al-Taḥbīr fī ʿilm al-tadhkīr* (his commentary on the names), Ibn ʿArabī's *Awrād al-usbūʿ*.
 - References: `beneito2024_secret_names` (Arabic of the Kashf), `kazi2018_unveiling_names`, `ali2020_horizons`.
 
