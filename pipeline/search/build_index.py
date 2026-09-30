@@ -22,6 +22,9 @@ build_index.py - build the library's search layer: one SQLite file with a full-t
   verse_refs    unit -> sura, aya, how (verse/lemma/heading/continues/cited) (reports/index/verse_index.tsv.gz)
   concept_refs  unit -> concept, n; concepts: label, area (reports/index/concept_*.tsv*)
   works         now also carries title, death_ah, witnesses, corroborated, checked, refs, page_note
+  v33 best reading - OCR units that have one (apparatus/best_reading, pipeline/verify/best_reading.py) are
+  searched by that reading instead of the raw OCR (units.text keeps the OCR exactly as in the corpus):
+  unit_reading  unit -> reading, changes (count), attested (share of words supported by >= 2 sources)
 
 Roots: every distinct word type is analysed once with CAMeL Tools (morphology-db-msa-r13,
 no backoff); the union of roots over all analyses is stored, so root search favours recall.
@@ -64,6 +67,19 @@ def _compact(v):
     if v in (None, ""): return None
     if isinstance(v, str) and v.isdigit(): return int(v)
     return v
+
+
+def load_readings(repo):
+    """uid -> (reading, n_changes, attested) from apparatus/best_reading (v33); only readings with changes."""
+    out = {}
+    try:
+        for p in glob.glob(os.path.join(repo, "apparatus/best_reading/*.jsonl.gz")):
+            for line in gzip.open(p, "rt", encoding="utf-8"):
+                r = json.loads(line)
+                if r.get("changes"): out[r["id"]] = (r["reading"], len(r["changes"]), r.get("attested"))
+    except Exception as e:
+        print(f"::warning::best readings not loaded ({e}); OCR text is indexed as before", flush=True); return {}
+    return out
 
 
 def unit_loc(r):
@@ -157,7 +173,7 @@ def main():
       CREATE VIRTUAL TABLE fts USING fts5(norm, roots, content='', tokenize="unicode61 remove_diacritics 0");
       CREATE TABLE vocab(word TEXT PRIMARY KEY, roots TEXT, freq INT);
       CREATE TABLE meta(k TEXT PRIMARY KEY, v TEXT);
-    """ + LOC_DDL)
+    """ + LOC_DDL + "; CREATE TABLE unit_reading(unit INTEGER PRIMARY KEY, reading TEXT, changes INT, attested REAL);")
     cache = {}; freq = collections.Counter(); t0 = time.time(); n = 0; heads = {}
     def roots_of(w):
         r = cache.get(w)
@@ -167,19 +183,23 @@ def main():
                                  if x.get("root") and x["root"] not in SKIP_ROOTS and "." in x["root"]}))
             cache[w] = r
         return r
-    batch = []
+    batch = []; readings = load_readings(a.repo); nread = 0
     for u in iter_units(a.repo, only):
-        ws = words(u["text"]); freq.update(ws)
+        rd = readings.get(u["uid"])
+        st = rd[0] if rd else u["text"]
+        ws = words(st); freq.update(ws)
         roots = " ".join(filter(None, (roots_of(w) for w in ws)))
         n += 1
         batch.append((n, u["uid"], u["work_key"], u["author"], u["lang"], u["attribution"], u["source_type"],
-                      u["primary_version"], u["text"], norm(u["text"]), roots, u["loc"], head_id(heads, u["head"])))
+                      u["primary_version"], u["text"], norm(st), roots, u["loc"], head_id(heads, u["head"])))
+        if rd: db.execute("INSERT INTO unit_reading VALUES(?,?,?,?)", (n, *rd)); nread += 1
         if len(batch) >= 20000:
             flush(db, batch); batch = []
             print(f"{n} units, {len(cache)} types, {time.time()-t0:.0f}s", flush=True)
     flush(db, batch)
     db.executemany("INSERT INTO vocab VALUES(?,?,?)", ((w, cache.get(w, ""), c) for w, c in freq.items()))
     db.executemany("INSERT INTO heads VALUES(?,?)", ((i, h) for h, i in heads.items()))
+    db.execute("INSERT INTO meta VALUES('best_readings', ?)", (str(nread),)); print(f"best readings indexed: {nread}", flush=True)
     add_hadith_tables(db, a.repo)
     db.executescript("CREATE INDEX units_work ON units(work_key); CREATE INDEX units_uid ON units(uid);")
     ok = add_citation_tables(db, a.repo)

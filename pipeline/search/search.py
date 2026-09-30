@@ -30,6 +30,8 @@ Rules
   the corpus record), its heading, and for OCR pages the collation level (verified > corroborated > partial >
   divergent > unmatched; no_witness = nothing to compare against). --min-level keeps typed texts and drops OCR
   pages below the level (unchecked OCR pages are dropped too).
+  v33: OCR pages with a best reading (apparatus/best_reading) are searched by that reading and shown with it,
+  marked "best reading (N corrections)"; the uid still cites the page, and --ocr shows the raw OCR instead.
 """
 import argparse, json, os, re, signal, sqlite3, sys
 signal.signal(signal.SIGPIPE, signal.SIG_DFL)
@@ -118,12 +120,14 @@ def main():
     ap.add_argument("--before", type=int, metavar="AH", help="authors who died in or before this year AH")
     ap.add_argument("--after", type=int, metavar="AH", help="authors who died in or after this year AH")
     ap.add_argument("--chrono", action="store_true", help="order by the author's death year instead of relevance")
+    ap.add_argument("--ocr", action="store_true", help="show the raw OCR of OCR pages, not the best reading")
     a = ap.parse_args()
     if not os.path.exists(a.db):
         sys.exit(f"index not found: {a.db} (download the search-index release asset or run build_index.py)")
     db = sqlite3.connect(a.db)
     has_h = has_table(db, "hadith")
     has_c = has_table(db, "work_meta") and has_table(db, "verse_refs") and has_table(db, "heads")
+    has_r = has_table(db, "unit_reading")
     if (a.verse or a.concept or a.min_level or a.before is not None or a.after is not None or a.chrono) and not has_c:
         sys.exit("this index has no citation layer (built before v32); download the current search-index asset")
     if a.concept and not db.execute("SELECT 1 FROM concepts WHERE concept = ?", (a.concept,)).fetchone():
@@ -152,6 +156,7 @@ def main():
     if has_c:
         join += " LEFT JOIN work_meta wm ON wm.work_key = u.work_key LEFT JOIN unit_conf uc ON uc.unit = u.rowid" \
                 " LEFT JOIN unit_loc ul ON ul.unit = u.rowid LEFT JOIN heads hd ON hd.head = ul.head"
+        if has_r: join += " LEFT JOIN unit_reading ur ON ur.unit = u.rowid"
         if a.verse:
             s_, v_ = map(int, a.verse.split(":"))
             hw = [x for x in (a.how or "").split(",") if x]
@@ -193,22 +198,26 @@ def main():
     vcol, vargs = ", NULL", []
     if a.verse:
         vcol, vargs = ", (SELECT group_concat(DISTINCT how) FROM verse_refs WHERE unit = u.rowid AND sura = ? AND aya = ?)", [s_, v_]
-    rows = db.execute(f"SELECT u.uid, u.work_key, u.author, u.lang, u.attribution, u.source_type, u.text{ccols}{vcol}{hcols} {sql_from} "
+    tcol = "COALESCE(ur.reading, u.text)" if has_r and has_c and not a.ocr else "u.text"
+    rcol = ", ur.changes" if has_r and has_c else ", NULL"
+    rows = db.execute(f"SELECT u.uid, u.work_key, u.author, u.lang, u.attribution, u.source_type, {tcol}{ccols}{vcol}{hcols}{rcol} {sql_from} "
                       f"GROUP BY u.rowid ORDER BY {order} LIMIT ?", vargs + args + [a.limit]).fetchall()
     total = db.execute(f"SELECT COUNT(DISTINCT u.rowid) {sql_from}", args).fetchone()[0]
     if a.json:
         print(json.dumps(dict(total=total, hits=[dict(uid=r[0], work=r[1], author=r[2], lang=r[3], attribution=r[4], source_type=r[5],
               death_ah=r[7], title=r[8], ocr_level=r[9], loc=r[10], heading=r[11], page_note=r[12],
-              **({"verse_how": r[13]} if a.verse else {}), text=r[6]) for r in rows]),
+              **({"verse_how": r[13]} if a.verse else {}), best_reading_changes=r[-1],
+              text_is="best_reading" if r[-1] and not a.ocr else "corpus", text=r[6]) for r in rows]),
               ensure_ascii=False, indent=1)); return
     print(f"{total} matching units (showing {len(rows)})\n")
     for r in rows:
-        flag = "" if r[5] in TYPED else f" ⚠ {r[5]}" + (f" · {r[9]}" if r[9] else (" · unchecked" if has_c else ""))
+        flag = "" if r[5] in TYPED else f" ⚠ {r[5]}" + (f" · {r[9]}" if r[9] else (" · unchecked" if has_c else "")) + \
+               (f" · best reading ({r[-1]} corrections)" if r[-1] and not a.ocr else "")
         died = f" · d. {r[7]}" if r[7] else ""
         print(f"{r[0]}  [{r[2]}{died} · {r[4]}{flag}]" + (f"  {a.verse} {r[13]}" if a.verse and r[13] else ""))
         if r[10] or r[11]: print("    @ " + " · ".join(x for x in (r[10], r[11]) if x) + (f"  ({r[12]})" if r[12] else ""))
         print(f"    {kwic(r[6], a)}")
-        h = r[14:]
+        h = r[14:-1]
         if h and h[0]:
             extra = [h[1] or "narrator ?"] + ([h[2]] if h[2] else []) + ([h[3]] if h[3] else []) + \
                     ([f"in {h[4]} collections"] if h[4] and h[4] > 1 else []) + (["Bukhari+Muslim"] if h[5] else []) + \

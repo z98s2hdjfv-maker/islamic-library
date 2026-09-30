@@ -88,3 +88,9 @@ python3 pipeline/search/build_index.py --repo . --out search/library.sqlite --ad
 python3 pipeline/search/build_index.py --repo . --out /tmp/sample.sqlite --only 0001Quran,TafsirJalalayn,fusus   # sample build
 python3 pipeline/search/test_search.py --db search/library.sqlite                              # smoke test
 ```
+
+## Best readings in the index (v33)
+OCR pages that have a best reading (docs/best_reading/README.md) are searched by that reading, so a word the
+OCR misread is still found. The hit shows the reading, marked `best reading (N corrections)`; `--ocr` shows
+the raw OCR instead, and `--json` says `text_is: best_reading | corpus`. `units.text` is always the corpus
+text; the reading lives in `unit_reading`. (`--add-citations` does not add readings: rebuild the index.)
