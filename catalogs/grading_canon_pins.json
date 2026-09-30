@@ -1,0 +1,77 @@
+{
+ "pinned": "2026-09-30",
+ "works": {
+  "0405HakimNaysaburi.Mustadrak": {
+   "version": "0405HakimNaysaburi.Mustadrak.Shamela0002266-ara1",
+   "repo": "0425AH",
+   "commit": "3a3c829e55a1e4fb614aa857e0d85f51d6a9f0ee",
+   "path": "data/0405HakimNaysaburi/0405HakimNaysaburi.Mustadrak/0405HakimNaysaburi.Mustadrak.Shamela0002266-ara1",
+   "sha256": "30fa11c678e8f4c02196ff8b683558028b6cd564f615c9644a94375afa9cde08",
+   "bytes": 8400534,
+   "source_type": "typed"
+  },
+  "0807NurDinHaythami.MajmacZawaid": {
+   "version": "0807NurDinHaythami.MajmacZawaid.JK000637-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0807NurDinHaythami/0807NurDinHaythami.MajmacZawaid/0807NurDinHaythami.MajmacZawaid.JK000637-ara1",
+   "sha256": "8a7eabf834c90ec8b7cf0d17df08a8518f66bc4f4db3f61894f0da394d0b0943",
+   "bytes": 10784041,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.TalkhisHabir": {
+   "version": "0852IbnHajarCasqalani.TalkhisHabir.JK000559-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.TalkhisHabir/0852IbnHajarCasqalani.TalkhisHabir.JK000559-ara1",
+   "sha256": "b9bccc54636e7e40c29756118e78b05a4a8584cc562c1684f912ccedc9d37bd6",
+   "bytes": 3207289,
+   "source_type": "typed"
+  },
+  "0762IbnYusufZaylaci.NasbRaya": {
+   "version": "0762IbnYusufZaylaci.NasbRaya.JK000471-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0762IbnYusufZaylaci/0762IbnYusufZaylaci.NasbRaya/0762IbnYusufZaylaci.NasbRaya.JK000471-ara1",
+   "sha256": "ef6688d1e57f7becd5e78ae41da5a4e2e64dd5d4bf041acfa773472c3d009c17",
+   "bytes": 5502530,
+   "source_type": "typed"
+  },
+  "0840ShihabDinBusiri.IthafKhayra": {
+   "version": "0840ShihabDinBusiri.IthafKhayra.Shamela0021765-ara1",
+   "repo": "0850AH",
+   "commit": "e2715c62fb458ce3ddc43b962cd55677cdd7bc35",
+   "path": "data/0840ShihabDinBusiri/0840ShihabDinBusiri.IthafKhayra/0840ShihabDinBusiri.IthafKhayra.Shamela0021765-ara1",
+   "sha256": "5215f23aa179aac905fde24355dc9ace37464e1dfa39fafac38cb0fc08ed973b",
+   "bytes": 8249611,
+   "source_type": "typed"
+  },
+  "0840ShihabDinBusiri.MisbahZujaja": {
+   "version": "0840ShihabDinBusiri.MisbahZujaja.JK000312-ara1",
+   "repo": "0850AH",
+   "commit": "e2715c62fb458ce3ddc43b962cd55677cdd7bc35",
+   "path": "data/0840ShihabDinBusiri/0840ShihabDinBusiri.MisbahZujaja/0840ShihabDinBusiri.MisbahZujaja.JK000312-ara1",
+   "sha256": "8c8672ee4eb88bc7fc7bdf6a298c66884738b4f16a22024adcd1f945f8df43fa",
+   "bytes": 1529211,
+   "source_type": "typed"
+  },
+  "0902Sakhawi.MaqasidHasana": {
+   "version": "0902Sakhawi.MaqasidHasana.JK001160-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0902Sakhawi/0902Sakhawi.MaqasidHasana/0902Sakhawi.MaqasidHasana.JK001160-ara1",
+   "sha256": "4ca6dde3c754513b921917d82ae3315ce58e2d1923e281eae10ff642ffecc374",
+   "bytes": 1401972,
+   "source_type": "typed"
+  },
+  "0748Dhahabi.TalkhisMawducatIbnJawzi": {
+   "version": "0748Dhahabi.TalkhisMawducatIbnJawzi.Shamela0006068-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0748Dhahabi/0748Dhahabi.TalkhisMawducatIbnJawzi/0748Dhahabi.TalkhisMawducatIbnJawzi.Shamela0006068-ara1",
+   "sha256": "8e35b767bafda00f919f04372713cba671526be6ff991e3c244a9eb622b5319b",
+   "bytes": 478696,
+   "source_type": "typed"
+  }
+ }
+}

@@ -11,7 +11,8 @@ build_index.py - build the library's search layer: one SQLite file with a full-t
   meta    build facts (repo commit, CAMeL db, counts)
   hadith, hadith_units  (v17) one row per hadith from apparatus/hadith + apparatus/hadith_links, joined
           to units by uid: narrator, caliph, grades found in the sources, parallel group, agreed_upon,
-          weakest linked narrator rank (Taqrib) - see add_hadith_tables()
+          weakest linked narrator rank (Taqrib) - see add_hadith_tables(); v35: plus later classical critics'
+          verdicts from apparatus/hadith_grades (al-Dhahabi's Talkhis on the Mustadrak). Modern grades never enter.
   v32 citation layer - see add_citation_tables(); if it fails, the index is still built without it:
   (the new tables key passages by `unit` = units.rowid, which keeps them small)
   unit_loc      unit -> vol, part, page_before, page, leaf, printed_page, poem_number (as in the corpus record),
@@ -243,12 +244,17 @@ def add_hadith_tables(db, repo):
             r = json.loads(line)
             links[r["hadith_id"]] = (r["parallel_group"], r["parallel_collections"], int(r["agreed_upon"]),
                                      r["weakest_rank"], r["weakest_rank_name"], r["linked"], r["names"])
+    extra = collections.defaultdict(list)  # v35: classical grades from later critics (apparatus/hadith_grades)
+    for gp in sorted(glob.glob(os.path.join(repo, "apparatus/hadith_grades/*.tsv"))):
+        by = "al-Dhahabi (Talkhis)" if "dhahabi" in os.path.basename(gp) else os.path.basename(gp)[:-4]
+        for r in csv.DictReader(open(gp, encoding="utf-8"), delimiter="\t"):
+            if r.get("hadith_id"): extra[r["hadith_id"]].append(f'{by}: {r["verdict"]}')
     n = 0
     for p in files:
         rows, units = [], []
         for line in gzip.open(p, "rt", encoding="utf-8"):
             h = json.loads(line)
-            g = "; ".join(f'{x["by"]}: {x["grade"]}' for x in h["grades"])
+            g = "; ".join([f'{x["by"]}: {x["grade"]}' for x in h["grades"]] + extra.get(h["id"], []))
             L = links.get(h["id"], (None, 1, 0, None, None, None, None))
             rows.append((h["id"], h["collection"], str(h["number"]), h["narrator"], narrator_key(h["narrator"]),
                          h["caliph"], g, *L))

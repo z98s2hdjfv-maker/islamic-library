@@ -1,0 +1,209 @@
+{
+ "pinned": "2026-09-30",
+ "works": {
+  "1420Albani.SilsilaSahiha": {
+   "item": "07_20260324",
+   "volumes": [
+    {
+     "base": "01",
+     "text": "99d51eb5edb506dc761333ccdbf3a732",
+     "index": "32f6b05cde015592209e8ce3f28e4a5a",
+     "pages": "042ce2d9cb1fd0ada087396f432ed8fb"
+    },
+    {
+     "base": "02",
+     "text": "644b89f450b420fbebb89f55f88fdbad",
+     "index": "acc99a5f70b249b1dbb34a9039b794bd",
+     "pages": "d9ad15e800b04c93808ea5e1f904e8e2"
+    },
+    {
+     "base": "03",
+     "text": "ceaf4d5d6399879b4afb3ba23371053c",
+     "index": "9abbcb30be882540efcc35c9a92534d9",
+     "pages": "512d0dc237930a1bb8117ceda52d13bb"
+    },
+    {
+     "base": "03 A",
+     "text": "3a5fa899a4b570d1b6ac5d3d47d8d701",
+     "index": "4146167404214b17c43056a74a971a45",
+     "pages": "f3bd7d70f8be2c9f69499a7aed72364e"
+    },
+    {
+     "base": "04",
+     "text": "44028c8e3bf4d300b11358e1f793a567",
+     "index": "ae60008ff054aa196fdede150773fb86",
+     "pages": "b59cd1d60902c01bde205c27b1433e50"
+    },
+    {
+     "base": "04 A",
+     "text": "0bf08b63c2723b80f9f1f16f0a8dc84c",
+     "index": "c60c14a873a0cea32f3a93e7960dce6e",
+     "pages": "dca807cd87064db67922a02bc59df413"
+    },
+    {
+     "base": "05",
+     "text": "9c080285d21454f06bed80f9c4430ed5",
+     "index": "7d10c9c7068bbd86d32c67b051037636",
+     "pages": "09562fe1de0917f6b24087b84e5a74dd"
+    },
+    {
+     "base": "06",
+     "text": "eeee3877c26b801282896a7a3ae064ad",
+     "index": "31412c656c6c57b27eeee77bc5e4900e",
+     "pages": "95b6b30afe549e1315b43554dc198987"
+    },
+    {
+     "base": "07",
+     "text": "8439f7f844ff45b50a53dc214b3c3fb5",
+     "index": "c1aa0b16c7c9db48c70593189aef9cdb",
+     "pages": "e683de7b6daa69acd43453321b9a5c64"
+    }
+   ],
+   "source_type": "ocr_uncorrected"
+  },
+  "1420Albani.SilsilaDacifa": {
+   "item": "daifaa14",
+   "volumes": [
+    {
+     "base": "daifaa01",
+     "text": "2783860e675651a9d87de500de8e75ff",
+     "index": "cec54222fba73b6a1570f81468ce39d5",
+     "pages": "c81c1250fb94c9c5f0add1983db3ed7c"
+    },
+    {
+     "base": "daifaa02",
+     "text": "3b5ab7686d4d4f1ce2253a0a8aa0dd2b",
+     "index": "8fd5a1689d5dc60b48fc1410708f8010",
+     "pages": "c5b3228ee15cb01998fb622f8b61aae8"
+    },
+    {
+     "base": "daifaa02p",
+     "text": "a89454a617cbbcf39357d8b5787babe7",
+     "index": "d50451476b361733d7baef4272f5b59a",
+     "pages": "3d629afa7cbb6879b6b2b8d5a21189df"
+    },
+    {
+     "base": "daifaa03",
+     "text": "af5e1f275a98f6ce9bba0205a1e34971",
+     "index": "a84ff17b7fb0b0cc5acb8be48dc7398f",
+     "pages": "d75c9d4dff0b6e1a3433f36554b04843"
+    },
+    {
+     "base": "daifaa04",
+     "text": "3a439885638230714796475ab242bf4a",
+     "index": "3ae4c3ea1d8a9525646be17f164c3911",
+     "pages": "5b94d77c72469a3e9d4f59ec3ad1e021"
+    },
+    {
+     "base": "daifaa05",
+     "text": "64fa4a54f6e62b297dd91d2fb0156934",
+     "index": "2f2cb5656f3dade04a0c0dd2b8c7bf00",
+     "pages": "a1e6886f531e484343c82d10894594ed"
+    },
+    {
+     "base": "daifaa06",
+     "text": "c9f0ebff49a0084c98af3797b143b4f2",
+     "index": "45a7847c4da48e41ab327e4b361b2f41",
+     "pages": "f8f58b46304e3ef2fd93bd1898e2ec4a"
+    },
+    {
+     "base": "daifaa07",
+     "text": "9dc6ff516e18da6d931e9aa2c29979ae",
+     "index": "0ef7bf595a12309af8b0c1beebfd5320",
+     "pages": "c02a2dab0b6e7db8124bbe13e8dc236d"
+    },
+    {
+     "base": "daifaa08",
+     "text": "69978a90460bd7c9869a49937f266561",
+     "index": "795bc55c09c0e22936565611147e6956",
+     "pages": "ba9927b67a6c8937081050a98336deeb"
+    },
+    {
+     "base": "daifaa09",
+     "text": "8c3df9cc3ab0fd38a89d6801cbe478d5",
+     "index": "f449c167b1040f5ecc022d08fa59a0ea",
+     "pages": "0caf6451edd935a3e85595c81ace92a1"
+    },
+    {
+     "base": "daifaa10",
+     "text": "fae0af44fb741082c1134b6fcf1c1742",
+     "index": "c2a4a26167aef9afdb17dcff38c2e401",
+     "pages": "b281356cfddf8ebfd217f86600dc0e7d"
+    },
+    {
+     "base": "daifaa11",
+     "text": "24725947d8908a53ae48e8f0a6ddc2ad",
+     "index": "a536476b6291872fbdd3054e8f6590f3",
+     "pages": "98db6c150bc4dde3f6511382d5821a16"
+    },
+    {
+     "base": "daifaa12",
+     "text": "ac9c9234fc268750e8107f2773a5c09c",
+     "index": "dc9f9f4cf26fad5e2cfc5152a28e6fd8",
+     "pages": "00e347bb402954348b5c081bce8e217f"
+    },
+    {
+     "base": "daifaa13",
+     "text": "d6b8836bcc6d387c2a4875c69a822ac0",
+     "index": "a1f33b12cd921f7d65364375cb791730",
+     "pages": "235267e46283103b129fd0d04698a94c"
+    },
+    {
+     "base": "daifaa13i",
+     "text": "6240a96b61fb79d2d7cc66e684bb18b4",
+     "index": "be37a6c1014951712fc61bae8bf4cdc5",
+     "pages": "fa440715d5f033aff1f02c1364246f43"
+    },
+    {
+     "base": "daifaa14",
+     "text": "622c00a86efb40d9e02244a54d24bc51",
+     "index": "57dd60950003bd0ac86f9ac07f783e8b",
+     "pages": "f00f60ca9f481f6cd5588dd7b1d286b5"
+    },
+    {
+     "base": "daifaa14i",
+     "text": "f44d1fad832a4d35e5ebb836313a92ae",
+     "index": "7943b027116c7bcc9619b670ddc96313",
+     "pages": "3391287930da4aa4618e80f9ad233e76"
+    }
+   ],
+   "source_type": "ocr_uncorrected"
+  },
+  "1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi": {
+   "version": "1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.Shamela0000782-ara1",
+   "repo": "1425AH",
+   "commit": "6d71d2af1be5a49f1db3b52cdda15ea11da569de",
+   "path": "data/1420MuhammadNasirDinAlbani/1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi/1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.Shamela0000782-ara1",
+   "sha256": "934238d8dda11cea27442885614481f884f0c207b31c003c57099880d0bd2bfe",
+   "bytes": 3742868,
+   "source_type": "typed"
+  },
+  "1420MuhammadNasirDinAlbani.SahihAdabMufrad": {
+   "version": "1420MuhammadNasirDinAlbani.SahihAdabMufrad.Shamela0001341-ara1",
+   "repo": "1425AH",
+   "commit": "6d71d2af1be5a49f1db3b52cdda15ea11da569de",
+   "path": "data/1420MuhammadNasirDinAlbani/1420MuhammadNasirDinAlbani.SahihAdabMufrad/1420MuhammadNasirDinAlbani.SahihAdabMufrad.Shamela0001341-ara1",
+   "sha256": "ef658e6685c26b950fa306a3bf1c210a62dbffb7309e10d56242a5ed5abf6aae",
+   "bytes": 457399,
+   "source_type": "typed"
+  },
+  "1420MuhammadNasirDinAlbani.DacifAdabMufrad": {
+   "version": "1420MuhammadNasirDinAlbani.DacifAdabMufrad.Shamela0001346-ara1",
+   "repo": "1425AH",
+   "commit": "6d71d2af1be5a49f1db3b52cdda15ea11da569de",
+   "path": "data/1420MuhammadNasirDinAlbani/1420MuhammadNasirDinAlbani.DacifAdabMufrad/1420MuhammadNasirDinAlbani.DacifAdabMufrad.Shamela0001346-ara1",
+   "sha256": "2c9c8eb7af72bf3d526fd42f7ac45d28f5cd09aebcd3f8ea43806bb4e457832c",
+   "bytes": 103999,
+   "source_type": "typed"
+  },
+  "1377AhmadMuhammadShakir.BacithHathith": {
+   "version": "1377AhmadMuhammadShakir.BacithHathith.Shamela0021571-ara1",
+   "repo": "1400AH",
+   "commit": "6b4084ba42c8e0bd7c888a8c4b37c43ca771c322",
+   "path": "data/1377AhmadMuhammadShakir/1377AhmadMuhammadShakir.BacithHathith/1377AhmadMuhammadShakir.BacithHathith.Shamela0021571-ara1",
+   "sha256": "b052c283e529ff025a2c9acca7e80a3fb8a62d8ed3e09972da4c5ab6c552680d",
+   "bytes": 227469,
+   "source_type": "typed"
+  }
+ }
+}

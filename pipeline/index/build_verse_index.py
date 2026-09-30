@@ -108,7 +108,7 @@ def main(repo, groups, cite_groups=()):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--repo", default=".")
     ap.add_argument("--works", default="tafsir,tafsir_sufi,tafsir_ahkam")
-    ap.add_argument("--cite-only", default="ibnarabi,nur,wilaya,asma,jilani,sufi_manuals,tafsir_sufi_extra",
+    ap.add_argument("--cite-only", default="ibnarabi,nur,wilaya,asma,jilani,sufi_manuals,tafsir_sufi_extra,afterlife,grading,modern",
                     help="collections that are not commentaries: only their quotations are indexed (how = cited)")
     a = ap.parse_args()
     main(a.repo, a.works.split(","), [g for g in a.cite_only.split(",") if os.path.isdir(os.path.join(a.repo, "corpus", g))])

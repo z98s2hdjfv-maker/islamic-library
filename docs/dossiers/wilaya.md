@@ -1,4 +1,7 @@
 # Dossier: sainthood and the hidden hierarchy (wilāya; quṭb, awtād, abdāl, afrād)
+
+> **A map, not an answer.** This dossier says where the library's evidence is. Before answering a study question, query the repo itself (see `START_HERE.md`): run the verse or concept lookup, open the cited records, and search the hadith layer and the grading works. Cite from the files, not from this page.
+
 *Who keeps "the tent upright": the Friends of God, the ranks the Sufis describe, the reports behind them and the
 critics.* Repo state: v31. Load into the Claude Project. Record ids are the last part of each corpus `id`.
 

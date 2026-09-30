@@ -1,4 +1,7 @@
 # Dossier: the Beautiful Names (al-asmāʾ al-ḥusnā)
+
+> **A map, not an answer.** This dossier says where the library's evidence is. Before answering a study question, query the repo itself (see `START_HERE.md`): run the verse or concept lookup, open the cited records, and search the hadith layer and the grading works. Cite from the files, not from this page.
+
 *How the Names join creation to the Creator, why they were taught to Adam, and how we address Him by them.*
 Repo state: v30. Load this file into the Claude Project so a new chat starts here. Record ids below are the
 last part of each `id` in the corpus; open them with `pipeline/index/lookup.py`.

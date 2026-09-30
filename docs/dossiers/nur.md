@@ -1,4 +1,7 @@
 # Dossier: the Muhammadan Light and Reality (al-nūr al-muḥammadī, al-ḥaqīqa al-muḥammadiyya)
+
+> **A map, not an answer.** This dossier says where the library's evidence is. Before answering a study question, query the repo itself (see `START_HERE.md`): run the verse or concept lookup, open the cited records, and search the hadith layer and the grading works. Cite from the files, not from this page.
+
 *How the tradition describes the Prophet's ﷺ light as the first receiver of God's light, carried through Adam and the
 prophets, and continuing after him in the saints.* Repo state: v31. Load into the Claude Project. Record ids are the
 last part of each corpus `id`; reproduce any line with `pipeline/index/lookup.py`.

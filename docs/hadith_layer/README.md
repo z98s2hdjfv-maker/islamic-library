@@ -27,6 +27,9 @@ Built by `pipeline/hadith/build_hadith_layer.py` from `corpus/hadith/` (v15). Ou
 ## Not included, on purpose
 
 - Modern grades (al-Albānī, al-Arnaʾūṭ and others). They are not in these texts, and no grade is invented.
+  Since v35, al-Albānī's works are in the library as a separate **modern layer** (`corpus/modern`, category
+  `modern`): searchable and citable, but never merged into these grades. Later classical critics are added:
+  al-Dhahabī's Talkhīṣ on the Mustadrak joins these grades (`apparatus/hadith_grades`); see docs/canons/README.md.
 - al-Dhahabī's notes on al-Ḥākim (not in this edition of the Mustadrak).
 
 ## Next steps

@@ -1,0 +1,37 @@
+{
+    "pages": [
+        {
+            "pageNumber": "1",
+            "ocr_value": [],
+            "confidence": 0,
+            "leafNum": 1
+        },
+        {
+            "pageNumber": "2",
+            "ocr_value": [
+                "3"
+            ],
+            "confidence": 0,
+            "leafNum": 2
+        },
+        {
+            "pageNumber": "3",
+            "ocr_value": [
+                "1"
+            ],
+            "confidence": 0,
+            "leafNum": 3
+        },
+        {
+            "pageNumber": "4",
+            "ocr_value": [
+                "3",
+                "5"
+            ],
+            "confidence": 0,
+            "leafNum": 4
+        }
+    ],
+    "identifier": "/var/tmp/autoclean/derive/daifaa14/daifaa02p",
+    "confidence": 0
+}

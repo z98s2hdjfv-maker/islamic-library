@@ -1,0 +1,116 @@
+{
+ "pinned": "2026-09-30",
+ "works": {
+  "0751IbnQayyimJawziyya.RuhFiKalam": {
+   "version": "0751IbnQayyimJawziyya.RuhFiKalam.JK000056-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0751IbnQayyimJawziyya/0751IbnQayyimJawziyya.RuhFiKalam/0751IbnQayyimJawziyya.RuhFiKalam.JK000056-ara1",
+   "sha256": "556d1ef1e51b6720d68c8c5262a0216f1ed99e403395b006db52099ffc44eeaa",
+   "bytes": 898052,
+   "source_type": "typed"
+  },
+  "0671AbuCabdAllahQurtubi.TadhkiraFiAhwalMawta": {
+   "version": "0671AbuCabdAllahQurtubi.TadhkiraFiAhwalMawta.Shamela0021536-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0671AbuCabdAllahQurtubi/0671AbuCabdAllahQurtubi.TadhkiraFiAhwalMawta/0671AbuCabdAllahQurtubi.TadhkiraFiAhwalMawta.Shamela0021536-ara1",
+   "sha256": "9a6e31b34ff28ddf5aae0049b889e6ed7cdd5853e740527beffed46b01248a51",
+   "bytes": 2154887,
+   "source_type": "typed"
+  },
+  "0911Suyuti.SharhSudur": {
+   "version": "0911Suyuti.SharhSudur.JK001227-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.SharhSudur/0911Suyuti.SharhSudur.JK001227-ara1",
+   "sha256": "f80d6f639c2bcb82f5b6068b2f172c40d9132bbef1a26d7f9b496f992bc5bbb3",
+   "bytes": 825645,
+   "source_type": "typed"
+  },
+  "0911Suyuti.BudurSafira": {
+   "version": "0911Suyuti.BudurSafira.ShamAY0034815-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.BudurSafira/0911Suyuti.BudurSafira.ShamAY0034815-ara1",
+   "sha256": "2f7341b1ca7292ec055ead341c6c4ff8c602872b18dfb387f2c77bfed9789d62",
+   "bytes": 1844781,
+   "source_type": "typed"
+  },
+  "0795IbnRajabHanbali.AhwalQubur": {
+   "version": "0795IbnRajabHanbali.AhwalQubur.Shamela0010900-ara1",
+   "repo": "0800AH",
+   "commit": "7b745ec7b83d6d4971f937364dbdec2fe0ba2a40",
+   "path": "data/0795IbnRajabHanbali/0795IbnRajabHanbali.AhwalQubur/0795IbnRajabHanbali.AhwalQubur.Shamela0010900-ara1",
+   "sha256": "99844b7669ddc5fcfa89bcc60f8441089e537b102f2ce4c6beae8e6a39272f38",
+   "bytes": 401773,
+   "source_type": "typed"
+  },
+  "0458Bayhaqi.BacthWaNushur": {
+   "version": "0458Bayhaqi.BacthWaNushur.Shamela0009292-ara1",
+   "repo": "0475AH",
+   "commit": "cc9beb0d9645e8cdce892556423b9926a127054f",
+   "path": "data/0458Bayhaqi/0458Bayhaqi.BacthWaNushur/0458Bayhaqi.BacthWaNushur.Shamela0009292-ara1.completed",
+   "sha256": "98487743d1965193694e26feee96ce37078c913c1018dd9a1833a0f6dc6c3d16",
+   "bytes": 591695,
+   "source_type": "typed"
+  },
+  "0774IbnKathir.NihayaFiFitan": {
+   "version": "0774IbnKathir.NihayaFiFitan.JK009265-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0774IbnKathir/0774IbnKathir.NihayaFiFitan/0774IbnKathir.NihayaFiFitan.JK009265-ara1",
+   "sha256": "5e0b6772db99e56d00884aa7b6dda5dcf5cee517cdda0aa71a7151681efa7994",
+   "bytes": 1559404,
+   "source_type": "typed"
+  },
+  "0281IbnAbiDunya.Qubur": {
+   "version": "0281IbnAbiDunya.Qubur.Shamela0010628-ara1",
+   "repo": "0300AH",
+   "commit": "01a1544130e0236850ef2698923ad01575c5bd7c",
+   "path": "data/0281IbnAbiDunya/0281IbnAbiDunya.Qubur/0281IbnAbiDunya.Qubur.Shamela0010628-ara1.mARkdown",
+   "sha256": "f956e89e75a93687c1dc5b77278162c607b7be14d301f703ea0db9bd82412ad4",
+   "bytes": 165318,
+   "source_type": "typed"
+  },
+  "0281IbnAbiDunya.Ahwal": {
+   "version": "0281IbnAbiDunya.Ahwal.Shamela0012704-ara1",
+   "repo": "0300AH",
+   "commit": "01a1544130e0236850ef2698923ad01575c5bd7c",
+   "path": "data/0281IbnAbiDunya/0281IbnAbiDunya.Ahwal/0281IbnAbiDunya.Ahwal.Shamela0012704-ara1.completed",
+   "sha256": "b9573dd0ea31cd003dc73388402cddd8089188f9eb8f15729d3b7eb7941e8431",
+   "bytes": 171061,
+   "source_type": "typed"
+  },
+  "0281IbnAbiDunya.ManCashaBacdaMawt": {
+   "version": "0281IbnAbiDunya.ManCashaBacdaMawt.JK000908-ara1",
+   "repo": "0300AH",
+   "commit": "01a1544130e0236850ef2698923ad01575c5bd7c",
+   "path": "data/0281IbnAbiDunya/0281IbnAbiDunya.ManCashaBacdaMawt/0281IbnAbiDunya.ManCashaBacdaMawt.JK000908-ara1.mARkdown",
+   "sha256": "f213981ccc470d062d0f92d24d249f2102c8933d2d6a9f597d91cf4a6d1bce0a",
+   "bytes": 76536,
+   "source_type": "typed"
+  },
+  "1270ShihabDinAlusi.RuhMacani": {
+   "version": "1270ShihabDinAlusi.RuhMacani.JK000906-ara1",
+   "repo": "1275AH",
+   "commit": "d6d3091d7477cc4d2f4cdcd71e5873e90f5d28e8",
+   "path": "data/1270ShihabDinAlusi/1270ShihabDinAlusi.RuhMacani/1270ShihabDinAlusi.RuhMacani.JK000906-ara1",
+   "sha256": "e2413322fd51e6adb333c1f8fec6f381f459c12052a0d9c00ee7c80b38643ca1",
+   "bytes": 34724949,
+   "source_type": "typed"
+  },
+  "0505Ghazali.DurraFakhira": {
+   "item": "BBib-Alex-09254",
+   "volumes": [
+    {
+     "base": "كتاب_الدرة_الفاخرة_في_كشف_علوم_الآخرة_09254_أبي_حامد_محمد_الغزالي",
+     "text": "e2082cce738a861a4437564b5ef8dd8f",
+     "index": "fd3d9234ced33b8e79205a5d6b11bc17",
+     "pages": "598298fd2086d088434861fbbf95f767"
+    }
+   ],
+   "source_type": "ocr_uncorrected"
+  }
+ }
+}

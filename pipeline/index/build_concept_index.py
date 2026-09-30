@@ -18,7 +18,7 @@ import argparse, collections, csv, glob, gzip, json, os, re, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "search"))
 from textnorm import norm  # noqa: E402
 
-GROUPS = "ibnarabi,nur,wilaya,asma,jilani,sufi_manuals,tafsir_sufi,tafsir,shams,aflaki,ghazali,openiti,critics,hadith"
+GROUPS = "ibnarabi,nur,wilaya,asma,jilani,sufi_manuals,tafsir_sufi,tafsir,shams,aflaki,ghazali,openiti,critics,hadith,afterlife,grading,modern"
 
 
 def main(repo, groups):

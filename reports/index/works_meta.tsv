@@ -1,5 +1,16 @@
 key	title	death_ah	source_type	witnesses	corroborated_of_checked	references	page_note
 aflaki.manaqib.yazici_ocr	Aflaki, Manaqib al-'arifin, ed. Tahsin Yazici (Tehran: Dunya-yi Kitab, 2nd pr. 1362 Sh/1983)	761	ocr_uncorrected	1	4/1236		
+afterlife.0281IbnAbiDunya.Ahwal	Ibn Abi al-Dunya: Ahwal	281	typed	0			
+afterlife.0281IbnAbiDunya.ManCashaBacdaMawt	Ibn Abi al-Dunya: ManCashaBacdaMawt	281	typed	0			
+afterlife.0281IbnAbiDunya.Qubur	Ibn Abi al-Dunya: Qubur	281	typed	0			
+afterlife.0458Bayhaqi.BacthWaNushur	al-Bayhaqi: BacthWaNushur	458	typed	0			
+afterlife.0505Ghazali.DurraFakhira	al-Ghazali: DurraFakhira	505	ocr_uncorrected	0			
+afterlife.0671AbuCabdAllahQurtubi.TadhkiraFiAhwalMawta	al-Qurtubi: TadhkiraFiAhwalMawta	671	typed	0			
+afterlife.0751IbnQayyimJawziyya.RuhFiKalam	Ibn al-Qayyim: RuhFiKalam	751	typed	0			
+afterlife.0774IbnKathir.NihayaFiFitan	Ibn Kathir: NihayaFiFitan	774	typed	0			
+afterlife.0795IbnRajabHanbali.AhwalQubur	Ibn Rajab al-Hanbali: AhwalQubur	795	typed	0			
+afterlife.0911Suyuti.BudurSafira	al-Suyuti: BudurSafira	911	typed	0			
+afterlife.0911Suyuti.SharhSudur	al-Suyuti: SharhSudur	911	typed	0			
 alawi.0406SharifRadi.NahjBalagha	al-Sharīf al-Raḍī (compiler): NahjBalagha	406	typed	0			
 asma.0311IbnSariZajjaj.TafsirAsmaAllah	al-Zajjaj: TafsirAsmaAllah	311	typed	0			
 asma.0337IbnIshaqZajjaji.IshtiqaqAsmaAllah	al-Zajjaji: IshtiqaqAsmaAllah	337	typed	0			
@@ -56,6 +67,14 @@ ghazali.arbain	Kitab al-Arba'in fi usul al-din	505	shamela	0
 ghazali.ihya_with_iraqi	Ihya' 'ulum al-din, with al-'Iraqi's takhrij (al-Mughni 'an haml al-asfar)	505	shamela	0			
 ghazali.kimiya.k	al-Ghazali, Kimiya-yi sa'adat	505	ganjoor	0			
 ghazali.mukashafa	Mukashafat al-qulub	505	shamela	0			
+grading.0405HakimNaysaburi.Mustadrak	al-Hakim, with al-Dhahabi's Talkhis: Mustadrak	405	typed	0			
+grading.0748Dhahabi.TalkhisMawducatIbnJawzi	al-Dhahabi: TalkhisMawducatIbnJawzi	748	typed	0			
+grading.0762IbnYusufZaylaci.NasbRaya	Jamal al-Din al-Zaylaʿi: NasbRaya	762	typed	0			
+grading.0807NurDinHaythami.MajmacZawaid	Nur al-Din al-Haythami: MajmacZawaid	807	typed	0			
+grading.0840ShihabDinBusiri.IthafKhayra	Shihab al-Din al-Busiri: IthafKhayra	840	typed	0			
+grading.0840ShihabDinBusiri.MisbahZujaja	Shihab al-Din al-Busiri: MisbahZujaja	840	typed	0			
+grading.0852IbnHajarCasqalani.TalkhisHabir	Ibn Hajar al-Asqalani: TalkhisHabir	852	typed	0			
+grading.0902Sakhawi.MaqasidHasana	Shams al-Din al-Sakhawi: MaqasidHasana	902	typed	0			
 hadith.0241IbnHanbal.Musnad	Aḥmad ibn Ḥanbal: Musnad	241	typed	0			
 hadith.0255CabdAllahDarimi.Sunan	al-Dārimī: Sunan	255	typed	0			
 hadith.0256Bukhari.Sahih	al-Bukhārī: Sahih	256	typed	0			
@@ -172,6 +191,12 @@ maliki.0790IbnMusaGharnatiShatibi.Muwafaqat	al-Shatibi: Muwafaqat	790	typed	0
 maliki.0954HattabRucayniMaghribi.MawahibJalil	al-Hattab: MawahibJalil	954	typed	0			
 maliki.1230IbnAhmadDasuqi.HashiyatCalaSharhKabir	al-Dasuqi: HashiyatCalaSharhKabir	1230	typed	0			
 maybudi.kashf.t	Maybudi, Kashf al-asrar wa 'uddat al-abrar		ganjoor	0			
+modern.1377AhmadMuhammadShakir.BacithHathith	Ahmad Muhammad Shakir: BacithHathith	1377	typed	0			
+modern.1420Albani.SilsilaDacifa	Muhammad Nasir al-Din al-Albani: SilsilaDacifa	1420	ocr_uncorrected	0			
+modern.1420Albani.SilsilaSahiha	Muhammad Nasir al-Din al-Albani: SilsilaSahiha	1420	ocr_uncorrected	0			
+modern.1420MuhammadNasirDinAlbani.DacifAdabMufrad	Muhammad Nasir al-Din al-Albani: DacifAdabMufrad	1420	typed	0			
+modern.1420MuhammadNasirDinAlbani.SahihAdabMufrad	Muhammad Nasir al-Din al-Albani: SahihAdabMufrad	1420	typed	0			
+modern.1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi	Muhammad Nasir al-Din al-Albani: SahihWaDacifSunanTirmidhi	1420	typed	0			
 nur.0375IkhwanSafa.Rasail	Ikhwan al-Safa: Rasail	375	typed	0			
 nur.0428IbnSina.ShifaIlahiyyat	Ibn Sina: ShifaIlahiyyat	428	typed	0			
 nur.0428IbnSina.ShifaTabiciyyat	Ibn Sina: ShifaTabiciyyat	428	typed	0			
@@ -258,6 +283,7 @@ tafsir.0685NasirDinBaydawi.AnwarTanzil	al-Bayḍāwī: AnwarTanzil	685	typed	0
 tafsir.0774IbnKathir.TafsirQuran	Ibn Kathīr: TafsirQuran	774	typed	0			
 tafsir.0911Suyuti.DurrManthur	al-Suyūṭī: DurrManthur	911	typed	0			
 tafsir.0911Suyuti.TafsirJalalayn	al-Maḥallī and al-Suyūṭī: TafsirJalalayn	911	typed	0			
+tafsir.1270ShihabDinAlusi.RuhMacani	Shihab al-Din al-Alusi: RuhMacani	1270	typed	0			
 tafsir_ahkam.0338AbuJacfarNahhas.NasikhWaMansukh	al-Naḥḥās: NasikhWaMansukh	338	typed	0			
 tafsir_ahkam.0370IbnCaliJassas.AhkamQuran	al-Jaṣṣāṣ: AhkamQuran	370	typed	0			
 tafsir_ahkam.0468IbnAhmadWahidiNaysaburi.AsbabNuzul	al-Wāḥidī: AsbabNuzul	468	typed	0			

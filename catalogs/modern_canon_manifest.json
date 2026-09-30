@@ -1,0 +1,80 @@
+[
+ {
+  "key": "modern.1420Albani.SilsilaSahiha",
+  "work": "Muhammad Nasir al-Din al-Albani: SilsilaSahiha",
+  "author": "modern",
+  "strand": "grading",
+  "scholar": "Muhammad Nasir al-Din al-Albani",
+  "role": "modern grading: sound hadith",
+  "layer": "modern",
+  "attribution": "secure",
+  "category": "modern",
+  "source_type": "ocr_uncorrected",
+  "note": "modern canon, grading (modern grading: sound hadith); MODERN layer (not classical); archive.org 07_20260324; Silsilat al-ahadith al-sahiha, 7 vols with addenda; modern (d. 1420/1999), widely cited and widely disputed"
+ },
+ {
+  "key": "modern.1420Albani.SilsilaDacifa",
+  "work": "Muhammad Nasir al-Din al-Albani: SilsilaDacifa",
+  "author": "modern",
+  "strand": "grading",
+  "scholar": "Muhammad Nasir al-Din al-Albani",
+  "role": "modern grading: weak and forged hadith",
+  "layer": "modern",
+  "attribution": "secure",
+  "category": "modern",
+  "source_type": "ocr_uncorrected",
+  "note": "modern canon, grading (modern grading: weak and forged hadith); MODERN layer (not classical); archive.org daifaa14; Silsilat al-ahadith al-daʿifa wa-l-mawduʿa, 14 vols with indexes; modern (d. 1420/1999)"
+ },
+ {
+  "key": "modern.1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi",
+  "work": "Muhammad Nasir al-Din al-Albani: SahihWaDacifSunanTirmidhi",
+  "author": "modern",
+  "strand": "grading",
+  "scholar": "Muhammad Nasir al-Din al-Albani",
+  "role": "modern grading of al-Tirmidhi",
+  "layer": "modern",
+  "attribution": "secure",
+  "category": "modern",
+  "source_type": "typed",
+  "note": "modern canon, grading (modern grading of al-Tirmidhi); MODERN layer (not classical); OpenITI 1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.Shamela0000782-ara1; his verdict on each hadith of al-Tirmidhi's Sunan"
+ },
+ {
+  "key": "modern.1420MuhammadNasirDinAlbani.SahihAdabMufrad",
+  "work": "Muhammad Nasir al-Din al-Albani: SahihAdabMufrad",
+  "author": "modern",
+  "strand": "grading",
+  "scholar": "Muhammad Nasir al-Din al-Albani",
+  "role": "modern grading of al-Bukhari's Adab",
+  "layer": "modern",
+  "attribution": "secure",
+  "category": "modern",
+  "source_type": "typed",
+  "note": "modern canon, grading (modern grading of al-Bukhari's Adab); MODERN layer (not classical); OpenITI 1420MuhammadNasirDinAlbani.SahihAdabMufrad.Shamela0001341-ara1; the sound part of al-Adab al-mufrad"
+ },
+ {
+  "key": "modern.1420MuhammadNasirDinAlbani.DacifAdabMufrad",
+  "work": "Muhammad Nasir al-Din al-Albani: DacifAdabMufrad",
+  "author": "modern",
+  "strand": "grading",
+  "scholar": "Muhammad Nasir al-Din al-Albani",
+  "role": "modern grading of al-Bukhari's Adab",
+  "layer": "modern",
+  "attribution": "secure",
+  "category": "modern",
+  "source_type": "typed",
+  "note": "modern canon, grading (modern grading of al-Bukhari's Adab); MODERN layer (not classical); OpenITI 1420MuhammadNasirDinAlbani.DacifAdabMufrad.Shamela0001346-ara1; the weak part of al-Adab al-mufrad"
+ },
+ {
+  "key": "modern.1377AhmadMuhammadShakir.BacithHathith",
+  "work": "Ahmad Muhammad Shakir: BacithHathith",
+  "author": "modern",
+  "strand": "method",
+  "scholar": "Ahmad Muhammad Shakir",
+  "role": "modern hadith methodology",
+  "layer": "modern",
+  "attribution": "secure",
+  "category": "modern",
+  "source_type": "typed",
+  "note": "modern canon, method (modern hadith methodology); MODERN layer (not classical); OpenITI 1377AhmadMuhammadShakir.BacithHathith.Shamela0021571-ara1; al-Baʿith al-hathith, his commentary on Ibn Kathir's abridgment of Ibn al-Salah"
+ }
+]

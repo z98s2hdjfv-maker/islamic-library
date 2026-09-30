@@ -1,0 +1,9 @@
+folder	layer	strand	book	scholar	role	note	source	version	item	file_base
+grading	classical	critic of al-Hakim	0405HakimNaysaburi.Mustadrak	al-Hakim, with al-Dhahabi's Talkhis	grading check	the Mustadrak with al-Dhahabi's Talkhis printed after each hadith ([التعليق - من تلخيص الذهبي]); al-Dhahabi is the standard check on al-Hakim's lenient gradings	openiti	0405HakimNaysaburi.Mustadrak.Shamela0002266-ara1		
+grading	classical	zawaid	0807NurDinHaythami.MajmacZawaid	Nur al-Din al-Haythami	grading of hadith beyond the six books	grades each chain of Ahmad, Abu Yaʿla, al-Bazzar and al-Tabarani's three Muʿjams	openiti			
+grading	classical	takhrij	0852IbnHajarCasqalani.TalkhisHabir	Ibn Hajar al-Asqalani	grading of the legal hadith	takhrij of the hadith in al-Rafiʿi's Shafiʿi fiqh, with gradings	openiti			
+grading	classical	takhrij	0762IbnYusufZaylaci.NasbRaya	Jamal al-Din al-Zaylaʿi	grading of the legal hadith	takhrij of the hadith in al-Hidaya (Hanafi), with gradings	openiti			
+grading	classical	zawaid	0840ShihabDinBusiri.IthafKhayra	Shihab al-Din al-Busiri	grading of the ten musnads	zawaʾid of ten musnads beyond the six books, graded	openiti			
+grading	classical	zawaid	0840ShihabDinBusiri.MisbahZujaja	Shihab al-Din al-Busiri	grading of Ibn Maja's additions	Ibn Maja's hadith not in the other five books, graded	openiti			
+grading	classical	popular sayings	0902Sakhawi.MaqasidHasana	Shams al-Din al-Sakhawi	grading of sayings current on people's tongues	which popular 'hadith' are sound, weak or baseless	openiti			
+grading	classical	forgeries	0748Dhahabi.TalkhisMawducatIbnJawzi	al-Dhahabi	abridgment of Ibn al-Jawzi's forgeries	al-Dhahabi's check on Ibn al-Jawzi's Mawduʿat	openiti			
