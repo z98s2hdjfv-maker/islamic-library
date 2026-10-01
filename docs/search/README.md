@@ -102,3 +102,11 @@ is found by "فالكلم اسم وفعل", and vowelled or hamzated queries fin
 proclitic (و ف ب ل ك) unless --exact. `--folder`, `--work`, `--count`, `--json`, `--best-reading` (OCR works).
 It matches words, not roots; for roots use the index (`search.py --root`). The index's hadith hits now show
 the printed edition number: "↳ urn:hadith:0279Tirmidhi.Sunan:2105 (printed no. 2139 (Shakir / ʿAbd al-Baqi numbering))".
+
+## v39: textsearch.py fixes
+- It no longer crashes on the full Mathnawī records (corpus/mathnawi/full), whose `text` is a structured object
+  (the Persian hemistichs inside it); any other odd record is skipped and reported, never fatal.
+- A pre-check on the raw line skips non-matching records before decoding: the whole corpus in about 85 s instead of
+  4 minutes. It allows the spelling variants the normaliser unifies (Arabic and Persian ya/ha/kaf, hamza forms) and
+  vowel marks between letters; `--no-prefilter` turns it off, and our test queries gave identical results.
+- Piping into `head` ends quietly. Use `--folder` to narrow a search: seconds instead of a minute.

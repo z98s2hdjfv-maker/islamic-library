@@ -12,10 +12,10 @@ python3 pipeline/index/lookup.py --repo . --verse 24:35      # the Light verse: 
 python3 pipeline/index/lookup.py --repo . --verse 7:172      # the covenant (Tustari's column of light): 485 / 46
 python3 pipeline/index/lookup.py --repo . --verse 33:46      # "a light-giving lamp": 66 / 26
 python3 pipeline/index/lookup.py --repo . --verse 3:81       # the prophets' covenant to support him: 285 / 27
-python3 pipeline/index/lookup.py --repo . --concept haqiqa_muhammadiyya --work nur,ibnarabi   # 126 passages
-python3 pipeline/index/lookup.py --repo . --concept nur_muhammadi                              # 75 passages
+python3 pipeline/index/lookup.py --repo . --concept haqiqa_muhammadiyya --work nur,ibnarabi   # 143 passages
+python3 pipeline/index/lookup.py --repo . --concept nur_muhammadi                              # 84 passages
 ```
-Related concepts: `insan_kamil` (894), `aql_awwal` (452), `haba` (310), `ruh_muhammadi` (35), `kawn_jami` (44).
+Related concepts: `insan_kamil` (905), `aql_awwal` (480), `haba` (195, sense-filtered), `ruh_muhammadi` (35), `kawn_jami` (52).
 Index limit: 26:219 ("your movement among those who prostrate") is too short (3 words) for the verse index; read
 it in al-Qasṭallānī directly (below).
 

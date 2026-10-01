@@ -80,7 +80,7 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
 - References: `beneito2024_secret_names` (Arabic of the Kashf), `kazi2018_unveiling_names`, `ali2020_horizons`.
 
 ## 9. Open questions for the next sessions
-1. The Greatest Name (*al-ism al-aʿẓam*): 257 passages (`--concept ism_azam`); Bursevi, al-Munāwī, al-Qayṣarī, al-Rāzī.
+1. The Greatest Name (*al-ism al-aʿẓam*): 299 passages (`--concept ism_azam`); Bursevi, al-Munāwī, al-Qayṣarī, al-Rāzī.
 2. Ibn Taymiyya on the names (section 7).
 3. The "presences" of Futūḥāt ch. 558 name by name, against al-Ghazālī's servant's share.
 4. How the names relate to the Muhammadan Reality (nūr dossier, to come).

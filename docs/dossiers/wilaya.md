@@ -13,9 +13,8 @@ python3 pipeline/index/lookup.py --repo . --verse 18:65      # Khiḍr, "knowled
 python3 pipeline/index/lookup.py --repo . --concept abdal --work wilaya,ibnarabi,critics
 python3 pipeline/index/lookup.py --repo . --concept qutb --work wilaya,ibnarabi,nur
 ```
-Concepts: `qutb` 1,265 passages / 107 works (also the ordinary sense "axis"), `abdal` 1,114 / 130, `afrad` 1,268,
-`khatm_awliya` 344, `ghawth` 414, `nuqaba` 255, `nujaba` 114, `rijal_ghayb` 59, `awtad` 963 (mostly the Qur'an's
-"mountains as pegs" in the commentaries).
+Concepts (v38, sense-filtered; current counts in `reports/index/concept_summary.tsv`): `qutb` 505 passages / 72 works, `abdal` 1,233 / 146, `afrad` 121, `khatm_awliya` 351, `ghawth` 152, `nuqaba` 67, `nujaba` 79, `rijal_ghayb` 61, `awtad` 200. The filter drops the ordinary senses (the celestial
+pole, the Qur'an's "mountains as pegs", al-Daraqutni's *Afrad*); `--audit <concept> --raw` shows the unfiltered hits.
 
 ## 2. Ibn ʿArabī's map (Futūḥāt ch. 73, II:5–7; `ibnarabi/futuhat.arabiyya` r00768–r00770; typed)
 - Four prophets remain bodily alive: Idrīs, Ilyās, ʿĪsā, al-Khiḍr. "All of them are the *awtād*; two of them are the

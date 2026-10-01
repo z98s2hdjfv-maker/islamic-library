@@ -8,6 +8,10 @@ page markers) becomes a space. So "فالكلم: اسم، وفعل" is found by 
 with or without hamzas or harakat finds the same passages. Each query word may carry a proclitic (و ف ب ل ك)
 unless --exact. OCR works can be searched by their best reading (--best-reading, apparatus/best_reading).
 It matches words, not roots: for root search use the search index (search.py --root).
+v39: reads records whose text is structured (the full Mathnawi: hemistichs inside a dict), and never crashes on an
+odd record: it is skipped and reported. A fast pre-check on the raw line (spelling variants and vowel marks allowed)
+skips non-matching records before decoding: the whole corpus in about 85 s instead of 4 min; --folder is faster
+still. --no-prefilter decodes everything (for checking; results are identical in our tests).
 
   python3 pipeline/search/textsearch.py "فالكلم اسم وفعل" --folder lugha
   python3 pipeline/search/textsearch.py "لا يرد القضاء الا الدعاء" --folder hadith,kalam --limit 20
@@ -29,10 +33,32 @@ def clean(t):
     return " ".join(NONLETTER.sub(" ", norm(t or "")).split())
 
 
+def flat(v):
+    """any JSON value -> its text: strings joined; lists joined with " / " (hemistichs); dicts by their values
+    (the full Mathnawi records hold {"source": {"lang", "edition", "hemistichs": [...]}})."""
+    if isinstance(v, str): return v
+    if isinstance(v, list): return " / ".join(flat(x) for x in v)
+    if isinstance(v, dict):
+        if "hemistichs" in v: return flat(v["hemistichs"])
+        return " ".join(flat(x) for k, x in v.items() if k not in ("lang", "edition"))
+    return ""
+
+
+VAR = {"ا": "اأإآٱﺍ", "ي": "يىئیےې", "ه": "هةۀەہھ", "و": "وؤۆ", "ك": "كکګ", "ء": "ءأإؤئ"}
+GAP = "[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640\u200c]*"
+
+
+def prefilter(words):
+    """a fast regex on the raw JSON line, before decoding: the longest query word, letter by letter, allowing any
+    spelling variant the normaliser unifies and any vowel marks or tatweel between letters."""
+    w = max(words, key=len)
+    return re.compile(GAP.join(f"[{re.escape(VAR.get(ch, ch))}]" for ch in w))
+
+
 def text_of(r):
-    if r.get("hemistichs"): return " / ".join(r["hemistichs"])
+    if r.get("hemistichs"): return flat(r["hemistichs"])
     if "hemistich_1" in r: return f'{r["hemistich_1"]} / {r["hemistich_2"]}'
-    return r.get("text") or r.get("text_raw") or ""
+    return flat(r.get("text")) or flat(r.get("text_raw"))
 
 
 def main():
@@ -43,6 +69,7 @@ def main():
     ap.add_argument("--exact", action="store_true", help="no proclitics on the query words")
     ap.add_argument("--best-reading", action="store_true", help="search OCR records by their best reading where one exists")
     ap.add_argument("--limit", type=int, default=15); ap.add_argument("--context", type=int, default=120)
+    ap.add_argument("--no-prefilter", action="store_true", help="decode every record (slower; for checking)")
     ap.add_argument("--count", action="store_true", help="only counts per work"); ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
     q = clean(a.query).split()
@@ -58,13 +85,19 @@ def main():
         for p in glob.glob(os.path.join(a.repo, "apparatus/best_reading/*.jsonl.gz")):
             for l in gzip.open(p, "rt", encoding="utf-8"):
                 r = json.loads(l); readings[r["id"]] = r["reading"]
-    hits, per = [], collections.Counter()
+    hits, per, skipped = [], collections.Counter(), collections.Counter()
+    pre = prefilter(q)
     for p in files:
         wk = os.path.relpath(p, root).replace(os.sep, ".").split(".jsonl")[0]
         op = gzip.open if p.endswith(".gz") else open
         with op(p, "rt", encoding="utf-8") as f:
-            for line in f:
-                r = json.loads(line); t = clean(readings.get(r.get("id")) or text_of(r))
+            first = f.readline(); escaped = "\\u06" in first or a.no_prefilter   # escapes or --no-prefilter: no raw pre-check
+            for line in ([first] + list(f)) if escaped else __import__("itertools").chain([first], f):
+                if not escaped and not pre.search(line): continue
+                try:
+                    r = json.loads(line); t = clean(readings.get(r.get("id")) or text_of(r))
+                except Exception:          # one odd record never stops the search; it is counted and reported
+                    skipped[wk] += 1; continue
                 m = pat.search(t)
                 if not m: continue
                 per[wk] += 1
@@ -73,8 +106,9 @@ def main():
                     hits.append(dict(id=r.get("id"), work=wk, loc=" ".join(f"{k}={r[k]}" for k in LOC if r.get(k) not in (None, "")),
                                      best_reading=r.get("id") in readings, match=t[s0:e0]))
     if a.json:
-        print(json.dumps(dict(query=" ".join(q), total=sum(per.values()), per_work=per, hits=hits), ensure_ascii=False, indent=1)); return
+        print(json.dumps(dict(query=" ".join(q), total=sum(per.values()), per_work=per, skipped=skipped, hits=hits), ensure_ascii=False, indent=1)); return
     print(f'"{" ".join(q)}": {sum(per.values())} records in {len(per)} works ({len(files)} files searched)')
+    if skipped: print(f"  (skipped {sum(skipped.values())} unreadable records in {len(skipped)} files: {', '.join(skipped)})")
     for wk, n in per.most_common(): print(f"  {n:6d}  {wk}")
     for h in hits:
         print(f"\n{h['id']}  [{h['work']}{' · best reading' if h['best_reading'] else ''}]" + (f"  @ {h['loc']}" if h["loc"] else ""))
@@ -82,4 +116,6 @@ def main():
 
 
 if __name__ == "__main__":
+    import signal
+    signal.signal(signal.SIGPIPE, signal.SIG_DFL)   # piping into head etc. ends quietly, not with a traceback
     main()
