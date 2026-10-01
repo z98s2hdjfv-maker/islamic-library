@@ -159,6 +159,7 @@ jami.arbain.a	jami	Jami, Risala-yi arba'in	secure	primary	ganjoor	Persian; ganjo
 jami.baharistan.b	jami	Jami, Baharistan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/baharistan.b.jsonl	1260
 jami.diwan.d	jami	Jami, Divan	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/diwan.d.jsonl	16685
 jami.haftawrang.h	jami	Jami, Haft awrang	secure	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jami/haftawrang.h.jsonl	22294
+jilani.0713Shattanawfi.BahjatAsrar	jilani	Nur al-Din al-Shattanawfi: BahjatAsrar	secure	primary	ocr_uncorrected	bahja canon, hagiography (the earliest major source on al-Jilani); archive.org Bahjat_al-Asrar; Bahjat al-asrar wa-maʿdan al-anwar: his sayings and life, transmitted with chains; archive.org OCR (88% clean words), with two witness scans	corpus/jilani/0713Shattanawfi.BahjatAsrar.jsonl.gz	527
 jilani.diwan	jilani	Diwan Ghawth al-A'zam	doubtful	primary	shamela	Diwan attributed to al-Jilani	corpus/jilani/diwan.jsonl	51
 jilani.diwan.gh	jilani	Divan attributed to 'Abd al-Qadir al-Jilani: ghazals	doubtful	primary	ganjoor	Persian; ganjoor-data a64968e7; works_summary_v7.json	corpus/jilani/diwan.gh.jsonl	641
 jilani.fathrabbani	jilani	al-Fath al-rabbani wa-l-fayd al-rahmani	secure	primary	shamela	ed. al-Sayih and Wahba, Cairo; Shamela page numbers follow the print	corpus/jilani/fathrabbani.jsonl	377

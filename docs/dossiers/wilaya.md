@@ -3,7 +3,7 @@
 > **A map, not an answer.** This dossier says where the library's evidence is. Before answering a study question, query the repo itself (see `START_HERE.md`): run the verse or concept lookup, open the cited records, and search the hadith layer and the grading works. Cite from the files, not from this page.
 
 *Who keeps "the tent upright": the Friends of God, the ranks the Sufis describe, the reports behind them and the
-critics.* Repo state: v31. Load into the Claude Project. Record ids are the last part of each corpus `id`.
+critics.* Repo state: v42 (pages corrected). Load into the Claude Project. Record ids are the last part of each corpus `id`.
 
 ## 1. Start here
 ```
@@ -36,14 +36,14 @@ pole, the Qur'an's "mountains as pegs", al-Daraqutni's *Afrad*); `--audit <conce
 
 ## 4. The reports and their critics
 - **Musnad 896** (forty in Shām, via Shurayḥ b. ʿUbayd from ʿAlī): Shurayḥ is *thiqa* but sends much (*irsāl*;
-  Taqrīb 2775); Muḥammad b. ʿAwf of Ḥimṣ doubted he heard from any Companion (Tahdhīb al-kamāl XII:445). Broken chain.
+  Taqrīb 2775); Muḥammad b. ʿAwf of Ḥimṣ doubted he heard from any Companion (Tahdhīb al-kamāl XII:445†). Broken chain.
 - **Not in al-Bukhārī or Muslim** at all.
 - **Abū Bakr al-Kattānī's ranks**: 300 nuqabāʾ (Maghrib), 70 nujabāʾ (Egypt), 40 budalāʾ (Shām), 7 akhyār,
   4 ʿumud, 1 ghawth (Mecca): `wilaya/0463…TarikhBaghdad` p10763. The rank names vary between sources.
 - **Ibn ʿAsākir** gathers the Shām reports with parallel chains (`wilaya/0571…TarikhDimashq` p01172).
 - **Against:** Ibn al-Jawzī (*Mawḍūʿāt*: fabricated); Ibn al-Qayyim (`…ManarMunif` p00499: all such reports false);
   Ibn Taymiyya: a Shāmī report with a broken chain; early Mecca had fewer than seven believers, so fixed numbers
-  cannot hold in every age (Majmūʿ XI:432); the "cascade" of help to a Ghawth competes with tawḥīd (XXVII:96);
+  cannot hold in every age (Majmūʿ XI:432†); the "cascade" of help to a Ghawth competes with tawḥīd (XXVII:96†);
   no numbered report is sound (`…FurqanBaynaAwliya` p00081). Ibn Khaldūn: modelled on the Shīʿī imām (`…Tarikh` p00987).
 - **For:** al-Suyūṭī, *al-Khabar al-dāll* (`…HawiLiFatawi` p00620); via al-Kattānī: sound, even *mutawātir* in meaning
   (`…NazmMutanathir` p00925). Aḥmad b. Ḥanbal: "if the people of ḥadīth are not the abdāl, I know of no abdāl" (p00018).
@@ -75,3 +75,5 @@ pole, the Qur'an's "mountains as pegs", al-Daraqutni's *Afrad*); `--audit <conce
 1. The 313 of the Mahdī (Ibn Abī Shayba 37223, "as the number of Badr") against the abdāl reports.
 2. al-Qayṣarī ch. 9 (nūr dossier) as the bridge from the Muhammadan Reality to the Poles.
 3. Ibn Taymiyya's positive reading of *wilāya* (al-Furqān) as a whole, not only his critique.
+
+† Page read before v42 and not yet re-checked (no record id here): OpenITI page markers end a page, so it may be one page early. Confirm with `python3 pipeline/search/cite.py <record_id> "<phrase>"`.

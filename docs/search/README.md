@@ -110,3 +110,11 @@ the printed edition number: "↳ urn:hadith:0279Tirmidhi.Sunan:2105 (printed no.
   4 minutes. It allows the spelling variants the normaliser unifies (Arabic and Persian ya/ha/kaf, hamza forms) and
   vowel marks between letters; `--no-prefilter` turns it off, and our test queries gave identical results.
 - Piping into `head` ends quietly. Use `--folder` to narrow a search: seconds instead of a minute.
+
+## v42: exact pages
+OpenITI marks page boundaries with `PageV18P056` (or `PageEndV18P494`); both mark the END of that page. Checked against
+the Shamela Futuhat, which carries printed pages: the printed page was the marker's page + 1 in 116 of 119 passages.
+So a record starts on `page_before + 1`, and a passage inside a long record is on 1 + the last marker before it.
+lookup.py, search.py and textsearch.py now print the true `page`; `pipeline/search/cite.py <record_id> "<phrase>"`
+gives the exact page of any phrase. Record ids are unchanged, so nothing that cites them breaks. Citations made
+before v42 from `page_before` are one page early (more inside long records); the dossiers and the sijill are corrected.

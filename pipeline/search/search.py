@@ -54,7 +54,8 @@ def fts_term(t):
 LEVELS = ["unmatched", "divergent", "partial", "corroborated", "verified"]
 TYPED = ("ganjoor", "openiti", "shamela", "typed")
 LOC_FIELDS = ("vol", "part", "page_before", "page", "leaf", "printed_page", "poem_number")
-LOC_SQL = "rtrim(" + " || ".join(f"COALESCE('{k}=' || ul.{k} || ' ', '')" for k in LOC_FIELDS) + ")"
+LOC_SQL = "rtrim(" + " || ".join(("COALESCE('page=' || (ul.page_before + 1) || ' ', '')" if k == "page_before" else f"COALESCE('{k}=' || ul.{k} || ' ', '')")
+                                 for k in LOC_FIELDS) + ")"   # v42: OpenITI page markers end a page, so the record starts on page_before + 1
 
 
 def has_table(db, t):

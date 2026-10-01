@@ -31,6 +31,9 @@ don't cover, and say which is which.
 - **Start from what exists:** the dossiers, `sijill/views/` (earlier findings) and the indexes before new searches.
 
 ## 4. Cite properly
+- **Pages (v42):** OpenITI page markers mark the END of a page, so a record starts on `page_before + 1`; lookup,
+  search and textsearch now print the true `page`. For a sentence inside a long record, get its exact page with
+  `python3 pipeline/search/cite.py <record_id> "<phrase>"` (al-Tamhid's whole fitra chapter, 18:57-97, is one record).
 - Give the record id (uid) and locator (vol/page or leaf/printed page), the author's death year, and for OCR
   texts the collation level. Say "best reading" when you quote a corrected reading.
 - Keep layers apart: **classical grades** (in the texts, and al-Dhahabi's Talkhis) versus **modern grades**

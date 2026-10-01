@@ -57,6 +57,17 @@ def prefilter(words):
     return re.compile(GAP.join(f"[{re.escape(VAR.get(ch, ch))}]" for ch in w))
 
 
+def exact_loc(r, pat):
+    """v42: the exact page of the match. OpenITI page markers END a page (pages.py), so the record starts on
+    page_before + 1 and a match further in is on 1 + the last marker before it."""
+    from pages import segments, fmt
+    if isinstance(r.get("page_before"), int):
+        for v, p, t in segments(r):
+            if pat.search(clean(t)): return f"vol={v} page={p}" if v is not None else f"page={p}"
+        return f"vol={r.get('vol')} page={r['page_before'] + 1}ff"
+    return " ".join(f"{k}={r[k]}" for k in LOC if r.get(k) not in (None, ""))
+
+
 def text_of(r):
     if r.get("hemistichs"): return flat(r["hemistichs"])
     if "hemistich_1" in r: return f'{r["hemistich_1"]} / {r["hemistich_2"]}'
@@ -108,7 +119,7 @@ def main():
                     per[qi][wk] += 1
                     if not a.count and len(hits[qi]) < a.limit:
                         s0, e0 = max(0, m.start() - a.context), min(len(t), m.end() + a.context)
-                        hits[qi].append(dict(id=r.get("id"), work=wk, loc=" ".join(f"{k}={r[k]}" for k in LOC if r.get(k) not in (None, "")),
+                        hits[qi].append(dict(id=r.get("id"), work=wk, loc=exact_loc(r, pat),
                                              best_reading=r.get("id") in readings, match=t[s0:e0]))
     if a.json:
         res = [dict(query=" ".join(q), total=sum(per[i].values()), per_work=per[i], hits=hits[i]) for i, q in enumerate(qs)]

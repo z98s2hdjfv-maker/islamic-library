@@ -1,33 +1,35 @@
 work	witness	relation	ocr_nonwords_aligned	share_reproduced	used	note
-aflaki.manaqib.yazici_ocr	aflaki_b	other_edition	34193	0.464	yes	
-hanafi.0321Tahawi.Mukhtasar	tahawi_kraken2021	other_edition	1138	0.091	yes	
-ibnarabi.fusus.nizamaldin_ocr	fusus_textlayer	same_edition_rescan	6003	0.054	yes	
+aflaki.manaqib.yazici_ocr	aflaki_b	other_edition	34154	0.464	yes	
+hanafi.0321Tahawi.Mukhtasar	tahawi_kraken2021	other_edition	1134	0.09	yes	
+ibnarabi.fusus.nizamaldin_ocr	fusus_textlayer	same_edition_rescan	6001	0.053	yes	
 ibnarabi.fusus.nizamaldin_ocr	fusus_kraken	other_edition	1761	0.0	yes	
-ibnarabi.futuhat.mansub_ocr	futuhat_shamela	other_edition_typed	148056	0.0	yes	same text as futuhat_jk: one vote together
-ibnarabi.futuhat.mansub_ocr	futuhat_jk	other_edition_typed	147500	0.0	yes	
-kalam.0792Taftazani.SharhCaqaidNasafiyya	nasafiyya_shamela	other_edition	1371	0.019	yes	
-kalam.1276Bajuri.TuhfatMurid	bajuri_halabi	other_edition	1451	0.057	yes	
-nur.0587ShihabDinSuhrawardi.HikmatIshraq	ishraq_b	same_edition_rescan	3324	0.447	no	reproduces 45% of the OCR's non-words: same printing and engine
+ibnarabi.futuhat.mansub_ocr	futuhat_shamela	other_edition_typed	147901	0.0	yes	same text as futuhat_jk: one vote together
+ibnarabi.futuhat.mansub_ocr	futuhat_jk	other_edition_typed	147346	0.0	yes	
+jilani.0713Shattanawfi.BahjatAsrar	bahja_2025	other_scan	8409	0.273	yes	
+jilani.0713Shattanawfi.BahjatAsrar	bahja_2024	other_edition	984	0.089	yes	
+kalam.0792Taftazani.SharhCaqaidNasafiyya	nasafiyya_shamela	other_edition	1370	0.018	yes	
+kalam.1276Bajuri.TuhfatMurid	bajuri_halabi	other_edition	1449	0.056	yes	
+nur.0587ShihabDinSuhrawardi.HikmatIshraq	ishraq_b	same_edition_rescan	3309	0.446	no	reproduces 45% of the OCR's non-words: same printing and engine
 nur.0673AbuMacaliQunawi.RisalatNusus	nusus_a	other_edition	740	0.061	yes	
-nur.0699SacidDinFarghani.MuntahaMadarik	farghani_ed2	other_edition	5532	0.18	yes	
-nur.0699SacidDinFarghani.MuntahaMadarik	farghani_old	other_edition	5508	0.045	yes	
-nur.0736CabdRazzaqQashani.KashfWujuhGhurr	kashf_b	other_edition	2583	0.189	yes	
-nur.0736CabdRazzaqQashani.SharhFusus	qashani_9979	other_edition	16866	0.825	no	reproduces 83% of the OCR's non-words: same printing and engine
-nur.0736CabdRazzaqQashani.SharhFusus	qashani_111	other_edition	7951	0.02	yes	
-nur.0751DawudQaysari.SharhTaiyya	qaysari_taiyya_b	other_edition	3893	0.23	yes	
-nur.0805CabdKarimJili.InsanKamil	jili_b	other_edition	5454	0.271	yes	
-nur.0805CabdKarimJili.InsanKamil	jili_c	other_edition	2304	0.071	yes	
-nur.0805CabdKarimJili.KamalatIlahiyya	kamalat_b	other_edition	560	0.496	no	reproduces 50% of the OCR's non-words: same printing and engine
-wilaya.0628IbnZayyat.Tashawwuf	tashawwuf_a	other_edition	6284	0.234	yes	
-wilaya.0628IbnZayyat.Tashawwuf	tashawwuf_b	other_edition	6157	0.275	yes	
-wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_a	other_edition	1661	0.089	yes	
-wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_b	other_edition	1406	0.091	yes	
-wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_c	other_edition	2385	0.182	yes	
-wilaya.0768Yafici.RawdRayahin	rawd_a	other_edition	4692	0.17	yes	
-wilaya.0808IbnKhaldun.ShifaSail	shifa_a	other_edition	1890	0.099	yes	
-wilaya.0808IbnKhaldun.ShifaSail	shifa_b	other_edition	2108	0.095	yes	
-wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_a	other_edition	1355	0.117	yes	
-wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_b	other_edition	1299	0.107	yes	
-wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_c	other_edition	1371	0.122	yes	
-wilaya.1031CabdRaufMunawi.KawakibDurriyya	kawakib_sader	other_edition	15342	0.28	yes	
-wilaya.1031CabdRaufMunawi.KawakibDurriyya	kawakib_hamdan	other_edition	8358	0.136	yes	
+nur.0699SacidDinFarghani.MuntahaMadarik	farghani_ed2	other_edition	5521	0.179	yes	
+nur.0699SacidDinFarghani.MuntahaMadarik	farghani_old	other_edition	5493	0.045	yes	
+nur.0736CabdRazzaqQashani.KashfWujuhGhurr	kashf_b	other_edition	2580	0.188	yes	
+nur.0736CabdRazzaqQashani.SharhFusus	qashani_9979	other_edition	16849	0.825	no	reproduces 82% of the OCR's non-words: same printing and engine
+nur.0736CabdRazzaqQashani.SharhFusus	qashani_111	other_edition	7943	0.02	yes	
+nur.0751DawudQaysari.SharhTaiyya	qaysari_taiyya_b	other_edition	3888	0.229	yes	
+nur.0805CabdKarimJili.InsanKamil	jili_b	other_edition	5440	0.27	yes	
+nur.0805CabdKarimJili.InsanKamil	jili_c	other_edition	2294	0.068	yes	
+nur.0805CabdKarimJili.KamalatIlahiyya	kamalat_b	other_edition	558	0.495	no	reproduces 49% of the OCR's non-words: same printing and engine
+wilaya.0628IbnZayyat.Tashawwuf	tashawwuf_a	other_edition	6276	0.234	yes	
+wilaya.0628IbnZayyat.Tashawwuf	tashawwuf_b	other_edition	6147	0.275	yes	
+wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_a	other_edition	1658	0.088	yes	
+wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_b	other_edition	1405	0.091	yes	
+wilaya.0709IbnCataAllahSikandari.LataifMinan	lataif_c	other_edition	2382	0.181	yes	
+wilaya.0768Yafici.RawdRayahin	rawd_a	other_edition	4689	0.169	yes	
+wilaya.0808IbnKhaldun.ShifaSail	shifa_a	other_edition	1888	0.099	yes	
+wilaya.0808IbnKhaldun.ShifaSail	shifa_b	other_edition	2106	0.095	yes	
+wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_a	other_edition	1354	0.117	yes	
+wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_b	other_edition	1298	0.107	yes	
+wilaya.0973CabdWahhabShacrani.KibritAhmar	kibrit_c	other_edition	1370	0.122	yes	
+wilaya.1031CabdRaufMunawi.KawakibDurriyya	kawakib_sader	other_edition	15327	0.28	yes	
+wilaya.1031CabdRaufMunawi.KawakibDurriyya	kawakib_hamdan	other_edition	8348	0.135	yes	

@@ -1,0 +1,17 @@
+{
+ "pinned": "2026-10-01",
+ "works": {
+  "0713Shattanawfi.BahjatAsrar": {
+   "item": "Bahjat_al-Asrar",
+   "volumes": [
+    {
+     "base": "بهجة الأسرار ومعدن الأنوار",
+     "text": "314a9ab350f6ca07f50d2fc06a5afef3",
+     "index": "61dab337fe70f871f422b92e297ce801",
+     "pages": "f87af56948910959026881d3f3745e05"
+    }
+   ],
+   "source_type": "ocr_uncorrected"
+  }
+ }
+}

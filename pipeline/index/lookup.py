@@ -91,7 +91,8 @@ def lookup(repo, verse, hows, chars, per_work, concept=None, works=()):
                     r = json.loads(l)
                     if r.get("id") in shown:
                         shown.discard(r["id"])
-                        loc = " ".join(f"{x}={r[x]}" for x in ("vol", "page_before", "page", "leaf", "printed_page") if r.get(x))
+                        pg = r.get("page") or (r["page_before"] + 1 if isinstance(r.get("page_before"), int) else None)  # v42: OpenITI markers end a page
+                        loc = " ".join(f"{x}={v}" for x, v in (("vol", r.get("vol")), ("page", pg), ("leaf", r.get("leaf")), ("printed_page", r.get("printed_page"))) if v)
                         how = next(x["how"] for x in rs if x["record_id"] == r["id"])
                         t = re.sub(r"\s+", " ", r.get("text") or r.get("text_raw") or "")[:chars]
                         print(f"- [{how}] {r['id'].split(':')[-1]} {loc} {('[' + level[r['id']] + ']') if r['id'] in level else ''}\n  {t}")

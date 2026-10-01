@@ -3,7 +3,7 @@
 > **A map, not an answer.** This dossier says where the library's evidence is. Before answering a study question, query the repo itself (see `START_HERE.md`): run the verse or concept lookup, open the cited records, and search the hadith layer and the grading works. Cite from the files, not from this page.
 
 *How the Names join creation to the Creator, why they were taught to Adam, and how we address Him by them.*
-Repo state: v30. Load this file into the Claude Project so a new chat starts here. Record ids below are the
+Repo state: v42 (pages corrected). Load this file into the Claude Project so a new chat starts here. Record ids below are the
 last part of each `id` in the corpus; open them with `pipeline/index/lookup.py`.
 
 ## 1. Start here (one command each)
@@ -21,7 +21,7 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
 ## 2. The ḥadīth base: settled and unsettled
 - **Sound:** "God has ninety-nine names; whoever enumerates them enters Paradise" (al-Bukhārī, Muslim), with no list.
 - **The list:** only in al-Tirmidhī (`0279Tirmidhi.Sunan` p09314), graded by him *gharīb*: "no other chain listing
-  the names is sound." Ibn Ḥajar (`asma/0852…TakhrijAhadithAsmaHusna` p00143, p. 12): the defect is "the
+  the names is sound." Ibn Ḥajar (`asma/0852…TakhrijAhadithAsmaHusna` p00143, p. 13): the defect is "the
   possibility that the list was inserted (*mudraj*) by one of the narrators."
 - **So:** the number is prophetic; the familiar list is very likely an early scholarly compilation. Several listed
   names do not occur in the Qur'an in that form (*al-Qābiḍ*, *al-Mudhill*, *al-Ḍārr*: see names.tsv), and Qur'anic
@@ -30,9 +30,9 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
 ## 3. What Adam was taught (2:31): three readings
 | Reading | Source | Status |
 |---|---|---|
-| The name of every thing, down to the humblest household objects | Ibn ʿAbbās in al-Ṭabarī I:514 (`p01741`, `p01742`) | typed |
-| The names of all his descendants | Ibn Zayd in al-Ṭabarī I:517 (`p01751`) | typed |
-| The names of his offspring and of the angels, since "He presented *them*" uses the pronoun for rational beings | al-Ṭabarī's own preference, I:517 (`p01751`) | typed |
+| The name of every thing, down to the humblest household objects | Ibn ʿAbbās in al-Ṭabarī I:515 (`p01741`, `p01742`) | typed |
+| The names of all his descendants | Ibn Zayd in al-Ṭabarī I:518 (`p01751`) | typed |
+| The names of his offspring and of the angels, since "He presented *them*" uses the pronoun for rational beings | al-Ṭabarī's own preference, I:518 (`p01751`) | typed |
 
 ## 4. Why Adam: the names seek a mirror
 - **Ibn ʿArabī, Fuṣūṣ ch. 1:** God willed, "through His Most Beautiful Names," to see their realities, His own
@@ -45,7 +45,7 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
   witness; check against Mukhtar Ali's edition).
 
 ## 5. How the names join Creator and creation
-- **al-Ghazālī** (`asma/0505Ghazali.MaqsadAsna` p00080, p. 44): "the servant's perfection and happiness lie in
+- **al-Ghazālī** (`asma/0505Ghazali.MaqsadAsna` p00080, p. 45): "the servant's perfection and happiness lie in
   taking on the character of God's traits and adorning himself with the meanings of His attributes and names,
   as far as is conceivable for him." Each name in the *Maqṣad* ends with the servant's share in it.
 - **Ibn ʿArabī, Kashf al-maʿnā** (`asma/0638IbnCarabi.KashfMacna` leaf 53; OCR, no witness; check against
@@ -55,7 +55,7 @@ Also: 20:8 (36 passages), 59:22 (346), 59:24 (76), and the names table `reports/
 - **Formula:** each name is His in reality, the world's as an effect, and the human's as a trait.
 
 ## 6. How we address Him
-- **al-Qushayrī, Laṭāʾif al-ishārāt** III:261 (`tafsir_sufi/…LataifIsharat` p00294): Adam was told "tell the angels
+- **al-Qushayrī, Laṭāʾif al-ishārāt** III:262 (`tafsir_sufi/…LataifIsharat` p00294): Adam was told "tell the angels
   what I taught you"; we are told, in effect, "converse with Me, My servant, with what I taught you." Prayer is
   *munājāt* (intimate converse).
 - **7:180** closes the circle: "To God belong the Most Beautiful Names, so call upon Him by them."

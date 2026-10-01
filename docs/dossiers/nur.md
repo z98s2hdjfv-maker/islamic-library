@@ -3,7 +3,7 @@
 > **A map, not an answer.** This dossier says where the library's evidence is. Before answering a study question, query the repo itself (see `START_HERE.md`): run the verse or concept lookup, open the cited records, and search the hadith layer and the grading works. Cite from the files, not from this page.
 
 *How the tradition describes the Prophet's ﷺ light as the first receiver of God's light, carried through Adam and the
-prophets, and continuing after him in the saints.* Repo state: v31. Load into the Claude Project. Record ids are the
+prophets, and continuing after him in the saints.* Repo state: v42 (pages corrected). Load into the Claude Project. Record ids are the
 last part of each corpus `id`; reproduce any line with `pipeline/index/lookup.py`.
 
 ## 1. Start here
@@ -25,13 +25,13 @@ it in al-Qasṭallānī directly (below).
 | Light from His light prostrates; a column of light "whose inside and outside is the very essence of Muhammad" stands a million years before creation | Sahl al-Tustarī (d. 283) on 7:172 | `tafsir_sufi/0283SahlTustari.Tafsir` p00715 | typed (compiled by his students) |
 | Adam "created from light"; the Prophet's body from Adam's clay; seekers from Adam's light, the sought from Muhammad's | same | p00719–p00721 | typed |
 | God discloses His light to the *habāʾ* (prime matter); each thing receives "as the corners of a house receive the lamp"; nearest is the Muhammadan reality, "called the Intellect" | Ibn ʿArabī, Futūḥāt ch. 6, I:118–19 | `ibnarabi/futuhat.arabiyya` r00119–r00120 | typed |
-| "From prophet to prophet, until I brought you forth as a prophet" (Ibn ʿAbbās on 26:219, via al-Bazzār) | al-Qasṭallānī, Mawāhib I:56 | `nur/0923…MawahibLaduniyya` p00208 | typed; chain not yet graded |
+| "From prophet to prophet, until I brought you forth as a prophet" (Ibn ʿAbbās on 26:219, via al-Bazzār) | al-Qasṭallānī, Mawāhib I:57 | `nur/0923…MawahibLaduniyya` p00208 | typed; chain not yet graded |
 | The Poles of every nation, Adam to Muhammad, named in Cordoba; "the single Pole is the spirit of Muhammad," supplying all prophets and Poles to the Resurrection | Futūḥāt ch. 14, I:150–52 | r00151–r00153 | typed |
 | The Muhammadan reality is "the form of the all-comprehensive name"; after prophecy is sealed, polehood passes to the saints, one always in the station, until the Seal; then the Hour | al-Qayṣarī, Muqaddima ch. 9 | `nur/0751…Qaysari.SharhFusus` leaves 145, 149 | OCR, no witness; check Ali 2020 |
 | "One from when existence began to eternity, varying in garments"; appears in each age in its most perfect; "not transmigration, God forbid" | al-Jīlī, al-Insān al-kāmil | `nur/0805…InsanKamil` leaves 215–216 | OCR, corroborated (0.89–0.93) |
 
 ## 3. The Light verse (24:35): three early readings of "His light"
-- **The believer:** Ubayy b. Kaʿb, Saʿīd b. Jubayr, al-Ḍaḥḥāk (al-Ṭabarī XVII:296–98).
+- **The believer:** Ubayy b. Kaʿb, Saʿīd b. Jubayr, al-Ḍaḥḥāk (al-Ṭabarī XVII:296–98†).
 - **Muhammad ﷺ:** Kaʿb al-Aḥbār to Ibn ʿAbbās (his own view, not a ḥadīth); al-Tustarī likewise.
 - **Sufi unfolding** (al-Sulamī, Ḥaqāʾiq): al-Kharrāz: niche = the Prophet's inner being, glass = his heart, lamp = the
   light placed in him, blessed tree = Ibrāhīm (the line of prophets). Al-Ghazālī, *Mishkāt*: "all the prophets are
@@ -43,8 +43,8 @@ it in al-Qasṭallānī directly (below).
 |---|---|
 | "I was a prophet while Adam was between spirit and body" | sound: al-Tirmidhī 3609 (*ḥasan ṣaḥīḥ gharīb*); al-Suyūṭī, *Khaṣāʾiṣ* gives its routes |
 | "…between water and clay" (Futūḥāt ch. 14's wording) | al-Sakhāwī, *Maqāṣid* 842: not found in that wording |
-| "The first thing God created was the light of your Prophet, O Jābir" | in no ḥadīth collection in the repo; al-Qasṭallānī (p00138, I:47) attributes it to ʿAbd al-Razzāq "with his chain" but gives none; al-Zurqānī (p00282–289) notes the dispute whether the Pen came first |
-| "The first thing God created was the Pen" | sound per al-Suyūṭī, *al-Ḥāwī* I:343 |
+| "The first thing God created was the light of your Prophet, O Jābir" | in no ḥadīth collection in the repo; al-Qasṭallānī (p00138, I:48) attributes it to ʿAbd al-Razzāq "with his chain" but gives none; al-Zurqānī (p00282–289) notes the dispute whether the Pen came first |
+| "The first thing God created was the Pen" | sound per al-Suyūṭī, *al-Ḥāwī* I:343† |
 | "The scholars of my community are like the prophets of Israel" (cited before Futūḥāt ch. 14) | al-Sakhāwī, *Maqāṣid* 702: no basis (Ibn Ḥajar, al-Damīrī, al-Zarkashī) |
 
 ## 5. The other voices
@@ -66,3 +66,5 @@ it in al-Qasṭallānī directly (below).
 1. Grade the al-Bazzār chain for 26:219 in the ḥadīth layer.
 2. Tustarī's triad (Muhammad, Adam, progeny) against Ibn ʿArabī's *habāʾ*: same structure, different language?
 3. al-Qayṣarī ch. 9 against Mukhtar Ali's edition (the first human check to log in `verification_log.tsv`).
+
+† Page read before v42 and not yet re-checked (no record id here): OpenITI page markers end a page, so it may be one page early. Confirm with `python3 pipeline/search/cite.py <record_id> "<phrase>"`.
