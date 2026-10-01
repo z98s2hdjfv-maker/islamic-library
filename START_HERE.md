@@ -12,7 +12,7 @@ don't cover, and say which is which.
 |---|---|
 | What does the library hold? | `catalogs/works_index.tsv`: key, author, work, attribution, category, source_type |
 | Every commentary on a verse, oldest first | `python3 pipeline/index/lookup.py --repo . --verse 7:172` |
-| A key term across the works | `python3 pipeline/index/lookup.py --repo . --concept qutb` (list: `reports/index/concept_summary.tsv`) |
+| A key term across the works | `python3 pipeline/index/lookup.py --repo . --concept qutb` (list and precision: `reports/index/concept_summary.tsv`, `concept_precision.tsv`; ambiguous terms are sense-filtered, still read the passage) |
 | A hadith and its grades | `zgrep` in `apparatus/hadith/*.jsonl.gz` (narrator, caliph, grades in the sources, parallels). **Cite the printed number** in `edition_numbers` where present (al-Tirmidhi: Shakir; al-Bukhari: Fath al-Bari), not the layer's own `number` |
 | Later classical critics | `apparatus/hadith_grades/` (al-Dhahabi on al-Hakim) and `corpus/grading/` (al-Haythami, Ibn Hajar, al-Zaylaʿi, al-Busiri, al-Sakhawi) |
 | Soul, grave, afterlife | `corpus/afterlife/` (Ibn al-Qayyim's Ruh, al-Qurtubi's Tadhkira, al-Suyuti, Ibn Rajab, al-Bayhaqi, Ibn Kathir, al-Ghazali's Durra) and al-Alusi in `corpus/tafsir/` |

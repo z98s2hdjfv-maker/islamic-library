@@ -1,40 +1,40 @@
-concept	label	area	arabic_forms	note
-qutb	the Pole	wilaya	القطب|قطب الاقطاب|الاقطاب	"also the ordinary sense ""axis"" (e.g. al-Ghazali's Mustasfa calls the legal sources aqtab); read the passage"
-ghawth	the Succour	wilaya	الغوث	
-awtad	the Pillars	wilaya	الاوتاد|العمد	"also the Qur'an's ""mountains as pegs"" (78:7) in the commentaries; the saints' sense is in the Sufi and wilaya works"
-abdal	the Substitutes	wilaya	الابدال|البدلاء	
-nujaba	the Nobles	wilaya	النجباء	
-nuqaba	the Chiefs	wilaya	النقباء	
-afrad	the Singular Ones	wilaya	الافراد|المفردون|المفردين	
-khatm_awliya	the Seal of the Saints	wilaya	ختم الاولياء|خاتم الاولياء|ختم الولايه|خاتم الولايه	
-wilaya	sainthood / friendship with God	wilaya	الولايه|اولياء الله	also political or legal guardianship in the critics and the law books
-rijal_ghayb	the Men of the Unseen	wilaya	رجال الغيب	
-nur_muhammadi	the Muhammadan Light	nur	النور المحمدي|نور محمد|نور نبيك	
-haqiqa_muhammadiyya	the Muhammadan Reality	nur	الحقيقه المحمديه	
-ruh_muhammadi	the Muhammadan Spirit	nur	الروح المحمدي	
-insan_kamil	the Perfect Human	nur	الانسان الكامل	
-kawn_jami	the comprehensive being	nur	الكون الجامع|كون جامع	
-aql_awwal	the First Intellect	nur	العقل الاول	
-qalam_ala	the Supreme Pen	nur	القلم الاعلي	
-haba	the Dust (prime matter)	nur	الهباء	
-hayula	prime matter (hyle)	nur	الهيولي	
-barzakh	the isthmus	nur	البرزخ	
-ayan_thabita	the fixed entities	asma	الاعيان الثابته	
-asma_husna	the Most Beautiful Names	asma	الاسماء الحسني	
-ism_azam	the Greatest Name	asma	الاسم الاعظم	
-takhalluq	taking on the divine traits	asma	التخلق|تخلق باخلاق الله	
-taalluq_tahaqquq	dependence and realisation	asma	التعلق والتحقق|تعلق وتحقق|التحقق والتخلق|تحقق وتخلق	Ibn Arabi's three relations with the names (Kashf al-mana)
-hadra	divine presence (of a name)	asma	حضره الاسم|الحضره الالهيه	
-tajalli	self-disclosure	asma	التجلي	very common in Ibn Arabi; narrow with lookup --work
-dhikr	remembrance	address	الذكر	very common word; narrow with lookup --work
-munajat	intimate converse	address	المناجاه|مناجاه	
-fana_baqa	annihilation and subsistence	path	الفناء والبقاء	
-qada_qadar	the decree (qadaʾ and qadar)	creed	القضاء والقدر|القضاء|القدر|قضاء الله|قدر الله	al-qadar also means 'measure' and Laylat al-Qadr; the Ashʿari and Maturidi schools define qadaʾ and qadar in opposite ways: read the passage
-muallaq_mubram	the suspended and the final decree	creed	المعلق|المبرم|القضاء المعلق|القضاء المبرم|القدر المعلق|القدر المبرم	how du'a and good deeds can change the decree while God's knowledge stays unchanged
-irada	the divine Will	creed	الاراده|ارادته|المشييه|مشييته	also human will; read the passage
-qudra	the divine Power	creed	القدره|قدرته	also human capacity (istitaʿa); read the passage
-lawh_mahfuz	the Preserved Tablet	creed	اللوح المحفوظ	see also umm_kitab (13:39)
-umm_kitab	the Mother of the Book	creed	ام الكتاب	13:39 and 43:4; also a name of al-Fatiha
-laysa_imkan	'nothing possible is more wondrous than what is'	creed	ليس في الامكان ابدع|ليس في الامكان احسن	al-Ghazali's line in the Ihyaʾ (tawakkul) and the later debate over it
-kasb	acquisition (kasb)	creed	الكسب|كسب العبد	the Ashʿari account of human acts; also ordinary 'earning'
-sifat_maani	the attributes of meaning	creed	صفات المعاني|الصفات السبع|صفات المعني	the seven (or eight) attributes in the Ashʿari scheme of thirteen
+concept	label	area	arabic_forms	note	cues	exclude
+qutb	the Pole	wilaya	القطب|قطب الاقطاب|الاقطاب	"also the ordinary sense ""axis"" (e.g. al-Ghazali's Mustasfa calls the legal sources aqtab); read the passage"	الأولياء|أولياء|الأقطاب|القطب|الغوث|الأوتاد|الأبدال|النجباء|النقباء|الأفراد|الإمامان|الإمامين|الأخيار|الخضر|القطبية|المحمدي|الحقيقة المحمدية	الرحى|الرحا|الجدي|بنات نعش|الشمال|الجنوب|الفلك|الشمالي|الجنوبي|أفق|الأفق|عرض البلد|المشرق|القبلة
+ghawth	the Succour	wilaya	الغوث		الأولياء|أولياء|الأقطاب|القطب|الغوث|الأوتاد|الأبدال|النجباء|النقباء|الأفراد|الإمامان|الإمامين|الأخيار|الخضر|القطبية|الغوثية|الجيلاني	استغاث|يستغيث|الاستغاثة|المستغيث|أغثنا|اغثني|المطر
+awtad	the Pillars	wilaya	الاوتاد|العمد	"also the Qur'an's ""mountains as pegs"" (78:7) in the commentaries; the saints' sense is in the Sufi and wilaya works"	الأولياء|أولياء|الأقطاب|القطب|الغوث|الأوتاد|الأبدال|النجباء|النقباء|الأفراد|الإمامان|الإمامين|الأخيار|الخضر|القطبية	الجبال|والجبال|جبال|الخيمة|الخباء|ترونها|بغير عمد|عمد ترونها|السماء بغير
+abdal	the Substitutes	wilaya	الابدال|البدلاء			الحروف|الهمزة|همزة|الواو|الياء|الألف|الإدغام|الإعلال|البدل|المبدل|الإعراب|ثمنه|بدله|البيع|الوقف|إدغام|ادغام|التقريب|الصاد|السين
+nujaba	the Nobles	wilaya	النجباء		الأولياء|أولياء|الأقطاب|القطب|الغوث|الأوتاد|الأبدال|النجباء|النقباء|الأفراد|الإمامان|الإمامين|الأخيار|الخضر|القطبية|سبعون|ثلاثمائة	
+nuqaba	the Chiefs	wilaya	النقباء		الأولياء|أولياء|الأقطاب|القطب|الغوث|الأوتاد|الأبدال|النجباء|النقباء|الأفراد|الإمامان|الإمامين|الأخيار|الخضر|القطبية|ثلاثمائة|سبعون	إسرائيل|العقبة|الأنصار|اثني عشر|اثنا عشر
+afrad	the Singular Ones	wilaya	الافراد|المفردون|المفردين		الأولياء|الأقطاب|القطب|الخضر|الملامية|الملامتية|الأوتاد|الأبدال|دائرة القطب|المقربين|الأمناء	الدارقطني|الطبراني|الجواهر|الجوهر|القضية|الكلي|الجزئي|أفرادها|الماهية|المجموع|ترتيب|العام|الخاص|الإفراد|التثنية|الجمع|الموضوع|الحديث
+khatm_awliya	the Seal of the Saints	wilaya	ختم الاولياء|خاتم الاولياء|ختم الولايه|خاتم الولايه			
+wilaya	sainthood / friendship with God	wilaya	الولايه|اولياء الله	also political or legal guardianship in the critics and the law books	الأولياء|أولياء|النبوة|الكرامات|الكرامة|المعرفة بالله|خاتم الأولياء|ختم الأولياء|الولاية الخاصة|الولاية العامة|الرسالة|النبي|الصديقين|المقربين	الأمير|الأمراء|السلطان|الوالي|ولاة|عزل|الخراج|الإمارة|القاضي|القضاء|تولية|النكاح|اليتيم|الوصي|المال|الحاكم|البلد|المدينة
+rijal_ghayb	the Men of the Unseen	wilaya	رجال الغيب			
+nur_muhammadi	the Muhammadan Light	nur	النور المحمدي|نور محمد|نور نبيك			
+haqiqa_muhammadiyya	the Muhammadan Reality	nur	الحقيقه المحمديه			
+ruh_muhammadi	the Muhammadan Spirit	nur	الروح المحمدي			
+insan_kamil	the Perfect Human	nur	الانسان الكامل			
+kawn_jami	the comprehensive being	nur	الكون الجامع|كون جامع			
+aql_awwal	the First Intellect	nur	العقل الاول			
+qalam_ala	the Supreme Pen	nur	القلم الاعلي			
+haba	the Dust (prime matter)	nur	الهباء		الهيولى|العقل|الصور|الصورة|الجوهر|الوجود|النور|العالم|الطبيعة|الكل|الأجسام|الفتح	منثورا|منبثا
+hayula	prime matter (hyle)	nur	الهيولي			
+barzakh	the isthmus	nur	البرزخ			
+ayan_thabita	the fixed entities	asma	الاعيان الثابته			
+asma_husna	the Most Beautiful Names	asma	الاسماء الحسني			
+ism_azam	the Greatest Name	asma	الاسم الاعظم			
+takhalluq	taking on the divine traits	asma	التخلق|تخلق باخلاق الله			
+taalluq_tahaqquq	dependence and realisation	asma	التعلق والتحقق|تعلق وتحقق|التحقق والتخلق|تحقق وتخلق	Ibn Arabi's three relations with the names (Kashf al-mana)		
+hadra	divine presence (of a name)	asma	حضره الاسم|الحضره الالهيه			
+tajalli	self-disclosure	asma	التجلي	very common in Ibn Arabi; narrow with lookup --work		
+dhikr	remembrance	address	الذكر	very common word; narrow with lookup --work		الأنثى|والأنثى|الذكور|الإناث|ذكر وأنثى
+munajat	intimate converse	address	المناجاه|مناجاه			
+fana_baqa	annihilation and subsistence	path	الفناء والبقاء			
+qada_qadar	the decree (qadaʾ and qadar)	creed	القضاء والقدر|القضاء|القدر|قضاء الله|قدر الله	al-qadar also means 'measure' and Laylat al-Qadr; the Ashʿari and Maturidi schools define qadaʾ and qadar in opposite ways: read the passage	الله|تعالى|سبحانه|الأزل|الأزلي|سبق|المقدور|الكتاب|القلم|اللوح|الدعاء|يرد|الإيمان|خيره|وشره|المكتوب|الإرادة|المشيئة|القدرية|الجبر|الاختيار|كتب|المقدر|الرضا|بالقضاء|بالقدر	الصلاة|الصوم|رمضان|الصيام|الفوائت|الفائتة|القاضي|القضاة|الحج|العمرة|عمرة|الدين|ديونه|ليلة|الحاكم|الشهود|الدعوى|المدعي|المدعى|الخصوم|تولى|البينة|الحكم بين|لفصل|مقدار|بمقدار
+muallaq_mubram	the suspended and the final decree	creed	القضاء المعلق|القضاء المبرم|قضاء مبرم|قضاء معلق|القدر المعلق|القدر المبرم|الاجل المعلق|الاجل المبرم|المعلق والمبرم|المبرم والمعلق|معلق ومبرم|مبرم ومعلق	how du'a and good deeds can change the decree while God's knowledge stays unchanged; v38: phrases only (the bare words also mean a hadith with a suspended chain, a hanging lamp)		
+irada	the divine Will	creed	الاراده|ارادته|المشييه|مشييته	also human will; read the passage	الله|تعالى|سبحانه|القديمة|الأزلية|صفة|صفات|القدرة|العلم|الباري|الحق|المشيئة|يخصص|تخصيص	
+qudra	the divine Power	creed	القدره|قدرته	also human capacity (istitaʿa); read the passage	الله|تعالى|سبحانه|القديمة|الأزلية|صفة|صفات|الإرادة|العلم|الباري|المقدور|الممكنات|الكسب|الإيجاد	
+lawh_mahfuz	the Preserved Tablet	creed	اللوح المحفوظ	see also umm_kitab (13:39)		
+umm_kitab	the Mother of the Book	creed	ام الكتاب	13:39 and 43:4; also a name of al-Fatiha		
+laysa_imkan	'nothing possible is more wondrous than what is'	creed	ليس في الامكان ابدع|ليس في الامكان احسن	al-Ghazali's line in the Ihyaʾ (tawakkul) and the later debate over it		
+kasb	acquisition (kasb)	creed	الكسب|كسب العبد	the Ashʿari account of human acts; also ordinary 'earning'	الأشعري|الأشاعرة|المعتزلة|الجبر|الجبرية|القدرة الحادثة|المقدور|أفعال العباد|الأفعال الاختيارية|الخلق والكسب|خلق الأفعال|الماتريدية	التجارة|البيع|المال|الصناعة|الحلال|المكاسب|الأجرة|التوكل|الرزق|المعاش|العمران|الصنائع|الأسعار
+sifat_maani	the attributes of meaning	creed	صفات المعاني|الصفات السبع|صفات المعني	the seven (or eight) attributes in the Ashʿari scheme of thirteen		

@@ -1,0 +1,8 @@
+concept	sample_folders	before_filter	after_filter	note
+qada_qadar	kalam,hadith,critics	8/12	10/12	misses before: 'this amount', a missed prayer, a divorce ruling; after: Day of Judgment, ʿUmrat al-qadaʾ (later excluded)
+muallaq_mubram	all	~26 of 1047 decree sense	phrases only	bare المعلق/المبرم were mostly a hadith with a suspended chain (al-Albani) and 'hanging'
+afrad	wilaya,sufi_manuals,critics,kalam,lugha	0/8	6/7	raw hits were al-Daraqutni's Afrad, logic, singular atoms; few true hits remain in these folders
+wilaya	wilaya,sufi_manuals,critics,kalam,lugha	5/8	10/10	governorship and guardianship excluded
+kasb	wilaya,sufi_manuals,critics,kalam,lugha	2/8	10/10	earning a living excluded; kept hits are the kalam sense
+abdal	wilaya,sufi_manuals,critics,kalam,lugha	7/8	9/10	exclusions only (cues cost recall); grammar 'substitution' then excluded too
+qutb	wilaya,sufi_manuals,critics,kalam,lugha	n/a	6/9	celestial north/south pole then excluded
