@@ -1,0 +1,20 @@
+corpus_path	function	layer	author	work	death_ah	note
+corpus/wilaya/0597IbnJawzi.Mawducat.jsonl.gz	fabrication	classical	Ibn al-Jawzi	al-Mawduʿat	597	the base collection of reports judged fabricated; filed under wilaya by topic
+corpus/grading/0748Dhahabi.TalkhisMawducatIbnJawzi.jsonl.gz	fabrication	classical	al-Dhahabi	Talkhis al-Mawduʿat	748	summary of Ibn al-Jawzi with al-Dhahabi's own verdicts
+corpus/rijal/0748Dhahabi.MizanIctidal.jsonl.gz	narrator_criticism	classical	al-Dhahabi	Mizan al-iʿtidal	748	weak narrators, with the reports held against them
+corpus/grading/0762IbnYusufZaylaci.NasbRaya.jsonl.gz	takhrij	classical	al-Zaylaʿi	Nasb al-raya	762	sourcing of the hadith in al-Hidaya (Hanafi law)
+corpus/ghazali/ihya_with_iraqi.jsonl	takhrij	classical	al-ʿIraqi	al-Mughni ʿan haml al-asfar (with the Ihyaʾ)	806	sourcing of the hadith in al-Ghazali's Ihyaʾ; the record holds al-Ghazali's text and al-ʿIraqi's notes together
+corpus/grading/0807NurDinHaythami.MajmacZawaid.jsonl.gz	grading	classical	al-Haythami	Majmaʿ al-zawaʾid	807	verdicts on the chains of hadith outside the Six Books
+corpus/grading/0840ShihabDinBusiri.MisbahZujaja.jsonl.gz	grading	classical	al-Busiri	Misbah al-zujaja	840	verdicts on Ibn Maja's additions
+corpus/grading/0840ShihabDinBusiri.IthafKhayra.jsonl.gz	grading	classical	al-Busiri	Ithaf al-khayra	840	verdicts on the additions of ten musnads
+corpus/grading/0852IbnHajarCasqalani.TalkhisHabir.jsonl.gz	takhrij	classical	Ibn Hajar	al-Talkhis al-habir	852	sourcing of the hadith in al-Rafiʿi (Shafiʿi law)
+corpus/asma/0852IbnHajarCasqalani.TakhrijAhadithAsmaHusna.jsonl.gz	takhrij	classical	Ibn Hajar	Takhrij ahadith al-asmaʾ al-husna	852	sourcing of the hadith of the Names
+corpus/grading/0902Sakhawi.MaqasidHasana.jsonl.gz	popular_sayings	classical	al-Sakhawi	al-Maqasid al-hasana	902	sayings current on people's tongues; the copy in corpus/wilaya is the same text and is not searched twice
+corpus/wilaya/0911Suyuti.LaaliMasnuca.jsonl.gz	fabrication	classical	al-Suyuti	al-Laʾali al-masnuʿa	911	review of Ibn al-Jawzi's verdicts, often softening them
+corpus/wilaya/1014MullaCaliQari.AsrarMarfuca.jsonl.gz	fabrication	classical	Mulla ʿAli al-Qari	al-Asrar al-marfuʿa	1014	fabricated and baseless sayings
+corpus/wilaya/1345IbnJacfarKattani.NazmMutanathir.jsonl.gz	mutawatir	classical	al-Kattani	Nazm al-mutanathir	1345	mass-transmitted hadith; late (d. 1345 AH) but in the classical method
+corpus/modern/1420Albani.SilsilaDacifa.jsonl.gz	grading	modern	al-Albani	Silsilat al-ahadith al-daʿifa	1420	OCR, uncorrected
+corpus/modern/1420Albani.SilsilaSahiha.jsonl.gz	grading	modern	al-Albani	Silsilat al-ahadith al-sahiha	1420	OCR, uncorrected
+corpus/modern/1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.jsonl.gz	grading	modern	al-Albani	Sahih wa-daʿif Sunan al-Tirmidhi	1420
+corpus/modern/1420MuhammadNasirDinAlbani.SahihAdabMufrad.jsonl.gz	grading	modern	al-Albani	Sahih al-Adab al-mufrad	1420
+corpus/modern/1420MuhammadNasirDinAlbani.DacifAdabMufrad.jsonl.gz	grading	modern	al-Albani	Daʿif al-Adab al-mufrad	1420
