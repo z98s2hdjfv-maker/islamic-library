@@ -1,0 +1,10 @@
+type	meaning	key fields (in data)
+voice	a person whose view is recorded: Prophet, Companion, Follower, master, later scholar or present-day speaker	death_ah (or born/active for the living), role, school, works (repo keys)
+source_event	something said or written that is examined: a lecture, a sermon, a book, an article	speaker (voice id), date, medium, url or reference
+study	one examination of a source_event against the library (usually one chat)	date, repo_version, method, share_from_repo
+inference	a claim or inference made in a source_event, stated neutrally	quote_or_summary
+question	the underlying question an inference raises, independent of who raised it	-
+position	where one voice stands on an inference or question: links held_by -> voice and affirms/qualifies/rejects -> inference or question	stance_summary
+verdict	the study's conclusion on an inference	holds | overstated | unsupported | wrong | mixed, plus reasoning
+open_question	what is still unresolved, and what would resolve it (a missing work, a needed witness, a further study)	needs
+topic	a theme that gathers questions (fitra, qadar, wilaya ...)	concepts (concept index ids), verses

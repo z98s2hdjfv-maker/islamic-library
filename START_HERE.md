@@ -23,7 +23,14 @@ don't cover, and say which is which.
 | Any word or phrase | `python3 pipeline/search/textsearch.py "<phrase>" --folder kalam,lugha` (ignores punctuation, vowels and hamza forms; no index needed; `--best-reading` for OCR works). Never raw `zgrep` for Arabic phrases; the full root-aware index is the `search-index` release asset (1.1 GB; `docs/search/README.md`) |
 | An OCR page's reliability | `reports/collation/confidence.tsv.gz` (level; every OCR work has one: `no_witness` means nothing to check it against) and `apparatus/best_reading/` (corrected reading) |
 
-## 3. Cite properly
+## 3. Work economically (every tool step re-reads the whole chat, so steps and long outputs cost most)
+- **Batch:** put several phrases in one search, one step: `textsearch.py "الفطرة" "لا تبديل" "عالم الذر" --folder fitra,tafsir --count`.
+- **Count first, then read a few:** `--count` shows where the hits are; then fetch only what you need with
+  `--limit 3 --context 80`. Never print whole files or long passages "to see".
+- **Narrow:** `--folder` and `--work` keep searches fast and outputs short. A sparse clone of the folders you need is enough.
+- **Start from what exists:** the dossiers, `sijill/views/` (earlier findings) and the indexes before new searches.
+
+## 4. Cite properly
 - Give the record id (uid) and locator (vol/page or leaf/printed page), the author's death year, and for OCR
   texts the collation level. Say "best reading" when you quote a corrected reading.
 - Keep layers apart: **classical grades** (in the texts, and al-Dhahabi's Talkhis) versus **modern grades**
@@ -31,6 +38,13 @@ don't cover, and say which is which.
 - Attribution flags in works_index.tsv (doubtful, spurious) must be stated when quoting those works.
 - If a claim is not in the repo, say so: "not in the library" is a finding, not a failure.
 
-## 4. Report the source mix
+## 5. Record what the study found (the sijill)
+End a study with a findings block for `sijill/entries/` (JSON lines; format and registries in docs/sijill/README.md):
+the source_event examined (speaker, date), each inference tested, each voice's position on it (affirms / qualifies /
+rejects) with the record ids you cited, a verdict per inference, and the open questions. Mark them `draft`. Cite record
+ids exactly as the repo gives them: the validator rejects any that do not resolve. Check `sijill/views/` first: if a
+voice's position is already recorded, link to it instead of repeating it.
+
+## 6. Report the source mix
 End study answers with the tracking table: share from the repo, from general knowledge, from the internet,
 and token cost.

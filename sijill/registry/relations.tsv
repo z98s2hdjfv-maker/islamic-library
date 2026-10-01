@@ -1,0 +1,16 @@
+relation	meaning
+affirms	the position supports the inference or question's answer
+qualifies	the position accepts part and limits or conditions it
+rejects	the position denies it
+held_by	the position belongs to this voice
+made_in	the inference was made in this source_event
+raises	the inference raises this question
+examines	the study examines this source_event
+concludes	the study (or verdict) concludes on this inference
+answers	this entry answers a question or open_question
+about	the entry belongs to this topic
+responds_to	this voice or position responds to another (e.g. Ibn al-Qayyim answering al-Tabari)
+supersedes	this entry replaces an earlier one (corrections never overwrite)
+same_as	two entries refer to the same thing
+needs	an open_question needs this (a work, a witness, a study)
+by	the source_event was given or written by this voice
