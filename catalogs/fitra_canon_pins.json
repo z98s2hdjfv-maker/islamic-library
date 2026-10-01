@@ -1,0 +1,32 @@
+{
+ "pinned": "2026-10-01",
+ "works": {
+  "0728IbnTaymiyya.DarTacarud": {
+   "version": "0728IbnTaymiyya.DarTacarud.JK000362-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0728IbnTaymiyya/0728IbnTaymiyya.DarTacarud/0728IbnTaymiyya.DarTacarud.JK000362-ara1",
+   "sha256": "cbcb180073038b2f5caadad045877821885dd7d9168bedaf69b63ac73093372c",
+   "bytes": 6523683,
+   "source_type": "typed"
+  },
+  "0463IbnCabdBarr.TamhidMuwatta": {
+   "version": "0463IbnCabdBarr.TamhidMuwatta.JK000585-ara1",
+   "repo": "0475AH",
+   "commit": "cc9beb0d9645e8cdce892556423b9926a127054f",
+   "path": "data/0463IbnCabdBarr/0463IbnCabdBarr.TamhidMuwatta/0463IbnCabdBarr.TamhidMuwatta.JK000585-ara1",
+   "sha256": "3b4c4310a3f5d34d6b0a66dbe3503523161318952b5d255487dc3b21f1e00fe2",
+   "bytes": 13088392,
+   "source_type": "typed"
+  },
+  "0751IbnQayyimJawziyya.ShifaCalil": {
+   "version": "0751IbnQayyimJawziyya.ShifaCalil.JK000100-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0751IbnQayyimJawziyya/0751IbnQayyimJawziyya.ShifaCalil/0751IbnQayyimJawziyya.ShifaCalil.JK000100-ara1",
+   "sha256": "d0ef9f8086da5ddf7bdcfba34c717b50c2b1dfba4037f9a566c1a17e8c69265c",
+   "bytes": 1584008,
+   "source_type": "typed"
+  }
+ }
+}

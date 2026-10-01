@@ -39,3 +39,13 @@ Each school's position can now be quoted from its own texts, each primer with it
 Seven of the new texts are OCR (five are OpenITI's own Kraken OCR, the only versions it has): check the
 source_type in works_index.tsv before quoting. Creed terms are in the concept index (area = creed); they match
 words, not senses (al-qadar is also "measure"), so read the passage.
+
+## fitra: the primordial nature (v40; corpus/fitra)
+The three classical works that treat "every child is born on the fitra" (al-Bukhari, Muslim) and Q30:30 at length:
+- **Ibn Taymiyya, Darʾ taʿarud al-ʿaql wa-l-naql** (typed): his longest treatment of the fitra as innate
+  knowledge and love of God, which reason supports and messengers complete; 36 passages quote the hadith.
+- **Ibn ʿAbd al-Barr, al-Tamhid** (typed): the classic survey of every reading of the hadith, vol. 18 p. 56ff
+  (p01516), incl. the view that the child is born "on soundness (salama), with neither faith nor unbelief,
+  neither knowledge nor denial", which he calls the most correct; earlier only reached through al-Qurtubi.
+- **Ibn al-Qayyim, Shifaʾ al-ʿalil** (typed): a long chapter weighing the readings; also qadar and human acts.
+Concept: `--concept fitra` (forms الفطرة, فطرة الله, على الفطرة; zakat al-fitr is a different word and not matched).

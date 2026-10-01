@@ -1,0 +1,41 @@
+[
+ {
+  "key": "fitra.0728IbnTaymiyya.DarTacarud",
+  "work": "Ibn Taymiyya: DarTacarud",
+  "author": "fitra",
+  "strand": "Athari",
+  "scholar": "Ibn Taymiyya",
+  "role": "reason and revelation; the fitra as innate knowledge of God",
+  "layer": "classical",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "fitra canon, Athari (reason and revelation; the fitra as innate knowledge of God); OpenITI 0728IbnTaymiyya.DarTacarud.JK000362-ara1; Darʾ taʿarud al-ʿaql wa-l-naql: his longest treatment of the fitra (that it is innate, that reason supports it, that messengers complete it)"
+ },
+ {
+  "key": "fitra.0463IbnCabdBarr.TamhidMuwatta",
+  "work": "Ibn ʿAbd al-Barr: TamhidMuwatta",
+  "author": "fitra",
+  "strand": "Maliki",
+  "scholar": "Ibn ʿAbd al-Barr",
+  "role": "hadith commentary on the Muwattaʾ",
+  "layer": "classical",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "fitra canon, Maliki (hadith commentary on the Muwattaʾ); OpenITI 0463IbnCabdBarr.TamhidMuwatta.JK000585-ara1; al-Tamhid: the classic survey of the readings of 'every child is born on the fitra' and his own ('the most correct view': born sound, without faith or denial)"
+ },
+ {
+  "key": "fitra.0751IbnQayyimJawziyya.ShifaCalil",
+  "work": "Ibn al-Qayyim: ShifaCalil",
+  "author": "fitra",
+  "strand": "Athari",
+  "scholar": "Ibn al-Qayyim",
+  "role": "qadar, wisdom and causation",
+  "layer": "classical",
+  "attribution": "secure",
+  "category": "primary",
+  "source_type": "typed",
+  "note": "fitra canon, Athari (qadar, wisdom and causation); OpenITI 0751IbnQayyimJawziyya.ShifaCalil.JK000100-ara1; Shifaʾ al-ʿalil: a long chapter weighing the readings of the fitra hadith; also the decree and human acts"
+ }
+]

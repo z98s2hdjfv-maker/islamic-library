@@ -99,6 +99,8 @@ def lookup(repo, verse, hows, chars, per_work, concept=None, works=()):
 
 
 if __name__ == "__main__":
+    import signal
+    signal.signal(signal.SIGPIPE, signal.SIG_DFL)   # piping into head ends quietly (v40)
     ap = argparse.ArgumentParser(); ap.add_argument("--repo", default=".")
     ap.add_argument("--verse"); ap.add_argument("--how", default=""); ap.add_argument("--chars", type=int, default=300)
     ap.add_argument("--per-work", type=int, default=3); ap.add_argument("--build-meta", action="store_true")
