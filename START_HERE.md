@@ -13,7 +13,7 @@ don't cover, and say which is which.
 | What does the library hold? | `catalogs/works_index.tsv`: key, author, work, attribution, category, source_type |
 | Every commentary on a verse, oldest first | `python3 pipeline/index/lookup.py --repo . --verse 7:172` |
 | A key term across the works | `python3 pipeline/index/lookup.py --repo . --concept qutb` (list and precision: `reports/index/concept_summary.tsv`, `concept_precision.tsv`; ambiguous terms are sense-filtered, still read the passage) |
-| **Is this saying authentic?** (start here for any quoted hadith or saying) | `python3 pipeline/hadith/authenticate.py "<saying>" "<another>"` (v43): loose-wording match in the 13 collections with grades, parallels and chain, then the classical critics oldest first, then modern grades apart. Several sayings in one pass, about 25 s. It gathers evidence and does not grade: read the passages. `docs/hadith_layer/AUTHENTICATE.md` |
+| **Is this saying authentic?** (start here for any quoted hadith or saying) | `python3 pipeline/hadith/authenticate.py "<saying>" "<another>"` (v43): loose-wording match in the 21 collections with grades, parallels and chain, then the classical critics oldest first, then modern grades apart. Several sayings in one pass, about 25 s. It gathers evidence and does not grade: read the passages. `docs/hadith_layer/AUTHENTICATE.md` |
 | The later critics' verdict on a hadith, as data (v44) | shown by `authenticate.py` under each hadith; tables in `apparatus/hadith_grades/` (al-Busiri on Ibn Maja, al-Haythami on Ahmad and al-Tabarani, al-Dhahabi on al-Hakim), modern apart in `apparatus/hadith_grades_modern/` (al-Albani on al-Tirmidhi). **A verdict with scope = chain is about that chain, not the hadith; quote his words and cite `critic_record`.** Critics' numbered entries on current sayings: `apparatus/sayings/sayings.tsv.gz`. `docs/hadith_layer/CRITIC_GRADES.md` |
 | A hadith and its grades | `zgrep` in `apparatus/hadith/*.jsonl.gz` (narrator, caliph, grades in the sources, parallels). **Cite the printed number** in `edition_numbers` where present (al-Tirmidhi: Shakir; al-Bukhari: Fath al-Bari), not the layer's own `number` |
 | More verdicts, the compilers' remarks, a modern column (v47) | also shown by `authenticate.py`. Classical, in `apparatus/hadith_grades/`: al-Mundhiri on Abu Dawud and in al-Targhib, al-Nawawi's Khulasa, Ibn Hajar's Bulugh, al-Busiri's Ithaf, and `compilers_remarks.tsv` (the compiler's own words; class uniqueness or defect_note is a remark, **not a grade**). Modern, apart, in `apparatus/hadith_grades_modern/`: al-Arnaʾut on Ahmad, Husayn Asad on Abu Yaʿla and al-Darimi, al-Albani on Abu Dawud and the Jamiʿ. **Cite a modern verdict as modern, never beside the classical as its equal.** `in_sahih.tsv.gz` now says whether the Companion is the same; `apparatus/hadith_links/weak_links.tsv.gz` lists Ibn Hajar's weak narrators in ungraded chains (evidence, not a grade). `docs/hadith_layer/GRADE_GAP_V47.md` |
@@ -52,6 +52,10 @@ rejects) with the record ids you cited, a verdict per inference, and the open qu
 ids exactly as the repo gives them: the validator rejects any that do not resolve. Check `sijill/views/` first: if a
 voice's position is already recorded, link to it instead of repeating it.
 
-## 6. Report the source mix
+## 6. Feed the stress test
+When a study shows something the tools did well or could not do, add a row to `docs/jalasa/STRESS_TEST.md`
+(`must` for what worked, `goal` for what did not). It is how the repo learns from each study.
+
+## 7. Report the source mix
 End study answers with the tracking table: share from the repo, from general knowledge, from the internet,
 and token cost.

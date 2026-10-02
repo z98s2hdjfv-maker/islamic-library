@@ -32,6 +32,11 @@ published as GitHub Release assets; see `release_assets.txt`.
 `MANIFEST.tsv` lists every file with SHA-256 and original filename.
 Built 2026-09-26; brought up to date in v49 (2026-10-02). Start with `START_HERE.md`; to test a saying, `python3 pipeline/hadith/authenticate.py "<saying>"`.
 
+**The Jalasa stress test (v50).** `docs/jalasa/STRESS_TEST.md` is a document of test cases, one table row each, that
+`pipeline/jalasa/stress_test.py` runs against the repo: what a digital Jalasa needs (verses, sayings, the masters,
+the caliphs, the schools, citations, the sijill), marked `must` (works today) or `goal` (not yet). The scorecard is
+`reports/jalasa/STRESS_REPORT.md`; `stress_history.tsv` keeps one line per run. Edit the document to change the test.
+
 **Updates.** A `library-update-vNN.zip` is uploaded to the repo root and the "Library update and search index"
 workflow applies it. Since v49 every update runs `pipeline/repo/after_update.sh` first (sijill validator, the
-authentication tests, a check for stray archives, then the manifest): if a check fails, nothing is committed.
+authentication tests, the Jalasa stress test, a check for stray archives, then the manifest): if a check fails, nothing is committed.
