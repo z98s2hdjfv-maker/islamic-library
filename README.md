@@ -15,6 +15,12 @@ way; no layer edits the one before it.
 | `docs/` | README / spec status per corpus | |
 | `sijill/` | what the studies concluded (the record of the Jalasa) | append-only; cites record ids |
 
+**Hadith layer and authentication (v43 to v48).** `apparatus/hadith/` holds 21 collections (164,521 hadith) with
+parallels and narrator links (`apparatus/hadith_links/`). The critics' verdicts are joined to the hadith as data:
+classical in `apparatus/hadith_grades/`, modern kept apart in `apparatus/hadith_grades_modern/`. A classical grade
+exists for 30% of the hadith; a class label is rule-made, so quote the verdict. See `docs/hadith_layer/`
+(`AUTHENTICATE.md`, `CRITIC_GRADES.md`, `GRADE_GAP_V47.md`, `V48_FIXES.md`).
+
 Verse IDs follow `urn:sufi:rumi.mathnawi:<book>.b<nicholson>` (anchored) or
 `...g<ganjoor_seq>` (Ganjoor-based). See `docs/mathnawi/README.md`.
 
@@ -24,4 +30,8 @@ Large binaries (scans, page-image packs) are **not** committed. They are
 published as GitHub Release assets; see `release_assets.txt`.
 
 `MANIFEST.tsv` lists every file with SHA-256 and original filename.
-Built 2026-09-26; layer table and manifest brought up to date in v44 (2026-10-01). Start with `START_HERE.md`; to test a saying, `python3 pipeline/hadith/authenticate.py "<saying>"`.
+Built 2026-09-26; brought up to date in v49 (2026-10-02). Start with `START_HERE.md`; to test a saying, `python3 pipeline/hadith/authenticate.py "<saying>"`.
+
+**Updates.** A `library-update-vNN.zip` is uploaded to the repo root and the "Library update and search index"
+workflow applies it. Since v49 every update runs `pipeline/repo/after_update.sh` first (sijill validator, the
+authentication tests, a check for stray archives, then the manifest): if a check fails, nothing is committed.

@@ -41,7 +41,7 @@ import argparse, collections, csv, glob, gzip, json, math, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "search"))
-from textnorm import norm  # noqa: E402
+from textnorm import norm, DIAC, _PAIRS  # noqa: E402
 from pages import segments, MARK  # noqa: E402
 
 WORD = re.compile(r"[ء-ي]+")
@@ -77,14 +77,25 @@ COLL = {"0241IbnHanbal.Musnad": ("Ahmad, Musnad", 241), "0255CabdAllahDarimi.Sun
         "0458Bayhaqi.ShucabIman": ("al-Bayhaqi, Shuʿab al-iman", 458)}
 
 
+_STEM = {}
+
+
 def stem(w):
     """a normalised word without proclitics (و ف ب ل ال) and without a final alif (كنزا = كنز, خلقا = خلق)"""
-    w = PROCLITIC.sub("", w)
-    return w[:-1] if len(w) >= 4 and w.endswith("ا") else w
+    s = _STEM.get(w)                     # v49: words repeat; each is stemmed once
+    if s is None:
+        s = PROCLITIC.sub("", w)
+        s = _STEM[w] = s[:-1] if len(s) >= 4 and s.endswith("ا") else s
+    return s
 
 
 def stems(text):
     return [stem(w) for w in WORD.findall(norm(text))]
+
+
+def stems_n(normed):
+    """stems of a text already normalised (v49: saves a second normalisation)"""
+    return [stem(w) for w in WORD.findall(normed)]
 
 
 STOP |= {stem(w) for w in STOP}
@@ -172,53 +183,93 @@ def page_of(rec, saying):
     return " ".join(bits)
 
 
+def prenorm(text):
+    """norm() without the lower-casing: all that matters for finding Arabic words"""
+    s = DIAC.sub("", text)
+    for k, v in _PAIRS:
+        if k in s: s = s.replace(k, v)
+    return s
+
+
+def _hadith_file(job):
+    f, sayings, thr = job; out = []
+    with opener(f) as fh:
+        for line in fh:
+            # v49: a line none of whose words can match is skipped before it is parsed. The raw line holds the isnad
+            # and matn verbatim, so this pre-check can only let more through than the check on the record, never fewer.
+            nl = prenorm(line)
+            if not any(q.maybe(nl) for q in sayings): continue
+            cand = None
+            for qi, q in enumerate(sayings):
+                if cand is None:
+                    r = json.loads(line); body = r.get("matn") or ""
+                    full = (r.get("isnad") or "") + " " + body
+                    cand = (norm(full), None)
+                if not q.maybe(cand[0]): continue
+                toks = stems(body) if body else stems(full)
+                s = q.score(toks)[0]
+                if s < thr and body:      # the split may have put the wording in the isnad part
+                    s = max(s, q.score(stems(full))[0])
+                if s >= thr: out.append((qi, s, r))
+    return out
+
+
+def _work_file(job):
+    """Works like al-Maqasid al-hasana give the saying as a short entry heading and the verdict in the next
+    paragraphs, so a short matching record takes the text of the next `follow` records with it."""
+    path, sayings, thr, follow = job; out = []
+    if not os.path.exists(path): return out
+    pending = []                                   # [hit, records still to attach]
+    with opener(path) as fh:
+        for line in fh:
+            if not pending:                        # v49: as above; a record after a hit is always read
+                nl = prenorm(line)
+                if not any(q.maybe(nl) for q in sayings): continue
+            try: r = json.loads(line)
+            except ValueError: continue
+            raw = r.get("text_raw") if isinstance(r.get("text_raw"), str) else r.get("text")
+            if not isinstance(raw, str) or r.get("kind") == "heading": continue
+            if NEW_ENTRY.match(raw): pending = []      # the next numbered entry: the verdict text has ended
+            for h in pending:
+                h[0][3] = (h[0][3] + " " + raw).strip(); h[1] -= 1
+            pending = [h for h in pending if h[1] > 0]
+            n = norm(raw)
+            for qi, q in enumerate(sayings):
+                if not q.maybe(n): continue
+                s = q.score(stems_n(n))[0]
+                if s >= thr:
+                    hit = [qi, s, r, "", raw]
+                    out.append(hit)
+                    if len(raw.split()) < 40: pending.append([hit, follow])
+    return out
+
+
+def run_jobs(fn, jobs):
+    """v49: the files are scanned side by side on the machine's processors and the results put back in file order,
+    so the output is the same as a scan one file after another. One processor, or no fork: one after another."""
+    n = min(len(jobs), os.cpu_count() or 1, int(os.environ.get("AUTHENTICATE_JOBS", "8")))
+    if n > 1:
+        try:
+            import multiprocessing as mp
+            with mp.get_context("fork").Pool(n) as pool: return pool.map(fn, jobs, chunksize=1)
+        except (ImportError, ValueError, OSError): pass
+    return [fn(j) for j in jobs]
+
+
 def scan_hadith(repo, sayings, thr):
     hits = collections.defaultdict(list)
-    for f in sorted(glob.glob(os.path.join(repo, "apparatus/hadith/*.jsonl.gz"))):
-        with opener(f) as fh:
-            for line in fh:
-                cand = None
-                for qi, q in enumerate(sayings):
-                    if cand is None:
-                        r = json.loads(line); body = r.get("matn") or ""
-                        full = (r.get("isnad") or "") + " " + body
-                        cand = (norm(full), None)
-                    if not q.maybe(cand[0]): continue
-                    toks = stems(body) if body else stems(full)
-                    s = q.score(toks)[0]
-                    if s < thr and body:      # the split may have put the wording in the isnad part
-                        s = max(s, q.score(stems(full))[0])
-                    if s >= thr: hits[qi].append((s, r))
+    files = sorted(glob.glob(os.path.join(repo, "apparatus/hadith/*.jsonl.gz")))
+    for out in run_jobs(_hadith_file, [(f, sayings, thr) for f in files]):
+        for qi, s, r in out: hits[qi].append((s, r))
     return hits
 
 
 def scan_works(repo, works, sayings, thr, follow=2):
-    """-> hits[qi] = [(score, work, record, raw, following_text)]. Works like al-Maqasid al-hasana give the saying as
-    a short entry heading and the verdict in the next paragraphs, so a short matching record takes the text of the
-    next `follow` records with it."""
+    """-> hits[qi] = [(score, work, record, raw, following_text)]"""
     hits = collections.defaultdict(list)
-    for w in works:
-        path = os.path.join(repo, w["corpus_path"])
-        if not os.path.exists(path): continue
-        pending = []                                   # [hit, records still to attach]
-        with opener(path) as fh:
-            for line in fh:
-                try: r = json.loads(line)
-                except ValueError: continue
-                raw = r.get("text_raw") if isinstance(r.get("text_raw"), str) else r.get("text")
-                if not isinstance(raw, str) or r.get("kind") == "heading": continue
-                if NEW_ENTRY.match(raw): pending = []      # the next numbered entry: the verdict text has ended
-                for h in pending:
-                    h[0][4] = (h[0][4] + " " + raw).strip(); h[1] -= 1
-                pending = [h for h in pending if h[1] > 0]
-                n = norm(raw)
-                for qi, q in enumerate(sayings):
-                    if not q.maybe(n): continue
-                    s = q.score(stems(raw))[0]
-                    if s >= thr:
-                        hit = [s, w, r, raw, ""]
-                        hits[qi].append(hit)
-                        if len(raw.split()) < 40: pending.append([hit, follow])
+    jobs = [(os.path.join(repo, w["corpus_path"]), sayings, thr, follow) for w in works]
+    for w, out in zip(works, run_jobs(_work_file, jobs)):
+        for qi, s, r, following, raw in out: hits[qi].append([s, w, r, raw, following])
     return hits
 
 

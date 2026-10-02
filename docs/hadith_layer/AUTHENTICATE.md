@@ -50,3 +50,13 @@ popular_sayings, mutawatir), layer (classical | modern), author, work, death_ah.
 ## Test
 `python3 pipeline/hadith/test_authenticate.py` checks three sayings of known standing (the hadith of intentions,
 "seek knowledge even in China", the "hidden treasure"). It runs with each library update.
+
+## Speed (v49)
+The command had slowed as the library grew: four sayings took 60 seconds at v48 (18 at v43). v49 brings that to
+about 21 seconds on two processors and 35 on one; a single saying takes about 15. The output is unchanged: twelve
+test sayings gave byte-identical JSON before and after, in parallel and on one processor.
+- The files are scanned side by side on the machine's processors and the results put back in file order
+  (`AUTHENTICATE_JOBS=1` forces one after another).
+- A line none of whose words can match is skipped before it is parsed.
+- Text normalisation (`pipeline/search/textnorm.py`) gives the same result about five times faster; this also
+  speeds the search index build. Each word is stemmed once.

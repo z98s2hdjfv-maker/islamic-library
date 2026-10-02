@@ -84,6 +84,21 @@ checks += [
     ("every weak-narrator row names its Taqrib record", bool(wl) and all(r["taqrib_record"].startswith("urn:openiti:0852IbnHajar") for r in wl)),
     ("'وصححه الحاكم والراجح إرساله' is filed as disputed, not sound", all(r["class"] == "disputed" for r in bl if "الراجح إرساله" in r["verdict"]) and any("الراجح إرساله" in r["verdict"] for r in bl)),
 ]
+# v49: the faster normalisation gives exactly the old result; a parallel and a one-processor run agree
+sys.path.insert(0, os.path.join(HERE, "..", "search"))
+import textnorm
+sample = []
+for p in ("apparatus/hadith/0279Tirmidhi.Sunan.jsonl.gz", "corpus/grading/0902Sakhawi.MaqasidHasana.jsonl.gz"):
+    with gzip.open(p, "rt", encoding="utf-8") as fh: sample += [l for _, l in zip(range(3000), fh)]
+one = subprocess.run([sys.executable, os.path.join(HERE, "authenticate.py"), SAYINGS[1], "--json", "--repo", "."],
+                     capture_output=True, text=True, check=True, env={**os.environ, "AUTHENTICATE_JOBS": "1"}).stdout
+many = subprocess.run([sys.executable, os.path.join(HERE, "authenticate.py"), SAYINGS[1], "--json", "--repo", "."],
+                      capture_output=True, text=True, check=True).stdout
+checks += [
+    ("fast normalisation equals the reference formula on 6,000 lines",
+     all(textnorm.norm(l) == textnorm.DIAC.sub("", l).translate(textnorm.MAP).lower() for l in sample)),
+    ("a parallel run and a one-processor run give the same output", one == many and len(one) > 1000),
+]
 bad = [name for name, ok in checks if not ok]
 for name, ok in checks: print("ok  " if ok else "FAIL", name)
 sys.exit(1 if bad else 0)
