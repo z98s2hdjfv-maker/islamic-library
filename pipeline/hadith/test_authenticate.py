@@ -76,6 +76,14 @@ checks += [
         and not any("Arna" in g["by"] or "Asad" in g["by"] for e in tathbit["hadith"] + sharib["hadith"] for g in e["grades_classical"])),
     ("al-Tabarani's own remark on Awsat 522 is a remark, not a grade", any("his own remark" in g["by"] and g["class"] == "uniqueness" for g in aw.get("grades_classical", []))),
 ]
+# v48: the weak-narrator list has its record column; a reservation after a verdict is not filed as sound
+import csv, gzip
+with gzip.open("apparatus/hadith_links/weak_links.tsv.gz", "rt", encoding="utf-8") as fh: wl = list(csv.DictReader(fh, delimiter="\t"))
+bl = list(csv.DictReader(open("apparatus/hadith_grades/ibnhajar_bulugh.tsv", encoding="utf-8"), delimiter="\t"))
+checks += [
+    ("every weak-narrator row names its Taqrib record", bool(wl) and all(r["taqrib_record"].startswith("urn:openiti:0852IbnHajar") for r in wl)),
+    ("'وصححه الحاكم والراجح إرساله' is filed as disputed, not sound", all(r["class"] == "disputed" for r in bl if "الراجح إرساله" in r["verdict"]) and any("الراجح إرساله" in r["verdict"] for r in bl)),
+]
 bad = [name for name, ok in checks if not ok]
 for name, ok in checks: print("ok  " if ok else "FAIL", name)
 sys.exit(1 if bad else 0)

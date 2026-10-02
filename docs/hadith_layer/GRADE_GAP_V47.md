@@ -1,5 +1,7 @@
 # v47: five steps on the grade gap
 
+**Corrected in v48 (labels, one header, duplicates): see `V48_FIXES.md`. Counts below are after v48 where they changed.**
+
 After v46, 118,613 of the layer's 164,521 hadith (72.1%) had no classical grade. v47 takes the five steps that the
 library's own holdings allow. Everything is tables: nothing in the corpus or in `apparatus/hadith` is edited, every
 row is the critic's own words with the record to cite, and modern verdicts stay in their own folder.
@@ -27,7 +29,7 @@ Built by `pipeline/hadith/build_grades_v47.py` (steps 1, 2, 3, 5) and `pipeline/
   throughout), so a join by wording would be unreliable.
 
 ## 2. The compilers' own remarks (`apparatus/hadith_grades/compilers_remarks.tsv`)
-14,915 remarks on 14,885 hadith, in the compiler's words: "قال أبو داود ...", "قال أبو عبد الرحمن هذا خطأ",
+14,914 remarks on 14,884 hadith, in the compiler's words: "قال أبو داود ...", "قال أبو عبد الرحمن هذا خطأ",
 al-Daraqutni's "رشدين ضعيف" and "إسناد صحيح", al-Bayhaqi's "هذا مرسل", Ibn Khuzayma's "إن صح الخبر", al-Bazzar's and
 al-Tabarani's notes on who alone narrates it.
 - 2,001 hadith carry a remark that is a judgment (weak 842, sound 538, fair 251, very weak 127 ...). Among them are
@@ -35,7 +37,9 @@ al-Tabarani's notes on who alone narrates it.
 - 11,644 are notes of **uniqueness** ("لم يروه عن فلان إلا فلان") and 1,262 are **defect notes** ("خالفه فلان",
   "والصواب موقوف"). These are evidence for a critic, not grades, and are **not counted as grades**.
 - The remarks of al-Daraqutni, al-Bayhaqi and al-Nasa'i that stand unmarked at the end of a text are found by the
-  critics' vocabulary. Some are missed, and a few rows may be the tail of a report: read the hadith record.
+  critics' vocabulary. Some are missed. Where the remark is a narrator's name followed by the verdict ("رشدين ضعيف"), the name is taken
+  back from the verdict word as far as its words occur in the hadith's own chain (v48); a name may still be cut short
+  or carry a stray word: read the hadith record.
 
 ## 3. The Sahih wording note, wider (`apparatus/hadith_links/in_sahih.tsv.gz`)
 Before, a hadith got the note only inside its parallel group. Now every hadith is compared directly with al-Bukhari
@@ -56,7 +60,7 @@ and Muslim, and three columns are added:
   never spelled out (a bare "عكرمة" from Ibn 'Abbas went to 'Ikrima b. Khalid). Names reviewed as ambiguous in
   `catalogs/narrator_aliases.tsv` stay unlinked too.
 - `weak_links.tsv.gz`: for hadith with **no classical grade**, the narrators in the chain whom Ibn Hajar ranks
-  da'if or below, with the Taqrib record to cite: 5,159 rows on 4,979 hadith. Evidence about one narrator, not a
+  da'if or below, with the Taqrib record to cite: 5,160 rows on 4,980 hadith. Evidence about one narrator, not a
   grade: the link is automatic, and corroboration and hidden defects are not weighed.
 
 ## 5. A modern column (`apparatus/hadith_grades_modern/`), kept apart
@@ -66,7 +70,7 @@ and Muslim, and three columns are added:
 | `husayn_asad_abuyacla.tsv` | Husayn Salim Asad on Abu Ya'la | 6,951 |
 | `albani_abidawud.tsv` | al-Albani on Abu Dawud | 4,535 |
 | `husayn_asad_darimi.tsv` | Husayn Salim Asad on al-Darimi | 3,392 |
-| `albani_jami.tsv` | al-Albani on al-Suyuti's Jami' saghir, joined by wording to every collection but the two Sahihs | 9,077 |
+| `albani_jami.tsv` | al-Albani on al-Suyuti's Jami' saghir, joined by wording to every collection but the two Sahihs. **More than half its rows (5,229 of 9,353) are on a wording that several hadith share: the verdict is on the wording, not on any one chain** | 9,077 |
 | `albani_tirmidhi.tsv` (v44) | al-Albani on al-Tirmidhi | 3,651 |
 
 - **Sources.** al-Arna'ut and Husayn Asad: three printings on OpenITI that carry the editor's verdict after each
@@ -83,8 +87,8 @@ and Muslim, and three columns are added:
 ## Coverage (164,521 hadith)
 | | v46 | v47 |
 |---|---|---|
-| No classical grade | 118,613 (72.1%) | 115,147 (70.0%) |
-| Neither a classical grade nor the Sahih wording note | 104,928 (63.8%) | 100,212 (60.9%) |
+| No classical grade | 118,613 (72.1%) | 115,146 (70.0%) |
+| Neither a classical grade nor the Sahih wording note | 104,928 (63.8%) | 100,211 (60.9%) |
 | Neither a classical nor a modern grade | not measured | 75,190 (45.7%) |
 
 Largest changes: Abu Dawud 5,275 -> 4,270 without a classical grade (and 4,665 -> 2,471 with nothing at all),

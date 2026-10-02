@@ -3,3 +3,11 @@ _unsorted/
 __pycache__/
 .DS_Store
 /search/
+# v48: stray files that must never be committed (update zips are uploaded on purpose and removed by the workflow)
+*.zip
+!library-update-*.zip
+*.pyc
+._*
+Thumbs.db
+*.tmp
+*.swp

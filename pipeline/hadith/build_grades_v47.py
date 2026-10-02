@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build_grades_v47.py - v47: five steps to narrow the grade gap of the hadith layer. Tables only; nothing in the
+build_grades_v47.py - v47, corrected in v48 (docs/hadith_layer/V48_FIXES.md): five steps to narrow the grade gap of the hadith layer. Tables only; nothing in the
 corpus or in apparatus/hadith is edited. Every row is the critic's own words with the record to cite.
 
 1. critics    more classical critics joined to the hadith they judge  -> apparatus/hadith_grades/
@@ -58,7 +58,11 @@ POS = [("sound", rf"اسناد\S* (?:\S+ )?صحيح|اسانيد\S* صحيح|س�
                 rf"{A}حديث حسن|لا باس ب|{A}و?هو حسن"),
        ("narrators_trustworthy", rf"{A}(?:رجال\S*|رواته|رواتهم|كلهم) (?:\S+ )?(?:ثقات|موثقون|محتج بهم)")]
 NEG = [(k, re.compile(p)) for k, p in NEG]; POS = [(k, re.compile(p)) for k, p in POS]
-DISPUTED_N = re.compile(r"وثقه.{0,80}(?:ضعف|خلاف)|ضعفه.{0,80}وثقه|فيه خلاف|مختلف فيه|فيه كلام|وقد وثق|اختلف فيه|اختلفوا في")
+DISPUTED_N = re.compile(r"وثقه.{0,80}(?:ضعف|خلاف)|ضعفه.{0,80}وثقه|فيه خلاف|مختلف فيه|مختلف في (?:توثيقه|الاحتجاج به|عدالته|حاله)|فيه كلام|وقد وثق|اختلف فيه|اختلفوا في")
+# v48: a reservation after a strengthening verdict ("إسناده صحيح لكن قوى أبو حاتم إرساله", "كلهم ثقات والصواب موقوف")
+RESERVE = re.compile(rf"{A}(?:ارساله|وقفه|انقطاعه){Z}|الصواب (?:\S+ )?(?:موقوف|مرسل|وقفه|ارساله)|(?:الموقوف|المرسل|وقفه|ارساله) (?:هو )?(?:اصح|الصواب|اشبه)")
+# v48: "رواه فلان بإسناد حسن" states the grade of the chain in hand; later words may report other routes
+CHAIN_GRADE = re.compile(r"ب(?:اسناد|سند|اسانيد) (?:\S+ )?(صحيح|صحيحه|قوي|حسن|حسنه|جيد|جيده|ضعيف|ضعيفه)")
 SUPPORT = re.compile(r"(?:صحيح|حسن) لغيره|^\W*(?:حديث )?(?:صحيح|حسن)(?: صحيح)?[\s،,]+(?:و)?(?:هذا )?اسناد\S* (?:\S+ )?ضعيف|بشواهده|بطرقه|بمجموع طرقه|اسناد\S* ضعيف.{0,40}(?:الحديث|المتن|متنه) صحيح|(?:غير ان|لكن) الحديث صحيح")
 GRADE_CLASSES = {"sound_by_support", "sound", "fair", "narrators_trustworthy", "disputed", "disputed_narrator", "unknown_narrator", "weak",
                  "very_weak", "fabricated", "weak_by_section", "weak_by_convention"}
@@ -68,13 +72,16 @@ def classify(v):
     n = norm(v)
     neg = next((k for k, p in NEG if p.search(n)), None)
     pos = next((k for k, p in POS if p.search(n)), None)
+    cg = CHAIN_GRADE.search(n)
+    if cg and pos and cg.group(1).startswith(("حسن", "جيد")): pos = "fair"
+    if pos and not neg and RESERVE.search(n): neg = "weak"
     if SUPPORT.search(n): return "sound_by_support"
     if DISPUTED_N.search(n): return "disputed_narrator"
     if neg and pos: return "disputed"
     return neg or pos or "unclassified"
 
 
-SCOPE_HADITH = re.compile(rf"{A}حديث (?:حسن|صحيح|ضعيف|منكر|غريب)|^\W*(?:حسن|صحيح|ضعيف){Z}|{A}و?(?:صححه|حسنه|ضعفه){Z}|{A}وهو (?:حسن|صحيح|ضعيف)")
+SCOPE_HADITH = re.compile(rf"قال (?:\S+ ){{1,2}}?(?:هذا )?(?:حديث )?(?:حسن|صحيح|غريب){Z}|{A}حديث (?:حسن|صحيح|ضعيف|منكر|غريب)|^\W*(?:حسن|صحيح|ضعيف){Z}|{A}و?(?:صححه|حسنه|ضعفه){Z}|{A}وهو (?:حسن|صحيح|ضعيف)")
 
 
 SRC_STOP = re.compile(r"وصحح|وحسن|وضعف|وقال|باسناد|بسند|باسانيد|وفي |وفيه|ورجال|وروات|واسناد|علي شرط|ولكن|الا ان")
@@ -162,6 +169,12 @@ def emit(rows, base, cands):
 
 
 def write(repo, rel, rows):
+    seen, uniq = set(), []                      # v48: the same verdict on the same hadith is written once
+    for o in rows:
+        k = (o["hadith_id"], o["critic_record"], str(o["entry"]), o["verdict"]) if o["hadith_id"] else id(o)
+        if k in seen: continue
+        seen.add(k); uniq.append(o)
+    rows[:] = uniq
     s = B.write(repo, rel, rows)
     s["rows_joined_with_a_grade"] = sum(1 for o in rows if o["hadith_id"] and o["class"] in GRADE_CLASSES)
     s["hadith_with_a_grade"] = len({o["hadith_id"] for o in rows if o["hadith_id"] and o["class"] in GRADE_CLASSES})
@@ -240,7 +253,7 @@ def mundhiri_mukhtasar(repo):
                 if re.search(r"اخرجه", n) and SAHIHAYN.search(n): cls = "in_sahihayn"
                 else: continue                                                   # sourcing only, or an explanation
             base = {"critic": "al-Mundhiri (Mukhtasar Sunan Abi Dawud)", "death_ah": 656, "layer": "classical",
-                    "scope": "takhrij" if cls == "in_sahihayn" else scope_of(note) if re.search(r"حسن|صحيح", n) and "اسناد" not in n else "chain",
+                    "scope": "takhrij" if cls == "in_sahihayn" else scope_of(note),
                     "class": cls, "verdict": note[:600], "critic_record": r["id"], "loc": page_loc(r), "entry": cur["ad_no"],
                     "sources": "Abu Dawud", "quoted": cur["body"][:160]}
             emit(classical, base, target(cur))
@@ -415,7 +428,26 @@ TAIL_REMARK = re.compile(
     r"|و?(?:إ|ا)سناد(?:ه)?\s+(?:صحيح|حسن|ضعيف|ليس)|(?:كلهم|رواته|رجاله)\s+ثقات|تفرد\s+به|و?لا\s+(?:يثبت|يصح)|و?(?:في|وفي)\s+(?:إ|ا)سناده"
     r"|و?(?:ال)?موقوف\s+(?:أصح|اصح|هو الصواب)|و?(?:ال)?مرسل\s+(?:أصح|اصح)|و?(?:ال)?صواب|غير\s+محفوظ|لم\s+يسمع\s+(?:من|هذا)|و?خالفه\s"
     r"|إن\s+صح\s+الخبر|ان\s+صح\s+الخبر|في\s+القلب\s+من|لست\s+أعرف|فإني\s+لا\s+أعرف|أنا\s+أبرأ\s+من\s+عهدة"
-    r"|(?:\S+\s+){1,5}(?:هذا\s+)?(?:ضعيف|متروك|مجهول|ليس\s+بالقوي|ليس\s+بقوي|لا\s+يحتج\s+به|منكر\s+الحديث|مضطرب\s+الحديث|ضعيفان|متروكان)(?:\s+الحديث)?\s*$).*)$", re.S)
+    r").*)$", re.S)
+# a remark that ends the text with the verdict word after the narrator's name: "... رشدين ضعيف"
+NAME_FINAL = re.compile(r"(?:^|\s)((?:وهو\s+|هذا\s+)?(?:ضعيف|متروك|مجهول|ليس\s+بالقوي|ليس\s+بقوي|لا\s+يحتج\s+به|منكر\s+الحديث|مضطرب\s+الحديث|ضعيفان|متروكان)(?:\s+الحديث)?)\s*$")
+NAME_PASS = set(norm(w) for w in "بن ابن أبي أبو أبا بنت عبد هو وهو هذا غير عن".split())
+
+
+def name_final(text, isnad):
+    """v48: -> the remark, starting at the narrator's name. The name is taken back from the verdict word for as long as
+    its words occur in this hadith's own chain; if none does, the two words before the verdict are kept."""
+    m = NAME_FINAL.search(text)
+    if not m: return None
+    chain = set(norm(w) for w in re.findall(r"[ء-ي]+", isnad or "")); pre = text[:m.start(1)].split(); take = []
+    for w in reversed(pre[-8:]):
+        nw = norm(re.sub(r"[^ء-ي]", "", w))
+        if nw in chain and nw not in NAME_PASS or (nw in NAME_PASS and take): take.append(w)
+        elif nw in NAME_PASS and not take: take.append(w)
+        else: break
+    while take and norm(take[-1]) in ("عن", "غير", "هذا", "وهو", "هو"): take.pop()
+    if not any(norm(re.sub(r"[^ء-ي]", "", w)) not in NAME_PASS for w in take): take = list(reversed(pre[-2:]))
+    return " ".join(list(reversed(take)) + [m.group(1)])
 NAMED_REMARK = re.compile(r"((?:\[?قال عبد الله(?: بن أحمد)?\]?\s*:?\s*)?قال (?:أبو داود|أبو عيسى|أبو عبد الرحمن|أبو بكر|أبو الحسن|أبو محمد|أبو حاتم|أبي|عبد الله|الشيخ|البزار|أبو القاسم|أحمد)\s*:?.{0,500})", re.S)
 UNIQ = re.compile(rf"{A}تفرد|لا نعلم\S* (?:يروي|روي|رواه|احدا)|لم يرو\S* |لا يروي |{A}غريب{Z}")
 DEFECT = re.compile(rf"{A}و?خالفه|الصواب|{A}اصح{Z}|{A}وهم{Z}|غير محفوظ|موقوف|اختلف (?:فيه|علي)|ان صح الخبر|في القلب من|لست اعرف|لا اعرف|ابرا من عهده|خطا")
@@ -435,7 +467,8 @@ def remarks(repo):
             if c in TAIL_COLLS and len(text) > 40:
                 tail = text[max(len(text) // 2, len(text) - 600):]
                 m = TAIL_REMARK.search(tail)
-                if m and not any(m.group(1)[:30] in f for f in found): found.append(m.group(1))
+                got = m.group(1) if m else name_final(text, h.get("isnad"))
+                if got and not any(got[:30] in f or got in f for f in found): found.append(got)
             seen = set()
             for f in found:
                 f = re.sub(r"\s*\|?\s*\d+\s*\(\s*(?:\d+\s*)?(?:باب|من اسمه|ذكر|كتاب|مسند|حديث|ومن|ما |في ).*$", "", clean(f)).strip()          # a chapter heading that follows in the source
@@ -529,7 +562,7 @@ def narrators(repo):
         for r in csv.DictReader(f, delimiter="\t"): uid[r["taqrib_no"]] = r["corpus_uid"]
     path = os.path.join(repo, "apparatus/hadith_links/weak_links.tsv.gz"); st = collections.Counter()
     fz = open(path, "wb"); gz = gzip.GzipFile(fileobj=fz, mode="wb", mtime=0, filename=""); f = io.TextIOWrapper(gz, encoding="utf-8", newline="\n")
-    f.write("hadith_id\tnarrator_in_chain\ttaqrib_no\ttaqrib_name\tibn_hajar_grade\trank\tlink_method\tlinked\tnames\thas_classical_grade\ttaqrib_record\n")
+    f.write("hadith_id\tnarrator_in_chain\ttaqrib_no\ttaqrib_name\tibn_hajar_grade\trank\tlink_method\tlinked\tnames\ttaqrib_record\n")
     for c in J(os.path.join(repo, "apparatus/hadith_links/chains.jsonl.gz")):
         h = c["hadith_id"]; g = h in own or h in crit
         st["hadith"] += 1; st["ungraded"] += not g
