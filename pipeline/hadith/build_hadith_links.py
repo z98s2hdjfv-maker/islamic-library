@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build_hadith_links.py - v17: links over the v16 hadith layer (apparatus/hadith/).
+build_hadith_links.py - v17, v47: links over the hadith layer (apparatus/hadith/).
 
 1. Parallels. Versions of the same hadith across (and within) collections are grouped by the
    wording of the matn: MinHash over 3-word shingles of the normalised matn, LSH candidates,
@@ -17,7 +17,10 @@ build_hadith_links.py - v17: links over the v16 hadith layer (apparatus/hadith/)
    identifications in catalogs/narrator_aliases.tsv (e.g. al-A'mash = Sulayman b. Mihran; reviewed
    list, ambiguous names like a bare "Sufyan" are never linked); the start of an entry's name; any
    contiguous part of an entry's name; each of these narrowed by Ibn Hajar's six-book sigla (kh, m,
-   d, t, s, q) when the hadith is in one of the Six Books. Every link records how it was made.
+   d, t, s, q) when the hadith is in one of the Six Books. v47: a name that still fits several entries (only a name
+   with a father's name, "Muhammad b. Ja'far"; never a one-word name or a bare kunya) is settled by its neighbours in the chain: the one candidate already attested as the
+   student of the next narrator or the teacher of the previous one (match = neighbour). Every link records how
+   it was made.
    -> apparatus/hadith_links/chains.jsonl.gz    per hadith: narrators with Taqrib no., grade, rank;
                                                  weakest_rank among linked narrators; share linked
    weakest_rank describes the linked narrators only. It is NOT a grade of the hadith: it ignores
@@ -139,6 +142,7 @@ def name_norm(s):
 
 
 DROPN = None
+NEVER = set()
 
 
 def taqrib(repo):
@@ -178,7 +182,7 @@ def taqrib(repo):
                 for n in range(2, 5): inside[" ".join(w[j:j + n])].add(k)
     alias = {}
     for a in csv.DictReader(open(os.path.join(repo, "catalogs/narrator_aliases.tsv"), encoding="utf-8"), delimiter="\t"):
-        if not a["taqrib_key"]: continue
+        if not a["taqrib_key"]: NEVER.add(name_norm(a["alias"])); continue      # reviewed as ambiguous: never linked, by any method
         key = name_norm(a["taqrib_key"]); hit = [k for k, x in enumerate(rows) if name_norm(x["text"]).startswith(key)
                                                  or name_norm(strip_gloss(x["text"])).startswith(name_norm(strip_gloss(a["taqrib_key"])))]
         if len(hit) == 1: alias[name_norm(a["alias"])] = hit[0]
@@ -207,6 +211,14 @@ def resolve(nn, idx, rows, coll):
             if len(c2) == 1: return c2[0], how + "+book_code"
         if cand: return None, len(cand)
     return None, 0
+
+
+def candidates(nn, idx):
+    """v47: the Taqrib entries a name could be, when it fits more than one (same rules as resolve)"""
+    pre, inside, alias = idx
+    c = pre.get(nn, set())
+    if c: return c
+    return inside.get(nn, set()) if nn.startswith(("ابو ", "ام ", "ال")) else set()
 
 
 def chain_names(isnad):
@@ -241,10 +253,28 @@ def main():
     rows, idx = taqrib(repo); print(len(rows), "Taqrib entries", flush=True)
     out = gzw(os.path.join(repo, "apparatus/hadith_links/chains.jsonl.gz"))
     st = collections.Counter(); weakest = collections.Counter()
+    # v47: two passes. First every name is resolved on its own; then a name that fits several Taqrib entries is settled
+    # by its neighbours: the one candidate attested (at least twice, among the links already made) as the student of
+    # the next narrator or the teacher of the previous one. No candidate or more than one with support: left unlinked.
+    # Only a name with a father's name ("Muhammad b. Ja'far") is settled this way. A one-word name or a bare kunya
+    # ("Sufyan", "Ikrima", "Abu Qilaba") is NOT: its best-known bearer is the one never spelled out, so he has no
+    # attested links and the support would point to a namesake (checked: bare Ikrima from Ibn Abbas went to Ikrima
+    # b. Khalid). Those stay unlinked unless catalogs/narrator_aliases.tsv identifies them.
+    first = []; adj = collections.Counter()
     for h in H:
+        seq = [(raw, nn) + resolve(nn, idx, rows, h["collection"]) for raw, nn in chain_names(h["isnad"])]
+        first.append(seq)
+        for a, b in zip(seq, seq[1:]):
+            if a[2] is not None and b[2] is not None: adj[(a[2], b[2])] += 1
+    for h, seq in zip(H, first):
         nar = []
-        for raw, nn in chain_names(h["isnad"]):
-            k, how = resolve(nn, idx, rows, h["collection"])
+        for i, (raw, nn, k, how) in enumerate(seq):
+            if k is None and how and how > 1 and " بن " in f" {nn} " and not nn.startswith(("بن ", "ابو ", "ام ")) and nn not in NEVER:
+                left = seq[i - 1][2] if i else None; right = seq[i + 1][2] if i + 1 < len(seq) else None
+                score = {c: (adj.get((left, c), 0) if left is not None else 0) + (adj.get((c, right), 0) if right is not None else 0)
+                         for c in candidates(nn, idx)}
+                sup = [c for c, v in score.items() if v > 0]
+                if len(sup) == 1 and score[sup[0]] >= 2: k, how = sup[0], "neighbour"
             if k is not None:
                 x = rows[k]; st["by_" + how] += 1
                 nar.append({"name": raw, "taqrib_no": x["no"], "taqrib_name": x["name"], "grade": x["grade"],

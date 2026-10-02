@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""test_authenticate.py - v43, v44: checks authenticate.py against three sayings whose standing is well known.
+"""test_authenticate.py - v43 to v47: checks authenticate.py against three sayings whose standing is well known.
 Run from the repo root: python3 pipeline/hadith/test_authenticate.py   (about 30 s; exits non-zero on failure)"""
 import json, os, subprocess, sys
 
@@ -61,6 +61,20 @@ checks += [
     ("Abu Yaʿla's hadith of leading the blind carries al-Haythami's verdict", any("Haythami" in g["by"] and "كذاب" in g["grade"]
         for e in ay for g in e["grades_classical"])),
     ("no collection is left outside the layer", not china["collection"]),
+]
+# v47: more critics, the compilers' remarks, the modern column
+out4 = subprocess.run([sys.executable, os.path.join(HERE, "authenticate.py"), "استغفروا لأخيكم وسلوا له التثبيت فإنه الآن يسأل",
+                       "من لم يأخذ شاربه فليس منا", "--json", "--repo", ".", "--limit", "60"], capture_output=True, text=True, check=True).stdout
+tathbit, sharib = json.loads(out4)
+ad = next((e for e in tathbit["hadith"] if e["id"] == "urn:hadith:0275AbuDawudSijistani.Sunan:3221"), {})
+aw = next((e for e in sharib["hadith"] if e["id"] == "urn:hadith:0360Tabarani.MucjamAwsat:522"), {})
+checks += [
+    ("Abu Dawud 3221 carries al-Nawawi's verdict on the chain", any("Nawawi" in g["by"] and "حسن" in g["grade"] for g in ad.get("grades_classical", []))),
+    ("Abu Dawud 3221: al-Albani is in the modern column only", any("Albani" in g["by"] for g in ad.get("grades_modern", []))
+        and not any("Albani" in g["by"] for g in ad.get("grades_classical", []))),
+    ("Ahmad's hadith carry al-Arnaʾut in the modern column only", any("Arna" in g["by"] for e in tathbit["hadith"] + sharib["hadith"] for g in e["grades_modern"])
+        and not any("Arna" in g["by"] or "Asad" in g["by"] for e in tathbit["hadith"] + sharib["hadith"] for g in e["grades_classical"])),
+    ("al-Tabarani's own remark on Awsat 522 is a remark, not a grade", any("his own remark" in g["by"] and g["class"] == "uniqueness" for g in aw.get("grades_classical", []))),
 ]
 bad = [name for name, ok in checks if not ok]
 for name, ok in checks: print("ok  " if ok else "FAIL", name)

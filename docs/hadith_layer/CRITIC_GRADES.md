@@ -1,5 +1,8 @@
 # v44: the critics' verdicts as data
 
+**v47 adds five more critics, the compilers' own remarks, a wider Sahih note, more narrator links and a modern
+column: see `GRADE_GAP_V47.md`. The counts below are those of v44.**
+
 Until v43 only al-Dhahabi's verdicts on al-Hakim were joined to the hadith they judge; every other critic was prose to
 be searched. v44 extracts the verdicts of the critics who write in a fixed formula and joins them to the hadith layer,
 adds a note where a hadith's wording is also in al-Bukhari or Muslim, puts al-Albani on al-Tirmidhi in a separate modern

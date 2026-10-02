@@ -1,0 +1,35 @@
+{
+ "source": "OpenITI (github.com/OpenITI), CC BY-NC-SA 4.0",
+ "works": {
+  "arnaut_ahmad": {
+   "version": "0241IbnHanbal.Musnad.ShamAY0033964-ara2",
+   "repo": "0250AH",
+   "commit": "0cc00c0646c81988c75a3815fe6d9a5fa65ce592",
+   "path": "data/0241IbnHanbal/0241IbnHanbal.Musnad/0241IbnHanbal.Musnad.ShamAY0033964-ara2",
+   "sha256": "9e5f117a6d4f20d43f4f8c44dcf9ec33cdbdf1f8c4b43a707caf33eeab58bf51",
+   "bytes": 18874916,
+   "edition": "مؤسسة قرطبة - القاهرة",
+   "use": "the editor's verdict lines only; not a corpus work, not searched"
+  },
+  "husayn_asad_darimi": {
+   "version": "0255CabdAllahDarimi.Sunan.ShamAY0033928-ara1",
+   "repo": "0275AH",
+   "commit": "44e1c36738a2bf5c14dafa232a6ae1891e6171cd",
+   "path": "data/0255CabdAllahDarimi/0255CabdAllahDarimi.Sunan/0255CabdAllahDarimi.Sunan.ShamAY0033928-ara1",
+   "sha256": "9c4cf7c28f7558d601c492800a0dd0260c4830c3f92a29c3efdc5501833ad35c",
+   "bytes": 1919619,
+   "edition": "فواز أحمد زمرلي , خالد السبع العلمي :: دار الكتاب العربي - بيروت",
+   "use": "the editor's verdict lines only; not a corpus work, not searched"
+  },
+  "husayn_asad_abuyacla": {
+   "version": "0307AbuYaclaMawsili.Musnad.Shamela0012520-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0307AbuYaclaMawsili/0307AbuYaclaMawsili.Musnad/0307AbuYaclaMawsili.Musnad.Shamela0012520-ara1",
+   "sha256": "12aa3ce03203585fb3fab87906a9f34ab2ab683df15458419fd01a711850f4d9",
+   "bytes": 5074301,
+   "edition": "حسين سليم أسد :: دار المأمون للتراث - دمشق",
+   "use": "the editor's verdict lines only; not a corpus work, not searched"
+  }
+ }
+}

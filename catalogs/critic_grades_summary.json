@@ -61,28 +61,36 @@
  },
  "insahih": {
   "file": "apparatus/hadith_links/in_sahih.tsv.gz",
-  "hadith_with_wording_in_sahih": 15710,
+  "hadith_with_wording_in_sahih": 17994,
+  "companion_same": 14595,
+  "basis_parallel_group": 13221,
+  "basis_wording": 3600,
+  "companion_unknown": 1726,
+  "companion_other": 500,
+  "companion_none": 1173,
+  "basis_critic_takhrij": 1758,
   "by_collection": {
-   "0204AbuDawudTayalisi.Musnad": 256,
-   "0241IbnHanbal.Musnad": 3888,
-   "0255CabdAllahDarimi.Sunan": 315,
-   "0273IbnMaja.Sunan": 549,
-   "0275AbuDawudSijistani.Sunan": 610,
-   "0303Nasai.SunanKubra": 2122,
-   "0303Nasai.SunanSughra": 1184,
-   "0307AbuYaclaMawsili.Musnad": 1164,
-   "0360Tabarani.MucjamAwsat": 577,
-   "0360Tabarani.MucjamKabir": 1344,
-   "0739CalaDinIbnBalban.Ihsan": 1167,
-   "0219IbnZubayrHumaydi.Musnad": 196,
-   "0279Tirmidhi.Sunan": 263,
-   "0292AbuBakrBazzar.BahrZakhkhar": 1000,
-   "0311IbnKhuzaymaNaysaburi.Sahih": 247,
-   "0360Tabarani.MucjamSaghir": 95,
-   "0385Daraqutni.Sunan": 150,
-   "0405HakimNaysaburi.Mustadrak": 130,
-   "0458Bayhaqi.ShucabIman": 453
-  }
+   "0204AbuDawudTayalisi.Musnad": 225,
+   "0219IbnZubayrHumaydi.Musnad": 217,
+   "0241IbnHanbal.Musnad": 4051,
+   "0255CabdAllahDarimi.Sunan": 332,
+   "0273IbnMaja.Sunan": 564,
+   "0275AbuDawudSijistani.Sunan": 1846,
+   "0279Tirmidhi.Sunan": 492,
+   "0292AbuBakrBazzar.BahrZakhkhar": 1003,
+   "0303Nasai.SunanKubra": 2217,
+   "0303Nasai.SunanSughra": 1200,
+   "0307AbuYaclaMawsili.Musnad": 1152,
+   "0311IbnKhuzaymaNaysaburi.Sahih": 423,
+   "0360Tabarani.MucjamAwsat": 568,
+   "0360Tabarani.MucjamKabir": 1260,
+   "0360Tabarani.MucjamSaghir": 84,
+   "0385Daraqutni.Sunan": 179,
+   "0405HakimNaysaburi.Mustadrak": 174,
+   "0458Bayhaqi.ShucabIman": 640,
+   "0739CalaDinIbnBalban.Ihsan": 1367
+  },
+  "note": "companion = same: the hadith's Companion is in the Sahih hadith's chain. other: the wording is in the Sahih from another Companion (kept only at 80% overlap of a wording of some length). A note on the wording, never a grade of this chain."
  },
  "sayings": {
   "entries": 5847,
@@ -113,159 +121,203 @@
   "collections": 21,
   "hadith": 164521,
   "compiler_grade": 31697,
-  "critic_verdict": 17837,
-  "no_classical_grade": 118613,
-  "nothing_at_all": 104928,
+  "critic_verdict": 21882,
+  "no_classical_grade": 115147,
+  "nothing_at_all": 100212,
+  "modern_grade": 49703,
+  "no_grade_classical_or_modern": 75190,
   "by_collection": {
    "0204AbuDawudTayalisi.Musnad": {
     "hadith": 2767,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 2767,
-    "nothing_at_all": 2511
+    "critic_verdict": 148,
+    "no_classical_grade": 2619,
+    "nothing_at_all": 2407,
+    "modern_grade": 84,
+    "no_grade_classical_or_modern": 2543
    },
    "0219IbnZubayrHumaydi.Musnad": {
     "hadith": 1309,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 1309,
-    "nothing_at_all": 1113
+    "critic_verdict": 26,
+    "no_classical_grade": 1283,
+    "nothing_at_all": 1074,
+    "modern_grade": 35,
+    "no_grade_classical_or_modern": 1248
    },
    "0241IbnHanbal.Musnad": {
     "hadith": 26649,
     "compiler_grade": 0,
-    "critic_verdict": 2387,
-    "no_classical_grade": 24262,
-    "nothing_at_all": 20438
+    "critic_verdict": 2508,
+    "no_classical_grade": 24141,
+    "nothing_at_all": 20232,
+    "modern_grade": 25715,
+    "no_grade_classical_or_modern": 862
    },
    "0255CabdAllahDarimi.Sunan": {
     "hadith": 3513,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 3513,
-    "nothing_at_all": 3198
+    "critic_verdict": 9,
+    "no_classical_grade": 3504,
+    "nothing_at_all": 3177,
+    "modern_grade": 3305,
+    "no_grade_classical_or_modern": 208
    },
    "0256Bukhari.Sahih": {
     "hadith": 7135,
     "compiler_grade": 7135,
     "critic_verdict": 0,
     "no_classical_grade": 0,
-    "nothing_at_all": 0
+    "nothing_at_all": 0,
+    "modern_grade": 0,
+    "no_grade_classical_or_modern": 0
    },
    "0261Muslim.Sahih": {
     "hadith": 7261,
     "compiler_grade": 7261,
     "critic_verdict": 0,
     "no_classical_grade": 0,
-    "nothing_at_all": 0
+    "nothing_at_all": 0,
+    "modern_grade": 0,
+    "no_grade_classical_or_modern": 0
    },
    "0273IbnMaja.Sunan": {
     "hadith": 4341,
     "compiler_grade": 0,
-    "critic_verdict": 1231,
-    "no_classical_grade": 3110,
-    "nothing_at_all": 2598
+    "critic_verdict": 1316,
+    "no_classical_grade": 3025,
+    "nothing_at_all": 2496,
+    "modern_grade": 689,
+    "no_grade_classical_or_modern": 2686
    },
    "0275AbuDawudSijistani.Sunan": {
     "hadith": 5275,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 5275,
-    "nothing_at_all": 4665
+    "critic_verdict": 1005,
+    "no_classical_grade": 4270,
+    "nothing_at_all": 2471,
+    "modern_grade": 4596,
+    "no_grade_classical_or_modern": 613
    },
    "0279Tirmidhi.Sunan": {
     "hadith": 3843,
     "compiler_grade": 2620,
-    "critic_verdict": 0,
-    "no_classical_grade": 1223,
-    "nothing_at_all": 1172
+    "critic_verdict": 1059,
+    "no_classical_grade": 527,
+    "nothing_at_all": 495,
+    "modern_grade": 3655,
+    "no_grade_classical_or_modern": 77
    },
    "0292AbuBakrBazzar.BahrZakhkhar": {
     "hadith": 10321,
     "compiler_grade": 0,
-    "critic_verdict": 1083,
-    "no_classical_grade": 9238,
-    "nothing_at_all": 8290
+    "critic_verdict": 1260,
+    "no_classical_grade": 9061,
+    "nothing_at_all": 8139,
+    "modern_grade": 284,
+    "no_grade_classical_or_modern": 8866
    },
    "0303Nasai.SunanKubra": {
     "hadith": 11701,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 11701,
-    "nothing_at_all": 9579
+    "critic_verdict": 256,
+    "no_classical_grade": 11445,
+    "nothing_at_all": 9286,
+    "modern_grade": 489,
+    "no_grade_classical_or_modern": 10988
    },
    "0303Nasai.SunanSughra": {
     "hadith": 5769,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 5769,
-    "nothing_at_all": 4585
+    "critic_verdict": 137,
+    "no_classical_grade": 5632,
+    "nothing_at_all": 4455,
+    "modern_grade": 343,
+    "no_grade_classical_or_modern": 5312
    },
    "0307AbuYaclaMawsili.Musnad": {
     "hadith": 7553,
     "compiler_grade": 0,
-    "critic_verdict": 811,
-    "no_classical_grade": 6742,
-    "nothing_at_all": 5598
+    "critic_verdict": 971,
+    "no_classical_grade": 6582,
+    "nothing_at_all": 5483,
+    "modern_grade": 6888,
+    "no_grade_classical_or_modern": 562
    },
    "0311IbnKhuzaymaNaysaburi.Sahih": {
     "hadith": 3092,
     "compiler_grade": 3092,
-    "critic_verdict": 0,
+    "critic_verdict": 54,
     "no_classical_grade": 0,
-    "nothing_at_all": 0
+    "nothing_at_all": 0,
+    "modern_grade": 131,
+    "no_grade_classical_or_modern": 0
    },
    "0360Tabarani.MucjamAwsat": {
     "hadith": 9478,
     "compiler_grade": 0,
-    "critic_verdict": 2278,
-    "no_classical_grade": 7200,
-    "nothing_at_all": 6676
+    "critic_verdict": 2264,
+    "no_classical_grade": 7214,
+    "nothing_at_all": 6706,
+    "modern_grade": 462,
+    "no_grade_classical_or_modern": 6987
    },
    "0360Tabarani.MucjamKabir": {
     "hadith": 21495,
     "compiler_grade": 0,
-    "critic_verdict": 4144,
-    "no_classical_grade": 17351,
-    "nothing_at_all": 16068
+    "critic_verdict": 4123,
+    "no_classical_grade": 17372,
+    "nothing_at_all": 16204,
+    "modern_grade": 1042,
+    "no_grade_classical_or_modern": 16755
    },
    "0360Tabarani.MucjamSaghir": {
     "hadith": 1195,
     "compiler_grade": 0,
-    "critic_verdict": 293,
-    "no_classical_grade": 902,
-    "nothing_at_all": 817
+    "critic_verdict": 302,
+    "no_classical_grade": 893,
+    "nothing_at_all": 818,
+    "modern_grade": 64,
+    "no_grade_classical_or_modern": 862
    },
    "0385Daraqutni.Sunan": {
     "hadith": 4604,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 4604,
-    "nothing_at_all": 4454
+    "critic_verdict": 394,
+    "no_classical_grade": 4210,
+    "nothing_at_all": 4040,
+    "modern_grade": 153,
+    "no_grade_classical_or_modern": 4075
    },
    "0405HakimNaysaburi.Mustadrak": {
     "hadith": 8831,
     "compiler_grade": 4598,
-    "critic_verdict": 5610,
-    "no_classical_grade": 2249,
-    "nothing_at_all": 2221
+    "critic_verdict": 5697,
+    "no_classical_grade": 2218,
+    "nothing_at_all": 2197,
+    "modern_grade": 590,
+    "no_grade_classical_or_modern": 2138
    },
    "0458Bayhaqi.ShucabIman": {
     "hadith": 11398,
     "compiler_grade": 0,
-    "critic_verdict": 0,
-    "no_classical_grade": 11398,
-    "nothing_at_all": 10945
+    "critic_verdict": 247,
+    "no_classical_grade": 11151,
+    "nothing_at_all": 10532,
+    "modern_grade": 776,
+    "no_grade_classical_or_modern": 10408
    },
    "0739CalaDinIbnBalban.Ihsan": {
     "hadith": 6991,
     "compiler_grade": 6991,
-    "critic_verdict": 0,
+    "critic_verdict": 106,
     "no_classical_grade": 0,
-    "nothing_at_all": 0
+    "nothing_at_all": 0,
+    "modern_grade": 402,
+    "no_grade_classical_or_modern": 0
    }
   },
-  "note": "classical grade = the compiler's own, or a later critic's verdict joined as data. The Sahih wording note is not a grade."
+  "note": "classical grade = the compiler's own, or a critic's verdict joined as data (a remark that only notes uniqueness or a difference between narrators is not counted; nor is 'he says al-Bukhari reported it'). The Sahih wording note and the modern column are not classical grades. v47 counts with whole-word classes."
  },
  "sample_check": {
   "date": "2026-10-01",
@@ -275,5 +327,426 @@
   "albani_tirmidhi": "6 of 6 right (number and text agree)",
   "in_sahih": "6 of 6 the same wording",
   "status": "scholar review pending"
+ },
+ "v47_critics": {
+  "mundhiri": {
+   "file": "apparatus/hadith_grades/mundhiri_mukhtasar_abidawud.tsv",
+   "verdicts": 2491,
+   "rows": 2491,
+   "rows_joined": 2454,
+   "hadith_with_verdict": 2430,
+   "hadith_single_candidate": 2430,
+   "class": {
+    "in_sahihayn": 1757,
+    "weak": 290,
+    "sound": 178,
+    "fair": 92,
+    "unknown_narrator": 74,
+    "disputed": 32,
+    "disputed_narrator": 20,
+    "very_weak": 9,
+    "narrators_trustworthy": 2
+   },
+   "rows_joined_with_a_grade": 697,
+   "hadith_with_a_grade": 690
+  },
+  "albani_abidawud": {
+   "file": "apparatus/hadith_grades_modern/albani_abidawud.tsv",
+   "verdicts": 4623,
+   "rows": 4660,
+   "rows_joined": 4591,
+   "hadith_with_verdict": 4535,
+   "hadith_single_candidate": 4535,
+   "class": {
+    "sound": 3324,
+    "weak": 824,
+    "fair": 412,
+    "disputed": 18,
+    "unclassified": 6,
+    "very_weak": 5,
+    "fabricated": 2
+   },
+   "rows_joined_with_a_grade": 4585,
+   "hadith_with_a_grade": 4532
+  },
+  "khulasa": {
+   "file": "apparatus/hadith_grades/nawawi_khulasa.tsv",
+   "verdicts": 501,
+   "rows": 536,
+   "rows_joined": 318,
+   "hadith_with_verdict": 316,
+   "hadith_single_candidate": 250,
+   "class": {
+    "sound": 129,
+    "fair": 92,
+    "weak": 56,
+    "weak_by_section": 20,
+    "unknown_narrator": 6,
+    "disputed": 5,
+    "very_weak": 4,
+    "fabricated": 3,
+    "disputed_narrator": 2,
+    "narrators_trustworthy": 1
+   },
+   "rows_joined_with_a_grade": 318,
+   "hadith_with_a_grade": 316,
+   "items": 1746,
+   "sourcing_only": 1179,
+   "unclassified": 66
+  },
+  "bulugh": {
+   "file": "apparatus/hadith_grades/ibnhajar_bulugh.tsv",
+   "verdicts": 440,
+   "rows": 582,
+   "rows_joined": 393,
+   "hadith_with_verdict": 391,
+   "hadith_single_candidate": 162,
+   "class": {
+    "sound": 295,
+    "weak": 41,
+    "fair": 36,
+    "disputed": 16,
+    "very_weak": 3,
+    "unknown_narrator": 1,
+    "in_sahihayn": 1
+   },
+   "rows_joined_with_a_grade": 392,
+   "hadith_with_a_grade": 390,
+   "items": 1380,
+   "sourcing_only": 891,
+   "unclassified": 49
+  },
+  "targhib": {
+   "file": "apparatus/hadith_grades/mundhiri_targhib.tsv",
+   "verdicts": 2540,
+   "rows": 2793,
+   "rows_joined": 2037,
+   "hadith_with_verdict": 1889,
+   "hadith_single_candidate": 1484,
+   "class": {
+    "sound": 740,
+    "fair": 663,
+    "weak_by_convention": 420,
+    "weak": 69,
+    "in_sahihayn": 32,
+    "disputed": 32,
+    "unknown_narrator": 29,
+    "disputed_narrator": 21,
+    "narrators_trustworthy": 18,
+    "very_weak": 11,
+    "sound_by_support": 1,
+    "fabricated": 1
+   },
+   "rows_joined_with_a_grade": 2005,
+   "hadith_with_a_grade": 1861,
+   "items": 5157,
+   "sourcing_only": 2617
+  },
+  "ithaf": {
+   "file": "apparatus/hadith_grades/busiri_ithaf.tsv",
+   "verdicts": 2818,
+   "rows": 2852,
+   "rows_joined": 690,
+   "hadith_with_verdict": 657,
+   "hadith_single_candidate": 592,
+   "class": {
+    "weak": 327,
+    "sound": 149,
+    "narrators_trustworthy": 84,
+    "fair": 47,
+    "disputed": 31,
+    "unknown_narrator": 22,
+    "disputed_narrator": 12,
+    "very_weak": 8,
+    "fabricated": 7,
+    "sound_by_support": 3
+   },
+   "rows_joined_with_a_grade": 690,
+   "hadith_with_a_grade": 657,
+   "source_unknown": 235
+  }
+ },
+ "v47_remarks": {
+  "file": "apparatus/hadith_grades/compilers_remarks.tsv",
+  "verdicts": 14885,
+  "rows": 14915,
+  "rows_joined": 14915,
+  "hadith_with_verdict": 14885,
+  "hadith_single_candidate": 14885,
+  "class": {
+   "uniqueness": 11644,
+   "defect_note": 1262,
+   "weak": 842,
+   "sound": 538,
+   "fair": 251,
+   "very_weak": 127,
+   "disputed": 87,
+   "disputed_narrator": 75,
+   "unknown_narrator": 55,
+   "narrators_trustworthy": 25,
+   "fabricated": 8,
+   "sound_by_support": 1
+  },
+  "rows_joined_with_a_grade": 2009,
+  "hadith_with_a_grade": 2001,
+  "by_collection": {
+   "0204AbuDawudTayalisi.Musnad": {
+    "weak": 2,
+    "defect_note": 1
+   },
+   "0219IbnZubayrHumaydi.Musnad": {
+    "defect_note": 1,
+    "weak": 1
+   },
+   "0241IbnHanbal.Musnad": {
+    "defect_note": 46,
+    "weak": 11,
+    "fair": 2,
+    "very_weak": 1,
+    "uniqueness": 4
+   },
+   "0255CabdAllahDarimi.Sunan": {
+    "defect_note": 7,
+    "unknown_narrator": 1,
+    "fair": 2,
+    "weak": 5
+   },
+   "0273IbnMaja.Sunan": {
+    "defect_note": 3
+   },
+   "0275AbuDawudSijistani.Sunan": {
+    "weak": 54,
+    "uniqueness": 23,
+    "defect_note": 77,
+    "disputed_narrator": 2,
+    "fair": 7,
+    "very_weak": 3,
+    "unknown_narrator": 3,
+    "fabricated": 1,
+    "sound": 2
+   },
+   "0279Tirmidhi.Sunan": {
+    "defect_note": 93,
+    "fair": 132,
+    "weak": 108,
+    "sound": 411,
+    "uniqueness": 297,
+    "disputed": 60,
+    "very_weak": 14,
+    "unknown_narrator": 7,
+    "disputed_narrator": 14
+   },
+   "0292AbuBakrBazzar.BahrZakhkhar": {
+    "uniqueness": 3764,
+    "defect_note": 105,
+    "weak": 60,
+    "unknown_narrator": 7,
+    "fair": 68,
+    "sound": 30,
+    "very_weak": 7,
+    "disputed_narrator": 39,
+    "disputed": 4
+   },
+   "0303Nasai.SunanKubra": {
+    "defect_note": 483,
+    "uniqueness": 21,
+    "weak": 110,
+    "disputed": 11,
+    "very_weak": 8,
+    "fair": 4,
+    "unknown_narrator": 8,
+    "sound": 3,
+    "disputed_narrator": 1
+   },
+   "0303Nasai.SunanSughra": {
+    "defect_note": 116,
+    "uniqueness": 5,
+    "weak": 51,
+    "fair": 1,
+    "very_weak": 6,
+    "disputed": 3,
+    "unknown_narrator": 1,
+    "sound": 1
+   },
+   "0307AbuYaclaMawsili.Musnad": {
+    "defect_note": 3,
+    "fair": 1,
+    "weak": 3
+   },
+   "0311IbnKhuzaymaNaysaburi.Sahih": {
+    "uniqueness": 21,
+    "very_weak": 3,
+    "defect_note": 78,
+    "weak": 22,
+    "disputed_narrator": 6,
+    "sound": 2,
+    "unknown_narrator": 1,
+    "fair": 2
+   },
+   "0360Tabarani.MucjamAwsat": {
+    "uniqueness": 6249,
+    "very_weak": 2,
+    "weak": 1,
+    "defect_note": 7,
+    "disputed_narrator": 1
+   },
+   "0360Tabarani.MucjamKabir": {
+    "defect_note": 27,
+    "uniqueness": 5,
+    "weak": 7,
+    "fair": 2
+   },
+   "0360Tabarani.MucjamSaghir": {
+    "uniqueness": 1087,
+    "very_weak": 2,
+    "sound": 4,
+    "fair": 4,
+    "weak": 7,
+    "disputed_narrator": 3,
+    "unknown_narrator": 1,
+    "narrators_trustworthy": 1
+   },
+   "0385Daraqutni.Sunan": {
+    "defect_note": 76,
+    "very_weak": 65,
+    "fair": 19,
+    "weak": 179,
+    "sound": 53,
+    "disputed": 5,
+    "unknown_narrator": 13,
+    "narrators_trustworthy": 21,
+    "uniqueness": 39,
+    "disputed_narrator": 4,
+    "fabricated": 5
+   },
+   "0405HakimNaysaburi.Mustadrak": {
+    "defect_note": 14,
+    "uniqueness": 5,
+    "sound": 24,
+    "weak": 1,
+    "narrators_trustworthy": 1,
+    "disputed_narrator": 2
+   },
+   "0458Bayhaqi.ShucabIman": {
+    "weak": 201,
+    "very_weak": 14,
+    "defect_note": 61,
+    "uniqueness": 108,
+    "fair": 6,
+    "unknown_narrator": 12,
+    "sound": 6,
+    "disputed": 3,
+    "narrators_trustworthy": 1,
+    "disputed_narrator": 3,
+    "sound_by_support": 1
+   },
+   "0739CalaDinIbnBalban.Ihsan": {
+    "defect_note": 64,
+    "uniqueness": 16,
+    "weak": 19,
+    "fabricated": 2,
+    "fair": 1,
+    "very_weak": 2,
+    "narrators_trustworthy": 1,
+    "sound": 2,
+    "disputed": 1,
+    "unknown_narrator": 1
+   }
+  }
+ },
+ "v47_narrators": {
+  "file": "apparatus/hadith_links/weak_links.tsv.gz",
+  "hadith": 164521,
+  "ungraded": 115147,
+  "ungraded_with_weak_narrator": 4979,
+  "ungraded_fully_linked_all_reliable": 2138,
+  "rows": 5159,
+  "note": "only hadith with no classical grade; only narrators named with at least three words (a bare kunya or a short name is too often linked to a namesake). Rank 8-12 on Ibn Hajar's scale (da'if, majhul, matruk, muttaham, kadhdhab). Evidence about one narrator, not a grade of the hadith: the link is automatic, and corroboration and hidden defects are not weighed."
+ },
+ "v47_modern": {
+  "arnaut_ahmad": {
+   "file": "apparatus/hadith_grades_modern/arnaut_ahmad.tsv",
+   "verdicts": 27222,
+   "rows": 28510,
+   "rows_joined": 28132,
+   "hadith_with_verdict": 25897,
+   "hadith_single_candidate": 24842,
+   "class": {
+    "sound": 17555,
+    "sound_by_support": 4415,
+    "weak": 2940,
+    "fair": 1709,
+    "disputed": 685,
+    "unclassified": 328,
+    "narrators_trustworthy": 187,
+    "disputed_narrator": 155,
+    "very_weak": 140,
+    "fabricated": 14,
+    "unknown_narrator": 4
+   },
+   "rows_joined_with_a_grade": 27804,
+   "hadith_with_a_grade": 25667
+  },
+  "husayn_asad_darimi": {
+   "file": "apparatus/hadith_grades_modern/husayn_asad_darimi.tsv",
+   "verdicts": 3429,
+   "rows": 3439,
+   "rows_joined": 3392,
+   "hadith_with_verdict": 3392,
+   "hadith_single_candidate": 3392,
+   "class": {
+    "sound": 2031,
+    "weak": 591,
+    "fair": 397,
+    "disputed": 123,
+    "sound_by_support": 98,
+    "unclassified": 94,
+    "narrators_trustworthy": 29,
+    "very_weak": 19,
+    "unknown_narrator": 8,
+    "fabricated": 2
+   },
+   "rows_joined_with_a_grade": 3298,
+   "hadith_with_a_grade": 3298
+  },
+  "husayn_asad_abuyacla": {
+   "file": "apparatus/hadith_grades_modern/husayn_asad_abuyacla.tsv",
+   "verdicts": 6967,
+   "rows": 6981,
+   "rows_joined": 6961,
+   "hadith_with_verdict": 6951,
+   "hadith_single_candidate": 6951,
+   "class": {
+    "sound": 3635,
+    "weak": 1793,
+    "fair": 869,
+    "narrators_trustworthy": 250,
+    "very_weak": 198,
+    "unclassified": 102,
+    "sound_by_support": 82,
+    "disputed": 29,
+    "disputed_narrator": 2,
+    "unknown_narrator": 1
+   },
+   "rows_joined_with_a_grade": 6859,
+   "hadith_with_a_grade": 6850
+  },
+  "albani_jami": {
+   "file": "apparatus/hadith_grades_modern/albani_jami.tsv",
+   "verdicts": 6087,
+   "rows": 9353,
+   "rows_joined": 9353,
+   "hadith_with_verdict": 9077,
+   "hadith_single_candidate": 4048,
+   "class": {
+    "sound": 5754,
+    "weak": 2197,
+    "fair": 866,
+    "very_weak": 270,
+    "fabricated": 266
+   },
+   "rows_joined_with_a_grade": 9353,
+   "hadith_with_a_grade": 9077
+  }
  }
 }

@@ -277,8 +277,12 @@ def hadith_entry(score, r, par, members, chains, dhahabi, q, ctx):
         row = {"by": v["critic"], "grade": v["verdict"], "scope": v["scope"], "class": v["class"],
                "record": v["critic_record"], "loc": v["loc"], "match": v["match"], "candidates": int(v["candidates"] or 1)}
         (e["grades_modern"] if v["layer"] == "modern" else e["grades_classical"]).append(row)
+    if any("(his own remark)" in g["by"] for g in e["grades_classical"]): e["compiler_remark"] = []      # v47: it is in the table
     s = dhahabi.get("__insahih__", {}).get(r["id"])
-    if s: e["wording_also_in_sahih"] = [x for x in (s["bukhari"] + ";" + s["muslim"]).split(";") if x]
+    if s:
+        e["wording_also_in_sahih"] = [x for x in (s["bukhari"] + ";" + s["muslim"]).split(";") if x]
+        e["wording_also_in_sahih_companion"] = s.get("companion") or ""          # v47: same | other | unknown
+        if s.get("critic_record"): e["critic_says_in_sahih"] = s["critic_record"]
     g = par.get(r["id"])
     if g:
         cols = sorted({m.split(":")[2] for m in members[g]})
@@ -385,14 +389,17 @@ def main():
                                                      or "none by the compiler"))
             for g in later:
                 amb = f"; {g['candidates']} chains match, read his passage" if g["candidates"] > 1 else ""
-                print(f"      critic, on the {g['scope']}: {g['by']}: {g['grade'][:220]}  [cite {g['record']} @ {g['loc']}{amb}]")
+                print(f"      {'remark' if g['class'] in ('uniqueness', 'defect_note') else 'critic'}, on the {g['scope']}: {g['by']}: {g['grade'][:220]}  [cite {g['record']} @ {g['loc']}{amb}]")
             for g in e["grades_modern"]:
                 print(f"      MODERN (kept apart): {g['by']}: {g['grade'][:160]}  [cite {g['record']}]")
             for cm in e.get("compiler_remark") or []:
                 print(f"      the compiler's own remark: {cm[:200]}")
             if e.get("wording_also_in_sahih"):
-                print("      the same wording is also in the Sahih (a note on the wording, not a grade of this chain): "
+                comp = {"same": "; from the same Companion", "other": "; from ANOTHER Companion"}.get(e.get("wording_also_in_sahih_companion"), "")
+                print(f"      the same wording is also in the Sahih (a note on the wording, not a grade of this chain{comp}): "
                       + ", ".join(e["wording_also_in_sahih"][:4]))
+            if e.get("critic_says_in_sahih"):
+                print(f"      a classical critic says al-Bukhari or Muslim reported it  [cite {e['critic_says_in_sahih']}]")
             if e.get("parallel_group"):
                 print(f"      parallels ({e['parallel_group']}): " + ", ".join(e["parallel_collections"])
                       + ("  [in both al-Bukhari and Muslim, by wording]" if e["agreed_upon_by_wording"] else ""))
