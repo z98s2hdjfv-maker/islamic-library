@@ -250,7 +250,9 @@ def add_hadith_tables(db, repo):
     for gp in sorted(glob.glob(os.path.join(repo, "apparatus/hadith_grades/*.tsv"))):
         by = "al-Dhahabi (Talkhis)" if "dhahabi" in os.path.basename(gp) else os.path.basename(gp)[:-4]
         for r in csv.DictReader(open(gp, encoding="utf-8"), delimiter="\t"):
-            if r.get("hadith_id"): extra[r["hadith_id"]].append(f'{by}: {r["verdict"]}')
+            if r.get("hadith_id"):   # v44: tables of build_critic_grades.py name their critic and scope
+                who = f'{r["critic"]}, on the {r["scope"]}' if r.get("critic") else by
+                extra[r["hadith_id"]].append(f'{who}: {r["verdict"][:300]}')
     n = 0
     for p in files:
         rows, units = [], []

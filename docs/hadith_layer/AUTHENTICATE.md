@@ -37,7 +37,10 @@ A saying with fewer than three distinctive words is too short for this: use `tex
   chain, hidden defects and corroboration. It is not a grade of the hadith.
 - "Not found" means not found in this library by this wording. Try a shorter or different wording before saying so,
   and say exactly that.
-- Critics' verdicts are not yet joined to the hadith records as data (audit gap 2): that is the next step.
+- Since v44 the verdicts of al-Busiri, al-Haythami and al-Dhahabi are joined to the hadith as data and shown under each
+  hadith (`critic, on the chain: ...`), al-Albani on al-Tirmidhi as `MODERN (kept apart)`, with a note when the wording is
+  also in the Sahih, and the critics' numbered entries on the saying are listed. See CRITIC_GRADES.md. A verdict on a
+  chain is not a grade of the hadith.
 - al-Maqasid al-hasana is searched once (the copy in `corpus/grading`), not twice.
 
 ## The list of works

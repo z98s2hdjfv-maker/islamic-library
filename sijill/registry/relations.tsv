@@ -14,3 +14,5 @@ supersedes	this entry replaces an earlier one (corrections never overwrite)
 same_as	two entries refer to the same thing
 needs	an open_question needs this (a work, a witness, a study)
 by	the source_event was given or written by this voice
+quotes	the source_event or inference quotes this saying
+grades	the position is a voice's verdict on a saying (the grade in data.grade, in his words)

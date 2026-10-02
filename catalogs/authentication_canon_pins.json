@@ -1,0 +1,491 @@
+{
+ "pinned": "2026-10-02",
+ "works": {
+  "0292AbuBakrBazzar.BahrZakhkhar": {
+   "version": "0292AbuBakrBazzar.BahrZakhkhar.Shamela0012981-ara1",
+   "repo": "0300AH",
+   "commit": "01a1544130e0236850ef2698923ad01575c5bd7c",
+   "path": "data/0292AbuBakrBazzar/0292AbuBakrBazzar.BahrZakhkhar/0292AbuBakrBazzar.BahrZakhkhar.Shamela0012981-ara1",
+   "sha256": "160a4947267c5a7c121f03a93e76b0944aa267d9510bb127564e88d3af03d970",
+   "bytes": 6839841,
+   "source_type": "typed"
+  },
+  "0307AbuYaclaMawsili.Musnad": {
+   "version": "0307AbuYaclaMawsili.Musnad.JK000485-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0307AbuYaclaMawsili/0307AbuYaclaMawsili.Musnad/0307AbuYaclaMawsili.Musnad.JK000485-ara1",
+   "sha256": "35c319cbe492202dd7a6bf8d846e597f1b1cdafe9082593e57f367675362fdf1",
+   "bytes": 4009502,
+   "source_type": "typed"
+  },
+  "0360Tabarani.MucjamAwsat": {
+   "version": "0360Tabarani.MucjamAwsat.JK000883-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0360Tabarani/0360Tabarani.MucjamAwsat/0360Tabarani.MucjamAwsat.JK000883-ara1",
+   "sha256": "f9402adc9859449a724a366473b9224272b1e65e44f0a57fa7ba943c01a1baa2",
+   "bytes": 6004675,
+   "source_type": "typed"
+  },
+  "0360Tabarani.MucjamSaghir": {
+   "version": "0360Tabarani.MucjamSaghir.JK000476-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0360Tabarani/0360Tabarani.MucjamSaghir/0360Tabarani.MucjamSaghir.JK000476-ara1",
+   "sha256": "7c9e9b8edb5a42ff661cd45262db656c1f3b2ba275cd582156d01d3b60165af3",
+   "bytes": 861768,
+   "source_type": "typed"
+  },
+  "0739CalaDinIbnBalban.Ihsan": {
+   "version": "0739CalaDinIbnBalban.Ihsan.Sham19Y0001729-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0739CalaDinIbnBalban/0739CalaDinIbnBalban.Ihsan/0739CalaDinIbnBalban.Ihsan.Sham19Y0001729-ara1",
+   "sha256": "ee8773221d08caf6f3bd383fd8a214e5a4690b54719ace30b577cd73087ab7ce",
+   "bytes": 7641285,
+   "source_type": "typed"
+  },
+  "0458Bayhaqi.ShucabIman": {
+   "version": "0458Bayhaqi.ShucabIman.JK000021-ara1",
+   "repo": "0475AH",
+   "commit": "cc9beb0d9645e8cdce892556423b9926a127054f",
+   "path": "data/0458Bayhaqi/0458Bayhaqi.ShucabIman/0458Bayhaqi.ShucabIman.JK000021-ara1.completed",
+   "sha256": "46838a26a1e03d1b243e69e9559a6130f2b573d38266d25dad12ee29bf0fb1fa",
+   "bytes": 8273207,
+   "source_type": "typed"
+  },
+  "0204AbuDawudTayalisi.Musnad": {
+   "version": "0204AbuDawudTayalisi.Musnad.JK000470-ara1",
+   "repo": "0225AH",
+   "commit": "2cfdc8cf1b89abfd15463d1c429fbb822aa5d9a5",
+   "path": "data/0204AbuDawudTayalisi/0204AbuDawudTayalisi.Musnad/0204AbuDawudTayalisi.Musnad.JK000470-ara1",
+   "sha256": "196b52a0b3e2ea360209d8269ab4426c974c750617ec39fc6d2f1556c387bf0a",
+   "bytes": 1464081,
+   "source_type": "typed"
+  },
+  "0219IbnZubayrHumaydi.Musnad": {
+   "version": "0219IbnZubayrHumaydi.Musnad.JK000473-ara1",
+   "repo": "0225AH",
+   "commit": "2cfdc8cf1b89abfd15463d1c429fbb822aa5d9a5",
+   "path": "data/0219IbnZubayrHumaydi/0219IbnZubayrHumaydi.Musnad/0219IbnZubayrHumaydi.Musnad.JK000473-ara1",
+   "sha256": "ab8aa8926408f1edba41e59876a6903b8dd7764563b91ccab4995a2e161c2614",
+   "bytes": 739672,
+   "source_type": "typed"
+  },
+  "0656IbnCabdQawiMundhiri.MukhtasarSunanAbiDawud": {
+   "version": "0656IbnCabdQawiMundhiri.MukhtasarSunanAbiDawud.Sham19Y0020944-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0656IbnCabdQawiMundhiri/0656IbnCabdQawiMundhiri.MukhtasarSunanAbiDawud/0656IbnCabdQawiMundhiri.MukhtasarSunanAbiDawud.Sham19Y0020944-ara1",
+   "sha256": "db33dc0e9fe2a26fd03182b1137f487f642f1c898c8d813160c8cce33b153498",
+   "bytes": 3805843,
+   "source_type": "typed"
+  },
+  "0656IbnCabdQawiMundhiri.TarghibWaTarhib": {
+   "version": "0656IbnCabdQawiMundhiri.TarghibWaTarhib.JK000080-ara1",
+   "repo": "0675AH",
+   "commit": "4b1d2886508b435eb0377ccab96e1da96cc8ee0a",
+   "path": "data/0656IbnCabdQawiMundhiri/0656IbnCabdQawiMundhiri.TarghibWaTarhib/0656IbnCabdQawiMundhiri.TarghibWaTarhib.JK000080-ara1",
+   "sha256": "3a9a46600d3b0bbf04ee1758503cdef4effcc8dbe1b23897c2dd856bf474dd3a",
+   "bytes": 3700906,
+   "source_type": "typed"
+  },
+  "0807NurDinHaythami.KashfAstar": {
+   "version": "0807NurDinHaythami.KashfAstar.Shamela0012862-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0807NurDinHaythami/0807NurDinHaythami.KashfAstar/0807NurDinHaythami.KashfAstar.Shamela0012862-ara1",
+   "sha256": "31e929b044c1c69fc5790af2261d9a7c577e93b1eb7649f9a7a4f3d51e97a9b6",
+   "bytes": 2651946,
+   "source_type": "typed"
+  },
+  "0807NurDinHaythami.MaqsadCali": {
+   "version": "0807NurDinHaythami.MaqsadCali.Shamela0021570-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0807NurDinHaythami/0807NurDinHaythami.MaqsadCali/0807NurDinHaythami.MaqsadCali.Shamela0021570-ara1",
+   "sha256": "86f8066a4d64dcf30dd5b250580bfea4dca8bae53792b21690e2e74f5b7fa6e8",
+   "bytes": 1336769,
+   "source_type": "typed"
+  },
+  "0807NurDinHaythami.MawaridZaman": {
+   "version": "0807NurDinHaythami.MawaridZaman.JK000707-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0807NurDinHaythami/0807NurDinHaythami.MawaridZaman/0807NurDinHaythami.MawaridZaman.JK000707-ara1",
+   "sha256": "b611a846a059f6cc4808f0bb0aaa43b02fbfda377dc725e07fa805a57e75ae02",
+   "bytes": 1680771,
+   "source_type": "typed"
+  },
+  "0807NurDinHaythami.GhayatMaqsad": {
+   "version": "0807NurDinHaythami.GhayatMaqsad.Shamela0009567-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0807NurDinHaythami/0807NurDinHaythami.GhayatMaqsad/0807NurDinHaythami.GhayatMaqsad.Shamela0009567-ara1",
+   "sha256": "9b907706d8a505d80aedc687c700e764d5684ee0867143d2aa4612879a90d8e5",
+   "bytes": 3183395,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.MatalibCaliya": {
+   "version": "0852IbnHajarCasqalani.MatalibCaliya.JK006801-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.MatalibCaliya/0852IbnHajarCasqalani.MatalibCaliya.JK006801-ara1",
+   "sha256": "28f9b3841f9bc4f08cb9cefa882fa17df09a5c2d0f7b85cc3cf5dfdfd856ffa0",
+   "bytes": 3683708,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar": {
+   "version": "0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar.ShamAY0033053-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar/0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar.ShamAY0033053-ara1",
+   "sha256": "196cd5c2b65e6da60f355c4f2c8baaaf701280047ac99ff3259dd11ca0ecc70c",
+   "bytes": 1595854,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya": {
+   "version": "0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya.JK000775-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya/0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya.JK000775-ara1",
+   "sha256": "744106a1886cbdd0c36263df192a97936bec38770240de100198d5b06761f992",
+   "bytes": 1580656,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.BulughMaram": {
+   "version": "0852IbnHajarCasqalani.BulughMaram.Shamela0009111-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.BulughMaram/0852IbnHajarCasqalani.BulughMaram.Shamela0009111-ara1",
+   "sha256": "07ead668673e2e0d2d6a17afb01717e4805daf5beeb98cc53840b9f0cad8f45f",
+   "bytes": 558348,
+   "source_type": "typed"
+  },
+  "0804IbnMulaqqin.BadrMunir": {
+   "version": "0804IbnMulaqqin.BadrMunir.JK009137-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0804IbnMulaqqin/0804IbnMulaqqin.BadrMunir/0804IbnMulaqqin.BadrMunir.JK009137-ara1",
+   "sha256": "565cd5c00a9f79309634c37924c6fd01dce4c6446c4b53649fe7cedf300e1969",
+   "bytes": 9703554,
+   "source_type": "typed"
+  },
+  "0676Nawawi.KhulasatAhkam": {
+   "version": "0676Nawawi.KhulasatAhkam.JK007107-ara1",
+   "repo": "0700AH",
+   "commit": "3d8ff4e7b035aaa4ca5dda52c7322645f3401dcf",
+   "path": "data/0676Nawawi/0676Nawawi.KhulasatAhkam/0676Nawawi.KhulasatAhkam.JK007107-ara1",
+   "sha256": "477a4bad46a7b01bc4185f5affb013b232271cf31f1b0bcfbd0051906fc967dd",
+   "bytes": 1118949,
+   "source_type": "typed"
+  },
+  "0744IbnCabdHadi.TanqihTahqiq": {
+   "version": "0744IbnCabdHadi.TanqihTahqiq.JK006803-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0744IbnCabdHadi/0744IbnCabdHadi.TanqihTahqiq/0744IbnCabdHadi.TanqihTahqiq.JK006803-ara1",
+   "sha256": "4370c755837f798227f1bbc7a6a75c1232e33a4c1371e3c2c227db16fe745ff2",
+   "bytes": 2943729,
+   "source_type": "typed"
+  },
+  "0744IbnCabdHadi.MuharrirFiHadith": {
+   "version": "0744IbnCabdHadi.MuharrirFiHadith.JK007083-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0744IbnCabdHadi/0744IbnCabdHadi.MuharrirFiHadith/0744IbnCabdHadi.MuharrirFiHadith.JK007083-ara1",
+   "sha256": "1fa1c2282e3f37a7eb3e34c544ad25298799053f8121392a5960403b827eb6fa",
+   "bytes": 694401,
+   "source_type": "typed"
+  },
+  "0762IbnYusufZaylaci.TakhrijAhadith": {
+   "version": "0762IbnYusufZaylaci.TakhrijAhadith.JK001492-ara1",
+   "repo": "0775AH",
+   "commit": "61b0c7891699554aeff8dffdb8b1a2a59d2d22ab",
+   "path": "data/0762IbnYusufZaylaci/0762IbnYusufZaylaci.TakhrijAhadith/0762IbnYusufZaylaci.TakhrijAhadith.JK001492-ara1",
+   "sha256": "df626d4a5662a3cb11545bcb861d888520e328810923ce0b3f7587915020c752",
+   "bytes": 3103853,
+   "source_type": "typed"
+  },
+  "0911Suyuti.JamicSaghir": {
+   "version": "0911Suyuti.JamicSaghir.Shia002261Vols-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.JamicSaghir/0911Suyuti.JamicSaghir.Shia002261Vols-ara1",
+   "sha256": "a40ce1ae5daf0fce34037b6240db9e4ee7c9c1c37ff3ad441944cc4363d5d569",
+   "bytes": 1368512,
+   "source_type": "typed"
+  },
+  "1162IbnMuammadAbuFidaCajluni.KashfKhafa": {
+   "version": "1162IbnMuammadAbuFidaCajluni.KashfKhafa.JK000583-ara1",
+   "repo": "1175AH",
+   "commit": "2c367f78b779757652ee59df503fdc9312ec2f06",
+   "path": "data/1162IbnMuammadAbuFidaCajluni/1162IbnMuammadAbuFidaCajluni.KashfKhafa/1162IbnMuammadAbuFidaCajluni.KashfKhafa.JK000583-ara1",
+   "sha256": "c032223cabb516bcd34ef7ff225a4fb0fac47c0d2bf24385f1db1e3b0893a4e8",
+   "bytes": 2445098,
+   "source_type": "typed"
+  },
+  "0963IbnMuhammadIbnCiraqKanani.TanzihSharica": {
+   "version": "0963IbnMuhammadIbnCiraqKanani.TanzihSharica.JK005005-ara1",
+   "repo": "0975AH",
+   "commit": "c47ff1c47a9108eab999d7fa68ef30be16bc0f85",
+   "path": "data/0963IbnMuhammadIbnCiraqKanani/0963IbnMuhammadIbnCiraqKanani.TanzihSharica/0963IbnMuhammadIbnCiraqKanani.TanzihSharica.JK005005-ara1",
+   "sha256": "ca73f2dfc6ec937ab6dc51e795012ae77c071c0f196868abdee9df63b1fe3fdd",
+   "bytes": 2458790,
+   "source_type": "typed"
+  },
+  "0986IbnCaliFattani.TadhkiratMawducat": {
+   "version": "0986IbnCaliFattani.TadhkiratMawducat.Shamela0012738-ara1",
+   "repo": "1000AH",
+   "commit": "55a280982e225ff8652737b70d99a337cb939546",
+   "path": "data/0986IbnCaliFattani/0986IbnCaliFattani.TadhkiratMawducat/0986IbnCaliFattani.TadhkiratMawducat.Shamela0012738-ara1",
+   "sha256": "5a7497c4b45835a20838aba22b612f571ae876202e7381140da1419ad1ac9b07",
+   "bytes": 671071,
+   "source_type": "typed"
+  },
+  "1255Shawkani.FawaidMajmuca": {
+   "version": "1255Shawkani.FawaidMajmuca.JK001091-ara1",
+   "repo": "1275AH",
+   "commit": "d6d3091d7477cc4d2f4cdcd71e5873e90f5d28e8",
+   "path": "data/1255Shawkani/1255Shawkani.FawaidMajmuca/1255Shawkani.FawaidMajmuca.JK001091-ara1",
+   "sha256": "e8dc8a40faf0142da851228bf12957f67e1ee6706dbc0d5d9560c2ab7ae8685c",
+   "bytes": 659147,
+   "source_type": "typed"
+  },
+  "0911Suyuti.DurarMuntathira": {
+   "version": "0911Suyuti.DurarMuntathira.Shamela0021542-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.DurarMuntathira/0911Suyuti.DurarMuntathira.Shamela0021542-ara1",
+   "sha256": "ca452b4d1cac17bbdf1ee948bdacd0a771c7a97dff5bbb21946a5d8eb3b9dc91",
+   "bytes": 152692,
+   "source_type": "typed"
+  },
+  "0543IbnIbrahimHamadhaniJurqani.Abatil": {
+   "version": "0543IbnIbrahimHamadhaniJurqani.Abatil.Shamela0009642-ara1",
+   "repo": "0550AH",
+   "commit": "6c414b1e23f2646d30e4f7f08f4b07be9832367c",
+   "path": "data/0543IbnIbrahimHamadhaniJurqani/0543IbnIbrahimHamadhaniJurqani.Abatil/0543IbnIbrahimHamadhaniJurqani.Abatil.Shamela0009642-ara1",
+   "sha256": "83abd2fd1881c5d21c147906aab1562270ee4c5e28092cfa7b3e43d5f5acb94f",
+   "bytes": 902109,
+   "source_type": "typed"
+  },
+  "0597IbnJawzi.CilalMutanahiyya": {
+   "version": "0597IbnJawzi.CilalMutanahiyya.JK000629-ara1",
+   "repo": "0600AH",
+   "commit": "ea4bdc6517a49d07106f223aa0869aa7c21b9589",
+   "path": "data/0597IbnJawzi/0597IbnJawzi.CilalMutanahiyya/0597IbnJawzi.CilalMutanahiyya.JK000629-ara1",
+   "sha256": "47c7430c68b89f2612edeb1dc91f3aebe4b63a44a23a4d64ab94d6a7fcda55a2",
+   "bytes": 1561426,
+   "source_type": "typed"
+  },
+  "0507IbnQaysarani.MacrifatTadhkira": {
+   "version": "0507IbnQaysarani.MacrifatTadhkira.JK005019-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0507IbnQaysarani/0507IbnQaysarani.MacrifatTadhkira/0507IbnQaysarani.MacrifatTadhkira.JK005019-ara1",
+   "sha256": "e7fd182dac1c1954f5442703cce5aca9ea80ab06804d580cfc798edcb1ab2685",
+   "bytes": 212106,
+   "source_type": "typed"
+  },
+  "0507IbnQaysarani.TadhkiratMawducat": {
+   "version": "0507IbnQaysarani.TadhkiratMawducat.JK001199-ara1",
+   "repo": "0525AH",
+   "commit": "6290621b58e063ed1aa47ffd0a6fc1630191e7cb",
+   "path": "data/0507IbnQaysarani/0507IbnQaysarani.TadhkiratMawducat/0507IbnQaysarani.TadhkiratMawducat.JK001199-ara1",
+   "sha256": "129d5fa3617da1057a161d88e26e81c75fa571443d167b68780d921c24961510",
+   "bytes": 27189,
+   "source_type": "typed"
+  },
+  "0650IbnMuhammadRadiDinSaghani.Mawducat": {
+   "version": "0650IbnMuhammadRadiDinSaghani.Mawducat.JK005010-ara1",
+   "repo": "0650AH",
+   "commit": "287c0cc31845e7f63afb4c0e3c776fc13b45f00f",
+   "path": "data/0650IbnMuhammadRadiDinSaghani/0650IbnMuhammadRadiDinSaghani.Mawducat/0650IbnMuhammadRadiDinSaghani.Mawducat.JK005010-ara1",
+   "sha256": "48018e6d4af9379d7f077eb9c9df29e0f98bfcd33398ec4764eb62841c13c26f",
+   "bytes": 28359,
+   "source_type": "typed"
+  },
+  "0744IbnCabdHadi.RisalaLatifaFiAhadithDacifa": {
+   "version": "0744IbnCabdHadi.RisalaLatifaFiAhadithDacifa.ShamAY0034119-ara1",
+   "repo": "0750AH",
+   "commit": "7c9c84d9f98581470aa2b7f8bee00ae285c5c707",
+   "path": "data/0744IbnCabdHadi/0744IbnCabdHadi.RisalaLatifaFiAhadithDacifa/0744IbnCabdHadi.RisalaLatifaFiAhadithDacifa.ShamAY0034119-ara1",
+   "sha256": "364fbde15692f05234d2ab26e2fd20dd25536a41e989e3afbb5e2ff0d90f9a4d",
+   "bytes": 91488,
+   "source_type": "typed"
+  },
+  "0385Daraqutni.CilalWarida": {
+   "version": "0385Daraqutni.CilalWarida.Shamela0009082-ara1",
+   "repo": "0400AH",
+   "commit": "5bb6966d8df2ed22b1bff5cdbe29bb9c24f3ca29",
+   "path": "data/0385Daraqutni/0385Daraqutni.CilalWarida/0385Daraqutni.CilalWarida.Shamela0009082-ara1.completed",
+   "sha256": "8d13e2021a7ab769714996a8644c9f0a88e71784a0bfb0fa151b83447b67078f",
+   "bytes": 5836085,
+   "source_type": "typed"
+  },
+  "0327IbnAbiHatimRazi.CilalHadith": {
+   "version": "0327IbnAbiHatimRazi.CilalHadith.JK000682-ara1",
+   "repo": "0350AH",
+   "commit": "3f52b87dc367365000b32f815a3d0077451c46f4",
+   "path": "data/0327IbnAbiHatimRazi/0327IbnAbiHatimRazi.CilalHadith/0327IbnAbiHatimRazi.CilalHadith.JK000682-ara1",
+   "sha256": "77951fb73ea9759e95bb7a4fb4432ae9733f5c33853f978712c65b784487947a",
+   "bytes": 1906425,
+   "source_type": "typed"
+  },
+  "0279Tirmidhi.CilalKabir": {
+   "version": "0279Tirmidhi.CilalKabir.JK000679-ara1",
+   "repo": "0300AH",
+   "commit": "01a1544130e0236850ef2698923ad01575c5bd7c",
+   "path": "data/0279Tirmidhi/0279Tirmidhi.CilalKabir/0279Tirmidhi.CilalKabir.JK000679-ara1",
+   "sha256": "6aff1d0588484702e788d33d30b9d8449e4dbf460be7392b99ee8d2780bb595c",
+   "bytes": 437343,
+   "source_type": "typed"
+  },
+  "0234CaliIbnMadini.Cilal": {
+   "version": "0234CaliIbnMadini.Cilal.JK000708-ara1",
+   "repo": "0250AH",
+   "commit": "0cc00c0646c81988c75a3815fe6d9a5fa65ce592",
+   "path": "data/0234CaliIbnMadini/0234CaliIbnMadini.Cilal/0234CaliIbnMadini.Cilal.JK000708-ara1",
+   "sha256": "b7a959db1d7438c762678ea2a30598f9371a9fb647b6957da5421fceff7a18c8",
+   "bytes": 89414,
+   "source_type": "typed"
+  },
+  "0241IbnHanbal.CilalWaMacrifa": {
+   "version": "0241IbnHanbal.CilalWaMacrifa.Shamela0002331-ara1",
+   "repo": "0250AH",
+   "commit": "0cc00c0646c81988c75a3815fe6d9a5fa65ce592",
+   "path": "data/0241IbnHanbal/0241IbnHanbal.CilalWaMacrifa/0241IbnHanbal.CilalWaMacrifa.Shamela0002331-ara1.mARkdown",
+   "sha256": "0e1d1d35b7b666c84b5e11914de859b75e6384b6765817fadd64d0ef92fb5beb",
+   "bytes": 1651622,
+   "source_type": "typed"
+  },
+  "0365IbnCadiJurjani.KamilFiDucafa": {
+   "version": "0365IbnCadiJurjani.KamilFiDucafa.Shamela0012579-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0365IbnCadiJurjani/0365IbnCadiJurjani.KamilFiDucafa/0365IbnCadiJurjani.KamilFiDucafa.Shamela0012579-ara1.mARkdown",
+   "sha256": "1a285e57f2c5e46374707103ff599dd18cddfd6d6e57c000c7a9c6adfaaff04f",
+   "bytes": 7995157,
+   "source_type": "typed"
+  },
+  "0322AbuJacfarCuqayli.DucafaKabir": {
+   "version": "0322AbuJacfarCuqayli.DucafaKabir.Shamela0013041-ara1",
+   "repo": "0325AH",
+   "commit": "089e665b4958e0f145a46941987fb81cf3dda1b8",
+   "path": "data/0322AbuJacfarCuqayli/0322AbuJacfarCuqayli.DucafaKabir/0322AbuJacfarCuqayli.DucafaKabir.Shamela0013041-ara1.completed",
+   "sha256": "637ca088da7612a66ade8634dbbfc99a3717ca01f8b65829ee21378be432cb0a",
+   "bytes": 2892356,
+   "source_type": "typed"
+  },
+  "0354IbnHibbanBusti.Majruhin": {
+   "version": "0354IbnHibbanBusti.Majruhin.Shia003101Vols-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0354IbnHibbanBusti/0354IbnHibbanBusti.Majruhin/0354IbnHibbanBusti.Majruhin.Shia003101Vols-ara1.completed",
+   "sha256": "c029ac8a86a29759acda5974c06ab0c15ae6d76463012b00fb892790925df3b8",
+   "bytes": 1691456,
+   "source_type": "typed"
+  },
+  "0360Ramhurmuzi.MuhaddithFasil": {
+   "version": "0360Ramhurmuzi.MuhaddithFasil.JK000771-ara1",
+   "repo": "0375AH",
+   "commit": "ab52219710c6bf15a93d6e39886f0ca602d27952",
+   "path": "data/0360Ramhurmuzi/0360Ramhurmuzi.MuhaddithFasil/0360Ramhurmuzi.MuhaddithFasil.JK000771-ara1",
+   "sha256": "99229da29636d1d777b89fcfd02191ac453d6cb5e1b0de47950dd9616cd61106",
+   "bytes": 509419,
+   "source_type": "typed"
+  },
+  "0405HakimNaysaburi.MacrifatCulumHadith": {
+   "version": "0405HakimNaysaburi.MacrifatCulumHadith.Shia002093-ara1",
+   "repo": "0425AH",
+   "commit": "3a3c829e55a1e4fb614aa857e0d85f51d6a9f0ee",
+   "path": "data/0405HakimNaysaburi/0405HakimNaysaburi.MacrifatCulumHadith/0405HakimNaysaburi.MacrifatCulumHadith.Shia002093-ara1.completed",
+   "sha256": "2fca8474a7498d49b739893a3987a3bcd6f20db709f94413eabb7258816836ee",
+   "bytes": 598430,
+   "source_type": "typed"
+  },
+  "0463KhatibBaghdadi.KifayaFiCilmRiwaya": {
+   "version": "0463KhatibBaghdadi.KifayaFiCilmRiwaya.JK000135-ara1",
+   "repo": "0475AH",
+   "commit": "cc9beb0d9645e8cdce892556423b9926a127054f",
+   "path": "data/0463KhatibBaghdadi/0463KhatibBaghdadi.KifayaFiCilmRiwaya/0463KhatibBaghdadi.KifayaFiCilmRiwaya.JK000135-ara1",
+   "sha256": "2aaeae6caa71330d58d16c242474a1d25e54d535182895e14f52ff738f2bc4d7",
+   "bytes": 1116067,
+   "source_type": "typed"
+  },
+  "0643IbnSalahShahrazuri.MuqaddimatCulumHadith": {
+   "version": "0643IbnSalahShahrazuri.MuqaddimatCulumHadith.JK000537-ara1",
+   "repo": "0650AH",
+   "commit": "287c0cc31845e7f63afb4c0e3c776fc13b45f00f",
+   "path": "data/0643IbnSalahShahrazuri/0643IbnSalahShahrazuri.MuqaddimatCulumHadith/0643IbnSalahShahrazuri.MuqaddimatCulumHadith.JK000537-ara1.completed",
+   "sha256": "a0c8e952c6e28cbbf1b555981603b1544a268a7a91fa28715ea330a43e789577",
+   "bytes": 543311,
+   "source_type": "typed"
+  },
+  "0676Nawawi.Taqrib": {
+   "version": "0676Nawawi.Taqrib.JK010178-ara1",
+   "repo": "0700AH",
+   "commit": "3d8ff4e7b035aaa4ca5dda52c7322645f3401dcf",
+   "path": "data/0676Nawawi/0676Nawawi.Taqrib/0676Nawawi.Taqrib.JK010178-ara1",
+   "sha256": "23ee3953191cef87672e256f4dcba5b4b0c27f4ab54de52f6f14b5d3fdb853b6",
+   "bytes": 177049,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.NukhbatFikar": {
+   "version": "0852IbnHajarCasqalani.NukhbatFikar.JK000434-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.NukhbatFikar/0852IbnHajarCasqalani.NukhbatFikar.JK000434-ara1",
+   "sha256": "3ed9bd10014fe85430a269680d8d45c1d8b948b61bb724da25ea8ff49a954a82",
+   "bytes": 21557,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.NuzhatNazar": {
+   "version": "0852IbnHajarCasqalani.NuzhatNazar.Shamela0001565-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.NuzhatNazar/0852IbnHajarCasqalani.NuzhatNazar.Shamela0001565-ara1",
+   "sha256": "da62876331dd47fcc70c0112d118a4b0a33901c4e7027316dcf4772867796475",
+   "bytes": 177401,
+   "source_type": "typed"
+  },
+  "0852IbnHajarCasqalani.NukatCalaIbnSalah": {
+   "version": "0852IbnHajarCasqalani.NukatCalaIbnSalah.JK006975-ara1",
+   "repo": "0875AH",
+   "commit": "5835c183b8bbf4ea454d5c1be2b168b669403771",
+   "path": "data/0852IbnHajarCasqalani/0852IbnHajarCasqalani.NukatCalaIbnSalah/0852IbnHajarCasqalani.NukatCalaIbnSalah.JK006975-ara1",
+   "sha256": "33166be772cad0cd7ba4e9965440e0f46b69a027eeb43c768fbb996aa0474ad9",
+   "bytes": 805262,
+   "source_type": "typed"
+  },
+  "0911Suyuti.TadribRawi": {
+   "version": "0911Suyuti.TadribRawi.JK000138-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.TadribRawi/0911Suyuti.TadribRawi.JK000138-ara1",
+   "sha256": "4e4d2aeefca71ed3b75f152b11fd1d33f680bd4a4584f3a7db215ddb213e4296",
+   "bytes": 1468852,
+   "source_type": "typed"
+  },
+  "0806IbnHusaynZaynDinCiraqi.AlfiyyatTabsira": {
+   "version": "0806IbnHusaynZaynDinCiraqi.AlfiyyatTabsira.Shamela0005902-ara1",
+   "repo": "0825AH",
+   "commit": "bae1fba53712c020fe43e3e60b37dfe61f2b64a8",
+   "path": "data/0806IbnHusaynZaynDinCiraqi/0806IbnHusaynZaynDinCiraqi.AlfiyyatTabsira/0806IbnHusaynZaynDinCiraqi.AlfiyyatTabsira.Shamela0005902-ara1",
+   "sha256": "d022d2bb3540705e98784f51162d116d05b32e7437bb9bd299c0f0888943153b",
+   "bytes": 112366,
+   "source_type": "typed"
+  },
+  "0911Suyuti.SahihWaDacif": {
+   "version": "0911Suyuti.SahihWaDacif.Shamela0021659-ara1",
+   "repo": "0925AH",
+   "commit": "4f0f4562d1e13083c593e3a0ca6a19a3eb33805e",
+   "path": "data/0911Suyuti/0911Suyuti.SahihWaDacif/0911Suyuti.SahihWaDacif.Shamela0021659-ara1",
+   "sha256": "a66b1a30b54b337f740955e900404fb781d3963c4a0dc9c7d45995c76c686565",
+   "bytes": 4815198,
+   "source_type": "typed"
+  }
+ }
+}

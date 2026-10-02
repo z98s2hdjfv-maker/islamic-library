@@ -21,6 +21,11 @@ score = 0.7 x share of the saying's words present + 0.3 x share of its adjacent 
 Default threshold 0.7. A saying with fewer than three distinctive words is too short to match loosely: use
 textsearch.py for it.
 
+v44. Each hadith found also shows the later critics' verdicts joined to it as data (al-Busiri on Ibn Maja,
+al-Haythami on Ahmad and al-Tabarani, al-Dhahabi on al-Hakim), each with the record to cite and marked as a verdict
+on the CHAIN or on the hadith; al-Albani on al-Tirmidhi as MODERN, apart; and a note when the same wording is also in
+al-Bukhari or Muslim. The critics' numbered entries on the saying (apparatus/sayings) are listed with their verdict.
+
 What this is NOT. It gathers evidence; it does not grade. "Verdict words" are words found near the quote (موضوع،
 لا أصل له، ضعيف، صحيح ...): they may be about another report or a narrator, so read the passage before citing it.
 The chain line lists only narrators that could be linked; it ignores unlinked names, breaks in the chain, hidden
@@ -232,6 +237,21 @@ def load_side(repo, ids):
     if os.path.exists(p):
         for r in csv.DictReader(open(p, encoding="utf-8"), delimiter="\t"):
             if r["hadith_id"] in ids: dhahabi[r["hadith_id"]] = r
+    # v44: the later critics' verdicts as data (build_critic_grades.py); modern ones from their own folder
+    critics = collections.defaultdict(list)
+    for folder in ("apparatus/hadith_grades", "apparatus/hadith_grades_modern"):
+        for p in sorted(glob.glob(os.path.join(repo, folder, "*.tsv"))):
+            with open(p, encoding="utf-8") as fh:
+                rd = csv.DictReader(fh, delimiter="\t")
+                if "critic" not in (rd.fieldnames or []): continue
+                for r in rd:
+                    if r["hadith_id"] in ids: critics[r["hadith_id"]].append(r)
+    insahih = {}
+    p = os.path.join(repo, "apparatus/hadith_links/in_sahih.tsv.gz")
+    if os.path.exists(p):
+        for r in csv.DictReader(opener(p), delimiter="\t"):
+            if r["hadith_id"] in ids: insahih[r["hadith_id"]] = r
+    dhahabi["__critics__"], dhahabi["__insahih__"] = critics, insahih
     return par, group_members, chains, dhahabi
 
 
@@ -245,6 +265,13 @@ def hadith_entry(score, r, par, members, chains, dhahabi, q, ctx):
     if r["id"] in dhahabi and not any(g["by"] == "al-Dhahabi" for g in e["grades_classical"]):
         e["grades_classical"].append({"by": "al-Dhahabi (Talkhis)", "grade": dhahabi[r["id"]]["verdict"],
                                       "record": dhahabi[r["id"]]["talkhis_record"]})
+    e["grades_modern"] = []
+    for v in sorted(dhahabi.get("__critics__", {}).get(r["id"], []), key=lambda v: int(v["death_ah"] or 9999)):
+        row = {"by": v["critic"], "grade": v["verdict"], "scope": v["scope"], "class": v["class"],
+               "record": v["critic_record"], "loc": v["loc"], "match": v["match"], "candidates": int(v["candidates"] or 1)}
+        (e["grades_modern"] if v["layer"] == "modern" else e["grades_classical"]).append(row)
+    s = dhahabi.get("__insahih__", {}).get(r["id"])
+    if s: e["wording_also_in_sahih"] = [x for x in (s["bukhari"] + ";" + s["muslim"]).split(";") if x]
     g = par.get(r["id"])
     if g:
         cols = sorted({m.split(":")[2] for m in members[g]})
@@ -290,6 +317,14 @@ def main():
     ids = {r["id"] for v in hh.values() for _, r in v}
     par, members, chains, dhahabi = load_side(a.repo, ids)
 
+    table = []
+    tp = os.path.join(a.repo, "apparatus/sayings/sayings.tsv.gz")
+    if os.path.exists(tp):
+        for r in csv.DictReader(opener(tp), delimiter="\t"): table.append((stems(r["saying"]), r))
+    table_modern = []
+    tp = os.path.join(a.repo, "apparatus/sayings/sayings_modern.tsv.gz")
+    if os.path.exists(tp) and not a.no_modern:
+        for r in csv.DictReader(opener(tp), delimiter="\t"): table_modern.append((stems(r["saying"]), r))
     out = []
     for qi, q in enumerate(sayings):
         H = sorted(hh.get(qi, []), key=lambda x: (-x[0], COLL.get(x[1]["collection"], ("", 9999))[1]))
@@ -301,7 +336,16 @@ def main():
         res = {"saying": q.text, "words_matched_on": q.shown, "too_short_for_loose_match": q.short,
                "collections_searched": len(COLL),
                "hadith": [hadith_entry(s, r, par, members, chains, dhahabi, q, a.context) for s, r in H],
-               "critics": [], "modern": [], "also": []}
+               "critics": [], "collection": [], "modern": [], "also": [],
+               "entries": sorted(({"saying_id": r["saying_id"], "group": r["group"], "critic": r["critic"],
+                                   "death_ah": r["death_ah"], "work": r["work"], "entry": r["entry"],
+                                   "saying": r["saying"], "verdict": r["verdict"], "cues": r["cues"],
+                                   "record": r["record"], "loc": r["loc"]}
+                                  for st, r in table if q.score(st)[0] >= a.threshold),
+                                 key=lambda e: int(e["death_ah"])),
+               "entries_modern": [{"saying_id": r["saying_id"], "critic": r["critic"], "work": r["work"], "entry": r["entry"],
+                                   "saying": r["saying"], "verdict": r["verdict"], "record": r["record"]}
+                                  for st, r in table_modern if q.score(st)[0] >= a.threshold]}
         W = sorted(wh.get(qi, []), key=lambda x: (int(x[1]["death_ah"] or 9999), -x[0]))
         for s, w, r, raw, nxt in W:
             res["critics" if w["layer"] == "classical" else w["layer"]].append(
@@ -328,8 +372,18 @@ def main():
             pn = "; ".join(f"{x['edition']}: {x['number']}" for x in e["printed_numbers"])
             print(f"\n   [{e['score']}] {e['collection']} (d. {e['death_ah']} AH), {num}{'; printed ' + pn if pn else ''}")
             print(f"      cite: {e['id']}   narrator: {e['narrator'] or '-'}" + (f"   caliph: {e['caliph']}" if e["caliph"] else ""))
-            print("      grades in the sources: " + ("; ".join(f"{g['by']}: {g['grade']}" for g in e["grades_classical"])
-                                                     or "none recorded (this collection is not graded in the layer)"))
+            own = [g for g in e["grades_classical"] if "record" not in g or "Dhahabi" in g["by"]]
+            later = [g for g in e["grades_classical"] if g not in own]
+            print("      grades in the sources: " + ("; ".join(f"{g['by']}: {g['grade']}" for g in own)
+                                                     or "none by the compiler"))
+            for g in later:
+                amb = f"; {g['candidates']} chains match, read his passage" if g["candidates"] > 1 else ""
+                print(f"      critic, on the {g['scope']}: {g['by']}: {g['grade'][:220]}  [cite {g['record']} @ {g['loc']}{amb}]")
+            for g in e["grades_modern"]:
+                print(f"      MODERN (kept apart): {g['by']}: {g['grade'][:160]}  [cite {g['record']}]")
+            if e.get("wording_also_in_sahih"):
+                print("      the same wording is also in the Sahih (a note on the wording, not a grade of this chain): "
+                      + ", ".join(e["wording_also_in_sahih"][:4]))
             if e.get("parallel_group"):
                 print(f"      parallels ({e['parallel_group']}): " + ", ".join(e["parallel_collections"])
                       + ("  [in both al-Bukhari and Muslim, by wording]" if e["agreed_upon_by_wording"] else ""))
@@ -341,11 +395,19 @@ def main():
                 if ln: print("         " + " <- ".join(ln[:8]))
             print(f"      {e['text']}")
         if len(H) > a.limit: print(f"\n   ... {len(H) - a.limit} more (raise --limit)")
-        for key, title in (("critics", "2. THE CLASSICAL CRITICS (oldest first)"), ("modern", "3. MODERN GRADES (kept apart from the classical)"),
+        if res["entries"]:
+            print(f"\n   THE CRITICS' NUMBERED ENTRIES on this saying (apparatus/sayings): {len(res['entries'])}")
+            for e in res["entries"][:a.limit]:
+                print(f"      {e['critic']} (d. {e['death_ah']} AH), {e['work']} no. {e['entry']} @ {e['loc']}  cues: {e['cues'] or '-'}")
+                print(f"         {e['saying'][:120]}")
+                if e["verdict"]: print(f"         -> {' '.join(e['verdict'].split()[:a.context + 20])}")
+        for key, title in (("collection", "1b. COLLECTIONS NOT YET IN THE HADITH LAYER (searched as text: no grades, parallels or chain data)"),
+                           ("critics", "2. THE CLASSICAL CRITICS (oldest first)"), ("modern", "3. MODERN GRADES (kept apart from the classical)"),
                            ("also", "4. ALSO QUOTED IN")):
             L = res[key]
             if key == "also" and not a.also: continue
             if key == "modern" and a.no_modern: continue
+            if key == "collection" and not L: continue
             by = collections.OrderedDict()
             for e in L: by.setdefault((e["author"], e["work"], e["death_ah"]), []).append(e)
             print(f"\n{title}: {len(L)} passages in {len(by)} works" + ("" if L else "  -> none found by this wording"))
@@ -360,6 +422,11 @@ def main():
                     print(f"      verdict words nearby: {vw}")
                     print(f"      {e['text']}")
                     if e.get("then"): print(f"      then: {e['then']}")
+            if key == "modern" and res.get("entries_modern"):
+                print(f"\n   al-Albani's numbered entries (apparatus/sayings/sayings_modern.tsv.gz): {len(res['entries_modern'])}")
+                for e in res["entries_modern"][:a.limit]:
+                    print(f"      {e['work']} no. {e['entry']}: {e['verdict'][:120]}  [cite {e['record']}]")
+                    print(f"         {e['saying'][:120]}")
         print("\nReminder: verdict words are cues, not rulings. Read the passage, cite the record id, keep classical and modern apart.")
 
 

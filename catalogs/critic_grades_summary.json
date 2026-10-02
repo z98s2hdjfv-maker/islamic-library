@@ -1,0 +1,120 @@
+{
+ "note": "derived automatically; a verdict on a chain is not a grade of the hadith; see docs/hadith_layer/CRITIC_GRADES.md",
+ "misbah": {
+  "file": "apparatus/hadith_grades/busiri_misbah_ibnmaja.tsv",
+  "verdicts": 1245,
+  "rows": 1249,
+  "rows_joined": 1240,
+  "hadith_with_verdict": 1231,
+  "hadith_single_candidate": 1226,
+  "class": {
+   "weak": 628,
+   "sound": 327,
+   "disputed_narrator": 90,
+   "very_weak": 65,
+   "fabricated": 49,
+   "fair": 35,
+   "narrators_trustworthy": 23,
+   "unknown_narrator": 13,
+   "unclassified": 10
+  }
+ },
+ "majma": {
+  "file": "apparatus/hadith_grades/haythami_majma.tsv",
+  "verdicts": 16258,
+  "rows": 16631,
+  "rows_joined": 6955,
+  "hadith_with_verdict": 6645,
+  "hadith_single_candidate": 6295,
+  "class": {
+   "weak": 1887,
+   "sound": 1365,
+   "narrators_trustworthy": 1051,
+   "unknown_narrator": 846,
+   "disputed_narrator": 693,
+   "very_weak": 482,
+   "fair": 350,
+   "unclassified": 182,
+   "fabricated": 99
+  },
+  "items_with_rawahu": 17507,
+  "not_joined_because": {
+   "verdict_names_another_source": 478,
+   "other_companion": 463
+  }
+ },
+ "albani": {
+  "file": "apparatus/hadith_grades_modern/albani_tirmidhi.tsv",
+  "verdicts": 3777,
+  "rows": 3777,
+  "rows_joined": 3668,
+  "hadith_with_verdict": 3651,
+  "hadith_single_candidate": 3651,
+  "class": {
+   "sound": 2641,
+   "weak": 692,
+   "fair": 275,
+   "very_weak": 32,
+   "fabricated": 17,
+   "unclassified": 11
+  }
+ },
+ "insahih": {
+  "file": "apparatus/hadith_links/in_sahih.tsv.gz",
+  "hadith_with_wording_in_sahih": 10608,
+  "by_collection": {
+   "0241IbnHanbal.Musnad": 3833,
+   "0255CabdAllahDarimi.Sunan": 307,
+   "0303Nasai.SunanKubra": 2081,
+   "0303Nasai.SunanSughra": 1169,
+   "0275AbuDawudSijistani.Sunan": 604,
+   "0360Tabarani.MucjamKabir": 1305,
+   "0273IbnMaja.Sunan": 536,
+   "0279Tirmidhi.Sunan": 257,
+   "0311IbnKhuzaymaNaysaburi.Sahih": 236,
+   "0405HakimNaysaburi.Mustadrak": 130,
+   "0385Daraqutni.Sunan": 150
+  }
+ },
+ "sayings": {
+  "entries": 5847,
+  "modern_entries_albani_jami": 14550,
+  "by_work": {
+   "al-Maqasid al-hasana": 1341,
+   "al-Asrar al-marfuʿa": 620,
+   "Kashf al-khafaʾ": 3240,
+   "Talkhis al-Mawduʿat": 646
+  },
+  "groups_across_works": 1234,
+  "entries_in_a_group": 2899,
+  "entries_with_wording_in_the_collections": 807,
+  "cue_first": {
+   "none": 2726,
+   "weak": 762,
+   "sound": 450,
+   "fair": 433,
+   "not_prophetic": 405,
+   "fabricated": 399,
+   "no_basis": 258,
+   "not_found": 253,
+   "cross_reference": 156,
+   "mutawatir": 5
+  }
+ },
+ "coverage": {
+  "hadith": 113509,
+  "without_classical_grade_before_v44": 86819,
+  "without_classical_grade_after_v44": 78943,
+  "also_without_sahih_wording_note": 69041,
+  "note": "classical grade = the compiler's own, or a later critic's verdict joined as data (al-Dhahabi, al-Haythami, al-Busiri). The Sahih wording note is not a grade."
+ },
+ "sample_check": {
+  "date": "2026-10-01",
+  "by": "Claude (not a scholar)",
+  "haythami": "55 random joins read after tuning: 54 the right hadith and Companion, 1 doubtful",
+  "busiri": "8 of 8 right",
+  "albani_tirmidhi": "6 of 6 right (number and text agree)",
+  "in_sahih": "6 of 6 the same wording",
+  "status": "scholar review pending"
+ }
+}

@@ -1,0 +1,55 @@
+folder	layer	strand	book	scholar	role	note	source	version	item	file_base
+hadith_extra	classical	hadith collection	0292AbuBakrBazzar.BahrZakhkhar	al-Bazzar	musnad with notes on defects	Musnad al-Bazzar (al-Bahr al-zakhkhar); a source of al-Haythami's Majmaʿ; al-Bazzar comments on many chains himself	openiti			
+hadith_extra	classical	hadith collection	0307AbuYaclaMawsili.Musnad	Abu Yaʿla al-Mawsili	musnad	a source of al-Haythami's Majmaʿ	openiti			
+hadith_extra	classical	hadith collection	0360Tabarani.MucjamAwsat	al-Tabarani	muʿjam	a source of al-Haythami's Majmaʿ; al-Tabarani notes who alone narrates each hadith	openiti			
+hadith_extra	classical	hadith collection	0360Tabarani.MucjamSaghir	al-Tabarani	muʿjam	a source of al-Haythami's Majmaʿ	openiti			
+hadith_extra	classical	hadith collection	0739CalaDinIbnBalban.Ihsan	Ibn Hibban, arranged by Ibn Balban	sahih collection	Sahih Ibn Hibban in Ibn Balban's arrangement (al-Ihsan); the OpenITI URI is under Ibn Balban (d. 739), the hadith and the claim of soundness are Ibn Hibban's (d. 354); the edition's footnote gradings, if present, are modern	openiti			
+hadith_extra	classical	hadith collection	0458Bayhaqi.ShucabIman	al-Bayhaqi	thematic collection	source of many current sayings on character and piety; al-Bayhaqi often comments on the chain	openiti			
+hadith_extra	classical	hadith collection	0204AbuDawudTayalisi.Musnad	Abu Dawud al-Tayalisi	early musnad		openiti			
+hadith_extra	classical	hadith collection	0219IbnZubayrHumaydi.Musnad	al-Humaydi	early musnad		openiti			
+grading	classical	critic of Abu Dawud	0656IbnCabdQawiMundhiri.MukhtasarSunanAbiDawud	al-Mundhiri	grading of Abu Dawud	his notes after each hadith of Abu Dawud: who else narrated it and what is said of its chain. EDITION WARNING (ed. Hallaq): the bracketed tags after a hadith ([صحيح], [ضعيف] ...) are the modern editor's, not al-Mundhiri's	openiti			
+grading	classical	grading	0656IbnCabdQawiMundhiri.TarghibWaTarhib	al-Mundhiri	grading of hadith of encouragement and warning	opens each hadith with عن (acceptable) or روي (weak) by his stated convention, and names the weak narrator	openiti			
+grading	classical	zawaid	0807NurDinHaythami.KashfAstar	Nur al-Din al-Haythami	additions of al-Bazzar with chains		openiti			
+grading	classical	zawaid	0807NurDinHaythami.MaqsadCali	Nur al-Din al-Haythami	additions of Abu Yaʿla with chains		openiti			
+grading	classical	zawaid	0807NurDinHaythami.MawaridZaman	Nur al-Din al-Haythami	additions of Ibn Hibban's Sahih		openiti			
+grading	classical	zawaid	0807NurDinHaythami.GhayatMaqsad	Nur al-Din al-Haythami	additions of Ahmad's Musnad		openiti			
+grading	classical	zawaid	0852IbnHajarCasqalani.MatalibCaliya	Ibn Hajar al-Asqalani	additions of eight musnads	with his verdicts on chains	openiti			
+grading	classical	zawaid	0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar	Ibn Hajar al-Asqalani	additions of al-Bazzar, with verdicts	Ibn Hajar's abridgement of al-Haythami's Kashf al-astar, adding his own verdict on each chain	openiti			
+grading	classical	takhrij	0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya	Ibn Hajar al-Asqalani	sourcing of the hadith of al-Hidaya (Hanafi)	abridges al-Zaylaʿi's Nasb al-raya	openiti			
+grading	classical	ahkam	0852IbnHajarCasqalani.BulughMaram	Ibn Hajar al-Asqalani	hadith of legal rulings with a verdict on each		openiti			
+grading	classical	takhrij	0804IbnMulaqqin.BadrMunir	Ibn al-Mulaqqin	sourcing of the hadith of al-Rafiʿi (Shafiʿi)	the fullest takhrij; Ibn Hajar's Talkhis al-habir abridges it	openiti			
+grading	classical	ahkam	0676Nawawi.KhulasatAhkam	al-Nawawi	hadith of legal rulings sorted into sound and weak		openiti			
+grading	classical	takhrij	0744IbnCabdHadi.TanqihTahqiq	Ibn ʿAbd al-Hadi	review of Ibn al-Jawzi's hadith of legal disagreement (Hanbali)		openiti			
+grading	classical	ahkam	0744IbnCabdHadi.MuharrirFiHadith	Ibn ʿAbd al-Hadi	hadith of legal rulings with verdicts		openiti			
+grading	classical	takhrij	0762IbnYusufZaylaci.TakhrijAhadith	Jamal al-Din al-Zaylaʿi	sourcing of the hadith in al-Zamakhshari's Kashshaf	many tafsir reports are weighed here	openiti			
+grading	classical	grading	0911Suyuti.JamicSaghir	al-Suyuti	alphabetical collection with a grade symbol on each hadith	the printed symbols (صح، ح، ض) are known to be unreliable in places; al-Munawi's Fayd al-qadir reviews them (not yet in the library)	openiti			
+mawduat	classical	popular sayings	1162IbnMuammadAbuFidaCajluni.KashfKhafa	al-ʿAjluni	sayings current on people's tongues	the largest such collection (over 3,000 entries); builds on al-Sakhawi	openiti			
+mawduat	classical	fabrication	0963IbnMuhammadIbnCiraqKanani.TanzihSharica	Ibn ʿArraq	fabricated reports, with the reviews of Ibn al-Jawzi's verdicts	gathers Ibn al-Jawzi, al-Suyuti's Laʾali and his supplements	openiti			
+mawduat	classical	fabrication	0986IbnCaliFattani.TadhkiratMawducat	al-Fattani	fabricated reports		openiti			
+mawduat	classical	fabrication	1255Shawkani.FawaidMajmuca	al-Shawkani	fabricated reports	late (d. 1250/1255 AH) but in the classical method	openiti			
+mawduat	classical	popular sayings	0911Suyuti.DurarMuntathira	al-Suyuti	well-known sayings and their standing		openiti			
+mawduat	classical	fabrication	0543IbnIbrahimHamadhaniJurqani.Abatil	al-Jawraqani	false and rejected reports set against sound ones	the earliest work of the genre	openiti			
+mawduat	classical	fabrication	0597IbnJawzi.CilalMutanahiyya	Ibn al-Jawzi	very weak reports	the companion to his Mawduʿat: reports he held to be baseless but not fabricated	openiti			
+mawduat	classical	fabrication	0507IbnQaysarani.MacrifatTadhkira	Ibn al-Qaysarani	fabricated reports, alphabetical		openiti			
+mawduat	classical	fabrication	0507IbnQaysarani.TadhkiratMawducat	Ibn al-Qaysarani	fabricated reports		openiti			
+mawduat	classical	fabrication	0650IbnMuhammadRadiDinSaghani.Mawducat	al-Saghani	fabricated reports	known for severity	openiti			
+mawduat	classical	fabrication	0744IbnCabdHadi.RisalaLatifaFiAhadithDacifa	Ibn ʿAbd al-Hadi	weak and fabricated sayings		openiti			
+cilal	classical	hidden defects	0385Daraqutni.CilalWarida	al-Daraqutni	hidden defects of hadith	the fullest work on ʿilal	openiti			
+cilal	classical	hidden defects	0327IbnAbiHatimRazi.CilalHadith	Ibn Abi Hatim	hidden defects, from Abu Hatim and Abu Zurʿa		openiti			
+cilal	classical	hidden defects	0279Tirmidhi.CilalKabir	al-Tirmidhi	hidden defects, from al-Bukhari		openiti			
+cilal	classical	hidden defects	0234CaliIbnMadini.Cilal	ʿAli ibn al-Madini	hidden defects		openiti			
+cilal	classical	hidden defects	0241IbnHanbal.CilalWaMacrifa	Ahmad ibn Hanbal	hidden defects and narrators		openiti			
+cilal	classical	narrator criticism	0365IbnCadiJurjani.KamilFiDucafa	Ibn ʿAdi	weak narrators with the reports held against them		openiti			
+cilal	classical	narrator criticism	0322AbuJacfarCuqayli.DucafaKabir	al-ʿUqayli	weak narrators with the reports held against them		openiti			
+cilal	classical	narrator criticism	0354IbnHibbanBusti.Majruhin	Ibn Hibban	impugned narrators		openiti			
+mustalah	classical	hadith method	0360Ramhurmuzi.MuhaddithFasil	al-Ramahurmuzi	the first manual of hadith method		openiti			
+mustalah	classical	hadith method	0405HakimNaysaburi.MacrifatCulumHadith	al-Hakim	the kinds of hadith knowledge		openiti			
+mustalah	classical	hadith method	0463KhatibBaghdadi.KifayaFiCilmRiwaya	al-Khatib al-Baghdadi	rules of transmission		openiti			
+mustalah	classical	hadith method	0643IbnSalahShahrazuri.MuqaddimatCulumHadith	Ibn al-Salah	the standard manual (the Muqaddima)		openiti			
+mustalah	classical	hadith method	0676Nawawi.Taqrib	al-Nawawi	abridgement of Ibn al-Salah		openiti			
+mustalah	classical	hadith method	0852IbnHajarCasqalani.NukhbatFikar	Ibn Hajar al-Asqalani	the short text of the terms		openiti			
+mustalah	classical	hadith method	0852IbnHajarCasqalani.NuzhatNazar	Ibn Hajar al-Asqalani	his own commentary on the Nukhba		openiti			
+mustalah	classical	hadith method	0852IbnHajarCasqalani.NukatCalaIbnSalah	Ibn Hajar al-Asqalani	critical notes on Ibn al-Salah		openiti			
+mustalah	classical	hadith method	0911Suyuti.TadribRawi	al-Suyuti	commentary on al-Nawawi's Taqrib		openiti			
+mustalah	classical	hadith method	0806IbnHusaynZaynDinCiraqi.AlfiyyatTabsira	al-ʿIraqi	the thousand-line poem on hadith method		openiti			
+modern	modern	modern grading	0911Suyuti.SahihWaDacif	al-Albani (on al-Suyuti's al-Jamiʿ al-saghir)	his verdict on each hadith of al-Jamiʿ al-saghir and its supplement	MODERN: Sahih wa-daʿif al-Jamiʿ al-saghir wa-ziyadatuh. The OpenITI URI files it under al-Suyuti (d. 911); the verdicts are al-Albani's (d. 1420)	openiti			

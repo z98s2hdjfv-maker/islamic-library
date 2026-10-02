@@ -8,3 +8,5 @@ position	where one voice stands on an inference or question: links held_by -> vo
 verdict	the study's conclusion on an inference	holds | overstated | unsupported | wrong | mixed, plus reasoning
 open_question	what is still unresolved, and what would resolve it (a missing work, a needed witness, a further study)	needs
 topic	a theme that gathers questions (fitra, qadar, wilaya ...)	concepts (concept index ids), verses
+saying	a saying attributed to the Prophet, a Companion or a master, whose standing is examined (v44)	text (Arabic), saying_ids (apparatus/sayings), hadith_ids (hadith layer)
+authentication	what a study found on a saying's standing, from authenticate.py and the passages read: links about -> saying, cites the critics' records	found_in (collections), standing (sound | fair | weak | very weak | fabricated | no basis | not the Prophet's words | disputed | not found in the library), classical (who said what), modern (kept apart)

@@ -1,20 +1,60 @@
 corpus_path	function	layer	author	work	death_ah	note
+corpus/cilal/0279Tirmidhi.CilalKabir.jsonl.gz	hidden_defects	classical	al-Tirmidhi	al-ʿIlal al-kabir	279	al-Bukhari's answers on defects
+corpus/cilal/0322AbuJacfarCuqayli.DucafaKabir.jsonl.gz	narrator_criticism	classical	al-ʿUqayli	al-Duʿafaʾ al-kabir	322	
+corpus/cilal/0327IbnAbiHatimRazi.CilalHadith.jsonl.gz	hidden_defects	classical	Ibn Abi Hatim	ʿIlal al-hadith	327	Abu Hatim and Abu Zurʿa on defects
+corpus/cilal/0354IbnHibbanBusti.Majruhin.jsonl.gz	narrator_criticism	classical	Ibn Hibban	al-Majruhin	354	
+corpus/cilal/0365IbnCadiJurjani.KamilFiDucafa.jsonl.gz	narrator_criticism	classical	Ibn ʿAdi	al-Kamil fi l-duʿafaʾ	365	
+corpus/cilal/0385Daraqutni.CilalWarida.jsonl.gz	hidden_defects	classical	al-Daraqutni	al-ʿIlal al-warida	385	
+corpus/mawduat/0507IbnQaysarani.MacrifatTadhkira.jsonl.gz	fabrication	classical	Ibn al-Qaysarani	Maʿrifat al-tadhkira	507	
+corpus/mawduat/0507IbnQaysarani.TadhkiratMawducat.jsonl.gz	fabrication	classical	Ibn al-Qaysarani	Tadhkirat al-mawduʿat	507	
+corpus/mawduat/0543IbnIbrahimHamadhaniJurqani.Abatil.jsonl.gz	fabrication	classical	al-Jawraqani	al-Abatil wa-l-manakir	543	the earliest work of the genre
 corpus/wilaya/0597IbnJawzi.Mawducat.jsonl.gz	fabrication	classical	Ibn al-Jawzi	al-Mawduʿat	597	the base collection of reports judged fabricated; filed under wilaya by topic
+corpus/mawduat/0597IbnJawzi.CilalMutanahiyya.jsonl.gz	fabrication	classical	Ibn al-Jawzi	al-ʿIlal al-mutanahiya	597	very weak reports, companion to the Mawduʿat
+corpus/mawduat/0650IbnMuhammadRadiDinSaghani.Mawducat.jsonl.gz	fabrication	classical	al-Saghani	al-Mawduʿat	650	known for severity
+corpus/grading/0656IbnCabdQawiMundhiri.MukhtasarSunanAbiDawud.jsonl.gz	grading	classical	al-Mundhiri	Mukhtasar Sunan Abi Dawud	656	al-Mundhiri's own notes follow the bullet after each hadith. The bracketed tags after a hadith ([صحيح], [ضعيف] ...) are the MODERN editor's, not al-Mundhiri's: never cite them as his
+corpus/grading/0656IbnCabdQawiMundhiri.TarghibWaTarhib.jsonl.gz	grading	classical	al-Mundhiri	al-Targhib wa-l-tarhib	656	عن at the head of a hadith = acceptable, روي = weak, by his stated convention
+corpus/grading/0676Nawawi.KhulasatAhkam.jsonl.gz	grading	classical	al-Nawawi	Khulasat al-ahkam	676	sound and weak hadith of rulings in separate sections
+corpus/grading/0744IbnCabdHadi.TanqihTahqiq.jsonl.gz	takhrij	classical	Ibn ʿAbd al-Hadi	Tanqih al-Tahqiq	744	
+corpus/grading/0744IbnCabdHadi.MuharrirFiHadith.jsonl.gz	grading	classical	Ibn ʿAbd al-Hadi	al-Muharrar fi l-hadith	744	
+corpus/mawduat/0744IbnCabdHadi.RisalaLatifaFiAhadithDacifa.jsonl.gz	fabrication	classical	Ibn ʿAbd al-Hadi	Risala latifa fi ahadith daʿifa	744	
 corpus/grading/0748Dhahabi.TalkhisMawducatIbnJawzi.jsonl.gz	fabrication	classical	al-Dhahabi	Talkhis al-Mawduʿat	748	summary of Ibn al-Jawzi with al-Dhahabi's own verdicts
 corpus/rijal/0748Dhahabi.MizanIctidal.jsonl.gz	narrator_criticism	classical	al-Dhahabi	Mizan al-iʿtidal	748	weak narrators, with the reports held against them
 corpus/grading/0762IbnYusufZaylaci.NasbRaya.jsonl.gz	takhrij	classical	al-Zaylaʿi	Nasb al-raya	762	sourcing of the hadith in al-Hidaya (Hanafi law)
+corpus/grading/0762IbnYusufZaylaci.TakhrijAhadith.jsonl.gz	takhrij	classical	al-Zaylaʿi	Takhrij ahadith al-Kashshaf	762	sourcing of the hadith in al-Zamakhshari's tafsir
+corpus/grading/0804IbnMulaqqin.BadrMunir.jsonl.gz	takhrij	classical	Ibn al-Mulaqqin	al-Badr al-munir	804	the fullest takhrij of al-Rafiʿi
 corpus/ghazali/ihya_with_iraqi.jsonl	takhrij	classical	al-ʿIraqi	al-Mughni ʿan haml al-asfar (with the Ihyaʾ)	806	sourcing of the hadith in al-Ghazali's Ihyaʾ; the record holds al-Ghazali's text and al-ʿIraqi's notes together
 corpus/grading/0807NurDinHaythami.MajmacZawaid.jsonl.gz	grading	classical	al-Haythami	Majmaʿ al-zawaʾid	807	verdicts on the chains of hadith outside the Six Books
+corpus/grading/0807NurDinHaythami.KashfAstar.jsonl.gz	zawaid	classical	al-Haythami	Kashf al-astar (additions of al-Bazzar)	807	gives the chains; al-Bazzar's own remarks follow some hadith
+corpus/grading/0807NurDinHaythami.MawaridZaman.jsonl.gz	zawaid	classical	al-Haythami	Mawarid al-zamʾan (additions of Ibn Hibban)	807	inclusion means Ibn Hibban held it sound
 corpus/grading/0840ShihabDinBusiri.MisbahZujaja.jsonl.gz	grading	classical	al-Busiri	Misbah al-zujaja	840	verdicts on Ibn Maja's additions
 corpus/grading/0840ShihabDinBusiri.IthafKhayra.jsonl.gz	grading	classical	al-Busiri	Ithaf al-khayra	840	verdicts on the additions of ten musnads
 corpus/grading/0852IbnHajarCasqalani.TalkhisHabir.jsonl.gz	takhrij	classical	Ibn Hajar	al-Talkhis al-habir	852	sourcing of the hadith in al-Rafiʿi (Shafiʿi law)
 corpus/asma/0852IbnHajarCasqalani.TakhrijAhadithAsmaHusna.jsonl.gz	takhrij	classical	Ibn Hajar	Takhrij ahadith al-asmaʾ al-husna	852	sourcing of the hadith of the Names
+corpus/grading/0852IbnHajarCasqalani.MatalibCaliya.jsonl.gz	zawaid	classical	Ibn Hajar	al-Matalib al-ʿaliya	852	
+corpus/grading/0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar.jsonl.gz	grading	classical	Ibn Hajar	Mukhtasar zawaʾid Musnad al-Bazzar	852	his verdict on each chain
+corpus/grading/0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya.jsonl.gz	takhrij	classical	Ibn Hajar	al-Diraya	852	
+corpus/grading/0852IbnHajarCasqalani.BulughMaram.jsonl.gz	grading	classical	Ibn Hajar	Bulugh al-maram	852	a verdict after each hadith
 corpus/grading/0902Sakhawi.MaqasidHasana.jsonl.gz	popular_sayings	classical	al-Sakhawi	al-Maqasid al-hasana	902	sayings current on people's tongues; the copy in corpus/wilaya is the same text and is not searched twice
 corpus/wilaya/0911Suyuti.LaaliMasnuca.jsonl.gz	fabrication	classical	al-Suyuti	al-Laʾali al-masnuʿa	911	review of Ibn al-Jawzi's verdicts, often softening them
+corpus/grading/0911Suyuti.JamicSaghir.jsonl.gz	grading	classical	al-Suyuti	al-Jamiʿ al-saghir	911	grade symbols in print are unreliable in places
+corpus/mawduat/0911Suyuti.DurarMuntathira.jsonl.gz	popular_sayings	classical	al-Suyuti	al-Durar al-muntathira	911	
+corpus/mawduat/0963IbnMuhammadIbnCiraqKanani.TanzihSharica.jsonl.gz	fabrication	classical	Ibn ʿArraq	Tanzih al-shariʿa	963	gathers Ibn al-Jawzi, al-Suyuti and the reviews
+corpus/mawduat/0986IbnCaliFattani.TadhkiratMawducat.jsonl.gz	fabrication	classical	al-Fattani	Tadhkirat al-mawduʿat	986	
 corpus/wilaya/1014MullaCaliQari.AsrarMarfuca.jsonl.gz	fabrication	classical	Mulla ʿAli al-Qari	al-Asrar al-marfuʿa	1014	fabricated and baseless sayings
+corpus/mawduat/1162IbnMuammadAbuFidaCajluni.KashfKhafa.jsonl.gz	popular_sayings	classical	al-ʿAjluni	Kashf al-khafaʾ	1162	the largest collection of current sayings
+corpus/mawduat/1255Shawkani.FawaidMajmuca.jsonl.gz	fabrication	classical	al-Shawkani	al-Fawaʾid al-majmuʿa	1255	late but in the classical method
 corpus/wilaya/1345IbnJacfarKattani.NazmMutanathir.jsonl.gz	mutawatir	classical	al-Kattani	Nazm al-mutanathir	1345	mass-transmitted hadith; late (d. 1345 AH) but in the classical method
+corpus/hadith_extra/0204AbuDawudTayalisi.Musnad.jsonl.gz	collection	collection	Abu Dawud al-Tayalisi	Musnad	204	not in the hadith layer yet: searched as text
+corpus/hadith_extra/0219IbnZubayrHumaydi.Musnad.jsonl.gz	collection	collection	al-Humaydi	Musnad	219	not in the hadith layer yet
+corpus/hadith_extra/0292AbuBakrBazzar.BahrZakhkhar.jsonl.gz	collection	collection	al-Bazzar	Musnad (al-Bahr al-zakhkhar)	292	not in the hadith layer yet; his remark on the chain often follows the hadith
+corpus/hadith_extra/0307AbuYaclaMawsili.Musnad.jsonl.gz	collection	collection	Abu Yaʿla	Musnad	307	not in the hadith layer yet
+corpus/hadith_extra/0739CalaDinIbnBalban.Ihsan.jsonl.gz	collection	collection	Ibn Hibban (arr. Ibn Balban)	Sahih (al-Ihsan)	354	not in the hadith layer yet; inclusion = Ibn Hibban's claim of soundness
+corpus/hadith_extra/0360Tabarani.MucjamAwsat.jsonl.gz	collection	collection	al-Tabarani	al-Muʿjam al-awsat	360	not in the hadith layer yet
+corpus/hadith_extra/0360Tabarani.MucjamSaghir.jsonl.gz	collection	collection	al-Tabarani	al-Muʿjam al-saghir	360	not in the hadith layer yet
+corpus/hadith_extra/0458Bayhaqi.ShucabIman.jsonl.gz	collection	collection	al-Bayhaqi	Shuʿab al-iman	458	not in the hadith layer yet
 corpus/modern/1420Albani.SilsilaDacifa.jsonl.gz	grading	modern	al-Albani	Silsilat al-ahadith al-daʿifa	1420	OCR, uncorrected
 corpus/modern/1420Albani.SilsilaSahiha.jsonl.gz	grading	modern	al-Albani	Silsilat al-ahadith al-sahiha	1420	OCR, uncorrected
-corpus/modern/1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.jsonl.gz	grading	modern	al-Albani	Sahih wa-daʿif Sunan al-Tirmidhi	1420
-corpus/modern/1420MuhammadNasirDinAlbani.SahihAdabMufrad.jsonl.gz	grading	modern	al-Albani	Sahih al-Adab al-mufrad	1420
-corpus/modern/1420MuhammadNasirDinAlbani.DacifAdabMufrad.jsonl.gz	grading	modern	al-Albani	Daʿif al-Adab al-mufrad	1420
+corpus/modern/1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.jsonl.gz	grading	modern	al-Albani	Sahih wa-daʿif Sunan al-Tirmidhi	1420	
+corpus/modern/1420MuhammadNasirDinAlbani.SahihAdabMufrad.jsonl.gz	grading	modern	al-Albani	Sahih al-Adab al-mufrad	1420	
+corpus/modern/1420MuhammadNasirDinAlbani.DacifAdabMufrad.jsonl.gz	grading	modern	al-Albani	Daʿif al-Adab al-mufrad	1420	
+corpus/modern/0911Suyuti.SahihWaDacif.jsonl.gz	grading	modern	al-Albani	Sahih wa-daʿif al-Jamiʿ al-saghir	1420	his verdict under [حكم الألباني]
