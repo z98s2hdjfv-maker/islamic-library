@@ -15,7 +15,8 @@ checks = [
     ("niyya is found in al-Bukhari no. 1", "urn:hadith:0256Bukhari.Sahih:1" in ids(niyya["hadith"])),
     ("niyya carries al-Bukhari's grade", any(g["by"] == "al-Bukhari" for e in niyya["hadith"] for g in e["grades_classical"])),
     ("niyya has parallels in other collections", any(len(e.get("parallel_collections", [])) > 3 for e in niyya["hadith"])),
-    ("China saying is not in the hadith layer", not china["hadith"]),
+    ("China saying is not in the Six Books", not any(e["collection"].split(",")[0] in
+        ("al-Bukhari", "Muslim", "Abu Dawud", "al-Tirmidhi", "al-Nasaʾi", "Ibn Maja") for e in china["hadith"])),
     ("China saying is in Ibn al-Jawzi's Mawduʿat", any(e["author"] == "Ibn al-Jawzi" for e in china["critics"])),
     ("critics come oldest first", [int(e["death_ah"]) for e in china["critics"]] == sorted(int(e["death_ah"]) for e in china["critics"])),
     ("modern grades are kept apart", china["modern"] and all(e["author"] == "al-Albani" for e in china["modern"])
@@ -47,8 +48,19 @@ checks += [
     ("China saying: al-ʿAjluni's entry is in the sayings table", any(e["critic"] == "al-ʿAjluni" for e in china["entries"])),
     ("China saying: al-Albani's Jamiʿ verdict is in the modern entries only", bool(china["entries_modern"])
         and not any("Albani" in e["critic"] for e in china["entries"])),
-    ("collections outside the layer are listed apart from the critics", all(e["function"] == "collection" for e in china["collection"])
-        and not any(e["function"] == "collection" for e in china["critics"])),
+]
+# v46: the eight new collections in the hadith layer
+out3 = subprocess.run([sys.executable, os.path.join(HERE, "authenticate.py"), "من قاد أعمى أربعين خطوة وجبت له الجنة",
+                       "--json", "--repo", ".", "--no-modern"], capture_output=True, text=True, check=True).stdout
+blind = json.loads(out3)[0]
+ay = [e for e in blind["hadith"] if e["collection"].startswith("Abu Yaʿla")]
+checks += [
+    ("the hadith layer now has 21 collections", niyya["collections_searched"] == 21),
+    ("niyya is found in Ibn Hibban's Sahih with his own claim of soundness", any(e["collection"].startswith("Ibn Hibban")
+        and any(g["by"] == "Ibn Hibban" for g in e["grades_classical"]) for e in niyya["hadith"])),
+    ("Abu Yaʿla's hadith of leading the blind carries al-Haythami's verdict", any("Haythami" in g["by"] and "كذاب" in g["grade"]
+        for e in ay for g in e["grades_classical"])),
+    ("no collection is left outside the layer", not china["collection"]),
 ]
 bad = [name for name, ok in checks if not ok]
 for name, ok in checks: print("ok  " if ok else "FAIL", name)

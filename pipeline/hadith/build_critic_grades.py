@@ -9,10 +9,9 @@ corpus or the hadith layer is edited: the output is tables.
   misbah    al-Busiri (d. 840), Misbah al-zujaja: each addition of Ibn Maja with "هذا إسناد ..." after it
             -> apparatus/hadith_grades/busiri_misbah_ibnmaja.tsv            joined to Ibn Maja by isnad + matn
   majma     al-Haythami (d. 807), Majma' al-zawa'id: "... رواه أحمد والطبراني ... وفيه فلان وهو ضعيف"
-            -> apparatus/hadith_grades/haythami_majma.tsv                   joined to Ahmad's Musnad and al-Tabarani's
-                                                                            Kabir by wording (the only two of his sources
-                                                                            in the layer; al-Bazzar, Abu Ya'la and the
-                                                                            Awsat and Saghir are not in the library)
+            -> apparatus/hadith_grades/haythami_majma.tsv                   joined by wording to all six of his sources:
+                                                                            Ahmad, al-Tabarani's Kabir, and since v46
+                                                                            al-Bazzar, Abu Ya'la, the Awsat and Saghir
   albani    al-Albani (d. 1420), Sahih wa-da'if Sunan al-Tirmidhi: "تحقيق الألباني:" after each hadith
             -> apparatus/hadith_grades_modern/albani_tirmidhi.tsv           MODERN: its own folder, never merged
   insahih   for hadith of collections that carry no grade: the same wording is also in al-Bukhari or Muslim
@@ -37,7 +36,7 @@ Joining. Texts are normalised (textnorm.norm), transmission words (حدثنا، 
 3-word sequences. A verdict joins a hadith when at least half of the critic's quoted sequences occur in it and at least 4 do; when more than
 five hadith match equally the wording is too common and the verdict stays unjoined. Quotes under 5 words are not joined.
 
-Usage: python3 pipeline/hadith/build_critic_grades.py [--repo .] [misbah majma albani insahih | all]
+Usage: python3 pipeline/hadith/build_critic_grades.py [--repo .] [misbah majma albani insahih coverage | all]
 Summary: catalogs/critic_grades_summary.json. Everything derived automatically; status unverified until sampled
 (see docs/hadith_layer/CRITIC_GRADES.md for the hand-checked sample).
 """
@@ -184,6 +183,8 @@ def misbah(repo):
 
 
 # ---------- al-Haythami, Majma' al-zawa'id -> Ahmad, al-Tabarani (Kabir) ----------
+MAJMA_SOURCES = {"احمد": "0241IbnHanbal.Musnad", "الكبير": "0360Tabarani.MucjamKabir", "الاوسط": "0360Tabarani.MucjamAwsat",
+                 "الصغير": "0360Tabarani.MucjamSaghir", "البزار": "0292AbuBakrBazzar.BahrZakhkhar", "ابو يعلي": "0307AbuYaclaMawsili.Musnad"}
 NEXT = re.compile(r"\s(?=وعن(?:ه|ها|هم|هما)?\s)")
 SRC_END = re.compile(r"\s(?:وفيه|وفيها|وفي |ورجال|ورجاله|واسناد|وإسناد|باسناد|بإسناد|وهو |وله |وقد |ولم |الا ان|إلا أن|وقال|قلت|وروي|ورواه)")
 VERDICT_HINT = re.compile(r"رجال|اسناد|ثقات|ضعيف|ضعف|متروك|كذاب|لم اعرف|مجهول|وثق|حسن|صحيح|لين|مدلس|اختلط|لم يسم|منكر|وضاع")
@@ -230,7 +231,8 @@ def majma_items(text):
 
 
 def majma(repo):
-    L = Layer(repo, ["0241IbnHanbal.Musnad", "0360Tabarani.MucjamKabir"], "all"); loc = loc_tracker()
+    cols = [c for c in MAJMA_SOURCES.values() if os.path.exists(os.path.join(repo, f"apparatus/hadith/{c}.jsonl.gz"))]
+    L = Layer(repo, sorted(set(cols)), "all"); loc = loc_tracker(); cols = set(cols)
     rows = []; n_items = 0; prev_narr = set(); dropped = collections.Counter()
     for r in J(os.path.join(repo, "corpus/grading/0807NurDinHaythami.MajmacZawaid.jsonl.gz")):
         raw = raw_of(r)
@@ -250,11 +252,14 @@ def majma(repo):
             e = SRC_END.search(ntail)
             src = ntail[:e.start()] if e else ntail
             targets, names = set(), []
-            if re.search(r"رواه(?: كله)? (?:الامام )?احمد|واحمد", src): targets.add("0241IbnHanbal.Musnad"); names.append("Ahmad")
-            if "الطبراني" in src and ("الكبير" in src or not re.search(r"الاوسط|الصغير", src)):
-                targets.add("0360Tabarani.MucjamKabir"); names.append("al-Tabarani (Kabir)")
+            if re.search(r"رواه(?: كله)? (?:الامام )?احمد|واحمد", src): targets.add(MAJMA_SOURCES["احمد"]); names.append("Ahmad")
+            if "الطبراني" in src and ("الكبير" in src or not re.search(r"الاوسط|الصغير|الثلاثه", src)):
+                targets.add(MAJMA_SOURCES["الكبير"]); names.append("al-Tabarani (Kabir)")
+            if "الطبراني" in src and "الثلاثه" in src:
+                targets |= {MAJMA_SOURCES["الكبير"], MAJMA_SOURCES["الاوسط"], MAJMA_SOURCES["الصغير"]}; names.append("al-Tabarani (all three)")
             for nm, pat in (("al-Tabarani (Awsat)", "الاوسط"), ("al-Tabarani (Saghir)", "الصغير"), ("al-Bazzar", "البزار"), ("Abu Yaʿla", "ابو يعلي")):
-                if pat in src: names.append(nm)
+                if pat in src: names.append(nm); targets.add(MAJMA_SOURCES[pat])
+            targets &= cols
             if not VERDICT_HINT.search(ntail): continue          # sourcing only ("رواه أحمد"), no verdict stated
             at = text.find(tail[:30]); pg = [x for x in pages if x[0] <= max(at, 0)][-1]
             base = {"critic": "al-Haythami (Majmaʿ al-zawaʾid)", "death_ah": 807, "layer": "classical", "scope": "chain",
@@ -264,9 +269,9 @@ def majma(repo):
             # a verdict that names whose narrators it means ("ورجال أحمد ثقات") joins only that collection
             named = set(SPECIFIC.findall(ntail))
             if named:
-                keep = set()
-                if "احمد" in named: keep.add("0241IbnHanbal.Musnad")
-                if named & {"الطبراني", "الكبير"}: keep.add("0360Tabarani.MucjamKabir")
+                keep = {MAJMA_SOURCES[x] for x in named if x in MAJMA_SOURCES}
+                if "ابي يعلي" in named: keep.add(MAJMA_SOURCES["ابو يعلي"])
+                if "الطبراني" in named: keep |= {MAJMA_SOURCES["الكبير"], MAJMA_SOURCES["الاوسط"], MAJMA_SOURCES["الصغير"]}
                 if targets - keep: dropped["verdict_names_another_source"] += 1
                 targets &= keep
             cands = L.match(quote, only=targets) if targets else []
@@ -345,17 +350,44 @@ def insahih(repo):
     return {"file": "apparatus/hadith_links/in_sahih.tsv.gz", "hadith_with_wording_in_sahih": n, "by_collection": dict(per)}
 
 
+def coverage(repo):
+    """how many hadith of the layer carry a classical grade (the compiler's own, or a critic's verdict joined here)"""
+    own, coll = set(), {}
+    for p in sorted(os.listdir(os.path.join(repo, "apparatus/hadith"))):
+        for r in J(os.path.join(repo, "apparatus/hadith", p)):
+            coll[r["id"]] = r["collection"]
+            if r.get("grades"): own.add(r["id"])
+    crit = set()
+    gd = os.path.join(repo, "apparatus/hadith_grades")
+    for p in sorted(os.listdir(gd)):
+        for r in csv.DictReader(open(os.path.join(gd, p), encoding="utf-8"), delimiter="\t"):
+            if r.get("hadith_id"): crit.add(r["hadith_id"])
+    sah = set()
+    sp = os.path.join(repo, "apparatus/hadith_links/in_sahih.tsv.gz")
+    if os.path.exists(sp):
+        with gzip.open(sp, "rt", encoding="utf-8") as f: sah = {r["hadith_id"] for r in csv.DictReader(f, delimiter="\t")}
+    per = collections.defaultdict(lambda: collections.Counter())
+    for h, c in coll.items():
+        per[c]["hadith"] += 1; per[c]["compiler_grade"] += h in own; per[c]["critic_verdict"] += h in crit
+        per[c]["no_classical_grade"] += h not in own and h not in crit
+        per[c]["nothing_at_all"] += h not in own and h not in crit and h not in sah
+    tot = collections.Counter()
+    for v in per.values(): tot.update(v)
+    return {"collections": len(per), **dict(tot), "by_collection": {k: dict(v) for k, v in sorted(per.items())},
+            "note": "classical grade = the compiler's own, or a later critic's verdict joined as data. The Sahih wording note is not a grade."}
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("what", nargs="*", default=["all"]); ap.add_argument("--repo", default=".")
     a = ap.parse_args()
-    jobs = {"misbah": misbah, "majma": majma, "albani": albani, "insahih": insahih}
+    jobs = {"misbah": misbah, "majma": majma, "albani": albani, "insahih": insahih, "coverage": coverage}
     todo = list(jobs) if "all" in a.what else a.what
     sp = os.path.join(a.repo, "catalogs/critic_grades_summary.json")
     summary = json.load(open(sp, encoding="utf-8")) if os.path.exists(sp) else {}
     summary["note"] = "derived automatically; a verdict on a chain is not a grade of the hadith; see docs/hadith_layer/CRITIC_GRADES.md"
     for k in todo:
-        summary[k] = jobs[k](a.repo); print(k, json.dumps(summary[k], ensure_ascii=False))
+        summary[k] = jobs[k](a.repo); print(k, json.dumps(summary[k], ensure_ascii=False)[:1500])
     json.dump(summary, open(sp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 

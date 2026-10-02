@@ -44,14 +44,6 @@ corpus/wilaya/1014MullaCaliQari.AsrarMarfuca.jsonl.gz	fabrication	classical	Mull
 corpus/mawduat/1162IbnMuammadAbuFidaCajluni.KashfKhafa.jsonl.gz	popular_sayings	classical	al-ʿAjluni	Kashf al-khafaʾ	1162	the largest collection of current sayings
 corpus/mawduat/1255Shawkani.FawaidMajmuca.jsonl.gz	fabrication	classical	al-Shawkani	al-Fawaʾid al-majmuʿa	1255	late but in the classical method
 corpus/wilaya/1345IbnJacfarKattani.NazmMutanathir.jsonl.gz	mutawatir	classical	al-Kattani	Nazm al-mutanathir	1345	mass-transmitted hadith; late (d. 1345 AH) but in the classical method
-corpus/hadith_extra/0204AbuDawudTayalisi.Musnad.jsonl.gz	collection	collection	Abu Dawud al-Tayalisi	Musnad	204	not in the hadith layer yet: searched as text
-corpus/hadith_extra/0219IbnZubayrHumaydi.Musnad.jsonl.gz	collection	collection	al-Humaydi	Musnad	219	not in the hadith layer yet
-corpus/hadith_extra/0292AbuBakrBazzar.BahrZakhkhar.jsonl.gz	collection	collection	al-Bazzar	Musnad (al-Bahr al-zakhkhar)	292	not in the hadith layer yet; his remark on the chain often follows the hadith
-corpus/hadith_extra/0307AbuYaclaMawsili.Musnad.jsonl.gz	collection	collection	Abu Yaʿla	Musnad	307	not in the hadith layer yet
-corpus/hadith_extra/0739CalaDinIbnBalban.Ihsan.jsonl.gz	collection	collection	Ibn Hibban (arr. Ibn Balban)	Sahih (al-Ihsan)	354	not in the hadith layer yet; inclusion = Ibn Hibban's claim of soundness
-corpus/hadith_extra/0360Tabarani.MucjamAwsat.jsonl.gz	collection	collection	al-Tabarani	al-Muʿjam al-awsat	360	not in the hadith layer yet
-corpus/hadith_extra/0360Tabarani.MucjamSaghir.jsonl.gz	collection	collection	al-Tabarani	al-Muʿjam al-saghir	360	not in the hadith layer yet
-corpus/hadith_extra/0458Bayhaqi.ShucabIman.jsonl.gz	collection	collection	al-Bayhaqi	Shuʿab al-iman	458	not in the hadith layer yet
 corpus/modern/1420Albani.SilsilaDacifa.jsonl.gz	grading	modern	al-Albani	Silsilat al-ahadith al-daʿifa	1420	OCR, uncorrected
 corpus/modern/1420Albani.SilsilaSahiha.jsonl.gz	grading	modern	al-Albani	Silsilat al-ahadith al-sahiha	1420	OCR, uncorrected
 corpus/modern/1420MuhammadNasirDinAlbani.SahihWaDacifSunanTirmidhi.jsonl.gz	grading	modern	al-Albani	Sahih wa-daʿif Sunan al-Tirmidhi	1420	

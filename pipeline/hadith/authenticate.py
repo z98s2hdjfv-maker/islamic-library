@@ -4,7 +4,7 @@ authenticate.py - v43: one command to test a saying attributed to the Prophet, a
 
 Give it a saying in Arabic. In one pass it returns, with record ids to cite:
 
-  1. FOUND IN THE COLLECTIONS  the hadith layer (apparatus/hadith, 13 collections) matched by LOOSE wording, so a
+  1. FOUND IN THE COLLECTIONS  the hadith layer (apparatus/hadith, 21 collections since v46) matched by LOOSE wording, so a
                                paraphrase or a different version is still found; with narrator, the printed number
                                where the layer has one, the grades found in the sources (the compiler's own, and
                                al-Dhahabi on al-Hakim), parallels in other collections, and the narrators of the chain
@@ -68,7 +68,13 @@ COLL = {"0241IbnHanbal.Musnad": ("Ahmad, Musnad", 241), "0255CabdAllahDarimi.Sun
         "0303Nasai.SunanSughra": ("al-Nasaʾi, al-Mujtaba", 303),
         "0311IbnKhuzaymaNaysaburi.Sahih": ("Ibn Khuzayma, Sahih", 311),
         "0360Tabarani.MucjamKabir": ("al-Tabarani, al-Muʿjam al-kabir", 360),
-        "0385Daraqutni.Sunan": ("al-Daraqutni, Sunan", 385), "0405HakimNaysaburi.Mustadrak": ("al-Hakim, Mustadrak", 405)}
+        "0385Daraqutni.Sunan": ("al-Daraqutni, Sunan", 385), "0405HakimNaysaburi.Mustadrak": ("al-Hakim, Mustadrak", 405),
+        # v46
+        "0204AbuDawudTayalisi.Musnad": ("al-Tayalisi, Musnad", 204), "0219IbnZubayrHumaydi.Musnad": ("al-Humaydi, Musnad", 219),
+        "0292AbuBakrBazzar.BahrZakhkhar": ("al-Bazzar, Musnad", 292), "0307AbuYaclaMawsili.Musnad": ("Abu Yaʿla, Musnad", 307),
+        "0739CalaDinIbnBalban.Ihsan": ("Ibn Hibban, Sahih (al-Ihsan)", 354),
+        "0360Tabarani.MucjamAwsat": ("al-Tabarani, al-Muʿjam al-awsat", 360), "0360Tabarani.MucjamSaghir": ("al-Tabarani, al-Muʿjam al-saghir", 360),
+        "0458Bayhaqi.ShucabIman": ("al-Bayhaqi, Shuʿab al-iman", 458)}
 
 
 def stem(w):
@@ -261,7 +267,8 @@ def hadith_entry(score, r, par, members, chains, dhahabi, q, ctx):
          "number": r.get("number"), "numbering": r.get("numbering"),
          "printed_numbers": r.get("edition_numbers") or [], "narrator": r.get("narrator"), "caliph": r.get("caliph"),
          "grades_classical": [{"by": g.get("by"), "grade": g.get("grade")} for g in r.get("grades") or []],
-         "text": excerpt(r.get("matn") or r.get("isnad") or "", q, ctx), "source_ids": r.get("source_ids")}
+         "text": excerpt(r.get("matn") or r.get("isnad") or "", q, ctx), "source_ids": r.get("source_ids"),
+         "compiler_remark": (r.get("comments") or [])[:1] if r["collection"] in ("0292AbuBakrBazzar.BahrZakhkhar", "0360Tabarani.MucjamAwsat", "0360Tabarani.MucjamSaghir") else []}
     if r["id"] in dhahabi and not any(g["by"] == "al-Dhahabi" for g in e["grades_classical"]):
         e["grades_classical"].append({"by": "al-Dhahabi (Talkhis)", "grade": dhahabi[r["id"]]["verdict"],
                                       "record": dhahabi[r["id"]]["talkhis_record"]})
@@ -334,7 +341,7 @@ def main():
             seen[x[1]["collection"]] += 1
         H = [t[-1] for t in sorted(ranked, key=lambda t: t[:4])]
         res = {"saying": q.text, "words_matched_on": q.shown, "too_short_for_loose_match": q.short,
-               "collections_searched": len(COLL),
+               "collections_searched": len(glob.glob(os.path.join(a.repo, "apparatus/hadith/*.jsonl.gz"))),
                "hadith": [hadith_entry(s, r, par, members, chains, dhahabi, q, a.context) for s, r in H],
                "critics": [], "collection": [], "modern": [], "also": [],
                "entries": sorted(({"saying_id": r["saying_id"], "group": r["group"], "critic": r["critic"],
@@ -381,6 +388,8 @@ def main():
                 print(f"      critic, on the {g['scope']}: {g['by']}: {g['grade'][:220]}  [cite {g['record']} @ {g['loc']}{amb}]")
             for g in e["grades_modern"]:
                 print(f"      MODERN (kept apart): {g['by']}: {g['grade'][:160]}  [cite {g['record']}]")
+            for cm in e.get("compiler_remark") or []:
+                print(f"      the compiler's own remark: {cm[:200]}")
             if e.get("wording_also_in_sahih"):
                 print("      the same wording is also in the Sahih (a note on the wording, not a grade of this chain): "
                       + ", ".join(e["wording_also_in_sahih"][:4]))

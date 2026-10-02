@@ -1,34 +1,34 @@
 {
  "note": "derived automatically; unverified. weakest_rank is not a grade of the hadith.",
  "parallels": {
-  "groups": 13196,
-  "groups_across_collections": 10936,
-  "agreed_upon_groups": 1004,
-  "hadith_in_groups": 52390
+  "groups": 17695,
+  "groups_across_collections": 15385,
+  "agreed_upon_groups": 1022,
+  "hadith_in_groups": 76809
  },
  "taqrib_entries": 8824,
- "narrator_names": 592486,
- "narrator_names_linked": 263622,
- "share_linked": 0.445,
- "hadith_fully_linked": 2986,
+ "narrator_names": 841226,
+ "narrator_names_linked": 359132,
+ "share_linked": 0.427,
+ "hadith_fully_linked": 3369,
  "weakest_rank_of_linked": {
-  "thiqa": 33328,
-  "thiqa+ (highest)": 28572,
-  "saduq": 13934,
-  "saduq with errors": 9694,
-  "maqbul": 7892,
-  "da'if": 3124,
-  "Companion": 2780,
-  "majhul": 2018,
-  "matruk": 774,
-  "mastur": 339,
-  "kadhdhab": 55,
-  "muttaham": 7
+  "thiqa": 44684,
+  "thiqa+ (highest)": 38414,
+  "saduq": 19927,
+  "saduq with errors": 14194,
+  "maqbul": 10384,
+  "da'if": 5094,
+  "Companion": 4566,
+  "majhul": 2607,
+  "matruk": 1289,
+  "mastur": 447,
+  "kadhdhab": 79,
+  "muttaham": 19
  },
  "link_methods": {
-  "prefix": 143870,
-  "alias": 125751,
-  "contains": 7306,
+  "alias": 175653,
+  "prefix": 199653,
+  "contains": 9786,
   "prefix+book_code": 10566,
   "contains+book_code": 1511
  }
