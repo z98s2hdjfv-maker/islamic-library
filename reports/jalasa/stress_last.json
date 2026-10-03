@@ -1,18 +1,18 @@
 {
- "date": "2026-10-02",
- "commit": "01f51dc Add files via upload",
- "seconds": 134,
+ "date": "2026-10-03",
+ "commit": "dd81071 Add files via upload",
+ "seconds": 170,
  "must": [
-  49,
-  49
+  55,
+  55
  ],
  "goal": [
   0,
-  17
+  19
  ],
  "timing": {
-  "authenticate_all": 26.8,
-  "authenticate_per_saying": 1.6
+  "authenticate_all": 31.8,
+  "authenticate_per_saying": 1.5
  },
  "results": [
   {
@@ -70,6 +70,14 @@
    "section": "A. The Qur'an and its commentators",
    "ok": false,
    "found": "0 passages in 0 works; FAILED: passages>=500 (found 0); works>=50 (found 0)"
+  },
+  {
+   "id": "A8",
+   "level": "goal",
+   "check": "concept",
+   "section": "A. The Qur'an and its commentators",
+   "ok": false,
+   "found": "0 passages in 0 works; FAILED: passages>=100 (found 0); works>=20 (found 0)"
   },
   {
    "id": "B1",
@@ -168,6 +176,46 @@
    "found": "0 hadith, 0 critic passages; FAILED: critics>=1 (found 0)"
   },
   {
+   "id": "B13",
+   "level": "must",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": true,
+   "found": "1 hadith (al-Hakim), 0 critic passages"
+  },
+  {
+   "id": "B14",
+   "level": "must",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": true,
+   "found": "1 hadith (Ahmad), 7 critic passages"
+  },
+  {
+   "id": "B15",
+   "level": "goal",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": false,
+   "found": "1 hadith (Ahmad), 7 critic passages; FAILED: in:Tirmidhi"
+  },
+  {
+   "id": "B16",
+   "level": "goal",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": false,
+   "found": "6 hadith (Ahmad, Ibn Hibban, Ibn Maja, al-Tabarani, al-Tayalisi), 1 critic passages; FAILED: in:Tirmidhi"
+  },
+  {
+   "id": "B17",
+   "level": "goal",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": false,
+   "found": "0 hadith, 1 critic passages; FAILED: in:Ibn Hibban"
+  },
+  {
    "id": "C1",
    "level": "must",
    "check": "search",
@@ -222,6 +270,22 @@
    "section": "C. The masters of the council",
    "ok": false,
    "found": "0 records in 0 works; FAILED: folders_with_hits>=2 (found 0)"
+  },
+  {
+   "id": "C8",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "1 records in 1 works (mathnawi 1)"
+  },
+  {
+   "id": "C9",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "56 records in 7 works (ibnarabi 56)"
   },
   {
    "id": "D1",
@@ -365,7 +429,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "59 entries, 13 cited records (13 resolved); 0 problems"
+   "found": "193 entries, 76 cited records (76 resolved); 0 problems"
   },
   {
    "id": "H2",
@@ -373,7 +437,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "25 entries of type position"
+   "found": "55 entries of type position"
   },
   {
    "id": "H3",
@@ -381,23 +445,23 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "5 entries of type verdict"
+   "found": "23 entries of type verdict"
   },
   {
    "id": "H4",
-   "level": "goal",
+   "level": "must",
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
-   "ok": false,
-   "found": "0 entries of type saying; FAILED: entries>=7 (found 0)"
+   "ok": true,
+   "found": "22 entries of type saying"
   },
   {
    "id": "H5",
-   "level": "goal",
+   "level": "must",
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
-   "ok": false,
-   "found": "0 entries of type authentication; FAILED: entries>=7 (found 0)"
+   "ok": true,
+   "found": "22 entries of type authentication"
   },
   {
    "id": "H6",
@@ -461,7 +525,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": true,
-   "found": "27 seconds"
+   "found": "32 seconds"
   },
   {
    "id": "J3",
@@ -469,7 +533,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": false,
-   "found": "2 seconds; FAILED: seconds<=1 (found 1.58)"
+   "found": "2 seconds; FAILED: seconds<=1 (found 1.51)"
   },
   {
    "id": "K1",

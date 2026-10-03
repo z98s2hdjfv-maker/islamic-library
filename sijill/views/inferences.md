@@ -54,3 +54,154 @@ Parents and society corrupt; the self is not a source of going astray.
 - **The Qur'an** (d. 0 AH): *rejects*. 'He inspired it with its wickedness and its piety' (91:8); 'the self commands evil' (12:53): a source of going astray within. `urn:quran:91:8`; `urn:quran:12:53`
 - **Ibn ʿArabi** (d. 638 AH): *rejects*. 'Man's disobedience comes from what he was created upon; his obedience from what he was created for.' al-Futuhat, Shamela ed. p. 74 (record id pending)
 
+## Adam knew the Prophet's name from the pillars of the Throne
+
+
+
+**Verdict: wrong** (draft). Rests on a report al-Dhahabi judged fabricated.
+
+- **al-Hakim al-Naysaburi** (d. 405 AH): *affirms*. Judged the report sound in the Mustadrak. `urn:hadith:0405HakimNaysaburi.Mustadrak:4228`
+- **al-Dhahabi** (d. 748 AH): *rejects*. On al-Hakim's report: 'rather, fabricated'. `urn:hadith:0405HakimNaysaburi.Mustadrak:4228`
+
+## The seven heavens are seven astronomical scales
+
+From the atmosphere, the solar system, the stellar neighbourhood, the Milky Way, the Local Group and the Virgo supercluster to the cosmic web.
+
+**Verdict: unsupported** (draft). No source in the library. Qatada: the stars adorn the lowest heaven. The lecture later says every star and galaxy is within the first heaven, against its own map. The lecturer does call it an interpretation.
+
+- **Qatada ibn Diʿama** (d. 117 AH): *rejects*. The stars were created for three things: adornment of the lowest heaven, missiles against devils, and signs to navigate by; whoever reads anything else into them has spoken by his own opinion. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p73548` (Tafsir 23:123)
+- **Ibn ʿArabi** (d. 638 AH): *rejects*. Nine spheres: the seven heavens, the Kursi and the Throne, or the sphere of the stars and the starless sphere. The seven heavens were opened beneath the hollow of the sphere of the fixed stars, so the stars lie above all seven. `urn:shamela:ibnarabi.futuhat.arabiyya:r00055` (Futuhat 1:54); `urn:shamela:ibnarabi.futuhat.arabiyya:r00132` (Futuhat 1:131)
+- **Rumi** (d. 672 AH): *rejects*. The Prophet's ascent is not to be preferred over Yunus's: nearness to the Real is not going up or down but escaping the prison of existence. `urn:sufi:rumi.mathnawi:3.b4512`; `urn:sufi:rumi.mathnawi:3.b4513`; `urn:sufi:rumi.mathnawi:3.b4514`
+
+## The Miʿraj was bodily, and those who say otherwise only call themselves Muslims
+
+The journey was physical; those who deny this force meanings on the texts.
+
+**Verdict: overstated** (draft). The bodily view is al-Tabari's and Qadi ʿIyad's, but the dissent is early and inside the community: ʿAʾisha's report, and the group ʿIyad records.
+
+- **ʿAʾisha** (d. 58 AH): *rejects*. Reported as saying the Prophet's body was not missed and Allah took him by night in his spirit; the chain passes through an unnamed member of Abu Bakr's family. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p42216` (Tafsir 14:445)
+- **al-Tabari** (d. 310 AH): *affirms*. Rejects the spirit-only reading: Allah carried His servant on the Buraq, and a dream would be no proof of prophethood. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p42217` (Tafsir 14:445-448)
+- **al-Ghazali** (d. 505 AH): *affirms*. Lists denial of the bodily Miʿraj among the interpretations by which the Muʿtazila went beyond the Ashʿari middle course. `urn:shamela:ghazali.ihya_with_iraqi:r00201` (Ihyaʾ 1:201)
+- **Qadi ʿIyad** (d. 544 AH): *qualifies*. Holds the bodily, waking journey, since there is no impossibility in it; records a group who held the journey to Jerusalem bodily and the ascent to the heavens in spirit. `urn:openiti:0544QadiCiyad.Shifa.Shamela0023645-ara1:p01747` (al-Shifaʾ 1:363); `urn:openiti:0544QadiCiyad.Shifa.Shamela0023645-ara1:p01739`
+- **Ibn ʿArabi** (d. 638 AH): *affirms*. The verse says 'by night' so that no one imagines he was taken in his spirit. `urn:shamela:ibnarabi.rasail.ihya:r00623` (Rasaʾil, a collection of mixed attribution)
+
+## The Companions' words on the Sidra and its long description
+
+Words given to Ibn Masʿud, ʿAʾisha, Abu Bakr, ʿUmar and ʿAli, and a long description of lights, rivers and angels.
+
+**Verdict: unsupported** (draft). No source or Arabic is given, so they could not be tested by wording. The channel says it is made with AI tools.
+
+
+## 51:47 foretold the expanding universe
+
+'We are expanding it' was revealed 1,400 years before the expansion was discovered.
+
+**Verdict: unsupported** (draft). al-Tabari: 'We have ample power'. al-Qurtubi: 'rich and able', with one view 'We made wideness between it and the earth'. Neither reads ongoing expansion.
+
+- **al-Tabari** (d. 310 AH): *rejects*. 'La-musiʿun': possessors of ample power. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p68395` (Tafsir 21:547)
+- **al-Qurtubi** (d. 671 AH): *qualifies*. 'Rich and able'; one view he lists: 'We made wideness between it and the earth'. `urn:openiti:0671AbuCabdAllahQurtubi.JamicLiAhkamQuran.Tafsir01005-ara1:p37690`
+
+## al-Hasan al-Basri said the Kursi is Allah's knowledge
+
+
+
+**Verdict: wrong** (draft). al-Tabari gives this from Ibn ʿAbbas through Saʿid ibn Jubayr. What he gives from al-Hasan is that the Kursi is the Throne itself.
+
+- **ʿAbd Allah ibn ʿAbbas** (d. 68 AH): *rejects*. 'His Kursi is His knowledge' is Ibn ʿAbbas's own report, through Saʿid ibn Jubayr. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p11563` (Tafsir 4:538)
+
+## Seeing people in Hell before Judgment Day suggests travel through time
+
+The Prophet may have been shown the future; relativity and wormholes make this thinkable.
+
+**Verdict: unsupported** (draft). The creed already answers it: Paradise and Hell are created. Nothing in the sources needs a journey to the future.
+
+- **al-Tahawi** (d. 321 AH): *rejects*. Paradise and Hell are created, and Allah created them before the creation. `urn:openiti:0321Tahawi.MatnCaqida.JK000126-ara1:p00084` (al-ʿAqida al-Tahawiyya 1:51)
+
+## Jibril's 'I would be burned' comes from authentic narrations
+
+Jibril stopped at the Sidra and said he would burn if he went further.
+
+**Verdict: unsupported** (draft). Not found as a hadith; it is a Sufi motif (Sirr al-asrar, Rumi).
+
+- **ʿAbd al-Qadir al-Jilani** (d. 561 AH): *qualifies*. Sirr al-asrar (attribution doubtful) quotes Jibril's words to show that the circle of reality admits neither angel nor self. `urn:shamela:jilani.sirrasrar:r00021` (Sirr al-asrar p. 20); `urn:shamela:jilani.sirrasrar:r00033` (Sirr al-asrar p. 32)
+- **Rumi** (d. 672 AH): *qualifies*. Tells the scene: when Ahmad passed the Sidra, Jibril said 'beyond this bound, if I beat a wing, my wing will burn'. A master's telling, not a graded report. `urn:sufi:rumi.mathnawi:4.b3801`; `urn:sufi:rumi.mathnawi:4.b3804`
+
+## The heavens are tiny beside the Kursi, and the Kursi beside the Throne
+
+All seven heavens are like a ring in a desert beside the Kursi, and the Kursi likewise beside the Throne.
+
+**Verdict: holds** (draft). Abu Dharr's report in Ibn Hibban and al-Tabari; no classical verdict on it was found.
+
+- **Abu Dharr al-Ghifari** (d. 32 AH): *affirms*. Narrates the ring-in-a-desert comparison from the Prophet. `urn:openiti:0807NurDinHaythami.MawaridZaman.JK000707-ara1:p00162` (Mawarid 1:52-54)
+
+## The heavens of the Miʿraj are the Qur'an's seven heavens
+
+The seven heavens passed through on the Miʿraj are the same seven the Qur'an names.
+
+**Verdict: holds** (draft). The hadith of the ascent names the lowest heaven and counts to the seventh.
+
+- **ʿAbd al-Qadir al-Jilani** (d. 561 AH): *affirms*. The night of the Miʿraj is 'the night of drawing near', and the prayers were fixed in it. `urn:openiti:0561CabdQadirJilani.Ghunya.Sham19Y0017817-ara1:p03457` (al-Ghunya 2:22)
+
+## 'The heaven full of pathways' (51:7) may mean routes such as wormholes
+
+Hidden routes through creation that lead to other realms.
+
+**Verdict: unsupported** (draft). al-Tabari, from Ibn ʿAbbas: 'of beautiful form'; also 'of ripples', like waves in sand or curled hair.
+
+- **al-Tabari** (d. 310 AH): *qualifies*. 'Of beautiful form'; also 'of ripples (taraʾiq)'. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p67995` (Tafsir 21:487)
+
+## In the seven heavens he met seven prophets: ʿIsa, Yahya, Yusuf, Idris, Musa, Harun, Ibrahim
+
+One prophet per heaven in that order.
+
+**Verdict: wrong** (draft). Muslim: Adam in the first; ʿIsa and Yahya in the second; Yusuf, Idris, then Harun in the fifth, Musa in the sixth, Ibrahim in the seventh. Eight prophets; Adam is left out and Musa and Harun are swapped.
+
+
+## 'The sky that returns' (86:11) means the heavens return like the sun
+
+The heavens continually return according to an order woven into creation.
+
+**Verdict: unsupported** (draft). al-Tabari: it returns with the rain clouds and people's provision each year.
+
+- **al-Tabari** (d. 310 AH): *rejects*. The sky returns with the rain clouds and provision each year. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p78691` (Tafsir 24:302)
+
+## 36:40 points to the earth's rotation
+
+'It is not for the sun' means 'has no need', and 'the night does not overtake the day' excludes a moving sun.
+
+**Verdict: unsupported** (draft). al-Tabari: it is not fitting for the sun to overtake the moon, so that all time would be day.
+
+- **al-Tabari** (d. 310 AH): *rejects*. It is not fitting for the sun to overtake the moon, nor does the night outstrip the day. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p59731` (Tafsir 19:439)
+
+## 'Seven heavens' appears in seven verses of seven suras
+
+The phrase is not random: it comes seven times, in seven suras.
+
+**Verdict: holds** (draft). Counted in the library's Qur'an text: 2:29, 17:44, 23:86, 41:12, 65:12, 67:3, 71:15. The lecture's 'Noor' is Nuh.
+
+- **The Qur'an** (d. 0 AH): *affirms*. Seven verses carry the phrase. `urn:quran:2:29`; `urn:quran:17:44`; `urn:quran:23:86`; `urn:quran:41:12`; `urn:quran:65:12`; `urn:quran:67:3`; `urn:quran:71:15`
+
+## Sidrat al-Muntaha is the final boundary of the created universe
+
+Beyond the Sidra belongs to Allah alone; it is the furthest point of creation.
+
+**Verdict: overstated** (draft). The texts say it is where what rises from the earth and what descends from above stops. The Kursi, the Throne and al-Firdaws are created and lie beyond it, as the lecture itself says later.
+
+- **ʿAbd Allah ibn Masʿud** (d. 32 AH): *qualifies*. The Sidra is in the sixth heaven: to it ends what ascends from the earth, and to it ends what descends from above. `urn:openiti:0774IbnKathir.TafsirQuran.Shamela0008473-ara1:p04966` (Ibn Kathir 1:734, quoting Muslim)
+- **Ibn ʿArabi** (d. 638 AH): *qualifies*. To the Sidra the deeds of the children of Adam come to an end: a bound of deeds, not of creation. `urn:shamela:ibnarabi.futuhat.arabiyya:r00291` (Futuhat 1:290)
+
+## The Throne surrounds everything, as the rope hadith shows
+
+A rope lowered from the lowest earth would reach Allah, so the Throne encloses all.
+
+**Verdict: overstated** (draft). Built on a weak report that its own transmitters read as 'upon Allah's knowledge'.
+
+- **al-Tirmidhi** (d. 279 AH): *qualifies*. Calls the rope hadith strange, notes al-Hasan did not hear from Abu Hurayra, and reports the reading 'upon Allah's knowledge, power and authority' (as quoted by al-Sakhawi). `urn:openiti:0902Sakhawi.MaqasidHasana.JK001160-ara1:p03407` (Maqasid no. 886)
+
+## 'Day' 365 times, 'days' 30, 'month' 12 show a mathematical miracle
+
+The word counts match the calendar and clearly show a mathematical miracle.
+
+**Verdict: overstated** (draft). The counts do come out in the library's text, but only by a chosen rule: it leaves out yawmaʾidh (70 times) and yawmakum, yawmahum (10), and for 'month' the plural and dual (9).
+
+

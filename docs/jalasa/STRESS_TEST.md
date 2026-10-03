@@ -58,6 +58,7 @@ The council starts from the verse. The lookup must return the commentaries on it
 | A5 | must | concept | fitra | | passages>=1000, works>=100 | A key term across the works |
 | A6 | must | concept | qutb | | passages>=300, works>=50 | The hidden hierarchy |
 | A7 | goal | concept | qalb | | passages>=500, works>=50 | The heart as a concept: not in the concept index yet |
+| A8 | goal | concept | miraj | | passages>=100, works>=20 | The Miʿraj, the Sidra, the Kursi and the Throne are not in the concept index (seven heavens case) |
 
 ## B. The Sunna: testing a saying
 
@@ -77,6 +78,11 @@ Known answers. Each saying has a standing that the critics state in their own wo
 | B10 | goal | authenticate | إن العبد إذا أخطأ خطيئة نكتت في قلبه نكتة سوداء | | in:Tirmidhi | Al-Tirmidhi's own hadith is in the corpus but missing from his hadith layer |
 | B12 | goal | authenticate | إنما الأعمال بالنيات وإنما لكل امرئ ما نوى | | in:Muslim | Muslim words it "بالنية ... لامرئ": the popular wording should still lead to his version |
 | B11 | goal | authenticate | لو كشف عن نور المؤمن العاصي لطبق ما بين السماء والأرض | | critics>=1 | A master's saying (al-Shadhili) should be traced to who said it, not only reported as absent |
+| B13 | must | authenticate | لما اقترف آدم الخطيئة قال يا رب أسألك بحق محمد لما غفرت لي | | in:Hakim, grade:Dhahabi:موضوع, modern_apart | Al-Hakim's "sound" and al-Dhahabi's "fabricated" on the same report, side by side (seven heavens case) |
+| B14 | must | authenticate | لو أنكم دليتم بحبل إلى الأرض السفلى لهبط على الله | | in:Ahmad, critic:Sakhawi | A weak report with the reading its transmitters gave it |
+| B15 | goal | authenticate | لو أنكم دليتم بحبل إلى الأرض السفلى لهبط على الله | | in:Tirmidhi | Al-Tirmidhi's own hadith, missing from his layer like B10 |
+| B16 | goal | authenticate | أين كان ربنا قبل أن يخلق خلقه قال كان في عماء ما تحته هواء وما فوقه هواء | | in:Tirmidhi | The same fault: found in five other collections, not in al-Tirmidhi's |
+| B17 | goal | authenticate | ما السماوات السبع في الكرسي إلا كحلقة ملقاة بأرض فلاة | | in:Ibn Hibban | A short part of a long hadith should still find it in the layer |
 
 ## C. The masters of the council
 
@@ -91,6 +97,8 @@ Each master must be able to speak on the case in his own words. The test case is
 | C5 | must | search | الأسباب الخمسة | ghazali | records>=1 | The Ihya passage on the five causes is reachable by its own words |
 | C6 | must | search | القلب | ghazali,ibnarabi,jilani,rumi | each_folder | The plain word "heart" reaches all four masters (Rumi where he writes in Arabic) |
 | C7 | goal | search | مرآة القلب | rumi,mathnawi | each_folder | An Arabic phrase should reach Rumi's Persian (آینه دل): needs a link between Arabic and Persian terms |
+| C8 | must | search | بسوزد پر من | mathnawi | records>=1 | Rumi on Jibril's halt at the Sidra (seven heavens case) |
+| C9 | must | search | الفلك الأطلس | ibnarabi | records>=20 | Ibn ʿArabi's cosmology: the starless sphere |
 
 ## D. The caliphs and the Companions
 
@@ -139,10 +147,10 @@ same question.
 | id | level | check | input | where | expect | why |
 |---|---|---|---|---|---|---|
 | H1 | must | sijill | validator | | | Every cited record resolves |
-| H2 | must | sijill | type:position | | entries>=20 | Voices' positions are recorded |
-| H3 | must | sijill | type:verdict | | entries>=5 | Verdicts on inferences are recorded |
-| H4 | goal | sijill | type:saying | | entries>=7 | Sayings examined by a study are recorded (the heart lecture has seven) |
-| H5 | goal | sijill | type:authentication | | entries>=7 | What was found on each saying is recorded |
+| H2 | must | sijill | type:position | | entries>=55 | Voices' positions are recorded |
+| H3 | must | sijill | type:verdict | | entries>=23 | Verdicts on inferences are recorded |
+| H4 | must | sijill | type:saying | | entries>=22 | Sayings examined by a study are recorded (22 from the seven heavens case, v51; the heart lecture's seven are still to be entered) |
+| H5 | must | sijill | type:authentication | | entries>=22 | What was found on each saying is recorded |
 | H6 | goal | sijill | type:ruling | | entries>=1 | A juristic type exists and is used |
 
 ## I. Odd input
