@@ -1,17 +1,17 @@
 {
  "date": "2026-10-03",
- "commit": "a9bb540 Apply library-update-v51.zip",
- "seconds": 177,
+ "commit": "67d1589 Add files via upload",
+ "seconds": 187,
  "must": [
-  57,
-  57
+  74,
+  74
  ],
  "goal": [
   0,
-  19
+  12
  ],
  "timing": {
-  "authenticate_all": 32.0,
+  "authenticate_all": 33.5,
   "authenticate_per_saying": 1.5
  },
  "results": [
@@ -53,7 +53,7 @@
    "check": "concept",
    "section": "A. The Qur'an and its commentators",
    "ok": true,
-   "found": "2514 passages in 168 works"
+   "found": "2697 passages in 194 works"
   },
   {
    "id": "A6",
@@ -61,23 +61,47 @@
    "check": "concept",
    "section": "A. The Qur'an and its commentators",
    "ok": true,
-   "found": "506 passages in 73 works"
+   "found": "544 passages in 83 works"
   },
   {
    "id": "A7",
-   "level": "goal",
+   "level": "must",
    "check": "concept",
    "section": "A. The Qur'an and its commentators",
-   "ok": false,
-   "found": "0 passages in 0 works; FAILED: passages>=500 (found 0); works>=50 (found 0)"
+   "ok": true,
+   "found": "3371 passages in 221 works"
   },
   {
    "id": "A8",
-   "level": "goal",
+   "level": "must",
    "check": "concept",
    "section": "A. The Qur'an and its commentators",
-   "ok": false,
-   "found": "0 passages in 0 works; FAILED: passages>=100 (found 0); works>=20 (found 0)"
+   "ok": true,
+   "found": "2564 passages in 187 works"
+  },
+  {
+   "id": "A9",
+   "level": "must",
+   "check": "concept",
+   "section": "A. The Qur'an and its commentators",
+   "ok": true,
+   "found": "3805 passages in 212 works"
+  },
+  {
+   "id": "A10",
+   "level": "must",
+   "check": "concept",
+   "section": "A. The Qur'an and its commentators",
+   "ok": true,
+   "found": "531 passages in 111 works"
+  },
+  {
+   "id": "A11",
+   "level": "must",
+   "check": "concept",
+   "section": "A. The Qur'an and its commentators",
+   "ok": true,
+   "found": "3937 passages in 219 works"
   },
   {
    "id": "B1",
@@ -153,11 +177,11 @@
   },
   {
    "id": "B10",
-   "level": "goal",
+   "level": "must",
    "check": "authenticate",
    "section": "B. The Sunna: testing a saying",
-   "ok": false,
-   "found": "3 hadith (Ibn Hibban, al-Nasaʾi), 5 critic passages; FAILED: in:Tirmidhi"
+   "ok": true,
+   "found": "4 hadith (Ibn Hibban, al-Nasaʾi, al-Tirmidhi), 5 critic passages"
   },
   {
    "id": "B12",
@@ -189,23 +213,39 @@
    "check": "authenticate",
    "section": "B. The Sunna: testing a saying",
    "ok": true,
-   "found": "1 hadith (Ahmad), 7 critic passages"
+   "found": "2 hadith (Ahmad, al-Tirmidhi), 7 critic passages"
   },
   {
    "id": "B15",
-   "level": "goal",
+   "level": "must",
    "check": "authenticate",
    "section": "B. The Sunna: testing a saying",
-   "ok": false,
-   "found": "1 hadith (Ahmad), 7 critic passages; FAILED: in:Tirmidhi"
+   "ok": true,
+   "found": "2 hadith (Ahmad, al-Tirmidhi), 7 critic passages"
   },
   {
    "id": "B16",
-   "level": "goal",
+   "level": "must",
    "check": "authenticate",
    "section": "B. The Sunna: testing a saying",
-   "ok": false,
-   "found": "6 hadith (Ahmad, Ibn Hibban, Ibn Maja, al-Tabarani, al-Tayalisi), 1 critic passages; FAILED: in:Tirmidhi"
+   "ok": true,
+   "found": "7 hadith (Ahmad, Ibn Hibban, Ibn Maja, al-Tabarani, al-Tayalisi, al-Tirmidhi), 1 critic passages"
+  },
+  {
+   "id": "B18",
+   "level": "must",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": true,
+   "found": "8 hadith (Ahmad, al-Bayhaqi, al-Darimi, al-Tabarani, al-Tirmidhi), 7 critic passages"
+  },
+  {
+   "id": "B19",
+   "level": "must",
+   "check": "authenticate",
+   "section": "B. The Sunna: testing a saying",
+   "ok": true,
+   "found": "10 hadith (Abu Dawud, Ahmad, al-Bazzar, al-Hakim, al-Tabarani, al-Tayalisi), 17 critic passages"
   },
   {
    "id": "B17",
@@ -221,7 +261,7 @@
    "check": "search",
    "section": "C. The masters of the council",
    "ok": true,
-   "found": "6 records in 1 works (ghazali 6)"
+   "found": "8 records in 2 works (ghazali 8)"
   },
   {
    "id": "C2",
@@ -229,7 +269,7 @@
    "check": "search",
    "section": "C. The masters of the council",
    "ok": true,
-   "found": "9 records in 6 works (ibnarabi 9)"
+   "found": "11 records in 7 works (ibnarabi 11)"
   },
   {
    "id": "C3",
@@ -237,7 +277,7 @@
    "check": "search",
    "section": "C. The masters of the council",
    "ok": true,
-   "found": "6 records in 2 works (jilani 6)"
+   "found": "10 records in 4 works (jilani 10)"
   },
   {
    "id": "C4",
@@ -265,11 +305,27 @@
   },
   {
    "id": "C7",
-   "level": "goal",
+   "level": "must",
    "check": "search",
    "section": "C. The masters of the council",
-   "ok": false,
-   "found": "0 records in 0 works; FAILED: folders_with_hits>=2 (found 0)"
+   "ok": true,
+   "found": "19 records in 5 works (mathnawi 6, rumi 13)"
+  },
+  {
+   "id": "C20",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "2 records in 1 works (mathnawi 2)"
+  },
+  {
+   "id": "C21",
+   "level": "must",
+   "check": "concept",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "452 passages in 45 works"
   },
   {
    "id": "C8",
@@ -301,7 +357,7 @@
    "check": "search",
    "section": "C. The masters of the council",
    "ok": true,
-   "found": "2 records in 1 works (jilani 2)"
+   "found": "6 records in 3 works (jilani 6)"
   },
   {
    "id": "D1",
@@ -317,7 +373,7 @@
    "check": "caliph",
    "section": "D. The caliphs and the Companions",
    "ok": true,
-   "found": "1024 hadith reach Umar in the layer"
+   "found": "1027 hadith reach Umar in the layer"
   },
   {
    "id": "D3",
@@ -333,7 +389,7 @@
    "check": "caliph",
    "section": "D. The caliphs and the Companions",
    "ok": true,
-   "found": "2372 hadith reach Ali in the layer"
+   "found": "2375 hadith reach Ali in the layer"
   },
   {
    "id": "D5",
@@ -417,11 +473,27 @@
   },
   {
    "id": "F3",
-   "level": "goal",
+   "level": "must",
    "check": "cite",
    "section": "F. Citing: every claim traceable",
-   "ok": false,
-   "found": "the record did not resolve: record not found"
+   "ok": true,
+   "found": "urn:hadith:0261Muslim.Sahih:121.1"
+  },
+  {
+   "id": "F4",
+   "level": "must",
+   "check": "cite",
+   "section": "F. Citing: every claim traceable",
+   "ok": true,
+   "found": "urn:sufi:rumi.mathnawi:4.b3692"
+  },
+  {
+   "id": "F5",
+   "level": "must",
+   "check": "cite",
+   "section": "F. Citing: every claim traceable",
+   "ok": true,
+   "found": "urn:hadith:0279Tirmidhi.Sunan:p08858"
   },
   {
    "id": "G1",
@@ -445,7 +517,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "273 entries, 103 cited records (103 resolved); 0 problems"
+   "found": "507 entries, 222 cited records (222 resolved); 0 problems"
   },
   {
    "id": "H2",
@@ -453,7 +525,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "78 entries of type position"
+   "found": "109 entries of type position"
   },
   {
    "id": "H3",
@@ -461,7 +533,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "38 entries of type verdict"
+   "found": "70 entries of type verdict"
   },
   {
    "id": "H4",
@@ -469,7 +541,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "29 entries of type saying"
+   "found": "81 entries of type saying"
   },
   {
    "id": "H5",
@@ -477,7 +549,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "29 entries of type authentication"
+   "found": "81 entries of type authentication"
   },
   {
    "id": "H6",
@@ -533,7 +605,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": true,
-   "found": "2 seconds"
+   "found": "1 seconds"
   },
   {
    "id": "J2",
@@ -541,7 +613,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": true,
-   "found": "32 seconds"
+   "found": "33 seconds"
   },
   {
    "id": "J3",
@@ -549,7 +621,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": false,
-   "found": "2 seconds; FAILED: seconds<=1 (found 1.52)"
+   "found": "1 seconds; FAILED: seconds<=1 (found 1.46)"
   },
   {
    "id": "K1",
@@ -557,7 +629,7 @@
    "check": "metric",
    "section": "K. Size and coverage",
    "ok": true,
-   "found": "164521"
+   "found": "164652"
   },
   {
    "id": "K2",
@@ -617,11 +689,19 @@
   },
   {
    "id": "K9",
+   "level": "must",
+   "check": "metric",
+   "section": "K. Size and coverage",
+   "ok": true,
+   "found": "7"
+  },
+  {
+   "id": "K10",
    "level": "goal",
    "check": "metric",
    "section": "K. Size and coverage",
    "ok": false,
-   "found": "4; FAILED: value>=6 (found 4)"
+   "found": "7; FAILED: value>=10 (found 7)"
   }
  ]
 }

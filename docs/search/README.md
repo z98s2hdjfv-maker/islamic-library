@@ -118,3 +118,9 @@ So a record starts on `page_before + 1`, and a passage inside a long record is o
 lookup.py, search.py and textsearch.py now print the true `page`; `pipeline/search/cite.py <record_id> "<phrase>"`
 gives the exact page of any phrase. Record ids are unchanged, so nothing that cites them breaks. Citations made
 before v42 from `page_before` are one page early (more inside long records); the dossiers and the sijill are corrected.
+
+## v53: the term bridge (Arabic terms reach Rumi's Persian)
+`textsearch.py` reads `catalogs/term_bridge.tsv`. When a query is one of its Arabic terms, Rumi's Persian words for the
+same thing are searched in the same pass, and the output says which: `"مرآة القلب" --folder rumi,mathnawi` also finds
+آینه دل. `--no-bridge` turns it off. To add a term, add a row; nothing else changes. The bridge matches whole queries
+only (the query must be the term itself), so ordinary searches are unaffected.

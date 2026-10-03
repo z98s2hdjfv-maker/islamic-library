@@ -119,13 +119,13 @@
  },
  "coverage": {
   "collections": 21,
-  "hadith": 164521,
-  "compiler_grade": 31697,
+  "hadith": 164652,
+  "compiler_grade": 31779,
   "critic_verdict": 21883,
-  "no_classical_grade": 115146,
-  "nothing_at_all": 100211,
+  "no_classical_grade": 115195,
+  "nothing_at_all": 100260,
   "modern_grade": 49703,
-  "no_grade_classical_or_modern": 75190,
+  "no_grade_classical_or_modern": 75239,
   "by_collection": {
    "0204AbuDawudTayalisi.Musnad": {
     "hadith": 2767,
@@ -200,13 +200,13 @@
     "no_grade_classical_or_modern": 613
    },
    "0279Tirmidhi.Sunan": {
-    "hadith": 3843,
-    "compiler_grade": 2620,
+    "hadith": 3974,
+    "compiler_grade": 2702,
     "critic_verdict": 1059,
-    "no_classical_grade": 527,
-    "nothing_at_all": 495,
+    "no_classical_grade": 576,
+    "nothing_at_all": 544,
     "modern_grade": 3655,
-    "no_grade_classical_or_modern": 77
+    "no_grade_classical_or_modern": 126
    },
    "0292AbuBakrBazzar.BahrZakhkhar": {
     "hadith": 10321,
@@ -317,7 +317,8 @@
     "no_grade_classical_or_modern": 0
    }
   },
-  "note": "classical grade = the compiler's own, or a critic's verdict joined as data (a remark that only notes uniqueness or a difference between narrators is not counted; nor is 'he says al-Bukhari reported it'). The Sahih wording note and the modern column are not classical grades. v47 counts with whole-word classes."
+  "note": "classical grade = the compiler's own, or a critic's verdict joined as data (a remark that only notes uniqueness or a difference between narrators is not counted; nor is 'he says al-Bukhari reported it'). The Sahih wording note and the modern column are not classical grades. v47 counts with whole-word classes.",
+  "v53": "131 hadith of al-Tirmidhi added to the layer (82 with his own grade); the critics' and modern tables were not rebuilt for them"
  },
  "sample_check": {
   "date": "2026-10-01",

@@ -85,7 +85,9 @@ def stem(w):
     s = _STEM.get(w)                     # v49: words repeat; each is stemmed once
     if s is None:
         s = PROCLITIC.sub("", w)
-        s = _STEM[w] = s[:-1] if len(s) >= 4 and s.endswith("ا") else s
+        s = s[:-1] if len(s) >= 4 and s.endswith("ا") else s
+        if s == "ابن": s = "بن"            # v53: the JK editions write "يا بن آدم" for "يا ابن آدم"
+        _STEM[w] = s
     return s
 
 
@@ -349,6 +351,73 @@ def hadith_entry(score, r, par, members, chains, dhahabi, q, ctx):
     return e
 
 
+def sijill_standings(repo):
+    """v53: the sayings already entered in the sijill, with the standing an earlier study recorded."""
+    ents = []
+    for p in sorted(glob.glob(os.path.join(repo, "sijill/entries/*.jsonl"))):
+        for l in open(p, encoding="utf-8"):
+            if l.strip():
+                try: ents.append(json.loads(l))
+                except ValueError: pass
+    auth = {}
+    for e in ents:
+        if e.get("type") == "authentication":
+            for ln in e.get("links", []):
+                if ln.get("rel") == "about": auth[ln["to"]] = (e.get("data", {}).get("standing", ""), e["id"])
+    out = []
+    for e in ents:
+        t = (e.get("data") or {}).get("text") if e.get("type") == "saying" else None
+        if t: out.append((stems(t), e["id"], e.get("title", ""), *auth.get(e["id"], ("", ""))))
+    return out
+
+
+SAHIHAYN = ("al-Bukhari", "Muslim")
+
+
+def has_classical_verdict(res):
+    """v53: is there any classical verdict on the saying beyond a compiler merely including it?"""
+    for e in res["hadith"]:
+        if e["collection"].startswith(SAHIHAYN): return True
+        if e["grades_classical"]: return True
+    return bool(res["entries"] or res["critics"])
+
+
+def print_brief(n, res, limit):
+    H = res["hadith"]
+    cols = collections.OrderedDict()
+    for e in sorted(H, key=lambda e: e["death_ah"] or 9999): cols[e["collection"]] = cols.get(e["collection"], 0) + 1
+    print("-" * 100); print(f"{n}. {res['saying']}")
+    if res["too_short_for_loose_match"]: print("   (too few distinctive words: expect noise)")
+    for x in res["sijill"]:
+        print(f"   SIJILL: already entered as {x['saying']}; standing '{x['standing'] or 'none yet'}'" + (f" ({x['authentication']})" if x["authentication"] else ""))
+    print(f"   collections: {len(H)} hadith in {len(cols)}: " + ("; ".join(f"{c} ({k})" for c, k in cols.items()) or "NOT FOUND in the hadith layer by this wording"))
+    sah = [c for c in cols if c.startswith(SAHIHAYN)]
+    if sah: print("   in the Sahih: " + " and ".join(sah))
+    g = collections.OrderedDict(); modern = collections.OrderedDict()
+    for e in H:
+        for x in e["grades_classical"]:
+            if "by inclusion" in (x.get("grade") or ""): continue
+            g.setdefault((x["by"], " ".join((x.get("grade") or "").split()[:8])), e["id"])
+        for x in e["grades_modern"]: modern.setdefault((x["by"], " ".join((x.get("grade") or "").split()[:6])), e["id"])
+    for (by, gr), hid in list(g.items())[:limit * 2]: print(f"   classical: {by}: {gr}   [{hid}]")
+    for e in res["entries"][:limit]:
+        print(f"   critic's entry: {e['critic']} (d. {e['death_ah']}), {e['work']} no. {e['entry']}: cues {e['cues'] or '-'}   [{e['record']}]")
+    by = collections.OrderedDict()
+    for e in res["critics"]:
+        k = (e["author"], e["work"], e["death_ah"])
+        if k not in by or e["score"] > by[k]["score"]: by[k] = e
+    for (au, wk, d), e in list(by.items())[:limit * 2]:
+        vw = "; ".join(f"{k}: {'، '.join(v)}" for k, v in e["verdict_words"]) or "no verdict word near the quote"
+        print(f"   critic's passage: {au} (d. {d}), {wk}: {vw}   [{e['id']}]")
+    for (by_, gr), hid in list(modern.items())[:3]: print(f"   MODERN (kept apart): {by_}: {gr}")
+    for e in res["entries_modern"][:2]: print(f"   MODERN (kept apart): {e['work']} no. {e['entry']}: {e['verdict'][:80]}")
+    if not res["classical_verdict_in_library"]:
+        print("   NO CLASSICAL CRITIC'S VERDICT IN THE LIBRARY: only a compiler's inclusion, a modern grade, or nothing")
+    for e in H[:3]:
+        pn = "; ".join(f"{x['number']}" for x in e["printed_numbers"])
+        print(f"   cite [{e['score']}]: {e['id']}" + (f" (printed no. {pn})" if pn else "") + f"  narrator: {e['narrator'] or '-'}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("saying", nargs="+", help="one or more sayings in Arabic; all are tested in ONE pass")
@@ -359,6 +428,8 @@ def main():
     ap.add_argument("--also", default="", help="extra corpus folders to show who quotes the saying (e.g. tafsir,sira)")
     ap.add_argument("--no-modern", action="store_true")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--brief", action="store_true",
+                    help="v53: one short block per saying (collections, grades, critics, earlier standing in the sijill); no passages")
     a = ap.parse_args()
 
     sayings = [Saying(s) for s in a.saying]
@@ -417,10 +488,24 @@ def main():
                  "then": " ".join(MARK.sub("", nxt).split()[:2 * a.context]) + (" …" if len(nxt.split()) > 2 * a.context else "")})
         out.append(res)
 
+    earlier = sijill_standings(a.repo)                 # v53: what an earlier study already recorded on the saying
+    for q, res in zip(sayings, out):
+        res["sijill"] = [{"saying": sid, "title": t, "standing": st, "authentication": aid}
+                         for toks, sid, t, st, aid in earlier if q.score(toks)[0] >= a.threshold]
+        res["classical_verdict_in_library"] = has_classical_verdict(res)
     if a.json:
         json.dump(out, sys.stdout, ensure_ascii=False, indent=1); print(); return
+    if a.brief:
+        for n, res in enumerate(out, 1): print_brief(n, res, a.limit)
+        print("\nBrief mode: no passages shown. Run without --brief on one saying to read them before recording a standing.")
+        return
     for res in out:
         print("=" * 100); print("SAYING:", res["saying"])
+        for x in res["sijill"]:
+            print(f"ALREADY IN THE SIJILL: {x['saying']} ({x['title']}): standing recorded as '{x['standing'] or 'none yet'}'"
+                  + (f" in {x['authentication']}" if x["authentication"] else "") + ". Link to it; do not enter it twice.")
+        if not res["classical_verdict_in_library"]:
+            print("NO CLASSICAL CRITIC'S VERDICT IN THE LIBRARY on this saying (only inclusion in a collection, or a modern grade, or nothing): say so.")
         print("matched on:", " ".join(res["words_matched_on"]),
               " (too few distinctive words: expect noise; prefer textsearch.py)" if res["too_short_for_loose_match"] else "")
         H = res["hadith"]

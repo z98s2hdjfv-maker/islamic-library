@@ -25,6 +25,8 @@ don't cover, and say which is which.
 | Grammar | `corpus/lugha/`: Sibawayh's Kitab with al-Sirafi's commentary |
 | Modern works (cited, not classical) | `corpus/modern/`: al-Albani's two Silsilas and gradings, Ahmad Shakir |
 | Any word or phrase | `python3 pipeline/search/textsearch.py "<phrase>" --folder kalam,lugha` (ignores punctuation, vowels and hamza forms; no index needed; `--best-reading` for OCR works). Never raw `zgrep` for Arabic phrases; the full root-aware index is the `search-index` release asset (1.1 GB; `docs/search/README.md`) |
+| Rumi, in his own words (v53) | He writes in Persian with his own vocabulary: `corpus/mathnawi/full/` (25,637 couplets, Nicholson numbering), `corpus/rumi/` (Divan-i Shams, Fihi ma fihi, Majalis-i sabʿa). `textsearch.py "مرآة القلب" --folder rumi,mathnawi` now also searches his Persian words for an Arabic term (`catalogs/term_bridge.tsv`); `lookup.py --concept malakut --work rumi,mathnawi` lists his couplets on a concept; the map is `docs/dossiers/rumi.md`. Translate each passage you quote and mark the translation as yours |
+| Many sayings at once (v53) | `python3 pipeline/hadith/authenticate.py --brief "<saying>" "<another>" ...`: one short block per saying (collections, grades, critics, and the standing an earlier study already recorded in the sijill). Then run without `--brief` on the few you must read |
 | An OCR page's reliability | `reports/collation/confidence.tsv.gz` (level; every OCR work has one: `no_witness` means nothing to check it against) and `apparatus/best_reading/` (corrected reading) |
 
 ## 3. Work economically (every tool step re-reads the whole chat, so steps and long outputs cost most)
@@ -38,12 +40,21 @@ don't cover, and say which is which.
 - **Pages (v42):** OpenITI page markers mark the END of a page, so a record starts on `page_before + 1`; lookup,
   search and textsearch now print the true `page`. For a sentence inside a long record, get its exact page with
   `python3 pipeline/search/cite.py <record_id> "<phrase>"` (al-Tamhid's whole fitra chapter, 18:57-97, is one record).
+  Several ids in one step (v53): `cite.py --many <id> <id> ...`; hadith-layer ids and Mathnawi couplets resolve too.
 - Give the record id (uid) and locator (vol/page or leaf/printed page), the author's death year, and for OCR
   texts the collation level. Say "best reading" when you quote a corrected reading.
 - Keep layers apart: **classical grades** (in the texts, and al-Dhahabi's Talkhis) versus **modern grades**
   (al-Albani, Shakir: `category = modern`). Never merge a modern grade into a classical verdict.
 - Attribution flags in works_index.tsv (doubtful, spurious) must be stated when quoting those works.
 - If a claim is not in the repo, say so: "not in the library" is a finding, not a failure.
+
+## 4b. Never record a master as silent before searching his own language (v53)
+A seat of the council is reported silent only after its own language and vocabulary have been searched. For Rumi that
+means Persian: the Arabic word is often absent where the teaching is present (the Malakut is عالم امر, لامکان, جهان جان;
+the mirror of the heart is آینه دل). In the ether case he was reported silent on the Malakut after an Arabic search; a
+Persian search found him at Mathnawi 4:3692-3693. Use the term bridge, then say which words were searched. If a term is
+missing from `catalogs/term_bridge.tsv`, add a row. The same holds for any master who uses his own terms (Ibn ʿArabi's
+habaʾ for prime matter).
 
 ## 5. Record what the study found (the sijill)
 End a study with a findings block for `sijill/entries/` (JSON lines; format and registries in docs/sijill/README.md):

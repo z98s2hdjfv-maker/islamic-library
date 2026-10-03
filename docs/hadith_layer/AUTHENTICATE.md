@@ -60,3 +60,10 @@ test sayings gave byte-identical JSON before and after, in parallel and on one p
 - A line none of whose words can match is skipped before it is parsed.
 - Text normalisation (`pipeline/search/textnorm.py`) gives the same result about five times faster; this also
   speeds the search index build. Each word is stemmed once.
+
+## v53: brief mode, the sijill first, and al-Tirmidhi's missed hadith
+- `--brief`: one short block per saying: the collections, whether it is in al-Bukhari or Muslim, the classical grades and critics (one line each, with the record id), the modern grades kept apart, and three ids to cite. No passages. Forty sayings fit in a few pages; then run the full mode on the few sayings whose passages must be read. Never record a standing from brief mode alone.
+- The sijill is consulted first: a saying already entered is reported with the standing recorded for it (`ALREADY IN THE SIJILL` / `SIJILL:`), so it is linked and not entered twice. `--json` carries the same under `sijill`.
+- A saying with no classical critic's verdict anywhere in the library (only a compiler's inclusion, a modern grade or nothing) is flagged in both modes, and as `classical_verdict_in_library` in `--json`.
+- `ابن` and `بن` are matched as one word (the JK editions write "يا بن آدم").
+- Al-Tirmidhi's layer gained 131 hadith that the v16 build had dropped (paragraphs that begin with the basmala, with the editor's mark, or with a report given before its chain): `pipeline/hadith/fix_tirmidhi_layer.py`. They carry ids of the form `urn:hadith:0279Tirmidhi.Sunan:p<paragraph>` and their printed (Shakir) numbers; no existing id changed. The critics' and modern tables (`apparatus/hadith_grades*`), the parallels and the chains were not rebuilt for them, so they show al-Tirmidhi's own grade only.

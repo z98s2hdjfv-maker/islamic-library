@@ -13,6 +13,11 @@ odd record: it is skipped and reported. A fast pre-check on the raw line (spelli
 skips non-matching records before decoding: the whole corpus in about 85 s instead of 4 min; --folder is faster
 still. --no-prefilter decodes everything (for checking; results are identical in our tests).
 
+v53: the term bridge. Rumi writes in Persian with his own vocabulary, so an Arabic phrase never reached him. When a
+query is one of the Arabic terms of catalogs/term_bridge.tsv (مرآة القلب، عالم الأمر، الملكوت ...), his Persian words
+for it (آینه دل، عالم امر، جهان جان ...) are searched too, in the same pass, and the output says so. --no-bridge
+turns it off. A master is never recorded as silent before his own language has been searched (START_HERE.md).
+
   python3 pipeline/search/textsearch.py "فالكلم اسم وفعل" --folder lugha
   python3 pipeline/search/textsearch.py "لا يرد القضاء الا الدعاء" --folder hadith,kalam --limit 20
   python3 pipeline/search/textsearch.py "ليس في الامكان ابدع" --count          # hits per work only
@@ -74,6 +79,20 @@ def text_of(r):
     return flat(r.get("text")) or flat(r.get("text_raw"))
 
 
+def load_bridge(repo):
+    """Arabic term (cleaned) -> the Persian phrases Rumi uses for it (cleaned word lists)."""
+    p = os.path.join(repo, "catalogs/term_bridge.tsv"); out = collections.defaultdict(list)
+    if not os.path.exists(p): return out
+    for line in list(open(p, encoding="utf-8"))[1:]:
+        c = line.rstrip("\n").split("\t")
+        if len(c) < 3: continue
+        fa = [clean(x).split() for x in c[2].split("|") if clean(x)]
+        for ar in c[1].split("|"):
+            k = clean(ar)
+            if k: out[k] += [f for f in fa if f not in out[k]]
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("query", nargs="+", help="one or more phrases; several are searched in ONE pass over the files (v41)")
@@ -85,12 +104,16 @@ def main():
     ap.add_argument("--limit", type=int, default=15, help="passages shown per phrase"); ap.add_argument("--context", type=int, default=120)
     ap.add_argument("--no-prefilter", action="store_true", help="decode every record (slower; for checking)")
     ap.add_argument("--count", action="store_true", help="only counts per work"); ap.add_argument("--json", action="store_true")
+    ap.add_argument("--no-bridge", action="store_true", help="do not add Rumi's Persian words for an Arabic term (v53)")
     a = ap.parse_args()
     qs = [clean(x).split() for x in a.query]
     qs = [q for q in qs if q]
     if not qs: sys.exit("empty query after normalisation")
     pre = "" if a.exact else "[وفبلك]?"
-    pats = [re.compile(r"(?:^| )" + " ".join(pre + re.escape(w) for w in q) + r"(?= |$)") for q in qs]
+    br = {} if a.no_bridge else load_bridge(a.repo)
+    alts = [br.get(" ".join(q), []) for q in qs]          # Persian equivalents of each query, if it is a bridged term
+    one = lambda q, pre: " ".join(pre + re.escape(w) for w in q)
+    pats = [re.compile(r"(?:^| )(?:" + "|".join([one(q, pre)] + [one(f, "") for f in alts[i]]) + r")(?= |$)") for i, q in enumerate(qs)]
     root = os.path.join(a.repo, "corpus")
     folders = a.folder.split(",") if a.folder else sorted(os.listdir(root))
     files = sorted(p for f in folders for p in glob.glob(os.path.join(root, f, "**", "*.jsonl*"), recursive=True))
@@ -101,7 +124,7 @@ def main():
             for l in gzip.open(p, "rt", encoding="utf-8"):
                 r = json.loads(l); readings[r["id"]] = r["reading"]
     hits = [[] for _ in qs]; per = [collections.Counter() for _ in qs]; skipped = collections.Counter()
-    prf = re.compile("|".join(f"(?:{prefilter(q).pattern})" for q in qs))
+    prf = re.compile("|".join(f"(?:{prefilter(q).pattern})" for q in qs + [f for fs in alts for f in fs]))
     for p in files:
         wk = os.path.relpath(p, root).replace(os.sep, ".").split(".jsonl")[0]
         op = gzip.open if p.endswith(".gz") else open
@@ -122,11 +145,13 @@ def main():
                         hits[qi].append(dict(id=r.get("id"), work=wk, loc=exact_loc(r, pat),
                                              best_reading=r.get("id") in readings, match=t[s0:e0]))
     if a.json:
-        res = [dict(query=" ".join(q), total=sum(per[i].values()), per_work=per[i], hits=hits[i]) for i, q in enumerate(qs)]
+        res = [dict(query=" ".join(q), total=sum(per[i].values()), per_work=per[i], hits=hits[i],
+                    **({"bridge": [" ".join(f) for f in alts[i]]} if alts[i] else {})) for i, q in enumerate(qs)]
         print(json.dumps(res[0] | {"skipped": skipped} if len(res) == 1 else dict(results=res, skipped=skipped), ensure_ascii=False, indent=1)); return
     for i, q in enumerate(qs):
         if i: print("\n" + "=" * 60)
         print(f'"{" ".join(q)}": {sum(per[i].values())} records in {len(per[i])} works ({len(files)} files searched)')
+        if alts[i]: print("  term bridge: also searched as Persian " + "، ".join(" ".join(f) for f in alts[i]) + "  (catalogs/term_bridge.tsv)")
         for wk, n in per[i].most_common(): print(f"  {n:6d}  {wk}")
         for h in hits[i]:
             print(f"\n{h['id']}  [{h['work']}{' · best reading' if h['best_reading'] else ''}]" + (f"  @ {h['loc']}" if h["loc"] else ""))

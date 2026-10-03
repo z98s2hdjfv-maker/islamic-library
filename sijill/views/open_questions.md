@@ -2,13 +2,17 @@
 
 _Generated; what the studies could not settle, and what would settle it._
 
+- **What are al-Tabari's readings of 'He taught Adam the names'?** (draft).  Needs: a reading of Tafsir 1:489-511 (do list item 47)
+- **What do the commentators do with the conflict between the water, the Pen, the Throne and the dust?** (draft). The council gives four answers; see docs/dossiers/first_created.md. Needs: a study (do list item 49)
+- **What do the library's seven works say of Hermes and Idris?** (draft). The passages were counted, not read (al-Tabari's Tarikh, al-Alusi, al-Suhrawardi, the Ikhwan, al-Qaysari, al-Fanari, al-Dhahabi). Needs: a study (do list item 46)
+- **What exactly does Nursi write in Isharat al-iʿjaz and the Thirtieth Flash?** (draft). His works are not in the library, so the lecture's account of him is untested. Needs: Said Nursi's works in the modern layer (do list item 44)
+- **Is there a classical grade for the Pen hadith beyond al-Suyuti's?** (draft). Partly answered in v53: with al-Tirmidhi's layer rebuilt, his own 'fair and strange' is found (printed 3319). The other critics' passages have not been read. Needs: a reading of the critics' passages (do list item 48)
 - **Does the Jalasa's Ibn ʿArabi side with the lecturer on infant faith?** (draft). He is the one master who affirms inborn faith beyond the lecturer; the full passages should be read in context. Needs: a study of the Futuhat passages, with record ids
 - **Citations still without record ids** (draft). al-Ghazali's Ihyaʾ, the Futuhat pages, Fihi ma fihi ch. 14 and al-Alusi 21:38 are cited by page only. Needs: look up the record ids and add them in new position entries that supersede these
 - **Exact pages inside al-Tamhid's fitra chapter (resolved in v42)** (draft). Resolved: pipeline/search/cite.py gives the exact page of any phrase inside a record. The chapter runs 18:57-97; 'soundness and uprightness' is on 18:70, 'observation and reason belie' on 18:88. No record ids changed.
 - **Do these verdicts match the ones approved in the earlier chat?** (draft). This is a fresh run; the earlier findings were not available. Needs: the earlier chat's findings block, to compare and supersede where they differ
 - **Does al-Ghazali say empirical science must be descriptive and not metaphysical?** (draft). The lecture says so in its own voice; the Munqidh and the Tahafut are not in the library. Needs: al-Munqidh min al-dalal and Tahafut al-falasifa added to the library
 - **What is the standing of Ibn Masʿud's saying on forgetting knowledge through sin?** (draft). Quoted by al-Ghazali; not authenticated in this study. Needs: an authenticate run on its Arabic wording
-- **Is the speaker Dr. Umar Faruq Abd-Allah?** (draft). Identified from 'Dr. Omar' in the recording and the lecture series. Needs: confirmation from Housam
 - **What is the classical grade of Anas's report of ʿUmar's conversion?** (draft). Ibn Saʿd's chain passes through al-Qasim ibn ʿUthman al-Basri; no critic's verdict was found. Needs: the critics on this chain, and Ibn Ishaq's differing account
 - **Do the words given to the Companions on the Sidra exist in any source?** (draft). They are given in English with no source. Needs: Arabic wordings to test, or a source from the channel
 - **What does Ibn ʿArabi's own ascent narrative add?** (draft). His seat in this case rests on five passages; the ascent chapters of the Futuhat were not read. Needs: a study of the Futuhat's chapters on the Miʿraj, with record ids
@@ -16,3 +20,13 @@ _Generated; what the studies could not settle, and what would settle it._
 - **Is there a classical critic's verdict on the Kursi-and-ring hadith?** (draft). None was found in the library; only Ibn Hibban's inclusion and a modern verdict. Needs: a classical takhrij of the hadith of Abu Dharr
 - **Are the lecture's quotations from Ibn Kathir, al-Qurtubi and al-Nawawi on the Sidra accurate?** (draft). They were not checked against their texts. Needs: the passages in each work
 - **How do the commentators reconcile the Sidra in the sixth heaven with the seventh?** (draft). Ibn Masʿud places it in the sixth; Anas's long hadith reaches it after the seventh. Needs: reading al-Nawawi and Ibn Hajar on the two reports
+- **How do the commentators read 'I am as My servant thinks of Me'?** (draft). Only Rumi's and Ibn ʿArabi's readings were fetched; the plainer reading, good opinion of Allah, was not. Needs: a study of the commentaries on al-Bukhari and Muslim
+- **Which classical work defines the divine saying?** (draft). The definition was not found in the library's method works. Needs: al-Jurjani's Taʿrifat or a commentary on the forty qudsi collections (do list item 37)
+- **What is al-Dhahabi's verdict on al-Hakim's saying 4 (no. 8718)?** (draft). al-Mundhiri's doubt is recorded; al-Dhahabi's words were not read. Needs: a reading of the Talkhis at Mustadrak 8718
+- **Who narrates sayings 1 and 11 in Ibn ʿArabi's own book?** (draft).  Needs: Ibn ʿArabi's Mishkat al-anwar (do list item 36)
+- **Does Ibn ʿArabi say that the Prophet marked each divine saying for his Companions?** (draft). The lecture cites the book's appendix. Needs: Ibn ʿArabi's Mishkat al-anwar
+- **What is the standing of the remaining 61 sayings of the Mishkat?** (draft). The lecture covered only the first forty. Needs: Ibn ʿArabi's Mishkat al-anwar
+
+## Answered
+
+- **Is the speaker Dr. Umar Faruq Abd-Allah?** Answered by `position:housam-confirms-heart-speaker`: Confirmed by Housam on 2026-10-03: the speaker of the lecture on al-Ghazali's five conditions of the heart is Dr. Umar Faruq Abd-Allah, as in the earlier lectures. This answers open_question:heart-speaker; the note 'to be confirmed' on source_event:heart-lecture no longer applies.

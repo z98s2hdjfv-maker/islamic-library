@@ -57,8 +57,11 @@ The council starts from the verse. The lookup must return the commentaries on it
 | A4 | must | verse | 83:14 | | passages>=20, works>=8 | "Rather, what they earned has rusted upon their hearts": the Qur'anic basis for the stain on the heart |
 | A5 | must | concept | fitra | | passages>=1000, works>=100 | A key term across the works |
 | A6 | must | concept | qutb | | passages>=300, works>=50 | The hidden hierarchy |
-| A7 | goal | concept | qalb | | passages>=500, works>=50 | The heart as a concept: not in the concept index yet |
-| A8 | goal | concept | miraj | | passages>=100, works>=20 | The Miʿraj, the Sidra, the Kursi and the Throne are not in the concept index (seven heavens case) |
+| A7 | must | concept | qalb | | passages>=500, works>=50 | The heart as a concept, by its phrases (added in v53) |
+| A8 | must | concept | miraj | | passages>=100, works>=20 | The Miʿraj as a concept (v53; with sidra, kursi, arsh, sab_samawat) |
+| A9 | must | concept | malakut | | passages>=1000, works>=100 | The Malakut as a concept (ether case; v53) |
+| A10 | must | concept | awwal_makhluq | | passages>=200, works>=50 | 'The first created thing' as a concept (ether case; v53) |
+| A11 | must | concept | arsh | | passages>=1000, works>=100 | The Throne, sense-filtered (v53) |
 
 ## B. The Sunna: testing a saying
 
@@ -75,13 +78,15 @@ Known answers. Each saying has a standing that the critics state in their own wo
 | B7 | must | authenticate | كنت كنزا مخفيا فأحببت أن أعرف | | not_in_layer, critic:Sakhawi, entries>=2 | Loose wording finds the critics who quote it differently |
 | B8 | must | authenticate | إن الإسلام يهدم ما كان قبله وأن الهجرة تهدم ما كان قبلها | | in:Muslim | Found when given in Muslim's own wording |
 | B9 | goal | authenticate | الإسلام يجب ما كان قبله | | in:Muslim | The same hadith in its popular wording should lead to Muslim's version |
-| B10 | goal | authenticate | إن العبد إذا أخطأ خطيئة نكتت في قلبه نكتة سوداء | | in:Tirmidhi | Al-Tirmidhi's own hadith is in the corpus but missing from his hadith layer |
+| B10 | must | authenticate | إن العبد إذا أخطأ خطيئة نكتت في قلبه نكتة سوداء | | in:Tirmidhi, grade:Tirmidhi:حسن صحيح | Al-Tirmidhi's own hadith, in his layer since v53 with his grade |
 | B12 | goal | authenticate | إنما الأعمال بالنيات وإنما لكل امرئ ما نوى | | in:Muslim | Muslim words it "بالنية ... لامرئ": the popular wording should still lead to his version |
 | B11 | goal | authenticate | لو كشف عن نور المؤمن العاصي لطبق ما بين السماء والأرض | | critics>=1 | A master's saying (al-Shadhili) should be traced to who said it, not only reported as absent |
 | B13 | must | authenticate | لما اقترف آدم الخطيئة قال يا رب أسألك بحق محمد لما غفرت لي | | in:Hakim, grade:Dhahabi:موضوع, modern_apart | Al-Hakim's "sound" and al-Dhahabi's "fabricated" on the same report, side by side (seven heavens case) |
 | B14 | must | authenticate | لو أنكم دليتم بحبل إلى الأرض السفلى لهبط على الله | | in:Ahmad, critic:Sakhawi | A weak report with the reading its transmitters gave it |
-| B15 | goal | authenticate | لو أنكم دليتم بحبل إلى الأرض السفلى لهبط على الله | | in:Tirmidhi | Al-Tirmidhi's own hadith, missing from his layer like B10 |
-| B16 | goal | authenticate | أين كان ربنا قبل أن يخلق خلقه قال كان في عماء ما تحته هواء وما فوقه هواء | | in:Tirmidhi | The same fault: found in five other collections, not in al-Tirmidhi's |
+| B15 | must | authenticate | لو أنكم دليتم بحبل إلى الأرض السفلى لهبط على الله | | in:Tirmidhi | Al-Tirmidhi's own hadith, in his layer since v53 |
+| B16 | must | authenticate | أين كان ربنا قبل أن يخلق خلقه قال كان في عماء ما تحته هواء وما فوقه هواء | | in:Tirmidhi | The same: in his layer since v53 |
+| B18 | must | authenticate | يا ابن آدم إنك ما دعوتني ورجوتني غفرت لك على ما كان منك ولا أبالي | | in:Tirmidhi, collections>=4 | The JK editions write 'يا بن آدم': ibn and bn are matched as one word since v53 (divine sayings case) |
+| B19 | must | authenticate | إن أول ما خلق الله القلم فقال له اكتب | | in:Tirmidhi, in:Abu Dawud, grade:Tirmidhi:حسن غريب | The Pen hadith with al-Tirmidhi's own grade (ether case; v53) |
 | B17 | goal | authenticate | ما السماوات السبع في الكرسي إلا كحلقة ملقاة بأرض فلاة | | in:Ibn Hibban | A short part of a long hadith should still find it in the layer |
 
 ## C. The masters of the council
@@ -96,7 +101,9 @@ Each master must be able to speak on the case in his own words. The test case is
 | C4 | must | search | آینه دل | rumi,mathnawi | records>=5, each_folder | Rumi on the mirror of the heart, in Persian, in the Mathnawi and the Divan |
 | C5 | must | search | الأسباب الخمسة | ghazali | records>=1 | The Ihya passage on the five causes is reachable by its own words |
 | C6 | must | search | القلب | ghazali,ibnarabi,jilani,rumi | each_folder | The plain word "heart" reaches all four masters (Rumi where he writes in Arabic) |
-| C7 | goal | search | مرآة القلب | rumi,mathnawi | each_folder | An Arabic phrase should reach Rumi's Persian (آینه دل): needs a link between Arabic and Persian terms |
+| C7 | must | search | مرآة القلب | rumi,mathnawi | each_folder | An Arabic phrase reaches Rumi's Persian (آینه دل) through the term bridge (v53) |
+| C20 | must | search | عالم الأمر | mathnawi | records>=2 | The Malakut in Rumi's own words (عالم امر, Mathnawi 4:3692-3693): the passage missed in the ether case |
+| C21 | must | concept | fana_baqa | | passages>=400 | Rumi's couplets are in the concept index (فنا، نیستی add over 300 passages; v53) |
 | C8 | must | search | بسوزد پر من | mathnawi | records>=1 | Rumi on Jibril's halt at the Sidra (seven heavens case) |
 | C9 | must | search | الفلك الأطلس | ibnarabi | records>=20 | Ibn ʿArabi's cosmology: the starless sphere |
 | C10 | must | search | نور المؤمن العاصي | wilaya | records>=2 | A master's saying traced to who said it: al-Shadhili, in Ibn ʿAtaʾ Allah and al-Shaʿrani (heart case) |
@@ -135,7 +142,9 @@ same question.
 |---|---|---|---|---|---|---|
 | F1 | must | cite | urn:openiti:0902Sakhawi.MaqasidHasana.JK001160-ara1:p03238 | | | A critic's record resolves to its page |
 | F2 | must | cite | urn:shamela:ghazali.ihya_with_iraqi:r01491 | | | The Ihya passage on the five causes resolves |
-| F3 | goal | cite | urn:hadith:0261Muslim.Sahih:121.1 | | | A hadith-layer id should resolve to its source page too |
+| F3 | must | cite | urn:hadith:0261Muslim.Sahih:121.1 | | | A hadith-layer id resolves to its source page (v53) |
+| F4 | must | cite | urn:sufi:rumi.mathnawi:4.b3692 | | | A Mathnawi couplet resolves to its book and Nicholson number (v53) |
+| F5 | must | cite | urn:hadith:0279Tirmidhi.Sunan:p08858 | | | A hadith added to al-Tirmidhi's layer in v53 resolves with its printed number |
 
 ## G. Classical and modern kept apart
 
@@ -149,10 +158,10 @@ same question.
 | id | level | check | input | where | expect | why |
 |---|---|---|---|---|---|---|
 | H1 | must | sijill | validator | | | Every cited record resolves |
-| H2 | must | sijill | type:position | | entries>=78 | Voices' positions are recorded |
-| H3 | must | sijill | type:verdict | | entries>=38 | Verdicts on inferences are recorded |
-| H4 | must | sijill | type:saying | | entries>=29 | Sayings examined by a study are recorded (22 from the seven heavens case, 7 from the heart lecture) |
-| H5 | must | sijill | type:authentication | | entries>=29 | What was found on each saying is recorded |
+| H2 | must | sijill | type:position | | entries>=109 | Voices' positions are recorded |
+| H3 | must | sijill | type:verdict | | entries>=70 | Verdicts on inferences are recorded |
+| H4 | must | sijill | type:saying | | entries>=81 | Sayings examined by a study are recorded (22 seven heavens, 7 heart, 40 divine sayings, 12 ether) |
+| H5 | must | sijill | type:authentication | | entries>=81 | What was found on each saying is recorded |
 | H6 | goal | sijill | type:ruling | | entries>=1 | A juristic type exists and is used |
 
 ## I. Odd input
@@ -185,7 +194,7 @@ Floors that catch a regression, and targets that measure progress. Measures: `ha
 
 | id | level | check | input | where | expect | why |
 |---|---|---|---|---|---|---|
-| K1 | must | metric | hadith | | value>=164000 | The hadith layer has not shrunk |
+| K1 | must | metric | hadith | | value>=164650 | The hadith layer has not shrunk |
 | K2 | must | metric | collections | | value>=21 | All collections are in the layer |
 | K3 | must | metric | works | | value>=390 | The works index has not shrunk |
 | K4 | must | metric | share_no_classical_grade | | value<=0.705 | Classical grade coverage has not fallen back |
@@ -193,7 +202,8 @@ Floors that catch a regression, and targets that measure progress. Measures: `ha
 | K6 | must | metric | share_no_grade_classical_or_modern | | value<=0.46 | With the modern column, under half the hadith have no grade at all |
 | K7 | goal | metric | share_no_classical_grade | | value<=0.60 | Target: four in ten hadith with a classical grade |
 | K8 | goal | metric | share_names_linked | | value>=0.60 | Target: most narrator names linked |
-| K9 | goal | metric | dossiers | | value>=6 | A dossier for the heart and one for each master |
+| K9 | must | metric | dossiers | | value>=7 | Dossiers: asma, fitra, nur, wilaya, and since v53 the heart, Rumi and the first created thing |
+| K10 | goal | metric | dossiers | | value>=10 | A dossier for each of the other masters (al-Ghazali, al-Jilani, Ibn ʿArabi) |
 
 ## Changing this document
 

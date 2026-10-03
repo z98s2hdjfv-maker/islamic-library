@@ -99,6 +99,20 @@ checks += [
      all(textnorm.norm(l) == textnorm.DIAC.sub("", l).translate(textnorm.MAP).lower() for l in sample)),
     ("a parallel run and a one-processor run give the same output", one == many and len(one) > 1000),
 ]
+# v53: brief mode; al-Tirmidhi's missed hadith; ibn/bn matched as one word; the sijill is consulted first
+V53 = ["إن العبد إذا أخطأ خطيئة نكتت في قلبه نكتة سوداء", "يا ابن آدم إنك ما دعوتني ورجوتني غفرت لك على ما كان منك ولا أبالي"]
+full = subprocess.run([sys.executable, os.path.join(HERE, "authenticate.py"), *V53, "--json", "--repo", "."], capture_output=True, text=True, check=True).stdout
+brief = subprocess.run([sys.executable, os.path.join(HERE, "authenticate.py"), *V53, "--brief", "--repo", "."], capture_output=True, text=True, check=True).stdout
+j53 = json.loads(full)
+checks += [
+    ("the black spot hadith is in al-Tirmidhi's layer with his grade (v53)",
+     any(e["id"].startswith("urn:hadith:0279Tirmidhi.Sunan:") and any("حسن صحيح" in (g.get("grade") or "") for g in e["grades_classical"]) for e in j53[0]["hadith"])),
+    ("'يا ابن آدم' finds al-Tirmidhi's 'يا بن آدم' (v53)", any(e["id"].startswith("urn:hadith:0279Tirmidhi.Sunan:") for e in j53[1]["hadith"])),
+    ("a saying already in the sijill is reported with its recorded standing (v53)",
+     any(x["saying"] == "saying:black-spot" and x["standing"] for x in j53[0].get("sijill", []))),
+    ("brief mode is short: under 5,000 characters for two sayings, a fifth of the full output or less, and names the sijill entry (v53)",
+     0 < len(brief) < 5000 and "saying:black-spot" in brief and len(brief) * 5 < len(full)),
+]
 bad = [name for name, ok in checks if not ok]
 for name, ok in checks: print("ok  " if ok else "FAIL", name)
 sys.exit(1 if bad else 0)

@@ -33,3 +33,8 @@ Reuse existing ids: a voice is entered once (`voice:ibn-taymiyya`), and new posi
 ## Seed (v41)
 The two studies of the fitra lecture (2026-10-01): 16 voices from the Qur'an to a present-day scholar, 5 inferences,
 17 positions, 5 verdicts, 3 open questions; 13 cited records, all resolving.
+
+## v53
+- Two more cases recorded: the forty divine sayings (133 entries) and the ether and the Malakut (99 entries). The ether case links to three sayings already in the sijill instead of entering them again.
+- An entry that links `{rel: answers}` to an open question closes it: the open-questions view lists it under "Answered". Used for the speaker of the heart lecture, confirmed by Housam (`voice:housam`).
+- A new standing, `strange` (gharib): a single chain with no grade found. It is not a grade of weakness.

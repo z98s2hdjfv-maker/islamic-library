@@ -17,7 +17,7 @@ source_type, witnesses, pages corroborated / checked, secondary references, and 
 """
 import argparse, collections, csv, gzip, json, os, re
 
-FOLDER_DEATH = {"ibnarabi": 638, "jilani": 561, "shams": 645, "aflaki": 761, "mathnawi": 672, "ghazali": 505}
+FOLDER_DEATH = {"ibnarabi": 638, "jilani": 561, "shams": 645, "aflaki": 761, "mathnawi": 672, "ghazali": 505, "rumi": 672}
 DEATH_OVERRIDE = {"jami": 898, "qashani": 736, "qaysari": 751, "parsa": 822, "rahma": "", "bursevi": 1137}  # works by others in author folders
 PAGE_NOTES = {"shams.maqalat.movahhed_ocr": "printed_page runs one ahead of the page header: cite printed_page - 1 (v25)"}
 
@@ -76,6 +76,10 @@ def lookup(repo, verse, hows, chars, per_work, concept=None, works=()):
         with gzip.open(p, "rt", encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 if r["record_id"] in want: level[r["record_id"]] = r["level"]
+    for k in hits:                                   # v53: the full Mathnawi is not in works_index; give it its place
+        if k not in meta and k.split(".")[0] == "mathnawi":
+            meta[k] = {"title": f"Rumi, Mathnawi, book {k[-1]}", "death_ah": 672, "source_type": "typed (ganjoor), Nicholson numbering unverified"}
+            idx[k] = {"corpus_path": f"corpus/mathnawi/full/{k.split('.')[-1]}.jsonl"}
     order = sorted(hits, key=lambda k: (int(meta.get(k, {}).get("death_ah") or 9999), k))
     print(f"{verse}: {sum(len(v) for v in hits.values())} passages in {len(hits)} works\n")
     for k in order:
@@ -94,7 +98,10 @@ def lookup(repo, verse, hows, chars, per_work, concept=None, works=()):
                         pg = r.get("page") or (r["page_before"] + 1 if isinstance(r.get("page_before"), int) else None)  # v42: OpenITI markers end a page
                         loc = " ".join(f"{x}={v}" for x, v in (("vol", r.get("vol")), ("page", pg), ("leaf", r.get("leaf")), ("printed_page", r.get("printed_page"))) if v)
                         how = next(x["how"] for x in rs if x["record_id"] == r["id"])
-                        t = re.sub(r"\s+", " ", r.get("text") or r.get("text_raw") or "")[:chars]
+                        t = r.get("text") or r.get("text_raw") or ""
+                        if r.get("hemistichs"): t = " / ".join(r["hemistichs"])                       # v53: Persian verse
+                        elif isinstance(t, dict): t = " / ".join((t.get("source") or {}).get("hemistichs") or [])
+                        t = re.sub(r"\s+", " ", t)[:chars]
                         print(f"- [{how}] {r['id'].split(':')[-1]} {loc} {('[' + level[r['id']] + ']') if r['id'] in level else ''}\n  {t}")
         print()
 

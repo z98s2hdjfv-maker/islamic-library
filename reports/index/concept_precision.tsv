@@ -6,3 +6,7 @@ wilaya	wilaya,sufi_manuals,critics,kalam,lugha	5/8	10/10	governorship and guardi
 kasb	wilaya,sufi_manuals,critics,kalam,lugha	2/8	10/10	earning a living excluded; kept hits are the kalam sense
 abdal	wilaya,sufi_manuals,critics,kalam,lugha	7/8	9/10	exclusions only (cues cost recall); grammar 'substitution' then excluded too
 qutb	wilaya,sufi_manuals,critics,kalam,lugha	n/a	6/9	celestial north/south pole then excluded
+kursi	ghazali,sira,tafsir_sufi	not sampled	12/12	v53: kept only near a cue (the Throne, the heavens, the Kursi verse); Solomon's seat and ordinary chairs excluded
+arsh	ghazali,sira,tafsir_sufi	not sampled	12/12	v53: the thrones of Bilqis and of Joseph's parents excluded
+sidra	ghazali,sira,tafsir_sufi	not sampled	12/12	v53: lote leaves for washing the dead excluded
+(Persian, Rumi)	rumi,mathnawi	not filtered	not sampled	v53: Persian words from catalogs/term_bridge.tsv always count; common words (فنا، قضا، عرش، اختیار) include everyday uses: read the couplet

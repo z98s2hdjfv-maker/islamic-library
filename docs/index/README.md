@@ -38,3 +38,10 @@ inherit their verse and can overrun into the next verse when that verse is not q
 ## Next (from the plan)
 The citation fields here are joined at lookup time. Merging them into the search index itself, and a concept
 index for terms like *quṭb*, *nūr muḥammadī*, *kawn jāmiʿ*, are the next steps; then a dossier per topic.
+
+## v53: Rumi in the concept index, and eight new concepts
+- New concepts: `qalb` (the heart, by its phrases), `miraj`, `sidra`, `kursi`, `arsh`, `sab_samawat`, `malakut`, `awwal_makhluq` (the first created thing). 48 concepts in all.
+- `corpus/rumi` and `corpus/mathnawi` are now indexed. A concept matches there by Rumi's Persian words for it, from `catalogs/term_bridge.tsv` (concept, Arabic terms, Persian words, note), as well as by its Arabic forms. Persian matches are not sense-filtered.
+- `lookup.py --concept malakut --work rumi,mathnawi` prints the couplets (Persian hemistichs); the Mathnawi is listed per book with Rumi's death year so the oldest-first order holds.
+- The whole index was rebuilt, so counts of older concepts rose where works had been added since the last build.
+- Precision samples for the filtered new concepts are in `reports/index/concept_precision.tsv`.

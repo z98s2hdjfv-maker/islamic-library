@@ -137,8 +137,17 @@ def views(repo):
     open(os.path.join(out, "voices.md"), "w", encoding="utf-8").write("\n".join(V) + "\n")
     # 3. open questions
     O = ["# Open questions", "", "_Generated; what the studies could not settle, and what would settle it._", ""]
+    answered = collections.defaultdict(list)          # v53: an entry that links {rel: answers} to an open question closes it
+    for e in E.values():
+        for ln in e.get("links", []):
+            if ln.get("rel") == "answers": answered[ln["to"]].append(e)
+    A = []
     for e in sorted((e for e in E.values() if e["type"] == "open_question"), key=lambda e: e["id"]):
+        if e["id"] in answered:
+            A.append(f"- **{e.get('title', e['id'])}** Answered by " + "; ".join(f"`{x['id']}`: {x.get('text', '')}" for x in answered[e["id"]]))
+            continue
         O.append(f"- **{e.get('title', e['id'])}** ({e['status']}). {e.get('text', '')}" + (f" Needs: {e['data']['needs']}" if e.get("data", {}).get("needs") else ""))
+    if A: O += ["", "## Answered", ""] + A
     open(os.path.join(out, "open_questions.md"), "w", encoding="utf-8").write("\n".join(O) + "\n")
     print("views written: sijill/views/inferences.md, voices.md, open_questions.md")
 

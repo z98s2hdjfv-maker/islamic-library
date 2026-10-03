@@ -342,7 +342,7 @@
   },
   "0279Tirmidhi.Sunan": {
    "numbering": "sequential (made here; no number in text)",
-   "hadith": 3843,
+   "hadith": 3974,
    "split_marker": 3833,
    "with_narrator": 3843,
    "inline_grades": 2651,
@@ -394,7 +394,8 @@
      "أبو سعيد الخدري",
      71
     ]
-   ]
+   ],
+   "v53": "0 hadith added and 0 rebuilt by fix_tirmidhi_layer.py"
   },
   "0303Nasai.SunanKubra": {
    "numbering": "edition numbering of the JK text",
@@ -1198,7 +1199,7 @@
   }
  },
  "totals": {
-  "hadith": 164521,
+  "hadith": 164652,
   "with_narrator": 151906,
   "inline_grades": 7253,
   "caliph_Abu Bakr": 222,
