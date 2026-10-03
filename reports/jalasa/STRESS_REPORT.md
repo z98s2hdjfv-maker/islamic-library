@@ -1,9 +1,9 @@
 # Jalasa stress test: scorecard
 
-Run 2026-10-03 on `67d1589 Add files via upload` in 187 seconds. Cases come from `docs/jalasa/STRESS_TEST.md`; edit that document to change them.
+Run 2026-10-03 on `d752cc5 Apply library-update-v53.zip` in 187 seconds. Cases come from `docs/jalasa/STRESS_TEST.md`; edit that document to change them.
 
-**Must: 74 of 74 pass.** These are things the repo already does; a failure is a regression.
-**Goal: 0 of 12 met.** These are things the Jalasa needs that the repo does not do yet.
+**Must: 79 of 79 pass.** These are things the repo already does; a failure is a regression.
+**Goal: 0 of 15 met.** These are things the Jalasa needs that the repo does not do yet.
 
 | Capability | Must | Goal met |
 |---|---|---|
@@ -18,6 +18,7 @@ Run 2026-10-03 on `67d1589 Add files via upload` in 187 seconds. Cases come from
 | I. Odd input | 5 of 5 | 0 of 0 |
 | J. Speed | 2 of 2 | 0 of 1 |
 | K. Size and coverage | 7 of 7 | 0 of 3 |
+| L. The masters' stories: voice and layers of meaning | 5 of 5 | 0 of 3 |
 
 ## Goals not yet met: the roadmap
 
@@ -37,6 +38,9 @@ Each is a gap between the repo and what a Jalasa needs.
 | K7 | Target: four in ten hadith with a classical grade | `value<=0.60` | 70.0%; FAILED: value<=0.60 (found 0.7) |
 | K8 | Target: most narrator names linked | `value>=0.60` | 44.9%; FAILED: value>=0.60 (found 0.45) |
 | K10 | A dossier for each of the other masters (al-Ghazali, al-Jilani, Ibn ʿArabi) | `value>=10` | 7; FAILED: value>=10 (found 7) |
+| L6 | A story map for Books 2 to 6 (only Book 1 is mapped; the others have Rumi's headings) | `story==1` | heading yes, story no, 0 passages, 0 readings; FAILED: story==1 (found 0) |
+| L7 | A classical commentary on the Mathnawi, in a folder corpus/mathnawi_sharh, so that the stories are read through the tradition and not only through Claude | `records>=1` | 0 records in 0 works; FAILED: records>=1 (found 0) |
+| L8 | The grocer and the parrot read to its end (sections 9 to 12), and a second story begun | `entries>=60` | 33 entries of type reading; FAILED: entries>=60 (found 33) |
 
 ## Passing
 
@@ -99,7 +103,7 @@ Each is a gap between the repo and what a Jalasa needs.
 | F5 | A hadith added to al-Tirmidhi's layer in v53 resolves with its printed number | `` | urn:hadith:0279Tirmidhi.Sunan:p08858 |
 | G1 | Modern verdicts never appear among the classical ones | `modern_apart, says:Busiri:حفص, hadith>=10` | 24 hadith (Abu Yaʿla, Ibn Maja, al-Bayhaqi, al-Bazzar, al-Tabarani), 102 critic passages |
 | G2 | A classical critic and a modern one on the same hadith, in separate columns | `in:Abu Dawud, grade:Nawawi:حسن, modern_apart` | 3 hadith (Abu Dawud, al-Bazzar, al-Hakim), 7 critic passages |
-| H1 | Every cited record resolves | `` | 507 entries, 222 cited records (222 resolved); 0 problems |
+| H1 | Every cited record resolves | `` | 556 entries, 265 cited records (265 resolved); 0 problems |
 | H2 | Voices' positions are recorded | `entries>=109` | 109 entries of type position |
 | H3 | Verdicts on inferences are recorded | `entries>=70` | 70 entries of type verdict |
 | H4 | Sayings examined by a study are recorded (22 seven heavens, 7 heart, 40 divine sayings, 12 ether) | `entries>=81` | 81 entries of type saying |
@@ -110,7 +114,7 @@ Each is a gap between the repo and what a Jalasa needs.
 | I4 | A one-word saying does not break the command | `` | ran without error |
 | I5 | Persian letters and digits do not break the search | `` | ran without error |
 | J1 | Testing a batch of sayings stays cheap per saying (about 2 seconds on two processors) | `seconds<=8` | 1 seconds |
-| J2 | The whole batch of this document's sayings | `seconds<=180` | 33 seconds |
+| J2 | The whole batch of this document's sayings | `seconds<=180` | 34 seconds |
 | K1 | The hadith layer has not shrunk | `value>=164650` | 164652 |
 | K2 | All collections are in the layer | `value>=21` | 21 |
 | K3 | The works index has not shrunk | `value>=390` | 396 |
@@ -118,8 +122,13 @@ Each is a gap between the repo and what a Jalasa needs.
 | K5 | Narrator links have not fallen back | `value>=0.44` | 44.9% |
 | K6 | With the modern column, under half the hadith have no grade at all | `value<=0.46` | 45.7% |
 | K9 | Dossiers: asma, fitra, nur, wilaya, and since v53 the heart, Rumi and the first created thing | `value>=7` | 7 |
+| L1 | 'Do not measure the pure by yourself' comes back with the grocer and the parrot, and with its recorded readings | `heading==1, story==1, passages>=2, readings>=4` | heading yes, story yes, 2 passages, 7 readings |
+| L2 | A couplet in another book comes back with Rumi's own heading for its section | `heading==1` | heading yes, story no, 0 passages, 0 readings |
+| L3 | 'The parrot of the soul' belongs to a different story from the grocer's parrot: the same image, another tale | `heading==1, story==1` | heading yes, story yes, 0 passages, 0 readings |
+| L4 | Readings are recorded, several to a passage, each with its layer and its reader | `entries>=33` | 33 entries of type reading |
+| L5 | Passages are recorded with the voice that speaks in them | `entries>=11` | 11 entries of type passage |
 
 ## Timings
 
-- authenticate_all: 33 seconds
+- authenticate_all: 34 seconds
 - authenticate_per_saying: 1 seconds

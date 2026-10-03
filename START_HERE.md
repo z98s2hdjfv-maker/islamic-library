@@ -26,6 +26,7 @@ don't cover, and say which is which.
 | Modern works (cited, not classical) | `corpus/modern/`: al-Albani's two Silsilas and gradings, Ahmad Shakir |
 | Any word or phrase | `python3 pipeline/search/textsearch.py "<phrase>" --folder kalam,lugha` (ignores punctuation, vowels and hamza forms; no index needed; `--best-reading` for OCR works). Never raw `zgrep` for Arabic phrases; the full root-aware index is the `search-index` release asset (1.1 GB; `docs/search/README.md`) |
 | Rumi, in his own words (v53) | He writes in Persian with his own vocabulary: `corpus/mathnawi/full/` (25,637 couplets, Nicholson numbering), `corpus/rumi/` (Divan-i Shams, Fihi ma fihi, Majalis-i sabʿa). `textsearch.py "مرآة القلب" --folder rumi,mathnawi` now also searches his Persian words for an Arabic term (`catalogs/term_bridge.tsv`); `lookup.py --concept malakut --work rumi,mathnawi` lists his couplets on a concept; the map is `docs/dossiers/rumi.md`. Translate each passage you quote and mark the translation as yours |
+| A couplet of the Mathnawi with its story (v54) | `python3 pipeline/mathnawi/story.py 1:263`: Rumi's heading, the story, who speaks, the recorded readings. See section 4c |
 | Many sayings at once (v53) | `python3 pipeline/hadith/authenticate.py --brief "<saying>" "<another>" ...`: one short block per saying (collections, grades, critics, and the standing an earlier study already recorded in the sijill). Then run without `--brief` on the few you must read |
 | An OCR page's reliability | `reports/collation/confidence.tsv.gz` (level; every OCR work has one: `no_witness` means nothing to check it against) and `apparatus/best_reading/` (corrected reading) |
 
@@ -55,6 +56,19 @@ the mirror of the heart is آینه دل). In the ether case he was reported sil
 Persian search found him at Mathnawi 4:3692-3693. Use the term bridge, then say which words were searched. If a term is
 missing from `catalogs/term_bridge.tsv`, add a row. The same holds for any master who uses his own terms (Ibn ʿArabi's
 habaʾ for prime matter).
+
+## 4c. A story is quoted with its voice and its layer (v54)
+The masters teach by stories, and a couplet lifted from a story can say the opposite of what the master means (the
+parrot's analogy at Mathnawi 1:261 is the mistake the story is about). So for every quotation from a story:
+- **Get its place:** `python3 pipeline/mathnawi/story.py 1:263 --show 2` prints Rumi's own heading for the section, the
+  story it belongs to, and the readings already recorded. `--stories 1` lists the stories of Book 1; `--headings 3` lists
+  Rumi's headings for any book (`apparatus/mathnawi/sections.tsv`, all 972 sections).
+- **Say who speaks:** the narrator, a character (name him), or the master in his own voice.
+- **Say whose reading it is,** by layer (`sijill/registry/layers.tsv`): the plain sense; the author's own stated meaning
+  (cite the couplet where he says it); a commentator's; a reader's (Housam's, in his words); Claude's analysis. Never
+  give one reading as "the meaning". Several readings of the same passage stand side by side in the sijill
+  (types `passage` and `reading`; view: `sijill/views/readings.md`).
+- **The text decides:** keep a reading where couplets support it and name them; say where a reading goes beyond the text.
 
 ## 5. Record what the study found (the sijill)
 End a study with a findings block for `sijill/entries/` (JSON lines; format and registries in docs/sijill/README.md):

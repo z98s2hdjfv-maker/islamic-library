@@ -16,3 +16,5 @@ needs	an open_question needs this (a work, a witness, a study)
 by	the source_event was given or written by this voice
 quotes	the source_event or inference quotes this saying
 grades	the position is a voice's verdict on a saying (the grade in data.grade, in his words)
+reads	the reading is of this passage (v54)
+part_of	the passage is a section of a larger passage, e.g. of a whole story (v54)

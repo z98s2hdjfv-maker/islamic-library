@@ -13,7 +13,7 @@ The scorecard is written to `reports/jalasa/STRESS_REPORT.md`, and one line per 
 
 A digital Jalasa is a council (Rumi, Ibn ʿArabi, al-Jilani, al-Ghazali and the four caliphs) that hears a claim
 and weighs it against the Qur'an, the Sunna, the Companions and the masters. For that the repo must be able to do
-eleven things. Each section below tests one of them.
+twelve things. Each section below tests one of them.
 
 Every case has a **level**:
 
@@ -41,6 +41,7 @@ The goals are the roadmap. Add a goal whenever a study shows something the counc
 | `caliph` | Abu Bakr, Umar, Uthman or Ali | (empty) | `hadith>=N` |
 | `cite` | a record id | optional phrase | (nothing: the record must resolve to a page) |
 | `sijill` | `validator`, or `type:saying` | (empty) | `entries>=N` for a type |
+| `story` | a Mathnawi couplet, `book:number` or its id | optional text the output must hold | `heading==1`, `story==1`, `passages>=N`, `readings>=N` |
 | `metric` | a measure (see section K) | (empty) | `value>=N` or `value<=N`; shares as decimals (0.70) |
 | `time` | `authenticate_per_saying`, `authenticate_all`, `search_whole_corpus` | (empty) | `seconds<=N` |
 | `crash` | any text | `authenticate` or a folder | (nothing: the tool must not fail) |
@@ -204,6 +205,22 @@ Floors that catch a regression, and targets that measure progress. Measures: `ha
 | K8 | goal | metric | share_names_linked | | value>=0.60 | Target: most narrator names linked |
 | K9 | must | metric | dossiers | | value>=7 | Dossiers: asma, fitra, nur, wilaya, and since v53 the heart, Rumi and the first created thing |
 | K10 | goal | metric | dossiers | | value>=10 | A dossier for each of the other masters (al-Ghazali, al-Jilani, Ibn ʿArabi) |
+
+## L. The masters' stories: voice and layers of meaning
+
+A master who teaches by stories is not quoted by the bare couplet. The couplet must come with its story, with who is
+speaking, and with whose reading is given (the author's own stated meaning, a commentator's, a reader's, Claude's).
+
+| id | level | check | input | where | expect | why |
+|---|---|---|---|---|---|---|
+| L1 | must | story | 1:263 | طوطی | heading==1, story==1, passages>=2, readings>=4 | 'Do not measure the pure by yourself' comes back with the grocer and the parrot, and with its recorded readings |
+| L2 | must | story | urn:sufi:rumi.mathnawi:4.b3692 | | heading==1 | A couplet in another book comes back with Rumi's own heading for its section |
+| L3 | must | story | 1:1575 | The merchant and his caged parrot | heading==1, story==1 | 'The parrot of the soul' belongs to a different story from the grocer's parrot: the same image, another tale |
+| L4 | must | sijill | type:reading | | entries>=33 | Readings are recorded, several to a passage, each with its layer and its reader |
+| L5 | must | sijill | type:passage | | entries>=11 | Passages are recorded with the voice that speaks in them |
+| L6 | goal | story | 2:1720 | | story==1 | A story map for Books 2 to 6 (only Book 1 is mapped; the others have Rumi's headings) |
+| L7 | goal | search | مثنوی | mathnawi_sharh | records>=1 | A classical commentary on the Mathnawi, in a folder corpus/mathnawi_sharh, so that the stories are read through the tradition and not only through Claude |
+| L8 | goal | sijill | type:reading | | entries>=60 | The grocer and the parrot read to its end (sections 9 to 12), and a second story begun |
 
 ## Changing this document
 

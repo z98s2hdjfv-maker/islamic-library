@@ -38,3 +38,10 @@ The two studies of the fitra lecture (2026-10-01): 16 voices from the Qur'an to 
 - Two more cases recorded: the forty divine sayings (133 entries) and the ether and the Malakut (99 entries). The ether case links to three sayings already in the sijill instead of entering them again.
 - An entry that links `{rel: answers}` to an open question closes it: the open-questions view lists it under "Answered". Used for the speaker of the heart lecture, confirmed by Housam (`voice:housam`).
 - A new standing, `strange` (gharib): a single chain with no grade found. It is not a grade of weakness.
+
+## v54: passages and readings
+- `passage`: a stretch of a master's text that is read closely (a story, or a section of one). It cites its first and last record and says who speaks in it (`data.voice_in_text`). A section links `part_of` to its story.
+- `reading`: one reading of a passage in the reader's own words. It links `reads` to the passage and `held_by` to a voice, and names its layer (`sijill/registry/layers.tsv`: plain_sense, author_moral, commentator, reader, claude). A reading may link `responds_to` another reading.
+- Several readings of the same passage stand side by side, as disagreement between voices already does. None is recorded as "the meaning".
+- The validator refuses a reading without a layer, a passage or a reader, and a passage without a voice or a cited record.
+- View: `sijill/views/readings.md`. First use: the grocer and the parrot (Mathnawi 1:247-323), 11 passages and 33 readings; Housam's readings are held by `voice:housam`, Claude's by `voice:claude`.

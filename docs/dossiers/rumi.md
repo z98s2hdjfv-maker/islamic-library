@@ -2,7 +2,7 @@
 
 > **A map, not an answer.** This dossier says where Rumi speaks on the subjects the cases keep returning to. Before answering, query the repo itself (see `START_HERE.md`), open the couplets and read around them. Cite from the files, not from this page.
 
-*Why this dossier exists.* Rumi was reported silent in the ether case because the search was made in Arabic. He writes in Persian with his own vocabulary. Rule (START_HERE.md, section 4b): never record him as silent before his own words have been searched. Repo state: v53.
+*Why this dossier exists.* Rumi was reported silent in the ether case because the search was made in Arabic. He writes in Persian with his own vocabulary. Rule (START_HERE.md, section 4b): never record him as silent before his own words have been searched. Repo state: v54.
 
 ## 1. What the library holds
 
@@ -124,7 +124,15 @@ Counts are passages in his works in the concept index (v53). The couplets are a 
 
 ## 5. Reading his stories
 
-A couplet from a story is quoted with its story, its speaker (the narrator, a character, or Rumi in his own voice) and the layer of the meaning given (the plain sense, Rumi's own stated moral, a reader's reading). The first story read this way is the grocer and the parrot (1:247-323); the record is kept in the Project and enters the sijill with the next patch.
+A couplet from a story is quoted with its story, its speaker (the narrator, a character, or Rumi in his own voice) and the layer of the meaning given (the plain sense, Rumi's own stated moral, a reader's reading). START_HERE.md, section 4c.
+
+```
+python3 pipeline/mathnawi/story.py 1:263 --show 2     # the couplet, Rumi's heading for its section, its story, its recorded readings
+python3 pipeline/mathnawi/story.py --stories 1         # the 20 stories of Book 1 (Claude's reading of the headings)
+python3 pipeline/mathnawi/story.py --headings 4        # Rumi's own headings for any book: all 972 sections are in apparatus/mathnawi/sections.tsv
+```
+
+The first story read this way is the grocer and the parrot (1:247-323): 11 passages and 33 readings in the sijill (`sijill/views/readings.md`), sections 1 to 8 of 12. Rumi's own stated moral is "do not measure the affairs of the pure by yourself" (1:263). The same image is not one fixed symbol: "the parrot of the soul" (1:1575) belongs to another story, the merchant and his caged parrot.
 
 ## 6. Confidence and gaps
 

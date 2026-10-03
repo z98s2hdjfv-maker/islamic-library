@@ -80,6 +80,19 @@ def validate(repo):
             if ln.get("to") not in ids: errs.append(f"{w}: link to unknown entry {ln.get('to')}")
         for c in e.get("cites", []):
             if c.get("record"): cited.add(c["record"])
+    # v54: passages and readings. A reading names its layer, its reader and the passage it reads; a passage says who speaks.
+    lp = os.path.join(repo, "sijill/registry/layers.tsv")
+    layers = registry(repo, "layers") if os.path.exists(lp) else set()
+    kind = {e.get("id"): e.get("type") for e in ents}
+    for e in ents:
+        w = e.get("_where"); rels = {ln.get("rel"): ln.get("to") for ln in e.get("links", [])}
+        if e.get("type") == "reading":
+            if e.get("data", {}).get("layer") not in layers: errs.append(f"{w}: reading needs data.layer from registry/layers.tsv")
+            if kind.get(rels.get("reads")) != "passage": errs.append(f"{w}: reading needs a link {{rel: reads}} to a passage")
+            if kind.get(rels.get("held_by")) != "voice": errs.append(f"{w}: reading needs a link {{rel: held_by}} to a voice")
+        if e.get("type") == "passage":
+            if not e.get("data", {}).get("voice_in_text"): errs.append(f"{w}: passage needs data.voice_in_text (who is speaking)")
+            if not e.get("cites"): errs.append(f"{w}: passage must cite its first record")
     found = resolve(repo, cited)
     missing = sorted(cited - found)
     errs += [f"cited record not in the library: {r}" for r in missing]
@@ -149,7 +162,31 @@ def views(repo):
         O.append(f"- **{e.get('title', e['id'])}** ({e['status']}). {e.get('text', '')}" + (f" Needs: {e['data']['needs']}" if e.get("data", {}).get("needs") else ""))
     if A: O += ["", "## Answered", ""] + A
     open(os.path.join(out, "open_questions.md"), "w", encoding="utf-8").write("\n".join(O) + "\n")
-    print("views written: sijill/views/inferences.md, voices.md, open_questions.md")
+    # 4. readings (v54): each passage with who speaks in it, then every reading of it, layer by layer
+    order = ["plain_sense", "author_moral", "commentator", "reader", "claude"]
+    label = {"plain_sense": "Plain sense", "author_moral": "The author's own stated meaning", "commentator": "Commentator", "reader": "Reader", "claude": "Claude's analysis"}
+    rd = collections.defaultdict(list); parts = collections.defaultdict(list)
+    for e in E.values():
+        if e["type"] == "reading":
+            rd[next(ln["to"] for ln in e["links"] if ln["rel"] == "reads")].append(e)
+        if e["type"] == "passage":
+            up = next((ln["to"] for ln in e.get("links", []) if ln["rel"] == "part_of"), None)
+            if up: parts[up].append(e)
+    R = ["# Readings of passages", "", "_Generated. Each passage is given with who speaks in it, then every reading of it, kept apart by layer:",
+         "the author's own stated meaning, a commentator's, a reader's, and Claude's analysis. No reading is recorded as the meaning._", ""]
+    def show(p, depth):
+        d = p.get("data", {})
+        R.extend([f"{'#' * depth} {p.get('title', p['id'])}", "", f"{d.get('locator', '')}. Voice in the text: {d.get('voice_in_text', '?')}. {p.get('text', '')} {cite_s(p)}".strip(), ""])
+        for e in sorted(rd.get(p["id"], []), key=lambda e: (order.index(e["data"]["layer"]) if e["data"].get("layer") in order else 9, e["id"])):
+            v = E.get(next(ln["to"] for ln in e["links"] if ln["rel"] == "held_by"), {})
+            R.append(f"- **{label.get(e['data'].get('layer'), e['data'].get('layer'))}** ({v.get('title', '?')}; {e['status']}): {e.get('text', '')}"
+                     + (f" Rests on: {e['data']['supported_by']}." if e.get("data", {}).get("supported_by") else "") + (f" {cite_s(e)}" if e.get("cites") else ""))
+        R.append("")
+        for q in sorted(parts.get(p["id"], []), key=lambda q: (q.get("data", {}).get("order", 0), q["id"])): show(q, min(depth + 1, 4))
+    tops = [e for e in E.values() if e["type"] == "passage" and not any(ln["rel"] == "part_of" for ln in e.get("links", []))]
+    for p in sorted(tops, key=lambda e: e["id"]): show(p, 2)
+    if tops: open(os.path.join(out, "readings.md"), "w", encoding="utf-8").write("\n".join(R) + "\n")
+    print("views written: sijill/views/inferences.md, voices.md, open_questions.md" + (", readings.md" if tops else ""))
 
 
 if __name__ == "__main__":

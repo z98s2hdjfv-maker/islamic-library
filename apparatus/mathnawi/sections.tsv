@@ -1,0 +1,973 @@
+book	section	heading	kind	first_id	last_id	first_nicholson	last_nicholson	couplets
+1	1	سرآغاز	step	urn:sufi:rumi.mathnawi:1.b0001	urn:sufi:rumi.mathnawi:1.b0034	1	34	34
+1	2	عاشق شدن پادشاه بر کنیزک رنجور و تدبیر کردن در صحت او	step	urn:sufi:rumi.mathnawi:1.b0035	urn:sufi:rumi.mathnawi:1.b0054	35	54	20
+1	3	ظاهر شدن عجز حکیمان از معالجهٔ کنیزک و روی آوردن پادشاه به درگاه اله و در خواب دیدن او ولیی را	step	urn:sufi:rumi.mathnawi:1.b0055	urn:sufi:rumi.mathnawi:1.b0077	55	77	23
+1	4	از خداوند ولی‌ّ التوفیق در خواستن توفیق رعایت ادب در همه حالها و بیان کردن وخامت ضررهای بی‌ادبی	step	urn:sufi:rumi.mathnawi:1.b0078	urn:sufi:rumi.mathnawi:1.b0092	78	92	16
+1	5	ملاقات پادشاه با آن ولی که در خوابش نمودند	step	urn:sufi:rumi.mathnawi:1.b0093	urn:sufi:rumi.mathnawi:1.b0101	93	101	9
+1	6	بردن پادشاه آن طبیب را بر بیمار تا حال او را ببیند	step	urn:sufi:rumi.mathnawi:1.b0102	urn:sufi:rumi.mathnawi:1.b0143	102	143	42
+1	7	خلوت طلبیدن آن ولی از پادشاه جهت دریافتن رنج کنیزک	step	urn:sufi:rumi.mathnawi:1.b0144	urn:sufi:rumi.mathnawi:1.b0181	144	181	38
+1	8	دریافتن آن ولی رنج را و عرض کردن رنج او را پیش پادشاه	step	urn:sufi:rumi.mathnawi:1.b0182	urn:sufi:rumi.mathnawi:1.b0184	182	184	3
+1	9	فرستادن پادشاه رسولان به سمرقند به آوردن زرگر	step	urn:sufi:rumi.mathnawi:1.b0185	urn:sufi:rumi.mathnawi:1.b0221	185	221	37
+1	10	بیان آنک کشتن و زهر دادن مرد زرگر به اشارت الهی بود نه به هوای نفس و تأمّل فاسد	exposition	urn:sufi:rumi.mathnawi:1.b0222	urn:sufi:rumi.mathnawi:1.b0246	222	246	25
+1	11	حکایت بقال و طوطی و روغن ریختن طوطی در دکان	tale	urn:sufi:rumi.mathnawi:1.b0247	urn:sufi:rumi.mathnawi:1.b0323	247	323	79
+1	12	داستان آن پادشاه جهود کی نصرانیان را می‌کشت از بهر تعصب	tale	urn:sufi:rumi.mathnawi:1.b0324	urn:sufi:rumi.mathnawi:1.b0337	324	337	14
+1	13	آموختن وزیر مکر پادشاه را	step	urn:sufi:rumi.mathnawi:1.b0338	urn:sufi:rumi.mathnawi:1.b0347	338	347	10
+1	14	تلبیس وزیر با نصاری	step	urn:sufi:rumi.mathnawi:1.b0348	urn:sufi:rumi.mathnawi:1.b0362	348	362	15
+1	15	قبول کردن نصاری مکر وزیر را	step	urn:sufi:rumi.mathnawi:1.b0363	urn:sufi:rumi.mathnawi:1.b0370	363	370	8
+1	16	متابعت نصاری وزیر را	step	urn:sufi:rumi.mathnawi:1.b0371	urn:sufi:rumi.mathnawi:1.b0406	371	406	38
+1	17	قصهٔ دیدن خلیفه لیلی را	tale	urn:sufi:rumi.mathnawi:1.b0407	urn:sufi:rumi.mathnawi:1.b0436	407	436	30
+1	18	بیان حسد وزیر	exposition	urn:sufi:rumi.mathnawi:1.b0437	urn:sufi:rumi.mathnawi:1.b0445	437	445	9
+1	19	فهم کردن حاذقان نصاری مکر وزیر را	step	urn:sufi:rumi.mathnawi:1.b0446	urn:sufi:rumi.mathnawi:1.b0454	446	454	9
+1	20	پیغام شاه پنهان با وزیر	step	urn:sufi:rumi.mathnawi:1.b0455	urn:sufi:rumi.mathnawi:1.b0457	455	457	4
+1	21	بیان دوازده سبط از نصاری	exposition	urn:sufi:rumi.mathnawi:1.b0458	urn:sufi:rumi.mathnawi:1.b0462	458	462	5
+1	22	تخلیط وزیر در احکام انجیل	step	urn:sufi:rumi.mathnawi:1.b0463	urn:sufi:rumi.mathnawi:1.b0499	463	499	37
+1	23	در بیان آنک این اختلافات در صورت روش است نی در حقیقت راه	exposition	urn:sufi:rumi.mathnawi:1.b0500	urn:sufi:rumi.mathnawi:1.b0520	500	520	21
+1	24	بیان خسارت وزیر درین مکر	exposition	urn:sufi:rumi.mathnawi:1.b0521	urn:sufi:rumi.mathnawi:1.b0548	521	548	28
+1	25	مکر دیگر انگیختن وزیر در اضلال قوم	step	urn:sufi:rumi.mathnawi:1.b0549	urn:sufi:rumi.mathnawi:1.b0564	549	564	16
+1	26	دفع گفتن وزیر مریدان را	step	urn:sufi:rumi.mathnawi:1.b0565	urn:sufi:rumi.mathnawi:1.b0577	565	577	13
+1	27	مکر کردن مریدان کی خلوت را بشکن	step	urn:sufi:rumi.mathnawi:1.b0578	urn:sufi:rumi.mathnawi:1.b0590	578	590	13
+1	28	جواب گفتن وزیر کی خلوت را نمی‌شکنم	step	urn:sufi:rumi.mathnawi:1.b0591	urn:sufi:rumi.mathnawi:1.b0594	591	594	4
+1	29	اعتراض مریدان در خلوت وزیر	step	urn:sufi:rumi.mathnawi:1.b0595	urn:sufi:rumi.mathnawi:1.b0642	595	642	48
+1	30	نومید کردن وزیر مریدان را از رفض خلوت	step	urn:sufi:rumi.mathnawi:1.b0643	urn:sufi:rumi.mathnawi:1.b0649	643	649	7
+1	31	ولی عهد ساختن وزیر هر یک امیر را جداجدا	step	urn:sufi:rumi.mathnawi:1.b0650	urn:sufi:rumi.mathnawi:1.b0661	650	661	12
+1	32	کشتن وزیر خویشتن را در خلوت	step	urn:sufi:rumi.mathnawi:1.b0662	urn:sufi:rumi.mathnawi:1.b0667	662	667	6
+1	33	طلب کردن امت عیسی علیه‌السلام از امرا کی ولی عهد از شما کدامست	step	urn:sufi:rumi.mathnawi:1.b0668	urn:sufi:rumi.mathnawi:1.b0695	668	695	28
+1	34	منازعت امرا در ولی عهدی	step	urn:sufi:rumi.mathnawi:1.b0696	urn:sufi:rumi.mathnawi:1.b0726	696	726	31
+1	35	تعظیم نعت مصطفی صلی الله علیه و سلم کی مذکور بود در انجیل	step	urn:sufi:rumi.mathnawi:1.b0727	urn:sufi:rumi.mathnawi:1.b0739	727	739	13
+1	36	حکایت پادشاه جهود دیگر کی در هلاک دین عیسی سعی نمود	tale	urn:sufi:rumi.mathnawi:1.b0740	urn:sufi:rumi.mathnawi:1.b0768	740	768	29
+1	37	آتش کردن پادشاه جهود و بت نهادن پهلوی آتش کی هر که این بت را سجود کند از آتش برست	step	urn:sufi:rumi.mathnawi:1.b0769	urn:sufi:rumi.mathnawi:1.b0782	769	782	14
+1	38	به سخن آمدن طفل درمیان آتش و تحریض کردن خلق را در افتادن بآتش	step	urn:sufi:rumi.mathnawi:1.b0783	urn:sufi:rumi.mathnawi:1.b0811	783	811	29
+1	39	کژ ماندن دهان آن مرد کی نام محمّد را صلی‌الله علیه و سلّم بتَسخر خواند	step	urn:sufi:rumi.mathnawi:1.b0812	urn:sufi:rumi.mathnawi:1.b0822	812	822	11
+1	40	عتاب کردن آتش را آن پادشاه جهود	step	urn:sufi:rumi.mathnawi:1.b0823	urn:sufi:rumi.mathnawi:1.b0868	823	868	46
+1	41	طنز و انکار کردن پادشاه جهود و قبول ناکردن نصیحت خاصان خویش	step	urn:sufi:rumi.mathnawi:1.b0869	urn:sufi:rumi.mathnawi:1.b0899	869	899	31
+1	42	بیان توکّل و ترک جهد گفتن نخچیران به شیر	exposition	urn:sufi:rumi.mathnawi:1.b0900	urn:sufi:rumi.mathnawi:1.b0903	900	903	4
+1	43	جواب گفتن شیر نخچیران را و فایدهٔ جهد گفتن	step	urn:sufi:rumi.mathnawi:1.b0904	urn:sufi:rumi.mathnawi:1.b0907	904	907	4
+1	44	ترجیح نهادن نخچیران توکّل را بر جهد و اکتساب	step	urn:sufi:rumi.mathnawi:1.b0908	urn:sufi:rumi.mathnawi:1.b0911	908	911	4
+1	45	ترجیح نهادن شیر جهد و اکتساب را بر توکّل و تسلیم	step	urn:sufi:rumi.mathnawi:1.b0912	urn:sufi:rumi.mathnawi:1.b0914	912	914	3
+1	46	ترجیح نهادن نخچیران توکّل را بر اجتهاد	step	urn:sufi:rumi.mathnawi:1.b0915	urn:sufi:rumi.mathnawi:1.b0928	915	928	14
+1	47	ترجیح نهادن شیر جهد را بر توکّل	step	urn:sufi:rumi.mathnawi:1.b0929	urn:sufi:rumi.mathnawi:1.b0947	929	947	19
+1	48	باز ترجیح نهادن نخچیران توکل را بر جهد	step	urn:sufi:rumi.mathnawi:1.b0948	urn:sufi:rumi.mathnawi:1.b0955	948	955	8
+1	49	نگریستن عزراییل بر مردی و گریختن آن مرد در سرای سلیمان و تقریر ترجیح توکّل بر جهد و قلّت فایدهٔ جهد	step	urn:sufi:rumi.mathnawi:1.b0956	urn:sufi:rumi.mathnawi:1.b0970	956	970	15
+1	50	باز ترجیح نهادن شیر جهد را بر توکل و فواید جهد را بیان کردن	step	urn:sufi:rumi.mathnawi:1.b0971	urn:sufi:rumi.mathnawi:1.b0991	971	991	21
+1	51	مقرر شدن ترجیح جهد بر توکل	step	urn:sufi:rumi.mathnawi:1.b0992	urn:sufi:rumi.mathnawi:1.b0997	992	997	6
+1	52	انکار کردن نخچیران بر خرگوش در تاخیر رفتن بر شیر	step	urn:sufi:rumi.mathnawi:1.b0998	urn:sufi:rumi.mathnawi:1.b0999	998	999	2
+1	53	جواب گفتن خرگوش ایشان را	step	urn:sufi:rumi.mathnawi:1.b1000	urn:sufi:rumi.mathnawi:1.b1004	1000	1004	5
+1	54	اعتراض نخچیران بر سخن خرگوش	step	urn:sufi:rumi.mathnawi:1.b1005	urn:sufi:rumi.mathnawi:1.b1007	1005	1007	3
+1	55	جواب خرگوش نخچیران را	step	urn:sufi:rumi.mathnawi:1.b1008	urn:sufi:rumi.mathnawi:1.b1026	1008	1026	19
+1	56	ذکر دانش خرگوش و بیان فضیلت و منافع دانستن	exposition	urn:sufi:rumi.mathnawi:1.b1027	urn:sufi:rumi.mathnawi:1.b1040	1027	1040	14
+1	57	باز طلبیدن نخچیران از خرگوش سر اندیشهٔ او را	step	urn:sufi:rumi.mathnawi:1.b1041	urn:sufi:rumi.mathnawi:1.b1044	1041	1044	4
+1	58	منع کردن خرگوش از راز ایشان را	step	urn:sufi:rumi.mathnawi:1.b1045	urn:sufi:rumi.mathnawi:1.b1054	1045	1054	10
+1	59	قصهٔ مکر خرگوش	tale	urn:sufi:rumi.mathnawi:1.b1055	urn:sufi:rumi.mathnawi:1.b1081	1055	1081	27
+1	60	زیافت تأویل رکیک مگس	step	urn:sufi:rumi.mathnawi:1.b1082	urn:sufi:rumi.mathnawi:1.b1090	1082	1090	9
+1	61	تولیدن شیر از دیر آمدن خرگوش	step	urn:sufi:rumi.mathnawi:1.b1091	urn:sufi:rumi.mathnawi:1.b1106	1091	1106	16
+1	62	هم در بیان مکر خرگوش	exposition	urn:sufi:rumi.mathnawi:1.b1107	urn:sufi:rumi.mathnawi:1.b1149	1107	1149	43
+1	63	رسیدن خرگوش به شیر	step	urn:sufi:rumi.mathnawi:1.b1150	urn:sufi:rumi.mathnawi:1.b1156	1150	1156	7
+1	64	عذر گفتن خرگوش	step	urn:sufi:rumi.mathnawi:1.b1157	urn:sufi:rumi.mathnawi:1.b1180	1157	1180	24
+1	65	جواب گفتن شیر خرگوش را و روان شدن با او	step	urn:sufi:rumi.mathnawi:1.b1181	urn:sufi:rumi.mathnawi:1.b1201	1181	1201	21
+1	66	قصهٔ هدهد و سلیمان در بیان آنک چون قضا آید چشمهای روشن بسته شود	tale	urn:sufi:rumi.mathnawi:1.b1202	urn:sufi:rumi.mathnawi:1.b1220	1202	1220	19
+1	67	طعنهٔ زاغ در دعوی هدهد	step	urn:sufi:rumi.mathnawi:1.b1221	urn:sufi:rumi.mathnawi:1.b1226	1221	1226	6
+1	68	جواب گفتن هدهد طعنهٔ زاغ را	step	urn:sufi:rumi.mathnawi:1.b1227	urn:sufi:rumi.mathnawi:1.b1233	1227	1233	7
+1	69	قصهٔ آدم علیه‌السلام و بستن قضا نظر او را از مراعات صریح نهی و ترک تاویل	tale	urn:sufi:rumi.mathnawi:1.b1234	urn:sufi:rumi.mathnawi:1.b1262	1234	1262	29
+1	70	پا واپس کشیدن خرگوش از شیر چون نزدیک چاه رسید	step	urn:sufi:rumi.mathnawi:1.b1263	urn:sufi:rumi.mathnawi:1.b1296	1263	1296	34
+1	71	پرسیدن شیر از سبب پای واپس کشیدن خرگوش	step	urn:sufi:rumi.mathnawi:1.b1297	urn:sufi:rumi.mathnawi:1.b1303	1297	1303	7
+1	72	نظر کردن شیر در چاه و دیدن عکس خود را و آن خرگوش را	step	urn:sufi:rumi.mathnawi:1.b1304	urn:sufi:rumi.mathnawi:1.b1338	1304	1338	35
+1	73	مژده بردن خرگوش سوی نخچیران کی شیر در چاه فتاد	step	urn:sufi:rumi.mathnawi:1.b1339	urn:sufi:rumi.mathnawi:1.b1356	1339	1356	18
+1	74	جمع شدن نخچیران گرد خرگوش و ثنا گفتن او را	step	urn:sufi:rumi.mathnawi:1.b1357	urn:sufi:rumi.mathnawi:1.b1368	1357	1368	12
+1	75	پند دادن خرگوش نخچیران را کی بدین شاد مشوید	step	urn:sufi:rumi.mathnawi:1.b1369	urn:sufi:rumi.mathnawi:1.b1372	1369	1372	4
+1	76	تفسیر رجعنا من الجهاد الاصغر الی‌الجهاد الاکبر	exposition	urn:sufi:rumi.mathnawi:1.b1373	urn:sufi:rumi.mathnawi:1.b1389	1373	1389	17
+1	77	آمدن رسول روم تا امیرالمؤمنین عمر رضی‌الله عنه و دیدن او کرامات عمر را رضی‌الله عنه	step	urn:sufi:rumi.mathnawi:1.b1390	urn:sufi:rumi.mathnawi:1.b1414	1390	1414	25
+1	78	یافتن رسول روم امیرالمؤمنین عمر را رضی‌الله عنه خفته به زیر درخت	step	urn:sufi:rumi.mathnawi:1.b1415	urn:sufi:rumi.mathnawi:1.b1445	1415	1445	31
+1	79	سوال کردن رسول روم از امیرالمؤمنین عمر رضی‌الله عنه	step	urn:sufi:rumi.mathnawi:1.b1446	urn:sufi:rumi.mathnawi:1.b1479	1446	1479	34
+1	80	اضافت کردن آدم علیه‌السلام آن زلت را به خویشتن کی ربنا ظلمنا و اضافت کردن ابلیس گناه خود را به خدای تعالی کی بما اغویتنی	step	urn:sufi:rumi.mathnawi:1.b1480	urn:sufi:rumi.mathnawi:1.b1508	1480	1508	29
+1	81	تفسیر و هو معکم اینما کنتم	exposition	urn:sufi:rumi.mathnawi:1.b1509	urn:sufi:rumi.mathnawi:1.b1514	1509	1514	6
+1	82	سؤال کردن رسول روم از عمر رضی‌الله عنه از سبب ابتلای ارواح با این آب و گل جسم	step	urn:sufi:rumi.mathnawi:1.b1515	urn:sufi:rumi.mathnawi:1.b1528	1515	1528	14
+1	83	در معنی آنک من اراد ان یجلس مع الله فلیجلس مع اهل التصوف	exposition	urn:sufi:rumi.mathnawi:1.b1529	urn:sufi:rumi.mathnawi:1.b1546	1529	1546	18
+1	84	قصهٔ بازرگان کی طوطی محبوس او، او را پیغام داد به طوطیان هندوستان هنگام رفتن به تجارت	tale	urn:sufi:rumi.mathnawi:1.b1547	urn:sufi:rumi.mathnawi:1.b1574	1547	1574	28
+1	85	صفت اجنحهٔ طیور عقول الهی	exposition	urn:sufi:rumi.mathnawi:1.b1575	urn:sufi:rumi.mathnawi:1.b1586	1575	1586	12
+1	86	دیدن خواجه طوطیان هندوستان را در دشت و پیغام رسانیدن از آن طوطی	step	urn:sufi:rumi.mathnawi:1.b1587	urn:sufi:rumi.mathnawi:1.b1602	1587	1602	16
+1	87	تفسیر قول فریدالدین عطار قدس الله روحه تو صاحب نفسی ای غافل میان خاک خون می‌خور که صاحب‌دل اگر زهری خورد آن انگبین باشد	exposition	urn:sufi:rumi.mathnawi:1.b1603	urn:sufi:rumi.mathnawi:1.b1614	1603	1614	12
+1	88	تعظیم ساحران مر موسی را علیه‌السلام کی چه می‌فرمایی اول تو اندازی عصا	step	urn:sufi:rumi.mathnawi:1.b1615	urn:sufi:rumi.mathnawi:1.b1648	1615	1648	34
+1	89	باز گفتن بازرگان با طوطی آنچ دید از طوطیان هندوستان	return	urn:sufi:rumi.mathnawi:1.b1649	urn:sufi:rumi.mathnawi:1.b1690	1649	1690	42
+1	90	شنیدن آن طوطی حرکت آن طوطیان و مردن آن طوطی در قفص و نوحهٔ خواجه بر وی	step	urn:sufi:rumi.mathnawi:1.b1691	urn:sufi:rumi.mathnawi:1.b1762	1691	1762	72
+1	91	تفسیر قول حکیم: به هرچ از راه وا مانی، چه کفر آن حرف و چه ایمان، به هرچ از دوست دور افتی، چه زشت آن نقش و چه زیبا، در معنی قوله علیه‌السلام ان سعدا لغیور و انا اغیر من سعد و الله اغیر منی و من غیر ته حرم الفواحش ما ظهر منها و ما بطن	exposition	urn:sufi:rumi.mathnawi:1.b1763	urn:sufi:rumi.mathnawi:1.b1813	1763	1813	51
+1	92	رجوع به حکایت خواجهٔ تاجر	return	urn:sufi:rumi.mathnawi:1.b1814	urn:sufi:rumi.mathnawi:1.b1824	1814	1824	11
+1	93	برون انداختن مرد تاجر طوطی را از قفس و پریدن طوطی مرده	step	urn:sufi:rumi.mathnawi:1.b1825	urn:sufi:rumi.mathnawi:1.b1844	1825	1844	20
+1	94	وداع کردن طوطی خواجه را و پریدن	step	urn:sufi:rumi.mathnawi:1.b1845	urn:sufi:rumi.mathnawi:1.b1848	1845	1848	4
+1	95	مضرت تعظیم خلق و انگشت‌نمای شدن	step	urn:sufi:rumi.mathnawi:1.b1849	urn:sufi:rumi.mathnawi:1.b1877	1849	1877	29
+1	96	تفسیر ما شاء الله کان	exposition	urn:sufi:rumi.mathnawi:1.b1878	urn:sufi:rumi.mathnawi:1.b1912	1878	1912	35
+1	97	داستان پیر چنگی کی در عهد عمر رضی الله عنه از بهر خدا روز بی‌نوایی چنگ زد میان گورستان	tale	urn:sufi:rumi.mathnawi:1.b1913	urn:sufi:rumi.mathnawi:1.b1950	1913	1950	38
+1	98	در بیان این حدیث کی ان لربکم فی ایام دهرکم نفحات الا فتعر ضوا لها	exposition	urn:sufi:rumi.mathnawi:1.b1951	urn:sufi:rumi.mathnawi:1.b2011	1951	2011	62
+1	99	قصهٔ سوال کردن عایشه رضی الله عنها از مصطفی صلی‌الله علیه و سلم کی امروز باران بارید چون تو سوی گورستان رفتی جامه‌های تو چون تر نیست	tale	urn:sufi:rumi.mathnawi:1.b2012	urn:sufi:rumi.mathnawi:1.b2034	2012	2034	23
+1	100	تفسیر بیت حکیم سنائی رضی‌ الله عنه «آسمانهاست در ولایتِ جان، کارفرمای آسمان جهان» «در ره روح پست و بالاهاست،  کوههای بلند و دریاهاست»	exposition	urn:sufi:rumi.mathnawi:1.b2035	urn:sufi:rumi.mathnawi:1.b2045	2035	2045	11
+1	101	در معنی این حدیث کی اغتنموا برد الربیع الی آخره	exposition	urn:sufi:rumi.mathnawi:1.b2046	urn:sufi:rumi.mathnawi:1.b2059	2046	2059	14
+1	102	پرسیدن صدیقه رضی‌الله عنها از مصطفی صلی‌الله علیه و سلم کی سر باران امروزینه چه بود	step	urn:sufi:rumi.mathnawi:1.b2060	urn:sufi:rumi.mathnawi:1.b2071	2060	2071	12
+1	103	بقیهٔ قصهٔ پیر چنگی و بیان مخلص آن	return	urn:sufi:rumi.mathnawi:1.b2072	urn:sufi:rumi.mathnawi:1.b2103	2072	2103	32
+1	104	در خواب گفتن هاتف مر عمر را رضی الله عنه کی چندین زر از بیت المال به آن مرد ده کی در گورستان خفته است	step	urn:sufi:rumi.mathnawi:1.b2104	urn:sufi:rumi.mathnawi:1.b2112	2104	2112	9
+1	105	نالیدن ستون حنانه چون برای پیغامبر صلی الله علیه و سلم منبر ساختند کی جماعت انبوه شد گفتند «ما روی مبارک ترا به هنگام وعظ نمی‌بینیم» و شنیدن رسول و صحابه آن ناله را و سؤال و جواب مصطفی صلی الله علیه و سلم با ستون صریح	step	urn:sufi:rumi.mathnawi:1.b2113	urn:sufi:rumi.mathnawi:1.b2153	2113	2153	41
+1	106	اظهار معجزهٔ پیغمبر صلی الله علیه و سلم به سخن آمدن سنگ‌ریزه در دست ابوجهل علیه اللعنه و گواهی دادن سنگ‌ریزه بر حقیت محمد صلی الله علیه و سلم به رسالت او	step	urn:sufi:rumi.mathnawi:1.b2154	urn:sufi:rumi.mathnawi:1.b2160	2154	2160	7
+1	107	بقیهٔ قصهٔ مطرب و پیغام رسانیدن امیرالمؤمنین عُمَر -رضی الله عنه- به او آنچه هاتف آواز داد	return	urn:sufi:rumi.mathnawi:1.b2161	urn:sufi:rumi.mathnawi:1.b2198	2161	2198	38
+1	108	گردانیدن عمر رضی الله عنه نظر او را از مقام گریه کی هستیست به مقام استغراق	step	urn:sufi:rumi.mathnawi:1.b2199	urn:sufi:rumi.mathnawi:1.b2222	2199	2222	24
+1	109	تفسیر دعای آن دو فرشته کی هر روز بر سر هر بازاری منادی می‌کنند کی اللهم اعط کل منفق خلفا اللهم اعط کل ممسک تلفا و بیان کردن کی آن منفق مجاهد راه حقست نی مسرف راه هوا	exposition	urn:sufi:rumi.mathnawi:1.b2223	urn:sufi:rumi.mathnawi:1.b2243	2223	2243	21
+1	110	قصهٔ خلیفه کی در کرم در زمان خود از حاتم طائی گذشته بود و نظیر خود نداشت	tale	urn:sufi:rumi.mathnawi:1.b2244	urn:sufi:rumi.mathnawi:1.b2251	2244	2251	8
+1	111	قصهٔ اعرابی درویش و ماجرای زن با او به سبب قلت و درویشی	tale	urn:sufi:rumi.mathnawi:1.b2252	urn:sufi:rumi.mathnawi:1.b2263	2252	2263	12
+1	112	مغرور شدن مریدان محتاج به مدعیان مزور و ایشان را شیخ و محتشم و واصل پنداشتن و نقل را از نقد فرق نادانستن و بر بسته را از بر رسته	step	urn:sufi:rumi.mathnawi:1.b2264	urn:sufi:rumi.mathnawi:1.b2282	2264	2282	19
+1	113	در بیان آنک نادر افتد کی مریدی در مدعی مزور اعتقاد بصدق ببندد کی او کسی است و بدین اعتقاد به مقامی برسد کی شیخش در خواب ندیده باشد و آب و آتش او را گزند نکند و شیخش را گزند کند ولیکن بنادر نادر	exposition	urn:sufi:rumi.mathnawi:1.b2283	urn:sufi:rumi.mathnawi:1.b2287	2283	2287	5
+1	114	صبر فرمودن اعرابی زن خود را و فضیلت صبر و فقر بیان کردن با زن	step	urn:sufi:rumi.mathnawi:1.b2288	urn:sufi:rumi.mathnawi:1.b2314	2288	2314	27
+1	115	نصحیت کردن زن مر شوی را کی سخن افزون از قدم و از مقام خود مگو لم تقولون ما لا تفعلون کی این سخن‌ها اگرچه راستست این مقام توکل ترا نیست و این سخن گفتن فوق مقام و معاملهٔ خود زیان دارد و کبر مقتا عند الله باشد	step	urn:sufi:rumi.mathnawi:1.b2315	urn:sufi:rumi.mathnawi:1.b2341	2315	2341	27
+1	116	نصیحت کردن مرد مر زن را کی در فقیران به خواری منگر و در کار حق به گمان کمال نگر و طعنه مزن در فقر و فقیران به خیال و گمان بی‌نوایی خویشتن	step	urn:sufi:rumi.mathnawi:1.b2342	urn:sufi:rumi.mathnawi:1.b2364	2342	2364	23
+1	117	در بیان آنک جنبیدن هر کسی از آنجا کی ویست هر کس را از چنبرهٔ وجود خود بیند تابهٔ کبود آفتاب را کبود نماید و سرخ سرخ نماید چون تابه‌ها از رنگها بیرون آید سپید شود از همه تابه‌های دیگر او راست‌گوتر باشد و امام باشد	exposition	urn:sufi:rumi.mathnawi:1.b2365	urn:sufi:rumi.mathnawi:1.b2393	2365	2393	29
+1	118	مراعات کردن زن شوهر را و استغفار کردن از گفتهٔ خویش	step	urn:sufi:rumi.mathnawi:1.b2394	urn:sufi:rumi.mathnawi:1.b2432	2394	2432	39
+1	119	در بیان این خبر کی انهن یغلبن العاقل و یغلبهن الجاهل	exposition	urn:sufi:rumi.mathnawi:1.b2433	urn:sufi:rumi.mathnawi:1.b2437	2433	2437	5
+1	120	تسلیم کردن مرد خود را به آنچ التماس زن بود از طلب معیشت و آن اعتراضِ زن را اشارات حق دانستن. به نزد عقلِ هر داننده ای هست، که با گردنده گرداننده ای هست	step	urn:sufi:rumi.mathnawi:1.b2438	urn:sufi:rumi.mathnawi:1.b2446	2438	2446	9
+1	121	در بیان آنک موسی و فرعون هر دو مسخر مشیت‌اند چنانک زهر و پازهر و ظلمات و نور و مناجات کردن فرعون بخلوت تا ناموس نشکند	exposition	urn:sufi:rumi.mathnawi:1.b2447	urn:sufi:rumi.mathnawi:1.b2481	2447	2481	36
+1	122	سبب حرمان اشقیا از دو جهان کی خسر الدنیا و الآخرة	exposition	urn:sufi:rumi.mathnawi:1.b2482	urn:sufi:rumi.mathnawi:1.b2508	2482	2508	27
+1	123	حقیر و بی‌خصم دیدن دیده‌های حس صالح و ناقهٔ صالح علیه‌السلام را چون خواهد کی حق لشکری را هلاک کند در نظر ایشان حقیر نماید خصمان را و اندک اگرچه غالب باشد آن خصم و یقللکم فی اعینهم لیقضی الله امرا کان مفعولا	step	urn:sufi:rumi.mathnawi:1.b2509	urn:sufi:rumi.mathnawi:1.b2569	2509	2569	60
+1	124	در معنی آنک مرج البحرین یلتقیان بینهما برزخ لا یبغیان	exposition	urn:sufi:rumi.mathnawi:1.b2570	urn:sufi:rumi.mathnawi:1.b2602	2570	2602	33
+1	125	در معنی آنک آنچ ولی کند مرید را نشاید گستاخی کردن و همان فعل کردن کی حلوا طبیب را زیان ندارد اما بیماران را زیان دارد و سرما و برف انگور را زیان ندارد اما غوره را زیان دارد کی در راهست کی لیغفرلک الله ما تقدم من ذنبک و ما تاخر	exposition	urn:sufi:rumi.mathnawi:1.b2603	urn:sufi:rumi.mathnawi:1.b2615	2603	2615	13
+1	126	مخلص ماجرای عرب و جفت او	step	urn:sufi:rumi.mathnawi:1.b2616	urn:sufi:rumi.mathnawi:1.b2642	2616	2642	27
+1	127	دل نهادن عرب بر التماس دلبر خویش و سوگند خوردن کی درین تسلیم مرا حیلتی و امتحانی نیست	step	urn:sufi:rumi.mathnawi:1.b2643	urn:sufi:rumi.mathnawi:1.b2683	2643	2683	41
+1	128	تعیین کردن زن طریق طلب روزی کدخدای خود را و قبول کردن او	step	urn:sufi:rumi.mathnawi:1.b2684	urn:sufi:rumi.mathnawi:1.b2702	2684	2702	19
+1	129	هدیه بردن عرب سبوی آب باران از میان بادیه سوی بغداد به امیرالمؤمنین بر پنداشت آنک آنجا هم قحط آبست	step	urn:sufi:rumi.mathnawi:1.b2703	urn:sufi:rumi.mathnawi:1.b2719	2703	2719	17
+1	130	در نمد دوختن زن عرب سبوی آب باران را و مهر نهادن بر وی از غایت اعتقاد عرب	step	urn:sufi:rumi.mathnawi:1.b2720	urn:sufi:rumi.mathnawi:1.b2743	2720	2743	24
+1	131	در بیان آنک چنانک گدا عاشق کرمست و عاشق کریم، کرمِ کریم هم عاشق گداست اگر گدا را صبر بیش بود کریم بر در او آید و اگر کریم را صبر بیش بود گدا بر در او آید اما صبر گدا کمال گداست و صبر کریم نقصان اوست	exposition	urn:sufi:rumi.mathnawi:1.b2744	urn:sufi:rumi.mathnawi:1.b2751	2744	2751	8
+1	132	فرق میان آنک درویش است به خدا و تشنهٔ خدا و میان آنک درویش است از خدا و تشنهٔ غیرست	exposition	urn:sufi:rumi.mathnawi:1.b2752	urn:sufi:rumi.mathnawi:1.b2772	2752	2772	22
+1	133	پیش آمدن نقیبان و دربانان خلیفه از بهر اکرام اعرابی و پذیرفتن هدیهٔ او را	step	urn:sufi:rumi.mathnawi:1.b2773	urn:sufi:rumi.mathnawi:1.b2800	2773	2800	28
+1	134	در بیان آنک عاشق دنیا بر مثال عاشق دیواریست کی بر او تاب آفتاب زند و جهد و جهاد نکرد تا فهم کند کی آن تاب و رونق از دیوار نیست از قرص آفتابست در آسمان چهارم لاجرم کلی دل بر دیوار نهاد چون پرتو آفتاب به آفتاب پیوست او محروم ماند ابدا و حیل بینهم و بین ما یشتهون	exposition	urn:sufi:rumi.mathnawi:1.b2801	urn:sufi:rumi.mathnawi:1.b2804	2801	2804	4
+1	135	مثل عرب اذا زنیت فازن بالحرة و اذا سرقت فاسرق الدرة	tale	urn:sufi:rumi.mathnawi:1.b2805	urn:sufi:rumi.mathnawi:1.b2814	2805	2814	10
+1	136	سپردن عرب هدیه را یعنی سبو را به  غلامان خلیفه	step	urn:sufi:rumi.mathnawi:1.b2815	urn:sufi:rumi.mathnawi:1.b2834	2815	2834	20
+1	137	حکایت ماجرای نحوی و کشتیبان	tale	urn:sufi:rumi.mathnawi:1.b2835	urn:sufi:rumi.mathnawi:1.b2852	2835	2852	18
+1	138	قبول کردن خلیفه هدیه را و عطا فرمودن با کمال بی‌نیازی از آن هدیه و از آن سبو	step	urn:sufi:rumi.mathnawi:1.b2853	urn:sufi:rumi.mathnawi:1.b2933	2853	2933	81
+1	139	در صفت پیر و مطاوعت وی	exposition	urn:sufi:rumi.mathnawi:1.b2934	urn:sufi:rumi.mathnawi:1.b2958	2934	2958	25
+1	140	وصیت کردن رسول صلی الله علیه و سلم مر علی را کرم الله وجهه کی چون هر کسی به نوع طاعتی تقرب جوید به حق، تو تقرب جوی به صحبت عاقل و بندهٔ خاص تا ازیشان همه پیش‌قدم‌تر باشی	step	urn:sufi:rumi.mathnawi:1.b2959	urn:sufi:rumi.mathnawi:1.b2980	2959	2980	22
+1	141	کبودی زدن قزوینی بر شانه‌گاه صورت شیر و پشیمان شدن او به سبب زخم سوزن	step	urn:sufi:rumi.mathnawi:1.b2981	urn:sufi:rumi.mathnawi:1.b3012	2981	3012	32
+1	142	رفتن گرگ و روباه در خدمت شیر به شکار	step	urn:sufi:rumi.mathnawi:1.b3013	urn:sufi:rumi.mathnawi:1.b3041	3013	3041	29
+1	143	امتحان کردن شیر گرگ را و گفتن کی پیش آی ای گرگ بخش کن صیدها را میان ما	step	urn:sufi:rumi.mathnawi:1.b3042	urn:sufi:rumi.mathnawi:1.b3055	3042	3055	14
+1	144	قصه آنکس کی در یاری بکوفت از درون گفت کیست آن گفت منم گفت چون تو توی در نمی‌گشایم هیچ کس را از یاران نمی‌شناسم کی او من باشد برو	tale	urn:sufi:rumi.mathnawi:1.b3056	urn:sufi:rumi.mathnawi:1.b3101	3056	3101	46
+1	145	ادب کردن شیر گرگ را کی در قسمت بی‌ادبی کرده بود	step	urn:sufi:rumi.mathnawi:1.b3102	urn:sufi:rumi.mathnawi:1.b3123	3102	3123	22
+1	146	تهدید کردن نوح علیه‌السلام مر قوم را کی با من مپیچید کی من روپوشم با خدای می‌پیچید در میان این بحقیقت ای مخذولان	step	urn:sufi:rumi.mathnawi:1.b3124	urn:sufi:rumi.mathnawi:1.b3149	3124	3149	26
+1	147	نشاندن پادشاه، صوفیانِ عارف را پیش روی خویش تا چشمشان بدیشان روشن شود	step	urn:sufi:rumi.mathnawi:1.b3150	urn:sufi:rumi.mathnawi:1.b3156	3150	3156	7
+1	148	آمدن مهمان پیش یوسف علیه‌السلام و تقاضا کردن یوسف علیه‌السلام ازو تحفه و ارمغان	step	urn:sufi:rumi.mathnawi:1.b3157	urn:sufi:rumi.mathnawi:1.b3191	3157	3191	35
+1	149	گفتن مهمان یوسف علیه‌السلام کی آینه‌ای آوردمت کی تا هر باری کی در وی نگری روی خوب خویش را بینی مرا یاد کنی	step	urn:sufi:rumi.mathnawi:1.b3192	urn:sufi:rumi.mathnawi:1.b3227	3192	3227	36
+1	150	مرتد شدن کاتب وحی به سبب آنک پرتو وحی برو زد آن آیت را پیش از پیغامبر صلی الله علیه و سلم بخواند گفت پس من هم محل وحیم	step	urn:sufi:rumi.mathnawi:1.b3228	urn:sufi:rumi.mathnawi:1.b3297	3228	3297	70
+1	151	دعا کردن بلعم با عور کی موسی و قومش را از این شهر کی حصار داده‌اند بی مراد باز گردان و مستجاب شدن دعای او	step	urn:sufi:rumi.mathnawi:1.b3298	urn:sufi:rumi.mathnawi:1.b3320	3298	3320	23
+1	152	اعتماد کردن هاروت و ماروت بر عصمت خویش و امیری اهل دنیا خواستن و در فتنه افتادن	step	urn:sufi:rumi.mathnawi:1.b3321	urn:sufi:rumi.mathnawi:1.b3343	3321	3343	24
+1	153	باقی قصهٔ هاروت و ماروت و نکال و عقوبت ایشان هم در دنیا بچاه بابل	return	urn:sufi:rumi.mathnawi:1.b3344	urn:sufi:rumi.mathnawi:1.b3359	3344	3359	16
+1	154	به عیادت رفتن کر بر همسایهٔ رنجور خویش	step	urn:sufi:rumi.mathnawi:1.b3360	urn:sufi:rumi.mathnawi:1.b3395	3360	3395	36
+1	155	اول کسی کی در مقابلهٔ نص قیاس آورد ابلیس بود	step	urn:sufi:rumi.mathnawi:1.b3396	urn:sufi:rumi.mathnawi:1.b3425	3396	3425	30
+1	156	در بیان آنک حال خود و مستی خود پنهان باید داشت از جاهلان	exposition	urn:sufi:rumi.mathnawi:1.b3426	urn:sufi:rumi.mathnawi:1.b3466	3426	3466	41
+1	157	قصهٔ مری کردن رومیان و چینیان در علم نقاشی و صورت‌گری	tale	urn:sufi:rumi.mathnawi:1.b3467	urn:sufi:rumi.mathnawi:1.b3499	3467	3499	33
+1	158	پرسیدن پیغمبر صلی الله علیه و سلم مر زید  را که امروز چونی و چون برخاستی و جواب  گفتن او که اصبحت ممنا یا رسول الله	step	urn:sufi:rumi.mathnawi:1.b3500	urn:sufi:rumi.mathnawi:1.b3583	3500	3583	84
+1	159	متهم کردن غلامان و خواجه‌تاشان مر لقمان را کی آن میوه‌های ترونده را که می‌آوردیم او خورده است	step	urn:sufi:rumi.mathnawi:1.b3584	urn:sufi:rumi.mathnawi:1.b3607	3584	3607	24
+1	160	بقیهٔ قصه زید در جواب رسول صلی الله علیه و سلم	return	urn:sufi:rumi.mathnawi:1.b3608	urn:sufi:rumi.mathnawi:1.b3655	3608	3655	48
+1	161	گفتن پیغامبر صلی الله علیه و سلم مر زید را کی این سر را فاش‌تر ازین مگو و متابعت نگهدار	step	urn:sufi:rumi.mathnawi:1.b3656	urn:sufi:rumi.mathnawi:1.b3667	3656	3667	12
+1	162	رجوع به حکایت زید	return	urn:sufi:rumi.mathnawi:1.b3668	urn:sufi:rumi.mathnawi:1.b3706	3668	3706	39
+1	163	آتش افتادن در شهر به ایام عمر رضی الله عنه	step	urn:sufi:rumi.mathnawi:1.b3707	urn:sufi:rumi.mathnawi:1.b3720	3707	3720	14
+1	164	خدو انداختن خصم در روی امیر المؤمنین علی کرم الله وجهه و انداختن امیرالمؤمنین علی شمشیر از دست	step	urn:sufi:rumi.mathnawi:1.b3721	urn:sufi:rumi.mathnawi:1.b3772	3721	3772	52
+1	165	سؤال کردن آن کافر از علی کرم الله وجهه کی بر چون منی مظفر شدی شمشیر از دست چون انداختی	step	urn:sufi:rumi.mathnawi:1.b3772a	urn:sufi:rumi.mathnawi:1.b3786	3773	3786	15
+1	166	جواب گفتن امیر المؤمنین کی سبب افکندن شمشیر از دست چه بوده است  در آن حالت	step	urn:sufi:rumi.mathnawi:1.b3787	urn:sufi:rumi.mathnawi:1.b3843	3787	3843	57
+1	167	گفتن پیغامبر صلی الله علیه و سلم به گوش رکابدار امیرالمؤمنین علی کرم الله  وجهه کی کشتن علی بر دست تو خواهد بودن خبرت کردم	step	urn:sufi:rumi.mathnawi:1.b3844	urn:sufi:rumi.mathnawi:1.b3892	3844	3892	49
+1	168	تعجب کردن آدم علیه‌السلام از ضلالت  ابلیس لعین و عجب آوردن	step	urn:sufi:rumi.mathnawi:1.b3893	urn:sufi:rumi.mathnawi:1.b3923	3893	3923	31
+1	169	بازگشتن به حکایت علی کرم الله وجهه و مسامحت کردن او با خونی خویش	return	urn:sufi:rumi.mathnawi:1.b3924	urn:sufi:rumi.mathnawi:1.b3937	3924	3937	14
+1	170	افتادن رکابدار هر باری پیش امیر المؤمنین علی کرم الله وجهه کی ای امیر المؤمنین مرا بکش و ازین قضا برهان	step	urn:sufi:rumi.mathnawi:1.b3938	urn:sufi:rumi.mathnawi:1.b3947	3938	3947	10
+1	171	بیان آنک فتح طلبیدن مصطفی صلی الله علیه و سلم مکه را و غیر مکه را جهت دوستی ملک دنیا نبود چون فرموده است الدنیا جیفة بلک بامر بود	exposition	urn:sufi:rumi.mathnawi:1.b3948	urn:sufi:rumi.mathnawi:1.b3974	3948	3974	27
+1	172	گفتن امیر المؤمنین علی کرم الله وجهه با قرین خود کی چون خدو انداختی در روی من نفس من جنبید و اخلاص عمل نماند مانع کشتن تو آن شد	step	urn:sufi:rumi.mathnawi:1.b3975	urn:sufi:rumi.mathnawi:1.b4003	3975	4003	29
+2	1	سر آغاز	step	urn:sufi:rumi.mathnawi:2.b0001	urn:sufi:rumi.mathnawi:2.b0111	1	111	111
+2	2	هلال پنداشتن آن شخص خیال را در عهد عمر رضی الله عنه	step	urn:sufi:rumi.mathnawi:2.b0112	urn:sufi:rumi.mathnawi:2.b0134	112	134	23
+2	3	دزدیدن مارگیر ماری را از مارگیری دیگر	step	urn:sufi:rumi.mathnawi:2.b0135	urn:sufi:rumi.mathnawi:2.b0140	135	140	6
+2	4	التماس کردن همراه عیسی علیه السلام زنده کردن استخوانها از عیسی علیه السلام	step	urn:sufi:rumi.mathnawi:2.b0141	urn:sufi:rumi.mathnawi:2.b0155	141	155	15
+2	5	اندرز کردن صوفی خادم را در تیمار داشت بهیمه و لا حول خادم	step	urn:sufi:rumi.mathnawi:2.b0156	urn:sufi:rumi.mathnawi:2.b0170	156	170	15
+2	6	حکایت مشورت کردن خدای تعالی  در ایجاد خلق	tale	urn:sufi:rumi.mathnawi:2.b0171	urn:sufi:rumi.mathnawi:2.b0193	171	193	22
+2	7	بسته شدن تقریر معنی حکایت به سبب میل مستمع به استماع ظاهر صورت حکایت	step	urn:sufi:rumi.mathnawi:2.b0194	urn:sufi:rumi.mathnawi:2.b0202	194	202	9
+2	8	التزام کردن خادم تعهد بهیمه را و تخلف نمودن	step	urn:sufi:rumi.mathnawi:2.b0203	urn:sufi:rumi.mathnawi:2.b0243	203	243	41
+2	9	گمان بردن کاروانیان که بهیمهٔ صوفی رنجورست	step	urn:sufi:rumi.mathnawi:2.b0244	urn:sufi:rumi.mathnawi:2.b0322	244	322	81
+2	10	یافتن شاه باز را به خانهٔ کمپیر زن	step	urn:sufi:rumi.mathnawi:2.b0323	urn:sufi:rumi.mathnawi:2.b0375	323	375	54
+2	11	حلوا خریدن شیخ احمد خضرویه جهت غریمان به الهام حق تعالی	step	urn:sufi:rumi.mathnawi:2.b0376	urn:sufi:rumi.mathnawi:2.b0444	376	444	69
+2	12	ترسانیدن شخصی زاهدی را کی کم گری تا کور نشوی	step	urn:sufi:rumi.mathnawi:2.b0445	urn:sufi:rumi.mathnawi:2.b0456	445	456	12
+2	13	تمامی قصهٔ زنده شدن استخوانها به دعای عیسی علیه السلام	return	urn:sufi:rumi.mathnawi:2.b0457	urn:sufi:rumi.mathnawi:2.b0502	457	502	46
+2	14	خاریدن روستایی در تاریکی شیر را به ظن آنک گاو اوست	step	urn:sufi:rumi.mathnawi:2.b0503	urn:sufi:rumi.mathnawi:2.b0513	503	513	11
+2	15	فروختن صوفیان بهیمهٔ مسافر را جهت سماع	step	urn:sufi:rumi.mathnawi:2.b0514	urn:sufi:rumi.mathnawi:2.b0584	514	584	71
+2	16	تعریف کردن منادیان قاضی مفلس را گرد شهر	step	urn:sufi:rumi.mathnawi:2.b0585	urn:sufi:rumi.mathnawi:2.b0613	585	613	29
+2	17	شکایت کردن اهل زندان پیش وکیل قاضی از دست آن مفلس	step	urn:sufi:rumi.mathnawi:2.b0614	urn:sufi:rumi.mathnawi:2.b0642	614	642	29
+2	18	تتمهٔ قصهٔ مفلس	return	urn:sufi:rumi.mathnawi:2.b0643	urn:sufi:rumi.mathnawi:2.b0738	643	738	96
+2	19	مثل	tale	urn:sufi:rumi.mathnawi:2.b0739	urn:sufi:rumi.mathnawi:2.b0775	739	775	37
+2	20	ملامت‌کردن مردم شخصی را کی مادرش را کشت به تهمت	step	urn:sufi:rumi.mathnawi:2.b0776	urn:sufi:rumi.mathnawi:2.b0842	776	842	66
+2	21	امتحان پادشاه به آن دو غلام کی نو خریده بود	step	urn:sufi:rumi.mathnawi:2.b0843	urn:sufi:rumi.mathnawi:2.b0863	843	863	21
+2	22	به راه کردن شاه یکی را از آن دو غلام و ازین دیگر پرسیدن	step	urn:sufi:rumi.mathnawi:2.b0864	urn:sufi:rumi.mathnawi:2.b0904	864	904	41
+2	23	قسم غلام در صدق و وفای یار خود از طهارت ظن خود	step	urn:sufi:rumi.mathnawi:2.b0905	urn:sufi:rumi.mathnawi:2.b1046	905	1046	142
+2	24	حسد کردن حشم بر غلام خاص	step	urn:sufi:rumi.mathnawi:2.b1047	urn:sufi:rumi.mathnawi:2.b1191	1047	1191	145
+2	25	کلوخ انداختن تشنه از سر دیوار در جوی آب	step	urn:sufi:rumi.mathnawi:2.b1192	urn:sufi:rumi.mathnawi:2.b1226	1192	1226	35
+2	26	فرمودن والی آن مرد را کی این خاربن را کی نشانده‌ای بر سر راه بر کن	step	urn:sufi:rumi.mathnawi:2.b1227	urn:sufi:rumi.mathnawi:2.b1385	1227	1385	159
+2	27	آمدن دوستان به بیمارستان جهت پرسش ذاالنون مصری رحمة الله علیه	step	urn:sufi:rumi.mathnawi:2.b1386	urn:sufi:rumi.mathnawi:2.b1429	1386	1429	44
+2	28	فهم کردن مریدان کی ذاالنون دیوانه نشد قاصد کرده است	step	urn:sufi:rumi.mathnawi:2.b1430	urn:sufi:rumi.mathnawi:2.b1446	1430	1446	17
+2	29	رجوع به حکایت ذاالنون رحمة الله علیه	return	urn:sufi:rumi.mathnawi:2.b1447	urn:sufi:rumi.mathnawi:2.b1461	1447	1461	15
+2	30	امتحان کردن خواجهٔ لقمان زیرکی لقمان را	step	urn:sufi:rumi.mathnawi:2.b1462	urn:sufi:rumi.mathnawi:2.b1509	1462	1509	48
+2	31	ظاهر شدن فضل و زیرکی لقمان پیش امتحان کنندگان	step	urn:sufi:rumi.mathnawi:2.b1510	urn:sufi:rumi.mathnawi:2.b1560	1510	1560	51
+2	32	تتمهٔ حسد آن حشم بر آن غلام خاص	return	urn:sufi:rumi.mathnawi:2.b1561	urn:sufi:rumi.mathnawi:2.b1600	1561	1600	40
+2	33	عکس تعظیم پیغام سلیمان در دل بلقیس از صورت حقیر هدهد	step	urn:sufi:rumi.mathnawi:2.b1601	urn:sufi:rumi.mathnawi:2.b1632	1601	1632	32
+2	34	انکار فلسفی بر قرائت ان اصبح ماکم غورا	step	urn:sufi:rumi.mathnawi:2.b1633	urn:sufi:rumi.mathnawi:2.b1719	1633	1719	86
+2	35	انکار کردن موسی علیه السلام بر مناجات شبان	step	urn:sufi:rumi.mathnawi:2.b1720	urn:sufi:rumi.mathnawi:2.b1749	1720	1749	30
+2	36	عتاب کردن حق تعالی موسی را علیه  السلام از بهر آن شبان	step	urn:sufi:rumi.mathnawi:2.b1750	urn:sufi:rumi.mathnawi:2.b1771	1750	1771	22
+2	37	وحی آمدن موسی را علیه السّلام در عذر آن شبان	step	urn:sufi:rumi.mathnawi:2.b1772	urn:sufi:rumi.mathnawi:2.b1815	1772	1815	44
+2	38	پرسیدن موسی از حق سر غلبهٔ ظالمان را	step	urn:sufi:rumi.mathnawi:2.b1816	urn:sufi:rumi.mathnawi:2.b1877	1816	1877	62
+2	39	رنجانیدن امیری خفته‌ای را کی مار در دهانش رفته بود	step	urn:sufi:rumi.mathnawi:2.b1878	urn:sufi:rumi.mathnawi:2.b1931	1878	1931	54
+2	40	اعتماد کردن بر تملق و وفای خرس	step	urn:sufi:rumi.mathnawi:2.b1932	urn:sufi:rumi.mathnawi:2.b1992	1932	1992	60
+2	41	گفتن نابینای سایل کی دو کوری دارم	step	urn:sufi:rumi.mathnawi:2.b1993	urn:sufi:rumi.mathnawi:2.b2009	1993	2009	17
+2	42	تتمهٔ حکایت خرس و آن ابله کی بر وفای او اعتماد کرده بود	return	urn:sufi:rumi.mathnawi:2.b2010	urn:sufi:rumi.mathnawi:2.b2035	2010	2035	26
+2	43	گفتن موسی علیه السلام گوساله‌پرست را کی «آن خیال‌اندیشی و حزم تو کجاست؟»	step	urn:sufi:rumi.mathnawi:2.b2036	urn:sufi:rumi.mathnawi:2.b2063	2036	2063	28
+2	44	ترک کردن آن مرد ناصح بعد از مبالغهٔ پند مغرور خرس را	step	urn:sufi:rumi.mathnawi:2.b2064	urn:sufi:rumi.mathnawi:2.b2094	2064	2094	31
+2	45	تملق کردن دیوانه جالینوس را و ترسیدن جالینوس	step	urn:sufi:rumi.mathnawi:2.b2095	urn:sufi:rumi.mathnawi:2.b2102	2095	2102	8
+2	46	سبب پریدن و چرخیدن مرغی با مرغی کی جنس او نبود	exposition	urn:sufi:rumi.mathnawi:2.b2103	urn:sufi:rumi.mathnawi:2.b2123	2103	2123	21
+2	47	تتمهٔ اعتماد آن مغرور بر تملق خرس	return	urn:sufi:rumi.mathnawi:2.b2124	urn:sufi:rumi.mathnawi:2.b2140	2124	2140	17
+2	48	رفتن مصطفی علیه السلام به عیادت صحابی و بیان فایدهٔ عیادت	step	urn:sufi:rumi.mathnawi:2.b2141	urn:sufi:rumi.mathnawi:2.b2151	2141	2151	15
+2	49	وحی کردن حق تعالی به موسی علیه السلام کی چرا به عیادت من نیامدی	step	urn:sufi:rumi.mathnawi:2.b2156	urn:sufi:rumi.mathnawi:2.b2166	2156	2166	11
+2	50	تنها کردن باغبان صوفی و فقیه و علوی را از همدیگر	step	urn:sufi:rumi.mathnawi:2.b2167	urn:sufi:rumi.mathnawi:2.b2211	2167	2211	46
+2	51	رجعت به قصهٔ مریض و عیادت پیغامبر علیه السلام	step	urn:sufi:rumi.mathnawi:2.b2212	urn:sufi:rumi.mathnawi:2.b2217	2212	2217	6
+2	52	گفتن شیخ ابویزید را کی کعبه منم  گرد من طوافی می‌کن	step	urn:sufi:rumi.mathnawi:2.b2218	urn:sufi:rumi.mathnawi:2.b2226	2218	2226	9
+2	53	حکایت	tale	urn:sufi:rumi.mathnawi:2.b2227	urn:sufi:rumi.mathnawi:2.b2251	2227	2251	25
+2	54	دانستن پیغامبر علیه السلام کی سبب رنجوری آن شخص گستاخی بوده است در دعا	step	urn:sufi:rumi.mathnawi:2.b2252	urn:sufi:rumi.mathnawi:2.b2332	2252	2332	83
+2	55	عذر گفتن دلقک با سید اجل کی چرا  فاحشه را نکاح کرد	step	urn:sufi:rumi.mathnawi:2.b2333	urn:sufi:rumi.mathnawi:2.b2337	2333	2337	5
+2	56	به حیلت در سخن آوردن سایل آن بزرگ را کی خود را دیوانه ساخته بود	step	urn:sufi:rumi.mathnawi:2.b2338	urn:sufi:rumi.mathnawi:2.b2353	2338	2353	16
+2	57	حمله بردن سگ بر کور گدا	step	urn:sufi:rumi.mathnawi:2.b2354	urn:sufi:rumi.mathnawi:2.b2386	2354	2386	33
+2	58	خواندن محتسب مست خراب افتاده را به زندان	step	urn:sufi:rumi.mathnawi:2.b2387	urn:sufi:rumi.mathnawi:2.b2399	2387	2399	13
+2	59	دوم بار در سخن کشیدن سایل آن بزرگ را تا حال او معلوم‌تر گردد	step	urn:sufi:rumi.mathnawi:2.b2400	urn:sufi:rumi.mathnawi:2.b2455	2400	2455	56
+2	60	تتمهٔ نصیحت رسول علیه السلام بیمار را	return	urn:sufi:rumi.mathnawi:2.b2456	urn:sufi:rumi.mathnawi:2.b2550	2456	2550	96
+2	61	وصیت کردن پیغامبر علیه السلام مر آن بیمار را و دعا آموزانیدنش	step	urn:sufi:rumi.mathnawi:2.b2551	urn:sufi:rumi.mathnawi:2.b2603	2551	2603	54
+2	62	بیدار کردن ابلیس معاویه را  کی خیز وقت نمازست	step	urn:sufi:rumi.mathnawi:2.b2604	urn:sufi:rumi.mathnawi:2.b2611	2604	2611	8
+2	63	از خر افکندن ابلیس معاویه را و روپوش و بهانه کردن و جواب گفتن معاویه او را	step	urn:sufi:rumi.mathnawi:2.b2612	urn:sufi:rumi.mathnawi:2.b2616	2612	2616	5
+2	64	باز جواب گفتن ابلیس معاویه را	step	urn:sufi:rumi.mathnawi:2.b2617	urn:sufi:rumi.mathnawi:2.b2651	2617	2651	35
+2	65	باز تقریر کردن معاویه با ابلیس مکر او را	step	urn:sufi:rumi.mathnawi:2.b2652	urn:sufi:rumi.mathnawi:2.b2671	2652	2671	20
+2	66	باز جواب گفتن ابلیس معاویه را	step	urn:sufi:rumi.mathnawi:2.b2672	urn:sufi:rumi.mathnawi:2.b2699	2672	2699	29
+2	67	عنف کردن معاویه با ابلیس	step	urn:sufi:rumi.mathnawi:2.b2700	urn:sufi:rumi.mathnawi:2.b2705	2700	2705	6
+2	68	نالیدن معاویه به حضرت حق تعالی از ابلیس و نصرت خواستن	step	urn:sufi:rumi.mathnawi:2.b2706	urn:sufi:rumi.mathnawi:2.b2713	2706	2713	8
+2	69	باز تقریر ابلیس تلبیس خود را	step	urn:sufi:rumi.mathnawi:2.b2714	urn:sufi:rumi.mathnawi:2.b2729	2714	2729	16
+2	70	باز الحاح کردن معاویه ابلیس را	step	urn:sufi:rumi.mathnawi:2.b2730	urn:sufi:rumi.mathnawi:2.b2743	2730	2743	14
+2	71	شکایت قاضی از آفت قضا و جواب گفتن نایب او را	step	urn:sufi:rumi.mathnawi:2.b2744	urn:sufi:rumi.mathnawi:2.b2755	2744	2755	12
+2	72	به اقرار آوردن معاویه ابلیس را	step	urn:sufi:rumi.mathnawi:2.b2756	urn:sufi:rumi.mathnawi:2.b2764	2756	2764	9
+2	73	راست گفتن ابلیس ضمیر خود را به معاویه	step	urn:sufi:rumi.mathnawi:2.b2765	urn:sufi:rumi.mathnawi:2.b2770	2765	2770	6
+2	74	فضیلت حسرت خوردن آن مخلص بر فوت نماز  جماعت	step	urn:sufi:rumi.mathnawi:2.b2771	urn:sufi:rumi.mathnawi:2.b2779	2771	2779	9
+2	75	تتمهٔ اقرار ابلیس به معاویه مکر خود را	return	urn:sufi:rumi.mathnawi:2.b2780	urn:sufi:rumi.mathnawi:2.b2792	2780	2792	13
+2	76	فوت شدن دزد به آواز دادن آن شخص صاحب‌خانه را که نزدیک آمده بود که دزد را دریابد و بگیرد	step	urn:sufi:rumi.mathnawi:2.b2793	urn:sufi:rumi.mathnawi:2.b2824	2793	2824	32
+2	77	قصهٔ منافقان و مسجد ضرار ساختن ایشان	tale	urn:sufi:rumi.mathnawi:2.b2825	urn:sufi:rumi.mathnawi:2.b2847	2825	2847	23
+2	78	فریفتن منافقان پیغامبر را علیه السلام تا به مسجد ضرارش برند	step	urn:sufi:rumi.mathnawi:2.b2848	urn:sufi:rumi.mathnawi:2.b2887	2848	2887	40
+2	79	اندیشیدن یکی از صحابه بانکار کی رسول چرا ستاری نمی‌کند	step	urn:sufi:rumi.mathnawi:2.b2888	urn:sufi:rumi.mathnawi:2.b2910	2888	2910	23
+2	80	قصهٔ آن شخص کی اشتر ضالهٔ خود می‌جست و می‌پرسید	tale	urn:sufi:rumi.mathnawi:2.b2911	urn:sufi:rumi.mathnawi:2.b2922	2911	2922	12
+2	81	متردد شدن در میان مذهبهای مخالف و بیرون‌شو و مخلص یافتن	step	urn:sufi:rumi.mathnawi:2.b2923	urn:sufi:rumi.mathnawi:2.b2946	2923	2946	24
+2	82	امتحان هر چیزی تا ظاهر شود خیر و شری کی در ویست	step	urn:sufi:rumi.mathnawi:2.b2947	urn:sufi:rumi.mathnawi:2.b2972	2947	2972	26
+2	83	شرح فایدهٔ حکایت آن شخص شتر جوینده	exposition	urn:sufi:rumi.mathnawi:2.b2973	urn:sufi:rumi.mathnawi:2.b3015	2973	3015	43
+2	84	بیان آنک در هر نفسی فتنهٔ مسجد ضرار هست	exposition	urn:sufi:rumi.mathnawi:2.b3016	urn:sufi:rumi.mathnawi:2.b3026	3016	3026	11
+2	85	حکایت هندو کی با یار خود جنگ می‌کرد بر کاری و خبر نداشت کی او هم بدان مبتلاست	tale	urn:sufi:rumi.mathnawi:2.b3027	urn:sufi:rumi.mathnawi:2.b3045	3027	3045	19
+2	86	قصد کردن غزان بکشتن یک مردی تا آن دگر بترسد	step	urn:sufi:rumi.mathnawi:2.b3046	urn:sufi:rumi.mathnawi:2.b3058	3046	3058	13
+2	87	بیان حال خودپرستان و ناشکران در نعمت وجود انبیا و اولیا علیهم السلام	exposition	urn:sufi:rumi.mathnawi:2.b3059	urn:sufi:rumi.mathnawi:2.b3087	3059	3087	29
+2	88	شکایت گفتن پیرمردی به طبیب از رنجوریها و جواب گفتن طبیب او را	step	urn:sufi:rumi.mathnawi:2.b3088	urn:sufi:rumi.mathnawi:2.b3115	3088	3115	28
+2	89	قصهٔ جوحی و آن کودک کی پیش جنازهٔ پدر خویش نوحه می‌کرد	tale	urn:sufi:rumi.mathnawi:2.b3116	urn:sufi:rumi.mathnawi:2.b3154	3116	3154	39
+2	90	ترسیدن کودک از آن شخص صاحب جثه و گفتن آن شخص کی ای کودک مترس کی من نامردم	step	urn:sufi:rumi.mathnawi:2.b3155	urn:sufi:rumi.mathnawi:2.b3162	3155	3162	8
+2	91	قصهٔ تیراندازی و ترسیدن او از سواری کی در بیشه می‌رفت	tale	urn:sufi:rumi.mathnawi:2.b3163	urn:sufi:rumi.mathnawi:2.b3175	3163	3175	13
+2	92	قصهٔ اعرابی و ریگ در جوال کردن و ملامت کردن آن فیلسوف او را	tale	urn:sufi:rumi.mathnawi:2.b3176	urn:sufi:rumi.mathnawi:2.b3209	3176	3209	34
+2	93	کرامات ابراهیم ادهم قدس الله سره بر لب دریا	step	urn:sufi:rumi.mathnawi:2.b3210	urn:sufi:rumi.mathnawi:2.b3239	3210	3239	30
+2	94	آغاز منور شدن عارف بنور غیب‌بین	step	urn:sufi:rumi.mathnawi:2.b3240	urn:sufi:rumi.mathnawi:2.b3302	3240	3302	63
+2	95	طعن زدن بیگانه در شیخ و جواب گفتن مرید شیخ او را	step	urn:sufi:rumi.mathnawi:2.b3303	urn:sufi:rumi.mathnawi:2.b3335	3303	3335	37
+2	96	بقیهٔ قصهٔ ابراهیم ادهم بر لب آن دریا	return	urn:sufi:rumi.mathnawi:2.b3336	urn:sufi:rumi.mathnawi:2.b3363	3336	3363	28
+2	97	دعوی کردن آن شخص کی خدای تعالی مرا نمی‌گیرد به گناه و جواب گفتن شعیب علیه السلام مرورا	step	urn:sufi:rumi.mathnawi:2.b3364	urn:sufi:rumi.mathnawi:2.b3397	3364	3397	34
+2	98	بقیهٔ قصهٔ طعنه زدن آن مرد بیگانه در شیخ	return	urn:sufi:rumi.mathnawi:2.b3398	urn:sufi:rumi.mathnawi:2.b3423	3398	3423	26
+2	99	گفتن عایشه رضی‌الله عنها مصطفی را علیه‌السلام کی تو بی مصلی به هر جا نماز می‌کنی، چونست؟	step	urn:sufi:rumi.mathnawi:2.b3424	urn:sufi:rumi.mathnawi:2.b3435	3424	3435	12
+2	100	کشیدن موش مهار شتر را و معجب  شدن موش در خود	step	urn:sufi:rumi.mathnawi:2.b3436	urn:sufi:rumi.mathnawi:2.b3477	3436	3477	42
+2	101	کرامات آن درویش کی در کشتی متهمش کردند	step	urn:sufi:rumi.mathnawi:2.b3478	urn:sufi:rumi.mathnawi:2.b3505	3478	3505	28
+2	102	تشنیع صوفیان بر آن صوفی کی پیش شیخ بسیار می‌گوید	step	urn:sufi:rumi.mathnawi:2.b3506	urn:sufi:rumi.mathnawi:2.b3525	3506	3525	20
+2	103	عذر گفتن فقیر به شیخ	step	urn:sufi:rumi.mathnawi:2.b3526	urn:sufi:rumi.mathnawi:2.b3572	3526	3572	47
+2	104	بیان دعویی که عین آن دعوی گواه  صدق خویش است	exposition	urn:sufi:rumi.mathnawi:2.b3573	urn:sufi:rumi.mathnawi:2.b3601	3573	3601	29
+2	105	سجده کردن یحیی علیه السلام در شکم  مادر مسیح را علیه السلام	step	urn:sufi:rumi.mathnawi:2.b3602	urn:sufi:rumi.mathnawi:2.b3606	3602	3606	5
+2	106	اشکال آوردن برین قصه	step	urn:sufi:rumi.mathnawi:2.b3607	urn:sufi:rumi.mathnawi:2.b3611	3607	3611	5
+2	107	جواب اشکال	step	urn:sufi:rumi.mathnawi:2.b3612	urn:sufi:rumi.mathnawi:2.b3624	3612	3624	13
+2	108	سخن گفتن به زبان حال و فهم کردن آن	step	urn:sufi:rumi.mathnawi:2.b3625	urn:sufi:rumi.mathnawi:2.b3635	3625	3635	11
+2	109	پذیرا آمدن سخن باطل در دل باطلان	step	urn:sufi:rumi.mathnawi:2.b3636	urn:sufi:rumi.mathnawi:2.b3640	3636	3640	5
+2	110	جستن آن درخت کی هر که میوهٔ  آن درخت خورد نمیرد	step	urn:sufi:rumi.mathnawi:2.b3641	urn:sufi:rumi.mathnawi:2.b3658	3641	3658	18
+2	111	شرح کردن شیخ سِرّ آن درخت با آن طالب مقلد	exposition	urn:sufi:rumi.mathnawi:2.b3659	urn:sufi:rumi.mathnawi:2.b3680	3659	3680	22
+2	112	منازعت چهار کس جهت انگور کی هر یکی به نام دیگر فهم کرده بود آن را	step	urn:sufi:rumi.mathnawi:2.b3681	urn:sufi:rumi.mathnawi:2.b3712	3681	3712	32
+2	113	برخاستن مخالفت و عداوت از میان انصار  به برکات رسول علیه السلام	step	urn:sufi:rumi.mathnawi:2.b3713	urn:sufi:rumi.mathnawi:2.b3765	3713	3765	53
+2	114	قصهٔ بط بچگان کی مرغ خانگی پروردشان	tale	urn:sufi:rumi.mathnawi:2.b3766	urn:sufi:rumi.mathnawi:2.b3787	3766	3787	22
+2	115	حیران شدن حاجیان در کرامات آن زاهد  کی در بادیه تنهاش یافتند	step	urn:sufi:rumi.mathnawi:2.b3788	urn:sufi:rumi.mathnawi:2.b3810	3788	3810	23
+3	1	سر آغاز	step	urn:sufi:rumi.mathnawi:3.b0001	urn:sufi:rumi.mathnawi:3.b0068	1	68	68
+3	2	قصهٔ خورندگان پیل‌بچه از حرص و  ترک نصیحت ناصح	tale	urn:sufi:rumi.mathnawi:3.b0069	urn:sufi:rumi.mathnawi:3.b0104	69	104	36
+3	3	بقیهٔ قصهٔ متعرضان پیل‌بچگان	return	urn:sufi:rumi.mathnawi:3.b0105	urn:sufi:rumi.mathnawi:3.b0137	105	137	33
+3	4	بازگشتن به حکایت پیل	return	urn:sufi:rumi.mathnawi:3.b0138	urn:sufi:rumi.mathnawi:3.b0171	138	171	34
+3	5	بیان آنک خطای محبان بهترست از  صواب بیگانگان بر محبوب	exposition	urn:sufi:rumi.mathnawi:3.b0172	urn:sufi:rumi.mathnawi:3.b0179	172	179	8
+3	6	امر حق به موسی علیه السّلام که مرا به دهانی خوان کی بدان دهان گناه نکرده‌ای	step	urn:sufi:rumi.mathnawi:3.b0180	urn:sufi:rumi.mathnawi:3.b0188	180	188	9
+3	7	بیان آنک الله گفتن نیازمند عین لبیک گفتن حق است	exposition	urn:sufi:rumi.mathnawi:3.b0189	urn:sufi:rumi.mathnawi:3.b0235	189	235	47
+3	8	فریفتن روستایی شهری را و به دعوت  خواندن، به لابه و الحاح بسیار	step	urn:sufi:rumi.mathnawi:3.b0236	urn:sufi:rumi.mathnawi:3.b0281	236	281	46
+3	9	قصهٔ اهل سبا و طاغی کردن نعمت ایشان را و  در رسیدن شومی طغیان و کفران در ایشان و بیان فضیلت شکر و وفا	tale	urn:sufi:rumi.mathnawi:3.b0282	urn:sufi:rumi.mathnawi:3.b0297	282	297	16
+3	10	جمع آمدن اهل آفت هر صباحی بر در صومعهٔ  عیسی علیه السلام جهت طلب شفا به دعای او	step	urn:sufi:rumi.mathnawi:3.b0298	urn:sufi:rumi.mathnawi:3.b0363	298	363	66
+3	11	باقی قصهٔ اهل سبا	return	urn:sufi:rumi.mathnawi:3.b0364	urn:sufi:rumi.mathnawi:3.b0411	364	411	48
+3	12	بقیهٔ داستان رفتن خواجه به دعوت روستایی سوی ده	return	urn:sufi:rumi.mathnawi:3.b0412	urn:sufi:rumi.mathnawi:3.b0431	412	431	20
+3	13	دعوت باز بطان را از آب به صحرا	step	urn:sufi:rumi.mathnawi:3.b0432	urn:sufi:rumi.mathnawi:3.b0473	432	473	42
+3	14	قصهٔ اهل ضروان و حیلت کردن ایشان تا بی زحمت درویشان باغها را قطاف کنند	tale	urn:sufi:rumi.mathnawi:3.b0474	urn:sufi:rumi.mathnawi:3.b0496	474	496	23
+3	15	روان شدن خواجه به سوی ده	step	urn:sufi:rumi.mathnawi:3.b0497	urn:sufi:rumi.mathnawi:3.b0531	497	531	35
+3	16	رفتن خواجه و قومش به سوی ده	step	urn:sufi:rumi.mathnawi:3.b0532	urn:sufi:rumi.mathnawi:3.b0566	532	566	35
+3	17	نواختن مجنون آن سگ را کی مقیم  کوی لیلی بود	step	urn:sufi:rumi.mathnawi:3.b0567	urn:sufi:rumi.mathnawi:3.b0597	567	597	31
+3	18	رسیدن خواجه و قومش به ده و نادیده و ناشناخته آوردن روستایی ایشان را	step	urn:sufi:rumi.mathnawi:3.b0598	urn:sufi:rumi.mathnawi:3.b0720	598	720	123
+3	19	افتادن شغال در خُم رنگ و رنگین شدن و دعوی طاوسی کردن میان شغالان	step	urn:sufi:rumi.mathnawi:3.b0721	urn:sufi:rumi.mathnawi:3.b0731	721	731	11
+3	20	چرب کردن مرد لافی لب و سبلت خود را هر بامداد به پوست دنبه و بیرون آمدن میان  حریفان کی من چنین خورده‌ام و چنان	step	urn:sufi:rumi.mathnawi:3.b0732	urn:sufi:rumi.mathnawi:3.b0746	732	746	15
+3	21	آمن بودن بلعم باعور کی امتحانها کرد حضرت او را و از آنها روی سپید آمده بود	step	urn:sufi:rumi.mathnawi:3.b0747	urn:sufi:rumi.mathnawi:3.b0765	747	765	19
+3	22	دعوی طاوسی کردن آن شغال کی در  خم صباغ افتاده بود	step	urn:sufi:rumi.mathnawi:3.b0766	urn:sufi:rumi.mathnawi:3.b0777	766	777	12
+3	23	تشبیه فرعون و دعوی الوهیت او بدان  شغال کی دعوی طاوسی می‌کرد	step	urn:sufi:rumi.mathnawi:3.b0778	urn:sufi:rumi.mathnawi:3.b0789	778	789	12
+3	24	تفسیر وَ لَتَعْرِفَنَّهُم في لَحْنِ القَوْلِ	exposition	urn:sufi:rumi.mathnawi:3.b0790	urn:sufi:rumi.mathnawi:3.b0796	790	796	7
+3	25	قصهٔ هاروت و ماروت و دلیری  ایشان بر امتحانات حق تعالی	tale	urn:sufi:rumi.mathnawi:3.b0797	urn:sufi:rumi.mathnawi:3.b0839	797	839	43
+3	26	قصهٔ خواب دیدن فرعون آمدن موسی را  علیه السلام و تدارک اندیشیدن	tale	urn:sufi:rumi.mathnawi:3.b0840	urn:sufi:rumi.mathnawi:3.b0854	840	854	15
+3	27	به میدان خواندن بنی اسرائیل برای  حیلهٔ ولادت موسی علیه السلام	step	urn:sufi:rumi.mathnawi:3.b0855	urn:sufi:rumi.mathnawi:3.b0857	855	857	3
+3	28	حکایت	tale	urn:sufi:rumi.mathnawi:3.b0858	urn:sufi:rumi.mathnawi:3.b0871	858	871	14
+3	29	بازگشتن فرعون از میدان به شهر شاد بتفریق  بنی اسرائیل از زنانشان در شب حمل	return	urn:sufi:rumi.mathnawi:3.b0872	urn:sufi:rumi.mathnawi:3.b0877	872	877	6
+3	30	جمع آمدن عمران به مادر موسی و حامله شدن مادر موسی علیه‌السلام	step	urn:sufi:rumi.mathnawi:3.b0878	urn:sufi:rumi.mathnawi:3.b0887	878	887	10
+3	31	وصیت کردن عمران جفت خود را بعد  از مجامعت کی مرا ندیده باشی	step	urn:sufi:rumi.mathnawi:3.b0888	urn:sufi:rumi.mathnawi:3.b0895	888	895	8
+3	32	ترسیدن فرعون از آن بانگ	step	urn:sufi:rumi.mathnawi:3.b0896	urn:sufi:rumi.mathnawi:3.b0901	896	901	6
+3	33	پیدا شدن استارهٔ موسی علیه السلام بر  آسمان و غریو منجمان در میدان	step	urn:sufi:rumi.mathnawi:3.b0902	urn:sufi:rumi.mathnawi:3.b0937	902	937	36
+3	34	خواندن فرعون زنان نوزاده را  سوی میدان هم جهت مکر	step	urn:sufi:rumi.mathnawi:3.b0938	urn:sufi:rumi.mathnawi:3.b0947	938	947	10
+3	35	بوجود آمدن موسی و آمدن عوانان به خانهٔ  عمران و وحی آمدن به مادر موسی کی موسی را در آتش انداز	step	urn:sufi:rumi.mathnawi:3.b0948	urn:sufi:rumi.mathnawi:3.b0958	948	958	11
+3	36	وحی آمدن به مادر موسی کی موسی را در آب افکن	step	urn:sufi:rumi.mathnawi:3.b0959	urn:sufi:rumi.mathnawi:3.b0975	959	975	17
+3	37	حکایت مارگیر کی اژدهای فسرده را مرده پنداشت در ریسمانهاش پیچید و  آورد به بغداد	tale	urn:sufi:rumi.mathnawi:3.b0976	urn:sufi:rumi.mathnawi:3.b1066	976	1066	91
+3	38	تهدید کردن فرعون موسی را علیه السلام	step	urn:sufi:rumi.mathnawi:3.b1067	urn:sufi:rumi.mathnawi:3.b1075	1067	1075	9
+3	39	جواب موسی فرعون را در تهدیدی کی می‌کردش	step	urn:sufi:rumi.mathnawi:3.b1076	urn:sufi:rumi.mathnawi:3.b1081	1076	1081	6
+3	40	پاسخ فرعون موسی را علیه السلام	step	urn:sufi:rumi.mathnawi:3.b1082	urn:sufi:rumi.mathnawi:3.b1086	1082	1086	5
+3	41	جواب موسی فرعون را	step	urn:sufi:rumi.mathnawi:3.b1087	urn:sufi:rumi.mathnawi:3.b1090	1087	1090	4
+3	42	جواب فرعون موسی را و وحی  آمدن موسی را علیه‌السلام	step	urn:sufi:rumi.mathnawi:3.b1091	urn:sufi:rumi.mathnawi:3.b1098	1091	1098	8
+3	43	مهلت دادن موسی علیه‌السلام فرعون را  تا ساحران را جمع کند از مداین	step	urn:sufi:rumi.mathnawi:3.b1099	urn:sufi:rumi.mathnawi:3.b1156	1099	1156	58
+3	44	فرستادن فرعون به مداین در طلب ساحران	step	urn:sufi:rumi.mathnawi:3.b1157	urn:sufi:rumi.mathnawi:3.b1173	1157	1173	17
+3	45	خواندن آن دو ساحر پدر را از گور و پرسیدن از روان پدر حقیقت موسی علیه السلام	step	urn:sufi:rumi.mathnawi:3.b1174	urn:sufi:rumi.mathnawi:3.b1182	1174	1182	9
+3	46	جواب گفتن ساحر مرده با فرزندان خود	step	urn:sufi:rumi.mathnawi:3.b1183	urn:sufi:rumi.mathnawi:3.b1196	1183	1196	14
+3	47	تشبیه کردن قرآن مجید را به عصای موسی و وفات مصطفی را علیه السلام نمودن بخواب موسی و قاصدان تغییر قرآن را با آن دو ساحر بچه کی قصد بردن عصا کردند چو موسی  را خفته یافتند	step	urn:sufi:rumi.mathnawi:3.b1197	urn:sufi:rumi.mathnawi:3.b1244	1197	1244	48
+3	48	جمع آمدن ساحران از مداین پیش فرعون و تشریفها یافتن و دست بر سینه زدن در قهر  خصم او کی این بر ما نویس	step	urn:sufi:rumi.mathnawi:3.b1245	urn:sufi:rumi.mathnawi:3.b1258	1245	1258	14
+3	49	اختلاف کردن در چگونگی و شکل پیل	step	urn:sufi:rumi.mathnawi:3.b1259	urn:sufi:rumi.mathnawi:3.b1361	1259	1361	103
+3	50	توفیق میان این دو حدیث کی الرضا بالکفر کفر و حدیث دیگر من لم یرض بقضایی  فلیطلب ربا سوای	step	urn:sufi:rumi.mathnawi:3.b1362	urn:sufi:rumi.mathnawi:3.b1375	1362	1375	14
+3	51	مثل در بیان آنک حیرت مانع بحث و فکرتست	tale	urn:sufi:rumi.mathnawi:3.b1376	urn:sufi:rumi.mathnawi:3.b1385	1376	1385	10
+3	52	حکایت	tale	urn:sufi:rumi.mathnawi:3.b1386	urn:sufi:rumi.mathnawi:3.b1405	1386	1405	20
+3	53	داستان مشغول شدن عاشقی به عشق‌نامه خواندن  و مطالعه کردن عشق‌نامه در حضور معشوق خویش و معشوق آن را ناپسند داشتن کی طلب الدلیل عند حضور المدلول  قبیح والاشتغال بالعلم بعد الوصول الی المعلوم مذموم	tale	urn:sufi:rumi.mathnawi:3.b1406	urn:sufi:rumi.mathnawi:3.b1449	1406	1449	44
+3	54	حکایت آن شخص کی در عهد داود شب و روز دعا می‌کرد کی مرا روزی حلال ده بی رنج	tale	urn:sufi:rumi.mathnawi:3.b1450	urn:sufi:rumi.mathnawi:3.b1484	1450	1484	35
+3	55	دویدن گاو در خانهٔ آن دعا کننده بالحاح قال النبی صلی الله علیه وسلم ان الله یحب الملحین فی الدعا زیرا عین خواست از حق تعالی و الحاح خواهنده را به است از آنچ  می‌خواهد آن را ازو	step	urn:sufi:rumi.mathnawi:3.b1485	urn:sufi:rumi.mathnawi:3.b1489	1485	1489	5
+3	56	عذر گفتن نظم کننده و مدد خواستن	step	urn:sufi:rumi.mathnawi:3.b1490	urn:sufi:rumi.mathnawi:3.b1509	1490	1509	20
+3	57	بیان آنک علم را دو پرست و گمان را یک پرست ناقص آمد ظن به پرواز  ابترست مثال ظن و یقین در علم	exposition	urn:sufi:rumi.mathnawi:3.b1510	urn:sufi:rumi.mathnawi:3.b1521	1510	1521	12
+3	58	مثال رنجور شدن آدمی به‌وَهم تعظیم خلق  و رغبت مشتریان به‌وی و حکایت معلم	tale	urn:sufi:rumi.mathnawi:3.b1522	urn:sufi:rumi.mathnawi:3.b1538	1522	1538	17
+3	59	عقول خلق متفاوتست در اصل فطرت و نزد  معتزله متساویست تفاوت عقول از تحصیل  علم است	step	urn:sufi:rumi.mathnawi:3.b1539	urn:sufi:rumi.mathnawi:3.b1545	1539	1545	7
+3	60	در وهم افکندن کودکان اوستاد را	step	urn:sufi:rumi.mathnawi:3.b1546	urn:sufi:rumi.mathnawi:3.b1554	1546	1554	9
+3	61	بیمار شدن فرعون هم به وهم از تعظیم خلقان	step	urn:sufi:rumi.mathnawi:3.b1555	urn:sufi:rumi.mathnawi:3.b1561	1555	1561	7
+3	62	رنجور شدن اوستاد به وهم	step	urn:sufi:rumi.mathnawi:3.b1562	urn:sufi:rumi.mathnawi:3.b1576	1562	1576	15
+3	63	در جامهٔ خواب افتادن استاد و نالیدن او  از وهم رنجوری	step	urn:sufi:rumi.mathnawi:3.b1577	urn:sufi:rumi.mathnawi:3.b1585	1577	1585	9
+3	64	دوم بار وهم افکندن کودکان استاد را کی او را از قرآن خواندن ما درد سر افزاید	step	urn:sufi:rumi.mathnawi:3.b1586	urn:sufi:rumi.mathnawi:3.b1589	1586	1589	4
+3	65	خلاص یافتن کودکان از مکتب بدین مکر	step	urn:sufi:rumi.mathnawi:3.b1590	urn:sufi:rumi.mathnawi:3.b1597	1590	1597	8
+3	66	رفتن مادران کودکان به عیادت اوستاد	step	urn:sufi:rumi.mathnawi:3.b1598	urn:sufi:rumi.mathnawi:3.b1609	1598	1609	12
+3	67	در بیان آنک تن روح را چون لباسی است و این دست آستین دست روحست واین پای  موزهٔ پای روحست	exposition	urn:sufi:rumi.mathnawi:3.b1610	urn:sufi:rumi.mathnawi:3.b1613	1610	1613	4
+3	68	حکایت آن درویش کی در کوه خلوت کرده بود و بیان حلاوت انقطاع و خلوت و داخل شدن درین منقبت کی أَنا جَلیسُ مَنْ ذَکَرَني وَ أَنیسُ مَنِ اسْتَأنَسَ بي گر با همه‌ای چو بی منی بی همه‌ای ور بی همه‌ای چو با منی با همه‌ای	tale	urn:sufi:rumi.mathnawi:3.b1614	urn:sufi:rumi.mathnawi:3.b1623	1614	1623	10
+3	69	دیدن زرگر عاقبت کار را و سخن بر وفق عاقبت گفتن با مستعیر ترازو	step	urn:sufi:rumi.mathnawi:3.b1624	urn:sufi:rumi.mathnawi:3.b1633	1624	1633	10
+3	70	بقیهٔ قصهٔ آن زاهد کوهی کی نذر کرده بود کی میوهٔ کوهی از درخت باز نکنم و درخت نفشانم و کسی را نگویم صریح و کنایت کی بیفشان آن خورم کی باد افکنده باشد  از درخت	return	urn:sufi:rumi.mathnawi:3.b1634	urn:sufi:rumi.mathnawi:3.b1649	1634	1649	16
+3	71	تشبیه بند و دام قضا به صورت  پنهان به اثر پیدا	step	urn:sufi:rumi.mathnawi:3.b1650	urn:sufi:rumi.mathnawi:3.b1671	1650	1671	22
+3	72	مضطرب شدن فقیر نذر کرده به‌کندن امرود از درخت و گوشمال حق رسیدن بی مهلت	step	urn:sufi:rumi.mathnawi:3.b1672	urn:sufi:rumi.mathnawi:3.b1677	1672	1677	6
+3	73	متهم کردن آن شیخ را با دزدان وبریدن دستش را	step	urn:sufi:rumi.mathnawi:3.b1678	urn:sufi:rumi.mathnawi:3.b1704	1678	1704	27
+3	74	کرامات شیخ اقطع و زنبیل بافتن او به دو دست	step	urn:sufi:rumi.mathnawi:3.b1705	urn:sufi:rumi.mathnawi:3.b1720	1705	1720	16
+3	75	سبب جرأت ساحران فرعون بر قطع دست و پا	exposition	urn:sufi:rumi.mathnawi:3.b1721	urn:sufi:rumi.mathnawi:3.b1745	1721	1745	25
+3	76	حکایت استر پیش شتر کی من بسیار در رو می‌افتم و تو نمی‌افتی الا به نادر	tale	urn:sufi:rumi.mathnawi:3.b1746	urn:sufi:rumi.mathnawi:3.b1762	1746	1762	17
+3	77	اجتماع اجزای خر عزیر علیه السلام بعد از پوسیدن باذن الله و درهم مرکب شدن پیش چشم عزیر علیه السلام	step	urn:sufi:rumi.mathnawi:3.b1763	urn:sufi:rumi.mathnawi:3.b1771	1763	1771	9
+3	78	جزع ناکردن شیخی بر مرگ فرزندان خود	step	urn:sufi:rumi.mathnawi:3.b1772	urn:sufi:rumi.mathnawi:3.b1798	1772	1798	27
+3	79	عذر گفتن شیخ بهر ناگریستن بر فرزندان	step	urn:sufi:rumi.mathnawi:3.b1799	urn:sufi:rumi.mathnawi:3.b1834	1799	1834	36
+3	80	قصهٔ خواندن شیخ ضریر مصحف را در رو و بینا شدن وقت قرائت	tale	urn:sufi:rumi.mathnawi:3.b1835	urn:sufi:rumi.mathnawi:3.b1841	1835	1841	7
+3	81	صبرکردن لقمان چون دید کی داود حلقه‌ها می‌ساخت از سوال کردن با این نیت کی صبر از سوال موجب فرج باشد	step	urn:sufi:rumi.mathnawi:3.b1842	urn:sufi:rumi.mathnawi:3.b1854	1842	1854	13
+3	82	بقیهٔ حکایت نابینا و مصحف	return	urn:sufi:rumi.mathnawi:3.b1855	urn:sufi:rumi.mathnawi:3.b1877	1855	1877	23
+3	83	صفت بعضی اولیا کی راضی‌اند به‌احکام و لابه نکنند کی این حکم را بگردان	exposition	urn:sufi:rumi.mathnawi:3.b1878	urn:sufi:rumi.mathnawi:3.b1883	1878	1883	6
+3	84	سؤال کردن بهلول آن درویش را	step	urn:sufi:rumi.mathnawi:3.b1884	urn:sufi:rumi.mathnawi:3.b1923	1884	1923	40
+3	85	قصهٔ دقوقی رحمة الله علیه و کراماتش	tale	urn:sufi:rumi.mathnawi:3.b1924	urn:sufi:rumi.mathnawi:3.b1940	1924	1940	17
+3	86	بازگشتن به قصهٔ دقوقی	return	urn:sufi:rumi.mathnawi:3.b1941	urn:sufi:rumi.mathnawi:3.b1961	1941	1961	21
+3	87	سِرِّ طلب کردن موسی خضر را علیهماالسلام با کمال نبوت و قربت	step	urn:sufi:rumi.mathnawi:3.b1962	urn:sufi:rumi.mathnawi:3.b1972	1962	1972	11
+3	88	بازگشتن به قصهٔ دقوقی	return	urn:sufi:rumi.mathnawi:3.b1973	urn:sufi:rumi.mathnawi:3.b1984	1973	1984	12
+3	89	نمودن مثال هفت شمع سوی ساحل	step	urn:sufi:rumi.mathnawi:3.b1985	urn:sufi:rumi.mathnawi:3.b1990	1985	1990	6
+3	90	شدن آن هفت شمع بر مثال یک شمع	step	urn:sufi:rumi.mathnawi:3.b1991	urn:sufi:rumi.mathnawi:3.b2000	1991	2000	10
+3	91	نمودن آن شمعها در نظر هفت مرد	step	urn:sufi:rumi.mathnawi:3.b2001	urn:sufi:rumi.mathnawi:3.b2002	2001	2002	2
+3	92	باز شدن آن شمعها هفت درخت	step	urn:sufi:rumi.mathnawi:3.b2003	urn:sufi:rumi.mathnawi:3.b2008	2003	2008	6
+3	93	مخفی بودن آن درختان از چشم خلق	step	urn:sufi:rumi.mathnawi:3.b2009	urn:sufi:rumi.mathnawi:3.b2045	2009	2045	37
+3	94	یک درخت شدن آن هفت درخت	step	urn:sufi:rumi.mathnawi:3.b2046	urn:sufi:rumi.mathnawi:3.b2053	2046	2053	8
+3	95	هفت مرد شدن آن هفت درخت	step	urn:sufi:rumi.mathnawi:3.b2054	urn:sufi:rumi.mathnawi:3.b2083	2054	2083	30
+3	96	پیش رفتن دقوقی رحمة الله علیه به امامت	step	urn:sufi:rumi.mathnawi:3.b2084	urn:sufi:rumi.mathnawi:3.b2121	2084	2121	38
+3	97	پیش رفتن دقوقی به امامت آن قوم	step	urn:sufi:rumi.mathnawi:3.b2122	urn:sufi:rumi.mathnawi:3.b2139	2122	2139	18
+3	98	اقتدا کردن قوم از پس دقوقی	step	urn:sufi:rumi.mathnawi:3.b2140	urn:sufi:rumi.mathnawi:3.b2166	2140	2166	27
+3	99	بیان اشارت سلام سوی دست راست در قیامت از هیبت محاسبه حق از انبیا استعانت  و شفاعت خواستن	exposition	urn:sufi:rumi.mathnawi:3.b2167	urn:sufi:rumi.mathnawi:3.b2175	2167	2175	9
+3	100	شنیدن دقوقی در میان نماز افغان  آن کشتی کی غرق خواست شدن	step	urn:sufi:rumi.mathnawi:3.b2176	urn:sufi:rumi.mathnawi:3.b2201	2176	2201	26
+3	101	تصورات مرد حازم	step	urn:sufi:rumi.mathnawi:3.b2202	urn:sufi:rumi.mathnawi:3.b2207	2202	2207	6
+3	102	دعا و شفاعت دقوقی در خلاص کشتی	step	urn:sufi:rumi.mathnawi:3.b2208	urn:sufi:rumi.mathnawi:3.b2280	2208	2280	73
+3	103	انکار کردن آن جماعت بر دعا و شفاعت دقوقی و پریدن ایشان و ناپیدا شدن در پردهٔ غیب و حیران شدن دقوقی کی در هوا رفتند یا در زمین	step	urn:sufi:rumi.mathnawi:3.b2281	urn:sufi:rumi.mathnawi:3.b2305	2281	2305	25
+3	104	باز شرح کردن حکایت آن طالب روزی حلال بی کسب و رنج در عهد داود علیه السلام  و مستجاب شدن دعای او	step	urn:sufi:rumi.mathnawi:3.b2306	urn:sufi:rumi.mathnawi:3.b2314	2306	2314	9
+3	105	رفتن هر دو خصم نزد داود علیه السلام	step	urn:sufi:rumi.mathnawi:3.b2315	urn:sufi:rumi.mathnawi:3.b2375	2315	2375	61
+3	106	شنیدن داود علیه السلام سخن هر دو خصم وسال کردن از مدعی علیه	step	urn:sufi:rumi.mathnawi:3.b2376	urn:sufi:rumi.mathnawi:3.b2388	2376	2388	13
+3	107	حکم کردن داود علیه السلام برکشندهٔ گاو	step	urn:sufi:rumi.mathnawi:3.b2389	urn:sufi:rumi.mathnawi:3.b2395	2389	2395	7
+3	108	تضرع آن شخص از داوری داود علیه السلام	step	urn:sufi:rumi.mathnawi:3.b2396	urn:sufi:rumi.mathnawi:3.b2414	2396	2414	19
+3	109	در خلوت رفتن داود تا آنچ حقست پیدا شود	step	urn:sufi:rumi.mathnawi:3.b2415	urn:sufi:rumi.mathnawi:3.b2418	2415	2418	4
+3	110	حکم کردن داود بر صاحب گاو کی از سر گاو برخیز و تشنیع صاحب گاو بر داود علیه السلام	step	urn:sufi:rumi.mathnawi:3.b2419	urn:sufi:rumi.mathnawi:3.b2424	2419	2424	6
+3	111	حکم کردن داود بر صاحب گاو کی جمله مال خود را به وی ده	step	urn:sufi:rumi.mathnawi:3.b2425	urn:sufi:rumi.mathnawi:3.b2441	2425	2441	17
+3	112	عزم کردن داود علیه السلام به خواندن خلق بدان صحرا کی راز آشکارا کند و  حجتها را همه قطع کند	step	urn:sufi:rumi.mathnawi:3.b2442	urn:sufi:rumi.mathnawi:3.b2454	2442	2454	13
+3	113	گواهی دادن دست و پا و زبان بر سر  ظالم هم در دنیا	step	urn:sufi:rumi.mathnawi:3.b2455	urn:sufi:rumi.mathnawi:3.b2471	2455	2471	17
+3	114	برون رفتن به سوی آن درخت	step	urn:sufi:rumi.mathnawi:3.b2472	urn:sufi:rumi.mathnawi:3.b2485	2472	2485	14
+3	115	قصاص فرمودن داود علیه السلام خونی را بعد از الزام حجت برو	step	urn:sufi:rumi.mathnawi:3.b2486	urn:sufi:rumi.mathnawi:3.b2503	2486	2503	18
+3	116	بیان آنک نفس آدمی بجای آن خونیست کی مدعی گاو گشته بود و آن گاو کشنده عقلست و داود حقست یا شیخ  کی نایب حق است کی بقوت و یاری او تواند ظالم را کشتن و توانگر شدن  به روزی بی‌کسب و بی‌حساب	exposition	urn:sufi:rumi.mathnawi:3.b2504	urn:sufi:rumi.mathnawi:3.b2569	2504	2569	66
+3	117	گریختن عیسی علیه السلام فراز کوه از احمقان	step	urn:sufi:rumi.mathnawi:3.b2570	urn:sufi:rumi.mathnawi:3.b2599	2570	2599	30
+3	118	قصهٔ اهل سبا و حماقت ایشان و اثر ناکردن  نصیحت انبیا در احمقان	tale	urn:sufi:rumi.mathnawi:3.b2600	urn:sufi:rumi.mathnawi:3.b2627	2600	2627	28
+3	119	شرح آن کور دوربین و آن کر تیزشنو و  آن برهنه دراز دامن	exposition	urn:sufi:rumi.mathnawi:3.b2628	urn:sufi:rumi.mathnawi:3.b2656	2628	2656	29
+3	120	صفت خرمی شهر اهل سبا و ناشکری ایشان	exposition	urn:sufi:rumi.mathnawi:3.b2657	urn:sufi:rumi.mathnawi:3.b2668	2657	2668	12
+3	121	آمدن پیغامبران حق به نصیحت اهل سبا	step	urn:sufi:rumi.mathnawi:3.b2669	urn:sufi:rumi.mathnawi:3.b2709	2669	2709	41
+3	122	معجزه خواستن قوم از پیغامبران	step	urn:sufi:rumi.mathnawi:3.b2710	urn:sufi:rumi.mathnawi:3.b2732	2710	2732	23
+3	123	متهم داشتن قوم انبیا را	step	urn:sufi:rumi.mathnawi:3.b2733	urn:sufi:rumi.mathnawi:3.b2737	2733	2737	5
+3	124	حکایت خرگوشان کی خرگوشی راپیش پیل  فرستادند کی بگو کی من رسول ماه آسمانم پیش تو کی ازین چشمه آب حذر کن چنانک در کتاب کلیله تمام گفته است	tale	urn:sufi:rumi.mathnawi:3.b2738	urn:sufi:rumi.mathnawi:3.b2753	2738	2753	16
+3	125	جواب گفتن انبیا طعن ایشان را و  مثل زدن ایشان را	step	urn:sufi:rumi.mathnawi:3.b2754	urn:sufi:rumi.mathnawi:3.b2784	2754	2784	31
+3	126	بیان آنک هر کس را نرسد مثل آوردن  خاصه در کار الهی	exposition	urn:sufi:rumi.mathnawi:3.b2785	urn:sufi:rumi.mathnawi:3.b2794	2785	2794	10
+3	127	مثلها زدن قوم نوح باستهزا در زمان کشتی ساختن	step	urn:sufi:rumi.mathnawi:3.b2795	urn:sufi:rumi.mathnawi:3.b2798	2795	2798	4
+3	128	حکایت آن دزد کی پرسیدند چه می‌کنی نیم‌شب در بن این دیوار گفت دهل می‌زنم	tale	urn:sufi:rumi.mathnawi:3.b2799	urn:sufi:rumi.mathnawi:3.b2805	2799	2805	7
+3	129	جواب آن مثل کی منکران گفتند از رسالت خرگوش پیغام به پیل از ماه آسمان	step	urn:sufi:rumi.mathnawi:3.b2806	urn:sufi:rumi.mathnawi:3.b2840	2806	2840	35
+3	130	معنی حزم و مثال مرد حازم	exposition	urn:sufi:rumi.mathnawi:3.b2841	urn:sufi:rumi.mathnawi:3.b2861	2841	2861	21
+3	131	وخامت کار آن مرغ کی ترک حزم کرد از حرص و هوا	step	urn:sufi:rumi.mathnawi:3.b2862	urn:sufi:rumi.mathnawi:3.b2884	2862	2884	23
+3	132	حکایت نذر کردن سگان هر زمستان کی این تابستان چون بیاید خانه سازیم از بهر زمستان را	tale	urn:sufi:rumi.mathnawi:3.b2885	urn:sufi:rumi.mathnawi:3.b2899	2885	2899	15
+3	133	منع کردن انبیا را از نصیحت کردن و  حجت آوردن جبریانه	step	urn:sufi:rumi.mathnawi:3.b2900	urn:sufi:rumi.mathnawi:3.b2908	2900	2908	9
+3	134	جواب انبیا علیهم السلام مر جبریان را	step	urn:sufi:rumi.mathnawi:3.b2909	urn:sufi:rumi.mathnawi:3.b2916	2909	2916	8
+3	135	مکرر کردن کافران حجتهای جبریانه را	return	urn:sufi:rumi.mathnawi:3.b2917	urn:sufi:rumi.mathnawi:3.b2921	2917	2921	5
+3	136	باز جواب انبیا علیهم السلام ایشان را	step	urn:sufi:rumi.mathnawi:3.b2922	urn:sufi:rumi.mathnawi:3.b2947	2922	2947	26
+3	137	مکرر کردن قوم اعتراض ترجیه بر انبیا علیهم‌السلام	return	urn:sufi:rumi.mathnawi:3.b2948	urn:sufi:rumi.mathnawi:3.b2954	2948	2954	7
+3	138	باز جواب انبیا علیهم السلام	step	urn:sufi:rumi.mathnawi:3.b2955	urn:sufi:rumi.mathnawi:3.b2982	2955	2982	28
+3	139	حکمت آفریدن دوزخ آن جهان و زندان این جهان تا معبد متکبّران باشد کی ائتیا طوعا او کرها	exposition	urn:sufi:rumi.mathnawi:3.b2983	urn:sufi:rumi.mathnawi:3.b2997	2983	2997	15
+3	140	بیان آنک حق تعالی صورت ملوک را سبب مسخر کردن جباران کی مسخر حق نباشند ساخته است چنانک موسی علیه السلام باب صغیر ساخت بر ربض قدس جهت رکوع جباران بنی اسرائیل وقت در آمدن کی ادخلوا الباب سجدا و قولوا حطة	exposition	urn:sufi:rumi.mathnawi:3.b2998	urn:sufi:rumi.mathnawi:3.b3013	2998	3013	16
+3	141	قصه عشق صوفی بر سفرهٔ تهی	tale	urn:sufi:rumi.mathnawi:3.b3014	urn:sufi:rumi.mathnawi:3.b3029	3014	3029	16
+3	142	مخصوص بودن یعقوب علیه السلام به چشیدن جام حق از روی یوسف و کشیدن بوی حق از بوی یوسف و حرمان برادران و غیر هم ازین هر دو	step	urn:sufi:rumi.mathnawi:3.b3030	urn:sufi:rumi.mathnawi:3.b3054	3030	3054	25
+3	143	حکایت امیر و غلامش کی نماز باره بود وانس عظیم داشت در نماز و مناجات با حق	tale	urn:sufi:rumi.mathnawi:3.b3055	urn:sufi:rumi.mathnawi:3.b3076	3055	3076	22
+3	144	نومید شدن انبیا از قبول و پذیرای منکران قوله حتی اذا استیاس الرسل	step	urn:sufi:rumi.mathnawi:3.b3077	urn:sufi:rumi.mathnawi:3.b3092	3077	3092	16
+3	145	بیان آنک ایمان مقلد خوفست و رجا	exposition	urn:sufi:rumi.mathnawi:3.b3093	urn:sufi:rumi.mathnawi:3.b3103	3093	3103	11
+3	146	بیان آنک رسول علیه السلام فرمود ان لله تعالی اولیاء اخفیاء	exposition	urn:sufi:rumi.mathnawi:3.b3104	urn:sufi:rumi.mathnawi:3.b3109	3104	3109	6
+3	147	حکایت مندیل در تنور پر آتش انداختن  انس رضی الله عنه و ناسوختن	tale	urn:sufi:rumi.mathnawi:3.b3110	urn:sufi:rumi.mathnawi:3.b3129	3110	3129	20
+3	148	قصهٔ فریاد رسیدن رسول علیه السلام کاروان عرب را کی از تشنگی و بی‌آبی در مانده بودند و دل بر مرگ نهاده شتران و خلق زبان برون انداخته	tale	urn:sufi:rumi.mathnawi:3.b3130	urn:sufi:rumi.mathnawi:3.b3162	3130	3162	33
+3	149	مشک آن غلام ازغیب پر آب کردن بمعجزه و آن غلام سیاه را سپیدرو کردن باذن الله تعالی	step	urn:sufi:rumi.mathnawi:3.b3163	urn:sufi:rumi.mathnawi:3.b3176	3163	3176	14
+3	150	دیدن خواجه غلام خود را سپید و ناشناختن کی اوست و گفتن کی غلام مرا تو کشته‌ای خونت گرفت و خدا ترا به دست من انداخت	step	urn:sufi:rumi.mathnawi:3.b3177	urn:sufi:rumi.mathnawi:3.b3203	3177	3203	27
+3	151	بیان آنک حق تعالی هرچه داد و آفرید از سماوات و ارضین و اعیان و اعراض همه به استدعاء حاجت آفرید‌؛ خود را محتاج چیزی باید کردن تا بدهد؛ کی ‌«امن یجیب المضطر اذا دعاه»؛ اضطرار‌، گواه استحقاق است	exposition	urn:sufi:rumi.mathnawi:3.b3204	urn:sufi:rumi.mathnawi:3.b3219	3204	3219	16
+3	152	آمدن آن زن کافر با طفل شیرخواره به نزدیک مصطفی علیه السلام و ناطق شدن عیسی‌وار به معجزات رسول صلی الله علیه و سلم	step	urn:sufi:rumi.mathnawi:3.b3220	urn:sufi:rumi.mathnawi:3.b3237	3220	3237	18
+3	153	ربودن عقاب موزهٔ مصطفی علیه السلام و بردن بر هوا و نگون کردن و از موزه مار سیاه فرو افتادن	step	urn:sufi:rumi.mathnawi:3.b3238	urn:sufi:rumi.mathnawi:3.b3254	3238	3254	17
+3	154	وجه عبرت گرفتن ازین حکایت و یقین دانستن کی ان مع العسر یسرا	step	urn:sufi:rumi.mathnawi:3.b3255	urn:sufi:rumi.mathnawi:3.b3265	3255	3265	11
+3	155	استدعاء آن مرد از موسی زبان بهایم با طیور	step	urn:sufi:rumi.mathnawi:3.b3266	urn:sufi:rumi.mathnawi:3.b3285	3266	3285	20
+3	156	وحی آمدن از حق تعالی به موسی کی بیاموزش چیزی کی استدعا کند یا بعضی از آن	step	urn:sufi:rumi.mathnawi:3.b3286	urn:sufi:rumi.mathnawi:3.b3302	3286	3302	17
+3	157	قانع شدن آن طالب به تعلیم زبان مرغ خانگی و سگ و اجابت موسی علیه السلام	step	urn:sufi:rumi.mathnawi:3.b3303	urn:sufi:rumi.mathnawi:3.b3310	3303	3310	8
+3	158	جواب خروس سگ را	step	urn:sufi:rumi.mathnawi:3.b3311	urn:sufi:rumi.mathnawi:3.b3328	3311	3328	18
+3	159	خجل گشتن خروس پیش سگ به سبب دروغ شدن در آن سه وعده	step	urn:sufi:rumi.mathnawi:3.b3329	urn:sufi:rumi.mathnawi:3.b3342	3329	3342	14
+3	160	خبر کردن خروس از مرگ خواجه	step	urn:sufi:rumi.mathnawi:3.b3343	urn:sufi:rumi.mathnawi:3.b3366	3343	3366	24
+3	161	دویدن آن شخص به سوی موسی به زنهار چون از خروس خبر مرگ خود شنید	step	urn:sufi:rumi.mathnawi:3.b3367	urn:sufi:rumi.mathnawi:3.b3382	3367	3382	16
+3	162	دعاکردن موسی آن شخص را تا بایمان رود از دنیا	step	urn:sufi:rumi.mathnawi:3.b3383	urn:sufi:rumi.mathnawi:3.b3389	3383	3389	7
+3	163	اجابت کردن حق تعالی دعای موسی را علیه السلام	step	urn:sufi:rumi.mathnawi:3.b3390	urn:sufi:rumi.mathnawi:3.b3398	3390	3398	9
+3	164	حکایت آن زنی کی فرزندش نمی‌زیست بنالید جواب آمد کی آن عوض ریاضت تست و به جای جهاد مجاهدانست ترا	tale	urn:sufi:rumi.mathnawi:3.b3399	urn:sufi:rumi.mathnawi:3.b3418	3399	3418	20
+3	165	در آمدن حمزه رضی الله عنه در جنگ بی زره	step	urn:sufi:rumi.mathnawi:3.b3419	urn:sufi:rumi.mathnawi:3.b3428	3419	3428	10
+3	166	جواب حمزه مر خلق را	step	urn:sufi:rumi.mathnawi:3.b3429	urn:sufi:rumi.mathnawi:3.b3493	3429	3493	65
+3	167	حیله دفع مغبون شدن در بیع و شرا	step	urn:sufi:rumi.mathnawi:3.b3494	urn:sufi:rumi.mathnawi:3.b3516	3494	3516	23
+3	168	وفات یافتن بلال رضی الله عنه با شادی	step	urn:sufi:rumi.mathnawi:3.b3517	urn:sufi:rumi.mathnawi:3.b3534	3517	3534	18
+3	169	حکمت ویران شدن تن به مرگ	exposition	urn:sufi:rumi.mathnawi:3.b3535	urn:sufi:rumi.mathnawi:3.b3544	3535	3544	10
+3	170	تشبیه دنیا کی بظاهر فراخست و بمعنی تنگ و تشبیه خواب کی خلاص است ازین تنگی	step	urn:sufi:rumi.mathnawi:3.b3545	urn:sufi:rumi.mathnawi:3.b3565	3545	3565	21
+3	171	بیان آنک هرچه غفلت و غم و کاهلی و تاریکی‌ست همه از تن است کی ارضی است و سفلی	exposition	urn:sufi:rumi.mathnawi:3.b3566	urn:sufi:rumi.mathnawi:3.b3582	3566	3582	17
+3	172	تشبیه نص با قیاس	step	urn:sufi:rumi.mathnawi:3.b3583	urn:sufi:rumi.mathnawi:3.b3601	3583	3601	19
+3	173	آداب المستمعین والمریدین عند فیض  الحکمة من لسان الشیخ	step	urn:sufi:rumi.mathnawi:3.b3602	urn:sufi:rumi.mathnawi:3.b3617	3602	3617	16
+3	174	شناختن هر حیوانی بوی عدو خود را و حذر کردن و بطالت و خسارت آنکس کی عدو کسی بود کی ازو حذر ممکن نیست و فرار ممکن نی و مقابله ممکن نی	step	urn:sufi:rumi.mathnawi:3.b3618	urn:sufi:rumi.mathnawi:3.b3634	3618	3634	17
+3	175	فرق میان دانستن چیزی به مثال و تقلید و میان دانستن ماهیت آن چیز	exposition	urn:sufi:rumi.mathnawi:3.b3635	urn:sufi:rumi.mathnawi:3.b3657	3635	3657	23
+3	176	جمع و توفیق میان نفی و اثبات یک چیز از روی نسبت و اختلاف جهت	step	urn:sufi:rumi.mathnawi:3.b3658	urn:sufi:rumi.mathnawi:3.b3668	3658	3668	11
+3	177	مسلهٔ فنا و بقای درویش	step	urn:sufi:rumi.mathnawi:3.b3669	urn:sufi:rumi.mathnawi:3.b3685	3669	3685	17
+3	178	قصه وکیل صدر جهان کی متهم شد و از بخارا گریخت از بیم جان باز عشقش کشید رو کشان کی کار جان سهل باشد عاشقان را	tale	urn:sufi:rumi.mathnawi:3.b3686	urn:sufi:rumi.mathnawi:3.b3699	3686	3699	14
+3	179	پیدا شدن روح القدس بصورت آدمی بر مریم بوقت برهنگی و غسل کردن و پناه گرفتن بحق تعالی	step	urn:sufi:rumi.mathnawi:3.b3700	urn:sufi:rumi.mathnawi:3.b3767	3700	3767	68
+3	180	گفتن روح القدس مریم راکی من رسول حقم به تو آشفته مشو و پنهان مشو از  من کی فرمان اینست	step	urn:sufi:rumi.mathnawi:3.b3768	urn:sufi:rumi.mathnawi:3.b3788	3768	3788	21
+3	181	عزم کردن آن وکیل ازعشق کی رجوع کند  به بخارا لاابالی‌وار	step	urn:sufi:rumi.mathnawi:3.b3789	urn:sufi:rumi.mathnawi:3.b3807	3789	3807	19
+3	182	پرسیدن معشوقی از عاشق غریب خود کی از شهرها کدام شهر را خوشتر یافتی و انبوه‌تر و محتشم‌تر و پر نعمت‌تر و دلگشاتر	step	urn:sufi:rumi.mathnawi:3.b3808	urn:sufi:rumi.mathnawi:3.b3811	3808	3811	4
+3	183	منع کردن دوستان او را از رجوع کردن به بخارا وتهدید کردن و لاابالی گفتن او	step	urn:sufi:rumi.mathnawi:3.b3812	urn:sufi:rumi.mathnawi:3.b3829	3812	3829	18
+3	184	لاابالی گفتن عاشق ناصح و عاذل را از سر عشق	step	urn:sufi:rumi.mathnawi:3.b3830	urn:sufi:rumi.mathnawi:3.b3859	3830	3859	29
+3	185	رو نهادن آن بندهٔ عاشق سوی بخارا	step	urn:sufi:rumi.mathnawi:3.b3860	urn:sufi:rumi.mathnawi:3.b3871	3860	3871	12
+3	186	در آمدن آن عاشق لاابالی در بخارا وتحذیر کردن دوستان او را از پیداشدن	step	urn:sufi:rumi.mathnawi:3.b3872	urn:sufi:rumi.mathnawi:3.b3883	3872	3883	12
+3	187	جواب گفتن عاشق عاذلان را و تهدید‌کنندگان را	step	urn:sufi:rumi.mathnawi:3.b3884	urn:sufi:rumi.mathnawi:3.b3915	3884	3915	32
+3	188	رسیدن آن عاشق به معشوق خویش چون دست از جان خود بشست	step	urn:sufi:rumi.mathnawi:3.b3916	urn:sufi:rumi.mathnawi:3.b3921	3916	3921	6
+3	189	صفت آن مسجد کی عاشق‌کش بود و آن عاشق مرگ‌جوی لا ابالی کی درو مهمان شد	exposition	urn:sufi:rumi.mathnawi:3.b3922	urn:sufi:rumi.mathnawi:3.b3930	3922	3930	9
+3	190	مهمان آمدن در آن مسجد	step	urn:sufi:rumi.mathnawi:3.b3931	urn:sufi:rumi.mathnawi:3.b3937	3931	3937	7
+3	191	ملامت کردن اهل مسجد مهمان عاشق را از شب خفتن در آنجا و تهدید کردن مرورا	step	urn:sufi:rumi.mathnawi:3.b3938	urn:sufi:rumi.mathnawi:3.b3945	3938	3945	8
+3	192	جواب گفتن عاشق عاذلان را	step	urn:sufi:rumi.mathnawi:3.b3946	urn:sufi:rumi.mathnawi:3.b3959	3946	3959	14
+3	193	عشق جالینوس برین حیات دنیا بود کی هنر او همینجا بکار می‌آید هنری نورزیده است کی در آن بازار بکار آید آنجا خود را به عوام یکسان می‌بیند	step	urn:sufi:rumi.mathnawi:3.b3960	urn:sufi:rumi.mathnawi:3.b3992	3960	3992	33
+3	194	دیگر باره ملامت کردن اهل مسجد مهمان را از شب خفتن در آن مسجد	step	urn:sufi:rumi.mathnawi:3.b3993	urn:sufi:rumi.mathnawi:3.b4035	3993	4035	43
+3	195	گفتن شیطان قریش را کی به جنگ احمد آیید کی من یاریها کنم وقبیلهٔ خود را بیاری خوانم و وقت ملاقات صفین گریختن	step	urn:sufi:rumi.mathnawi:3.b4036	urn:sufi:rumi.mathnawi:3.b4078	4036	4078	43
+3	196	مکرر کردن عاذلان پند را بر آن مهمان آن مسجد مهمان کش	return	urn:sufi:rumi.mathnawi:3.b4079	urn:sufi:rumi.mathnawi:3.b4087	4079	4087	9
+3	197	جواب گفتن مهمان ایشان را و مثل آوردن بدفع کردن حارس کشت به بانگ دف از کشت شتری را کی کوس محمودی بر پشت او زدندی	step	urn:sufi:rumi.mathnawi:3.b4088	urn:sufi:rumi.mathnawi:3.b4158	4088	4158	71
+3	198	تمثیل گریختن مؤمن و بی‌صبری او در بلا به اضطراب و بی‌قراری نخود و دیگر حوایج در جوش دیگ و بر دویدن تا بیرون جهند	tale	urn:sufi:rumi.mathnawi:3.b4159	urn:sufi:rumi.mathnawi:3.b4195	4159	4195	37
+3	199	تمثیل صابر شدن مؤمن چون بر شر و خیر بلا واقف شود	tale	urn:sufi:rumi.mathnawi:3.b4196	urn:sufi:rumi.mathnawi:3.b4202	4196	4202	7
+3	200	عذر گفتن کدبانو با نخود و حکمت در  جوش داشتن کدبانو نخود را	step	urn:sufi:rumi.mathnawi:3.b4203	urn:sufi:rumi.mathnawi:3.b4211	4203	4211	9
+3	201	باقی قصهٔ مهمان آن مسجد مهمان کش و ثبات و صدق او	return	urn:sufi:rumi.mathnawi:3.b4212	urn:sufi:rumi.mathnawi:3.b4226	4212	4226	15
+3	202	ذکرخیال بد اندیشیدن قاصر فهمان	step	urn:sufi:rumi.mathnawi:3.b4227	urn:sufi:rumi.mathnawi:3.b4243	4227	4243	17
+3	203	تفسیر این خبر مصطفی علیه السلام کی للقران ظهر و بطن و لبطنه بطن الی سبعة ابطن	exposition	urn:sufi:rumi.mathnawi:3.b4244	urn:sufi:rumi.mathnawi:3.b4249	4244	4249	6
+3	204	بیان آنک رفتن انبیا و اولیا به کوهها و غارها جهت پنهان کردن خویش نیست و جهت خوف تشویش خلق نیست بلک جهت ارشاد خلق است و تحریض بر انقطاع از دنیا  به قدر ممکن	exposition	urn:sufi:rumi.mathnawi:3.b4250	urn:sufi:rumi.mathnawi:3.b4257	4250	4257	8
+3	205	تشبیه صورت اولیا و صورت کلام اولیا به صورت عصای موسی و صورت افسون عیسی علیهما السلام	step	urn:sufi:rumi.mathnawi:3.b4258	urn:sufi:rumi.mathnawi:3.b4267	4258	4267	10
+3	206	تفسیر یا جبال اوبی معه والطیر	exposition	urn:sufi:rumi.mathnawi:3.b4268	urn:sufi:rumi.mathnawi:3.b4281	4268	4281	14
+3	207	جواب طعنه‌زننده در مثنوی از قصور فهم خود	step	urn:sufi:rumi.mathnawi:3.b4282	urn:sufi:rumi.mathnawi:3.b4291	4282	4291	10
+3	208	مثل زدن در رمیدن کرهٔ اسپ از آب خوردن به سبب شخولیدن سایسان	tale	urn:sufi:rumi.mathnawi:3.b4292	urn:sufi:rumi.mathnawi:3.b4320	4292	4320	29
+3	209	بقیهٔ ذکر آن مهمان مسجد مهمان‌کش	return	urn:sufi:rumi.mathnawi:3.b4321	urn:sufi:rumi.mathnawi:3.b4325	4321	4325	5
+3	210	تفسیر آیت وَ أَجْلِبْ عَلَیْهِمْ بِخَیْلِکَ وَ رَجِلِکَ	exposition	urn:sufi:rumi.mathnawi:3.b4326	urn:sufi:rumi.mathnawi:3.b4344	4326	4344	19
+3	211	رسیدن بانگ طلسمی نیم‌شب مهمان مسجد را	step	urn:sufi:rumi.mathnawi:3.b4345	urn:sufi:rumi.mathnawi:3.b4376	4345	4376	32
+3	212	ملاقات آن عاشق با صدر جهان	step	urn:sufi:rumi.mathnawi:3.b4377	urn:sufi:rumi.mathnawi:3.b4420	4377	4420	44
+3	213	جذب هر عنصری جنس خود را کی در ترکیب آدمی محتبس شده است به غیر جنس	step	urn:sufi:rumi.mathnawi:3.b4421	urn:sufi:rumi.mathnawi:3.b4434	4421	4434	14
+3	214	منجذب شدن جان نیز به عالم ارواح و تقاضای او و میل او به مقر خود و منقطع شدن از اجزای اجسام کی هم کندهٔ پای باز روح‌اند	step	urn:sufi:rumi.mathnawi:3.b4435	urn:sufi:rumi.mathnawi:3.b4461	4435	4461	27
+3	215	فسخ عزایم و نقضها جهت با خبر کردن آدمی را از آنک مالک و قاهر اوست و گاه گاه عزم او را فسخ ناکردن و نافذ  داشتن تا طمع او را بر عزم کردن  دارد تا باز عزمش را بشکند  تا تنبیه بر تنبیه بود	step	urn:sufi:rumi.mathnawi:3.b4462	urn:sufi:rumi.mathnawi:3.b4472	4462	4472	11
+3	216	نظر کردن پیغامبر علیه السلام به اسیران و تبسم کردن و گفتن کی عَجِبْتُ مِنْ قَوْمٍ یُجَرّونَ إِلَی الجَنَّةِ بِالسَّلاسِلِ وَ الأَغْلالِ	step	urn:sufi:rumi.mathnawi:3.b4473	urn:sufi:rumi.mathnawi:3.b4485	4473	4485	13
+3	217	تفسیر این آیت کی ان تستفتحوا فقد جائکم الفتح ایه‌ای طاعنان می‌گفتید کی از ما و محمد علیه السلام آنک حق است فتح و نصرتش ده و این بدان می‌گفتید تا گمان آید کی شما طالب حق‌اید بی غرض اکنون محمد را نصرت دادیم تا صاحب حق را ببینید	exposition	urn:sufi:rumi.mathnawi:3.b4486	urn:sufi:rumi.mathnawi:3.b4502	4486	4502	17
+3	218	سر آنک بی‌مراد بازگشتن رسول علیه السلام از حدیبیه حق تعالی لقب آن فتح کرد کی انا فتحنا کی به صورت غلق بود و به معنی فتح چنانک شکستن مشک به ظاهر شکستن است و به معنی درست کردنست مشکی او را و تکمیل فواید اوست	step	urn:sufi:rumi.mathnawi:3.b4503	urn:sufi:rumi.mathnawi:3.b4511	4503	4511	9
+3	219	تفسیر این خبر کی مصطفی علیه السلام فرمود لا تفضلونی علی یونس بن متی	exposition	urn:sufi:rumi.mathnawi:3.b4512	urn:sufi:rumi.mathnawi:3.b4527	4512	4527	16
+3	220	آگاه شدن پیغامبر علیه السلام از طعن ایشان بر شماتت او	step	urn:sufi:rumi.mathnawi:3.b4528	urn:sufi:rumi.mathnawi:3.b4560	4528	4560	33
+3	221	بیان آنک طاغی در عین قاهری مقهورست و در عین منصوری ماسور	exposition	urn:sufi:rumi.mathnawi:3.b4561	urn:sufi:rumi.mathnawi:3.b4600	4561	4600	40
+3	222	جذب معشوق عاشق را من حیث لا یعمله العاشق و لا یرجوه و لا یخطر بباله و لا یظهر من ذلک الجذب اثر فی العاشق الا الخوف الممزوج بالیاس مع دوام الطلب	step	urn:sufi:rumi.mathnawi:3.b4601	urn:sufi:rumi.mathnawi:3.b4623	4601	4623	23
+3	223	داد خواستن پشه از باد به حضرت سلیمان علیه السلام	step	urn:sufi:rumi.mathnawi:3.b4624	urn:sufi:rumi.mathnawi:3.b4645	4624	4645	22
+3	224	امرکردن سلیمان علیه السلام پشهٔ متظلم را به احضار خصم به دیوان حکم	step	urn:sufi:rumi.mathnawi:3.b4646	urn:sufi:rumi.mathnawi:3.b4663	4646	4663	18
+3	225	نواختن معشوق عاشق بیهوش را تا به هوش باز آید	step	urn:sufi:rumi.mathnawi:3.b4664	urn:sufi:rumi.mathnawi:3.b4693	4664	4693	30
+3	226	با خویش آمدن عاشق بیهوش و روی آوردن به ثنا و شکر معشوق	step	urn:sufi:rumi.mathnawi:3.b4694	urn:sufi:rumi.mathnawi:3.b4748	4694	4748	55
+3	227	حکایت عاشقی دراز هجرانی بسیار امتحانی	tale	urn:sufi:rumi.mathnawi:3.b4749	urn:sufi:rumi.mathnawi:3.b4779	4749	4779	31
+3	228	یافتن عاشق معشوق را و بیان آنک جوینده یابنده بود کی وَ مَنْ یَعْمَلْ مِثْقالَ ذَرَّةٍ خَیْراً یَرَهُ	step	urn:sufi:rumi.mathnawi:3.b4780	urn:sufi:rumi.mathnawi:3.b4810	4780	4810	31
+4	1	سر آغاز	step	urn:sufi:rumi.mathnawi:4.b0001	urn:sufi:rumi.mathnawi:4.b0039	1	39	39
+4	2	تمامی حکایت آن عاشق که از عسس گریخت در باغی مجهول خود معشوق را در باغ یافت و عسس را از شادی دعای خیر می‌کرد و می‌گفت کی عَسی أَنْ تَکْرَهوا  شَیْئاً وَ هُوَ خَیْرٌ لَکُمْ	return	urn:sufi:rumi.mathnawi:4.b0040	urn:sufi:rumi.mathnawi:4.b0080	40	80	41
+4	3	حکایت آن واعظ کی هر آغاز تذکیر دعای ظالمان و سخت‌دلان و بی‌اعتقادان کردی	tale	urn:sufi:rumi.mathnawi:4.b0081	urn:sufi:rumi.mathnawi:4.b0112	81	112	32
+4	4	سؤال کردن از عیسی علیه‌السلام کی در وجود از همهٔ صعبها صعب‌تر چیست	step	urn:sufi:rumi.mathnawi:4.b0113	urn:sufi:rumi.mathnawi:4.b0119	113	119	7
+4	5	قصد خیانت کردن عاشق و بانگ  بر زدن معشوق بر وی	step	urn:sufi:rumi.mathnawi:4.b0120	urn:sufi:rumi.mathnawi:4.b0157	120	157	37
+4	6	قصهٔ آن صوفی کی زن خود را بیگانه‌ای بگرفت	tale	urn:sufi:rumi.mathnawi:4.b0158	urn:sufi:rumi.mathnawi:4.b0185	158	185	28
+4	7	معشوق را زیر چادر پنهان کردن  جهت تلبیس و بهانه گفتن  زن کی ان کید کن عظیم	step	urn:sufi:rumi.mathnawi:4.b0186	urn:sufi:rumi.mathnawi:4.b0197	186	197	12
+4	8	گفتن زن کی او در بند جهاز نیست مراد او ستر و صلاحست و جواب گفتن صوفی این را سرپوشیده	step	urn:sufi:rumi.mathnawi:4.b0198	urn:sufi:rumi.mathnawi:4.b0214	198	214	17
+4	9	غرض از سمیع و بصیر گفتن خدا را	step	urn:sufi:rumi.mathnawi:4.b0215	urn:sufi:rumi.mathnawi:4.b0237	215	237	23
+4	10	مثال دنیا چون گولخن و تقوی چون حمام	tale	urn:sufi:rumi.mathnawi:4.b0238	urn:sufi:rumi.mathnawi:4.b0256	238	256	19
+4	11	قصهٔ آن دباغ کی در بازار عطاران از بوی عطر و مشک بیهوش و رنجور شد	tale	urn:sufi:rumi.mathnawi:4.b0257	urn:sufi:rumi.mathnawi:4.b0288	257	288	32
+4	12	معالجه کردن برادر دباغ دباغ را به خفیه به بوی سرگین	step	urn:sufi:rumi.mathnawi:4.b0289	urn:sufi:rumi.mathnawi:4.b0305	289	305	17
+4	13	عذر خواستن آن عاشق از گناه خویش به تلبیس و روی پوش و فهم کردن معشوق آن را نیز	step	urn:sufi:rumi.mathnawi:4.b0306	urn:sufi:rumi.mathnawi:4.b0319	306	319	14
+4	14	رد کردن معشوقه عذر عاشق را و تلبیس او را در روی او مالیدن	step	urn:sufi:rumi.mathnawi:4.b0320	urn:sufi:rumi.mathnawi:4.b0352	320	352	33
+4	15	گفتن آن جهود علی را کرم الله وجهه کی اگر اعتماد داری بر حافظی حق از سر این کوشک خود را در انداز و جواب گفتن  امیرالمؤمنین او را	step	urn:sufi:rumi.mathnawi:4.b0353	urn:sufi:rumi.mathnawi:4.b0387	353	387	35
+4	16	قصهٔ مسجد اقصی و خروب و عزم کردن داود علیه‌السلام پیش از سلیمان علیه‌السلام بر بنای آن مسجد	tale	urn:sufi:rumi.mathnawi:4.b0388	urn:sufi:rumi.mathnawi:4.b0405	388	405	18
+4	17	شرح انما المؤمنون اخوة والعلماء کنفس واحدة خاصه اتحاد داود و سلیمان و سایر انبیا علیهم‌السلام کی اگر یکی ازیشان را منکر شوی ایمان به هیچ نبی درست نباشد و این علامت اتحادست کی یک خانه از هزاران خانه ویران کنی آن همه ویران شود و یک دیوار قایم نماند کی لانفرق بین احد منهم و العاقل یکفیه الاشارة این خود از اشارت گذشت	exposition	urn:sufi:rumi.mathnawi:4.b0406	urn:sufi:rumi.mathnawi:4.b0466	406	466	61
+4	18	بقیهٔ قصهٔ بنای مسجد اقصی	return	urn:sufi:rumi.mathnawi:4.b0467	urn:sufi:rumi.mathnawi:4.b0486	467	486	20
+4	19	قصهٔ آغاز خلافت عثمان رضی الله  عنه و خطبهٔ وی در بیان آنک ناصح  فعال به فعل به از ناصح قوال به قول	tale	urn:sufi:rumi.mathnawi:4.b0487	urn:sufi:rumi.mathnawi:4.b0520	487	520	34
+4	20	در بیان آنک حکما گویند آدمی عالم صغریست و حکمای اللهی گویند آدمی عالم کبریست زیرا آن علم حکما بر صورت آدمی مقصور بود و علم این حکما در حقیقت حقیقت آدمی موصول بود	exposition	urn:sufi:rumi.mathnawi:4.b0521	urn:sufi:rumi.mathnawi:4.b0537	521	537	17
+4	21	تفسیر این حدیث کی مثل امتی کمثل سفینة نوح من تمسک بها  نجا و من تخلف عنها غرق	exposition	urn:sufi:rumi.mathnawi:4.b0538	urn:sufi:rumi.mathnawi:4.b0562	538	562	25
+4	22	قصهٔ هدیه فرستادن بلقیس از شهر سبا  سوی سلیمان علیه‌السلام	tale	urn:sufi:rumi.mathnawi:4.b0563	urn:sufi:rumi.mathnawi:4.b0597	563	597	35
+4	23	کرامات و نور شیخ عبدالله مغربی قدس الله سره	step	urn:sufi:rumi.mathnawi:4.b0598	urn:sufi:rumi.mathnawi:4.b0613	598	613	16
+4	24	بازگردانیدن سلیمان علیه‌السلام رسولان بلقیس را به آن هدیه‌ها کی آورده بودند سوی بلقیس و دعوت  کردن بلقیس را به ایمان  و ترک آفتاب‌پرستی	step	urn:sufi:rumi.mathnawi:4.b0614	urn:sufi:rumi.mathnawi:4.b0624	614	624	11
+4	25	قصهٔ عطاری کی سنگ ترازوی او گل  سرشوی بود و دزدیدن  مشتری گل خوار از آن گل هنگام سنجیدن شکر دزدیده و پنهان	tale	urn:sufi:rumi.mathnawi:4.b0625	urn:sufi:rumi.mathnawi:4.b0652	625	652	28
+4	26	دلداری کردن و نواختن سلیمان علیه‌السلام مر آن رسولان را  و دفع وحشت و آزار از دل ایشان و عذر قبول ناکردن هدیه شرح  کردن با ایشان	step	urn:sufi:rumi.mathnawi:4.b0653	urn:sufi:rumi.mathnawi:4.b0677	653	677	25
+4	27	دیدن درویش جماعت مشایخ را در  خواب و درخواست کردن روزی حلال بی‌مشغول شدن به کسب و از عبادت ماندن و ارشاد ایشان او را و میوه‌های تلخ و ترش کوهی بر وی شیرین شدن به داد آن مشایخ	step	urn:sufi:rumi.mathnawi:4.b0678	urn:sufi:rumi.mathnawi:4.b0688	678	688	11
+4	28	نیت کردن او کی این زر بدهم بدان  هیزم‌کش چون من روزی یافتم به کرامات مشایخ و رنجیدن آن هیزم‌کش از ضمیر و نیت او	step	urn:sufi:rumi.mathnawi:4.b0689	urn:sufi:rumi.mathnawi:4.b0717	689	717	29
+4	29	تحریض سلیمان علیه‌السلام مر رسولان  را بر تعجیل به هجرت  بلقیس بهر ایمان	step	urn:sufi:rumi.mathnawi:4.b0718	urn:sufi:rumi.mathnawi:4.b0725	718	725	8
+4	30	سبب هجرت ابراهیم ادهم قدس الله سره و ترک ملک خراسان	exposition	urn:sufi:rumi.mathnawi:4.b0726	urn:sufi:rumi.mathnawi:4.b0744	726	744	19
+4	31	حکایت آن مرد تشنه کی از سر جوز بن جوز می‌ریخت در جوی آب کی در گو بود و به آب نمی‌رسید تا به افتادن جوز بانگ آب# بشنود و او را چو سماع خوش بانگ آب اندر طرب می‌آورد	tale	urn:sufi:rumi.mathnawi:4.b0745	urn:sufi:rumi.mathnawi:4.b0780	745	780	36
+4	32	تهدید فرستادن سلیمان علیه‌السلام پیش بلقیس کی اصرار میندیش بر شرک و تاخیر مکن	step	urn:sufi:rumi.mathnawi:4.b0781	urn:sufi:rumi.mathnawi:4.b0811	781	811	31
+4	33	پیدا کردن سلیمان علیه‌السلام کی مرا خالصا لامر الله جهدست در ایمان تو یک ذره غرضی نیست مرا نه در نفس تو و حسن تو و نه در ملک تو خود بینی چون چشم جان باز شود به نورالله	step	urn:sufi:rumi.mathnawi:4.b0812	urn:sufi:rumi.mathnawi:4.b0828	812	828	17
+4	34	باقی قصهٔ ابراهیم ادهم قدس‌الله سره	return	urn:sufi:rumi.mathnawi:4.b0829	urn:sufi:rumi.mathnawi:4.b0844	829	844	16
+4	35	بقیهٔ قصهٔ اهل سبا و نصیحت و ارشاد سلیمان علیه‌السلام آل بلقیس را هر یکی را اندر خور خود و مشکلات دین و دل او و صید کردن هر جنس مرغ ضمیری به صفیر آن جنس مرغ و طعمهٔ او	return	urn:sufi:rumi.mathnawi:4.b0845	urn:sufi:rumi.mathnawi:4.b0858	845	858	14
+4	36	آزاد شدن بلقیس از ملک و مست  شدن او از شوق ایمان و التفات همت او از همهٔ ملک منقطع شدن وقت هجرت الا از تخت	step	urn:sufi:rumi.mathnawi:4.b0859	urn:sufi:rumi.mathnawi:4.b0902	859	902	44
+4	37	چاره کردن سلیمان علیه‌السلام در احضار تخت بلقیس از سبا	step	urn:sufi:rumi.mathnawi:4.b0903	urn:sufi:rumi.mathnawi:4.b0914	903	914	12
+4	38	قصهٔ یاری خواستن حلیمه از بتان چون عقیب فطام مصطفی را علیه‌السلام گم کرد و لرزیدن و سجدهٔ بتان و گواهی دادن ایشان بر عظمت کار  مصطفی صلی‌الله علیه و سلم	tale	urn:sufi:rumi.mathnawi:4.b0915	urn:sufi:rumi.mathnawi:4.b0935	915	935	21
+4	39	حکایت آن پیر عرب کی دلالت کرد حلیمه را به استعانت به بتان	tale	urn:sufi:rumi.mathnawi:4.b0936	urn:sufi:rumi.mathnawi:4.b0982	936	982	47
+4	40	خبر یافتن جد مصطفی عبدالمطلب  از گم کردن حلیمه محمد  را علیه‌السلام و طالب شدن او گرد شهر و نالیدن او بر در کعبه و از حق درخواستن و یافتن او محمد را علیه‌السلام	step	urn:sufi:rumi.mathnawi:4.b0983	urn:sufi:rumi.mathnawi:4.b1032	983	1032	50
+4	41	نشان خواستن عبدالمطلب از موضع محمد علیه‌السلام کی کجاش یابم و جواب آمدن از اندرون کعبه و نشان یافتن	step	urn:sufi:rumi.mathnawi:4.b1033	urn:sufi:rumi.mathnawi:4.b1040	1033	1040	8
+4	42	بقیهٔ قصهٔ دعوت رحمت بلقیس را	return	urn:sufi:rumi.mathnawi:4.b1041	urn:sufi:rumi.mathnawi:4.b1044	1041	1044	4
+4	43	مثل قانع شدن آدمی به دنیا و حرص او در طلب دنیا و غفلت او از دولت روحانیان کی ابنای جنس وی‌اند و نعره‌زنان کی  یا لَیْتَ قَوْمي یَعْلَمونَ	tale	urn:sufi:rumi.mathnawi:4.b1045	urn:sufi:rumi.mathnawi:4.b1112	1045	1112	68
+4	44	بقیهٔ عمارت کردن سلیمان علیه‌السلام مسجد اقصی را به تعلیم و وحی خدا جهت حکمتهایی کی او داند و معاونت ملایکه و دیو  و پری و آدمی آشکارا	return	urn:sufi:rumi.mathnawi:4.b1113	urn:sufi:rumi.mathnawi:4.b1155	1113	1155	43
+4	45	قصهٔ شاعر و صله دادن شاه و مضاعف کردن آن وزیر بوالحسن نام	tale	urn:sufi:rumi.mathnawi:4.b1156	urn:sufi:rumi.mathnawi:4.b1165	1156	1165	10
+4	46	باز آمدن آن شاعر بعد چند سال به امید همان صله و هزار دینار فرمودن بر قاعدهٔ خویش و گفتن وزیر نو هم حسن نام شاه را کی این سخت بسیارست و ما را خرجهاست و خزینه خالیست و من او را بده یک آن خشنود کنم	step	urn:sufi:rumi.mathnawi:4.b1166	urn:sufi:rumi.mathnawi:4.b1239	1166	1239	74
+4	47	مانستن بدرایی این وزیر دون در افساد مروت شاه به وزیر فرعون یعنی هامان در افساد قابلیت فرعون	step	urn:sufi:rumi.mathnawi:4.b1240	urn:sufi:rumi.mathnawi:4.b1262	1240	1262	23
+4	48	نشستن دیو بر مقام سلیمان علیه‌السلام و تشبه کردن او به کارهای سلیمان  علیه‌السلام و فرق ظاهر میان هر دو سلیمان و دیو خویشتن را سلیمان بن داود نام کردن	step	urn:sufi:rumi.mathnawi:4.b1263	urn:sufi:rumi.mathnawi:4.b1286	1263	1286	24
+4	49	درآمدن سلیمان علیه‌السلام هر روز در مسجد اقصی بعد از تمام شدن جهت عبادت و ارشاد عابدان و معتکفان و  رستن عقاقیر در مسجد	step	urn:sufi:rumi.mathnawi:4.b1287	urn:sufi:rumi.mathnawi:4.b1300	1287	1300	14
+4	50	آموختن پیشه گورکنی قابیل از زاغ پیش از آنک در عالم علم گورکنی و گور بود	step	urn:sufi:rumi.mathnawi:4.b1301	urn:sufi:rumi.mathnawi:4.b1357	1301	1357	57
+4	51	قصهٔ صوفی کی در میان گلستان سر به زانو مراقب بود یارانش گفتند سر برآور تفرج کن بر گلستان و ریاحین و مرغان و آثار رحمةالله تعالی	tale	urn:sufi:rumi.mathnawi:4.b1358	urn:sufi:rumi.mathnawi:4.b1372	1358	1372	15
+4	52	قصهٔ رستن خروب در گوشهٔ مسجد اقصی و غمگین شدن سلیمان علیه‌السلام از آن چون به سخن آمد با او و خاصیت و نام  خود بگفت	tale	urn:sufi:rumi.mathnawi:4.b1373	urn:sufi:rumi.mathnawi:4.b1435	1373	1435	62
+4	53	بیان آنک حصول علم و مال و جاه بدگوهران را فضیحت اوست و چون شمشیریست کی افتادست به دست راه‌زن	exposition	urn:sufi:rumi.mathnawi:4.b1436	urn:sufi:rumi.mathnawi:4.b1452	1436	1452	17
+4	54	تفسیر یا ایها المزمل	exposition	urn:sufi:rumi.mathnawi:4.b1453	urn:sufi:rumi.mathnawi:4.b1489	1453	1489	37
+4	55	در بیان آنک ترک الجواب جواب مقرر این سخن کی جواب الاحمق سکوت شرح این هر دو درین قصه است کی  گفته می‌آید	exposition	urn:sufi:rumi.mathnawi:4.b1490	urn:sufi:rumi.mathnawi:4.b1496	1490	1496	7
+4	56	در تفسیر این حدیث مصطفی علیه‌السلام کی ان الله تعالی خلق الملائکة و رکب  فیهم العقل و خلق البهائم و رکب فیها الشهوة و خلق بنی آدم و رکب فیهم العقل و الشهوة فمن غلب عقله شهوته فهو اعلی من الملائکة و من غلب شهوته عقله فهو ادنی من البهائم	exposition	urn:sufi:rumi.mathnawi:4.b1497	urn:sufi:rumi.mathnawi:4.b1526	1497	1526	30
+4	57	در تفسیر این آیت کی و اما الذین فی قلوبهم مرض فزادتهم رجسا و قوله یضل به کثیرا و یهدی به کثیرا	exposition	urn:sufi:rumi.mathnawi:4.b1527	urn:sufi:rumi.mathnawi:4.b1532	1527	1532	6
+4	58	چالیش عقل با نفس هم چون تنازع  مجنون با ناقه میل مجنون  سوی حره میل ناقه واپس سوی کره  چنانک گفت مجنون هوا ناقتی خلفی و قدامی الهوی  و انی و ایاها لمختلفان	step	urn:sufi:rumi.mathnawi:4.b1533	urn:sufi:rumi.mathnawi:4.b1561	1533	1561	29
+4	59	نوشتن آن غلام قصهٔ شکایت نقصان اجری سوی پادشاه	step	urn:sufi:rumi.mathnawi:4.b1562	urn:sufi:rumi.mathnawi:4.b1577	1562	1577	16
+4	60	حکایت آن فقیه با دستار بزرگ و  آنک بربود دستارش و بانگ می‌زد کی باز کن ببین کی چه می‌بری آنگه ببر	tale	urn:sufi:rumi.mathnawi:4.b1578	urn:sufi:rumi.mathnawi:4.b1591	1578	1591	14
+4	61	نصیحت دنیا اهل دنیا را به زبان حال و بی‌وفایی خود را نمودن  به وفا طمع دارندگان ازو	step	urn:sufi:rumi.mathnawi:4.b1592	urn:sufi:rumi.mathnawi:4.b1640	1592	1640	49
+4	62	بیان آنک عارف را غذاییست از نور حق کی ابیت عند ربی یطعمنی و یسقینی و قوله الجوع طعام الله یحیی به ابدان الصدیقین ای فی الجوع یصل طعام‌الله	exposition	urn:sufi:rumi.mathnawi:4.b1641	urn:sufi:rumi.mathnawi:4.b1669	1641	1669	29
+4	63	تفسیر اوجس فی نفسه خیفة موسی قلنا لا تخف انک انت الاعلی	exposition	urn:sufi:rumi.mathnawi:4.b1670	urn:sufi:rumi.mathnawi:4.b1694	1670	1694	25
+4	64	زجر مدعی از دعوی و امر کردن او را به متابعت	step	urn:sufi:rumi.mathnawi:4.b1695	urn:sufi:rumi.mathnawi:4.b1716	1695	1716	22
+4	65	بقیهٔ نوشتن آن غلام رقعه به طلب اجری	return	urn:sufi:rumi.mathnawi:4.b1717	urn:sufi:rumi.mathnawi:4.b1738	1717	1738	22
+4	66	حکایت آن مداح کی از جهت ناموس شکر ممدوح می‌کرد و بوی اندوه و غم اندرون او و خلاقت دلق ظاهر او می‌نمود کی آن  شکرها لافست و دروغ	tale	urn:sufi:rumi.mathnawi:4.b1739	urn:sufi:rumi.mathnawi:4.b1793	1739	1793	55
+4	67	دریافتن طبیبان الهی امراض دین و دل را در سیمای مرید و بیگانه و لحن گفتار او و رنگ چشم او و بی این همه نیز از راه دل کی انهم جواسیس القلوب فجالسوهم بالصدق	step	urn:sufi:rumi.mathnawi:4.b1794	urn:sufi:rumi.mathnawi:4.b1801	1794	1801	8
+4	68	مژده دادن ابویزید از زادن ابوالحسن خرقانی قدس الله روحهما پیش از سالها  و نشان صورت او سیرت او یک به یک و  نوشتن تاریخ‌نویسان آن در جهت رصد	step	urn:sufi:rumi.mathnawi:4.b1802	urn:sufi:rumi.mathnawi:4.b1833	1802	1833	32
+4	69	قول رسول صلی الله علیه و سلم انی لاجد نفس الرحمن من قبل الیمن	step	urn:sufi:rumi.mathnawi:4.b1834	urn:sufi:rumi.mathnawi:4.b1855	1834	1855	22
+4	70	نقصان اجرای جان و دل صوفی از طعام الله	step	urn:sufi:rumi.mathnawi:4.b1856	urn:sufi:rumi.mathnawi:4.b1890	1856	1890	35
+4	71	آشفتن آن غلام از نارسیدن جواب رقعه از قبل پادشاه	step	urn:sufi:rumi.mathnawi:4.b1891	urn:sufi:rumi.mathnawi:4.b1896	1891	1896	6
+4	72	کژ وزیدن باد بر سلیمان علیه‌السلام به سبب زلت او	step	urn:sufi:rumi.mathnawi:4.b1897	urn:sufi:rumi.mathnawi:4.b1924	1897	1924	28
+4	73	شنیدن شیخ ابوالحسن رضی الله عنه خبر دادن ابویزید را و  بود او و احوال او	step	urn:sufi:rumi.mathnawi:4.b1925	urn:sufi:rumi.mathnawi:4.b1934	1925	1934	10
+4	74	رقعهٔ دیگر نوشتن آن غلام پیش شاه چون جواب آن رقعهٔ اوّل نیافت	step	urn:sufi:rumi.mathnawi:4.b1935	urn:sufi:rumi.mathnawi:4.b1968	1935	1968	34
+4	75	قصهٔ آنک کسی به کسی مشورت می‌کرد گفتش  مشورت با دیگری کن کی من عدوی توم	tale	urn:sufi:rumi.mathnawi:4.b1969	urn:sufi:rumi.mathnawi:4.b1991	1969	1991	23
+4	76	امیر کردن رسول علیه‌السلام جوان هذیلی را بر سریه‌ای کی در آن پیران  و جنگ آزمودگان بودند	step	urn:sufi:rumi.mathnawi:4.b1992	urn:sufi:rumi.mathnawi:4.b2029	1992	2029	38
+4	77	اعتراض کردن معترضی بر رسول علیه‌السلام بر امیر کردن آن هذیلی	step	urn:sufi:rumi.mathnawi:4.b2030	urn:sufi:rumi.mathnawi:4.b2080	2030	2080	51
+4	78	جواب گفتن مصطفی علیه‌السلام اعتراض کننده را	step	urn:sufi:rumi.mathnawi:4.b2081	urn:sufi:rumi.mathnawi:4.b2101	2081	2101	21
+4	79	قصهٔ «سُبْحانی، ما اَعْظَمَ شَأْنی» گفتن ابویزید قدّس الله سرّه و اعتراض مریدان و جواب این مر ایشان را نه به طریق گفت زبان بلک از راه عیان	tale	urn:sufi:rumi.mathnawi:4.b2102	urn:sufi:rumi.mathnawi:4.b2153	2102	2153	52
+4	80	بیان سبب فصاحت و بسیارگویی آن فضول به خدمت رسول علیه‌السلام	exposition	urn:sufi:rumi.mathnawi:4.b2154	urn:sufi:rumi.mathnawi:4.b2158	2154	2158	5
+4	81	بیان رسول علیه السلام سبب تفضیل و اختیار کردن او آن هذیلی را به امیری و سرلشکری بر پیران و کاردیدگان	exposition	urn:sufi:rumi.mathnawi:4.b2159	urn:sufi:rumi.mathnawi:4.b2187	2159	2187	29
+4	82	علامت عاقل تمام و نیم‌عاقل و مرد تمام و نیم‌مرد و علامت شقی مغرور لاشی	step	urn:sufi:rumi.mathnawi:4.b2188	urn:sufi:rumi.mathnawi:4.b2201	2188	2201	14
+4	83	قصهٔ آن آبگیر و صیادان و آن سه ماهی یکی عاقل و یکی نیم عاقل وان دگر مغرور و ابله مغفل لاشی و عاقبت هر سه	tale	urn:sufi:rumi.mathnawi:4.b2202	urn:sufi:rumi.mathnawi:4.b2212	2202	2212	11
+4	84	سر خواندن وضو کننده اوراد وضو را	step	urn:sufi:rumi.mathnawi:4.b2213	urn:sufi:rumi.mathnawi:4.b2220	2213	2220	8
+4	85	شخصی به وقت استنجا می‌گفت اللهم ارحنی رائحة الجنه به جای آنک اللهم اجعلنی من التوابین واجعلنی من  المتطهرین کی ورد استنجاست و ورد استنجا را به وقت استنشاق می‌گفت عزیزی بشنید و این را طاقت نداشت	step	urn:sufi:rumi.mathnawi:4.b2221	urn:sufi:rumi.mathnawi:4.b2244	2221	2244	24
+4	86	قصهٔ آن مرغ گرفته کی وصیت کرد کی بر گذشته پشیمانی مخور تدارک وقت اندیش و روزگار مبر در پشیمانی	tale	urn:sufi:rumi.mathnawi:4.b2245	urn:sufi:rumi.mathnawi:4.b2265	2245	2265	21
+4	87	چاره اندیشیدن آن ماهی نیم‌عاقل و خود را مرده کردن	step	urn:sufi:rumi.mathnawi:4.b2266	urn:sufi:rumi.mathnawi:4.b2286	2266	2286	21
+4	88	بیان آنک عهد کردن احمق وقت گرفتاری و ندم هیچ وفایی ندارد کی لو ردوالعادوا لما نهوا عنه و انهم لکاذبون صبح کاذب وفا ندارد	exposition	urn:sufi:rumi.mathnawi:4.b2287	urn:sufi:rumi.mathnawi:4.b2300	2287	2300	14
+4	89	در بیان آنک وهم قلب عقلست و ستیزهٔ  اوست بدو ماند و او نیست و قصهٔ مجاوبات موسی علیه‌السلام کی صاحب عقل بود با فرعون کی صاحب وهم بود	exposition	urn:sufi:rumi.mathnawi:4.b2301	urn:sufi:rumi.mathnawi:4.b2340	2301	2340	40
+4	90	بیان آنک عمارت در ویرانیست و جمعیت در پراکندگیست و  درستی در شکستگیست و مراد در بی‌مرادیست و وجود در عدم  است و عَلی هَذا بَقیَّةُ الأَضْدادِ وَ الأَزْواجِ	exposition	urn:sufi:rumi.mathnawi:4.b2341	urn:sufi:rumi.mathnawi:4.b2383	2341	2383	43
+4	91	بیان آنک هر حس مدرکی را از آدمی نیز مدرکاتی دیگرست کی از مدرکات آن  حس دگر بی‌خبرست چنانک هر پیشه‌ور استاد اعجمی کار آن استاد دگر پیشه‌ورست و بی‌خبری او از آنک وظیفهٔ او نیست دلیل نکند کی آن مدرکات نیست  اگرچه به حکم حال منکر بود آن را اما از منکری او اینجا جز بی‌خبری  نمی‌خواهیم درین مقام	exposition	urn:sufi:rumi.mathnawi:4.b2384	urn:sufi:rumi.mathnawi:4.b2440	2384	2440	57
+4	92	حمله بردن این جهانیان بر آن  جهانیان و تاختن بردن تا  سینور ذر و نسل کی سر حد غیب است و غفلت ایشان از کمین کی چون غازی به غزا نرود کافر تاختن آورد	step	urn:sufi:rumi.mathnawi:4.b2441	urn:sufi:rumi.mathnawi:4.b2468	2441	2468	28
+4	93	بیان آنک تن خاکی آدمی هم‌چون آهن نیکو جوهر قابل آینه شدن است تا درو هم در دنیا بهشت و دوزخ و قیامت و غیر آن معاینه بنماید نه بر طریق خیال	exposition	urn:sufi:rumi.mathnawi:4.b2469	urn:sufi:rumi.mathnawi:4.b2486	2469	2486	18
+4	94	باز گفتن موسی علیه‌السلام اسرار فرعون را و واقعات او را ظهر الغیب تا به خبیری حق ایمان آورد یا گمان برد	return	urn:sufi:rumi.mathnawi:4.b2487	urn:sufi:rumi.mathnawi:4.b2502	2487	2502	16
+4	95	بیان آنک در توبه بازست	exposition	urn:sufi:rumi.mathnawi:4.b2503	urn:sufi:rumi.mathnawi:4.b2508	2503	2508	6
+4	96	گفتن موسی علیه‌السلام فرعون را کی از من یک پند قبول کن و چهار فضیلت عوض بستان	step	urn:sufi:rumi.mathnawi:4.b2509	urn:sufi:rumi.mathnawi:4.b2527	2509	2527	19
+4	97	شرح کردن موسی علیه‌السلام آن  چهار فضیلت را جهت  پای مزد ایمان فرعون	exposition	urn:sufi:rumi.mathnawi:4.b2528	urn:sufi:rumi.mathnawi:4.b2539	2528	2539	12
+4	98	تفسیر کُنْتُ کَنْزاً مَخْفیّاً فَأَحْبَبْتُ اَنْ اُعْرَفَ	exposition	urn:sufi:rumi.mathnawi:4.b2540	urn:sufi:rumi.mathnawi:4.b2561	2540	2561	22
+4	99	غره شدن آدمی به ذکاوت و تصویرات طبع خویشتن و طلب ناکردن علم  غیب کی علم انبیاست	step	urn:sufi:rumi.mathnawi:4.b2562	urn:sufi:rumi.mathnawi:4.b2576	2562	2576	15
+4	100	بیان این خبر کی کلموا الناس علی قدر عقولهم لا علی قدر عقولکم حتی لا یکذبوا الله و رسوله	exposition	urn:sufi:rumi.mathnawi:4.b2577	urn:sufi:rumi.mathnawi:4.b2584	2577	2584	8
+4	101	قوله علیه السلام من بشرنی بخروج صفر بشرته بالجنة	step	urn:sufi:rumi.mathnawi:4.b2585	urn:sufi:rumi.mathnawi:4.b2596	2585	2596	12
+4	102	مشورت کردن فرعون با ایسیه در ایمان آوردن به موسی علیه‌السلام	step	urn:sufi:rumi.mathnawi:4.b2597	urn:sufi:rumi.mathnawi:4.b2627	2597	2627	31
+4	103	قصهٔ باز پادشاه و کمپیر زن	tale	urn:sufi:rumi.mathnawi:4.b2628	urn:sufi:rumi.mathnawi:4.b2656	2628	2656	29
+4	104	قصهٔ آن زن کی طفل او بر سر ناودان غیژید و خطر افتادن بود و از علی کرم‌الله وجهه چاره جست	tale	urn:sufi:rumi.mathnawi:4.b2657	urn:sufi:rumi.mathnawi:4.b2722	2657	2722	65
+4	105	مشورت کردن فرعون با وزیرش هامان در ایمان آوردن به موسی علیه‌السلام	step	urn:sufi:rumi.mathnawi:4.b2723	urn:sufi:rumi.mathnawi:4.b2736	2723	2736	14
+4	106	تزییف سخن هامان علیه اللعنة	step	urn:sufi:rumi.mathnawi:4.b2737	urn:sufi:rumi.mathnawi:4.b2773	2737	2773	37
+4	107	نومید شدن موسی علیه‌السلام از ایمام فرعون به تاثیر کردن  سخن هامان در دل فرعون	step	urn:sufi:rumi.mathnawi:4.b2774	urn:sufi:rumi.mathnawi:4.b2778	2774	2778	5
+4	108	منازعت امیران عرب با مصطفی علیه‌السلام کی ملک را مقاسمت کن با ما تا نزاعی نباشد و جواب فرمودن مصطفی علیه‌السلام کی من مامورم درین امارت و بحث ایشان از طرفین	step	urn:sufi:rumi.mathnawi:4.b2779	urn:sufi:rumi.mathnawi:4.b2810	2779	2810	32
+4	109	در بیان آنک شناسای قدرت حق نپرسد کی بهشت و دوزخ کجاست	exposition	urn:sufi:rumi.mathnawi:4.b2811	urn:sufi:rumi.mathnawi:4.b2832	2811	2832	22
+4	110	جواب دهری کی منکر الوهیت است و عالم را قدیم می‌گوید	step	urn:sufi:rumi.mathnawi:4.b2833	urn:sufi:rumi.mathnawi:4.b2880	2833	2880	48
+4	111	تفسیر این آیت کی و ما خلقنا السموات والارض و ما بینهما الا بالحق نیافریدمشان بهر همین کی شما می‌بینید  بلک بهر معنی و حکمت باقیه کی شما نمی‌بینید آن را	exposition	urn:sufi:rumi.mathnawi:4.b2881	urn:sufi:rumi.mathnawi:4.b2920	2881	2920	40
+4	112	وحی کردن حق به موسی علیه‌السلام کی ای موسی من کی  خالقم تعالی ترا دوست می‌دارم	step	urn:sufi:rumi.mathnawi:4.b2921	urn:sufi:rumi.mathnawi:4.b2932	2921	2932	12
+4	113	خشم کردن پادشاه بر ندیم و شفاعت کردن شفیع آن مغضوب علیه را و از پادشاه درخواستن و پادشاه شفاعت او قبول کردن و رنجیدن ندیم از این شفیع کی چرا شفاعت کردی	step	urn:sufi:rumi.mathnawi:4.b2933	urn:sufi:rumi.mathnawi:4.b2973	2933	2973	41
+4	114	گفتن خلیل مر جبرئیل را علیهماالسلام  چون پرسیدش کی الک حاجة خلیل  جوابش داد کی اما الیک فلا	step	urn:sufi:rumi.mathnawi:4.b2974	urn:sufi:rumi.mathnawi:4.b3000	2974	3000	27
+4	115	مطالبه کردن موسی علیه‌السلام حضرت را کی خَلَقتَ خَلقاً اَهلَکتَهُم و جواب آمدن	step	urn:sufi:rumi.mathnawi:4.b3001	urn:sufi:rumi.mathnawi:4.b3029	3001	3029	29
+4	116	بیان آنک روح حیوانی و عقل‌ِ جزوی و وهم و خیال بر مثال دوغند و روح کی باقیست درین دوغ هم‌چون روغن پنهانست	exposition	urn:sufi:rumi.mathnawi:4.b3030	urn:sufi:rumi.mathnawi:4.b3050	3030	3050	21
+4	117	مثال دیگر هم درین معنی	tale	urn:sufi:rumi.mathnawi:4.b3051	urn:sufi:rumi.mathnawi:4.b3084	3051	3084	34
+4	118	حکایت آن پادشاه‌زاده کی پادشاهی حقیقی  به وی روی نمود یَوْمَ یَفِرُّ المَرْءُ مِنْ أَخیهِ وَ  أُمِّهِ وَ أَبیهِ نقد وقت او شد پادشاهی  این خاک تودهٔ کودک طبعان کی قلعه گیری نام کنند آن کودک کی چیره آید بر سر  خاک توده برآید و لاف زندگی قلعه مراست کودکان دیگر بر وی  رشک برند کی التُّرابُ رَبیعُ الصِّبْیانِ آن پادشاه‌زاده چو از قید رنگها  برست گفت من این خاکهای رنگین را همان خاک دون می‌گویم زر  و اطلس و اکسون نمی‌گویم من ازین اکسون رستم یکسون رفتم و  آتیناه الحکم صبیا ارشاد حق را مرور سالها حاجت نیست در قدرت کن فیکون هیچ کس سخن قابلیت نگوید	tale	urn:sufi:rumi.mathnawi:4.b3085	urn:sufi:rumi.mathnawi:4.b3112	3085	3112	28
+4	119	عروس آوردن پادشاه فرزند خود را از خوف انقطاع نسل	step	urn:sufi:rumi.mathnawi:4.b3113	urn:sufi:rumi.mathnawi:4.b3128	3113	3128	16
+4	120	اختیار کردن پادشاه دختر درویش زاهدی را از جهت پسر و اعتراض کردن اهل حرم و ننگ داشتن ایشان از پیوندی درویش	step	urn:sufi:rumi.mathnawi:4.b3129	urn:sufi:rumi.mathnawi:4.b3159	3129	3159	31
+4	121	مستجاب شدن دعای پادشاه در خلاص پسرش از جادوی کابلی	step	urn:sufi:rumi.mathnawi:4.b3160	urn:sufi:rumi.mathnawi:4.b3188	3160	3188	29
+4	122	در بیان آنک شه‌زاده آدمی بچه است خلیفهٔ خداست پدرش آدم صفی خلیفهٔ حق مسجود ملایک و آن کمپیر کابلی دنیاست کی آدمی‌بچه را از پدر ببرید به سحر و انبیا و اولیا آن طبیب تدارک کننده	exposition	urn:sufi:rumi.mathnawi:4.b3189	urn:sufi:rumi.mathnawi:4.b3241	3189	3241	53
+4	123	حکایت آن زاهد کی در سال قحط شاد و خندان بود با مفلسی و بسیاری عیان و خلق می‌مردند از گرسنگی گفتندش چه هنگام  شادیست کی هنگام صد تعزیت است گفت مرا باری نیست	tale	urn:sufi:rumi.mathnawi:4.b3242	urn:sufi:rumi.mathnawi:4.b3258	3242	3258	17
+4	124	بیان آنک مجموع عالم صورت عقل کل است چون با عقل کل به‌کژ‌روی جفا کردی صورت عالم ترا غم فزاید اغلب احوال چنانک دل با پدر بد کردی صورت پدر غم فزاید ترا و نتوانی رویش را دیدن اگر چه پیش از آن نور دیده بوده باشد و راحت جان	exposition	urn:sufi:rumi.mathnawi:4.b3259	urn:sufi:rumi.mathnawi:4.b3270	3259	3270	12
+4	125	قصهٔ فرزندان عزیر علیه‌السلام کی از پدر احوال پدر می‌پرسیدند می‌گفت آری دیدمش می‌آید بعضی شناختندش بیهوش شدند بعضی نشناختند می‌گفتند خود مژده‌ای داد این بیهوش شدن  چیست	tale	urn:sufi:rumi.mathnawi:4.b3271	urn:sufi:rumi.mathnawi:4.b3299	3271	3299	29
+4	126	تفسیر این حدیث کی ائنی لاستغفر الله فی کل یوم سبعین مرة	exposition	urn:sufi:rumi.mathnawi:4.b3300	urn:sufi:rumi.mathnawi:4.b3310	3300	3310	11
+4	127	بیان آنک عقل جزوی تا بگور بیش نبیند در باقی مقلد اولیا  و انبیاست	exposition	urn:sufi:rumi.mathnawi:4.b3311	urn:sufi:rumi.mathnawi:4.b3347	3311	3347	37
+4	128	بیان آنک یا ایها الذین آمنوا لا تقدموا بین یدی الله و رسوله  چون نبی نیستی ز امت باش  چونک سلطان نه‌ای رعیت باش پس رو خاموش باش از خود زحمتی و رایی متراش	exposition	urn:sufi:rumi.mathnawi:4.b3348	urn:sufi:rumi.mathnawi:4.b3376	3348	3376	29
+4	129	قصهٔ شکایت استر با شتر کی من بسیار در رو می‌افتم در راه رفتن تو کم در روی می‌آیی این چراست و جواب گفتن شتر او را	tale	urn:sufi:rumi.mathnawi:4.b3377	urn:sufi:rumi.mathnawi:4.b3406	3377	3406	30
+4	130	تصدیق کردن استر جوابهای شتر را و اقرار کردن بفضل او بر خود و ازو استعانت خواستن و بدو پناه گرفتن به صدق و نواختن شتر او را و ره نمودن و یاری دادن پدرانه و شاهانه	step	urn:sufi:rumi.mathnawi:4.b3407	urn:sufi:rumi.mathnawi:4.b3430	3407	3430	24
+4	131	لابه کردن قبطی سبطی را کی یک سبو به نیت خویش از نیل پر کن و بر لب من نه تا بخورم به حق دوستی و برادری کی سبو کی شما سبطیان بهر خود پر می‌کنید از نیل آب صاف است و سبوکی ما قبطیان پر می‌کنیم خون صاف است	step	urn:sufi:rumi.mathnawi:4.b3431	urn:sufi:rumi.mathnawi:4.b3493	3431	3493	63
+4	132	در خواستن قبطی دعای خیر و هدایت از سبطی و دعا کردن سبطی  قبطی را به خیر و مستجاب شدن از اکرم الاکرمین و ارحم الراحمین	step	urn:sufi:rumi.mathnawi:4.b3494	urn:sufi:rumi.mathnawi:4.b3543	3494	3543	50
+4	133	حکایت آن زن پلیدکار کی شوهر را گفت کی آن خیالات از سر امرودبُن می‌نماید ترا کی چنین‌ها نماید چشم آدمی را سر آن امرودبن از سر امرود‌بن فرود آی تا آن خیال‌ها برود و اگر کسی گوید کی آنچ آن مرد  می‌دید خیال نبود و جواب این مثالی‌ست نه مثل در مثال همین  قدر بس بود کی اگر بر سر امرودبن نرفتی هرگز آنها ندیدی خواه خیال خواه حقیقت	tale	urn:sufi:rumi.mathnawi:4.b3544	urn:sufi:rumi.mathnawi:4.b3574	3544	3574	31
+4	134	باقی قصهٔ موسی علیه‌السلام	return	urn:sufi:rumi.mathnawi:4.b3575	urn:sufi:rumi.mathnawi:4.b3636	3575	3636	62
+4	135	اطوار و منازل خلقت آدمی از ابتدا	step	urn:sufi:rumi.mathnawi:4.b3637	urn:sufi:rumi.mathnawi:4.b3667	3637	3667	31
+4	136	بیان آنک خلق دوزخ گرسنگانند و نالانند به حق کی روزیهای ما را فربه گردان و زود زاد به ما رسان کی ما را صبر نماند	exposition	urn:sufi:rumi.mathnawi:4.b3668	urn:sufi:rumi.mathnawi:4.b3710	3668	3710	43
+4	137	رفتن ذوالقرنین به کوه قاف و درخواست کردن کی ای کوه قاف از عظمت صفت حق ما را بگو و گفتن کوه قاف کی صفت عظمت او در گفت نیاید  کی پیش آنها ادراکها فدا شود و لابه کردن ذوالقرنین کی از صنایعش کی در خاطر داری و بر تو گفتن آن آسان‌تر بود بگوی	step	urn:sufi:rumi.mathnawi:4.b3711	urn:sufi:rumi.mathnawi:4.b3720	3711	3720	10
+4	138	موری بر کاغذ می‌رفت نبشتن قلم دید  قلم را ستودن گرفت موری دیگر کی  چشم تیزتر بود گفت ستایش انگشتان  را کن کی آن هنر ازیشان می‌بینم  موری دگر کی از هر دو چشم روشن‌تر بود گفت من بازو را ستایم کی انگشتان فرع بازواند الی آخره	step	urn:sufi:rumi.mathnawi:4.b3721	urn:sufi:rumi.mathnawi:4.b3754	3721	3754	34
+4	139	نمودن جبرئیل علیه‌ السّلام خود را به مصطفی صلی‌الله علیه و  سلّم به صورت خویش و از هفتصد پر او چون یک پر ظاهر شد افق را  بگرفت و آفتاب محجوب شد با همهٔ شعاعش	step	urn:sufi:rumi.mathnawi:4.b3755	urn:sufi:rumi.mathnawi:4.b3855	3755	3855	100
+5	1	سر آغاز	step	urn:sufi:rumi.mathnawi:5.b0001	urn:sufi:rumi.mathnawi:5.b0030	1	30	30
+5	2	تفسیر خذ اربعة من الطیر فصرهن الیک	exposition	urn:sufi:rumi.mathnawi:5.b0031	urn:sufi:rumi.mathnawi:5.b0063	31	63	32
+5	3	در سبب ورود این حدیث مصطفی صلوات الله علیه که الکافر یأکل فی سبعة امعاء و المؤمن یأکل فی معا واحد	step	urn:sufi:rumi.mathnawi:5.b0064	urn:sufi:rumi.mathnawi:5.b0096	64	96	33
+5	4	در حجره گشادن مصطفی علیه‌السلام بر مهمان و خود را پنهان  کردن تا او خیال گشاینده را نبیند و خجل شود و گستاخ  بیرون رود	step	urn:sufi:rumi.mathnawi:5.b0097	urn:sufi:rumi.mathnawi:5.b0117	97	117	21
+5	5	سبب رجوع کردن آن مهمان به خانهٔ مصطفی علیه‌السلام در آن ساعت که مصطفی نهالین ملوث او را به دست خود می‌شست و خجل شدن او و جامه چاک کردن و نوحهٔ او بر خود و بر سعادت خود	exposition	urn:sufi:rumi.mathnawi:5.b0118	urn:sufi:rumi.mathnawi:5.b0167	118	167	50
+5	6	نواختن مصطفی علیه‌السلام آن عرب  مهمان را و تسکین دادن او را از اضطراب و گریه و نوحه کی بر خود می‌کرد در خجالت و ندامت و آتش نومیدی	step	urn:sufi:rumi.mathnawi:5.b0168	urn:sufi:rumi.mathnawi:5.b0182	168	182	15
+5	7	بیان آنک نماز و روزه و همه چیزهای برونی گواهیهاست بر نور اندرونی	exposition	urn:sufi:rumi.mathnawi:5.b0183	urn:sufi:rumi.mathnawi:5.b0199	183	199	17
+5	8	پاک کردن آب همه پلیدیها را و باز پاک کردن خدای تعالی آب را از پلیدی لاجرم قدوس آمد حق تعالی	step	urn:sufi:rumi.mathnawi:5.b0200	urn:sufi:rumi.mathnawi:5.b0216	200	216	17
+5	9	استعانت آب از حق جل جلاله بعد از تیره شدن	step	urn:sufi:rumi.mathnawi:5.b0217	urn:sufi:rumi.mathnawi:5.b0235	217	235	19
+5	10	گواهی فعل و قول بیرونی بر ضمیر و نور اندرونی	step	urn:sufi:rumi.mathnawi:5.b0236	urn:sufi:rumi.mathnawi:5.b0241	236	241	6
+5	11	در بیان آنک نور خود از اندرون شخص منوّر بی‌آنک فعلی و قولی بیان کند گواهی دهد بر نور وی؛ در بیان آنک آن‌ نور خود را از اندرون سرّ عارف ظاهر کند بر خلقان بی‌فعل عارف و بی‌قول عارف افزون از آنک به قول و فعل او ظاهر شود، چنانک آفتاب بلند شود بانگ خروس و اعلام مؤذن و علامات دیگر حاجت نیاید	exposition	urn:sufi:rumi.mathnawi:5.b0242	urn:sufi:rumi.mathnawi:5.b0260	242	260	19
+5	12	عرضه کردن مصطفی علیه‌السلام شهادت را بر مهمان خویش	step	urn:sufi:rumi.mathnawi:5.b0261	urn:sufi:rumi.mathnawi:5.b0287	261	287	27
+5	13	بیان آنک نور که غذای جانست غذای جسم اولیا می‌شود تا او هم یار می‌شود روح را کی اسلم شیطانی علی یدی	exposition	urn:sufi:rumi.mathnawi:5.b0288	urn:sufi:rumi.mathnawi:5.b0301	288	301	14
+5	14	انکار اهل تن غذای روح را و لرزیدن ایشان بر غذای خسیس	step	urn:sufi:rumi.mathnawi:5.b0302	urn:sufi:rumi.mathnawi:5.b0304	302	304	3
+5	15	مناجات	step	urn:sufi:rumi.mathnawi:5.b0305	urn:sufi:rumi.mathnawi:5.b0316	305	316	12
+5	16	تمثیل لوح محفوظ و ادراک عقل هر کسی از آن لوح آنک امر و قسمت و مقدور هر روزهٔ ویست هم چون ادراک جبرئیل علیه‌السلام  هر روزی از لوح اعظم  عقل مثال جبرئیلست و نظر او به تفکر به سوی غیبی که معهود اوست در  تفکر و اندیشهٔ کیفیت معاش و بیرون شو کارهای هر روزینه مانند نظر  جبرئیلست در لوح و فهم کردن او از لوح	tale	urn:sufi:rumi.mathnawi:5.b0317	urn:sufi:rumi.mathnawi:5.b0328	317	328	12
+5	17	تمثیل روشهای مختلف و همتهای گوناگون به اختلاف تحری  متحریان در وقت نماز قبله را در وقت تاریکی و تحری غواصان در  قعر بحر	tale	urn:sufi:rumi.mathnawi:5.b0329	urn:sufi:rumi.mathnawi:5.b0345	329	345	17
+5	18	تفسیر یا حسرة علی العباد	exposition	urn:sufi:rumi.mathnawi:5.b0346	urn:sufi:rumi.mathnawi:5.b0353	346	353	8
+5	19	سبب آنک فرجی را نام فرجی نهادند از اول	exposition	urn:sufi:rumi.mathnawi:5.b0354	urn:sufi:rumi.mathnawi:5.b0394	354	394	41
+5	20	صفت طاوس و طبع او و سبب کشتن ابراهیم علیه‌السلام او را	exposition	urn:sufi:rumi.mathnawi:5.b0395	urn:sufi:rumi.mathnawi:5.b0419	395	419	25
+5	21	در بیان آنک لطف حق را همه کس داند و قهر حق را همه کس داند و همه از قهر حق گریزانند و به لطف حق در آویزان اما حق تعالی قهرها را در لطف پنهان کرد و لطفها را در قهر پنهان کرد نعل بازگونه و تلبیس و مکر الله بود تا اهل تمیز و ینظر به نور الله از حالی‌بینان و ظاهربینان جدا شوند کی لِیَبْلُوَکُمْ أَیُّکُمْ أَحْسَنُ عَمَلاً	exposition	urn:sufi:rumi.mathnawi:5.b0420	urn:sufi:rumi.mathnawi:5.b0458	420	458	39
+5	22	تفاوت عقول در اصل فطرت خلاف معتزله کی ایشان گویند در اصل عقول جزوی برابرند این افزونی و  تفاوت از تعلم است و ریاضت و تجربه	step	urn:sufi:rumi.mathnawi:5.b0459	urn:sufi:rumi.mathnawi:5.b0476	459	476	18
+5	23	حکایت آن اعرابی کی سگ او از گرسنگی می‌مرد و انبان او پر نان و بر سگ نوحه می‌کرد و شعر می‌گفت و می‌گریست و سر و رو می‌زد و دریغش می‌آمد لقمه‌ای از انبان به سگ دادن	tale	urn:sufi:rumi.mathnawi:5.b0477	urn:sufi:rumi.mathnawi:5.b0497	477	497	21
+5	24	در بیان آنک هیچ چشم بدی آدمی را چنان مهلک نیست کی چشم پسند  خویشتن مگر کی چشم او مبدل شده باشد به نور حق که بی یسمع و بی یبصر و خویشتن او بی‌خویشتن شده	exposition	urn:sufi:rumi.mathnawi:5.b0498	urn:sufi:rumi.mathnawi:5.b0505	498	505	8
+5	25	تفسیر وَ إِنْ یَکادُ الَّذینَ کَفَروا لَیُزْلِقونَکَ بِأَبْصارِهِمْ الایه	exposition	urn:sufi:rumi.mathnawi:5.b0506	urn:sufi:rumi.mathnawi:5.b0535	506	535	30
+5	26	قصهٔ آن حکیم کی دید طاوسی را کی پر زیبای خود را می‌کند به منقار و می‌انداخت و تن خود را کل و زشت می‌کرد از تعجب پرسید کی دریغت نمی‌آید گفت می‌آید اما پیش من جان از پر عزیزتر است و این پر عدوی جان منست	tale	urn:sufi:rumi.mathnawi:5.b0536	urn:sufi:rumi.mathnawi:5.b0556	536	556	21
+5	27	در بیان آنک صفا و سادگی نفس مطمنه از فکرتها مشوش شود چنانک بر روی آینه چیزی نویسی یا نقش کنی اگر چه پاک کنی داغی بماند و نقصانی	exposition	urn:sufi:rumi.mathnawi:5.b0557	urn:sufi:rumi.mathnawi:5.b0573	557	573	17
+5	28	در بیان قول رسول علیه‌السلام لا رهبانیة فی‌الاسلام	exposition	urn:sufi:rumi.mathnawi:5.b0574	urn:sufi:rumi.mathnawi:5.b0585	574	585	12
+5	29	در بیان آنک ثواب عمل عاشق از حق هم حق است	exposition	urn:sufi:rumi.mathnawi:5.b0586	urn:sufi:rumi.mathnawi:5.b0603	586	603	18
+5	30	در تفسیر قول رسول علیه‌السلام ما مات من مات الا و تمنی ان یموت قبل ما مات ان کان برا لیکون الی وصول البر اعجل و ان کان فاجرا لیقل فجوره	exposition	urn:sufi:rumi.mathnawi:5.b0604	urn:sufi:rumi.mathnawi:5.b0619	604	619	16
+5	31	در بیان آنک عقل و روح در آب و گل محبوس‌اند هم‌چون هاروت و ماروت در چاه بابل	exposition	urn:sufi:rumi.mathnawi:5.b0620	urn:sufi:rumi.mathnawi:5.b0640	620	640	21
+5	32	جواب گفتن طاوس آن سایل را	step	urn:sufi:rumi.mathnawi:5.b0641	urn:sufi:rumi.mathnawi:5.b0647	641	647	7
+5	33	بیان آنک هنرها و زیرکی‌ها و مال دنیا هم‌چون پرهای طاوس عدو جانست	exposition	urn:sufi:rumi.mathnawi:5.b0648	urn:sufi:rumi.mathnawi:5.b0671	648	671	24
+5	34	در صفت آن بی‌خودان کی از شر خود و هنر خود آمن شده‌اند کی فانی‌اند  در بقای حق هم‌چون ستارگان کی  فانی‌اند روز در آفتاب و  فانی را خوف آفت و خطر نباشد	exposition	urn:sufi:rumi.mathnawi:5.b0672	urn:sufi:rumi.mathnawi:5.b0718	672	718	47
+5	35	در بیان آنک ما سوی الله هر چیزی آکل و ماکولست هم‌چون آن مرغی کی قصد صید ملخ می‌کرد و به صید ملخ مشغول می‌بود و غافل بود از باز گرسنه کی از پس قفای او قصد صید او داشت اکنون ای آدمی صیاد آکل از صیاد و آکل خود آمن مباش اگر چه نمی‌بینیش به نظر چشم به نظر دلیل و عبرتش می‌بین تا چشم نیز باز شدن	exposition	urn:sufi:rumi.mathnawi:5.b0719	urn:sufi:rumi.mathnawi:5.b0764	719	764	46
+5	36	صفت کشتن خلیل علیه‌السلام زاغ را کی آن اشارت به قمع کدام صفت بود از صفات مذمومهٔ مهلکه در مرید	exposition	urn:sufi:rumi.mathnawi:5.b0765	urn:sufi:rumi.mathnawi:5.b0779	765	779	15
+5	37	مناجات	step	urn:sufi:rumi.mathnawi:5.b0780	urn:sufi:rumi.mathnawi:5.b0822	780	822	43
+5	38	قال النبی علیه‌السلام ارحموا ثلاثا عزیز قوم ذل و غنی قوم افتقر و عالما یلعب به الجهال	step	urn:sufi:rumi.mathnawi:5.b0823	urn:sufi:rumi.mathnawi:5.b0832	823	832	10
+5	39	قصهٔ محبوس شدن آن آهوبچه در آخر خران و طعنهٔ آن خران ببر آن غریب گاه به جنگ و گاه به تسخر و مبتلی گشتن او به کاه خشک کی غذای او نیست و این صفت بندهٔ خاص خداست میان اهل دنیا و اهل هوا  و شهوت کی الاسلام بدا غریبا و سیعود غریبا فطوبی للغرباء  صدق رسول الله	tale	urn:sufi:rumi.mathnawi:5.b0833	urn:sufi:rumi.mathnawi:5.b0844	833	844	12
+5	40	حکایت محمد خوارزمشاه کی شهر سبزوار کی همه رافضی باشند به جنگ بگرفت اما جان خواستند گفت آنگه امان دهم کی ازین شهر پیش من به هدیه ابوبکر نامی بیارید	tale	urn:sufi:rumi.mathnawi:5.b0845	urn:sufi:rumi.mathnawi:5.b0907	845	907	63
+5	41	بقیهٔ قصهٔ آهو و آخر خران	return	urn:sufi:rumi.mathnawi:5.b0908	urn:sufi:rumi.mathnawi:5.b0931	908	931	24
+5	42	تفسیر انی اری سبع بقرات سمان یاکلهن سبع عجاف آن گاوان لاغر را خدا به صفت شیران گرسنه آفریده  بود تا آن هفت گاو فربه را  به اشتها می‌خوردند اگر چه  آن خیالات صور گاوان در آینهٔ خواب نمودند تو معنی بگیر	exposition	urn:sufi:rumi.mathnawi:5.b0932	urn:sufi:rumi.mathnawi:5.b0939	932	939	8
+5	43	بیان آنک کشتن خلیل علیه‌السلام خروس را اشارت به قمع و قهر کدام  صفت بود از صفات مذمومات مهلکان در باطن مرید	exposition	urn:sufi:rumi.mathnawi:5.b0940	urn:sufi:rumi.mathnawi:5.b0961	940	961	22
+5	44	تفسیر خلقنا الانسان فی احسن تقویم ثم رددناه اسفل سافلین و  تفسیر و من نعمره ننکسه فی الخلق	exposition	urn:sufi:rumi.mathnawi:5.b0962	urn:sufi:rumi.mathnawi:5.b0973	962	973	12
+5	45	تفسیر أَسْفَلَ سافِلینَ إِلَّا الَّذینَ آمَنوا وَ عَمِلُوا الصّالِحاتِ فَلَهُمْ أَجْرٌ غَیْرُ مَمْنونٍ	exposition	urn:sufi:rumi.mathnawi:5.b0974	urn:sufi:rumi.mathnawi:5.b1025	974	1025	52
+5	46	مثال عالم هست نیست‌نما و عالم نیست هست‌نما	tale	urn:sufi:rumi.mathnawi:5.b1026	urn:sufi:rumi.mathnawi:5.b1050	1026	1050	25
+5	47	در تفسیر قول مصطفی علیه‌السلام لا بد من قرین یدفن معک و هو حی و  تدفن معه و انت میت ان کان کریما اکرمک و ان کان لیما اسلمک و ذلک القرین عملک فاصلحه ما استطعت صدق رسول‌الله	exposition	urn:sufi:rumi.mathnawi:5.b1051	urn:sufi:rumi.mathnawi:5.b1072	1051	1072	22
+5	48	تفسیر وَ هُوَ مَعَکُمْ	exposition	urn:sufi:rumi.mathnawi:5.b1073	urn:sufi:rumi.mathnawi:5.b1083	1073	1083	11
+5	49	در تفسیر قول مصطفی علیه‌السلام من جعل الهموم هما واحدا کفاه الله سائر همومه و من تفرقت به الهموم لا یبالی الله فی ای واد اهلکه	exposition	urn:sufi:rumi.mathnawi:5.b1084	urn:sufi:rumi.mathnawi:5.b1104	1084	1104	21
+5	50	در معنی این بیت «گر راه روی راه برت بگشایند   ور نیست شوی بهستیت بگرایند»	exposition	urn:sufi:rumi.mathnawi:5.b1105	urn:sufi:rumi.mathnawi:5.b1118	1105	1118	14
+5	51	قصهٔ آن شخص کی دعوی پیغامبری می‌کرد گفتندش چه خورده‌ای کی گیج شده‌ای و یاوه می‌گویی گفت اگر چیزی یافتمی کی خوردمی نه گیج شدمی و نه یاوه گفتمی کی هر سخن نیک کی با غیر اهلش گویند یاوه گفته باشند اگر چه در آن یاوه گفتن مامورند	tale	urn:sufi:rumi.mathnawi:5.b1119	urn:sufi:rumi.mathnawi:5.b1148	1119	1148	30
+5	52	سبب عداوت عام و بیگانه زیستن ایشان به اولیاء خدا کی بحقشان می‌خوانند و با آب حیات ابدی	exposition	urn:sufi:rumi.mathnawi:5.b1149	urn:sufi:rumi.mathnawi:5.b1170	1149	1170	22
+5	53	در بیان آنک مرد بدکار چون متمکن شود در بدکاری و اثر دولت نیکوکاران ببیند شیطان شود و مانع خیر گردد از حسد هم‌چون شیطان کی خرمن سوخته همه را خرمن سوخته خواهد أَرَأَیْتَ الَّذي یَنْهی عَبْداً إِذا صَلّی	exposition	urn:sufi:rumi.mathnawi:5.b1171	urn:sufi:rumi.mathnawi:5.b1196	1171	1196	26
+5	54	مناجات	step	urn:sufi:rumi.mathnawi:5.b1197	urn:sufi:rumi.mathnawi:5.b1225	1197	1225	29
+5	55	پرسیدن آن پادشاه از آن مدعی نبوت کی آنک رسول راستین باشد و ثابت شود با او چه باشد کی کسی را بخشد یا به صحبت و خدمت او چه بخشش یابند غیر نصیحت به زبان کی می‌گوید	step	urn:sufi:rumi.mathnawi:5.b1226	urn:sufi:rumi.mathnawi:5.b1241	1226	1241	16
+5	56	داستان آن عاشق کی با معشوق خود برمی‌شمرد خدمتها و وفاهای خود را و شبهای دراز تتجافی جنوبهم عن المضاجع را و بی‌نوایی و جگر تشنگی روزهای دراز را و می‌گفت کی من جزین خدمت نمی‌دانم اگر خدمت دیگر هست مرا ارشاد کن کی هر چه فرمایی منقادم اگر در آتش رفتن است چون خلیل علیه‌السلام  و اگر در دهان نهنگ دریا فتادنست چون یونس علیه‌السلام و اگر هفتاد بار کشته شدن است چون جرجیس علیه‌السلام  و اگر از گریه نابینا شدن است چون شعیب علیه‌السلام و وفا و جانبازی انبیا را علیهم‌السلام شمار نیست و جواب گفتن معشوق او را	tale	urn:sufi:rumi.mathnawi:5.b1242	urn:sufi:rumi.mathnawi:5.b1264	1242	1264	23
+5	57	یکی پرسید از عالمی عارفی کی اگر در نماز کسی بگرید به آواز و آه کند و نوحه کند نمازش باطل شود جواب گفت کی نام آن آب دیده است تا آن گرینده چه دیده است اگر شوق خدا دیده است و می‌گرید یا پشیمانی گناهی نمازش تباه نشود بلک کمال گیرد کی لا صلوة الا بحضور القلب و اگر او رنجوری تن یا فراق فرزند دیده است نمازش تباه شود کی اصل نماز ترک تن است و ترک فرزند ابراهیم‌وار کی فرزند را قربان می‌کرد از بهر تکمیل نماز و تن را به آتش نمرود می‌سپرد و امر آمد مصطفی را علیه‌السلام  بدین خصال کی فاتبع ملة ابراهیم لقد کانت لکم اسوة حسنة فی‌ابراهیم	step	urn:sufi:rumi.mathnawi:5.b1265	urn:sufi:rumi.mathnawi:5.b1270	1265	1270	6
+5	58	مریدی در آمد به خدمت شیخ و ازین شیخ پیر سن نمی‌خواهم بلک پیرعقل و معرفت و اگرچه عیسیست علیه‌السلام در گهواره و یحیی است علیه‌السلام در مکتب کودکان مریدی شیخ را گریان دید او نیز موافقت کرد و گریست چون فارغ شد و به در آمد مریدی دیگر کی از حال شیخ واقف‌تر بود از سر غیرت در عقب او تیز بیرون آمد گفتش ای برادر من ترا گفته باشم الله الله تا نیندیشی و نگویی کی شیخ می‌گریست و من نیز می‌گریستم کی سی سال ریاضت بی‌ریا باید کرد و از عقبات و دریاهای پر نهنگ و کوههای بلند پر شیر و پلنگ می‌باید گذشت تا بدان گریهٔ شیخ رسی یا نرسی اگر رسی شکر زویت لی الارض گویی بسیار	step	urn:sufi:rumi.mathnawi:5.b1271	urn:sufi:rumi.mathnawi:5.b1332	1271	1332	62
+5	59	داستان آن کنیزک کی با خر خاتون شهوت می‌راند و او را چون بز و خرس آموخته بود شهوت راندن آدمیانه و کدویی در قضیب خر می‌کرد تا از اندازه نگذرد خاتون بر آن وقوف یافت لکن دقیقهٔ کدو را ندید کنیزک را به بهانه به راه کرد جای دور و با خر جمع شد بی‌کدو و  هلاک شد به فضیحت کنیزک بیگاه باز آمد و نوحه کرد که ای جانم و ای چشم روشنم کیر دیدی کدو ندیدی ذکر دیدی آن دگر ندیدی کل ناقص ملعون یعنی کل نظر و فهم ناقص ملعون و اگر نه ناقصان ظاهر  جسم مرحوم‌اند ملعون نه‌اند بر خوان لیس علی الاعمی حرج نفی حرج  کرد و نفی لعنت و نفی عتاب و غضب	tale	urn:sufi:rumi.mathnawi:5.b1333	urn:sufi:rumi.mathnawi:5.b1429	1333	1429	97
+5	60	تمثیل تلقین شیخ مریدان را و پیغامبر امت را کی ایشان طاقت تلقین حق ندارند و با حق‌الف ندارند چنانک طوطی با صورت آدمی الف ندارد کی ازو تلقین تواند گرفت حق تعالی شیخ را چون آیینه‌ای پیش مرید هم‌چو طوطی دارد و از پس آینه تلقین می‌کند لا تحرک به لسانک ان هو الا وحی یوحی اینست ابتدای مسلهٔ بی‌منتهی چنانک منقار جنبانیدن طوطی اندرون آینه کی خیالش می‌خوانی بی‌اختیار و تصرف اوست عکس خواندن طوطی برونی کی متعلمست نه عکس آن معلم کی پس آینه است و لیکن خواندن طوطی برونی تصرف آن معلم است پس این مثال آمد نه مثل	tale	urn:sufi:rumi.mathnawi:5.b1430	urn:sufi:rumi.mathnawi:5.b1444	1430	1444	15
+5	61	صاحب‌دلی دید سگ حامله در شکم آن سگ‌بچگان بانگ می‌کردند در تعجب ماند کی حکمت بانگ سگ پاسبانیست بانگ در اندرون شکم مادر پاسبانی نیست و نیز بانگ جهت یاری خواستن و شیر خواستن باشد و غیره و آنجا هیچ این فایده‌ها نیست چون به خویش آمد با حضرت مناجات کرد و ما یعلم تاویله الا الله جواب آمد کی آن صورت حال قومیست از حجاب بیرون نیامده و چشم دل باز ناشده دعوی بصیرت کنند و مقالات گویند از آن نی ایشان را قوتی و یاریی رسد و نه مستمعان را هدایتی  و رشدی	step	urn:sufi:rumi.mathnawi:5.b1445	urn:sufi:rumi.mathnawi:5.b1472	1445	1472	28
+5	62	قصهٔ اهل ضروان و حسد ایشان بر درویشان کی پدر ما از سلیمی اغلب دخل باغ را به مسکینان می‌داد چون انگور بودی عشر دادی و چون مویز و دوشاب شدی عشر دادی و چون حلوا و پالوده کردی عشر دادی و از قصیل عشر دادی و چون در خرمن می‌کوفتی از کفهٔ آمیخته عشر دادی و چون گندم از کاه جدا شدی عشر دادی و چون آرد کردی عشر دادی و چون خمیر کردی عشر دادی و چون نان کردی عشر دادی لاجرم حق تعالی در آن باغ و کشت برکتی نهاده بود کی همه اصحاب باغ‌ها محتاج او بدندی هم به میوه و هم به سیم و او محتاج هیچ کس نی ازیشان فرزندانشان خرج عشر می‌دیدند منکر و آن برکت را نمی‌دیدند هم‌چون آن زن بدبخت که کدو را ندید و خر را دید	tale	urn:sufi:rumi.mathnawi:5.b1473	urn:sufi:rumi.mathnawi:5.b1536	1473	1536	64
+5	63	بیان آنک عطای حق و قدرت موقوف قابلیت نیست هم‌چون داد خلقان کی آن را قابلیت باید  زیرا عطا قدیم است و قابلیت حادث عطا صفت حق است و قابلیت صفت مخلوق و قدیم موقوف حادث نباشد و اگر نه حدوث محال باشد	exposition	urn:sufi:rumi.mathnawi:5.b1537	urn:sufi:rumi.mathnawi:5.b1555	1537	1555	19
+5	64	در ابتدای خلقت جسم آدم علیه‌السلام  کی جبرئیل علیه‌السلام را اشارت کرد کی برو از زمین مشتی خاک برگیر و به روایتی از هر نواحی مشت مشت بر گیر	step	urn:sufi:rumi.mathnawi:5.b1556	urn:sufi:rumi.mathnawi:5.b1580	1556	1580	25
+5	65	فرستادن میکائیل را علیه‌السلام به قبض حفنه‌ای خاک از زمین جهت ترکیب ترتیب جسم مبارک ابوالبشر خلیفة  الحق مسجود الملک و معلمهم آدم علیه‌السلام	step	urn:sufi:rumi.mathnawi:5.b1581	urn:sufi:rumi.mathnawi:5.b1607	1581	1607	27
+5	66	قصهٔ قوم یونس علیه‌السلام بیان و برهان آنست کی تضرع و زاری دافع بلای آسمانیست و حق تعالی فاعل مختارست پس تضرع و تعظیم پیش او مفید باشد و فلاسفه گویند فاعل به طبع است و بعلت نه مختار پس تضرع طبع را نگرداند	tale	urn:sufi:rumi.mathnawi:5.b1608	urn:sufi:rumi.mathnawi:5.b1619	1608	1619	12
+5	67	فرستادن اسرافیل را علیه‌السلام به خاک کی حفنه‌ای بر گیر از  خاک بهر ترکیب جسم آدم علیه‌السلام	step	urn:sufi:rumi.mathnawi:5.b1620	urn:sufi:rumi.mathnawi:5.b1648	1620	1648	29
+5	68	فرستادن عزرائیل ملک العزم و الحزم را علیه‌السلام ببر گرفتن  حفنه‌ای خاک تا شود جسم آدم چالاک عیله‌السلام و الصلوة	step	urn:sufi:rumi.mathnawi:5.b1649	urn:sufi:rumi.mathnawi:5.b1682	1649	1682	34
+5	69	بیان آنک مخلوقی کی ترا ازو ظلمی رسد به حقیقت او هم‌چون  آلتیست عارف آن بود کی بحق رجوع کند نه به آلت و اگر به آلت رجوع  کند به ظاهر نه از جهل کند بلک برای مصلحتی چنانک ابایزید قدس  الله سره گفت کی چندین سالست کی من با مخلوق سخن نگفته‌ام و از مخلوق  سخن نشنیده‌ام ولیکن خلق چنین پندارند کی با ایشان سخن می‌گویم و ازیشان می‌شنوم زیرا ایشان مخاطب اکبر را نمی‌بینند کی ایشان چون صدااند او را نسبت به حال من التفات مستمع عاقل به صدا نباشد چنانک مثل است معروف قال الجدار للوتد لم تشقنی قال الوتد انظر الی من یدقنی	exposition	urn:sufi:rumi.mathnawi:5.b1683	urn:sufi:rumi.mathnawi:5.b1709	1683	1709	27
+5	70	جواب آمدن کی آنک نظر او بر اسباب و مرض و زخم تیغ نیاید بر کار تو عزرائیل هم نیاید کی تو هم سببی اگر چه مخفی‌تری از آن سببها و بود کی بر آن رنجور مخفی نباشد کی و هو اقرب الیه منکم و لکن لا تبصرون	step	urn:sufi:rumi.mathnawi:5.b1710	urn:sufi:rumi.mathnawi:5.b1742	1710	1742	33
+5	71	در بیان وخامت چرب و شیرین دنیا و مانع شدن او از طعام الله چنانک فرمود الجوع طعام الله یحیی به ابدان الصدیقین ای فی الجوع طعام الله و قوله ابیت عند ربی یطعمنی و یسقینی و قوله  یرزقون فرحین	exposition	urn:sufi:rumi.mathnawi:5.b1743	urn:sufi:rumi.mathnawi:5.b1759	1743	1759	17
+5	72	جواب آن مغفل کی گفته است کی خوش بودی این جهان اگر مرگ نبودی وخوش بودی ملک دنیا اگر زوالش نبودی و علی هذه  الوتیرة من الفشارات	step	urn:sufi:rumi.mathnawi:5.b1760	urn:sufi:rumi.mathnawi:5.b1771	1760	1771	12
+5	73	فیما یرجی من رحمة الله تعالی معطی النعم قبل استحقاقها و  هو الذی ینزل الغیث من بعد ما قنطوا و رب بعد یورث قربا و رب  معصیة میمونة و رب سعادة تاتی من حیث یرجی النقم لیعلم ان الله یبدل سیاتهم حسنات	step	urn:sufi:rumi.mathnawi:5.b1772	urn:sufi:rumi.mathnawi:5.b1856	1772	1856	85
+5	74	قصهٔ ایاز و حجره داشتن او جهت چارق و پوستین و گمان آمدن خواجه تاشانش را کی او را در آن حجره دفینه است به سبب  محکمی در و گرانی قفل	tale	urn:sufi:rumi.mathnawi:5.b1857	urn:sufi:rumi.mathnawi:5.b1891	1857	1891	35
+5	75	بیان آنک آنچ بیان کرده می‌شود صورت قصه است وانگه آن صورتیست کی در خورد این صورت گیرانست و درخورد آینهٔ تصویر ایشان و از قدوسیتی کی حقیقت این قصه راست نطق را ازین تنزیل شرم می‌آید و از خجالت سر و ریش و قلم گم می‌کند و العاقل یکفیه الاشاره	exposition	urn:sufi:rumi.mathnawi:5.b1892	urn:sufi:rumi.mathnawi:5.b1917	1892	1917	26
+5	76	حکمت نظر کردن در چارق و پوستین کی فلینظر الانسان مم خلق	exposition	urn:sufi:rumi.mathnawi:5.b1918	urn:sufi:rumi.mathnawi:5.b1926	1918	1926	9
+5	77	خلق الجان من مارج من نار و قوله تعالی فی حق ابلیس انه  کان من الجن ففسق	step	urn:sufi:rumi.mathnawi:5.b1927	urn:sufi:rumi.mathnawi:5.b1973	1927	1973	47
+5	78	در معنی این کی ارنا الاشیاء کما هی و معنی این کی لو کشف الغطاء ما از ددت یقینا و قوله  در هر که تو از دیدهٔ بد می‌نگری  از چنبرهٔ وجود خود می‌نگری  پایهٔ کژ کژ افکند سایه	exposition	urn:sufi:rumi.mathnawi:5.b1974	urn:sufi:rumi.mathnawi:5.b1998	1974	1998	25
+5	79	بیان اتحاد عاشق و معشوق از روی حقیقت اگر چه متضادند  از روی آنک نیاز ضد بی‌نیازیست چنان که آینه بی‌صورتست و  ساده است و بی‌صورتی ضد صورتست ولکن میان ایشان اتحادیست  در حقیقت کی شرح آن درازست و العاقل یکفیه الاشاره	exposition	urn:sufi:rumi.mathnawi:5.b1999	urn:sufi:rumi.mathnawi:5.b2019	1999	2019	21
+5	80	معشوقی از عاشق پرسید کی خود را دوست‌تر داری یا مرا  گفت من از خود مرده‌ام و به تو زنده‌ام از خود و از صفات خود نیست  شده‌ام و به تو هست شده‌ام علم خود را فراموش کرده‌ام و از علم تو  عالم شده‌ام قدرت خود را از یاد داده‌ام و از قدرت تو قادر شده‌ام اگر خود را دوست دارم ترا دوست داشته باشم و اگر ترا دوست دارم  خود را دوست داشته باشم  هر که را آینهٔ یقین باشد  گرچه خود بین خدای بین باشد  اخرج به صفاتی الی خلقی من رآک رآنی و من قصدک قصدنی و علی هذا	step	urn:sufi:rumi.mathnawi:5.b2020	urn:sufi:rumi.mathnawi:5.b2049	2020	2049	30
+5	81	آمدن آن امیر نمام با سرهنگان نیم‌شب بگشادن آن حجرهٔ ایاز و پوستین و چارق دیدن آویخته و گمان بردن کی آن مکرست و روپوش و خانه را حفره کردن بهر گوشه‌ای کی گمان آمد چاه کنان  آوردن و دیوارها را سوراخ کردن و  چیزی نایافتن و خجل و نومید  شدن چنانک بدگمانان و خیال‌اندیشان در کار انبیا و اولیا کی  می‌گفتند کی ساحرند و خویشتن ساخته‌اند و تصدر می‌جویند بعد  از تفحص خجل شوند و سود ندارد	step	urn:sufi:rumi.mathnawi:5.b2050	urn:sufi:rumi.mathnawi:5.b2079	2050	2079	29
+5	82	بازگشتن نمامان از حجرهٔ ایاز به سوی شاه توبره تهی و خجل هم‌چون بدگمانان در حق انبیا علیهم‌السلام بر وقت ظهور برائت و پاکی ایشان کی یوم تبیض وجوه و تسود وجوه و قوله تری الذین کذبوا علی الله وجوههم مسودة	return	urn:sufi:rumi.mathnawi:5.b2080	urn:sufi:rumi.mathnawi:5.b2093	2080	2093	14
+5	83	حواله کردن پادشاه قبول و توبهٔ نمامان و حجره گشایان و سزا دادن ایشان با ایاز کی یعنی این جنایت بر عرض او رفته است	step	urn:sufi:rumi.mathnawi:5.b2094	urn:sufi:rumi.mathnawi:5.b2108	2094	2108	15
+5	84	فرمودن شاه ایاز را کی اختیار کن از عفو و مکافات کی از عدل و لطف هر چه کنی اینجا صوابست و در هر یکی مصلحتهاست کی در عدل هزار لطف هست درج و لکم فی القصاص حیوة آنکس کی کراهت می‌دارد قصاص را درین یک حیات قاتل نظر می‌کند و در صد هزار حیات کی معصوم و محقون خواهند شدن در حصن بیم سیاست نمی‌نگرد	step	urn:sufi:rumi.mathnawi:5.b2109	urn:sufi:rumi.mathnawi:5.b2133	2109	2133	25
+5	85	تعجیل فرمودن پادشاه ایاز را کی زود این حکم را به فیصل رسان و منتظر مدار و ‌«ایام بیننا‌» مگو کی ‌«الانتظار موت الاحمر‌»‌، و جواب گفتن ایاز شاه را	step	urn:sufi:rumi.mathnawi:5.b2134	urn:sufi:rumi.mathnawi:5.b2149	2134	2149	16
+5	86	حکایت در تقریر این سخن کی چندین گاه گفت ذکر را آزمودیم مدتی صبر و خاموشی را بیازماییم	tale	urn:sufi:rumi.mathnawi:5.b2150	urn:sufi:rumi.mathnawi:5.b2162	2150	2162	13
+5	87	در بیان کسی کی سخنی گوید کی حال او مناسب آن سخن و آن دعوی نباشد چنان که کفره و لَئِنْ سَأَلْتَهُمْ مَنْ خَلَقَ السَّمواتِ وَ الأَرْضَ لَیَقولُنَّ اللهُ خدمت بت سنگین کردن و جان و زر فدای او کردن چه مناسب باشد با جانی کی داند کی خالق سموات و ارض و خلایق الهیست سمیعی بصیری حاضری مراقبی مستولی غیوری الی آخره	exposition	urn:sufi:rumi.mathnawi:5.b2163	urn:sufi:rumi.mathnawi:5.b2227	2163	2227	65
+5	88	حکایت در بیان توبهٔ نصوح کی چنانک شیر از پستان بیرون آید باز در پستان نرود آنک توبه نصوحی کرد هرگز از آن گناه یاد نکند به طریق رغبت بلک هر دم نفرتش افزون باشد و آن نفرت دلیل آن بود  کی لذت قبول یافت آن شهوت اول بی‌لذت شد این به جای آن نشست نبرد عشق را جز عشق دیگر  چرا یاری نجویی زو نکوتر وانک دلش باز بدان گناه رغبت می‌کند علامت آنست کی لذت قبول نیافته است و لذت قبول به جای آن لذت گناه ننشسته است سنیسره للیسری نشده است لذت و نیسره للعسری باقیست بر وی	tale	urn:sufi:rumi.mathnawi:5.b2228	urn:sufi:rumi.mathnawi:5.b2241	2228	2241	14
+5	89	در بیان آنک دعای عارف واصل و درخواست او از حق هم‌چو درخواست حقست از خویشتن کی کنت له سمعا و بصرا و لسانا و یدا و قوله و ما رمیت اذ رمیت و لکن الله رمی و آیات و اخبار و آثار درین بسیارست و شرح سبب ساختن حق تا مجرم را گوش گرفته بتوبهٔ نصوح آورد	exposition	urn:sufi:rumi.mathnawi:5.b2242	urn:sufi:rumi.mathnawi:5.b2272	2242	2272	31
+5	90	نوبت جستن رسیدن به نصوح و آواز آمدن که همه را جستیم نصوح را بجویید و بیهوش شدن نصوح از آن هیبت و گشاده شدن کار بعد از نهایت بستگی کماکان یقول رسول الله صلی الله علیه و سلم اذا اصابه مرض او هم اشتدی ازمة تنفرجی	step	urn:sufi:rumi.mathnawi:5.b2273	urn:sufi:rumi.mathnawi:5.b2286	2273	2286	14
+5	91	یافته شدن گوهر و حلالی خواستن حاجبکان و کنیزکانِ شاه‌زاده از نصوح	step	urn:sufi:rumi.mathnawi:5.b2287	urn:sufi:rumi.mathnawi:5.b2316	2287	2316	30
+5	92	باز خواندن شه‌زاده نصوح را از بهر دلاکی بعد از استحکام توبه و قبول توبه و بهانه کردن او و دفع گفتن	step	urn:sufi:rumi.mathnawi:5.b2317	urn:sufi:rumi.mathnawi:5.b2325	2317	2325	9
+5	93	حکایت در بیان آنک کسی توبه کند و پشیمان شود و باز آن پشیمانیها را فراموش کند و آزموده را باز آزماید در خسارت ابد افتد چون توبهٔ او را ثباتی و قوتی و حلاوتی و قبولی مدد نرسد چون درخت بی‌بیخ هر روز زردتر و خشک‌تر نعوذ بالله	tale	urn:sufi:rumi.mathnawi:5.b2326	urn:sufi:rumi.mathnawi:5.b2338	2326	2338	13
+5	94	تشبیه کردن قطب کی عارف واصلست در اجری دادن خلق از قوت مغفرت و رحمت بر مراتبی کی حقش الهام دهد و تمثیل به شیر که دد اجری خوار و باقی خوار ویند بر مراتب قرب ایشان بشیر نه قرب مکانی بلک قرب صفتی و تفاصیل این بسیارست  والله الهادی	step	urn:sufi:rumi.mathnawi:5.b2339	urn:sufi:rumi.mathnawi:5.b2360	2339	2360	22
+5	95	حکایت دیدن خر هیزم‌فروش با نوایی اسپان تازی را بر آخر  خاص و تمنا بردن آن دولت را در موعظهٔ آنک تمنا نباید بردن الا  مغفرت و عنایت و هدایت کی اگر در صد لون رنجی چون لذت  مغفرت بود همه شیرین شود باقی هر دولتی کی آن را ناآزموده تمنی  می‌بری با آن رنجی قرینست کی آن را نمی‌بینی چنانک از هر دامی  دانه پیدا بود و فخ پنهان تو درین یک دام مانده‌ای تمنی می‌بری کی  کاشکی با آن دانه‌ها رفتمی پنداری کی آن دانه‌ها بی‌دامست	tale	urn:sufi:rumi.mathnawi:5.b2361	urn:sufi:rumi.mathnawi:5.b2381	2361	2381	21
+5	96	ناپسندیدن روباه گفتن خر را کی من راضیم به قسمت	step	urn:sufi:rumi.mathnawi:5.b2382	urn:sufi:rumi.mathnawi:5.b2387	2382	2387	6
+5	97	جواب گفتن خر روباه را	step	urn:sufi:rumi.mathnawi:5.b2388	urn:sufi:rumi.mathnawi:5.b2392	2388	2392	5
+5	98	جواب گفتن روبه خر را	step	urn:sufi:rumi.mathnawi:5.b2393	urn:sufi:rumi.mathnawi:5.b2396	2393	2396	4
+5	99	جواب گفتن خر روباه را	step	urn:sufi:rumi.mathnawi:5.b2397	urn:sufi:rumi.mathnawi:5.b2400	2397	2400	4
+5	100	در تقریر معنی توکل حکایت آن زاهد کی توکل را امتحان می‌کرد از میان اسباب و شهر برون آمد و از قوارع و ره‌گذر خلق دور  شد و ببن کوهی مهجوری مفقودی در غایت گرسنگی سر بر سر سنگی  نهاد و خفت و با خود گفت توکل کردم بر سبب‌سازی و رزاقی تو و از اسباب منقطع شدم تا ببینم سببیت توکل را	step	urn:sufi:rumi.mathnawi:5.b2401	urn:sufi:rumi.mathnawi:5.b2418	2401	2418	18
+5	101	جواب دادن روبه خر را و تحریض کردن او خر را بر کسب	step	urn:sufi:rumi.mathnawi:5.b2419	urn:sufi:rumi.mathnawi:5.b2424	2419	2424	6
+5	102	جواب گفتن خر روباه را کی توکل بهترین کسبهاست کی هر  کسبی محتاجست به توکل کی ای خدا این کار مرا راست آر و دعا  متضمن توکلست و توکل کسبی است کی به هیچ کسبی دیگر محتاج  نیست الی آخره	step	urn:sufi:rumi.mathnawi:5.b2425	urn:sufi:rumi.mathnawi:5.b2439	2425	2439	15
+5	103	مثل آوردن اشتر در بیان آنک در مخبر دولتی فر و اثر آن  چون نبینی جای متهم داشتن باشد کی او مقلدست در آن	tale	urn:sufi:rumi.mathnawi:5.b2440	urn:sufi:rumi.mathnawi:5.b2483	2440	2483	44
+5	104	فرق میان دعوت شیخ کامل واصل و میان سخن ناقصان  فاضل فضل تحصیلی بر بسته	exposition	urn:sufi:rumi.mathnawi:5.b2484	urn:sufi:rumi.mathnawi:5.b2496	2484	2496	13
+5	105	حکایت آن مخنث و پرسیدن لوطی ازو در حالت لواطه کی این خنجر از بهر چیست گفت از برای آنک هر کی با من بد اندیشد  اشکمش بشکافم لوطی بر سر او آمد شد می‌کرد و می‌گفت الحمدلله کی من بد نمی‌اندیشم با تو «بیت من بیت نیست اقلیمست  هزل من هزل نیست تعلیمست» ان الله لایستحیی ان یضرب مثلا ما بعوضة فما فوقها ای فما فوقها فی تغییر النفوس بالانکار ان ما ذا اراد الله بهذا مثلا و آنگه جواب می‌فرماید کی این خواستم یضل به کثیرا و یهدی به کثیرا کی هر فتنه‌ای هم‌چون  میزانست بسیاران ازو سرخ‌رو شوند و بسیاران بی‌مراد شوند و لو  تاملت فیه قلیلا وجدت من نتایجه الشریفة کثیرا	tale	urn:sufi:rumi.mathnawi:5.b2497	urn:sufi:rumi.mathnawi:5.b2515	2497	2515	19
+5	106	غالب شدن حیلهٔ روباه بر استعصام و تعفف خر و کشیدن روبه خر را سوی شیر به بیشه	step	urn:sufi:rumi.mathnawi:5.b2516	urn:sufi:rumi.mathnawi:5.b2537	2516	2537	21
+5	107	حکایت آن شخص کی از ترس خویشتن را در خانه‌ای انداخت رخ زرد چون زعفران لبها کبود چون نیل دست لرزان چون برگ درخت خداوند خانه پرسید کی خیرست چه واقعه است گفت بیرون خر می‌گیرند به سخره گفت مبارک خر می‌گیرند تو خر نیستی چه می‌ترسی گفت خر به جد می‌گیرند تمییز برخاسته است امروز ترسم کی مرا خر گیرند	tale	urn:sufi:rumi.mathnawi:5.b2538	urn:sufi:rumi.mathnawi:5.b2563	2538	2563	26
+5	108	بردن روبه خر را پیش شیر و جستن خر از شیر و عتاب کردن روباه با شیر کی هنوز خر دور بود تعجیل کردی و عذر گفتن  شیر و لابه کردن روبه را شیر کی برو بار دگرش به فریب	step	urn:sufi:rumi.mathnawi:5.b2564	urn:sufi:rumi.mathnawi:5.b2590	2564	2590	27
+5	109	در بیان آنک نقض عهد و توبه موجب بلا بود بلک موجب  مسخ است چنانک در حق اصحاب سبت و در حق اصحاب مایدهٔ  عیسی و جعل منهم القردة و الخنازیر و اندرین امت مسخ دل باشد و به قیامت تن را صورت دل دهند نعوذ بالله	exposition	urn:sufi:rumi.mathnawi:5.b2591	urn:sufi:rumi.mathnawi:5.b2599	2591	2599	9
+5	110	دوم بار آمدن روبه بر این خر گریخته تا باز بفریبدش	step	urn:sufi:rumi.mathnawi:5.b2600	urn:sufi:rumi.mathnawi:5.b2619	2600	2619	20
+5	111	جواب گفتن خر روباه را	step	urn:sufi:rumi.mathnawi:5.b2620	urn:sufi:rumi.mathnawi:5.b2639	2620	2639	20
+5	112	جواب گفتن روبه خر را	step	urn:sufi:rumi.mathnawi:5.b2640	urn:sufi:rumi.mathnawi:5.b2666	2640	2666	27
+5	113	حکایت شیخ محمد سررزی غزنوی قدس الله سره	tale	urn:sufi:rumi.mathnawi:5.b2667	urn:sufi:rumi.mathnawi:5.b2685	2667	2685	19
+5	114	آمدن شیخ بعد از چندین سال از بیابان به شهر غزنین و  زنبیل گردانیدن به اشارت غیبی و تفرقه کردن آنچ جمع آید بر فقرا  هر که را جان عز لبیکست  نامه بر نامه پیک بر پیکست  چنانک روزن خانه باز باشد آفتاب و ماهتاب و باران و نامه و غیره  منقطع نباشد	step	urn:sufi:rumi.mathnawi:5.b2686	urn:sufi:rumi.mathnawi:5.b2733	2686	2733	48
+5	115	در معنی لَوْلاکَ لَما خَلَقْتُ الأَفْلاکَ	exposition	urn:sufi:rumi.mathnawi:5.b2734	urn:sufi:rumi.mathnawi:5.b2748	2734	2748	15
+5	116	رفتن این شیخ در خانهٔ امیری بهر کدیه روزی چهار بار به زنبیل به اشارت غیب و عتاب کردن امیر او را بدان وقاحت و عذر  گفتن او امیر را	step	urn:sufi:rumi.mathnawi:5.b2749	urn:sufi:rumi.mathnawi:5.b2771	2749	2771	23
+5	117	گریان شدن امیر از نصیحت شیخ و عکس صدق او و ایثار کردن مخزن بعد از آن گستاخی و استعصام شیخ و قبول ناکردن و گفتن کی من بی‌اشارت نیارم تصرفی کردن	step	urn:sufi:rumi.mathnawi:5.b2772	urn:sufi:rumi.mathnawi:5.b2785	2772	2785	13
+5	118	اشارت آمدن از غیب به شیخ کی این دو سال به فرمان ما بستدی و بدادی بعد ازین بده و مستان دست در زیر حصیر می‌کن کی آن را چون  انبان بوهریره کردیم در حق تو هر چه خواهی بیابی تا یقین شود عالمیان  را کی ورای این عالمیست کی خاک به کف گیری زر شود مرده درو آید  زنده شود نحس اکبر در وی آید سعد اکبر شود کفر درو آید ایمان گردد  زهر درو آید تریاق شود نه داخل این  عالمست و نه خارج این عالم نه  تحت و نه فوق نه متصل نه منفصل بی‌چون و بی چگونه هر دم ازو  هزاران اثر و نمونه ظاهر می‌شود چنانک صنعت دست با صورت دست و  غمزهٔ چشم با صورت چشم و فصاحت زبان با صورت زبان نه داخلست  و نه خارج او نه متصل و نه منفصل والعاقل تکفیه الاشارة	step	urn:sufi:rumi.mathnawi:5.b2786	urn:sufi:rumi.mathnawi:5.b2798	2786	2798	12
+5	119	دانستن شیخ ضمیر سایل را بی گفتن و دانستن قدر وام وام‌داران  بی گفتن کی نشان آن باشد کی اخرج به صفاتی الی خلقی	step	urn:sufi:rumi.mathnawi:5.b2799	urn:sufi:rumi.mathnawi:5.b2811	2799	2811	13
+5	120	سبب دانستن ضمیرهای خلق	exposition	urn:sufi:rumi.mathnawi:5.b2812	urn:sufi:rumi.mathnawi:5.b2816	2812	2816	5
+5	121	غالب شدن مکر روبه بر استعصام خر	step	urn:sufi:rumi.mathnawi:5.b2817	urn:sufi:rumi.mathnawi:5.b2831	2817	2831	15
+5	122	در بیان فضیلت احتما و جوع	exposition	urn:sufi:rumi.mathnawi:5.b2832	urn:sufi:rumi.mathnawi:5.b2833	2832	2833	2
+5	123	مثل	tale	urn:sufi:rumi.mathnawi:5.b2834	urn:sufi:rumi.mathnawi:5.b2840	2834	2840	7
+5	124	حکایت مریدی کی شیخ از حرص و ضمیر او واقف شد او را نصیحت کرد به زبان و در ضمن نصیحت قوت توکل بخشیدش به امر حق	tale	urn:sufi:rumi.mathnawi:5.b2841	urn:sufi:rumi.mathnawi:5.b2854	2841	2854	14
+5	125	حکایت آن گاو کی تنها در جزیره‌ای‌ست بزرگ، حق تعالی آن جزیرهٔ بزرگ را پر کند از نبات و ریاحین کی علفِ گاو باشد. تا به شب آن گاو همه را بخورَد و فربه شود چون کوه پاره‌ای. چون شب شود خوابش نبرَد از غصه و خوف کی همه صحرا را چریدم فردا چه خورم تا ازین غصه لاغر شود. هم‌چون خلال روز برخیزد  همه صحرا را سبزتر و انبوه‌تر بیند از دی؛ باز بخورَد و فربه شود باز شبش همان غم بگیرد سالهاست کی او هم‌چنین می‌بیند و اعتماد نمی‌کند	tale	urn:sufi:rumi.mathnawi:5.b2855	urn:sufi:rumi.mathnawi:5.b2869	2855	2869	15
+5	126	صید کردن شیر آن خر را و تشنه  شدن شیر از کوشش، رفت به چشمه تا آب خورد تا باز آمدنِ شیر جگربند و دل و گرده را روباه خورده بود کی لطیفترست، شیر طلب کرد دل و جگر نیافت از روبه پرسید کی کو دل و جگر؟ روبه گفت اگر او  را دل و جگر بودی آنچنان  سیاستی دیده بود آن روز و به هزار حیله جان برده؛ کی برِ تو باز آمدی؟ لوکنا نسمع او نعقل ماکنا فی اصحاب السعیر	step	urn:sufi:rumi.mathnawi:5.b2870	urn:sufi:rumi.mathnawi:5.b2886	2870	2886	17
+5	127	حکایت آن راهب که روز با چراغ می‌گشت در میان بازار از  سَرِ حالتی کی او را بود	tale	urn:sufi:rumi.mathnawi:5.b2887	urn:sufi:rumi.mathnawi:5.b2911	2887	2911	25
+5	128	دعوت کردن مسلمان مغ را	step	urn:sufi:rumi.mathnawi:5.b2912	urn:sufi:rumi.mathnawi:5.b2936	2912	2936	24
+5	129	مثل شیطان بر در رحمان	tale	urn:sufi:rumi.mathnawi:5.b2937	urn:sufi:rumi.mathnawi:5.b2962	2937	2962	26
+5	130	جواب گفتن مؤمن سُنّی، کافر جبری  را و در اثبات اختیار بنده دلیل گفتن سنّت راهی باشد کوفتهٔ اقدام انبیا علیهم‌السلام بر یمین آن راه بیابان جبر کی خود را اختیار نبیند و امر و نهی را منکر شود و تاویل کند و از منکر شدن امر و نهی لازم آید انکار بهشت کی جزای مطیعان امرست و دوزخ جزای مخالفان امر و دیگر نگویم به چه انجامد کی العاقل تکفیه الاشاره و بر یسار آن راه بیابان قدرست کی قدرت خالق را مغلوب قدرت خلق داند و از آن آن فسادها زاید کی آن مغ جبری بر می‌شمرد	step	urn:sufi:rumi.mathnawi:5.b2963	urn:sufi:rumi.mathnawi:5.b3021	2963	3021	59
+5	131	درک وجدانی چون اختیار و اضطرار و خشم و اصطبار و سیری و ناهار به جای حس است کی زرد از سرخ بداند و فرق کند و خرد از بزرگ و طلخ از شیرین و مشک از سرگین و درشت از نرم به حس مس و گرم از سرد و سوزان از شیر گرم و تر از خشک و مس دیوار از مس درخت پس منکر وجدانی منکر حس باشد و زیاده که وجدانی از حس ظاهرترست زیرا حس را توان بستن و منع کردن از احساس و بستن راه و مدخل وجدانیات را ممکن نیست و العاقل تکفیه الاشارة	step	urn:sufi:rumi.mathnawi:5.b3022	urn:sufi:rumi.mathnawi:5.b3057	3022	3057	36
+5	132	حکایت هم در بیان تقریر اختیار خلق و بیان آنک تقدیر و قضا سلب کنندهٔ اختیار نیست	tale	urn:sufi:rumi.mathnawi:5.b3058	urn:sufi:rumi.mathnawi:5.b3076	3058	3076	19
+5	133	حکایت هم در جواب جبری و اثبات اختیار و صحت امر و نهی و بیان آنک عذر جبری در هیچ ملتی و در هیچ دینی مقبول نیست و موجب خلاص نیست از سزای آن کار  کی کرده است چنانک خلاص نیافت ابلیس جبری بدان کی گفت بما اغویتنی والقلیل یدل علی الکثیر	tale	urn:sufi:rumi.mathnawi:5.b3077	urn:sufi:rumi.mathnawi:5.b3110	3077	3110	34
+5	134	معنی ما شاء الله کان یعنی خواست خواست او و رضا رضای او جویید از خشم دیگران و رد دیگران دلتنگ مباشید آن کان اگر چه لفظ ماضیست لیکن در فعل خدا ماضی و مستقبل نباشد کی لیس  عند الله صباح و لا مساء	exposition	urn:sufi:rumi.mathnawi:5.b3111	urn:sufi:rumi.mathnawi:5.b3130	3111	3130	20
+5	135	و هم‌چنین قد جف القلم یعنی جف القلم و کتب لا یستوی الطاعة والمعصیة لا یستوی الامانة و السرقة جف القلم ان لا یستوی الشکر و الکفران جف القلم ان الله لا یضیع اجر المحسنین	step	urn:sufi:rumi.mathnawi:5.b3131	urn:sufi:rumi.mathnawi:5.b3164	3131	3164	34
+5	136	حکایت آن درویش کی در هری غلامان آراستهٔ عمید خراسان را دید و بر اسبان تازی و قباهای زربفت و کلاهای مغرق و غیر آن پرسید کی اینها کدام امیرانند و چه شاهانند گفت او را کی اینها امیران نیستند اینها غلامان عمید خراسانند روی به آسمان  کرد کی ای خدا غلام پروردن از عمید  بیاموز آنجا مستوفی را عمید گویند	tale	urn:sufi:rumi.mathnawi:5.b3165	urn:sufi:rumi.mathnawi:5.b3209	3165	3209	45
+5	137	باز جواب گفتن آن کافر جبری آن سنی را کی باسلامش دعوت می‌کرد و به ترک اعتقاد جبرش دعوت می‌کرد و دراز شدن  مناظره از طرفین کی مادهٔ اشکال و جواب را نبرد الا عشق حقیقی کی او را پروای آن نماند و ذلک فضل الله یتیه من یشاء	step	urn:sufi:rumi.mathnawi:5.b3210	urn:sufi:rumi.mathnawi:5.b3250	3210	3250	41
+5	138	پرسیدن پادشاه قاصدا ایاز را کی چندین غم و شادی با چارق و پوستین کی جمادست می‌گویی تا ایاز را در سخن آورد	step	urn:sufi:rumi.mathnawi:5.b3251	urn:sufi:rumi.mathnawi:5.b3285	3251	3285	35
+5	139	گفتن خویشاوندان مجنون را کی حسن لیلی باندازه‌ایست چندان نیست ازو نغزتر در شهر ما بسیارست یکی و دو و ده بر تو عرضه کنیم اختیار کن ما را و خود را وا رهان و جواب گفتن مجنون ایشان را	step	urn:sufi:rumi.mathnawi:5.b3286	urn:sufi:rumi.mathnawi:5.b3324	3286	3324	39
+5	140	حکایت جوحی کی چادر پوشید و در وعظ میان زنان نشست  و حرکتی کرد زنی او را بشناخت کی مردست نعره‌ای زد	tale	urn:sufi:rumi.mathnawi:5.b3325	urn:sufi:rumi.mathnawi:5.b3350	3325	3350	26
+5	141	فرمودن شاه به ایاز بار دگر کی شرح چارق و پوستین آشکارا بگو تا خواجه‌تاشانت از آن اشارت پند گیرد کی الدین النصیحة و موعظه یابند	step	urn:sufi:rumi.mathnawi:5.b3351	urn:sufi:rumi.mathnawi:5.b3355	3351	3355	5
+5	142	حکایت کافری کی گفتندش در عهد ابا یزید کی مسلمان شو و جواب گفتن او ایشان را	tale	urn:sufi:rumi.mathnawi:5.b3356	urn:sufi:rumi.mathnawi:5.b3366	3356	3366	11
+5	143	حکایت آن مؤذن زشت آواز کی در کافرستان بانگ نماز داد و مرد کافری او را هدیه داد	tale	urn:sufi:rumi.mathnawi:5.b3367	urn:sufi:rumi.mathnawi:5.b3408	3367	3408	42
+5	144	حکایت آن زن کی گفت شوهر را کی گوشت را گربه خورد شوهر گربه را به ترازو بر کشید گربه نیم من برآمد گفت ای زن گوشت نیم من بود و افزون اگر این گوشتست گربه کو و اگر این گربه است گوشت کو	tale	urn:sufi:rumi.mathnawi:5.b3409	urn:sufi:rumi.mathnawi:5.b3438	3409	3438	30
+5	145	حکایت آن امیر کی غلام را گفت کی می بیار غلام رفت و سبوی می آورد در راه زاهدی بود امر معروف کرد زد سنگی و سبو را بشکست امیر بشنید و قصد گوشمال زاهد کرد و این قصد در عهد دین عیسی بود علیه‌السلام کی هنوز می حرام نشده بود ولیکن زاهد تقزیزی می‌کرد و از تنعم منع می‌کرد	tale	urn:sufi:rumi.mathnawi:5.b3439	urn:sufi:rumi.mathnawi:5.b3471	3439	3471	33
+5	146	حکایت ضیاء دلق کی سخت دراز بود و برادرش شیخ اسلام تاج بلخ به غایت کوتاه بالا بود و این شیخ اسلام از برادرش ضیا ننگ داشتی ضیا در آمد به درس او و همه صدور بلخ حاضر به درس او ضیا خدمتی کرد و بگذشت شیخ اسلام او را نیم قیامی کرد سرسری گفت آری سخت درازی پاره‌ای در دزد	tale	urn:sufi:rumi.mathnawi:5.b3472	urn:sufi:rumi.mathnawi:5.b3494	3472	3494	23
+5	147	رفتن امیر خشم‌آلود برای گوشمال زاهد	step	urn:sufi:rumi.mathnawi:5.b3495	urn:sufi:rumi.mathnawi:5.b3506	3495	3506	12
+5	148	حکایت مات کردن دلقک سید شاه ترمد را	tale	urn:sufi:rumi.mathnawi:5.b3507	urn:sufi:rumi.mathnawi:5.b3534	3507	3534	28
+5	149	قصد انداختن مصطفی علیه‌السلام خود را از کوه حری از وحشت دیر نمودن جبرئیل علیه‌السلام خود را به وی و پیدا شدن  جبرئیل به وی کی مینداز کی ترا دولتها در پیش است	step	urn:sufi:rumi.mathnawi:5.b3535	urn:sufi:rumi.mathnawi:5.b3552	3535	3552	18
+5	150	جواب گفتن امیر مر آن شفیعان را و همسایگان زاهد را کی گستاخی چرا کرد و سبوی ما را چرا شکست من درین باب شفاعت قبول نخواهم کرد کی سوگند خورده‌ام کی سزای او را بدهم	step	urn:sufi:rumi.mathnawi:5.b3553	urn:sufi:rumi.mathnawi:5.b3562	3553	3562	10
+5	151	دو بار دست و پای امیر را بوسیدن و لابه کردن شفیعان و همسایگان زاهد	step	urn:sufi:rumi.mathnawi:5.b3563	urn:sufi:rumi.mathnawi:5.b3582	3563	3582	20
+5	152	باز جواب گفتن آن امیر ایشان را	step	urn:sufi:rumi.mathnawi:5.b3583	urn:sufi:rumi.mathnawi:5.b3590	3583	3590	8
+5	153	تفسیر این آیت که وَ إِنَّ الدّارَ الآخِرةَ لَهیَ الحَیَوانُ لَوْ کانوا یَعْلَمونَ کی در و دیوار و عرصهٔ آن عالم و آب  و کوزه و میوه و درخت همه زنده‌اند و سخن‌گوی و سخن‌شنو و جهت آن فرمود مصطفی علیه السلام کی الدُّنیا جیفةٌ وَ طُلّابُها کلابٌ و اگر آخرت را حیات نبودی آخرت هم جیفه بودی جیفه را برای مردگیش جیفه گویند نه برای بوی زشت و فرخجی	exposition	urn:sufi:rumi.mathnawi:5.b3591	urn:sufi:rumi.mathnawi:5.b3634	3591	3634	44
+5	154	دگربار استدعاء شاه از ایاز کی تاویل کار خود بگو و مشکل منکران را و طاعنان را حل کن کی ایشان را در آن التباس رها کردن مروت نیست	step	urn:sufi:rumi.mathnawi:5.b3635	urn:sufi:rumi.mathnawi:5.b3643	3635	3643	9
+5	155	تمثیل تن آدمی به مهمان‌خانه و اندیشه‌های مختلف به مهمانان مختلف عارف در رضا بدان اندیشه‌های غم و شادی چون شخص مهمان‌دوست غریب‌نواز خلیل‌وار کی در خلیل باکرام ضیف پیوسته باز بود بر کافر و مؤمن و امین و خاین و با همه مهمانان روی تازه داشتی	tale	urn:sufi:rumi.mathnawi:5.b3644	urn:sufi:rumi.mathnawi:5.b3646	3644	3646	3
+5	156	حکایت آن مهمان کی زن خداوند خانه گفت کی باران فرو گرفت و مهمان در گردن ما ماند	tale	urn:sufi:rumi.mathnawi:5.b3647	urn:sufi:rumi.mathnawi:5.b3675	3647	3675	29
+5	157	تمثیل فکر هر روزینه کی اندر دل آید به مهمان نو کی از اول روز در خانه فرود آید و فضیلت مهمان‌نوازی و ناز مهمان کشیدن و تحکم و بدخویی کند به خداوند خانه	tale	urn:sufi:rumi.mathnawi:5.b3676	urn:sufi:rumi.mathnawi:5.b3707	3676	3707	32
+5	158	نواختن سلطان ایاز را	step	urn:sufi:rumi.mathnawi:5.b3708	urn:sufi:rumi.mathnawi:5.b3715	3708	3715	8
+5	159	وصیت کردن پدر دختر را کی خود را نگهدار تا حامله نشوی از شوهرت	step	urn:sufi:rumi.mathnawi:5.b3716	urn:sufi:rumi.mathnawi:5.b3736	3716	3736	21
+5	160	وصف ضعیف دلی و سستی صوفی سایه پرورد مجاهده ناکرده درد و داغ عشق ناچشیده به سجده و دست‌بوس عام و به حرمت نظر کردن و بانگشت نمودن ایشان کی امروز در زمانه صوفی اوست غره شده و بوهم بیمار شده هم‌چون آن معلم کی کودکان گفتند کی رنجوری و با این وهم کی من مجاهدم مرا درین ره پهلوان می‌دانند با غازیان به غزا رفته کی به ظاهر نیز هنر بنمایم در جهاد اکبر مستثناام جهاد اصغر خود پیش من چه محل دارد خیال شیر دیده و دلیریها کرده و مست این دلیری شده و روی به بیشه نهاده به قصد شیر و شیر به زبان حال گفته کی کلا سوف تعلمون ثم کلا سوف تعلمون	step	urn:sufi:rumi.mathnawi:5.b3737	urn:sufi:rumi.mathnawi:5.b3767	3737	3767	31
+5	161	نصیحت مبارزان او را کی با این دل و زهره کی تو داری کی از کلابیسه شدن چشم کافر اسیری دست بسته بیهوش شوی و دشنه از دست بیفتد زنهار زنهار ملازم مطبخ خانقاه باش و سوی پیکار مرو تا رسوا نشوی	step	urn:sufi:rumi.mathnawi:5.b3768	urn:sufi:rumi.mathnawi:5.b3779	3768	3779	12
+5	162	حکایت عیاضی رحمه‌الله کی هفتاد غزو کرده بود سینه برهنه بر امید شهید شدن چون از آن نومید شد از جهاد اصغر رو به جهاد اکبر آورد و خلوت گزید ناگهان طبل غازیان شنید نفس از اندرون زنجیر می‌درانید سوی غزا و متهم داشتن او نفس خود را درین رغبت	tale	urn:sufi:rumi.mathnawi:5.b3780	urn:sufi:rumi.mathnawi:5.b3814	3780	3814	35
+5	163	حکایت آن مجاهد کی از همیان سیم هر روز یک درم در خندق انداختی به تفاریق از بهر ستیزهٔ حرص و آرزوی نفس و وسوسهٔ نفس کی چون می‌اندازی به خندق باری به یک‌بار بینداز تا خلاص یابم کی الیاس احدی الراحتین او گفته کی این راحت نیز ندهم	tale	urn:sufi:rumi.mathnawi:5.b3815	urn:sufi:rumi.mathnawi:5.b3830	3815	3830	16
+5	164	صفت کردن مرد غماز و نمودن صورت کنیزک مصور در کاغذ و عاشق شدن خلیفهٔ مصر بر آن صورت و فرستادن خلیفه امیری را با سپاه گران بدر موصل و قتل و ویرانی بسیار کردن بهر این غرض	exposition	urn:sufi:rumi.mathnawi:5.b3831	urn:sufi:rumi.mathnawi:5.b3847	3831	3847	17
+5	165	ایثار کردن صاحب موصل آن کنیزک را بدین خلیفه تا خون‌ریز مسلمانان بیشتر نشود	step	urn:sufi:rumi.mathnawi:5.b3848	urn:sufi:rumi.mathnawi:5.b3901	3848	3901	54
+5	166	پشیمان شدن آن سرلشکر از آن خیانت کی کرد و سوگند دادن او آن کنیزک را کی به خلیفه باز نگوید از آنچ رفت	step	urn:sufi:rumi.mathnawi:5.b3902	urn:sufi:rumi.mathnawi:5.b3929	3902	3929	28
+5	167	حجت منکران آخرت و بیان ضعف آن حجت زیرا حجت ایشان به دین باز می‌گردد کی غیر این نمی‌بینیم	step	urn:sufi:rumi.mathnawi:5.b3930	urn:sufi:rumi.mathnawi:5.b3941	3930	3941	12
+5	168	آمدن خلیفه نزد آن خوب‌روی برای جماع	step	urn:sufi:rumi.mathnawi:5.b3942	urn:sufi:rumi.mathnawi:5.b3946	3942	3946	5
+5	169	خنده گرفتن آن کنیزک را از ضعف شهوت خلیفه و قوت شهوت آن امیر و فهم کردن خلیفه از خندهٔ کنیزک	step	urn:sufi:rumi.mathnawi:5.b3947	urn:sufi:rumi.mathnawi:5.b3964	3947	3964	18
+5	170	فاش کردن آن کنیزک آن راز را با خلیفه از زخم شمشیر و اکراه خلیفه کی راست گو سبب این خنده را و گر نه بکشمت	step	urn:sufi:rumi.mathnawi:5.b3965	urn:sufi:rumi.mathnawi:5.b3994	3965	3994	30
+5	171	عزم کردن شاه چون واقف شد بر آن خیانت کی بپوشاند و عفو کند و او را به او دهد و دانست کی آن فتنه جزای او بود و قصد او بود و ظلم او بر صاحب موصل کی و من اساء فعلیها و ان ربک لبالمرصاد و ترسیدن کی اگر انتقام کشد آن انتقام هم بر سر او آید چنانک این ظلم و طمع بر سرش آمد	step	urn:sufi:rumi.mathnawi:5.b3995	urn:sufi:rumi.mathnawi:5.b4024	3995	4024	30
+5	172	بیان آنک نَحْنُ قَسَمْنا کی یکی را شهوت و قوت خران دهد و یکی را کیاست و قوت انبیا و فرشتگان بخشد سر ز هوا تافتن از سروریست ترک هوا قوت پیغامبریست تخمهایی کی شهوتی نبود بر آن جز قیامتی نبود	exposition	urn:sufi:rumi.mathnawi:5.b4025	urn:sufi:rumi.mathnawi:5.b4034	4025	4034	10
+5	173	دادن شاه گوهر را میان دیوان و مجمع به دست وزیر کی این چند ارزد و مبالغه کردن وزیر در قیمت او و فرمودن شاه او را کی اکنون این را بشکن و گفت وزیر کی این را چون بشکنم الی آخر القصه	step	urn:sufi:rumi.mathnawi:5.b4035	urn:sufi:rumi.mathnawi:5.b4053	4035	4053	19
+5	174	رسیدن گوهر از دست به دست آخر دور به ایاز و کیاست ایاز و مقلد ناشدن او ایشان را و مغرور ناشدن او به گال و مال دادن شاه و خلعتها و جامگیها افزون کردن و مدح عقل مخطان کردن به مکر و امتحان که کی روا باشد مقلد را مسلمان داشتن مسلمان باشد اما نادر باشد کی مقلد ازین امتحانها به سلامت بیرون آید کی ثبات بینایان ندارد الا من عصم الله زیرا حق یکیست و آن را ضد بسیار غلط‌افکن و مشابه حق مقلد چون آن ضد را نشناسد از آن رو حق را نشناخته باشد اما حق با آن ناشناخت او چو او را به عنایت نگاه دارد آن ناشناخت او را زیان ندارد	step	urn:sufi:rumi.mathnawi:5.b4054	urn:sufi:rumi.mathnawi:5.b4074	4054	4074	22
+5	175	تشنیع زدن امرا بر ایاز کی چرا شکستش و جواب دادن ایاز ایشان را	step	urn:sufi:rumi.mathnawi:5.b4075	urn:sufi:rumi.mathnawi:5.b4087	4075	4087	13
+5	176	قصد شاه به کشتن امرا و شفاعت کردن  ایاز پیش تخت سلطان کی ای شاه عالم العفو اولی	step	urn:sufi:rumi.mathnawi:5.b4088	urn:sufi:rumi.mathnawi:5.b4119	4088	4119	32
+5	177	تفسیر گفتن ساحران فرعون را در وقت سیاست با او کی لا ضیر انا الی ربنا منقلبون	exposition	urn:sufi:rumi.mathnawi:5.b4120	urn:sufi:rumi.mathnawi:5.b4152	4120	4152	33
+5	178	مجرم دانستن ایاز خود را درین شفاعت‌گری و عذر این جرم خواستن و در آن عذرگویی خود را مجرم دانستن و این شکستگی از شناخت و عظمت شاه خیزد کی أَنا أَعْلَمُکُمْ بِاللَّهِ وَ أَخْشیکُمْ لِللَّهِ وَ قالَ اللهُ تَعالی إِنَّما یَخْشَی اللهَ مِنْ عِبادِهِ العُلَماءُ	step	urn:sufi:rumi.mathnawi:5.b4153	urn:sufi:rumi.mathnawi:5.b4238	4153	4238	86
+6	1	تمامت کتاب الموطد الکریم	step	urn:sufi:rumi.mathnawi:6.b0001	urn:sufi:rumi.mathnawi:6.b0128	1	128	128
+6	2	سؤال سایل از مرغی کی بر سر ربض شهری نشسته باشد سر او فاضل‌ترست و عزیزتر و شریف‌تر و مکرم‌تر یا دم او و جواب دادن واعظ سایل را به قدر فهم او	step	urn:sufi:rumi.mathnawi:6.b0129	urn:sufi:rumi.mathnawi:6.b0182	129	182	54
+6	3	نکوهیدن ناموسهای پوسیده را کی مانع ذوق ایمان و دلیل ضعف صدق‌اند و راه‌زن صد هزار ابله چنانک راه‌زن آن مخنث شده بودند گوسفندان و نمی‌یارست گذشتن و پرسیدن مخنث از چوپان کی این گوسفندان تو مرا عجب گزند گفت ای مردی و در تو رگ مردی هست همه فدای تو اند و اگر مخنثی هر یکی ترا اژدرهاست مخنثی دیگر هست کی چون گوسفندان را بیند در حال از راه باز گردد نیارد پرسیدن ترسد کی اگر بپرسم گوسفندان در من افتند و مرا بگزند	step	urn:sufi:rumi.mathnawi:6.b0183	urn:sufi:rumi.mathnawi:6.b0209	183	209	27
+6	4	مناجات و پناه جستن به حق از فتنهٔ اختیار و از فتنهٔ اسباب اختیار کی سماوات و ارضین از اختیار و اسباب اختیار شکوهیدند و ترسیدند و خلقت آدمی مولع افتاد بر طلب اختیار و اسباب اختیار خویش چنانک بیمار باشد خود را اختیار کم بیند صحت خواهد کی  سبب اختیارست تا اختیارش بیفزاید و منصب خواهد تا اختیارش بیفزاید و  مهبط قهر حق در امم ماضیه فرط اختیار  و اسباب اختیار بوده است هرگز فرعون بی‌نوا کس ندیده است	step	urn:sufi:rumi.mathnawi:6.b0210	urn:sufi:rumi.mathnawi:6.b0248	210	248	39
+6	5	حکایت غلام هندو کی به خداوند‌زادهٔ خود پنهان هوای آورده بود چون دختر را با مهتر‌زاده‌ای عقد کردند غلام خبر یافت رنجور شد و می‌گداخت و هیچ طبیب علت او را در نمی‌یافت و او را زهرهٔ گفتن نه	tale	urn:sufi:rumi.mathnawi:6.b0249	urn:sufi:rumi.mathnawi:6.b0283	249	283	35
+6	6	صبر فرمودن خواجه مادر دختر را کی غلام را زجر مکن من او را بی‌زجر ازین طمع باز آرم کی نه سیخ سوزد نه کباب خام ماند	step	urn:sufi:rumi.mathnawi:6.b0284	urn:sufi:rumi.mathnawi:6.b0321	284	321	38
+6	7	در بیان آنک این غرور تنها آن هندو را نبود بلک هر آدمیی به چنین غرور مبتلاست در هر مرحله‌ای الا من عصم الله	exposition	urn:sufi:rumi.mathnawi:6.b0322	urn:sufi:rumi.mathnawi:6.b0352	322	352	31
+6	8	در عموم تاویل این آیت کی کلما اوقدوا نارا للحرب	step	urn:sufi:rumi.mathnawi:6.b0353	urn:sufi:rumi.mathnawi:6.b0356	353	356	4
+6	9	قصه‌ای هم در تقریر این	step	urn:sufi:rumi.mathnawi:6.b0357	urn:sufi:rumi.mathnawi:6.b0384	357	384	28
+6	10	وا نمودن پادشاه به امرا و متعصبان در راه ایاز سبب فضیلت و مرتبت و قربت و جامگی او بریشان بر وجهی کی ایشان را حجت و اعتراض نماند	step	urn:sufi:rumi.mathnawi:6.b0385	urn:sufi:rumi.mathnawi:6.b0400	385	400	16
+6	11	مدافعهٔ امرا آن حجت را به شبههٔ جبریانه و جواب دادن شاه ایشان را	step	urn:sufi:rumi.mathnawi:6.b0401	urn:sufi:rumi.mathnawi:6.b0434	401	434	34
+6	12	حکایت آن صیادی کی خویشتن در گیاه پیچیده بود و دستهٔ گل و لاله را کله‌وار به سر فرو کشیده تا مرغان او را گیاه پندارند و آن مرغ زیرک بوی برد اندکی کی این آدمیست کی برین شکل گیاه ندیدم اما هم تمام بوی نبرد به افسون او مغرور شد زیرا در ادراک اول قاطعی نداشت در ادراک مکر دوم قاطعی داشت و هو الحرص و الطمع لا سیما عند فرط الحاجة و الفقر قال النبی صلی الله علیه و سلم کاد الفقر ان یکون کفرا	tale	urn:sufi:rumi.mathnawi:6.b0435	urn:sufi:rumi.mathnawi:6.b0466	435	466	32
+6	13	حکایت آن شخص کی دزدان قوج او را بدزدیدند  و بر آن قناعت نکرد به حیله جامه‌هاش را هم دزدیدند	tale	urn:sufi:rumi.mathnawi:6.b0467	urn:sufi:rumi.mathnawi:6.b0477	467	477	11
+6	14	مناظرهٔ مرغ با صیاد در ترهب و در معنی ترهبی کی مصطفی علیه‌السلام نهی کرد از آن امت خود را کی لا رهبانیة فی الاسلام	step	urn:sufi:rumi.mathnawi:6.b0478	urn:sufi:rumi.mathnawi:6.b0541	478	541	64
+6	15	حکایت پاسبان کی خاموش کرد تا دزدان رخت تاجران بردند به کلی بعد از آن هیهای و پاسبانی می‌کرد	tale	urn:sufi:rumi.mathnawi:6.b0542	urn:sufi:rumi.mathnawi:6.b0556	542	556	15
+6	16	حواله کردن مرغ گرفتاری خود را در دام به فعل و مکر و زرق  زاهد و جواب زاهد مرغ را	step	urn:sufi:rumi.mathnawi:6.b0557	urn:sufi:rumi.mathnawi:6.b0592	557	592	36
+6	17	حکایت آن عاشق کی شب بیامد بر امید وعدهٔ معشوق بدان وثاقی کی اشارت کرده بود و بعضی از شب منتظر ماند و خوابش بربود معشوق آمد بهر انجاز وعده او را خفته یافت جیبش پر جوز کرد و او را خفته گذاشت و بازگشت	tale	urn:sufi:rumi.mathnawi:6.b0593	urn:sufi:rumi.mathnawi:6.b0642	593	642	50
+6	18	استدعاء امیر ترک مخمور مطرب را به وقت صبوح و تفسیر این حدیث کی ان لله تعالی شرابا اعده لاولیائه اذا شربوا سکروا و اذا سکروا طابوا الی آخر الحدیث. می در خم اسرار بدان می‌جوشد؛ تا هر که مجردست از آن می‌نوشد قال الله تعالی ان الابرار یشربون این می که تو می‌خوری حرامست  ما می نخوریم جز حلالی «جهد کن تا ز نیست هست شوی  وز شراب خدای مست شوی»	step	urn:sufi:rumi.mathnawi:6.b0643	urn:sufi:rumi.mathnawi:6.b0669	643	669	27
+6	19	در آمدن ضریر در خانهٔ مصطفی علیه‌السلام و گریختن عایشه رضی الله عنها از پیش ضریر و گفتن رسول علیه‌السلام کی چه می‌گریزی او ترا نمی‌بیند و جواب دادن عایشه رضی الله عنها رسول را صلی الله علیه و سلم	step	urn:sufi:rumi.mathnawi:6.b0670	urn:sufi:rumi.mathnawi:6.b0685	670	685	16
+6	20	امتحان کردن مصطفی علیه‌السلام عایشه را رضی الله عنها کی چه پنهان می‌شوی پنهان مشو که اعمی ترا نمی‌بیند تا پدید آید کی عایشه رضی الله عنها از ضمیر مصطفی علیه السلام واقف هست  یا خود مقلد گفت ظاهرست	step	urn:sufi:rumi.mathnawi:6.b0686	urn:sufi:rumi.mathnawi:6.b0702	686	702	17
+6	21	حکایت آن مطرب کی در بزم امیر ترک این غزل آغاز کرد گلی یا سوسنی یا سرو یا ماهی نمی‌دانم ازین آشفتهٔ بی‌دل چه می‌خواهی نمی‌دانم  و بانگ بر زدن ترک کی آن بگو کی می‌دانی و جواب مطرب امیر را	tale	urn:sufi:rumi.mathnawi:6.b0703	urn:sufi:rumi.mathnawi:6.b0722	703	722	20
+6	22	تفسیر قوله علیه‌السلام موتوا قبل ان تموتوا بمیر ای دوست پیش از مرگ اگر می زندگی خواهی کی ادریس از چنین مردن بهشتی گشت پیش از ما	exposition	urn:sufi:rumi.mathnawi:6.b0723	urn:sufi:rumi.mathnawi:6.b0776	723	776	54
+6	23	تشبیه مغفلی کی عمر ضایع کند و وقت مرگ در آن تنگاتنگ توبه و استغفار کردن گیرد به تعزیت داشتن شیعهٔ اهل حلب هر سالی در ایام عاشورا به دروازهٔ انطاکیه و رسیدن غریب شاعر از سفر و پرسیدن کی این غریو چه تعزیه است	step	urn:sufi:rumi.mathnawi:6.b0777	urn:sufi:rumi.mathnawi:6.b0792	777	792	16
+6	24	نکته گفتن آن شاعر جهت طعن شیعه حلب	step	urn:sufi:rumi.mathnawi:6.b0793	urn:sufi:rumi.mathnawi:6.b0805	793	805	13
+6	25	تمثیل مرد حریص نابیننده رزاقی حق را و خزاین و رحمت او را به موری کی در خرمن‌گاه بزرگ با دانهٔ گندم می‌کوشد و می‌جوشد و می‌لرزد و به تعجیل می‌کشد و سعت آن خرمن را نمی‌بیند	tale	urn:sufi:rumi.mathnawi:6.b0806	urn:sufi:rumi.mathnawi:6.b0845	806	845	40
+6	26	داستان آن شخص کی بر در سرایی نیم‌شب سحوری می‌زد همسایه او را گفت کی آخر نیم‌شبست سحر نیست و دیگر آنک درین سرا کسی نیست بهر کی می‌زنی و جواب گفتن مطرب او را	tale	urn:sufi:rumi.mathnawi:6.b0846	urn:sufi:rumi.mathnawi:6.b0887	846	887	42
+6	27	قصهٔ احد احد گفتن بلال در حر حجاز از محبت مصطفی علیه‌السلام در آن چاشتگاهها کی خواجه‌اش از تعصب جهودی به شاخ خارش می‌زد پیش آفتاب حجاز و از زخم خون از تن بلال برمی‌جوشید ازو احد احد می‌جست بی‌قصد او چنانک از دردمندان دیگر ناله جهد بی‌قصد زیرا از درد عشق ممتلی بود اهتمام دفع درد خار را مدخل نبود هم‌چون سحرهٔ فرعون و جرجیس و غیر هم لایعد و لا یحصی	tale	urn:sufi:rumi.mathnawi:6.b0888	urn:sufi:rumi.mathnawi:6.b0952	888	952	65
+6	28	باز گردانیدن صدیق رضی الله عنه واقعهٔ بلال را رضی الله عنه و ظلم جهودان را بر وی و احد احد گفتن او و افزون شدن کینهٔ جهودان و قصه کردن آن قضیه پیش مصطفی علیه‌السلام و مشورت در خریدن او	step	urn:sufi:rumi.mathnawi:6.b0953	urn:sufi:rumi.mathnawi:6.b0988	953	988	36
+6	29	وصیت کردن مصطفی علیه‌السلام صدیق را رضی الله عنه کی چون بلال را مشتری می‌شوی هر آینه ایشان از ستیز بر خواهند در بها فزود و بهای او را خواهند فزودن مرا درین فضیلت شریک خود کن وکیل من باش و نیم بها از من بستان	step	urn:sufi:rumi.mathnawi:6.b0989	urn:sufi:rumi.mathnawi:6.b1033	989	1033	45
+6	30	خندیدن جهود و پنداشتن کی صدیق مغبونست درین عقد	step	urn:sufi:rumi.mathnawi:6.b1034	urn:sufi:rumi.mathnawi:6.b1074	1034	1074	41
+6	31	معاتبهٔ مصطفی علیه‌السلام با صدیق رضی الله عنه کی ترا وصیت کردم کی به شرکت من بخر تو چرا بهر خود تنها خریدی و عذر او	step	urn:sufi:rumi.mathnawi:6.b1075	urn:sufi:rumi.mathnawi:6.b1110	1075	1110	36
+6	32	قصهٔ هلال کی بندهٔ مخلص بود خدای را صاحب بصیرت بی‌تقلید پنهان شده در بندگی مخلوقان جهت مصلحت نه از عجز چنانک لقمان و یوسف از روی ظاهر و غیر ایشان بندهٔ سایس بود امیری را و آن امیر مسلمان بود اما چشم بسته داند اعمی که مادری دارد لیک چونی بوهم در نارد اگر با این دانش تعظیم این مادر کند ممکن بود کی از عمی خلاص یابد کی اذا اراد الله به عبد خیرا فتح عینی قلبه لیبصره بهما الغیب این راه ز زندگی دل حاصل کن کین زندگی تن صفت حیوانست	tale	urn:sufi:rumi.mathnawi:6.b1111	urn:sufi:rumi.mathnawi:6.b1117	1111	1117	7
+6	33	حکایت در تقریر همین سخن	tale	urn:sufi:rumi.mathnawi:6.b1118	urn:sufi:rumi.mathnawi:6.b1130	1118	1130	13
+6	34	مثل	tale	urn:sufi:rumi.mathnawi:6.b1131	urn:sufi:rumi.mathnawi:6.b1149	1131	1149	19
+6	35	رنجور شدن این هلال و بی‌خبری خواجهٔ او از رنجوری او از تحقیر و ناشناخت و واقف شدن دل مصطفی علیه‌السلام از رنجوری و حال او و افتقاد و عیادت رسول علیه‌السلام این هلال را	step	urn:sufi:rumi.mathnawi:6.b1150	urn:sufi:rumi.mathnawi:6.b1172	1150	1172	23
+6	36	در آمدن مصطفی علیه‌السلام از بهر عیادت هلال در ستورگاه آن امیر و نواختن مصطفی هلال را رضی الله عنه	step	urn:sufi:rumi.mathnawi:6.b1173	urn:sufi:rumi.mathnawi:6.b1185	1173	1185	13
+6	37	در بیان آنک مصطفی علیه‌السلام شنید کی عیسی علیه‌السلام بر روی آب رفت  فرمود لو ازداد یقینه لمشی علی الهواء	exposition	urn:sufi:rumi.mathnawi:6.b1186	urn:sufi:rumi.mathnawi:6.b1221	1186	1221	36
+6	38	داستان آن عجوزه کی روی زشت خویشتن را جندره و گلگونه می‌ساخت و ساخته نمی‌شد و پذیرا نمی‌آمد	tale	urn:sufi:rumi.mathnawi:6.b1222	urn:sufi:rumi.mathnawi:6.b1236	1222	1236	15
+6	39	داستان آن درویش کی آن گیلانی را دعا کرد  کی خدا ترا به سلامت به خان و مان باز رساناد	tale	urn:sufi:rumi.mathnawi:6.b1237	urn:sufi:rumi.mathnawi:6.b1241	1237	1241	5
+6	40	صفت آن عجوز	exposition	urn:sufi:rumi.mathnawi:6.b1242	urn:sufi:rumi.mathnawi:6.b1249	1242	1249	8
+6	41	قصهٔ درویشی کی از آن خانه هرچه می‌خواست می‌گفت نیست	tale	urn:sufi:rumi.mathnawi:6.b1250	urn:sufi:rumi.mathnawi:6.b1267	1250	1267	18
+6	42	رجوع به داستان آن کمپیر	return	urn:sufi:rumi.mathnawi:6.b1268	urn:sufi:rumi.mathnawi:6.b1292	1268	1292	25
+6	43	حکایت آن رنجور کی طبیب درو اومید صحت ندید	tale	urn:sufi:rumi.mathnawi:6.b1293	urn:sufi:rumi.mathnawi:6.b1320	1293	1320	28
+6	44	رجوع به قصهٔ رنجور	return	urn:sufi:rumi.mathnawi:6.b1321	urn:sufi:rumi.mathnawi:6.b1382	1321	1382	62
+6	45	قصهٔ سلطان محمود و غلام هندو	tale	urn:sufi:rumi.mathnawi:6.b1383	urn:sufi:rumi.mathnawi:6.b1449	1383	1449	67
+6	46	لیس للماضین هم الموت انما لهم حسرة الفوت	step	urn:sufi:rumi.mathnawi:6.b1450	urn:sufi:rumi.mathnawi:6.b1482	1450	1482	33
+6	47	بار دیگر رجوع کردن به قصهٔ صوفی و قاضی	step	urn:sufi:rumi.mathnawi:6.b1483	urn:sufi:rumi.mathnawi:6.b1567	1483	1567	85
+6	48	طیره شدن قاضی از سیلی درویش و سرزنش کردن صوفی قاضی را	step	urn:sufi:rumi.mathnawi:6.b1568	urn:sufi:rumi.mathnawi:6.b1576	1568	1576	9
+6	49	جواب دادن قاضی صوفی را	step	urn:sufi:rumi.mathnawi:6.b1577	urn:sufi:rumi.mathnawi:6.b1603	1577	1603	27
+6	50	سؤال کردن آن صوفی قاضی را	step	urn:sufi:rumi.mathnawi:6.b1604	urn:sufi:rumi.mathnawi:6.b1612	1604	1612	9
+6	51	جواب گفتن آن قاضی صوفی را	step	urn:sufi:rumi.mathnawi:6.b1613	urn:sufi:rumi.mathnawi:6.b1644	1613	1644	32
+6	52	باز سؤال کردن صوفی از آن قاضی	step	urn:sufi:rumi.mathnawi:6.b1645	urn:sufi:rumi.mathnawi:6.b1649	1645	1649	5
+6	53	جواب قاضی سؤال صوفی را و قصهٔ ترک و درزی را مثل آوردن	step	urn:sufi:rumi.mathnawi:6.b1650	urn:sufi:rumi.mathnawi:6.b1655	1650	1655	6
+6	54	قال النبی علیه السلام ان الله تعالی یلقن الحکمة علی لسان الواعظین بقدر همم المستمعین	step	urn:sufi:rumi.mathnawi:6.b1656	urn:sufi:rumi.mathnawi:6.b1672	1656	1672	17
+6	55	دعوی کردن ترک و گرو بستن او کی درزی از من چیزی نتواند بردن	step	urn:sufi:rumi.mathnawi:6.b1673	urn:sufi:rumi.mathnawi:6.b1692	1673	1692	20
+6	56	مضاحک گفتن درزی و ترک را از قوت خنده بسته شدن دو چشم تنگ او و فرصت یافتن درزی	step	urn:sufi:rumi.mathnawi:6.b1693	urn:sufi:rumi.mathnawi:6.b1716	1693	1716	24
+6	57	گفتن درزی ترک را هی خاموش کی اگر مضاحک دگر گویم قبات تنگ آید	step	urn:sufi:rumi.mathnawi:6.b1717	urn:sufi:rumi.mathnawi:6.b1719	1717	1719	3
+6	58	بیان آنک بی‌کاران و افسانه‌جویان مثل آن ترک‌اند و عالم غرار غدار هم‌چو آن درزی و شهوات و زبان مضاحک گفتن این دنیاست و عمر هم‌چون آن اطلس پیش این درزی جهت قبای بقا و لباس تقوی ساختن	exposition	urn:sufi:rumi.mathnawi:6.b1720	urn:sufi:rumi.mathnawi:6.b1726	1720	1726	7
+6	59	مثل	tale	urn:sufi:rumi.mathnawi:6.b1727	urn:sufi:rumi.mathnawi:6.b1738	1727	1738	12
+6	60	باز مکرر کردن صوفی سؤال را	step	urn:sufi:rumi.mathnawi:6.b1739	urn:sufi:rumi.mathnawi:6.b1746	1739	1746	8
+6	61	جواب دادن قاضی صوفی را	step	urn:sufi:rumi.mathnawi:6.b1747	urn:sufi:rumi.mathnawi:6.b1757	1747	1757	11
+6	62	حکایت در تقریر آنک صبر در رنج کار سهل‌تر از صبر در فراق یار بود	tale	urn:sufi:rumi.mathnawi:6.b1758	urn:sufi:rumi.mathnawi:6.b1779	1758	1779	22
+6	63	مثل	tale	urn:sufi:rumi.mathnawi:6.b1780	urn:sufi:rumi.mathnawi:6.b1833	1780	1833	54
+6	64	باقی قصهٔ فقیر روزی‌طلب بی‌واسطهٔ کسب	return	urn:sufi:rumi.mathnawi:6.b1834	urn:sufi:rumi.mathnawi:6.b1907	1834	1907	74
+6	65	قصهٔ آن گنج‌نامه کی پهلوی قبه‌ای روی به قبله کن و تیر در کمان نه بینداز آنجا کی افتد گنجست	tale	urn:sufi:rumi.mathnawi:6.b1908	urn:sufi:rumi.mathnawi:6.b1938	1908	1938	31
+6	66	تمامی قصهٔ آن فقیر و نشان جای آن گنج	return	urn:sufi:rumi.mathnawi:6.b1939	urn:sufi:rumi.mathnawi:6.b1947	1939	1947	9
+6	67	فاش شدن خبر این گنج و رسیدن به گوش پادشاه	step	urn:sufi:rumi.mathnawi:6.b1948	urn:sufi:rumi.mathnawi:6.b1958	1948	1958	11
+6	68	نومید شدن آن پادشاه از یافتن آن گنج و ملول شدن او از طلب آن	step	urn:sufi:rumi.mathnawi:6.b1959	urn:sufi:rumi.mathnawi:6.b1974	1959	1974	16
+6	69	باز دادن شاه گنج‌نامه را به آن فقیر کی بگیر ما از سر این برخاستیم	step	urn:sufi:rumi.mathnawi:6.b1975	urn:sufi:rumi.mathnawi:6.b2043	1975	2043	69
+6	70	حکایت مرید شیخ حسن خرقانی قدس الله سره	tale	urn:sufi:rumi.mathnawi:6.b2044	urn:sufi:rumi.mathnawi:6.b2055	2044	2055	12
+6	71	پرسیدن آن وارد از حرم شیخ کی شیخ کجاست کجا جوییم و جواب نافرجام گفتن حرم	step	urn:sufi:rumi.mathnawi:6.b2056	urn:sufi:rumi.mathnawi:6.b2067	2056	2067	12
+6	72	جواب گفتن مرید و زجر کردن مرید آن طعانه را از کفر و بیهوده گفتن	step	urn:sufi:rumi.mathnawi:6.b2068	urn:sufi:rumi.mathnawi:6.b2114	2068	2114	47
+6	73	واگشتن مرید از وثاق شیخ و پرسیدن از مردم و نشان دادن ایشان کی شیخ به فلان بیشه رفته است	step	urn:sufi:rumi.mathnawi:6.b2115	urn:sufi:rumi.mathnawi:6.b2125	2115	2125	11
+6	74	یافتن مرید مراد را و ملاقات او با شیخ نزدیک آن بیشه	step	urn:sufi:rumi.mathnawi:6.b2126	urn:sufi:rumi.mathnawi:6.b2152	2126	2152	27
+6	75	حکمت در انی جاعل فی الارض خلیفة	exposition	urn:sufi:rumi.mathnawi:6.b2153	urn:sufi:rumi.mathnawi:6.b2190	2153	2190	38
+6	76	معجزهٔ هود علیه‌السلام در تخلص مؤمنان امت به وقت نزول باد	step	urn:sufi:rumi.mathnawi:6.b2191	urn:sufi:rumi.mathnawi:6.b2256	2191	2256	66
+6	77	رجوع کردن به قصهٔ قبه و گنج	return	urn:sufi:rumi.mathnawi:6.b2257	urn:sufi:rumi.mathnawi:6.b2287	2257	2287	31
+6	78	انابت آن طالب گنج به حق تعالی بعد از طلب بسیار و عجز و اضطرار کی ای ولی الاظهار تو کن این پنهان را آشکار	step	urn:sufi:rumi.mathnawi:6.b2288	urn:sufi:rumi.mathnawi:6.b2346	2288	2346	59
+6	79	آواز دادن هاتف مر طالب گنج را و اعلام کردن از حقیقت اسرار آن	step	urn:sufi:rumi.mathnawi:6.b2347	urn:sufi:rumi.mathnawi:6.b2375	2347	2375	29
+6	80	حکایت آن سه مسافر مسلمان و ترسا و جهود و آن کی به منزل قوتی یافتند و ترسا و جهود سیر بودند گفتند این قوت را فردا خوریم مسلمان صایم بود گرسنه ماند از آنک مغلوب بود	tale	urn:sufi:rumi.mathnawi:6.b2376	urn:sufi:rumi.mathnawi:6.b2456	2376	2456	81
+6	81	حکایت اشتر و گاو و قج که در راه بند گیاه یافتند هر یکی می‌گفت من خورم	tale	urn:sufi:rumi.mathnawi:6.b2457	urn:sufi:rumi.mathnawi:6.b2464	2457	2464	8
+6	82	مثل	tale	urn:sufi:rumi.mathnawi:6.b2465	urn:sufi:rumi.mathnawi:6.b2485	2465	2485	21
+6	83	جواب گفتن مسلمان آنچ دید به یارانش جهود و ترسا و حسرت خوردن ایشان	step	urn:sufi:rumi.mathnawi:6.b2486	urn:sufi:rumi.mathnawi:6.b2509	2486	2509	24
+6	84	منادی کردن سید ملک ترمد کی هر کی در سه یا چهار روز به سمرقند رود به فلان مهم خلعت و اسپ و غلام و کنیزک و چندین زر دهم و شنیدن دلقک خبر این منادی در ده و آمدن به اولاقی نزد شاه کی من باری نتوانم رفتن	step	urn:sufi:rumi.mathnawi:6.b2510	urn:sufi:rumi.mathnawi:6.b2631	2510	2631	122
+6	85	حکایت تعلق موش با چغز و بستن پای هر دو به رشته‌ای دراز و بر کشیدن زاغ موش را و معلق شدن چغز و نالیدن و پشیمانی او از تعلق با غیر جنس و با جنس خود ناساختن	tale	urn:sufi:rumi.mathnawi:6.b2632	urn:sufi:rumi.mathnawi:6.b2664	2632	2664	33
+6	86	تدبیر کردن موش به چغز کی من نمی‌توانم بر تو آمدن به وقت حاجت در آب میان ما وصلتی باید کی چون من بر لب جو آیم ترا توانم خبر کردن و تو چون بر سر سوراخ موش‌خانه آیی مرا توانی خبر کردن الی آخره	step	urn:sufi:rumi.mathnawi:6.b2665	urn:sufi:rumi.mathnawi:6.b2685	2665	2685	21
+6	87	مبالغه کردن موش در لابه و زاری و وصلت جستن از چغز آبی	step	urn:sufi:rumi.mathnawi:6.b2686	urn:sufi:rumi.mathnawi:6.b2713	2686	2713	29
+6	88	لابه کردن موش مر چغز را کی بهانه میندیش و در نسیه مینداز انجاح این حاجت مرا کی فی التاخیر آفات و الصوفی ابن الوقت و ابن دست از دامن پدر باز ندارد و اب مشفق صوفی کی وقتست او را بنگرش به فردا محتاج نگرداند چندانش مستغرق دارد در گلزار سریع الحسابی خویش نه چون عوام منتظر مستقبل نباشد نهری باشد نه دهری کی لا صباح عند الله و لا مساء ماضی و مستقبل و ازل و ابد آنجا نباشد آدم سابق و دجال مسبوق نباشد کی این رسوم در خطهٔ عقل جز وی است و روح حیوانی در عالم لا مکان و لا زمان این رسوم نباشد پس او ابن وقتیست کی لا یفهم منه الا نفی تفرقة الا زمنة چنانک از الله واحد فهم شود نفی دوی نی حقیقت واحدی	step	urn:sufi:rumi.mathnawi:6.b2714	urn:sufi:rumi.mathnawi:6.b2815	2714	2815	101
+6	89	حکایت شب دزدان کی سلطان محمود شب در میان ایشان افتاد کی من یکی‌ام از شما و بر احوال ایشان مطلع شدن الی آخره	tale	urn:sufi:rumi.mathnawi:6.b2816	urn:sufi:rumi.mathnawi:6.b2921	2816	2921	105
+6	90	قصهٔ آنک گاو بحری گوهر کاویان از قعر دریا بر آورد شب بر ساحل دریا نهد در درخش و تاب آن می‌چرد بازرگان از کمین برون آید چون گاو از گوهر دورتر رفته باشد بازرگان به لجم و گل تیره گوهر را بپوشاند و بر درخت گریزد الی آخر القصه و التقریب	tale	urn:sufi:rumi.mathnawi:6.b2922	urn:sufi:rumi.mathnawi:6.b2940	2922	2940	19
+6	91	رجوع کردن به قصهٔ طلب کردن آن موش  آن چغز را لب‌لب جو و کشیدن سر رشته تا چغز را در آب خبر شود از طلب او	return	urn:sufi:rumi.mathnawi:6.b2941	urn:sufi:rumi.mathnawi:6.b2973	2941	2973	33
+6	92	قصهٔ عبدالغوث و ربودن پریان او را و سالها میان پریان ساکن شدن او و بعد از سالها آمدن او به شهر و فرزندان خویش را باز ناشکیفتن او از آن پریان به حکم جنسیت و همدلی او با ایشان	tale	urn:sufi:rumi.mathnawi:6.b2974	urn:sufi:rumi.mathnawi:6.b3013	2974	3013	40
+6	93	داستان آن مرد کی وظیفه داشت از محتسب تبریز و وامها کرده بود بر امید آن وظیفه و او را خبر نه از وفات او  حاصل از هیچ زنده‌ای وام او گزارده نشد الا از محتسب متوفی گزارده شد چنانک گفته‌اند لیس من مات فاستراح بمیت  انما المیت میت الاحیاء	tale	urn:sufi:rumi.mathnawi:6.b3014	urn:sufi:rumi.mathnawi:6.b3028	3014	3028	15
+6	94	آمدن جعفر رضی الله عنه به گرفتن قلعه به تنهایی و مشورت کردن ملک آن قلعه در دفع او و گفتن آن وزیر ملک را کی زنهار تسلیم کن و از  جهل تهور مکن کی این مرد میدست و از حق جمعیت عظیم دارد در جان خویش الی آخره	step	urn:sufi:rumi.mathnawi:6.b3029	urn:sufi:rumi.mathnawi:6.b3105	3029	3105	77
+6	95	رجوع کردن به حکایت آن شخص وام کرده و آمدن او به امید عنایت آن محتسب سوی تبریز	return	urn:sufi:rumi.mathnawi:6.b3106	urn:sufi:rumi.mathnawi:6.b3123	3106	3123	18
+6	96	باخبر شدن آن غریب از وفات آن محتسب و استغفار او از اعتماد بر مخلوق و تعویل بر عطای مخلوق و یاد نعمتهای حق کردنش و انابت به حق از جرم خود ثُمَّ الَّذینَ کَفَروا بِرَبِّهِمْ یَعْدِلونَ	step	urn:sufi:rumi.mathnawi:6.b3124	urn:sufi:rumi.mathnawi:6.b3219	3124	3219	96
+6	97	مثل دوبین هم‌چو آن غریب شهر کاش عمر نام کی از یک دکانش به سبب این به آن دکان دیگر حواله کرد و او فهم نکرد کی همه  دکان یکیست درین معنی کی به عمر نان نفروشند هم اینجا تدارک کنم  من غلط کردم نامم عمر نیست چون بدین دکان توبه و تدارک کنم نان  یابم از همه دکان‌های این شهر و اگر بی‌تدارک هم‌چنین عمر نام باشم  ازین دکان در گذرم محرومم و احولم و این دکان‌ها را از هم جدا دانسته‌ام	tale	urn:sufi:rumi.mathnawi:6.b3220	urn:sufi:rumi.mathnawi:6.b3247	3220	3247	28
+6	98	توزیع کردن پای‌مرد در جملهٔ شهر تبریز و جمع شدن اندک چیز و رفتن آن غریب به تربت محتسب به زیارت و این قصه را بر سر گور او گفتن به طریق نوحه الی آخره	step	urn:sufi:rumi.mathnawi:6.b3248	urn:sufi:rumi.mathnawi:6.b3344	3248	3344	97
+6	99	دیدن خوارزمشاه رحمه الله در سیران در موکب خود اسپی بس نادر و تعلق دل شاه به حسن و چستی آن اسپ و سرد کردن  عمادالملک آن اسپ را در دل شاه و گزیدن شاه گفت او را بر دید  خویش چنانک حکیم رحمة الله علیه  در الهی‌نامه فرمود چون زبان حسد شود نخاس  یوسفی یابی از گزی کرباس  از دلالی برادران یوسف حسودانه در دل مشتریان آن چندان حسن  پوشیده شد و زشت نمودن گرفت کی وَ کانوا فیهِ مِنَ الزّاهِدینَ	step	urn:sufi:rumi.mathnawi:6.b3345	urn:sufi:rumi.mathnawi:6.b3399	3345	3399	55
+6	100	ماخذهٔ یوسف صدیق صلوات‌الله علیه به حبس بضع سنین به سبب یاری خواستن از غیر حق و گفتن اذکرنی عند ربک مع  تقریره	step	urn:sufi:rumi.mathnawi:6.b3400	urn:sufi:rumi.mathnawi:6.b3517	3400	3517	118
+6	101	رجوع کردن به قصهٔ آن پای‌مرد و آن غریب وام‌دار و بازگشتن ایشان از سر گور خواجه و خواب دیدن پای‌مرد خواجه را الی آخره	return	urn:sufi:rumi.mathnawi:6.b3518	urn:sufi:rumi.mathnawi:6.b3532	3518	3532	15
+6	102	گفتن خواجه در خواب به آن پای‌مرد وجوه وام آن دوست را کی آمده بود و نشان دادن جای دفن آن سیم و پیغام کردن به وارثان کی البته آن را بسیار نبینند وهیچ باز نگیرند و اگر چه او هیچ از آن قبول  نکند یا بعضی را قبول نکند هم آنجا بگذارند تا هر آنک خواهد برگیرد کی من با خدا نذرها کردم کی از آن سیم به من و به متعلقان من حبه‌ای باز نگردد الی آخره	step	urn:sufi:rumi.mathnawi:6.b3533	urn:sufi:rumi.mathnawi:6.b3582	3533	3582	50
+6	103	حکایت آن پادشاه و وصیت کردن او سه پسر خویش را کی درین سفر در ممالک من فلان جا چنین ترتیب نهید و فلان جا چنین نواب نصب کنید اما الله الله به فلان قلعه  مروید و گرد آن مگردید	tale	urn:sufi:rumi.mathnawi:6.b3583	urn:sufi:rumi.mathnawi:6.b3595	3583	3595	13
+6	104	بیان استمداد عارف از سرچشمهٔ حیات ابدی و مستغنی شدن او از استمداد و اجتذاب از چشمه‌های آبهای بی‌وفا کی علامة ذالک التجافی عن دار الغرور کی آدمی چون بر مددهای آن چشمه‌ها اعتماد کند در طلب چشمهٔ باقی دایم سست شود کاریز درون جان تو می‌باید کز عاریه‌ها ترا دری نگشاید یک چشمهٔ آب از درون خانه به زان جویی که آن ز بیرون آید	exposition	urn:sufi:rumi.mathnawi:6.b3596	urn:sufi:rumi.mathnawi:6.b3629	3596	3629	34
+6	105	روان شدن شه‌زادگان در ممالک پدر بعد از وداع کردن ایشان شاه را و اعادت کردن شاه وقت وداع وصیت را الی آخره	step	urn:sufi:rumi.mathnawi:6.b3630	urn:sufi:rumi.mathnawi:6.b3698	3630	3698	69
+6	106	رفتن پسران سلطان به حکم آنک الانسان حریص علی ما منع  ما بندگی خویش نمودیم ولیکن  خوی بد تو بنده ندانست خریدن  به سوی آن قلعهٔ ممنوع عنه آن همه وصیت‌ها و اندرزهای پدر را زیر پا  نهادند تا در چاه بلا افتادند و می‌گفتند ایشان را نفوس لوامه الم یاتکم  نذیر ایشان می‌گفتند گریان و پشیمان لوکنا نسمع او نعقل ماکنا فی اصحاب السعیر	step	urn:sufi:rumi.mathnawi:6.b3699	urn:sufi:rumi.mathnawi:6.b3759	3699	3759	61
+6	107	دیدن ایشان در قصر این قلعهٔ ذات الصور نقش روی دختر شاه چین را و بیهوش شدن هر سه و در فتنه افتادن و تفحص کردن کی این صورت کیست	step	urn:sufi:rumi.mathnawi:6.b3760	urn:sufi:rumi.mathnawi:6.b3798	3760	3798	39
+6	108	حکایت صدر جهان بخارا کی هر سایلی کی به زبان بخواستی از صدقهٔ عام بی‌دریغ او محروم شدی و آن دانشمند درویش به فراموشی و فرط حرص و تعجیل به زبان بخواست در موکب صدر جهان از وی رو بگردانید و او هر روز حیلهٔ نو ساختی و خود را گاه زن کردی زیر چادر وگاه نابینا کردی و چشم و  روی خود بسته به فراستش بشناختی  الی آخره	tale	urn:sufi:rumi.mathnawi:6.b3799	urn:sufi:rumi.mathnawi:6.b3842	3799	3842	44
+6	109	حکایت آن دو برادر یکی کوسه و یکی امرد در عزب خانه‌ای خفتند شبی اتفاقا امرد خشت‌ها بر مقعد خود انبار کرد عاقبت دباب دب آورد و آن خشت‌ها را به حیله و نرمی از پس او برداشت کودک بیدار شد به جنگ کی این خشت‌ها کو کجا بردی و چرا بردی او گفت تو این خشت‌ها را چرا نهادی الی آخره	tale	urn:sufi:rumi.mathnawi:6.b3843	urn:sufi:rumi.mathnawi:6.b3883	3843	3883	41
+6	110	در تفسیر این خبر کی مصطفی صلوات‌الله علیه فرمود منهومان لا  یشبعان طالب الدنیا و طالب العلم کی این علم غیر علم دنیا باید تا دو قسم باشد اما علم دنیا هم دنیا باشد الی آخره و اگر هم‌چنین شود کی طالب الدنیا و طالب الدنیا تکرار بود نه تقسیم  مع تقریره	exposition	urn:sufi:rumi.mathnawi:6.b3884	urn:sufi:rumi.mathnawi:6.b3886	3884	3886	3
+6	111	بحث کردن آن سه شه‌زاده در تدبیر آن واقعه	step	urn:sufi:rumi.mathnawi:6.b3887	urn:sufi:rumi.mathnawi:6.b3891	3887	3891	5
+6	112	مقالت برادر بزرگین	step	urn:sufi:rumi.mathnawi:6.b3892	urn:sufi:rumi.mathnawi:6.b3913	3892	3913	22
+6	113	ذکر آن پادشاه که آن دانشمند را به اکراه در مجلس آورد و بنشاند ساقی شراب بر دانشمند عرضه کرد ساغر پیش او داشت رو بگردانید و ترشی و تندی آغاز کرد شاه ساقی را گفت کی هین در طبعش آر ساقی چندی بر سرش کوفت و شرابش در خورد داد الی آخره	exposition	urn:sufi:rumi.mathnawi:6.b3914	urn:sufi:rumi.mathnawi:6.b3979	3914	3979	66
+6	114	روان گشتن شاه‌زادگان بعد از تمام بحث و ماجرا به جانب ولایت چین سوی معشوق و مقصود تا به قدر امکان به مقصود نزدیک‌تر باشند اگر چه راه وصل  مسدودست به قدر امکان نزدیک‌تر شدن محمودست الی آخره	step	urn:sufi:rumi.mathnawi:6.b3980	urn:sufi:rumi.mathnawi:6.b3985	3980	3985	6
+6	115	حکایت امرء القیس کی پادشاه عرب بود و به صورت عظیم به جمال بود یوسف وقت خود بود و زنان عرب چون زلیخا مردهٔ او و او شاعر طبع قفا نبک من ذکری حبیب و منزل چون همه زنان او را به جان می‌جستند ای عجب غزل او و نالهٔ او بهر چه بود مگر دانست کی این‌ها همه تمثال صورتی‌اند کی بر تخته‌های خاک نقش کرده‌اند عاقبت این امرء القیس را حالی پیدا شد کی نیم‌شب از ملک و فرزند گریخت و خود را در دلقی پنهان کرد و از آن اقلیم به اقلیم دیگر رفت در طلب آن کس کی از اقلیم منزه است یختص برحمته من یشاء الی آخره	tale	urn:sufi:rumi.mathnawi:6.b3986	urn:sufi:rumi.mathnawi:6.b4053	3986	4053	68
+6	116	بعد مکث ایشان متواری در بلاد چین در شهر تختگاه و بعد دراز شدن صبر بی‌صبر شدن آن بزرگین کی من رفتم الوداع خود را بر شاه عرضه کنم اما قدمی تنیلنی مقصودی او القی راسی کفادی ثم یا پای رساندم به مقصود و مراد یا سر بنهم هم‌چو دل از دست آن‌جا و نصیحت برادران او را سود ناداشتن یا عاذل العاشقین دع فة اضلها الله کیف ترشدها الی آخره	step	urn:sufi:rumi.mathnawi:6.b4054	urn:sufi:rumi.mathnawi:6.b4174	4054	4174	120
+6	117	بیان مجاهد کی دست از مجاهده باز ندارد اگر چه داند بسطت عطاء حق را کی آن مقصود از طرف دیگر و به سبب نوع عمل دیگر بدو رساند کی در وهم او نبوده باشد  او همه وهم و اومید درین طریق معین بسته باشد حلقهٔ همین در می‌زند بوک حق تعالی آن روزی را از در دیگر بدو رساند کی او آن تدبیر نکرده باشد و یرزقه من حیث لا یحتسب العبد یدبر والله یقدر و بود کی بنده را وهم بندگی بود کی مرا از غیر این در برساند اگر چه من حلقهٔ این در می‌زنم حق تعالی او را هم ازین در روزی رساند فی‌الجمله این  همه درهای یکی سرایست مع تقریره	exposition	urn:sufi:rumi.mathnawi:6.b4175	urn:sufi:rumi.mathnawi:6.b4205	4175	4205	31
+6	118	حکایت آن شخص کی خواب دید کی آنچ می‌طلبی از یسار  به مصر وفا شود آنجا گنجیست در فلان محله در فلان خانه چون به مصر  آمد کسی گفت من خواب دیده‌ام کی  گنجیست به بغداد در فلان محله در  فلان خانه نام محله و خانهٔ این شخص  بگفت آن شخص فهم کرد کی  آن گنج در مصر گفتن جهت آن بود  کی مرا یقین کنند کی در غیر  خانهٔ خود نمی‌باید جستن ولیکن این گنج یقین و محقق جز در مصر حاصل نشود	tale	urn:sufi:rumi.mathnawi:6.b4206	urn:sufi:rumi.mathnawi:6.b4216	4206	4216	11
+6	119	سبب تاخیر اجابت دعای مؤمن	exposition	urn:sufi:rumi.mathnawi:6.b4217	urn:sufi:rumi.mathnawi:6.b4237	4217	4237	21
+6	120	رجوع کردن به قصهٔ آن شخص کی به او گنج نشان دادند به مصر و بیان تضرع او از درویشی به حضرت حق	return	urn:sufi:rumi.mathnawi:6.b4238	urn:sufi:rumi.mathnawi:6.b4254	4238	4254	17
+6	121	رسیدن آن شخص به مصر و شب بیرون آمدن به کوی از بهر شبکوکی و گدایی و گرفتن عسس او را و مراد او حاصل شدن از عسس بعد از خوردن زخم بسیار و عَسی أَنْ تَکْرَهوا شَیْئاً وَ هُوَ خَیْرٌ لَکُمْ و قوله  تعالی سَیَجْعَلُ اللهُ بَعْدَ عُسْرٍ یُسْراً و قوله علیه‌السلام اشتدّی ازمّة  تنفرجی و جمیع القرآن و الکتب المنزلة فی تقریر هذا	step	urn:sufi:rumi.mathnawi:6.b4255	urn:sufi:rumi.mathnawi:6.b4273	4255	4273	19
+6	122	بیان این خبر کی الکذب ریبة والصدق طمانینة	exposition	urn:sufi:rumi.mathnawi:6.b4274	urn:sufi:rumi.mathnawi:6.b4330	4274	4330	57
+6	123	مثل	tale	urn:sufi:rumi.mathnawi:6.b4331	urn:sufi:rumi.mathnawi:6.b4335	4331	4335	5
+6	124	بازگشتن آن شخص شادمان و مراد یافته و خدای را شکر گویان و سجده کنان و حیران در غرایب اشارات حق و ظهور تاویلات آن در  وجهی کی هیچ عقلی و فهمی بدانجا نرسد	return	urn:sufi:rumi.mathnawi:6.b4336	urn:sufi:rumi.mathnawi:6.b4385	4336	4385	49
+6	125	مکرر کردن برادران پند دادن بزرگین را و تاب ناآوردن او آن پند را و در رمیدن او ازیشان شیدا و بی‌خود رفتن و خود را در بارگاه پادشاه انداختن بی‌دستوری خواستن لیک از فرط عشق و محبت نه از گستاخی و لاابالی الی آخره	return	urn:sufi:rumi.mathnawi:6.b4386	urn:sufi:rumi.mathnawi:6.b4448	4386	4448	63
+6	126	مفتون شدن قاضی بر زن جوحی و در صندوق ماندن و نایب قاضی صندوق را خریدن باز سال دوم آمدن زن جوحی بر امید بازی پارینه و گفتن قاضی کی مرا آزاد کن و کسی دیگر را بجوی الی آخر القصه	step	urn:sufi:rumi.mathnawi:6.b4449	urn:sufi:rumi.mathnawi:6.b4474	4449	4474	26
+6	127	رفتن قاضی به خانهٔ زن جوحی و حلقه زدن جوحی به خشم بر در و گریختن قاضی در صندوقی الی آخره	step	urn:sufi:rumi.mathnawi:6.b4475	urn:sufi:rumi.mathnawi:6.b4519	4475	4519	45
+6	128	آمدن نایب قاضی میان بازار و خریداری کردن صندوق را از جوحی الی آخره	step	urn:sufi:rumi.mathnawi:6.b4520	urn:sufi:rumi.mathnawi:6.b4537	4520	4537	18
+6	129	در تفسیر این خبر کی مصطفی صلوات‌الله علیه فرمود من کنت مولاه فعلی مولاه تا منافقان طعنه زدند کی بس نبودش کی ما مطیعی و چاکری نمودیم او را چاکری کودکی خلم آلودمان هم می‌فرماید الی آخره	exposition	urn:sufi:rumi.mathnawi:6.b4538	urn:sufi:rumi.mathnawi:6.b4552	4538	4552	15
+6	130	باز آمدن زن جوحی به محکمهٔ قاضی سال دوم بر امید وظیفهٔ پارسال و شناختن قاضی او را الی اتمامه	step	urn:sufi:rumi.mathnawi:6.b4553	urn:sufi:rumi.mathnawi:6.b4588	4553	4588	36
+6	131	باز آمدن به شرح قصهٔ شاه‌زاده و ملازمت او در حضرت شاه	return	urn:sufi:rumi.mathnawi:6.b4589	urn:sufi:rumi.mathnawi:6.b4607	4589	4607	19
+6	132	در بیان آنک دوزخ گوید کی قنطرهٔ صراط بر سر اوست ای مؤمن از صراط زودتر بگذر زود بشتاب تا عظمت نور تو آتش ما را نکشد جز یا مؤمن فان نورک اطفاء ناری	exposition	urn:sufi:rumi.mathnawi:6.b4608	urn:sufi:rumi.mathnawi:6.b4633	4608	4633	26
+6	133	متوفی شدن بزرگین از شه‌زادگان و آمدن برادر میانین به جنازهٔ برادر کی آن کوچکین صاحب‌فراش بود از رنجوری و نواختن پادشاه میانین را تا او هم لنگ احسان شد ماند پیش پادشاه صد هزار از غنایم غیبی و غنی بدو رسید از دولت و نظر آن شاه مع تقریر بعضه	step	urn:sufi:rumi.mathnawi:6.b4634	urn:sufi:rumi.mathnawi:6.b4758	4634	4758	125
+6	134	وسوسه‌ای کی پادشاه‌زاده را پیدا شد از سبب استغنایی و کشفی کی از شاه دل او را حاصل شده بود و قصد ناشکری و سرکشی می‌کرد شاه را از راه الهام و سر شاه را خبر شد دلش درد کرد روح او را زخمی زد چنانک صورت شاه را خبر نبود الی آخره	step	urn:sufi:rumi.mathnawi:6.b4759	urn:sufi:rumi.mathnawi:6.b4796	4759	4796	38
+6	135	خطاب حق تعالی به عزرائیل علیه‌السلام کی ترا رحم بر کی بیشتر آمد ازین خلایق کی جانشان قبض کردی و جواب دادن عزرائیل حضرت را	step	urn:sufi:rumi.mathnawi:6.b4797	urn:sufi:rumi.mathnawi:6.b4814	4797	4814	18
+6	136	کرامات شیخ شیبان راعی قدس الله روحه العزیز	step	urn:sufi:rumi.mathnawi:6.b4815	urn:sufi:rumi.mathnawi:6.b4830	4815	4830	16
+6	137	رجوع کردن به قصهٔ پروردن حق تعالی نمرود را بی‌واسطهٔ مادر و دایه در طفلی	return	urn:sufi:rumi.mathnawi:6.b4831	urn:sufi:rumi.mathnawi:6.b4864	4831	4864	34
+6	138	رجوع کردن بدان قصه کی شاه‌زاده بدان طغیان زخم خورد از خاطر شاه پیش از استکمال فضایل دیگر از دنیا برفت	return	urn:sufi:rumi.mathnawi:6.b4865	urn:sufi:rumi.mathnawi:6.b4876	4865	4876	12
+6	139	وصیت کردن آن شخص کی بعد از من او برد مال مرا از سه فرزند من کی کاهل‌ترست	step	urn:sufi:rumi.mathnawi:6.b4877	urn:sufi:rumi.mathnawi:6.b4902	4877	4902	25
+6	140	مثل	tale	urn:sufi:rumi.mathnawi:6.b4903	urn:sufi:rumi.mathnawi:6.b4916	4903	4916	14

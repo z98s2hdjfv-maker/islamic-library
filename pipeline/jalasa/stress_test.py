@@ -200,6 +200,17 @@ def c_cite(c, T):
     return ok, (out.strip().splitlines() or ["nothing"])[0][:140] if ok else "the record did not resolve: " + (out + err).strip()[-140:]
 
 
+def c_story(c, T):
+    """v54: a Mathnawi couplet comes back with Rumi's heading, its story and the readings recorded for it"""
+    rc, out, err, dt = run([sys.executable, "pipeline/mathnawi/story.py", "--repo", ".", c["input"]], T.repo)
+    if rc != 0: return False, "story.py failed: " + (out + err).strip()[-140:]
+    found = {"heading": int("Rumi's heading:" in out), "story": int("\nstory " in out), "passages": len(re.findall(r"^sijill: passage:", out, re.M)),
+             "readings": sum(int(n) for n in re.findall(r"; (\d+) readings", out))}
+    ok, bad = compare(found, c["expect"])
+    if c["where"] and c["where"] not in out: ok = False; bad = bad + [f"'{c['where']}' not in the output"]
+    return ok, f"heading {'yes' if found['heading'] else 'no'}, story {'yes' if found['story'] else 'no'}, {found['passages']} passages, {found['readings']} readings" + ("; FAILED: " + "; ".join(bad) if bad else "")
+
+
 def c_sijill(c, T):
     if c["input"] == "validator":
         rc, out, err, dt = run([sys.executable, "pipeline/sijill/sijill.py", "--repo", ".", "all"], T.repo)
@@ -255,7 +266,7 @@ def c_crash(c, T):
 
 
 CHECKS = {"authenticate": c_authenticate, "same": c_same, "search": c_search, "verse": c_lookup("verse"), "concept": c_lookup("concept"),
-          "caliph": c_caliph, "cite": c_cite, "sijill": c_sijill, "metric": c_metric, "time": c_time, "crash": c_crash}
+          "caliph": c_caliph, "cite": c_cite, "story": c_story, "sijill": c_sijill, "metric": c_metric, "time": c_time, "crash": c_crash}
 
 
 def main():

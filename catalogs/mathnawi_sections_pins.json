@@ -1,0 +1,9 @@
+{
+ "source": "ganjoor-data",
+ "commit": "a64968e78425b2e8c7904fbdf5289fba8251a757",
+ "folder": "poets/moulavi/masnavi/daftar1-6",
+ "field": "Title",
+ "sections": 972,
+ "headings_sha256": "5b225a69ecdbd4f1dbf2242b166eec8733e06b7c4f8b033b5d2cb5c7c8563645",
+ "note": "machine-written summaries in the source are not imported"
+}

@@ -1,17 +1,17 @@
 {
  "date": "2026-10-03",
- "commit": "67d1589 Add files via upload",
+ "commit": "d752cc5 Apply library-update-v53.zip",
  "seconds": 187,
  "must": [
-  74,
-  74
+  79,
+  79
  ],
  "goal": [
   0,
-  12
+  15
  ],
  "timing": {
-  "authenticate_all": 33.5,
+  "authenticate_all": 33.6,
   "authenticate_per_saying": 1.5
  },
  "results": [
@@ -517,7 +517,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "507 entries, 222 cited records (222 resolved); 0 problems"
+   "found": "556 entries, 265 cited records (265 resolved); 0 problems"
   },
   {
    "id": "H2",
@@ -613,7 +613,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": true,
-   "found": "33 seconds"
+   "found": "34 seconds"
   },
   {
    "id": "J3",
@@ -702,6 +702,70 @@
    "section": "K. Size and coverage",
    "ok": false,
    "found": "7; FAILED: value>=10 (found 7)"
+  },
+  {
+   "id": "L1",
+   "level": "must",
+   "check": "story",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": true,
+   "found": "heading yes, story yes, 2 passages, 7 readings"
+  },
+  {
+   "id": "L2",
+   "level": "must",
+   "check": "story",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": true,
+   "found": "heading yes, story no, 0 passages, 0 readings"
+  },
+  {
+   "id": "L3",
+   "level": "must",
+   "check": "story",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": true,
+   "found": "heading yes, story yes, 0 passages, 0 readings"
+  },
+  {
+   "id": "L4",
+   "level": "must",
+   "check": "sijill",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": true,
+   "found": "33 entries of type reading"
+  },
+  {
+   "id": "L5",
+   "level": "must",
+   "check": "sijill",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": true,
+   "found": "11 entries of type passage"
+  },
+  {
+   "id": "L6",
+   "level": "goal",
+   "check": "story",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": false,
+   "found": "heading yes, story no, 0 passages, 0 readings; FAILED: story==1 (found 0)"
+  },
+  {
+   "id": "L7",
+   "level": "goal",
+   "check": "search",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": false,
+   "found": "0 records in 0 works; FAILED: records>=1 (found 0)"
+  },
+  {
+   "id": "L8",
+   "level": "goal",
+   "check": "sijill",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": false,
+   "found": "33 entries of type reading; FAILED: entries>=60 (found 33)"
   }
  ]
 }
