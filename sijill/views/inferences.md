@@ -54,6 +54,130 @@ Parents and society corrupt; the self is not a source of going astray.
 - **The Qur'an** (d. 0 AH): *rejects*. 'He inspired it with its wickedness and its piety' (91:8); 'the self commands evil' (12:53): a source of going astray within. `urn:quran:91:8`; `urn:quran:12:53`
 - **Ibn ʿArabi** (d. 638 AH): *rejects*. 'Man's disobedience comes from what he was created upon; his obedience from what he was created for.' al-Futuhat, Shamela ed. p. 74 (record id pending)
 
+## Good deeds polish the heart and sins darken it
+
+
+
+**Verdict: holds** (draft). Qur'an 83:14 and the hadith of the black spot; al-Ghazali: turning to obedience and away from the appetites is what polishes the heart.
+
+- **The Qur'an** (d. 0 AH): *affirms*. 'Rather, what they earned has rusted upon their hearts.' `urn:quran:83:14`
+- **ʿAbd al-Qadir al-Jilani** (d. 561 AH): *affirms*. Sermon 23, 'Polishing the rust of hearts': the heart rusts; untreated, it turns to blackness. Rests on the weak rust hadith. `urn:shamela:jilani.fathrabbani:r00106` (al-Fath al-rabbani, sermon 23)
+- **Ibn ʿArabi** (d. 638 AH): *qualifies*. The rust is nothing but what appears in the mirror of the heart of forms Allah did not call it to look at; its polish is remembrance and recitation. The rust is the wrong images themselves. `urn:shamela:ibnarabi.futuhat.arabiyya:r02051` (Futuhat 4:25)
+- **Rumi** (d. 672 AH): *affirms*. Your mirror tells nothing because the rust has not been cleared from its face; when the heart's mirror is clear you see images beyond water and clay. `urn:sufi:rumi.mathnawi:1.b0034`; `urn:sufi:rumi.mathnawi:2.b0072`; `urn:sufi:rumi.mathnawi:1.b3154`
+
+## The effects of sin remain, as the hadith shows
+
+
+
+**Verdict: overstated** (draft). The hadith has no basis. The claim is al-Ghazali's own, argued from the mirror: one wiped after being soiled is not like one polished with no stain before.
+
+- **ʿAbd Allah ibn Masʿud** (d. 32 AH): *affirms*. 'I reckon that a servant forgets knowledge because of the sin he commits' (as quoted by al-Ghazali; grade not checked). `urn:shamela:ghazali.ihya_with_iraqi:r02370` (Ihyaʾ 4:370)
+- **al-Ghazali** (d. 505 AH): *affirms*. A mirror soiled then wiped is not like one polished with no earlier stain; cites the hadith. `urn:shamela:ghazali.ihya_with_iraqi:r01491`
+- **Zayn al-Din al-ʿIraqi** (d. 806 AH): *rejects*. Of the hadith: 'I have seen no basis for it.' `urn:shamela:ghazali.ihya_with_iraqi:r01491`
+
+## Fear can bring out what is deep in the heart, and it may not last
+
+The atheist mother who cried 'Oh my God' and was the same the next day.
+
+**Verdict: holds** (draft). The Qur'an says the same of those caught at sea (31:32, 29:65).
+
+- **The Qur'an** (d. 0 AH): *affirms*. When waves cover them they call on Allah sincerely; when He brings them to land, some keep a middle course (31:32), and others associate partners again (29:65). `urn:quran:31:32`; `urn:quran:29:65`
+
+## The fifth condition is prerequisite sciences
+
+Biology for medicine, legal theory and sociology for law, history of religions for religion.
+
+**Verdict: mixed** (draft). al-Ghazali means the two premises that must be paired to yield a conclusion; academic prerequisites are a broader reading.
+
+- **al-Ghazali** (d. 505 AH): *qualifies*. Every knowledge arises from two prior knowledges paired in a particular way, like offspring from a pairing; the two mirrors for the nape of the neck. `urn:shamela:ghazali.ihya_with_iraqi:r01492`
+- **ʿAbd al-Qadir al-Jilani** (d. 561 AH): *qualifies*. The second mirror is the guide: 'Make me your mirror, the mirror of your heart; come close, for you will see in yourself what you do not see far from me.' `urn:shamela:jilani.fathrabbani:r00035` (al-Fath al-rabbani p. 36)
+
+## al-Ghazali gives five conditions for the heart, on the image of a mirror
+
+
+
+**Verdict: holds** (draft). Ihyaʾ 3:490-492 lists five causes that keep a mirror from showing an image and applies each to the heart; the lecture's five match them in order.
+
+- **al-Ghazali** (d. 505 AH): *affirms*. Five causes: deficiency in itself; the murk of sins; being turned from the reality sought; a veil of inherited belief; ignorance of the direction from which the sought thing is found. `urn:shamela:ghazali.ihya_with_iraqi:r01490`; `urn:shamela:ghazali.ihya_with_iraqi:r01491`; `urn:shamela:ghazali.ihya_with_iraqi:r01492`
+
+## The fourth veil is wrong ideas and partisanship, covering communism, nationalism, atheism and the Trinity
+
+
+
+**Verdict: mixed** (draft). The veil and partisanship for the schools are al-Ghazali's, but his example is a believer's own inherited creed held by imitation; the list of other people's ideologies is the lecturer's extension.
+
+- **al-Ghazali** (d. 505 AH): *qualifies*. The veil is a belief received from childhood by imitation; by it are veiled most theologians and partisans of the schools, and even most of the righteous. `urn:shamela:ghazali.ihya_with_iraqi:r01492`
+
+## A wrong action must be followed by a good one, which erases it
+
+
+
+**Verdict: holds** (draft). al-Tirmidhi, fair and sound. The lecture keeps al-Ghazali's finer point that the good deed only returns the heart to where it was.
+
+
+## Islam wipes the slate clean
+
+
+
+**Verdict: holds** (draft). Muslim: Islam demolishes what came before it.
+
+
+## The disobedient believer's heart still holds great light
+
+
+
+**Verdict: holds** (draft). As al-Shadhili's saying, not as revelation.
+
+- **Abu al-Hasan al-Shadhili** (d. 656 AH): *affirms*. 'If the light of the disobedient believer were unveiled it would fill what is between heaven and earth; so what of the light of the obedient believer?' `urn:openiti:0709IbnCataAllahSikandari.LataifMinan.Kraken220414225447-ara1:p00085` (Lataʾif al-minan p. 31)
+
+## A clean heart can still miss the truth if it is pointed at other things
+
+
+
+**Verdict: holds** (draft). al-Ghazali goes further: even a heart absorbed in the details of worship or of earning a living is turned away.
+
+- **al-Ghazali** (d. 505 AH): *qualifies*. Even the obedient heart absorbed in the details of bodily worship or of livelihood does not face the reality sought. `urn:shamela:ghazali.ihya_with_iraqi:r01491`
+
+## Muslims reached the Americas before Columbus, proven better than Columbus's own crossing; Columbus conquered Tenochtitlan and wrote of its many mosques
+
+
+
+**Verdict: wrong** (draft). From general knowledge, not the repo: Cortés took Tenochtitlan in 1521 and his letters call Aztec temples 'mezquitas'; the Mali voyage rests on one report that the fleet left and did not return; historians do not accept the terracottas as proof.
+
+
+## The heart is fully formed around puberty, and a child is a wali of Allah
+
+
+
+**Verdict: mixed** (draft). al-Ghazali says only 'like the heart of a child, which is deficient in itself'. Puberty and the child as a saint are the lecturer's additions.
+
+
+## The Trinity has no basis in the Bible
+
+
+
+**Verdict: unsupported** (draft). Outside the library. The Qur'an rejects the Trinity (4:171, 5:73); what the Bible contains is a separate claim that Christians contest, and the lecture gives no evidence for it.
+
+- **The Qur'an** (d. 0 AH): *qualifies*. The Qur'an rejects the Trinity; it does not speak to what the lecture claims about the Bible's text. `urn:quran:4:171`; `urn:quran:5:73`
+
+## ʿUmar's conversion happened as told
+
+The man of Banu Zuhra, the sister's bleeding face, the recitation of Ta Ha.
+
+**Verdict: holds** (draft). Ibn Saʿd, from Anas. No classical grade for the chain was found.
+
+- **Ibn Saʿd** (d. 230 AH): *affirms*. Reports the conversion from Anas ibn Malik. `urn:openiti:0230IbnSacd.TabaqatKubra.ShamAY0035884-ara1:p09246` (Tabaqat 3:248)
+
+## Qur'an 6:122 refers to ʿUmar
+
+
+
+**Verdict: overstated** (draft). One reported view beside another; al-Tabari reads the verse of any unbeliever whom Allah guides.
+
+- **al-Dahhak ibn Muzahim** (d. 105 AH): *affirms*. The one given life is ʿUmar; the one in darkness is Abu Jahl. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p26562` (Tafsir 9:534)
+- **ʿIkrima** (d. 105 AH): *rejects*. It was revealed about ʿAmmar ibn Yasir. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p26564` (Tafsir 9:534)
+- **al-Tabari** (d. 310 AH): *qualifies*. Reads the verse of any unbeliever whom Allah guides to Islam, then reports both views. `urn:openiti:0310Tabari.JamicBayan.Shamela0007798-ara1:p26558` (Tafsir 9:533)
+
 ## Adam knew the Prophet's name from the pillars of the Throne
 
 

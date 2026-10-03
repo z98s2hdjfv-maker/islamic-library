@@ -99,6 +99,8 @@ Each master must be able to speak on the case in his own words. The test case is
 | C7 | goal | search | مرآة القلب | rumi,mathnawi | each_folder | An Arabic phrase should reach Rumi's Persian (آینه دل): needs a link between Arabic and Persian terms |
 | C8 | must | search | بسوزد پر من | mathnawi | records>=1 | Rumi on Jibril's halt at the Sidra (seven heavens case) |
 | C9 | must | search | الفلك الأطلس | ibnarabi | records>=20 | Ibn ʿArabi's cosmology: the starless sphere |
+| C10 | must | search | نور المؤمن العاصي | wilaya | records>=2 | A master's saying traced to who said it: al-Shadhili, in Ibn ʿAtaʾ Allah and al-Shaʿrani (heart case) |
+| C11 | must | search | صدأ القلوب | jilani | records>=1 | Al-Jilani's sermon on polishing the rust of hearts |
 
 ## D. The caliphs and the Companions
 
@@ -147,10 +149,10 @@ same question.
 | id | level | check | input | where | expect | why |
 |---|---|---|---|---|---|---|
 | H1 | must | sijill | validator | | | Every cited record resolves |
-| H2 | must | sijill | type:position | | entries>=55 | Voices' positions are recorded |
-| H3 | must | sijill | type:verdict | | entries>=23 | Verdicts on inferences are recorded |
-| H4 | must | sijill | type:saying | | entries>=22 | Sayings examined by a study are recorded (22 from the seven heavens case, v51; the heart lecture's seven are still to be entered) |
-| H5 | must | sijill | type:authentication | | entries>=22 | What was found on each saying is recorded |
+| H2 | must | sijill | type:position | | entries>=78 | Voices' positions are recorded |
+| H3 | must | sijill | type:verdict | | entries>=38 | Verdicts on inferences are recorded |
+| H4 | must | sijill | type:saying | | entries>=29 | Sayings examined by a study are recorded (22 from the seven heavens case, 7 from the heart lecture) |
+| H5 | must | sijill | type:authentication | | entries>=29 | What was found on each saying is recorded |
 | H6 | goal | sijill | type:ruling | | entries>=1 | A juristic type exists and is used |
 
 ## I. Odd input

@@ -1,17 +1,17 @@
 {
  "date": "2026-10-03",
- "commit": "dd81071 Add files via upload",
- "seconds": 170,
+ "commit": "a9bb540 Apply library-update-v51.zip",
+ "seconds": 177,
  "must": [
-  55,
-  55
+  57,
+  57
  ],
  "goal": [
   0,
   19
  ],
  "timing": {
-  "authenticate_all": 31.8,
+  "authenticate_all": 32.0,
   "authenticate_per_saying": 1.5
  },
  "results": [
@@ -288,6 +288,22 @@
    "found": "56 records in 7 works (ibnarabi 56)"
   },
   {
+   "id": "C10",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "3 records in 3 works (wilaya 3)"
+  },
+  {
+   "id": "C11",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "2 records in 1 works (jilani 2)"
+  },
+  {
    "id": "D1",
    "level": "must",
    "check": "caliph",
@@ -429,7 +445,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "193 entries, 76 cited records (76 resolved); 0 problems"
+   "found": "273 entries, 103 cited records (103 resolved); 0 problems"
   },
   {
    "id": "H2",
@@ -437,7 +453,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "55 entries of type position"
+   "found": "78 entries of type position"
   },
   {
    "id": "H3",
@@ -445,7 +461,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "23 entries of type verdict"
+   "found": "38 entries of type verdict"
   },
   {
    "id": "H4",
@@ -453,7 +469,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "22 entries of type saying"
+   "found": "29 entries of type saying"
   },
   {
    "id": "H5",
@@ -461,7 +477,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "22 entries of type authentication"
+   "found": "29 entries of type authentication"
   },
   {
    "id": "H6",
@@ -533,7 +549,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": false,
-   "found": "2 seconds; FAILED: seconds<=1 (found 1.51)"
+   "found": "2 seconds; FAILED: seconds<=1 (found 1.52)"
   },
   {
    "id": "K1",

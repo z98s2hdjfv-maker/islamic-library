@@ -1,15 +1,15 @@
 # Jalasa stress test: scorecard
 
-Run 2026-10-03 on `dd81071 Add files via upload` in 170 seconds. Cases come from `docs/jalasa/STRESS_TEST.md`; edit that document to change them.
+Run 2026-10-03 on `a9bb540 Apply library-update-v51.zip` in 177 seconds. Cases come from `docs/jalasa/STRESS_TEST.md`; edit that document to change them.
 
-**Must: 55 of 55 pass.** These are things the repo already does; a failure is a regression.
+**Must: 57 of 57 pass.** These are things the repo already does; a failure is a regression.
 **Goal: 0 of 19 met.** These are things the Jalasa needs that the repo does not do yet.
 
 | Capability | Must | Goal met |
 |---|---|---|
 | A. The Qur'an and its commentators | 6 of 6 | 0 of 2 |
 | B. The Sunna: testing a saying | 10 of 10 | 0 of 7 |
-| C. The masters of the council | 8 of 8 | 0 of 1 |
+| C. The masters of the council | 10 of 10 | 0 of 1 |
 | D. The caliphs and the Companions | 7 of 7 | 0 of 1 |
 | E. The schools of law: showing a disagreement | 2 of 2 | 0 of 2 |
 | F. Citing: every claim traceable | 2 of 2 | 0 of 1 |
@@ -40,7 +40,7 @@ Each is a gap between the repo and what a Jalasa needs.
 | E4 | The same, for the qunut at dawn | `each_folder` | 32 records in 16 works (hanbali 1, maliki 11, shafii 20); FAILED: folders_with_hits>=4 (found 3) |
 | F3 | A hadith-layer id should resolve to its source page too | `` | the record did not resolve: record not found |
 | H6 | A juristic type exists and is used | `entries>=1` | 0 entries of type ruling; FAILED: entries>=1 (found 0) |
-| J3 | Fast enough to test every saying in a long lecture at once | `seconds<=1` | 2 seconds; FAILED: seconds<=1 (found 1.51) |
+| J3 | Fast enough to test every saying in a long lecture at once | `seconds<=1` | 2 seconds; FAILED: seconds<=1 (found 1.52) |
 | K7 | Target: four in ten hadith with a classical grade | `value<=0.60` | 70.0%; FAILED: value<=0.60 (found 0.7) |
 | K8 | Target: most narrator names linked | `value>=0.60` | 44.9%; FAILED: value>=0.60 (found 0.45) |
 | K9 | A dossier for the heart and one for each master | `value>=6` | 4; FAILED: value>=6 (found 4) |
@@ -75,6 +75,8 @@ Each is a gap between the repo and what a Jalasa needs.
 | C6 | The plain word "heart" reaches all four masters (Rumi where he writes in Arabic) | `each_folder` | 3246 records in 39 works (ghazali 828, ibnarabi 2019, jilani 379, rumi 20) |
 | C8 | Rumi on Jibril's halt at the Sidra (seven heavens case) | `records>=1` | 1 records in 1 works (mathnawi 1) |
 | C9 | Ibn ʿArabi's cosmology: the starless sphere | `records>=20` | 56 records in 7 works (ibnarabi 56) |
+| C10 | A master's saying traced to who said it: al-Shadhili, in Ibn ʿAtaʾ Allah and al-Shaʿrani (heart case) | `records>=2` | 3 records in 3 works (wilaya 3) |
+| C11 | Al-Jilani's sermon on polishing the rust of hearts | `records>=1` | 2 records in 1 works (jilani 2) |
 | D1 | Hadith that reach Abu Bakr in the layer | `hadith>=100` | 222 hadith reach Abu Bakr in the layer |
 | D2 | Hadith that reach ʿUmar | `hadith>=500` | 1024 hadith reach Umar in the layer |
 | D3 | Hadith that reach ʿUthman | `hadith>=150` | 263 hadith reach Uthman in the layer |
@@ -88,11 +90,11 @@ Each is a gap between the repo and what a Jalasa needs.
 | F2 | The Ihya passage on the five causes resolves | `` | urn:shamela:ghazali.ihya_with_iraqi:r01491 |
 | G1 | Modern verdicts never appear among the classical ones | `modern_apart, says:Busiri:حفص, hadith>=10` | 24 hadith (Abu Yaʿla, Ibn Maja, al-Bayhaqi, al-Bazzar, al-Tabarani), 102 critic passages |
 | G2 | A classical critic and a modern one on the same hadith, in separate columns | `in:Abu Dawud, grade:Nawawi:حسن, modern_apart` | 3 hadith (Abu Dawud, al-Bazzar, al-Hakim), 7 critic passages |
-| H1 | Every cited record resolves | `` | 193 entries, 76 cited records (76 resolved); 0 problems |
-| H2 | Voices' positions are recorded | `entries>=55` | 55 entries of type position |
-| H3 | Verdicts on inferences are recorded | `entries>=23` | 23 entries of type verdict |
-| H4 | Sayings examined by a study are recorded (22 from the seven heavens case, v51; the heart lecture's seven are still to be entered) | `entries>=22` | 22 entries of type saying |
-| H5 | What was found on each saying is recorded | `entries>=22` | 22 entries of type authentication |
+| H1 | Every cited record resolves | `` | 273 entries, 103 cited records (103 resolved); 0 problems |
+| H2 | Voices' positions are recorded | `entries>=78` | 78 entries of type position |
+| H3 | Verdicts on inferences are recorded | `entries>=38` | 38 entries of type verdict |
+| H4 | Sayings examined by a study are recorded (22 from the seven heavens case, 7 from the heart lecture) | `entries>=29` | 29 entries of type saying |
+| H5 | What was found on each saying is recorded | `entries>=29` | 29 entries of type authentication |
 | I1 | With and without vowel marks | `` | first: 11 hadith, 15 passages; second: 11 hadith, 15 passages |
 | I2 | With and without hamza and ta marbuta | `` | first: 17 hadith, 17 passages; second: 17 hadith, 17 passages |
 | I3 | Latin text does not break the command | `` | ran without error |
