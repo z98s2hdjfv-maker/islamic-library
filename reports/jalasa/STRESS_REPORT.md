@@ -1,24 +1,24 @@
 # Jalasa stress test: scorecard
 
-Run 2026-10-03 on `d752cc5 Apply library-update-v53.zip` in 187 seconds. Cases come from `docs/jalasa/STRESS_TEST.md`; edit that document to change them.
+Run 2026-10-04 on `c063d16 Add files via upload` in 167 seconds. Cases come from `docs/jalasa/STRESS_TEST.md`; edit that document to change them.
 
-**Must: 79 of 79 pass.** These are things the repo already does; a failure is a regression.
+**Must: 84 of 84 pass.** These are things the repo already does; a failure is a regression.
 **Goal: 0 of 15 met.** These are things the Jalasa needs that the repo does not do yet.
 
 | Capability | Must | Goal met |
 |---|---|---|
 | A. The Qur'an and its commentators | 11 of 11 | 0 of 0 |
 | B. The Sunna: testing a saying | 15 of 15 | 0 of 4 |
-| C. The masters of the council | 13 of 13 | 0 of 0 |
+| C. The masters of the council | 16 of 16 | 0 of 0 |
 | D. The caliphs and the Companions | 7 of 7 | 0 of 1 |
 | E. The schools of law: showing a disagreement | 2 of 2 | 0 of 2 |
-| F. Citing: every claim traceable | 5 of 5 | 0 of 0 |
+| F. Citing: every claim traceable | 6 of 6 | 0 of 0 |
 | G. Classical and modern kept apart | 2 of 2 | 0 of 0 |
 | H. The sijill: recording what the council found | 5 of 5 | 0 of 1 |
 | I. Odd input | 5 of 5 | 0 of 0 |
 | J. Speed | 2 of 2 | 0 of 1 |
 | K. Size and coverage | 7 of 7 | 0 of 3 |
-| L. The masters' stories: voice and layers of meaning | 5 of 5 | 0 of 3 |
+| L. The masters' stories: voice and layers of meaning | 6 of 6 | 0 of 3 |
 
 ## Goals not yet met: the roadmap
 
@@ -34,13 +34,13 @@ Each is a gap between the repo and what a Jalasa needs.
 | E3 | A real disagreement: one phrase misses the school that words it differently. Needs an index of legal questions | `each_folder` | 12 records in 10 works (hanbali 2, maliki 4, shafii 6); FAILED: folders_with_hits>=4 (found 3) |
 | E4 | The same, for the qunut at dawn | `each_folder` | 32 records in 16 works (hanbali 1, maliki 11, shafii 20); FAILED: folders_with_hits>=4 (found 3) |
 | H6 | A juristic type exists and is used | `entries>=1` | 0 entries of type ruling; FAILED: entries>=1 (found 0) |
-| J3 | Fast enough to test every saying in a long lecture at once | `seconds<=1` | 1 seconds; FAILED: seconds<=1 (found 1.46) |
+| J3 | Fast enough to test every saying in a long lecture at once | `seconds<=1` | 1 seconds; FAILED: seconds<=1 (found 1.21) |
 | K7 | Target: four in ten hadith with a classical grade | `value<=0.60` | 70.0%; FAILED: value<=0.60 (found 0.7) |
 | K8 | Target: most narrator names linked | `value>=0.60` | 44.9%; FAILED: value>=0.60 (found 0.45) |
-| K10 | A dossier for each of the other masters (al-Ghazali, al-Jilani, Ibn ʿArabi) | `value>=10` | 7; FAILED: value>=10 (found 7) |
+| K10 | A dossier for each of the other masters (al-Ghazali, al-Jilani, Ibn ʿArabi) | `value>=10` | 8; FAILED: value>=10 (found 8) |
 | L6 | A story map for Books 2 to 6 (only Book 1 is mapped; the others have Rumi's headings) | `story==1` | heading yes, story no, 0 passages, 0 readings; FAILED: story==1 (found 0) |
 | L7 | A classical commentary on the Mathnawi, in a folder corpus/mathnawi_sharh, so that the stories are read through the tradition and not only through Claude | `records>=1` | 0 records in 0 works; FAILED: records>=1 (found 0) |
-| L8 | The grocer and the parrot read to its end (sections 9 to 12), and a second story begun | `entries>=60` | 33 entries of type reading; FAILED: entries>=60 (found 33) |
+| L8 | The grocer and the parrot read to its end (sections 9 to 12), and a second story begun | `entries>=60` | 46 entries of type reading; FAILED: entries>=60 (found 46) |
 
 ## Passing
 
@@ -87,6 +87,9 @@ Each is a gap between the repo and what a Jalasa needs.
 | C9 | Ibn ʿArabi's cosmology: the starless sphere | `records>=20` | 56 records in 7 works (ibnarabi 56) |
 | C10 | A master's saying traced to who said it: al-Shadhili, in Ibn ʿAtaʾ Allah and al-Shaʿrani (heart case) | `records>=2` | 3 records in 3 works (wilaya 3) |
 | C11 | Al-Jilani's sermon on polishing the rust of hearts | `records>=1` | 6 records in 3 works (jilani 6) |
+| C22 | The light that said 'I am your Lord': Ibn Taymiyya tells al-Jilani's story (Majmuʿ 1:172; Jilani case, v55) | `records>=1` | 9 records in 1 works (critics 9) |
+| C23 | Al-Jilani's last illness, 'all my limbs pain me except my heart', in Futuh al-ghayb (Jilani case, v55) | `records>=1` | 5 records in 4 works (jilani 5) |
+| C24 | The slave with no choice beside his master, in al-Fath al-rabbani (Jilani case, v55) | `records>=1` | 1 records in 1 works (jilani 1) |
 | D1 | Hadith that reach Abu Bakr in the layer | `hadith>=100` | 222 hadith reach Abu Bakr in the layer |
 | D2 | Hadith that reach ʿUmar | `hadith>=500` | 1027 hadith reach Umar in the layer |
 | D3 | Hadith that reach ʿUthman | `hadith>=150` | 263 hadith reach Uthman in the layer |
@@ -101,34 +104,36 @@ Each is a gap between the repo and what a Jalasa needs.
 | F3 | A hadith-layer id resolves to its source page (v53) | `` | urn:hadith:0261Muslim.Sahih:121.1 |
 | F4 | A Mathnawi couplet resolves to its book and Nicholson number (v53) | `` | urn:sufi:rumi.mathnawi:4.b3692 |
 | F5 | A hadith added to al-Tirmidhi's layer in v53 resolves with its printed number | `` | urn:hadith:0279Tirmidhi.Sunan:p08858 |
+| F6 | Al-Dhahabi's closing verdict on al-Jilani resolves to its page (Jilani case, v55) | `` | urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p126086 |
 | G1 | Modern verdicts never appear among the classical ones | `modern_apart, says:Busiri:حفص, hadith>=10` | 24 hadith (Abu Yaʿla, Ibn Maja, al-Bayhaqi, al-Bazzar, al-Tabarani), 102 critic passages |
 | G2 | A classical critic and a modern one on the same hadith, in separate columns | `in:Abu Dawud, grade:Nawawi:حسن, modern_apart` | 3 hadith (Abu Dawud, al-Bazzar, al-Hakim), 7 critic passages |
-| H1 | Every cited record resolves | `` | 556 entries, 265 cited records (265 resolved); 0 problems |
-| H2 | Voices' positions are recorded | `entries>=109` | 109 entries of type position |
-| H3 | Verdicts on inferences are recorded | `entries>=70` | 70 entries of type verdict |
-| H4 | Sayings examined by a study are recorded (22 seven heavens, 7 heart, 40 divine sayings, 12 ether) | `entries>=81` | 81 entries of type saying |
-| H5 | What was found on each saying is recorded | `entries>=81` | 81 entries of type authentication |
+| H1 | Every cited record resolves | `` | 617 entries, 325 cited records (325 resolved); 0 problems |
+| H2 | Voices' positions are recorded | `entries>=115` | 115 entries of type position |
+| H3 | Verdicts on inferences are recorded | `entries>=78` | 78 entries of type verdict |
+| H4 | Sayings examined by a study are recorded (22 seven heavens, 7 heart, 40 divine sayings, 12 ether, 3 Jilani) | `entries>=84` | 84 entries of type saying |
+| H5 | What was found on each saying is recorded | `entries>=84` | 84 entries of type authentication |
 | I1 | With and without vowel marks | `` | first: 11 hadith, 15 passages; second: 11 hadith, 15 passages |
 | I2 | With and without hamza and ta marbuta | `` | first: 17 hadith, 17 passages; second: 17 hadith, 17 passages |
 | I3 | Latin text does not break the command | `` | ran without error |
 | I4 | A one-word saying does not break the command | `` | ran without error |
 | I5 | Persian letters and digits do not break the search | `` | ran without error |
 | J1 | Testing a batch of sayings stays cheap per saying (about 2 seconds on two processors) | `seconds<=8` | 1 seconds |
-| J2 | The whole batch of this document's sayings | `seconds<=180` | 34 seconds |
+| J2 | The whole batch of this document's sayings | `seconds<=180` | 28 seconds |
 | K1 | The hadith layer has not shrunk | `value>=164650` | 164652 |
 | K2 | All collections are in the layer | `value>=21` | 21 |
 | K3 | The works index has not shrunk | `value>=390` | 396 |
 | K4 | Classical grade coverage has not fallen back | `value<=0.705` | 70.0% |
 | K5 | Narrator links have not fallen back | `value>=0.44` | 44.9% |
 | K6 | With the modern column, under half the hadith have no grade at all | `value<=0.46` | 45.7% |
-| K9 | Dossiers: asma, fitra, nur, wilaya, and since v53 the heart, Rumi and the first created thing | `value>=7` | 7 |
-| L1 | 'Do not measure the pure by yourself' comes back with the grocer and the parrot, and with its recorded readings | `heading==1, story==1, passages>=2, readings>=4` | heading yes, story yes, 2 passages, 7 readings |
+| K9 | Dossiers: asma, fitra, nur, wilaya, the heart, Rumi, the first created thing, and since v55 al-Jilani | `value>=8` | 8 |
+| L1 | 'Do not measure the pure by yourself' comes back with the grocer and the parrot, and with its recorded readings | `heading==1, story==1, passages>=2, readings>=4` | heading yes, story yes, 2 passages, 9 readings |
 | L2 | A couplet in another book comes back with Rumi's own heading for its section | `heading==1` | heading yes, story no, 0 passages, 0 readings |
 | L3 | 'The parrot of the soul' belongs to a different story from the grocer's parrot: the same image, another tale | `heading==1, story==1` | heading yes, story yes, 0 passages, 0 readings |
-| L4 | Readings are recorded, several to a passage, each with its layer and its reader | `entries>=33` | 33 entries of type reading |
-| L5 | Passages are recorded with the voice that speaks in them | `entries>=11` | 11 entries of type passage |
+| L4 | Readings are recorded, several to a passage, each with its layer and its reader | `entries>=46` | 46 entries of type reading |
+| L5 | Passages are recorded with the voice that speaks in them | `entries>=15` | 15 entries of type passage |
+| L9 | The last couplet of the grocer and the parrot comes back with its section and its readings: the story is read to its end (v55) | `heading==1, story==1, passages>=2, readings>=4` | heading yes, story yes, 2 passages, 9 readings |
 
 ## Timings
 
-- authenticate_all: 34 seconds
+- authenticate_all: 28 seconds
 - authenticate_per_saying: 1 seconds

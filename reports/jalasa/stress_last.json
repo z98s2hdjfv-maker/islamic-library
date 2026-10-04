@@ -1,18 +1,18 @@
 {
- "date": "2026-10-03",
- "commit": "d752cc5 Apply library-update-v53.zip",
- "seconds": 187,
+ "date": "2026-10-04",
+ "commit": "c063d16 Add files via upload",
+ "seconds": 167,
  "must": [
-  79,
-  79
+  84,
+  84
  ],
  "goal": [
   0,
   15
  ],
  "timing": {
-  "authenticate_all": 33.6,
-  "authenticate_per_saying": 1.5
+  "authenticate_all": 27.7,
+  "authenticate_per_saying": 1.2
  },
  "results": [
   {
@@ -360,6 +360,30 @@
    "found": "6 records in 3 works (jilani 6)"
   },
   {
+   "id": "C22",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "9 records in 1 works (critics 9)"
+  },
+  {
+   "id": "C23",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "5 records in 4 works (jilani 5)"
+  },
+  {
+   "id": "C24",
+   "level": "must",
+   "check": "search",
+   "section": "C. The masters of the council",
+   "ok": true,
+   "found": "1 records in 1 works (jilani 1)"
+  },
+  {
    "id": "D1",
    "level": "must",
    "check": "caliph",
@@ -496,6 +520,14 @@
    "found": "urn:hadith:0279Tirmidhi.Sunan:p08858"
   },
   {
+   "id": "F6",
+   "level": "must",
+   "check": "cite",
+   "section": "F. Citing: every claim traceable",
+   "ok": true,
+   "found": "urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p126086"
+  },
+  {
    "id": "G1",
    "level": "must",
    "check": "authenticate",
@@ -517,7 +549,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "556 entries, 265 cited records (265 resolved); 0 problems"
+   "found": "617 entries, 325 cited records (325 resolved); 0 problems"
   },
   {
    "id": "H2",
@@ -525,7 +557,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "109 entries of type position"
+   "found": "115 entries of type position"
   },
   {
    "id": "H3",
@@ -533,7 +565,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "70 entries of type verdict"
+   "found": "78 entries of type verdict"
   },
   {
    "id": "H4",
@@ -541,7 +573,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "81 entries of type saying"
+   "found": "84 entries of type saying"
   },
   {
    "id": "H5",
@@ -549,7 +581,7 @@
    "check": "sijill",
    "section": "H. The sijill: recording what the council found",
    "ok": true,
-   "found": "81 entries of type authentication"
+   "found": "84 entries of type authentication"
   },
   {
    "id": "H6",
@@ -613,7 +645,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": true,
-   "found": "34 seconds"
+   "found": "28 seconds"
   },
   {
    "id": "J3",
@@ -621,7 +653,7 @@
    "check": "time",
    "section": "J. Speed",
    "ok": false,
-   "found": "1 seconds; FAILED: seconds<=1 (found 1.46)"
+   "found": "1 seconds; FAILED: seconds<=1 (found 1.21)"
   },
   {
    "id": "K1",
@@ -693,7 +725,7 @@
    "check": "metric",
    "section": "K. Size and coverage",
    "ok": true,
-   "found": "7"
+   "found": "8"
   },
   {
    "id": "K10",
@@ -701,7 +733,7 @@
    "check": "metric",
    "section": "K. Size and coverage",
    "ok": false,
-   "found": "7; FAILED: value>=10 (found 7)"
+   "found": "8; FAILED: value>=10 (found 8)"
   },
   {
    "id": "L1",
@@ -709,7 +741,7 @@
    "check": "story",
    "section": "L. The masters' stories: voice and layers of meaning",
    "ok": true,
-   "found": "heading yes, story yes, 2 passages, 7 readings"
+   "found": "heading yes, story yes, 2 passages, 9 readings"
   },
   {
    "id": "L2",
@@ -733,7 +765,7 @@
    "check": "sijill",
    "section": "L. The masters' stories: voice and layers of meaning",
    "ok": true,
-   "found": "33 entries of type reading"
+   "found": "46 entries of type reading"
   },
   {
    "id": "L5",
@@ -741,7 +773,15 @@
    "check": "sijill",
    "section": "L. The masters' stories: voice and layers of meaning",
    "ok": true,
-   "found": "11 entries of type passage"
+   "found": "15 entries of type passage"
+  },
+  {
+   "id": "L9",
+   "level": "must",
+   "check": "story",
+   "section": "L. The masters' stories: voice and layers of meaning",
+   "ok": true,
+   "found": "heading yes, story yes, 2 passages, 9 readings"
   },
   {
    "id": "L6",
@@ -765,7 +805,7 @@
    "check": "sijill",
    "section": "L. The masters' stories: voice and layers of meaning",
    "ok": false,
-   "found": "33 entries of type reading; FAILED: entries>=60 (found 33)"
+   "found": "46 entries of type reading; FAILED: entries>=60 (found 46)"
   }
  ]
 }

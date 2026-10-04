@@ -2,7 +2,7 @@
 
 > **A map, not an answer.** This dossier says where Rumi speaks on the subjects the cases keep returning to. Before answering, query the repo itself (see `START_HERE.md`), open the couplets and read around them. Cite from the files, not from this page.
 
-*Why this dossier exists.* Rumi was reported silent in the ether case because the search was made in Arabic. He writes in Persian with his own vocabulary. Rule (START_HERE.md, section 4b): never record him as silent before his own words have been searched. Repo state: v54.
+*Why this dossier exists.* Rumi was reported silent in the ether case because the search was made in Arabic. He writes in Persian with his own vocabulary. Rule (START_HERE.md, section 4b): never record him as silent before his own words have been searched. Repo state: v55.
 
 ## 1. What the library holds
 
@@ -132,7 +132,7 @@ python3 pipeline/mathnawi/story.py --stories 1         # the 20 stories of Book 
 python3 pipeline/mathnawi/story.py --headings 4        # Rumi's own headings for any book: all 972 sections are in apparatus/mathnawi/sections.tsv
 ```
 
-The first story read this way is the grocer and the parrot (1:247-323): 11 passages and 33 readings in the sijill (`sijill/views/readings.md`), sections 1 to 8 of 12. Rumi's own stated moral is "do not measure the affairs of the pure by yourself" (1:263). The same image is not one fixed symbol: "the parrot of the soul" (1:1575) belongs to another story, the merchant and his caged parrot.
+The first story read this way is the grocer and the parrot (1:247-323): read to its end on 4 October 2026, 15 passages and 46 readings in the sijill (`sijill/views/readings.md`), all 12 sections. Rumi's own stated moral is "do not measure the affairs of the pure by yourself" (1:263). The same image is not one fixed symbol: "the parrot of the soul" (1:1575) belongs to another story, the merchant and his caged parrot. Open from the reading: 1:314 can be read two ways and no commentary in the library decides (`open_question:parrot-314-two-readings`). His words for the whisperer of Qur'an 114:4 are وسواس، وسوسه، خناس (3:4060), in the term bridge since v55.
 
 ## 6. Confidence and gaps
 

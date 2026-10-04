@@ -470,6 +470,70 @@ The word counts match the calendar and clearly show a mathematical miracle.
 **Verdict: overstated** (draft). The counts do come out in the library's text, but only by a chosen rule: it leaves out yawmaʾidh (70 times) and yawmakum, yawmahum (10), and for 'month' the plural and dual (9).
 
 
+## The one 'who had knowledge of the Book' (27:40) was not a prophet, so the verse proves karamat
+
+
+
+**Verdict: mixed** (draft). One early view among several; the commentaries were counted (305 passages in 44 works), not read. The inference from the verse holds only on that view.
+
+
+## Calling 'Ya Shaykh, help me' reaches al-Jilani after his death, and the scholars are clear on it
+
+
+
+**Verdict: overstated** (draft). A real disagreement presented as agreement. Al-Jilani himself: 'you ask Him and you ask no one else.' The critics' and the defenders' words were not read in this study, and Nursi is not in the library.
+
+- **ʿAbd al-Qadir al-Jilani** (d. 561 AH): *qualifies*. 'You ask Him and you ask no one else.' Said of asking in general; he does not speak there of the dead. (Claude's translation.) `urn:shamela:jilani.futuhghayb.darwish:r00187` (Futuh al-ghayb p. 182)
+
+## To deny such stories is to contradict the Qur'an
+
+
+
+**Verdict: overstated** (draft). That karamat are possible is affirmed; each report is still tested. Al-Dhahabi, who honours him: 'great in rank, with objections to some of his sayings and claims... and some of that is falsely ascribed to him.'
+
+- **al-Dhahabi** (d. 748 AH): *rejects*. 'In sum, Shaykh ʿAbd al-Qadir is great in rank, and there are objections to some of his sayings and claims, and Allah is the appointed meeting; and some of that is falsely ascribed to him.' He honours the man and does not accept every report. (Claude's translation.) `urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p126086` (Siyar aʿlam al-nubalaʾ, vol. 20)
+
+## Allah grants wonders (karamat) to servants who are not prophets
+
+
+
+**Verdict: holds** (draft). Affirmed by every seat read, the critics included. Ibn Taymiyya tells al-Jilani's own story approvingly; Ibn Qudama and Ibn ʿAbd al-Salam witness to his wonders. The creed works and the other masters were not opened in this study.
+
+- **Muwaffaq al-Din Ibn Qudama** (d. 620 AH): *affirms*. 'I never heard of anyone of whom more karamat are told than of him, nor saw anyone more honoured by the people for the sake of religion.' He lived in al-Jilani's school and read al-Khiraqi with him. (Reported by al-Dhahabi; Claude's translation.) `urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p125992` (Siyar 20:442)
+- **ʿIzz al-Din Ibn ʿAbd al-Salam** (d. 660 AH): *affirms*. No one's karamat have reached us by mass transmission except those of Shaykh ʿAbd al-Qadir. (Reported by al-Dhahabi; Claude's translation.) `urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p126014` (Siyar 20:443)
+- **Ibn Taymiyya** (d. 728 AH): *affirms*. He tells the story of al-Jilani and the light as true and as a rule: the like of it happened to more than one, 'and some were protected by Allah and knew it was the devil, like Shaykh ʿAbd al-Qadir'. Seventy men were misled by it. The mark was the claim that the law no longer bound him. (Claude's paraphrase.) `urn:openiti:0728IbnTaymiyya.MajmucFatawa.JK000381-ara1:p00597` (Majmuʿ al-fatawa 1:172); `urn:openiti:0728IbnTaymiyya.MajmucFatawa.JK000381-ara1:p17418` (Majmuʿ al-fatawa 11:289)
+- **al-Dhahabi** (d. 748 AH): *affirms*. 'In sum, Shaykh ʿAbd al-Qadir is great in rank, and there are objections to some of his sayings and claims, and Allah is the appointed meeting; and some of that is falsely ascribed to him.' He honours the man and does not accept every report. (Claude's translation.) `urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p126086` (Siyar aʿlam al-nubalaʾ, vol. 20)
+
+## Perfection is not supernatural power but surrender to what Allah wills
+
+
+
+**Verdict: holds** (draft). In al-Jilani's own voice; both quotations in the video are accurate: the sick man who should not wish for health, and the slave who has no choice beside his master.
+
+- **ʿAbd al-Qadir al-Jilani** (d. 561 AH): *affirms*. The sick man should not always wish for health: 'who told you that health is better for you?' And the slave who answers every question with 'whatever you give me', for a slave has no will beside his master's. (Claude's paraphrase.) `urn:shamela:jilani.fathrabbani:r00019` (al-Fath al-rabbani p. 20); `urn:shamela:jilani.fathrabbani:r00258` (al-Fath al-rabbani p. 258)
+
+## Einstein's relativity confirms what the Qur'an already said of time
+
+
+
+**Verdict: overstated** (draft). An analogy, not a proof (general knowledge; as in the ether case). Nothing in the library bears on it.
+
+
+## Al-Jilani taught seven gates of the soul (ammara, lawwama, mulhima, mutmaʾinna, radiya, mardiyya, kamila)
+
+
+
+**Verdict: unsupported** (draft). The series appears only in Sirr al-asrar, whose attribution is doubtful; al-Fath al-rabbani has only the Qur'anic lawwama. The dialogue with the student was not found.
+
+
+## A wonder is judged by the Shariʿa: the light that makes the forbidden lawful is the devil
+
+
+
+**Verdict: holds** (draft). The story is told by Ibn Taymiyya himself as a proof of this rule.
+
+- **Ibn Taymiyya** (d. 728 AH): *affirms*. He tells the story of al-Jilani and the light as true and as a rule: the like of it happened to more than one, 'and some were protected by Allah and knew it was the devil, like Shaykh ʿAbd al-Qadir'. Seventy men were misled by it. The mark was the claim that the law no longer bound him. (Claude's paraphrase.) `urn:openiti:0728IbnTaymiyya.MajmucFatawa.JK000381-ara1:p00597` (Majmuʿ al-fatawa 1:172); `urn:openiti:0728IbnTaymiyya.MajmucFatawa.JK000381-ara1:p17418` (Majmuʿ al-fatawa 11:289)
+
 ## All forty are 'words from Allah'
 
 

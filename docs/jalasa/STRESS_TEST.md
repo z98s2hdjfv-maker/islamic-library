@@ -109,6 +109,9 @@ Each master must be able to speak on the case in his own words. The test case is
 | C9 | must | search | الفلك الأطلس | ibnarabi | records>=20 | Ibn ʿArabi's cosmology: the starless sphere |
 | C10 | must | search | نور المؤمن العاصي | wilaya | records>=2 | A master's saying traced to who said it: al-Shadhili, in Ibn ʿAtaʾ Allah and al-Shaʿrani (heart case) |
 | C11 | must | search | صدأ القلوب | jilani | records>=1 | Al-Jilani's sermon on polishing the rust of hearts |
+| C22 | must | search | أنا ربك | critics | records>=1 | The light that said 'I am your Lord': Ibn Taymiyya tells al-Jilani's story (Majmuʿ 1:172; Jilani case, v55) |
+| C23 | must | search | تؤلمني | jilani | records>=1 | Al-Jilani's last illness, 'all my limbs pain me except my heart', in Futuh al-ghayb (Jilani case, v55) |
+| C24 | must | search | مملوكا | jilani | records>=1 | The slave with no choice beside his master, in al-Fath al-rabbani (Jilani case, v55) |
 
 ## D. The caliphs and the Companions
 
@@ -146,6 +149,7 @@ same question.
 | F3 | must | cite | urn:hadith:0261Muslim.Sahih:121.1 | | | A hadith-layer id resolves to its source page (v53) |
 | F4 | must | cite | urn:sufi:rumi.mathnawi:4.b3692 | | | A Mathnawi couplet resolves to its book and Nicholson number (v53) |
 | F5 | must | cite | urn:hadith:0279Tirmidhi.Sunan:p08858 | | | A hadith added to al-Tirmidhi's layer in v53 resolves with its printed number |
+| F6 | must | cite | urn:openiti:0748Dhahabi.SiyarAclamNubala.Shamela0010906-ara1:p126086 | | | Al-Dhahabi's closing verdict on al-Jilani resolves to its page (Jilani case, v55) |
 
 ## G. Classical and modern kept apart
 
@@ -159,10 +163,10 @@ same question.
 | id | level | check | input | where | expect | why |
 |---|---|---|---|---|---|---|
 | H1 | must | sijill | validator | | | Every cited record resolves |
-| H2 | must | sijill | type:position | | entries>=109 | Voices' positions are recorded |
-| H3 | must | sijill | type:verdict | | entries>=70 | Verdicts on inferences are recorded |
-| H4 | must | sijill | type:saying | | entries>=81 | Sayings examined by a study are recorded (22 seven heavens, 7 heart, 40 divine sayings, 12 ether) |
-| H5 | must | sijill | type:authentication | | entries>=81 | What was found on each saying is recorded |
+| H2 | must | sijill | type:position | | entries>=115 | Voices' positions are recorded |
+| H3 | must | sijill | type:verdict | | entries>=78 | Verdicts on inferences are recorded |
+| H4 | must | sijill | type:saying | | entries>=84 | Sayings examined by a study are recorded (22 seven heavens, 7 heart, 40 divine sayings, 12 ether, 3 Jilani) |
+| H5 | must | sijill | type:authentication | | entries>=84 | What was found on each saying is recorded |
 | H6 | goal | sijill | type:ruling | | entries>=1 | A juristic type exists and is used |
 
 ## I. Odd input
@@ -203,7 +207,7 @@ Floors that catch a regression, and targets that measure progress. Measures: `ha
 | K6 | must | metric | share_no_grade_classical_or_modern | | value<=0.46 | With the modern column, under half the hadith have no grade at all |
 | K7 | goal | metric | share_no_classical_grade | | value<=0.60 | Target: four in ten hadith with a classical grade |
 | K8 | goal | metric | share_names_linked | | value>=0.60 | Target: most narrator names linked |
-| K9 | must | metric | dossiers | | value>=7 | Dossiers: asma, fitra, nur, wilaya, and since v53 the heart, Rumi and the first created thing |
+| K9 | must | metric | dossiers | | value>=8 | Dossiers: asma, fitra, nur, wilaya, the heart, Rumi, the first created thing, and since v55 al-Jilani |
 | K10 | goal | metric | dossiers | | value>=10 | A dossier for each of the other masters (al-Ghazali, al-Jilani, Ibn ʿArabi) |
 
 ## L. The masters' stories: voice and layers of meaning
@@ -216,8 +220,9 @@ speaking, and with whose reading is given (the author's own stated meaning, a co
 | L1 | must | story | 1:263 | طوطی | heading==1, story==1, passages>=2, readings>=4 | 'Do not measure the pure by yourself' comes back with the grocer and the parrot, and with its recorded readings |
 | L2 | must | story | urn:sufi:rumi.mathnawi:4.b3692 | | heading==1 | A couplet in another book comes back with Rumi's own heading for its section |
 | L3 | must | story | 1:1575 | The merchant and his caged parrot | heading==1, story==1 | 'The parrot of the soul' belongs to a different story from the grocer's parrot: the same image, another tale |
-| L4 | must | sijill | type:reading | | entries>=33 | Readings are recorded, several to a passage, each with its layer and its reader |
-| L5 | must | sijill | type:passage | | entries>=11 | Passages are recorded with the voice that speaks in them |
+| L4 | must | sijill | type:reading | | entries>=46 | Readings are recorded, several to a passage, each with its layer and its reader |
+| L5 | must | sijill | type:passage | | entries>=15 | Passages are recorded with the voice that speaks in them |
+| L9 | must | story | 1:323 | طوطی | heading==1, story==1, passages>=2, readings>=4 | The last couplet of the grocer and the parrot comes back with its section and its readings: the story is read to its end (v55) |
 | L6 | goal | story | 2:1720 | | story==1 | A story map for Books 2 to 6 (only Book 1 is mapped; the others have Rumi's headings) |
 | L7 | goal | search | مثنوی | mathnawi_sharh | records>=1 | A classical commentary on the Mathnawi, in a folder corpus/mathnawi_sharh, so that the stories are read through the tradition and not only through Claude |
 | L8 | goal | sijill | type:reading | | entries>=60 | The grocer and the parrot read to its end (sections 9 to 12), and a second story begun |

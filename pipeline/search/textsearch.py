@@ -98,7 +98,7 @@ def main():
     ap.add_argument("query", nargs="+", help="one or more phrases; several are searched in ONE pass over the files (v41)")
     ap.add_argument("--repo", default=".")
     ap.add_argument("--folder", help="corpus folders, comma-separated (e.g. kalam,lugha,hadith); default: all")
-    ap.add_argument("--work", help="only files whose name contains this (e.g. Tirmidhi, Sibawayhi)")
+    ap.add_argument("--work", help="only files whose name contains this; several names comma-separated (e.g. Tirmidhi or MajmucFatawa,Furqan)")
     ap.add_argument("--exact", action="store_true", help="no proclitics on the query words")
     ap.add_argument("--best-reading", action="store_true", help="search OCR records by their best reading where one exists")
     ap.add_argument("--limit", type=int, default=15, help="passages shown per phrase"); ap.add_argument("--context", type=int, default=120)
@@ -117,7 +117,9 @@ def main():
     root = os.path.join(a.repo, "corpus")
     folders = a.folder.split(",") if a.folder else sorted(os.listdir(root))
     files = sorted(p for f in folders for p in glob.glob(os.path.join(root, f, "**", "*.jsonl*"), recursive=True))
-    if a.work: files = [p for p in files if a.work.lower() in os.path.basename(p).lower()]
+    if a.work:  # v55: several names, comma-separated; a file is kept if its name contains any of them
+        names = [w.strip().lower() for w in a.work.split(",") if w.strip()]
+        files = [p for p in files if any(w in os.path.basename(p).lower() for w in names)]
     readings = {}
     if a.best_reading:
         for p in glob.glob(os.path.join(a.repo, "apparatus/best_reading/*.jsonl.gz")):
